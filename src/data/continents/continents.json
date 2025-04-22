@@ -1,0 +1,66 @@
+{
+  "AF": {
+    "name": "Africa",
+    "countries": [
+      { "code": "DZ", "name": "Algeria" },
+      { "code": "EG", "name": "Egypt" },
+      { "code": "ZA", "name": "South Africa" },
+      { "code": "NG", "name": "Nigeria" },
+      { "code": "KE", "name": "Kenya" }
+    ]
+  },
+  "AS": {
+    "name": "Asia",
+    "countries": [
+      { "code": "CN", "name": "China" },
+      { "code": "IN", "name": "India" },
+      { "code": "JP", "name": "Japan" },
+      { "code": "KR", "name": "South Korea" },
+      { "code": "SA", "name": "Saudi Arabia" }
+    ]
+  },
+  "EU": {
+    "name": "Europe",
+    "countries": [
+      { "code": "DE", "name": "Germany" },
+      { "code": "FR", "name": "France" },
+      { "code": "IT", "name": "Italy" },
+      { "code": "ES", "name": "Spain" },
+      { "code": "GB", "name": "United Kingdom" }
+    ]
+  },
+  "NA": {
+    "name": "North America",
+    "countries": [
+      { "code": "US", "name": "United States" },
+      { "code": "CA", "name": "Canada" },
+      { "code": "MX", "name": "Mexico" },
+      { "code": "GT", "name": "Guatemala" },
+      { "code": "CU", "name": "Cuba" }
+    ]
+  },
+  "SA": {
+    "name": "South America",
+    "countries": [
+      { "code": "BR", "name": "Brazil" },
+      { "code": "AR", "name": "Argentina" },
+      { "code": "CO", "name": "Colombia" },
+      { "code": "PE", "name": "Peru" },
+      { "code": "VE", "name": "Venezuela" }
+    ]
+  },
+  "OC": {
+    "name": "Oceania",
+    "countries": [
+      { "code": "AU", "name": "Australia" },
+      { "code": "NZ", "name": "New Zealand" },
+      { "code": "FJ", "name": "Fiji" },
+      { "code": "PG", "name": "Papua New Guinea" },
+      { "code": "WS", "name": "Samoa" }
+    ]
+  },
+  "AN": {
+    "name": "Antarctica",
+    "countries": []
+  }
+}
