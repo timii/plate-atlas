@@ -4,6 +4,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import 'tailwindcss';
 
+/* tailwind configuration */
+/* TODO: include more colors like on the tailwind website */
+@theme {
+  /* ----------------------------- */
+  /* background colors */
+  /* ----------------------------- */
+  /* --color-background-dark-default: #101828; */
+  --color-background-dark-default: #0d1117;
+  --color-background-dark-default: #131516;
+  /* --color-background-dark-default: #030712; */
+  /* --color-background-dark-highlight: #1e2939; */
+  /* --color-background-dark-highlight: #151b23; */
+  --color-background-dark-highlight: #262c36;
+  --color-background-dark-highlight-layer1: #10141e;
+  --color-background-dark-highlight-layer2: #1c2029;
+  /* --color-background-dark-highlight: #0d1117; */
+
+  /* ----------------------------- */
+  /* border colors */
+  /* ----------------------------- */
+  --color-border-dark: color-mix(in oklab, var(--color-white) 10%, transparent);
+  /* --color-border-light: rgb(255 255 255 / 10%); */
+  --test: #000000;
+  --color-border-light: color-mix(in oklab, var(--color-gray-950) 30%, transparent);
+  /* --color-border-light: rgba(var(--color-gray-950), 0.5); */
+
+  /* ----------------------------- */
+  /* text colors */
+  /* ----------------------------- */
+  --color-text-dark-default: var(--color-white);
+  --color-text-light-default: var(--color-gray-950);
+  /* --color-text-dark-default: #e8e6e3; */
+  --color-text-dark-highlight: #fff;
+  --color-text-dark-secondary: var(--color--gray-400;);
+}
+
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --vt-c-white: #ffffff;
@@ -37,14 +73,16 @@
   --color-border-hover: var(--vt-c-divider-light-1);
 
   --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--vt-c-text-light-1);
+  --color-text: var(--color-text-light-default);
+  /* --color-text: var(--vt-c-text-light-1); */
 
   --section-gap: 160px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: var(--vt-c-black);
+    /* --color-background: var(--vt-c-black); */
+    --color-background: var(--color-background-dark-default);
     --color-background-soft: var(--vt-c-black-soft);
     --color-background-mute: var(--vt-c-black-mute);
 
@@ -52,7 +90,7 @@
     --color-border-hover: var(--vt-c-divider-dark-1);
 
     --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
+    --color-text: var(--color-text-dark-default);
   }
 }
 
