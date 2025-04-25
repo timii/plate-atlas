@@ -26,7 +26,6 @@
   /* ----------------------------- */
   --color-border-dark: color-mix(in oklab, var(--color-white) 10%, transparent);
   /* --color-border-light: rgb(255 255 255 / 10%); */
-  --test: #000000;
   --color-border-light: color-mix(in oklab, var(--color-gray-950) 30%, transparent);
   /* --color-border-light: rgba(var(--color-gray-950), 0.5); */
 
