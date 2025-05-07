@@ -1,13 +1,18 @@
+import Overview from '@/components/overview/Overview.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    // {
-    //   path: '/',
-    //   name: 'home',
-    //   component: HomeView,
-    // },
+    {
+      path: '/',
+      redirect: '/overview', // redirect to overview by default
+    },
+    {
+      path: '/overview',
+      name: 'overview',
+      component: Overview,
+    },
     // {
     //   path: '/about',
     //   name: 'about',
