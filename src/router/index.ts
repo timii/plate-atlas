@@ -1,4 +1,4 @@
-import Overview from '@/components/overview/Overview.vue'
+import Overview from '@/views/Overview.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({

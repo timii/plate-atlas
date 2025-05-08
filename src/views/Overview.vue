@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted } from 'vue'
-import countriesJson from '../../data/current-license-plates.json'
+import countriesJson from '../data/current-license-plates.json'
+import CountryCard from '@/components/overview/CountryCard.vue'
 
 const lastUpdated = computed(() => {
   const date = new Date(countriesJson.lastUpdate)
@@ -27,9 +28,11 @@ onMounted(() => {
         <div class="actions-search">search</div>
         <div class="actions-search">sort</div>
       </div>
-      <div class="list flex flex-col w-full bg-amber-800">
-        <div>Letter</div>
-        <div>Elements</div>
+      <div class="list flex flex-col gap-4 w-full">
+        <!-- <div>Letter</div> -->
+        <div class="list-element" v-for="country in countriesJson.countries" :key="country.code">
+          <CountryCard :country="country"></CountryCard>
+        </div>
       </div>
     </div>
   </div>
