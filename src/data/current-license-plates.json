@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-05-03T19:52:53.287Z",
+  "lastUpdate": "2025-05-13T19:43:16.184Z",
   "countries": [
     {
       "code": "A",
@@ -264,6 +264,7 @@
     {
       "code": "CI",
       "country": "Ivory Coast (Côte d'Ivoire)",
+      "continent": "Africa",
       "fromYear": "1961",
       "previousCodes": "F",
       "notes": "Formerly a territory of France. Coincides with ISO 3166-1 alpha-2 code.",
@@ -423,6 +424,7 @@
     {
       "code": "EAZ",
       "country": "Zanzibar",
+      "continent": "Africa",
       "fromYear": "1964",
       "previousCodes": "",
       "notes": "East Africa Zanzibar",
@@ -552,6 +554,7 @@
     {
       "code": "GBA",
       "country": "Alderney",
+      "continent": "Europe",
       "fromYear": "1924",
       "previousCodes": "GB 1923-1924",
       "notes": "(United Kingdom of) Great Britain & Northern Ireland – Alderney",
@@ -685,8 +688,8 @@
       "fromYear": "2018",
       "previousCodes": "",
       "notes": "Unofficial: no other code found for Honduras. Coincides with ISO 3166-1 alpha-2 code.",
-      "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Honduras.svg/40px-Flag_of_Honduras.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/82/Flag_of_Honduras.svg"
+      "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Honduras_%282022-%29.svg/40px-Flag_of_Honduras_%282022-%29.svg.png",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/85/Flag_of_Honduras_%282022-%29.svg"
     },
     {
       "code": "HR",
@@ -761,6 +764,7 @@
     {
       "code": "IRQ KR",
       "country": "Kurdistan",
+      "continent": "Asia",
       "fromYear": "1991",
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2",
