@@ -1,10 +1,19 @@
 <script setup lang="ts">
+import Header from './components/header/Header.vue'
+
 // import { RouterLink, RouterView } from 'vue-router'
 // import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div>test</div>
+  <Header></Header>
+  <main class="pt-14 px-6 h-full">
+    <RouterView></RouterView>
+    <!-- <h1 class="p-4 text-3xl font-medium">Test H1 Heading</h1>
+    <h2 class="p-4 text-lg font-semibold">Test H2 Heading</h2>
+    <div class="p-4">Test Div Text</div>
+    <Overview></Overview> -->
+  </main>
   <!-- <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
