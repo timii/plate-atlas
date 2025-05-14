@@ -1,16 +1,17 @@
 <script setup lang="ts">
 import type { ICountry } from '@/models/country.interface'
+import type { PropType } from 'vue'
 
-defineProps<{
+const props = defineProps({
   country: {
-    type: ICountry
-    required: true
-  }
-}>()
+    type: Object as PropType<ICountry>,
+    required: true,
+  },
+})
 </script>
 
 <template>
-  <div>{{ country }}</div>
+  <div>{{ props.country }}</div>
 </template>
 
 <style scoped></style>
