@@ -20,7 +20,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="h-full w-full flex flex-col items-center justify-center pt-6 border">
+  <div class="h-full w-full flex flex-col items-center justify-center pt-6 pb-6">
     <div class="text-xs">Last Updated: {{ lastUpdated }}</div>
     <h1 class="title text-4xl mb-8">Countries</h1>
     <div class="content flex flex-col w-4/5 items-center justify-center gap-6">

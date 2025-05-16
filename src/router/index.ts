@@ -1,3 +1,4 @@
+import Detail from '@/views/Detail.vue'
 import Overview from '@/views/Overview.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
@@ -12,6 +13,11 @@ const router = createRouter({
       path: '/overview',
       name: 'overview',
       component: Overview,
+    },
+    {
+      path: '/overview/:code',
+      // name: 'overview',
+      component: Detail,
     },
     // {
     //   path: '/about',

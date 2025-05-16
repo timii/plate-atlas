@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { ICountry } from '@/models/country.interface'
 import type { PropType } from 'vue'
+import { useRouter } from 'vue-router'
 
 const props = defineProps({
   country: {
@@ -8,6 +9,12 @@ const props = defineProps({
     required: true,
   },
 })
+
+const router = useRouter()
+
+function onCountryClick() {
+  router.push(`/overview/${props.country.code.toLowerCase()}`)
+}
 </script>
 
 <!-- Version 1 -->
@@ -41,9 +48,10 @@ const props = defineProps({
 </template> -->
 
 <!-- Version 3 -->
-<!-- <template>
+<template>
   <div
-    class="country-card flex flex-row rounded pr-2 gap-2 items-center bg-background-dark-highlight shadow-sm shadow-background-dark-highlight-layer2 cursor-pointer"
+    class="country-card flex flex-row rounded pr-2 gap-2 items-center bg-background-dark-highlight shadow-sm shadow-background-dark-highlight-layer2 cursor-pointer h-12"
+    @click="onCountryClick"
   >
     <div
       class="flex flex-row gap-2 items-center bg-background-dark-highlight-layer2 p-2 text-xl font-bold h-full border-r rounded-[inherit] border-gray-600"
@@ -58,10 +66,10 @@ const props = defineProps({
       <img :src="props.country.flagThumb" :alt="'flag'" />
     </div>
   </div>
-</template> -->
+</template>
 
 <!-- Version 4 -->
-<template>
+<!-- <template>
   <div
     class="country-card flex flex-row rounded pr-2 gap-2 items-center bg-background-dark-highlight shadow-sm shadow-background-dark-highlight-layer2 cursor-pointer h-12"
   >
@@ -81,6 +89,6 @@ const props = defineProps({
       <div class="text-sm italic text-gray-400">{{ props.country.fromYear }}</div>
     </div>
   </div>
-</template>
+</template> -->
 
 <style scoped></style>
