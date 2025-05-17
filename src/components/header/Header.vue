@@ -12,7 +12,7 @@ import { RouterLink } from 'vue-router'
         <RouterLink class="pr-6" to="/">Overview</RouterLink>
         <RouterLink class="" to="/map">Map</RouterLink>
       </nav>
-      <div>Search</div>
+      <!-- <div>Search</div> -->
     </div>
     <div class="header-right flex gap-6">
       <div>About</div>
