@@ -50,7 +50,7 @@ function onCountryClick() {
 <!-- Version 3 -->
 <template>
   <div
-    class="country-card flex flex-row rounded pr-2 gap-2 items-center dark:bg-background-dark-highlight ring dark:ring-shadow-dark cursor-pointer h-12"
+    class="country-card flex flex-row rounded pr-2 gap-2 items-center bg-background-light-default dark:bg-background-dark-highlight ring dark:ring-shadow-dark cursor-pointer h-12 relative"
     @click="onCountryClick"
   >
     <div
@@ -93,4 +93,28 @@ function onCountryClick() {
   </div>
 </template> -->
 
-<style scoped></style>
+<style scoped>
+.country-card::after {
+  --starting-position: 0px;
+  --ending-position: 4px;
+  --animation-time: 0.3s;
+  content: '';
+  border-radius: 4px;
+  position: absolute;
+  z-index: -1;
+  left: var(--starting-position);
+  top: var(--starting-position);
+  width: 100%;
+  height: 100%;
+  /* TODO: use accent color if defined */
+  /* background-color: rgba(0, 88, 0, 0.589); */
+  background-color: var(--color-background-hover);
+  -webkit-transition: all var(--animation-time) cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all var(--animation-time) cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.country-card:hover::after {
+  top: var(--ending-position);
+  left: var(--ending-position);
+}
+</style>
