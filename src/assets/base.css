@@ -11,7 +11,7 @@
   /* background colors */
   /* ----------------------------- */
   /* --color-background-dark-default: #101828; */
-  --color-background-dark-default: #0d1117;
+  /* --color-background-dark-default: #0d1117; */
   --color-background-dark-default: #131516;
   /* --color-background-dark-default: #030712; */
   /* --color-background-dark-highlight: #1e2939; */
@@ -21,22 +21,41 @@
   --color-background-dark-highlight-layer2: #1c2029;
   /* --color-background-dark-highlight: #0d1117; */
 
+  --color-background-light-default: #131516;
+  --color-background-light-highlight: #131516;
+  --color-background-light-highlight-layer1: #131516;
+  --color-background-light-highlight-layer2: #131516;
+
+  /* ----------------------------- */
+  /* shadow colors */
+  /* ----------------------------- */
+  --color-shadow-dark: #ffffff50;
+
+  --color-shadow-light: #1c2029;
+
   /* ----------------------------- */
   /* border colors */
   /* ----------------------------- */
   --color-border-dark: color-mix(in oklab, var(--color-white) 10%, transparent);
+  --color-border-dark2: var(--color-gray-600);
+
   /* --color-border-light: rgb(255 255 255 / 10%); */
   --color-border-light: color-mix(in oklab, var(--color-gray-950) 30%, transparent);
+  --color-border-light2: var(--color-gray-600);
   /* --color-border-light: rgba(var(--color-gray-950), 0.5); */
 
   /* ----------------------------- */
   /* text colors */
   /* ----------------------------- */
   --color-text-dark-default: var(--color-white);
+  --color-text-dark-secondary: var(--color-gray-400);
+  --color-text-dark-tertiary: var(--color-gray-300);
+  --color-text-dark-info: var(--color-gray-400);
+
   --color-text-light-default: var(--color-gray-950);
-  /* --color-text-dark-default: #e8e6e3; */
-  --color-text-dark-highlight: #fff;
-  --color-text-dark-secondary: var(--color--gray-400;);
+  --color-text-light-secondary: var(--color-gray-700);
+  --color-text-light-tertiary: var(--color-gray-700);
+  --color-text-light-info: var(--color-gray-500);
 }
 
 /* color palette from <https://github.com/vuejs/theme> */
@@ -67,6 +86,9 @@
   --color-background: var(--vt-c-white);
   --color-background-soft: var(--vt-c-white-soft);
   --color-background-mute: var(--vt-c-white-mute);
+  --color-background-highlight: var(--color-background-dark-highlight);
+  --color-background-highlight-layer1: var(--color-background-dark-highlight-layer1);
+  --color-background-highlight-layer2: var(--color-background-dark-highlight-layer2);
 
   --color-border: var(--vt-c-divider-light-2);
   --color-border-hover: var(--vt-c-divider-light-1);
@@ -84,6 +106,9 @@
     --color-background: var(--color-background-dark-default);
     --color-background-soft: var(--vt-c-black-soft);
     --color-background-mute: var(--vt-c-black-mute);
+    --color-background-highlight: var(--color-background-dark-highlight);
+    --color-background-highlight-layer1: var(--color-background-dark-highlight-layer1);
+    --color-background-highlight-layer2: var(--color-background-dark-highlight-layer2);
 
     --color-border: var(--vt-c-divider-dark-2);
     --color-border-hover: var(--vt-c-divider-dark-1);

@@ -50,17 +50,19 @@ function onCountryClick() {
 <!-- Version 3 -->
 <template>
   <div
-    class="country-card flex flex-row rounded pr-2 gap-2 items-center bg-background-dark-highlight shadow-sm shadow-background-dark-highlight-layer2 cursor-pointer h-12"
+    class="country-card flex flex-row rounded pr-2 gap-2 items-center dark:bg-background-dark-highlight ring dark:ring-shadow-dark cursor-pointer h-12"
     @click="onCountryClick"
   >
     <div
-      class="flex flex-row gap-2 items-center bg-background-dark-highlight-layer2 p-2 text-xl font-bold h-full border-r rounded-[inherit] border-gray-600"
+      class="flex flex-row gap-2 items-center dark:bg-background-dark-highlight-layer2 p-2 text-xl font-bold h-full border-r rounded-[inherit] border-border-light2 dark:border-border-dark2"
     >
       <div>{{ props.country.code }}</div>
     </div>
     <div class="flex flex-col leading-5">
       <div>{{ props.country.country }}</div>
-      <div class="text-sm italic text-gray-400">{{ props.country.continent }}</div>
+      <div class="text-sm italic dark:text-text-dark-info text-text-light-info">
+        {{ props.country.continent }}
+      </div>
     </div>
     <div class="image-container ml-2 max-h-6 max-w-7">
       <img :src="props.country.flagThumb" :alt="'flag'" />
