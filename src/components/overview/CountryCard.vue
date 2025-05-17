@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ICountry } from '@/models/country.interface'
+import type { ICountry } from '@/models/country.model'
 import type { PropType } from 'vue'
 import { useRouter } from 'vue-router'
 

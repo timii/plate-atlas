@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import countriesJson from '../data/current-license-plates.json'
 import CountryCard from '@/components/overview/CountryCard.vue'
 import ListActions from '@/components/overview/ListActions.vue'
+import type { ICountryData } from '@/models/country.model'
 
 const lastUpdated = computed(() => {
   const date = new Date(countriesJson.lastUpdate)
@@ -15,12 +16,13 @@ const lastUpdated = computed(() => {
   return formatted
 })
 
-// const countries = ref<ICountryData>({})
+const countriesObj = ref<ICountryData>({ lastUpdate: '', countries: [] })
 
-// onMounted(() => {
-//   console.log('Overview mounted -> json:', countriesJson, countriesJson.countries.length)
-//   countries.value = countriesJson
-// })
+onMounted(() => {
+  // TODO: load countries into store
+  console.log('Overview mounted -> json:', countriesJson, countriesJson.countries.length)
+  countriesObj.value = countriesJson
+})
 </script>
 
 <template>
@@ -33,7 +35,7 @@ const lastUpdated = computed(() => {
       <ListActions></ListActions>
       <div class="list flex flex-wrap gap-4 w-full">
         <!-- <div>Letter</div> -->
-        <div class="list-element" v-for="country in countriesJson.countries" :key="country.code">
+        <div class="list-element" v-for="country in countriesObj.countries" :key="country.code">
           <CountryCard :country="country"></CountryCard>
         </div>
       </div>
