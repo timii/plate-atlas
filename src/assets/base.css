@@ -29,8 +29,8 @@
   /* ----------------------------- */
   /* shadow colors */
   /* ----------------------------- */
-  --color-shadow-dark: #ffffff50;
-  --color-shadow-dark-hover: #ffffff50;
+  --color-shadow-dark: rgba(255, 255, 255, 0.3);
+  --color-shadow-dark-hover: rgba(255, 255, 255, 0.75);
 
   --color-shadow-light: #1c2029;
   --color-shadow-light-hover: #1c2029;
@@ -82,6 +82,9 @@
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
 }
+
+/* TODO: define background/text colors for country card */
+/* TODO: define and accent color, probably green */
 
 /* semantic color variables for this project */
 :root {
