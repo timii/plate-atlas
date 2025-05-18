@@ -50,7 +50,7 @@ function onCountryClick() {
 <!-- Version 3 -->
 <template>
   <div
-    class="country-card flex flex-row rounded pr-2 gap-2 items-center bg-background-light-default dark:bg-background-dark-highlight ring dark:ring-shadow-dark cursor-pointer h-12 relative"
+    class="country-card flex flex-row rounded-lg pr-2 gap-2 items-center bg-background-light-default dark:bg-background-dark-highlight border border-border-light3 dark:border-border-dark3 cursor-pointer h-12 relative"
     @click="onCountryClick"
   >
     <div
@@ -99,7 +99,7 @@ function onCountryClick() {
   --ending-position: 4px;
   --animation-time: 0.3s;
   content: '';
-  border-radius: 4px;
+  border-radius: 8px;
   position: absolute;
   z-index: -1;
   left: var(--starting-position);
