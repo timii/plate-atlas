@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router'
 
 <template>
   <header
-    class="fixed flex w-full items-center justify-between px-4 sm:px-6 h-14 dark:bg-background-dark-default border-b border-border-light dark:border-border-dark"
+    class="fixed flex w-full items-center justify-between px-4 sm:px-6 h-14 dark:bg-background-dark-default border-b border-border-light dark:border-border-dark z-10"
   >
     <div class="header-left flex gap-6">
       <div>Logo (TBD)</div>
