@@ -97,7 +97,7 @@ function onCountryClick() {
 .country-card::after {
   --starting-position: 0px;
   --ending-position: 4px;
-  --animation-time: 0.3s;
+  --animation-time: 0.2s;
   content: '';
   border-radius: 8px;
   position: absolute;
@@ -109,8 +109,8 @@ function onCountryClick() {
   /* TODO: use accent color if defined */
   /* background-color: rgba(0, 88, 0, 0.589); */
   background-color: var(--color-background-hover);
-  -webkit-transition: all var(--animation-time) cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all var(--animation-time) cubic-bezier(0.165, 0.84, 0.44, 1);
+  -webkit-transition: all var(--animation-time) var(--ease-cubic);
+  transition: all var(--animation-time) var(--ease-cubic);
 }
 
 .country-card:hover::after {
