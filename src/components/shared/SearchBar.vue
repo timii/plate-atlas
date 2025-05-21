@@ -8,7 +8,7 @@ const text = defineModel('text', { type: String, default: '' })
       v-model="text"
       type="text"
       placeholder="Search..."
-      class="border text-text-light-default border-border-light3 text-sm rounded-lg block w-full p-2.5 focus:outline-none dark:bg-background-dark-highlight dark:border-border-dark3 dark:placeholder-gray-400 dark:text-text-dark-default"
+      class="block h-action-element-height w-full rounded-lg border border-border-light3 p-2.5 text-sm text-text-light-default focus:outline-none dark:border-border-dark3 dark:bg-background-dark-highlight dark:text-text-dark-default dark:placeholder-gray-400"
     />
   </div>
 </template>

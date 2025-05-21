@@ -19,9 +19,11 @@
   --color-background-dark-highlight: #262c36;
   --color-background-dark-highlight-layer1: #10141e;
   --color-background-dark-highlight-layer2: #1c2029;
+  --color-background-dark-hover: var(--color-gray-700);
   /* --color-background-dark-highlight: #0d1117; */
 
   --color-background-light-default: var(--color-white);
+  --color-background-light-hover: var(--color-gray-200);
   /* --color-background-light-highlight: #131516;
   --color-background-light-highlight-layer1: #131516;
   --color-background-light-highlight-layer2: #131516; */
@@ -63,6 +65,11 @@
   /* transition stuff */
   /* ----------------------------- */
   --ease-cubic: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+  /* ----------------------------- */
+  /* spacing/dimensions */
+  /* ----------------------------- */
+  --spacing-action-element-height: var(--spacing) * 10; /* 10 * 4px = 40px */
 }
 
 /* color palette from <https://github.com/vuejs/theme> */

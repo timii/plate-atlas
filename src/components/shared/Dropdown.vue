@@ -13,13 +13,11 @@ function toggleMenu() {
     <div>
       <button
         type="button"
-        class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-xs ring-1 ring-gray-300 ring-inset hover:bg-gray-50 focus:outline-none cursor-pointer"
-        id="menu-button"
-        aria-expanded="true"
+        class="flex h-action-element-height cursor-pointer gap-x-1.5 rounded-lg border border-border-light3 p-2.5 text-sm font-semibold text-text-light-default focus:outline-none dark:border-border-dark3 dark:bg-background-dark-highlight dark:text-text-dark-default"
         aria-haspopup="true"
         @click="toggleMenu"
       >
-        Options
+        Sort by
         <svg
           class="-mr-1 size-5 text-gray-400"
           viewBox="0 0 20 20"
@@ -40,7 +38,7 @@ function toggleMenu() {
     <!-- TODO: make component more generic -> accept list of elements, event on select and so on -->
 
     <div
-      class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none transition-all duration-200 ease-cubic"
+      class="list absolute right-0 z-10 mt-2 flex w-42 origin-top-right flex-col rounded-lg border border-border-light3 bg-background-light-default py-2 text-right text-sm transition-all duration-200 ease-cubic focus:outline-none dark:border-border-dark3 dark:bg-background-dark-highlight dark:text-text-dark-default"
       role="menu"
       aria-orientation="vertical"
       aria-labelledby="menu-button"
@@ -51,33 +49,25 @@ function toggleMenu() {
         pointerEvents: menuOpen ? 'unset' : 'none',
       }"
     >
-      <div class="py-1" role="none">
-        <!-- Active: "bg-gray-100 text-gray-900 outline-hidden", Not Active: "text-gray-700" -->
-        <a
-          href="#"
-          class="block px-4 py-2 text-sm text-gray-700"
-          role="menuitem"
-          tabindex="-1"
-          id="menu-item-0"
-          >Account settings</a
-        >
-        <a
-          href="#"
-          class="block px-4 py-2 text-sm text-gray-700"
-          role="menuitem"
-          tabindex="-1"
-          id="menu-item-1"
-          >Support</a
-        >
-        <a
-          href="#"
-          class="block px-4 py-2 text-sm text-gray-700"
-          role="menuitem"
-          tabindex="-1"
-          id="menu-item-2"
-          >License</a
-        >
-      </div>
+      <!-- Active: "bg-gray-100 text-gray-900 outline-hidden", Not Active: "text-gray-700" -->
+      <span
+        class="item cursor-pointer px-4 py-2 hover:bg-background-light-hover hover:dark:bg-background-dark-hover"
+        role="menuitem"
+        tabindex="-1"
+        >Account settings</span
+      >
+      <span
+        class="item cursor-pointer px-4 py-2 hover:bg-background-light-hover hover:dark:bg-background-dark-hover"
+        role="menuitem"
+        tabindex="-1"
+        >Support</span
+      >
+      <span
+        class="item cursor-pointer px-4 py-2 hover:bg-background-light-hover hover:dark:bg-background-dark-hover"
+        role="menuitem"
+        tabindex="-1"
+        >License</span
+      >
     </div>
   </div>
 </template>
