@@ -1,7 +1,29 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import type { IDropdownItem } from '@/models/dropdown.model'
+import { ref, type PropType } from 'vue'
+
+const props = defineProps({
+  label: {
+    type: String,
+    required: true,
+  },
+  list: {
+    type: Array as PropType<IDropdownItem[]>,
+    required: true,
+  },
+})
 
 const menuOpen = ref(false)
+
+const emits = defineEmits(['select'])
+
+function onItemClick(value: string) {
+  // close menu after item has been clicked
+  menuOpen.value = false
+
+  // emit value of selected item
+  emits('select', value)
+}
 
 function toggleMenu() {
   menuOpen.value = !menuOpen.value
@@ -17,7 +39,7 @@ function toggleMenu() {
         aria-haspopup="true"
         @click="toggleMenu"
       >
-        Sort by
+        {{ props.label }}
         <svg
           v-if="menuOpen"
           class="-mr-1 size-5 rotate-180 text-gray-400"
@@ -62,24 +84,14 @@ function toggleMenu() {
         pointerEvents: menuOpen ? 'unset' : 'none',
       }"
     >
-      <!-- Active: "bg-gray-100 text-gray-900 outline-hidden", Not Active: "text-gray-700" -->
       <span
-        class="item cursor-pointer px-4 py-2 hover:bg-background-light-hover hover:dark:bg-background-dark-hover"
+        v-for="item of list"
+        :key="item.id"
+        class="item cursor-pointer px-4 py-2 transition-[inherit] duration-[inherit] ease-[inherit] hover:bg-background-light-hover hover:dark:bg-background-dark-hover"
         role="menuitem"
         tabindex="-1"
-        >Account settings</span
-      >
-      <span
-        class="item cursor-pointer px-4 py-2 hover:bg-background-light-hover hover:dark:bg-background-dark-hover"
-        role="menuitem"
-        tabindex="-1"
-        >Support</span
-      >
-      <span
-        class="item cursor-pointer px-4 py-2 hover:bg-background-light-hover hover:dark:bg-background-dark-hover"
-        role="menuitem"
-        tabindex="-1"
-        >License</span
+        @click="onItemClick(item.value)"
+        >{{ item.label }}</span
       >
     </div>
   </div>
