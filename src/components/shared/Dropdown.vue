@@ -17,12 +17,15 @@ const menuOpen = ref(false)
 
 const emits = defineEmits(['select'])
 
-function onItemClick(value: string) {
-  // close menu after item has been clicked
+// return first element that has `selected` as true, else return first element in list
+const selectedItem = computed(() => props.list.find((e) => e.selected) || props.list[0])
+
+function onItemClick(item: IDropdownItem) {
+  // close menu after item has been selected
   menuOpen.value = false
 
   // emit value of selected item
-  emits('select', value)
+  emits('select', item)
 }
 
 function toggleMenu() {
@@ -39,7 +42,7 @@ function toggleMenu() {
         aria-haspopup="true"
         @click="toggleMenu"
       >
-        {{ props.label }}
+        {{ selectedItem.label }}
         <svg
           v-if="menuOpen"
           class="-mr-1 size-5 rotate-180 text-gray-400"
@@ -90,7 +93,7 @@ function toggleMenu() {
         class="item cursor-pointer px-4 py-2 transition-[inherit] duration-[inherit] ease-[inherit] hover:bg-background-light-hover hover:dark:bg-background-dark-hover"
         role="menuitem"
         tabindex="-1"
-        @click="onItemClick(item.value)"
+        @click="onItemClick(item)"
         >{{ item.label }}</span
       >
     </div>

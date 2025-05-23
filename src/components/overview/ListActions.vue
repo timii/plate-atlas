@@ -7,8 +7,8 @@ import type { IDropdownItem } from '@/models/dropdown.model'
 const searchTerm = ref('')
 
 const sortByElements: IDropdownItem[] = [
-  { id: 1, label: 'Alphabetic Asc', value: 'alphabetic_asc' },
-  { id: 2, label: 'Alphabetic Desc', value: 'alphabetic_desc' },
+  { id: 1, label: 'Alphabetic Asc', value: 'alphabetic_asc', selected: true },
+  { id: 2, label: 'Alphabetic Desc', value: 'alphabetic_desc', selected: false },
 ]
 
 function onSortBySelect(item: string) {
