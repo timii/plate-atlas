@@ -36,9 +36,10 @@ function toggleMenu() {
 <template>
   <div class="relative inline-block text-left">
     <div>
+      <div class="mb-1 text-sm font-medium">{{ props.label }}</div>
       <button
         type="button"
-        class="flex h-action-element-height cursor-pointer gap-x-1.5 rounded-lg border border-border-light3 p-2.5 text-sm font-semibold text-text-light-default focus:outline-none dark:border-border-dark3 dark:bg-background-dark-highlight dark:text-text-dark-default"
+        class="flex h-action-element-height w-42 cursor-pointer justify-between gap-x-1.5 rounded-lg border border-border-light3 p-2.5 text-sm font-semibold text-text-light-default focus:outline-none dark:border-border-dark3 dark:bg-background-dark-highlight dark:text-text-dark-default"
         aria-haspopup="true"
         @click="toggleMenu"
       >
@@ -76,7 +77,7 @@ function toggleMenu() {
     <!-- TODO: make component more generic -> accept list of elements, event on select and so on -->
 
     <div
-      class="list absolute right-0 z-10 mt-2 flex w-42 origin-top-right flex-col rounded-lg border border-border-light3 bg-background-light-default py-2 text-right text-sm transition-all duration-200 ease-cubic focus:outline-none dark:border-border-dark3 dark:bg-background-dark-highlight dark:text-text-dark-default"
+      class="list absolute right-0 z-10 mt-2 flex w-42 origin-top-right flex-col rounded-lg border border-border-light3 bg-background-light-default py-2 text-sm transition-all duration-200 ease-cubic focus:outline-none dark:border-border-dark3 dark:bg-background-dark-highlight dark:text-text-dark-default"
       role="menu"
       aria-orientation="vertical"
       aria-labelledby="menu-button"
