@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { IDropdownItem } from '@/models/dropdown.model'
-import { ref, type PropType } from 'vue'
+import { computed, ref, type PropType } from 'vue'
 
 const props = defineProps({
   label: {
@@ -18,7 +18,10 @@ const menuOpen = ref(false)
 const emits = defineEmits(['select'])
 
 // return first element that has `selected` as true, else return first element in list
-const selectedItem = computed(() => props.list.find((e) => e.selected) || props.list[0])
+const selectedItem = computed(() => {
+  const selected = props.list.find((e) => e.selected)
+  return selected ?? props.list[0]
+})
 
 function onItemClick(item: IDropdownItem) {
   // close menu after item has been selected

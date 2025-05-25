@@ -6,13 +6,21 @@ import type { IDropdownItem } from '@/models/dropdown.model'
 
 const searchTerm = ref('')
 
-const sortByElements: IDropdownItem[] = [
+const sortByElements = ref([
   { id: 1, label: 'Alphabetic Asc', value: 'alphabetic_asc', selected: true },
   { id: 2, label: 'Alphabetic Desc', value: 'alphabetic_desc', selected: false },
-]
+])
 
-function onSortBySelect(item: string) {
-  console.log('onSortBySelect -> item:', item)
+function onSortBySelect(item: IDropdownItem) {
+  // find index of selected item in list
+  const index = sortByElements.value.findIndex((e) => e.id === item.id)
+  if (index !== -1) {
+    // reset `selected` of every element to false
+    sortByElements.value = sortByElements.value.map((e) => ({ ...e, selected: false }))
+
+    // update `selected` of element at correct index
+    sortByElements.value[index] = { ...sortByElements.value[index], selected: true }
+  }
 }
 
 watch(
