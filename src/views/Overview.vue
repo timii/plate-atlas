@@ -26,14 +26,14 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="h-full w-full flex flex-col items-center justify-center pt-6 pb-6">
+  <div class="flex h-full w-full flex-col items-center justify-center pt-6 pb-6">
     <div class="text-xs text-text-light-secondary dark:text-text-dark-secondary">
       Last Updated: {{ lastUpdated }}
     </div>
-    <h1 class="title text-4xl mb-8">Countries</h1>
-    <div class="content flex flex-col w-4/5 items-center justify-center gap-6">
+    <h1 class="title mb-8 text-4xl">Countries</h1>
+    <div class="content flex w-4/5 flex-col items-center justify-center gap-8">
       <ListActions></ListActions>
-      <div class="list flex flex-wrap gap-4 w-full">
+      <div class="list flex w-full flex-wrap gap-4">
         <!-- <div>Letter</div> -->
         <div class="list-element" v-for="country in countriesObj.countries" :key="country.code">
           <CountryCard :country="country"></CountryCard>

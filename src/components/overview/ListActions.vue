@@ -33,7 +33,7 @@ watch(
 </script>
 
 <template>
-  <div class="actions flex w-full items-center justify-between gap-6">
+  <div class="actions flex w-full items-end justify-between gap-6">
     <SearchBar v-model:text="searchTerm"></SearchBar>
     <div>
       <!-- <div class="actions-search">group by</div> -->

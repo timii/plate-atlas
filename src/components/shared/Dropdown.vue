@@ -76,9 +76,6 @@ function toggleMenu() {
       </button>
     </div>
 
-    <!-- TODO: add correct dark/light styling -->
-    <!-- TODO: make component more generic -> accept list of elements, event on select and so on -->
-
     <div
       class="list absolute right-0 z-10 mt-2 flex w-42 origin-top-right flex-col rounded-lg border border-border-light3 bg-background-light-default py-2 text-sm transition-all duration-200 ease-cubic focus:outline-none dark:border-border-dark3 dark:bg-background-dark-highlight dark:text-text-dark-default"
       role="menu"
