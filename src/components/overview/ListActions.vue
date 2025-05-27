@@ -2,13 +2,13 @@
 import { ref, watch } from 'vue'
 import SearchBar from '../shared/SearchBar.vue'
 import Dropdown from '../shared/Dropdown.vue'
-import type { IDropdownItem } from '@/models/dropdown.model'
+import { SortBy, type IDropdownItem } from '@/models/dropdown.model'
 
 const searchTerm = ref('')
 
 const sortByElements = ref([
-  { id: 1, label: 'Alphabetic Asc', value: 'alphabetic_asc', selected: true },
-  { id: 2, label: 'Alphabetic Desc', value: 'alphabetic_desc', selected: false },
+  { id: 1, label: 'Alphabetic Asc', value: SortBy.ALPHABETIC_ASC, selected: true },
+  { id: 2, label: 'Alphabetic Desc', value: SortBy.ALPHABETIC_DESC, selected: false },
 ])
 
 function onSortBySelect(item: IDropdownItem) {
