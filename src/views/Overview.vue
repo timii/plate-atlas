@@ -4,9 +4,12 @@ import countriesJson from '../data/current-license-plates.json'
 import CountryCard from '@/components/overview/CountryCard.vue'
 import ListActions from '@/components/overview/ListActions.vue'
 import type { ICountryData } from '@/models/country.model'
+import { useCountriesStore } from '@/stores/countries'
+
+const store = useCountriesStore()
 
 const lastUpdated = computed(() => {
-  const date = new Date(countriesJson.lastUpdate)
+  const date = new Date(store.countries.lastUpdate)
   const options: Intl.DateTimeFormatOptions = {
     year: 'numeric',
     month: 'long',
@@ -20,6 +23,8 @@ const countriesObj = ref<ICountryData>({ lastUpdate: '', countries: [] })
 
 onMounted(() => {
   // TODO: load countries into store
+  store.countries = countriesJson
+  console.log('Overview mounted -> store:', store.countries, store.mappedCountries)
   console.log('Overview mounted -> json:', countriesJson, countriesJson.countries.length)
   countriesObj.value = countriesJson
 })
@@ -35,7 +40,7 @@ onMounted(() => {
       <ListActions></ListActions>
       <div class="list flex w-full flex-wrap gap-4">
         <!-- <div>Letter</div> -->
-        <div class="list-element" v-for="country in countriesObj.countries" :key="country.code">
+        <div class="list-element" v-for="country in store.mappedCountries" :key="country.code">
           <CountryCard :country="country"></CountryCard>
         </div>
       </div>
