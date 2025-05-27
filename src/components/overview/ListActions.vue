@@ -3,8 +3,11 @@ import { ref, watch } from 'vue'
 import SearchBar from '../shared/SearchBar.vue'
 import Dropdown from '../shared/Dropdown.vue'
 import { SortBy, type IDropdownItem } from '@/models/dropdown.model'
+import { useCountriesStore } from '@/stores/countries'
 
 const searchTerm = ref('')
+
+const store = useCountriesStore()
 
 const sortByElements = ref([
   { id: 1, label: 'Alphabetic Asc', value: SortBy.ALPHABETIC_ASC, selected: true },
@@ -20,6 +23,9 @@ function onSortBySelect(item: IDropdownItem) {
 
     // update `selected` of element at correct index
     sortByElements.value[index] = { ...sortByElements.value[index], selected: true }
+
+    // update store with selected value
+    store.sortBy = sortByElements.value[index].value
   }
 }
 
@@ -27,7 +33,8 @@ watch(
   () => searchTerm.value,
   (value: string) => {
     console.log('searchTerm changed:', value)
-    // TODO: filter country list
+    // update search term in store
+    store.searchTerm = value
   },
 )
 </script>

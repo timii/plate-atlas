@@ -9,7 +9,7 @@ export const useCountriesStore = defineStore('countries', () => {
   const searchTerm = ref<string>('')
   const sortBy = ref<SortBy>(SortBy.ALPHABETIC_ASC)
 
-  // returns list of countries after being filtered and sorted
+  // return list of countries after being filtered and sorted
   const mappedCountries = computed(() => {
     console.log('mappedCountries -> searchTerm:', searchTerm.value, 'sortBy:', sortBy.value)
     const countriesCopy = countries.value.countries
