@@ -11,7 +11,7 @@ const text = defineModel('text', { type: String, default: '' })
     <svg
       v-if="text.length > 0"
       @click="text = ''"
-      class="size-3 cursor-pointer text-gray-400"
+      class="size-5 cursor-pointer rounded p-1 text-gray-400 transition-all duration-200 ease-cubic hover:bg-background-light-hover hover:dark:bg-background-dark-hover"
       fill="currentcolor"
       viewBox="0 0 460.775 460.775"
     >
