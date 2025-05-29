@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue'
-import SearchBar from '../shared/SearchBar.vue'
 import Dropdown from '../shared/Dropdown.vue'
+import Searchbar from '../shared/Searchbar.vue'
 import { SortBy, type IDropdownItem } from '@/models/dropdown.model'
 import { useCountriesStore } from '@/stores/countries'
 
@@ -41,7 +41,7 @@ watch(
 
 <template>
   <div class="actions flex w-full items-end justify-between gap-6">
-    <SearchBar v-model:text="searchTerm"></SearchBar>
+    <Searchbar v-model:text="searchTerm"></Searchbar>
     <div>
       <!-- <div class="actions-search">group by</div> -->
       <Dropdown :label="'Sort by'" :list="sortByElements" @select="onSortBySelect"></Dropdown>
