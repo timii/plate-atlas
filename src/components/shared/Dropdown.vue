@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import ChevronDown from '@/assets/icons/ChevronDown.vue'
+import ChevronUp from '@/assets/icons/ChevronUp.vue'
 import type { IDropdownItem } from '@/models/dropdown.model'
 import { computed, ref, type PropType } from 'vue'
 
@@ -47,37 +49,14 @@ function toggleMenu() {
         @click="toggleMenu"
       >
         {{ selectedItem.label }}
-        <svg
-          v-if="menuOpen"
-          class="-mr-1 size-5 rotate-180 text-gray-400"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          data-slot="icon"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
-            clip-rule="evenodd"
-          />
-        </svg>
-        <svg
-          v-else
-          class="-mr-1 size-5 text-gray-400"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          data-slot="icon"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
-            clip-rule="evenodd"
-          />
-        </svg>
+
+        <ChevronUp v-if="menuOpen"></ChevronUp>
+        <ChevronDown v-else></ChevronDown>
       </button>
     </div>
 
     <div
-      class="list absolute right-0 z-10 mt-2 flex w-42 origin-top-right flex-col rounded-lg border border-border-light3 bg-background-light-default py-2 text-sm transition-all duration-200 ease-cubic focus:outline-none dark:border-border-dark3 dark:bg-background-dark-highlight dark:text-text-dark-default"
+      class="list absolute right-0 z-10 mt-2 flex w-42 origin-top-right flex-col rounded-lg border border-border-light3 bg-background-light-default py-2 text-sm focus:outline-none dark:border-border-dark3 dark:bg-background-dark-highlight dark:text-text-dark-default"
       role="menu"
       aria-orientation="vertical"
       aria-labelledby="menu-button"
@@ -91,7 +70,7 @@ function toggleMenu() {
       <span
         v-for="item of list"
         :key="item.id"
-        class="item cursor-pointer px-4 py-2 transition-[inherit] duration-[inherit] ease-[inherit] hover:bg-background-light-hover hover:dark:bg-background-dark-hover"
+        class="item cursor-pointer px-4 py-2 transition-all duration-200 ease-cubic hover:bg-background-light-hover hover:dark:bg-background-dark-hover"
         role="menuitem"
         tabindex="-1"
         @click="onItemClick(item)"
