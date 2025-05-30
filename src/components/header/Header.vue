@@ -4,13 +4,13 @@ import { RouterLink } from 'vue-router'
 
 <template>
   <header
-    class="fixed flex w-full items-center justify-between px-4 sm:px-6 h-14 dark:bg-background-dark-default border-b border-border-light dark:border-border-dark z-10"
+    class="fixed z-10 flex h-14 w-full items-center justify-between border-b border-border-light px-4 sm:px-6 dark:border-border-dark dark:bg-background-dark-default"
   >
     <div class="header-left flex gap-6">
       <div>Logo (TBD)</div>
       <nav>
         <RouterLink class="pr-6" to="/">Overview</RouterLink>
-        <RouterLink class="" to="/map">Map</RouterLink>
+        <!-- <RouterLink class="" to="/map">Map</RouterLink> -->
       </nav>
       <!-- <div>Search</div> -->
     </div>
