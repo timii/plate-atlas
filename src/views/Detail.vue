@@ -7,27 +7,26 @@ const route = useRoute()
 
 const details = ref({})
 
-onMounted(() => {
+onMounted(async () => {
   console.log('onMounted in Detail called -> code:', route.params.code)
   // TODO: dynamically import country details using code (always import test country for testing layout and necessary data fields)
   // TODO: add interface for json
-  details.value = areaCodesJson[route.params.code as string]
+  // TODO: dynamically set language in import
+  const imported = await import(`../data/countries/en/${route.params.code}.json`)
+  details.value = imported.default
   console.log('onMounted in Detail:', details.value)
 })
 </script>
 
 <template>
   <div>Detail page for {{ $route.params.code }}</div>
-  <div>{{ details.country }}</div>
+  <div>{{ countryName }}</div>
   <div class="sections flex flex-col gap-4">
-    <div v-for="section in details.sections" :key="section">
-      <div class="text-xl">{{ section.title }}</div>
-      <div class="areas flex flex-wrap gap-4">
-        <div v-for="area in section.areas" :key="area.code" class="area">
-          {{ area }}
-        </div>
-      </div>
+    <div v-for="detail in details" :key="detail">
+      <div>{{ detail }}</div>
     </div>
+    <!-- TODO: add component for each area element -->
+    <!-- <AreaCard></AreaCard> -->
   </div>
 </template>
 
