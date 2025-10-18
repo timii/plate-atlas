@@ -1,0 +1,16 @@
+[
+  { "code": "A", "name": "Prague" },
+  { "code": "B", "name": "South Moravia" },
+  { "code": "C", "name": "South Bohemia" },
+  { "code": "E", "name": "Pardubice" },
+  { "code": "H", "name": "Hradec Králové" },
+  { "code": "J", "name": "Vysočina (Highlands)" },
+  { "code": "K", "name": "Karlovy Vary" },
+  { "code": "L", "name": "Liberec" },
+  { "code": "M", "name": "Olomouc" },
+  { "code": "P", "name": "Plzeň" },
+  { "code": "S", "name": "Central Bohemia" },
+  { "code": "T", "name": "Moravian-Silesian" },
+  { "code": "U", "name": "Ústí nad Labem" },
+  { "code": "Z", "name": "Zlín" }
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "code": "A",
+    "name": "Federal officials"
+  },
+  {
+    "code": "AM",
+    "name": "Amstetten"
+  },
+  {
+    "code": "B",
+    "name": "Bregenz, Burgenland official"
+  },
+  {
+    "code": "BA",
+    "name": "Bad Aussee sub-district"
+  },
+  {
+    "code": "BB",
+    "name": "Bundesbahnen (Federal Railways)"
+  },
+  {
+    "code": "BD",
+    "name": "Kraftfahrlinien Bundesbus (Bus Service)"
+  },
+  {
+    "code": "BG",
+    "name": "Bundesgendarmerie (Federal gendarmerie)"
+  },
+  {
+    "code": "BH",
+    "name": "Bundesheer (Federal Army)"
+  },
+  {
+    "code": "BL",
+    "name": "Bruck an der Leitha"
+  },
+  {
+    "code": "BM",
+    "name": "Bruck-Mürzzuschlag"
+  },
+  {
+    "code": "BN",
+    "name": "Baden"
+  },
+  {
+    "code": "BP",
+    "name": "Bundespolizei (Federal police)"
+  },
+  {
+    "code": "BR",
+    "name": "Braunau am Inn"
+  },
+  {
+    "code": "BZ",
+    "name": "Bludenz"
+  },
+  {
+    "code": "DL",
+    "name": "Deutschlandsberg"
+  },
+  {
+    "code": "DO",
+    "name": "Dornbirn"
+  },
+  {
+    "code": "E",
+    "name": "Eisenstadt"
+  },
+  {
+    "code": "EF",
+    "name": "Eferding"
+  },
+  {
+    "code": "EU",
+    "name": "Eisenstadt-Umgebung"
+  },
+  {
+    "code": "FB",
+    "name": "Feldbach"
+  },
+  {
+    "code": "FE",
+    "name": "Feldkirchen"
+  },
+  {
+    "code": "FF",
+    "name": "Fürstenfeld"
+  },
+  {
+    "code": "FK",
+    "name": "Feldkirch"
+  },
+  {
+    "code": "FR",
+    "name": "Freistadt"
+  },
+  {
+    "code": "FV",
+    "name": "Finanzverwaltung (Financial Administration)"
+  },
+  {
+    "code": "FW",
+    "name": "Feuerwehr (Fire brigade)"
+  },
+  {
+    "code": "G",
+    "name": "Graz"
+  },
+  {
+    "code": "GB",
+    "name": "Gröbming sub-district"
+  },
+  {
+    "code": "GD",
+    "name": "Gmünd"
+  },
+  {
+    "code": "GF",
+    "name": "Gänserndorf"
+  },
+  {
+    "code": "GK",
+    "name": "Consular corps in Styria"
+  },
+  {
+    "code": "GM",
+    "name": "Gmunden"
+  },
+  {
+    "code": "GR",
+    "name": "Grieskirchen"
+  },
+  {
+    "code": "GS",
+    "name": "Güssing"
+  },
+  {
+    "code": "GU",
+    "name": "Graz-Umgebung"
+  },
+  {
+    "code": "HA",
+    "name": "Hallein"
+  },
+  {
+    "code": "HB",
+    "name": "Hartberg"
+  },
+  {
+    "code": "HE",
+    "name": "Hermagor"
+  },
+  {
+    "code": "HF",
+    "name": "Hartberg-Fürstenfeld"
+  },
+  {
+    "code": "HL",
+    "name": "Hollabrunn"
+  },
+  {
+    "code": "HO",
+    "name": "Horn"
+  },
+  {
+    "code": "I",
+    "name": "Innsbruck"
+  },
+  {
+    "code": "IL",
+    "name": "Innsbruck-Land"
+  },
+  {
+    "code": "IM",
+    "name": "Imst"
+  },
+  {
+    "code": "JE",
+    "name": "Jennersdorf"
+  },
+  {
+    "code": "JO",
+    "name": "St. Johann im Pongau"
+  },
+  {
+    "code": "JU",
+    "name": "Judenburg"
+  },
+  {
+    "code": "JW",
+    "name": "Justizwache (Justice police)"
+  },
+  {
+    "code": "K",
+    "name": "Klagenfurt"
+  },
+  {
+    "code": "KB",
+    "name": "Kitzbühel"
+  },
+  {
+    "code": "KG",
+    "name": "Klosterneuburg"
+  },
+  {
+    "code": "KI",
+    "name": "Kirchdorf an der Krems"
+  },
+  {
+    "code": "KF",
+    "name": "Knittelfeld"
+  },
+  {
+    "code": "KK",
+    "name": "Consular corps in Carinthia"
+  },
+  {
+    "code": "KL",
+    "name": "Klagenfurt-Land"
+  },
+  {
+    "code": "KO",
+    "name": "Korneuburg"
+  },
+  {
+    "code": "KR",
+    "name": "Krems-Land"
+  },
+  {
+    "code": "KS",
+    "name": "Krems City"
+  },
+  {
+    "code": "KU",
+    "name": "Kufstein"
+  },
+  {
+    "code": "L",
+    "name": "Linz"
+  },
+  {
+    "code": "LA",
+    "name": "Landeck"
+  },
+  {
+    "code": "LB",
+    "name": "Leibnitz"
+  },
+  {
+    "code": "LE",
+    "name": "Leoben City"
+  },
+  {
+    "code": "LF",
+    "name": "Lilienfeld"
+  },
+  {
+    "code": "LI",
+    "name": "Liezen"
+  },
+  {
+    "code": "LL",
+    "name": "Linz-Land"
+  },
+  {
+    "code": "LN",
+    "name": "Leoben (district)"
+  },
+  {
+    "code": "LZ",
+    "name": "Lienz"
+  },
+  {
+    "code": "MA",
+    "name": "Mattersburg"
+  },
+  {
+    "code": "MD",
+    "name": "Mödling"
+  },
+  {
+    "code": "ME",
+    "name": "Melk"
+  },
+  {
+    "code": "MI",
+    "name": "Mistelbach"
+  },
+  {
+    "code": "MT",
+    "name": "Murtal"
+  },
+  {
+    "code": "MU",
+    "name": "Murau"
+  },
+  {
+    "code": "MZ",
+    "name": "Mürzzuschlag"
+  },
+  {
+    "code": "N",
+    "name": "Lower Austria official"
+  },
+  {
+    "code": "ND",
+    "name": "Neusiedl am See"
+  },
+  {
+    "code": "NK",
+    "name": "Neunkirchen"
+  },
+  {
+    "code": "O",
+    "name": "Upper Austria official"
+  },
+  {
+    "code": "OP",
+    "name": "Oberpullendorf"
+  },
+  {
+    "code": "OW",
+    "name": "Oberwart"
+  },
+  {
+    "code": "P",
+    "name": "St. Pölten"
+  },
+  {
+    "code": "PE",
+    "name": "Perg"
+  },
+  {
+    "code": "PL",
+    "name": "St. Pölten-Land"
+  },
+  {
+    "code": "PT",
+    "name": "Post & Telekom Austria (national mail and phone company)"
+  },
+  {
+    "code": "RA",
+    "name": "Bad Radkersburg"
+  },
+  {
+    "code": "RE",
+    "name": "Reutte"
+  },
+  {
+    "code": "RI",
+    "name": "Ried im Innkreis"
+  },
+  {
+    "code": "RO",
+    "name": "Rohrbach"
+  },
+  {
+    "code": "S",
+    "name": "Salzburg City and official"
+  },
+  {
+    "code": "SB",
+    "name": "Scheibbs"
+  },
+  {
+    "code": "SD",
+    "name": "Schärding, Diplomatic corps in Salzburg"
+  },
+  {
+    "code": "SE",
+    "name": "Steyr-Land"
+  },
+  {
+    "code": "SK",
+    "name": "Consular corps in Salzburg"
+  },
+  {
+    "code": "SL",
+    "name": "Salzburg-Umgebung"
+  },
+  {
+    "code": "SP",
+    "name": "Spittal an der Drau"
+  },
+  {
+    "code": "SO",
+    "name": "Südoststeiermark"
+  },
+  {
+    "code": "SR",
+    "name": "Steyr City"
+  },
+  {
+    "code": "ST",
+    "name": "Styria official"
+  },
+  {
+    "code": "SV",
+    "name": "St. Veit an der Glan"
+  },
+  {
+    "code": "SW",
+    "name": "Schwechat City"
+  },
+  {
+    "code": "SZ",
+    "name": "Schwaz"
+  },
+  {
+    "code": "T",
+    "name": "Tirol official"
+  },
+  {
+    "code": "TA",
+    "name": "Tamsweg"
+  },
+  {
+    "code": "TD",
+    "name": "Diplomatic corps in Tirol"
+  },
+  {
+    "code": "TK",
+    "name": "Consular corps in Tirol"
+  },
+  {
+    "code": "TU",
+    "name": "Tulln"
+  },
+  {
+    "code": "UU",
+    "name": "Urfahr-Umgebung"
+  },
+  {
+    "code": "V",
+    "name": "Vorarlberg official"
+  },
+  {
+    "code": "VB",
+    "name": "Vöcklabruck"
+  },
+  {
+    "code": "VD",
+    "name": "Diplomatic corps in Vorarlberg"
+  },
+  {
+    "code": "VI",
+    "name": "Villach City"
+  },
+  {
+    "code": "VK",
+    "name": "Völkermarkt, Consular corps in Vorarlberg"
+  },
+  {
+    "code": "VL",
+    "name": "Villach-Land"
+  },
+  {
+    "code": "VO",
+    "name": "Voitsberg"
+  },
+  {
+    "code": "W",
+    "name": "Vienna (Wien)"
+  },
+  {
+    "code": "WB",
+    "name": "Wiener Neustadt-Land"
+  },
+  {
+    "code": "WD",
+    "name": "Diplomatic corps in Vienna"
+  },
+  {
+    "code": "WK",
+    "name": "Consular corps in Vienna"
+  },
+  {
+    "code": "WE",
+    "name": "Wels City"
+  },
+  {
+    "code": "WL",
+    "name": "Wels-Land"
+  },
+  {
+    "code": "WN",
+    "name": "Wiener Neustadt City"
+  },
+  {
+    "code": "WO",
+    "name": "Wolfsberg"
+  },
+  {
+    "code": "WT",
+    "name": "Waidhofen an der Thaya"
+  },
+  {
+    "code": "WU",
+    "name": "Wien-Umgebung"
+  },
+  {
+    "code": "WY",
+    "name": "Waidhofen an der Ybbs"
+  },
+  {
+    "code": "WZ",
+    "name": "Weiz"
+  },
+  {
+    "code": "ZE",
+    "name": "Zell am See"
+  },
+  {
+    "code": "ZT",
+    "name": "Zwettl"
+  },
+  {
+    "code": "ZW",
+    "name": "Zollwache (Customs officials)"
+  }
+]

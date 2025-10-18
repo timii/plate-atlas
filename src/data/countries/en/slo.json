@@ -1,0 +1,13 @@
+[
+  { "code": "CE", "name": "Celje" },
+  { "code": "GO", "name": "Nova Gorica" },
+  { "code": "KK", "name": "Krško" },
+  { "code": "KP", "name": "Koper" },
+  { "code": "KR", "name": "Kranj" },
+  { "code": "LJ", "name": "Ljubljana" },
+  { "code": "MB", "name": "Maribor" },
+  { "code": "MS", "name": "Murska Sobota" },
+  { "code": "NM", "name": "Novo Mesto" },
+  { "code": "PO", "name": "Postojna" },
+  { "code": "SG", "name": "Slovenj Gradec" }
+]

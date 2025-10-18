@@ -1,0 +1,1674 @@
+[
+  {
+    "code": "D",
+    "name": "Lower Silesian"
+  },
+  {
+    "code": "V",
+    "name": "Lower Silesian (supplementary)"
+  },
+  {
+    "code": "C",
+    "name": "Kuyavia-Pomerania"
+  },
+  {
+    "code": "E",
+    "name": "Łódź"
+  },
+  {
+    "code": "L",
+    "name": "Lublin"
+  },
+  {
+    "code": "F",
+    "name": "Lubusz"
+  },
+  {
+    "code": "K",
+    "name": "Lesser Poland"
+  },
+  {
+    "code": "J",
+    "name": "Lesser Poland (supplementary)"
+  },
+  {
+    "code": "W",
+    "name": "Masovian"
+  },
+  {
+    "code": "A",
+    "name": "Masovian (supplementary)"
+  },
+  {
+    "code": "O",
+    "name": "Opole"
+  },
+  {
+    "code": "R",
+    "name": "Subcarpathian"
+  },
+  {
+    "code": "Y",
+    "name": "Subcarpathian (supplementary)"
+  },
+  {
+    "code": "P",
+    "name": "Greater Poland"
+  },
+  {
+    "code": "M",
+    "name": "Greater Poland (supplementary, currently unused)"
+  },
+  {
+    "code": "G",
+    "name": "Pomeranian"
+  },
+  {
+    "code": "X",
+    "name": "Pomeranian (supplementary)"
+  },
+  {
+    "code": "S",
+    "name": "Silesian"
+  },
+  {
+    "code": "I",
+    "name": "Silesian (supplementary)"
+  },
+  {
+    "code": "T",
+    "name": "Świętokrzyskie (Holy Cross)"
+  },
+  {
+    "code": "N",
+    "name": "Warmian-Masuria"
+  },
+  {
+    "code": "B",
+    "name": "Podlaskie"
+  },
+  {
+    "code": "Z",
+    "name": "West Pomeranian"
+  },
+  {
+    "code": "BAU",
+    "name": "Augustów"
+  },
+  {
+    "code": "BBI",
+    "name": "Bielsk Podlaski"
+  },
+  {
+    "code": "BGR",
+    "name": "Grajewo"
+  },
+  {
+    "code": "BHA",
+    "name": "Hajnówka"
+  },
+  {
+    "code": "BI",
+    "name": "Bialystok town"
+  },
+  {
+    "code": "BIA",
+    "name": "Bialystok district"
+  },
+  {
+    "code": "BKL",
+    "name": "Kolno"
+  },
+  {
+    "code": "BL",
+    "name": "Lomza town"
+  },
+  {
+    "code": "BLM",
+    "name": "Lomza district"
+  },
+  {
+    "code": "BMN",
+    "name": "Monki"
+  },
+  {
+    "code": "BS",
+    "name": "Suwalki town"
+  },
+  {
+    "code": "BSE",
+    "name": "Sejny"
+  },
+  {
+    "code": "BSI",
+    "name": "Siemiatycze"
+  },
+  {
+    "code": "BSK",
+    "name": "Sokólka"
+  },
+  {
+    "code": "BSU",
+    "name": "Suwalki district"
+  },
+  {
+    "code": "BWM",
+    "name": "Wysokie Mazowieckie"
+  },
+  {
+    "code": "BZA",
+    "name": "Zambrów"
+  },
+  {
+    "code": "CAL",
+    "name": "Aleksandrów Kujawski"
+  },
+  {
+    "code": "CB",
+    "name": "Bycgoszcz town"
+  },
+  {
+    "code": "CBR",
+    "name": "Brodnica"
+  },
+  {
+    "code": "CBY",
+    "name": "Bydgoszcz district"
+  },
+  {
+    "code": "CCH",
+    "name": "Chelmno"
+  },
+  {
+    "code": "CG",
+    "name": "Grudziadz town"
+  },
+  {
+    "code": "CGD",
+    "name": "Golub-Dobrzyn"
+  },
+  {
+    "code": "CGR",
+    "name": "Grudziadz district"
+  },
+  {
+    "code": "CIN",
+    "name": "Inowroclaw"
+  },
+  {
+    "code": "CLI",
+    "name": "Lipno"
+  },
+  {
+    "code": "CMG",
+    "name": "Mogilno"
+  },
+  {
+    "code": "CNA",
+    "name": "Naklo n. Notecia"
+  },
+  {
+    "code": "CRA",
+    "name": "Radziejów"
+  },
+  {
+    "code": "CRY",
+    "name": "Rypin"
+  },
+  {
+    "code": "CSE",
+    "name": "Sepólno Krajenskie"
+  },
+  {
+    "code": "CSW",
+    "name": "Swiecie"
+  },
+  {
+    "code": "CT",
+    "name": "Torun town"
+  },
+  {
+    "code": "CTR",
+    "name": "Torun district"
+  },
+  {
+    "code": "CTU",
+    "name": "Tuchola"
+  },
+  {
+    "code": "CW",
+    "name": "Wloclawek town"
+  },
+  {
+    "code": "CWA",
+    "name": "Wabrzezno"
+  },
+  {
+    "code": "CWL",
+    "name": "Wloclawek district"
+  },
+  {
+    "code": "CZN",
+    "name": "Znin"
+  },
+  {
+    "code": "DB",
+    "name": "Walbrzych town"
+  },
+  {
+    "code": "DBA",
+    "name": "Walbrzych district"
+  },
+  {
+    "code": "DBL",
+    "name": "Boleslawiec"
+  },
+  {
+    "code": "DDZ",
+    "name": "Dzierzoniów"
+  },
+  {
+    "code": "DGL",
+    "name": "Glogów"
+  },
+  {
+    "code": "DGR",
+    "name": "Góra"
+  },
+  {
+    "code": "DJ",
+    "name": "Jelenia Góra town"
+  },
+  {
+    "code": "DJA",
+    "name": "Jawor"
+  },
+  {
+    "code": "DJE",
+    "name": "Jelenia Góra district"
+  },
+  {
+    "code": "DKA",
+    "name": "Kamienna Góra"
+  },
+  {
+    "code": "DKL",
+    "name": "Klodzko"
+  },
+  {
+    "code": "DL",
+    "name": "Legnica town"
+  },
+  {
+    "code": "DLB",
+    "name": "Luban"
+  },
+  {
+    "code": "DLE",
+    "name": "Legnica district"
+  },
+  {
+    "code": "DLU",
+    "name": "Lubin"
+  },
+  {
+    "code": "DLW",
+    "name": "Lwówek"
+  },
+  {
+    "code": "DMI",
+    "name": "Milicz"
+  },
+  {
+    "code": "DOA",
+    "name": "Olawa"
+  },
+  {
+    "code": "DOL",
+    "name": "Olesnica"
+  },
+  {
+    "code": "DPL",
+    "name": "Polkowice"
+  },
+  {
+    "code": "DSR",
+    "name": "Sroda Slaska"
+  },
+  {
+    "code": "DST",
+    "name": "Strzelin"
+  },
+  {
+    "code": "DSW",
+    "name": "Swidnica"
+  },
+  {
+    "code": "DTR",
+    "name": "Trzebnica"
+  },
+  {
+    "code": "DW",
+    "name": "Wroclaw town"
+  },
+  {
+    "code": "DWL",
+    "name": "Wolów"
+  },
+  {
+    "code": "DWR",
+    "name": "Wroclaw district"
+  },
+  {
+    "code": "DZA",
+    "name": "Zabkowice"
+  },
+  {
+    "code": "DZG",
+    "name": "Zgorzelec"
+  },
+  {
+    "code": "DZL",
+    "name": "Zlotoryja"
+  },
+  {
+    "code": "EBE",
+    "name": "Belchatów"
+  },
+  {
+    "code": "EBR",
+    "name": "Brzeziny"
+  },
+  {
+    "code": "EKU",
+    "name": "Kutno"
+  },
+  {
+    "code": "EL",
+    "name": "Lódz town"
+  },
+  {
+    "code": "ELA",
+    "name": "Lask"
+  },
+  {
+    "code": "ELC",
+    "name": "Lowicz"
+  },
+  {
+    "code": "ELE",
+    "name": "Leczyca"
+  },
+  {
+    "code": "ELW",
+    "name": "Lódz district"
+  },
+  {
+    "code": "EOP",
+    "name": "Opoczno"
+  },
+  {
+    "code": "EP",
+    "name": "Piotrków Tryb. town"
+  },
+  {
+    "code": "EPA",
+    "name": "Pabianice"
+  },
+  {
+    "code": "EPD",
+    "name": "Poddebice"
+  },
+  {
+    "code": "EPI",
+    "name": "Piotrków Tryb. district"
+  },
+  {
+    "code": "EPJ",
+    "name": "Pajeczno"
+  },
+  {
+    "code": "ERA",
+    "name": "Radomsko"
+  },
+  {
+    "code": "ERW",
+    "name": "Rawa Mazowiecka"
+  },
+  {
+    "code": "ES",
+    "name": "Skierniewice town"
+  },
+  {
+    "code": "ESI",
+    "name": "Sieradz"
+  },
+  {
+    "code": "ESK",
+    "name": "Skierniewice district"
+  },
+  {
+    "code": "ETM",
+    "name": "Tomaszów Mazowiecki"
+  },
+  {
+    "code": "EWE",
+    "name": "Wieruszów"
+  },
+  {
+    "code": "EWI",
+    "name": "Wielun"
+  },
+  {
+    "code": "EZD",
+    "name": "Zdunska Wola"
+  },
+  {
+    "code": "EZG",
+    "name": "Zgierz"
+  },
+  {
+    "code": "FG",
+    "name": "Gorzów Wielkopolski town"
+  },
+  {
+    "code": "FGW",
+    "name": "Gorzów Wielkopolski district"
+  },
+  {
+    "code": "FKR",
+    "name": "Krosno Odrzanskie"
+  },
+  {
+    "code": "FMI",
+    "name": "Miedzyrzecz"
+  },
+  {
+    "code": "FNW",
+    "name": "Nowa Sól"
+  },
+  {
+    "code": "FSD",
+    "name": "Strzelce Krajenskie"
+  },
+  {
+    "code": "FSL",
+    "name": "Slubice"
+  },
+  {
+    "code": "FSU",
+    "name": "Suleczyn"
+  },
+  {
+    "code": "FSW",
+    "name": "Swiebodzin"
+  },
+  {
+    "code": "FZ",
+    "name": "Zielona Góra town"
+  },
+  {
+    "code": "FZA",
+    "name": "Zary"
+  },
+  {
+    "code": "FZG",
+    "name": "Zagan"
+  },
+  {
+    "code": "FZI",
+    "name": "Zielona Góra powiat"
+  },
+  {
+    "code": "GA",
+    "name": "Gdynia"
+  },
+  {
+    "code": "GBY",
+    "name": "Bytów"
+  },
+  {
+    "code": "GCH",
+    "name": "Chojnice"
+  },
+  {
+    "code": "GCZ",
+    "name": "Czluchów"
+  },
+  {
+    "code": "GD",
+    "name": "Gdansk town"
+  },
+  {
+    "code": "GDA",
+    "name": "Pruszcz Gdanski"
+  },
+  {
+    "code": "GKA",
+    "name": "Kartuzy"
+  },
+  {
+    "code": "GKS",
+    "name": "Koscierzyna"
+  },
+  {
+    "code": "GKW",
+    "name": "Kwidzyn"
+  },
+  {
+    "code": "GLE",
+    "name": "Lebork"
+  },
+  {
+    "code": "GMB",
+    "name": "Malbork"
+  },
+  {
+    "code": "GND",
+    "name": "Nowy Dwór Gdanski"
+  },
+  {
+    "code": "GPU",
+    "name": "Puck"
+  },
+  {
+    "code": "GS",
+    "name": "Slupsk town"
+  },
+  {
+    "code": "GSL",
+    "name": "Slupsk district"
+  },
+  {
+    "code": "GSP",
+    "name": "Sopot"
+  },
+  {
+    "code": "GST",
+    "name": "Starogard Gdanski"
+  },
+  {
+    "code": "GSZ",
+    "name": "Sztum"
+  },
+  {
+    "code": "GTC",
+    "name": "Tczew"
+  },
+  {
+    "code": "GWE",
+    "name": "Wejherowo"
+  },
+  {
+    "code": "KBC",
+    "name": "Bochnia"
+  },
+  {
+    "code": "KBR",
+    "name": "Brzesko"
+  },
+  {
+    "code": "KCH",
+    "name": "Chrzanów"
+  },
+  {
+    "code": "KDA",
+    "name": "Dabrowa Tarnowska"
+  },
+  {
+    "code": "KGR",
+    "name": "Gorlice"
+  },
+  {
+    "code": "KLI",
+    "name": "Limanowa"
+  },
+  {
+    "code": "KMI",
+    "name": "Miechów"
+  },
+  {
+    "code": "KMY",
+    "name": "Myslenice"
+  },
+  {
+    "code": "KN",
+    "name": "Nowy Sacz town"
+  },
+  {
+    "code": "KNS",
+    "name": "Nowy Sacz district"
+  },
+  {
+    "code": "KNT",
+    "name": "Nowy Targ"
+  },
+  {
+    "code": "KOL",
+    "name": "Olkusz"
+  },
+  {
+    "code": "KOS",
+    "name": "Oswiecim"
+  },
+  {
+    "code": "KPR",
+    "name": "Proszowice"
+  },
+  {
+    "code": "KR",
+    "name": "Kraków town"
+  },
+  {
+    "code": "KRA",
+    "name": "Kraków district"
+  },
+  {
+    "code": "KSU",
+    "name": "Sucha Beskidzka"
+  },
+  {
+    "code": "KT",
+    "name": "Tarnów town"
+  },
+  {
+    "code": "KTA",
+    "name": "Tarnów district"
+  },
+  {
+    "code": "KTT",
+    "name": "Zakopane"
+  },
+  {
+    "code": "KWA",
+    "name": "Wadowice"
+  },
+  {
+    "code": "KWI",
+    "name": "Wieliczka"
+  },
+  {
+    "code": "LB",
+    "name": "Biala Podlaska town"
+  },
+  {
+    "code": "LBI",
+    "name": "Biala Podlaska district"
+  },
+  {
+    "code": "LBL",
+    "name": "Bilgoraj"
+  },
+  {
+    "code": "LC",
+    "name": "Chelm town"
+  },
+  {
+    "code": "LCH",
+    "name": "Chelm district"
+  },
+  {
+    "code": "LHR",
+    "name": "Hrubieszów"
+  },
+  {
+    "code": "LJA",
+    "name": "Janów Lubelski"
+  },
+  {
+    "code": "LKR",
+    "name": "Krasnik"
+  },
+  {
+    "code": "LKS",
+    "name": "Krasnystaw"
+  },
+  {
+    "code": "LLB",
+    "name": "Lubartów"
+  },
+  {
+    "code": "LLE",
+    "name": "Leczna"
+  },
+  {
+    "code": "LLU",
+    "name": "Luków"
+  },
+  {
+    "code": "LOP",
+    "name": "Opole Lubelskie"
+  },
+  {
+    "code": "LPA",
+    "name": "Parczew"
+  },
+  {
+    "code": "LPU",
+    "name": "Pulawy"
+  },
+  {
+    "code": "LRA",
+    "name": "Radzyn Podlaski"
+  },
+  {
+    "code": "LRY",
+    "name": "Ryki"
+  },
+  {
+    "code": "LSW",
+    "name": "Swidnik"
+  },
+  {
+    "code": "LTM",
+    "name": "Tomaszów Lubelski"
+  },
+  {
+    "code": "LU",
+    "name": "Lublin town"
+  },
+  {
+    "code": "LUB",
+    "name": "Lublin district"
+  },
+  {
+    "code": "LWL",
+    "name": "Wlodawa"
+  },
+  {
+    "code": "LZ",
+    "name": "Zamosc town"
+  },
+  {
+    "code": "LZA",
+    "name": "Zamosc district"
+  },
+  {
+    "code": "NBA",
+    "name": "Bartoszyce"
+  },
+  {
+    "code": "NBR",
+    "name": "Braniewo"
+  },
+  {
+    "code": "NDZ",
+    "name": "Dzialdowo"
+  },
+  {
+    "code": "NE",
+    "name": "Elblag town"
+  },
+  {
+    "code": "NEB",
+    "name": "Elblag district"
+  },
+  {
+    "code": "NEL",
+    "name": "Elk"
+  },
+  {
+    "code": "NGI",
+    "name": "Gizycko"
+  },
+  {
+    "code": "NGO",
+    "name": "Goldap"
+  },
+  {
+    "code": "NIL",
+    "name": "Ilawa"
+  },
+  {
+    "code": "NKE",
+    "name": "Ketrzyn"
+  },
+  {
+    "code": "NLI",
+    "name": "Lidzbark Warminski"
+  },
+  {
+    "code": "NMR",
+    "name": "Mragowo"
+  },
+  {
+    "code": "NNI",
+    "name": "Nidzica"
+  },
+  {
+    "code": "NNM",
+    "name": "Nowe Miasto Lubawskie"
+  },
+  {
+    "code": "NO",
+    "name": "Olsztyn town"
+  },
+  {
+    "code": "NOE",
+    "name": "Olecko"
+  },
+  {
+    "code": "NOL",
+    "name": "Olsztyn district"
+  },
+  {
+    "code": "NOS",
+    "name": "Ostróda"
+  },
+  {
+    "code": "NPI",
+    "name": "Pisz"
+  },
+  {
+    "code": "NSZ",
+    "name": "Szczytno"
+  },
+  {
+    "code": "NWE",
+    "name": "Wegorzewo"
+  },
+  {
+    "code": "OB",
+    "name": "Brzeg"
+  },
+  {
+    "code": "OGL",
+    "name": "Glubczyce"
+  },
+  {
+    "code": "OK",
+    "name": "Kedzierzyn Kozle"
+  },
+  {
+    "code": "OKL",
+    "name": "Kluczbork"
+  },
+  {
+    "code": "OKR",
+    "name": "Krapkowice"
+  },
+  {
+    "code": "ONA",
+    "name": "Namyslów"
+  },
+  {
+    "code": "ONY",
+    "name": "Nysa"
+  },
+  {
+    "code": "OOL",
+    "name": "Olesno"
+  },
+  {
+    "code": "OP",
+    "name": "Opole town"
+  },
+  {
+    "code": "OPO",
+    "name": "Opole district"
+  },
+  {
+    "code": "OPR",
+    "name": "Prudnik"
+  },
+  {
+    "code": "OST",
+    "name": "Strzelce Opolskie"
+  },
+  {
+    "code": "PCH",
+    "name": "Chodziez"
+  },
+  {
+    "code": "PCT",
+    "name": "Czarnków Trzcianka"
+  },
+  {
+    "code": "PGN",
+    "name": "Gniezno"
+  },
+  {
+    "code": "PGO",
+    "name": "Grodzisk Wlkopolski"
+  },
+  {
+    "code": "PGS",
+    "name": "Gostyn"
+  },
+  {
+    "code": "PJA",
+    "name": "Jarocin"
+  },
+  {
+    "code": "PK",
+    "name": "Kalisz town"
+  },
+  {
+    "code": "PKA",
+    "name": "Kalisz district"
+  },
+  {
+    "code": "PKE",
+    "name": "Kepno"
+  },
+  {
+    "code": "PKL",
+    "name": "Kolo"
+  },
+  {
+    "code": "PKN",
+    "name": "Konin district"
+  },
+  {
+    "code": "PKO",
+    "name": "Konin town"
+  },
+  {
+    "code": "PKR",
+    "name": "Krotoszyn"
+  },
+  {
+    "code": "PKS",
+    "name": "Koscian"
+  },
+  {
+    "code": "PL",
+    "name": "Leszno town"
+  },
+  {
+    "code": "PLE",
+    "name": "Leszno district"
+  },
+  {
+    "code": "PMI",
+    "name": "Miedzychód"
+  },
+  {
+    "code": "PN",
+    "name": "Konin"
+  },
+  {
+    "code": "PNT",
+    "name": "Nowy Tomysl"
+  },
+  {
+    "code": "PO",
+    "name": "Poznan town"
+  },
+  {
+    "code": "POB",
+    "name": "Oborniki"
+  },
+  {
+    "code": "POS",
+    "name": "Ostrów Wlkopolski"
+  },
+  {
+    "code": "POT",
+    "name": "Ostrzeszów"
+  },
+  {
+    "code": "POZ",
+    "name": "Poznan district"
+  },
+  {
+    "code": "PP",
+    "name": "Pila"
+  },
+  {
+    "code": "PPL",
+    "name": "Pleszew"
+  },
+  {
+    "code": "PRA",
+    "name": "Rawicz"
+  },
+  {
+    "code": "PSE",
+    "name": "Srem"
+  },
+  {
+    "code": "PSL",
+    "name": "Slupca"
+  },
+  {
+    "code": "PSR",
+    "name": "Sroda Wlkopolski"
+  },
+  {
+    "code": "PSZ",
+    "name": "Szamotuly"
+  },
+  {
+    "code": "PTU",
+    "name": "Turek"
+  },
+  {
+    "code": "PWA",
+    "name": "Wagrowiec"
+  },
+  {
+    "code": "PWL",
+    "name": "Wolsztyn"
+  },
+  {
+    "code": "PWR",
+    "name": "Wrzesnia"
+  },
+  {
+    "code": "PZ",
+    "name": "Poznan district"
+  },
+  {
+    "code": "PZL",
+    "name": "Zlotów"
+  },
+  {
+    "code": "RBI",
+    "name": "Ustrzyki Dolne"
+  },
+  {
+    "code": "RBR",
+    "name": "Brzozów"
+  },
+  {
+    "code": "RDE",
+    "name": "Debica"
+  },
+  {
+    "code": "RJA",
+    "name": "Jaroslaw"
+  },
+  {
+    "code": "RJS",
+    "name": "Jaslo"
+  },
+  {
+    "code": "RK",
+    "name": "Krosno town"
+  },
+  {
+    "code": "RKL",
+    "name": "Kolbuszowa"
+  },
+  {
+    "code": "RKR",
+    "name": "Krosno district"
+  },
+  {
+    "code": "RLA",
+    "name": "Lancut"
+  },
+  {
+    "code": "RLE",
+    "name": "Lezajsk"
+  },
+  {
+    "code": "RLS",
+    "name": "Lesko"
+  },
+  {
+    "code": "RLU",
+    "name": "Lubaczów"
+  },
+  {
+    "code": "RMI",
+    "name": "Mielec"
+  },
+  {
+    "code": "RNI",
+    "name": "Nisko"
+  },
+  {
+    "code": "RP",
+    "name": "Przemysl town"
+  },
+  {
+    "code": "RPR",
+    "name": "Przemysl district"
+  },
+  {
+    "code": "RPZ",
+    "name": "Przeworsk"
+  },
+  {
+    "code": "RRS",
+    "name": "Ropczyce - Sedziszów"
+  },
+  {
+    "code": "RSA",
+    "name": "Sanok"
+  },
+  {
+    "code": "RSR",
+    "name": "Strzyzów"
+  },
+  {
+    "code": "RST",
+    "name": "Stalowa Wola"
+  },
+  {
+    "code": "RT",
+    "name": "Tarnobrzeg town"
+  },
+  {
+    "code": "RTA",
+    "name": "Tarnobrzeg district"
+  },
+  {
+    "code": "RZ",
+    "name": "Rzeszów town"
+  },
+  {
+    "code": "RZE",
+    "name": "Rzeszów district"
+  },
+  {
+    "code": "SB",
+    "name": "Bielsko-Biala town"
+  },
+  {
+    "code": "SBE",
+    "name": "Bedzin"
+  },
+  {
+    "code": "SBI",
+    "name": "Bielsko-Biala district"
+  },
+  {
+    "code": "SBL",
+    "name": "Bierun - Ledziny"
+  },
+  {
+    "code": "SC",
+    "name": "Czestochowa town"
+  },
+  {
+    "code": "SCI",
+    "name": "Cieszyn"
+  },
+  {
+    "code": "SCZ",
+    "name": "Czestochowa district"
+  },
+  {
+    "code": "SD",
+    "name": "Dabrowa Górnicza"
+  },
+  {
+    "code": "SG",
+    "name": "Gliwice town"
+  },
+  {
+    "code": "SGL",
+    "name": "Gliwice district"
+  },
+  {
+    "code": "SH",
+    "name": "Chorzów"
+  },
+  {
+    "code": "SI",
+    "name": "Siemianowice Slaskie"
+  },
+  {
+    "code": "SJJ",
+    "name": "Jaworzno"
+  },
+  {
+    "code": "SJZ",
+    "name": "Jastrzebie - Zdrój"
+  },
+  {
+    "code": "SK",
+    "name": "Katowice"
+  },
+  {
+    "code": "SKL",
+    "name": "Klobuck"
+  },
+  {
+    "code": "SLR",
+    "name": "Ruda Slaska"
+  },
+  {
+    "code": "SLU",
+    "name": "Lubliniec"
+  },
+  {
+    "code": "SM",
+    "name": "Myslowice"
+  },
+  {
+    "code": "SMI",
+    "name": "Mikolów"
+  },
+  {
+    "code": "SMY",
+    "name": "Myszków"
+  },
+  {
+    "code": "SO",
+    "name": "Sosnowiec"
+  },
+  {
+    "code": "SPI",
+    "name": "Piekary Slaskie"
+  },
+  {
+    "code": "SPS",
+    "name": "Pszczyna"
+  },
+  {
+    "code": "SR",
+    "name": "Rybnik town"
+  },
+  {
+    "code": "SRB",
+    "name": "Rybnik district"
+  },
+  {
+    "code": "SRC",
+    "name": "Racibórz"
+  },
+  {
+    "code": "SRS",
+    "name": "Ruda Slaska"
+  },
+  {
+    "code": "ST",
+    "name": "Tychy town"
+  },
+  {
+    "code": "STA",
+    "name": "Tarnowskie Góry"
+  },
+  {
+    "code": "STY",
+    "name": "Tychy district (old)"
+  },
+  {
+    "code": "SW",
+    "name": "Swietochlowice"
+  },
+  {
+    "code": "SWD",
+    "name": "Wodzislaw"
+  },
+  {
+    "code": "SY",
+    "name": "Bytom"
+  },
+  {
+    "code": "SZ",
+    "name": "Zabrze"
+  },
+  {
+    "code": "SZA",
+    "name": "Zawiercie"
+  },
+  {
+    "code": "SZO",
+    "name": "Zory"
+  },
+  {
+    "code": "SZY",
+    "name": "Zywiec"
+  },
+  {
+    "code": "TBU",
+    "name": "Busko-Zdrój"
+  },
+  {
+    "code": "TJE",
+    "name": "Jedrzejów"
+  },
+  {
+    "code": "TK",
+    "name": "Kielce town"
+  },
+  {
+    "code": "TKA",
+    "name": "Kazimierza Wielka"
+  },
+  {
+    "code": "TKI",
+    "name": "Kielce district"
+  },
+  {
+    "code": "TKN",
+    "name": "Konskie"
+  },
+  {
+    "code": "TLW",
+    "name": "Wloszczowa"
+  },
+  {
+    "code": "TOP",
+    "name": "Opatów"
+  },
+  {
+    "code": "TOS",
+    "name": "Ostrowiec Swietokrzyski"
+  },
+  {
+    "code": "TPI",
+    "name": "Pinczów"
+  },
+  {
+    "code": "TSA",
+    "name": "Sandomierz"
+  },
+  {
+    "code": "TSK",
+    "name": "Skarzysko-Kamienna"
+  },
+  {
+    "code": "TST",
+    "name": "Starachowice"
+  },
+  {
+    "code": "TSZ",
+    "name": "Staszów"
+  },
+  {
+    "code": "WA",
+    "name": "Warszawa-Bialoleka"
+  },
+  {
+    "code": "WB",
+    "name": "Warszawa-Bemowo"
+  },
+  {
+    "code": "WBR",
+    "name": "Bialobrzegi"
+  },
+  {
+    "code": "WCI",
+    "name": "Ciechanów"
+  },
+  {
+    "code": "WD",
+    "name": "Warszawa-Bielany"
+  },
+  {
+    "code": "WE",
+    "name": "Warszawa-Mokotów"
+  },
+  {
+    "code": "WF",
+    "name": "Warszawa-Praga Poludnie"
+  },
+  {
+    "code": "WG",
+    "name": "Garwolin"
+  },
+  {
+    "code": "WGM",
+    "name": "Grodzisk"
+  },
+  {
+    "code": "WGR",
+    "name": "Grójec"
+  },
+  {
+    "code": "WGS",
+    "name": "Gostynin"
+  },
+  {
+    "code": "WH",
+    "name": "Warszawa-Praga Pólnoc"
+  },
+  {
+    "code": "WI",
+    "name": "Warszawa-Sródmiescie"
+  },
+  {
+    "code": "WJ",
+    "name": "Warszawa-Targówek"
+  },
+  {
+    "code": "WK",
+    "name": "Warszawa-Ursus"
+  },
+  {
+    "code": "WKZ",
+    "name": "Kozienice"
+  },
+  {
+    "code": "WL",
+    "name": "Legionowo"
+  },
+  {
+    "code": "WLI",
+    "name": "Lipsko"
+  },
+  {
+    "code": "WLS",
+    "name": "Losice"
+  },
+  {
+    "code": "WM",
+    "name": "Minsk Mazowiecki"
+  },
+  {
+    "code": "WMA",
+    "name": "Maków Mazowiecki"
+  },
+  {
+    "code": "WML",
+    "name": "Mlawa"
+  },
+  {
+    "code": "WN",
+    "name": "Warszawa-Ursynów"
+  },
+  {
+    "code": "WND",
+    "name": "Nowy Dwór Mazowiecki"
+  },
+  {
+    "code": "WO",
+    "name": "Ostroleka town"
+  },
+  {
+    "code": "WOR",
+    "name": "Ostrów Mazowiecka"
+  },
+  {
+    "code": "WOS",
+    "name": "Ostroleka district"
+  },
+  {
+    "code": "WOT",
+    "name": "Otwock"
+  },
+  {
+    "code": "WP",
+    "name": "Plock town"
+  },
+  {
+    "code": "WPI",
+    "name": "Piaseczno"
+  },
+  {
+    "code": "WPL",
+    "name": "Plock district"
+  },
+  {
+    "code": "WPN",
+    "name": "Plonsk"
+  },
+  {
+    "code": "WPR",
+    "name": "Pruszków"
+  },
+  {
+    "code": "WPU",
+    "name": "Pultusk"
+  },
+  {
+    "code": "WPY",
+    "name": "Przysucha"
+  },
+  {
+    "code": "WPZ",
+    "name": "Przasnysz"
+  },
+  {
+    "code": "WR",
+    "name": "Radom town"
+  },
+  {
+    "code": "WRA",
+    "name": "Radom district"
+  },
+  {
+    "code": "WS",
+    "name": "Siedlce town"
+  },
+  {
+    "code": "WSC",
+    "name": "Sochaczew"
+  },
+  {
+    "code": "WSE",
+    "name": "Sierpc"
+  },
+  {
+    "code": "WSI",
+    "name": "Siedlce district"
+  },
+  {
+    "code": "WSK",
+    "name": "Sokolów Podlaski"
+  },
+  {
+    "code": "WSZ",
+    "name": "Szydlowiec"
+  },
+  {
+    "code": "WT",
+    "name": "Warszawa-Wawer"
+  },
+  {
+    "code": "WU",
+    "name": "Warszawa-Ochota"
+  },
+  {
+    "code": "WWE",
+    "name": "Wegrów"
+  },
+  {
+    "code": "WWL",
+    "name": "Wolomin"
+  },
+  {
+    "code": "WWY",
+    "name": "Wyszków"
+  },
+  {
+    "code": "WX",
+    "name": "Warszawa-Zoliborz"
+  },
+  {
+    "code": "WY",
+    "name": "Warszawa-Wola"
+  },
+  {
+    "code": "WZ",
+    "name": "Ozarów Mazowiecki"
+  },
+  {
+    "code": "WZU",
+    "name": "Zuromin"
+  },
+  {
+    "code": "WZW",
+    "name": "Zwolen"
+  },
+  {
+    "code": "WZY",
+    "name": "Zyrardów"
+  },
+  {
+    "code": "ZBI",
+    "name": "Bialogard"
+  },
+  {
+    "code": "ZCH",
+    "name": "Choszczno"
+  },
+  {
+    "code": "ZDR",
+    "name": "Drawsko Pomorskie"
+  },
+  {
+    "code": "ZGL",
+    "name": "Goleniów"
+  },
+  {
+    "code": "ZGR",
+    "name": "Gryfino"
+  },
+  {
+    "code": "ZGY",
+    "name": "Gryfice"
+  },
+  {
+    "code": "ZK",
+    "name": "Koszalin town"
+  },
+  {
+    "code": "ZKA",
+    "name": "Kamien Pomorski"
+  },
+  {
+    "code": "ZKL",
+    "name": "Kolobrzeg"
+  },
+  {
+    "code": "ZKO",
+    "name": "Koszalin district"
+  },
+  {
+    "code": "ZMY",
+    "name": "Myslibórz"
+  },
+  {
+    "code": "ZPL",
+    "name": "Police"
+  },
+  {
+    "code": "ZPY",
+    "name": "Pyrzyce"
+  },
+  {
+    "code": "ZS",
+    "name": "Szczecin"
+  },
+  {
+    "code": "ZSD",
+    "name": "Swidwin"
+  },
+  {
+    "code": "ZSL",
+    "name": "Slawno"
+  },
+  {
+    "code": "ZST",
+    "name": "Stargard Szczecinski"
+  },
+  {
+    "code": "ZSW",
+    "name": "Swinoujscie"
+  },
+  {
+    "code": "ZSZ",
+    "name": "Szczecinek"
+  },
+  {
+    "code": "ZWA",
+    "name": "Walcz"
+  }
+]

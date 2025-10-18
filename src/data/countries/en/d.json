@@ -1,0 +1,2878 @@
+[
+  {
+    "code": "A",
+    "name": "Augsburg City"
+  },
+  {
+    "code": "AA",
+    "name": "Ostalb District"
+  },
+  {
+    "code": "AB",
+    "name": "Aschaffenburg District"
+  },
+  {
+    "code": "ABG",
+    "name": "Altenburger Land District"
+  },
+  {
+    "code": "ABI",
+    "name": "Anhalt-Bitterfeld District"
+  },
+  {
+    "code": "AC",
+    "name": "Aachen Region"
+  },
+  {
+    "code": "AE",
+    "name": "Vogtland District"
+  },
+  {
+    "code": "AH",
+    "name": "Borken District"
+  },
+  {
+    "code": "AIB",
+    "name": "Munich District"
+  },
+  {
+    "code": "AIC",
+    "name": "Aichach-Friedberg District"
+  },
+  {
+    "code": "AK",
+    "name": "Altenkirchen (Westerwald) District"
+  },
+  {
+    "code": "ALF",
+    "name": "Hildesheim District"
+  },
+  {
+    "code": "ALZ",
+    "name": "Aschaffenburg District"
+  },
+  {
+    "code": "AM",
+    "name": "Amberg City"
+  },
+  {
+    "code": "AN",
+    "name": "Ansbach District"
+  },
+  {
+    "code": "ANA",
+    "name": "Erzgebirge District"
+  },
+  {
+    "code": "ANG",
+    "name": "Uckermark District"
+  },
+  {
+    "code": "ANK",
+    "name": "Vorpommern-Greifswald District(Excluding Greifswald City)"
+  },
+  {
+    "code": "AÖ",
+    "name": "Altötting District"
+  },
+  {
+    "code": "AP",
+    "name": "Weimarer Land District"
+  },
+  {
+    "code": "APD",
+    "name": "Weimarer Land District"
+  },
+  {
+    "code": "ARN",
+    "name": "Ilm District"
+  },
+  {
+    "code": "ART",
+    "name": "Kyffhäuser District"
+  },
+  {
+    "code": "AS",
+    "name": "Amberg-Sulzbach District"
+  },
+  {
+    "code": "ASL",
+    "name": "Salzland District"
+  },
+  {
+    "code": "ASZ",
+    "name": "Erzgebirge District"
+  },
+  {
+    "code": "AT",
+    "name": "Mecklenburgische Seenplatte District(Excluding Neubrandenburg City)"
+  },
+  {
+    "code": "AU",
+    "name": "Erzgebirge District"
+  },
+  {
+    "code": "AUR",
+    "name": "Aurich District"
+  },
+  {
+    "code": "AW",
+    "name": "Ahrweiler District"
+  },
+  {
+    "code": "AZ",
+    "name": "Alzey-Worms District"
+  },
+  {
+    "code": "AZE",
+    "name": "Anhalt-Bitterfeld District"
+  },
+  {
+    "code": "B",
+    "name": "Berlin"
+  },
+  {
+    "code": "BA",
+    "name": "Bamberg City"
+  },
+  {
+    "code": "BAD",
+    "name": "Baden-Baden City"
+  },
+  {
+    "code": "BAR",
+    "name": "Barnim District"
+  },
+  {
+    "code": "BB",
+    "name": "Böblingen District"
+  },
+  {
+    "code": "BBG",
+    "name": "Salzland District"
+  },
+  {
+    "code": "BBL",
+    "name": "Brandenburg Government, Landtag, and Police"
+  },
+  {
+    "code": "BC",
+    "name": "Biberach District"
+  },
+  {
+    "code": "BCH",
+    "name": "Neckar-Odenwald District"
+  },
+  {
+    "code": "BD",
+    "name": "German Bundestag, Bundesrat, Office of the Federal President, Federal Government and Ministries, Federal fiscal administration (incl. Federal Customs Service), and Federal Constitutional Court"
+  },
+  {
+    "code": "BE",
+    "name": "Warendorf District"
+  },
+  {
+    "code": "BED",
+    "name": "Mittelsachsen District"
+  },
+  {
+    "code": "BER",
+    "name": "Barnim District"
+  },
+  {
+    "code": "BF",
+    "name": "Steinfurt District"
+  },
+  {
+    "code": "BGD",
+    "name": "Berchtesgadener Land District"
+  },
+  {
+    "code": "BGL",
+    "name": "Berchtesgadener Land District"
+  },
+  {
+    "code": "BH",
+    "name": "Ortenau District"
+  },
+  {
+    "code": "BI",
+    "name": "Bielefeld City"
+  },
+  {
+    "code": "BID",
+    "name": "Marburg-Biedenkopf District"
+  },
+  {
+    "code": "BIN",
+    "name": "Mainz-Bingen District"
+  },
+  {
+    "code": "BIR",
+    "name": "Birkenfeld District"
+  },
+  {
+    "code": "BIT",
+    "name": "Eifel District Bitburg-Prüm"
+  },
+  {
+    "code": "BIW",
+    "name": "Bautzen District"
+  },
+  {
+    "code": "BK",
+    "name": "Rems-Murr District"
+  },
+  {
+    "code": "BKS",
+    "name": "Bernkastel-Wittlich District"
+  },
+  {
+    "code": "BL",
+    "name": "Zollernalb District"
+  },
+  {
+    "code": "BLB",
+    "name": "Siegen-Wittgenstein District"
+  },
+  {
+    "code": "BLK",
+    "name": "Burgenland District"
+  },
+  {
+    "code": "BM",
+    "name": "Rhein-Erft District"
+  },
+  {
+    "code": "BN",
+    "name": "Bonn City"
+  },
+  {
+    "code": "BNA",
+    "name": "Leipzig District"
+  },
+  {
+    "code": "BO",
+    "name": "Bochum City"
+  },
+  {
+    "code": "BÖ",
+    "name": "Börde District"
+  },
+  {
+    "code": "BOG",
+    "name": "Straubing-Bogen District"
+  },
+  {
+    "code": "BOH",
+    "name": "Borken District"
+  },
+  {
+    "code": "BOR",
+    "name": "Borken District"
+  },
+  {
+    "code": "BOT",
+    "name": "Bottrop City"
+  },
+  {
+    "code": "BP",
+    "name": "German Federal Police"
+  },
+  {
+    "code": "BRA",
+    "name": "Wesermarsch District"
+  },
+  {
+    "code": "BRB",
+    "name": "Brandenburg an der Havel City"
+  },
+  {
+    "code": "BRG",
+    "name": "Jerichower Land District"
+  },
+  {
+    "code": "BRK",
+    "name": "Bad Kissingen District"
+  },
+  {
+    "code": "BRL",
+    "name": "Goslar District"
+  },
+  {
+    "code": "BRV",
+    "name": "Rotenburg (Wümme) District"
+  },
+  {
+    "code": "BS",
+    "name": "Braunschweig City (Brunswick)"
+  },
+  {
+    "code": "BSB",
+    "name": "Osnabrück District"
+  },
+  {
+    "code": "BSK",
+    "name": "Oder-Spree District"
+  },
+  {
+    "code": "BT",
+    "name": "Bayreuth District"
+  },
+  {
+    "code": "BTF",
+    "name": "Anhalt-Bitterfeld District"
+  },
+  {
+    "code": "BÜD",
+    "name": "Wetterau District"
+  },
+  {
+    "code": "BUL",
+    "name": "Amberg-Sulzbach District"
+  },
+  {
+    "code": "BÜR",
+    "name": "Paderborn District"
+  },
+  {
+    "code": "BÜS",
+    "name": "Büsingen am Hochrhein Municipality (A subdivision of Konstanz District)"
+  },
+  {
+    "code": "BÜZ",
+    "name": "Rostock District"
+  },
+  {
+    "code": "BW",
+    "name": "Federal Waterways and Shipping Administration"
+  },
+  {
+    "code": "BWL",
+    "name": "Baden-Württemberg Government, Landtag, and Police"
+  },
+  {
+    "code": "BYL",
+    "name": "Bavaria Government and Landtag"
+  },
+  {
+    "code": "BZ",
+    "name": "Bautzen District"
+  },
+  {
+    "code": "C",
+    "name": "Chemnitz City"
+  },
+  {
+    "code": "CA",
+    "name": "Oberspreewald-Lausitz District"
+  },
+  {
+    "code": "CAS",
+    "name": "Recklinghausen District"
+  },
+  {
+    "code": "CB",
+    "name": "Cottbus City"
+  },
+  {
+    "code": "CE",
+    "name": "Celle District"
+  },
+  {
+    "code": "CHA",
+    "name": "Cham District"
+  },
+  {
+    "code": "CLP",
+    "name": "Cloppenburg District"
+  },
+  {
+    "code": "CLZ",
+    "name": "Goslar District"
+  },
+  {
+    "code": "CO",
+    "name": "Coburg CityCoburg District"
+  },
+  {
+    "code": "COC",
+    "name": "Cochem-Zell District"
+  },
+  {
+    "code": "COE",
+    "name": "Coesfeld District"
+  },
+  {
+    "code": "CR",
+    "name": "Schwäbisch Hall District"
+  },
+  {
+    "code": "CUX",
+    "name": "Cuxhaven District"
+  },
+  {
+    "code": "CW",
+    "name": "Calw District"
+  },
+  {
+    "code": "D",
+    "name": "Düsseldorf City"
+  },
+  {
+    "code": "DA",
+    "name": "Darmstadt City"
+  },
+  {
+    "code": "DAH",
+    "name": "Dachau District"
+  },
+  {
+    "code": "DAN",
+    "name": "Lüchow-Dannenberg District"
+  },
+  {
+    "code": "DAU",
+    "name": "Vulkaneifel District"
+  },
+  {
+    "code": "DBR",
+    "name": "Rostock District"
+  },
+  {
+    "code": "DD",
+    "name": "Saxony Police"
+  },
+  {
+    "code": "DE",
+    "name": "Dessau-Roßlau City"
+  },
+  {
+    "code": "DEG",
+    "name": "Deggendorf District"
+  },
+  {
+    "code": "DEL",
+    "name": "Delmenhorst City"
+  },
+  {
+    "code": "DGF",
+    "name": "Dingolfing-Landau District"
+  },
+  {
+    "code": "DH",
+    "name": "Diepholz District"
+  },
+  {
+    "code": "DI",
+    "name": "Darmstadt-Dieburg District"
+  },
+  {
+    "code": "DIL",
+    "name": "Lahn-Dill District(Excluding Wetzlar City)"
+  },
+  {
+    "code": "DIN",
+    "name": "Wesel District"
+  },
+  {
+    "code": "DIZ",
+    "name": "Rhein-Lahn District"
+  },
+  {
+    "code": "DKB",
+    "name": "Ansbach District"
+  },
+  {
+    "code": "DL",
+    "name": "Mittelsachsen District"
+  },
+  {
+    "code": "DLG",
+    "name": "Dillingen an der Donau District"
+  },
+  {
+    "code": "DM",
+    "name": "Mecklenburgische Seenplatte District(Excluding Neubrandenburg City)"
+  },
+  {
+    "code": "DN",
+    "name": "Düren District"
+  },
+  {
+    "code": "DO",
+    "name": "Dortmund City"
+  },
+  {
+    "code": "DON",
+    "name": "Donau-Ries District"
+  },
+  {
+    "code": "DU",
+    "name": "Duisburg City"
+  },
+  {
+    "code": "DUD",
+    "name": "Göttingen District(Excluding Göttingen City)"
+  },
+  {
+    "code": "DÜW",
+    "name": "Bad Dürkheim District"
+  },
+  {
+    "code": "DW",
+    "name": "Sächsische Schweiz-Osterzgebirge District"
+  },
+  {
+    "code": "DZ",
+    "name": "Nordsachsen District"
+  },
+  {
+    "code": "E",
+    "name": "Essen City"
+  },
+  {
+    "code": "EA",
+    "name": "Wartburg District"
+  },
+  {
+    "code": "EB",
+    "name": "Nordsachsen District"
+  },
+  {
+    "code": "EBE",
+    "name": "Ebersberg District"
+  },
+  {
+    "code": "EBN",
+    "name": "Haßberge District"
+  },
+  {
+    "code": "EBS",
+    "name": "Kulmbach District"
+  },
+  {
+    "code": "ECK",
+    "name": "Rendsburg-Eckernförde District"
+  },
+  {
+    "code": "ED",
+    "name": "Erding District"
+  },
+  {
+    "code": "EE",
+    "name": "Elbe-Elster District"
+  },
+  {
+    "code": "EF",
+    "name": "Thuringia Police"
+  },
+  {
+    "code": "EG",
+    "name": "Rottal-Inn District"
+  },
+  {
+    "code": "EH",
+    "name": "Oder-Spree District"
+  },
+  {
+    "code": "EI",
+    "name": "Eichstätt District"
+  },
+  {
+    "code": "EIC",
+    "name": "Eichsfeld District"
+  },
+  {
+    "code": "EIL",
+    "name": "Mansfeld-Südharz District"
+  },
+  {
+    "code": "EIN",
+    "name": "Northeim District"
+  },
+  {
+    "code": "EIS",
+    "name": "Saale-Holzland District"
+  },
+  {
+    "code": "EL",
+    "name": "Emsland District"
+  },
+  {
+    "code": "EM",
+    "name": "Emmendingen District"
+  },
+  {
+    "code": "EMD",
+    "name": "Emden City"
+  },
+  {
+    "code": "EMS",
+    "name": "Rhein-Lahn District"
+  },
+  {
+    "code": "EN",
+    "name": "Ennepe-Ruhr District"
+  },
+  {
+    "code": "ER",
+    "name": "Erlangen City"
+  },
+  {
+    "code": "ERB",
+    "name": "Odenwald District"
+  },
+  {
+    "code": "ERH",
+    "name": "Erlangen-Höchstadt District"
+  },
+  {
+    "code": "ERK",
+    "name": "Heinsberg District"
+  },
+  {
+    "code": "ERZ",
+    "name": "Erzgebirge District"
+  },
+  {
+    "code": "ES",
+    "name": "Esslingen District"
+  },
+  {
+    "code": "ESB",
+    "name": "Bayreuth District"
+  },
+  {
+    "code": "ESW",
+    "name": "Werra-Meißner District"
+  },
+  {
+    "code": "EU",
+    "name": "Euskirchen District"
+  },
+  {
+    "code": "EW",
+    "name": "Barnim District"
+  },
+  {
+    "code": "F",
+    "name": "Frankfurt am Main City"
+  },
+  {
+    "code": "FB",
+    "name": "Wetterau District"
+  },
+  {
+    "code": "FD",
+    "name": "Fulda District"
+  },
+  {
+    "code": "FDB",
+    "name": "Aichach-Friedberg District"
+  },
+  {
+    "code": "FDS",
+    "name": "Freudenstadt District"
+  },
+  {
+    "code": "FEU",
+    "name": "Ansbach District"
+  },
+  {
+    "code": "FF",
+    "name": "Frankfurt (Oder) City"
+  },
+  {
+    "code": "FFB",
+    "name": "Fürstenfeldbruck District"
+  },
+  {
+    "code": "FG",
+    "name": "Mittelsachsen District"
+  },
+  {
+    "code": "FI",
+    "name": "Elbe-Elster District"
+  },
+  {
+    "code": "FKB",
+    "name": "Waldeck-Frankenberg District"
+  },
+  {
+    "code": "FL",
+    "name": "Flensburg City"
+  },
+  {
+    "code": "FLÖ",
+    "name": "Mittelsachsen District"
+  },
+  {
+    "code": "FN",
+    "name": "Bodensee (Lake Constance) District"
+  },
+  {
+    "code": "FO",
+    "name": "Forchheim District"
+  },
+  {
+    "code": "FOR",
+    "name": "Spree-Neiße District"
+  },
+  {
+    "code": "FR",
+    "name": "Freiburg im Breisgau City"
+  },
+  {
+    "code": "FRG",
+    "name": "Freyung-Grafenau District"
+  },
+  {
+    "code": "FRI",
+    "name": "Friesland District"
+  },
+  {
+    "code": "FRW",
+    "name": "Märkisch-Oderland District"
+  },
+  {
+    "code": "FS",
+    "name": "Moosburg an der Isar City(A subdivision of Freising District)"
+  },
+  {
+    "code": "FT",
+    "name": "Frankenthal (Pfalz) City"
+  },
+  {
+    "code": "FTL",
+    "name": "Sächsische Schweiz-Osterzgebirge District"
+  },
+  {
+    "code": "FÜ",
+    "name": "Fürth City"
+  },
+  {
+    "code": "FÜS",
+    "name": "Ostallgäu District"
+  },
+  {
+    "code": "FW",
+    "name": "Oder-Spree District"
+  },
+  {
+    "code": "FZ",
+    "name": "Schwalm-Eder District"
+  },
+  {
+    "code": "G",
+    "name": "Gera City"
+  },
+  {
+    "code": "GA",
+    "name": "Altmark District Salzwedel"
+  },
+  {
+    "code": "GAN",
+    "name": "Northeim District"
+  },
+  {
+    "code": "GAP",
+    "name": "Garmisch-Partenkirchen District"
+  },
+  {
+    "code": "GC",
+    "name": "Zwickau District"
+  },
+  {
+    "code": "GD",
+    "name": "Ostalb District"
+  },
+  {
+    "code": "GDB",
+    "name": "Nordwestmecklenburg District(Excluding Wismar City)"
+  },
+  {
+    "code": "GE",
+    "name": "Gelsenkirchen City"
+  },
+  {
+    "code": "GEL",
+    "name": "Kleve District"
+  },
+  {
+    "code": "GEO",
+    "name": "Haßberge District"
+  },
+  {
+    "code": "GER",
+    "name": "Germersheim District"
+  },
+  {
+    "code": "GF",
+    "name": "Gifhorn District"
+  },
+  {
+    "code": "GG",
+    "name": "Groß-Gerau District"
+  },
+  {
+    "code": "GHA",
+    "name": "Leipzig District"
+  },
+  {
+    "code": "GHC",
+    "name": "Wittenberg District"
+  },
+  {
+    "code": "GI",
+    "name": "Gießen District"
+  },
+  {
+    "code": "GK",
+    "name": "Heinsberg District"
+  },
+  {
+    "code": "GL",
+    "name": "Rheinisch-Bergischer District"
+  },
+  {
+    "code": "GLA",
+    "name": "Recklinghausen District"
+  },
+  {
+    "code": "GM",
+    "name": "Oberbergischer District"
+  },
+  {
+    "code": "GMN",
+    "name": "Vorpommern-Rügen District(Excluding Stralsund City)"
+  },
+  {
+    "code": "GN",
+    "name": "Main-Kinzig District(Excluding Hanau City)"
+  },
+  {
+    "code": "GNT",
+    "name": "Jerichower Land District"
+  },
+  {
+    "code": "GÖ",
+    "name": "Göttingen District(Excluding Göttingen City)"
+  },
+  {
+    "code": "GOA",
+    "name": "Rhein-Hunsrück District"
+  },
+  {
+    "code": "GOH",
+    "name": "Rhein-Lahn District"
+  },
+  {
+    "code": "GP",
+    "name": "Göppingen District"
+  },
+  {
+    "code": "GR",
+    "name": "Görlitz District"
+  },
+  {
+    "code": "GRA",
+    "name": "Freyung-Grafenau District"
+  },
+  {
+    "code": "GRH",
+    "name": "Meißen District"
+  },
+  {
+    "code": "GRI",
+    "name": "Rottal-Inn District"
+  },
+  {
+    "code": "GRM",
+    "name": "Leipzig District"
+  },
+  {
+    "code": "GRZ",
+    "name": "Greiz District"
+  },
+  {
+    "code": "GS",
+    "name": "Goslar District"
+  },
+  {
+    "code": "GT",
+    "name": "Gütersloh District"
+  },
+  {
+    "code": "GTH",
+    "name": "Gotha District"
+  },
+  {
+    "code": "GÜ",
+    "name": "Rostock District"
+  },
+  {
+    "code": "GUB",
+    "name": "Spree-Neiße District"
+  },
+  {
+    "code": "GUN",
+    "name": "Weißenburg-Gunzenhausen District"
+  },
+  {
+    "code": "GV",
+    "name": "Rhein District Neuss"
+  },
+  {
+    "code": "GVM",
+    "name": "Nordwestmecklenburg District(Excluding Wismar City)"
+  },
+  {
+    "code": "GW",
+    "name": "Vorpommern-Greifswald District(Excluding Greifswald City)"
+  },
+  {
+    "code": "GZ",
+    "name": "Günzburg District"
+  },
+  {
+    "code": "H",
+    "name": "Hanover City(A subdivision of Hanover Region)"
+  },
+  {
+    "code": "HA",
+    "name": "Hagen City"
+  },
+  {
+    "code": "HAB",
+    "name": "Bad Kissingen District"
+  },
+  {
+    "code": "HAL",
+    "name": "Halle (Saale) City"
+  },
+  {
+    "code": "HAM",
+    "name": "Hamm City"
+  },
+  {
+    "code": "HAS",
+    "name": "Haßberge District"
+  },
+  {
+    "code": "HB",
+    "name": "Bremen City"
+  },
+  {
+    "code": "HBN",
+    "name": "Hildburghausen District"
+  },
+  {
+    "code": "HBS",
+    "name": "Harz District"
+  },
+  {
+    "code": "HC",
+    "name": "Mittelsachsen District"
+  },
+  {
+    "code": "HCH",
+    "name": "Freudenstadt District"
+  },
+  {
+    "code": "HD",
+    "name": "Rhein-Neckar District"
+  },
+  {
+    "code": "HDH",
+    "name": "Heidenheim District"
+  },
+  {
+    "code": "HDL",
+    "name": "Börde District"
+  },
+  {
+    "code": "HE",
+    "name": "Helmstedt District"
+  },
+  {
+    "code": "HEB",
+    "name": "Nürnberger Land District"
+  },
+  {
+    "code": "HEF",
+    "name": "Hersfeld-Rotenburg District"
+  },
+  {
+    "code": "HEI",
+    "name": "Dithmarschen District"
+  },
+  {
+    "code": "HEL",
+    "name": "Hesse Government and Landtag"
+  },
+  {
+    "code": "HER",
+    "name": "Herne City"
+  },
+  {
+    "code": "HET",
+    "name": "Mansfeld-Südharz District"
+  },
+  {
+    "code": "HF",
+    "name": "Herford District"
+  },
+  {
+    "code": "HG",
+    "name": "Hochtaunus District"
+  },
+  {
+    "code": "HGN",
+    "name": "Ludwigslust-Parchim District"
+  },
+  {
+    "code": "HGW",
+    "name": "Greifswald City(A subdivision of Vorpommern-Greifswald District)"
+  },
+  {
+    "code": "HH",
+    "name": "Hamburg"
+  },
+  {
+    "code": "HHM",
+    "name": "Burgenland District"
+  },
+  {
+    "code": "HI",
+    "name": "Hildesheim District"
+  },
+  {
+    "code": "HIG",
+    "name": "Eichsfeld District"
+  },
+  {
+    "code": "HIP",
+    "name": "Roth District"
+  },
+  {
+    "code": "HK",
+    "name": "Heide District"
+  },
+  {
+    "code": "HL",
+    "name": "Lübeck City"
+  },
+  {
+    "code": "HM",
+    "name": "Hameln-Pyrmont District"
+  },
+  {
+    "code": "HMÜ",
+    "name": "Göttingen District(Excluding Göttingen City)"
+  },
+  {
+    "code": "HN",
+    "name": "Heilbronn District"
+  },
+  {
+    "code": "HO",
+    "name": "Hof District"
+  },
+  {
+    "code": "HOG",
+    "name": "Kassel District"
+  },
+  {
+    "code": "HOH",
+    "name": "Haßberge District"
+  },
+  {
+    "code": "HOL",
+    "name": "Holzminden District"
+  },
+  {
+    "code": "HOM",
+    "name": "Saarpfalz District(Excluding Sankt Ingbert City)"
+  },
+  {
+    "code": "HOR",
+    "name": "Freudenstadt District"
+  },
+  {
+    "code": "HÖS",
+    "name": "Erlangen-Höchstadt District"
+  },
+  {
+    "code": "HOT",
+    "name": "Zwickau District"
+  },
+  {
+    "code": "HP",
+    "name": "Bergstraße District"
+  },
+  {
+    "code": "HR",
+    "name": "Schwalm-Eder District"
+  },
+  {
+    "code": "HRO",
+    "name": "Rostock City"
+  },
+  {
+    "code": "HS",
+    "name": "Heinsberg District"
+  },
+  {
+    "code": "HSK",
+    "name": "Hochsauerland District"
+  },
+  {
+    "code": "HST",
+    "name": "Stralsund City(A subdivision of Vorpommern-Rügen District)"
+  },
+  {
+    "code": "HU",
+    "name": "Main-Kinzig District"
+  },
+  {
+    "code": "HV",
+    "name": "Stendal District"
+  },
+  {
+    "code": "HVL",
+    "name": "Havelland District"
+  },
+  {
+    "code": "HWI",
+    "name": "Wismar City(A subdivision of Nordwestmecklenburg District)"
+  },
+  {
+    "code": "HX",
+    "name": "Höxter District"
+  },
+  {
+    "code": "HY",
+    "name": "Bautzen District"
+  },
+  {
+    "code": "HZ",
+    "name": "Harz District"
+  },
+  {
+    "code": "IGB",
+    "name": "St. Ingbert City(A subdivision of Saarpfalz District)"
+  },
+  {
+    "code": "IK",
+    "name": "Ilm District"
+  },
+  {
+    "code": "IL",
+    "name": "Ilm District"
+  },
+  {
+    "code": "ILL",
+    "name": "Neu-Ulm District"
+  },
+  {
+    "code": "IN",
+    "name": "Ingolstadt City"
+  },
+  {
+    "code": "IZ",
+    "name": "Steinburg District"
+  },
+  {
+    "code": "J",
+    "name": "Jena City"
+  },
+  {
+    "code": "JE",
+    "name": "Wittenberg District"
+  },
+  {
+    "code": "JL",
+    "name": "Jerichower Land District"
+  },
+  {
+    "code": "JÜL",
+    "name": "Düren District"
+  },
+  {
+    "code": "K",
+    "name": "Cologne City"
+  },
+  {
+    "code": "KA",
+    "name": "Karlsruhe City"
+  },
+  {
+    "code": "KB",
+    "name": "Waldeck-Frankenberg District"
+  },
+  {
+    "code": "KC",
+    "name": "Kronach District"
+  },
+  {
+    "code": "KE",
+    "name": "Kempten (Allgäu) City"
+  },
+  {
+    "code": "KEH",
+    "name": "Kelheim District"
+  },
+  {
+    "code": "KEL",
+    "name": "Ortenau District"
+  },
+  {
+    "code": "KEM",
+    "name": "Bayreuth District"
+  },
+  {
+    "code": "KF",
+    "name": "Kaufbeuren City"
+  },
+  {
+    "code": "KG",
+    "name": "Bad Kissingen District"
+  },
+  {
+    "code": "KH",
+    "name": "Bad Kreuznach District(Excluding Bad Kreuznach City)"
+  },
+  {
+    "code": "KI",
+    "name": "Kiel City"
+  },
+  {
+    "code": "KIB",
+    "name": "Donnersberg District"
+  },
+  {
+    "code": "KK",
+    "name": "Viersen District"
+  },
+  {
+    "code": "KL",
+    "name": "Kaiserslautern District"
+  },
+  {
+    "code": "KLE",
+    "name": "Kleve District"
+  },
+  {
+    "code": "KLZ",
+    "name": "Altmark District Salzwedel"
+  },
+  {
+    "code": "KM",
+    "name": "Bautzen District"
+  },
+  {
+    "code": "KN",
+    "name": "Konstanz District(Excluding Büsingen am Hochrhein Municipality)"
+  },
+  {
+    "code": "KO",
+    "name": "Koblenz City"
+  },
+  {
+    "code": "KÖN",
+    "name": "Rhön-Grabfeld District"
+  },
+  {
+    "code": "KÖT",
+    "name": "Anhalt-Bitterfeld District"
+  },
+  {
+    "code": "KÖZ",
+    "name": "Cham District"
+  },
+  {
+    "code": "KR",
+    "name": "Krefeld City"
+  },
+  {
+    "code": "KRU",
+    "name": "Günzburg District"
+  },
+  {
+    "code": "KS",
+    "name": "Kassel DistrictKassel City"
+  },
+  {
+    "code": "KT",
+    "name": "Kitzingen District"
+  },
+  {
+    "code": "KU",
+    "name": "Kulmbach District"
+  },
+  {
+    "code": "KÜN",
+    "name": "Hohenlohe District"
+  },
+  {
+    "code": "KUS",
+    "name": "Kusel District"
+  },
+  {
+    "code": "KW",
+    "name": "Dahme-Spreewald District"
+  },
+  {
+    "code": "KY",
+    "name": "Ostprignitz-Ruppin District"
+  },
+  {
+    "code": "KYF",
+    "name": "Kyffhäuser Dristrict"
+  },
+  {
+    "code": "L",
+    "name": "Leipzig City"
+  },
+  {
+    "code": "LA",
+    "name": "Landshut District"
+  },
+  {
+    "code": "LAN",
+    "name": "Dingolfing-Landau District"
+  },
+  {
+    "code": "LAU",
+    "name": "Nürnberger Land District"
+  },
+  {
+    "code": "LB",
+    "name": "Ludwigsburg District"
+  },
+  {
+    "code": "LBS",
+    "name": "Saale-Orla District"
+  },
+  {
+    "code": "LBZ",
+    "name": "Ludwigslust-Parchim District"
+  },
+  {
+    "code": "LC",
+    "name": "Dahme-Spreewald District"
+  },
+  {
+    "code": "LD",
+    "name": "Landau in der Pfalz City"
+  },
+  {
+    "code": "LDK",
+    "name": "Lahn-Dill District(Excluding Wetzlar City)"
+  },
+  {
+    "code": "LDS",
+    "name": "Dahme-Spreewald District"
+  },
+  {
+    "code": "LEO",
+    "name": "Böblingen District"
+  },
+  {
+    "code": "LER",
+    "name": "Leer District"
+  },
+  {
+    "code": "LEV",
+    "name": "Leverkusen City"
+  },
+  {
+    "code": "LF",
+    "name": "Altötting District"
+  },
+  {
+    "code": "LG",
+    "name": "Lüneburg District"
+  },
+  {
+    "code": "LH",
+    "name": "Coesfeld DistrictUnna District"
+  },
+  {
+    "code": "LI",
+    "name": "Lindau (Bodensee) District"
+  },
+  {
+    "code": "LIB",
+    "name": "Elbe-Elster District"
+  },
+  {
+    "code": "LIF",
+    "name": "Lichtenfels District"
+  },
+  {
+    "code": "LIP",
+    "name": "Lippe District"
+  },
+  {
+    "code": "LL",
+    "name": "Landsberg District"
+  },
+  {
+    "code": "LM",
+    "name": "Limburg-Weilburg District"
+  },
+  {
+    "code": "LN",
+    "name": "Dahme-Spreewald District"
+  },
+  {
+    "code": "LÖ",
+    "name": "Lörrach District"
+  },
+  {
+    "code": "LÖB",
+    "name": "Görlitz District"
+  },
+  {
+    "code": "LOS",
+    "name": "Oder-Spree District"
+  },
+  {
+    "code": "LP",
+    "name": "Soest District"
+  },
+  {
+    "code": "LR",
+    "name": "Ortenau District"
+  },
+  {
+    "code": "LRO",
+    "name": "Rostock District"
+  },
+  {
+    "code": "LSA",
+    "name": "Saxony-Anhalt Government, Landtag, and Police"
+  },
+  {
+    "code": "LSN",
+    "name": "Saxony Government and Landtag,"
+  },
+  {
+    "code": "LSZ",
+    "name": "Unstrut-Hainich District"
+  },
+  {
+    "code": "LU",
+    "name": "Ludwigshafen am Rhein City"
+  },
+  {
+    "code": "LÜN",
+    "name": "Unna District"
+  },
+  {
+    "code": "LUP",
+    "name": "Ludwigslust-Parchim District"
+  },
+  {
+    "code": "LWL",
+    "name": "Ludwigslust-Parchim District"
+  },
+  {
+    "code": "M",
+    "name": "Munich City"
+  },
+  {
+    "code": "MA",
+    "name": "Mannheim City"
+  },
+  {
+    "code": "MAB",
+    "name": "Erzgebirge District"
+  },
+  {
+    "code": "MAI",
+    "name": "Landshut District"
+  },
+  {
+    "code": "MAK",
+    "name": "Wunsiedel im Fichtelgebirge District"
+  },
+  {
+    "code": "MAL",
+    "name": "Landshut District"
+  },
+  {
+    "code": "MB",
+    "name": "Miesbach District"
+  },
+  {
+    "code": "MC",
+    "name": "Mecklenburgische Seenplatte District(Excluding Neubrandenburg City)"
+  },
+  {
+    "code": "MD",
+    "name": "Magdeburg City"
+  },
+  {
+    "code": "ME",
+    "name": "Mettmann District"
+  },
+  {
+    "code": "MED",
+    "name": "Dithmarschen District"
+  },
+  {
+    "code": "MEG",
+    "name": "Schwalm-Eder District"
+  },
+  {
+    "code": "MEI",
+    "name": "Meißen District"
+  },
+  {
+    "code": "MEK",
+    "name": "Erzgebirge District"
+  },
+  {
+    "code": "MEL",
+    "name": "Osnabrück District"
+  },
+  {
+    "code": "MER",
+    "name": "Saale District"
+  },
+  {
+    "code": "MET",
+    "name": "Rhön-Grabfeld District"
+  },
+  {
+    "code": "MG",
+    "name": "Mönchengladbach City"
+  },
+  {
+    "code": "MGH",
+    "name": "Main-Tauber District"
+  },
+  {
+    "code": "MGN",
+    "name": "Schmalkalden-Meiningen District"
+  },
+  {
+    "code": "MH",
+    "name": "Mülheim an der Ruhr City"
+  },
+  {
+    "code": "MHL",
+    "name": "Unstrut-Hainich District"
+  },
+  {
+    "code": "MI",
+    "name": "Minden-Lübbecke District"
+  },
+  {
+    "code": "MIL",
+    "name": "Miltenberg District"
+  },
+  {
+    "code": "MK",
+    "name": "Märkischer District"
+  },
+  {
+    "code": "MKK",
+    "name": "Main-Kinzig District(Excluding Hanau City)"
+  },
+  {
+    "code": "ML",
+    "name": "Mansfeld-Südharz District"
+  },
+  {
+    "code": "MM",
+    "name": "Memmingen City"
+  },
+  {
+    "code": "MN",
+    "name": "Unterallgäu District"
+  },
+  {
+    "code": "MO",
+    "name": "Wesel District"
+  },
+  {
+    "code": "MOD",
+    "name": "Ostallgäu District"
+  },
+  {
+    "code": "MOL",
+    "name": "Märkisch-Oderland District"
+  },
+  {
+    "code": "MON",
+    "name": "Aachen RegionDüren District"
+  },
+  {
+    "code": "MOS",
+    "name": "Neckar-Odenwald District"
+  },
+  {
+    "code": "MQ",
+    "name": "Saale District"
+  },
+  {
+    "code": "MR",
+    "name": "Marburg-Biedenkopf District"
+  },
+  {
+    "code": "MS",
+    "name": "Münster City"
+  },
+  {
+    "code": "MSE",
+    "name": "Mecklenburgische Seenplatte District(Excluding Neubrandenburg City)"
+  },
+  {
+    "code": "MSH",
+    "name": "Mansfeld-Südharz District"
+  },
+  {
+    "code": "MSP",
+    "name": "Main-Spessart District"
+  },
+  {
+    "code": "MST",
+    "name": "Mecklenburgische Seenplatte District(Excluding Neubrandenburg City)"
+  },
+  {
+    "code": "MTK",
+    "name": "Main-Taunus District"
+  },
+  {
+    "code": "MTL",
+    "name": "Leipzig District"
+  },
+  {
+    "code": "MÜ",
+    "name": "Mühldorf am Inn District"
+  },
+  {
+    "code": "MÜB",
+    "name": "Bayreuth District"
+  },
+  {
+    "code": "MÜR",
+    "name": "Mecklenburgische Seenplatte District(Excluding Neubrandenburg City)"
+  },
+  {
+    "code": "MVL",
+    "name": "Mecklenburg-Vorpommern Government, Landtag, and Police"
+  },
+  {
+    "code": "MW",
+    "name": "Mittelsachsen District"
+  },
+  {
+    "code": "MY",
+    "name": "Mayen-Koblenz District"
+  },
+  {
+    "code": "MYK",
+    "name": "Mayen-Koblenz District"
+  },
+  {
+    "code": "MZ",
+    "name": "Mainz City"
+  },
+  {
+    "code": "MZG",
+    "name": "Merzig-Wadern District"
+  },
+  {
+    "code": "N",
+    "name": "Nuremberg City"
+  },
+  {
+    "code": "NAB",
+    "name": "Schwandorf District"
+  },
+  {
+    "code": "NAI",
+    "name": "Hof District"
+  },
+  {
+    "code": "NAU",
+    "name": "Havelland District"
+  },
+  {
+    "code": "NB",
+    "name": "Neubrandenburg City(A subdivision of Mecklenburgische Seenplatte District)"
+  },
+  {
+    "code": "ND",
+    "name": "Neuburg-Schrobenhausen District"
+  },
+  {
+    "code": "NDH",
+    "name": "Nordhausen District"
+  },
+  {
+    "code": "NE",
+    "name": "Rhein District Neuss"
+  },
+  {
+    "code": "NEA",
+    "name": "Neustadt an der Aisch-Bad Windsheim District"
+  },
+  {
+    "code": "NEB",
+    "name": "Burgenland District"
+  },
+  {
+    "code": "NEC",
+    "name": "Coburg CityCoburg District"
+  },
+  {
+    "code": "NEN",
+    "name": "Schwandorf District"
+  },
+  {
+    "code": "NES",
+    "name": "Rhön-Grabfeld District"
+  },
+  {
+    "code": "NEW",
+    "name": "Neustadt an der Waldnaab District"
+  },
+  {
+    "code": "NF",
+    "name": "Nordfriesland District"
+  },
+  {
+    "code": "NH",
+    "name": "Sonneberg District"
+  },
+  {
+    "code": "NI",
+    "name": "Nienburg/Weser District"
+  },
+  {
+    "code": "NK",
+    "name": "Neunkirchen District"
+  },
+  {
+    "code": "NL",
+    "name": "Lower Saxony Government and Landtag"
+  },
+  {
+    "code": "NM",
+    "name": "Neumarkt in der Oberpfalz District"
+  },
+  {
+    "code": "NMB",
+    "name": "Burgenland District"
+  },
+  {
+    "code": "NMS",
+    "name": "Neumünster City"
+  },
+  {
+    "code": "NÖ",
+    "name": "Donau-Ries District"
+  },
+  {
+    "code": "NOH",
+    "name": "Grafschaft Bentheim District"
+  },
+  {
+    "code": "NOL",
+    "name": "Görlitz District"
+  },
+  {
+    "code": "NOM",
+    "name": "Northeim District"
+  },
+  {
+    "code": "NOR",
+    "name": "Aurich District"
+  },
+  {
+    "code": "NP",
+    "name": "Ostprignitz-Ruppin District"
+  },
+  {
+    "code": "NR",
+    "name": "Neuwied District(Excluding Neuwied City)"
+  },
+  {
+    "code": "NRW",
+    "name": "North Rhine-Westphalia Government, Landtag, and State Police"
+  },
+  {
+    "code": "NT",
+    "name": "Esslingen District"
+  },
+  {
+    "code": "NU",
+    "name": "Neu-Ulm District"
+  },
+  {
+    "code": "NVP",
+    "name": "Vorpommern-Rügen District(Excluding Stralsund City)"
+  },
+  {
+    "code": "NW",
+    "name": "Neustadt an der Weinstraße City"
+  },
+  {
+    "code": "NWM",
+    "name": "Nordwestmecklenburg District(Excluding Wismar City)"
+  },
+  {
+    "code": "NY",
+    "name": "Görlitz District"
+  },
+  {
+    "code": "NZ",
+    "name": "Mecklenburgische Seenplatte District(Excluding Neubrandenburg City)"
+  },
+  {
+    "code": "OA",
+    "name": "Oberallgäu District"
+  },
+  {
+    "code": "OAL",
+    "name": "Ostallgäu District"
+  },
+  {
+    "code": "OB",
+    "name": "Oberhausen City"
+  },
+  {
+    "code": "OBB",
+    "name": "Miltenberg District"
+  },
+  {
+    "code": "OBG",
+    "name": "Stendal District"
+  },
+  {
+    "code": "OC",
+    "name": "Börde District"
+  },
+  {
+    "code": "OCH",
+    "name": "Würzburg District"
+  },
+  {
+    "code": "OD",
+    "name": "Stormarn District"
+  },
+  {
+    "code": "OE",
+    "name": "Olpe District"
+  },
+  {
+    "code": "OF",
+    "name": "Offenbach DistrictOffenbach am Main City"
+  },
+  {
+    "code": "OG",
+    "name": "Ortenau District"
+  },
+  {
+    "code": "OH",
+    "name": "Ostholstein District"
+  },
+  {
+    "code": "OHA",
+    "name": "Göttingen District(Excluding Göttingen City)"
+  },
+  {
+    "code": "ÖHR",
+    "name": "Hohenlohe District"
+  },
+  {
+    "code": "OHV",
+    "name": "Oberhavel District"
+  },
+  {
+    "code": "OHZ",
+    "name": "Osterholz District"
+  },
+  {
+    "code": "OK",
+    "name": "Börde District"
+  },
+  {
+    "code": "OL",
+    "name": "Oldenburg City"
+  },
+  {
+    "code": "OP",
+    "name": "Leverkusen City"
+  },
+  {
+    "code": "OPR",
+    "name": "Ostprignitz-Ruppin District"
+  },
+  {
+    "code": "OS",
+    "name": "Osnabrück District"
+  },
+  {
+    "code": "OSL",
+    "name": "Oberspreewald-Lausitz District"
+  },
+  {
+    "code": "OTW",
+    "name": "Neunkirchen District"
+  },
+  {
+    "code": "OVI",
+    "name": "Schwandorf District"
+  },
+  {
+    "code": "OVL",
+    "name": "Vogtland District"
+  },
+  {
+    "code": "OZ",
+    "name": "Nordsachsen District"
+  },
+  {
+    "code": "P",
+    "name": "Potsdam City"
+  },
+  {
+    "code": "PA",
+    "name": "Passau City"
+  },
+  {
+    "code": "PAF",
+    "name": "Pfaffenhofen an der Ilm District"
+  },
+  {
+    "code": "PAN",
+    "name": "Rottal-Inn District"
+  },
+  {
+    "code": "PAR",
+    "name": "Kelheim District"
+  },
+  {
+    "code": "PB",
+    "name": "Paderborn District"
+  },
+  {
+    "code": "PCH",
+    "name": "Ludwigslust-Parchim District"
+  },
+  {
+    "code": "PE",
+    "name": "Peine District"
+  },
+  {
+    "code": "PEG",
+    "name": "Nürnberger Land District"
+  },
+  {
+    "code": "PF",
+    "name": "Pforzheim City"
+  },
+  {
+    "code": "PI",
+    "name": "Pinneberg District"
+  },
+  {
+    "code": "PIR",
+    "name": "Sächsische Schweiz-Osterzgebirge District"
+  },
+  {
+    "code": "PL",
+    "name": "Vogtland District"
+  },
+  {
+    "code": "PLÖ",
+    "name": "Plön District"
+  },
+  {
+    "code": "PM",
+    "name": "Potsdam-Mittelmark District"
+  },
+  {
+    "code": "PN",
+    "name": "Saale-Orla District"
+  },
+  {
+    "code": "PR",
+    "name": "Prignitz District"
+  },
+  {
+    "code": "PRÜ",
+    "name": "Eifel District Bitburg-Prüm"
+  },
+  {
+    "code": "PS",
+    "name": "Pirmasens City"
+  },
+  {
+    "code": "PW",
+    "name": "Vorpommern-Greifswald District(Excluding Greifswald City)"
+  },
+  {
+    "code": "PZ",
+    "name": "Uckermark District"
+  },
+  {
+    "code": "QFT",
+    "name": "Saale District"
+  },
+  {
+    "code": "QLB",
+    "name": "Harz District"
+  },
+  {
+    "code": "R",
+    "name": "Regensburg City"
+  },
+  {
+    "code": "RA",
+    "name": "Rastatt District"
+  },
+  {
+    "code": "RC",
+    "name": "Vogtland District"
+  },
+  {
+    "code": "RD",
+    "name": "Rendsburg-Eckernförde District"
+  },
+  {
+    "code": "RDG",
+    "name": "Vorpommern-Rügen District(Excluding Stralsund City)"
+  },
+  {
+    "code": "RE",
+    "name": "Recklinghausen District"
+  },
+  {
+    "code": "REG",
+    "name": "Regen District"
+  },
+  {
+    "code": "REH",
+    "name": "Wunsiedel im Fichtelgebirge District"
+  },
+  {
+    "code": "REI",
+    "name": "Berchtesgadener Land District"
+  },
+  {
+    "code": "RG",
+    "name": "Meißen District"
+  },
+  {
+    "code": "RH",
+    "name": "Roth District"
+  },
+  {
+    "code": "RI",
+    "name": "Schaumburg District"
+  },
+  {
+    "code": "RID",
+    "name": "Kelheim District"
+  },
+  {
+    "code": "RIE",
+    "name": "Meißen District"
+  },
+  {
+    "code": "RL",
+    "name": "Mittelsachsen District"
+  },
+  {
+    "code": "RM",
+    "name": "Mecklenburgische Seenplatte District(Excluding Neubrandenburg City)"
+  },
+  {
+    "code": "RN",
+    "name": "Havelland District"
+  },
+  {
+    "code": "RO",
+    "name": "Rosenheim District"
+  },
+  {
+    "code": "ROD",
+    "name": "Schwandorf District"
+  },
+  {
+    "code": "ROF",
+    "name": "Hersfeld-Rotenburg District"
+  },
+  {
+    "code": "ROK",
+    "name": "Donnersberg District"
+  },
+  {
+    "code": "ROL",
+    "name": "Landshut District"
+  },
+  {
+    "code": "ROS",
+    "name": "Rostock District"
+  },
+  {
+    "code": "ROT",
+    "name": "Ansbach District"
+  },
+  {
+    "code": "ROW",
+    "name": "Rotenburg (Wümme) District"
+  },
+  {
+    "code": "RP",
+    "name": "Rhein-Pfalz District"
+  },
+  {
+    "code": "RPL",
+    "name": "Rhineland-Palatinate Government, Landtag, and State Police"
+  },
+  {
+    "code": "RS",
+    "name": "Remscheid City"
+  },
+  {
+    "code": "RSL",
+    "name": "Dessau-Roßlau City"
+  },
+  {
+    "code": "RT",
+    "name": "Reutlingen District"
+  },
+  {
+    "code": "RU",
+    "name": "Saalfeld-Rudolstadt District"
+  },
+  {
+    "code": "RÜD",
+    "name": "Rheingau-Taunus District"
+  },
+  {
+    "code": "RÜG",
+    "name": "Vorpommern-Rügen District(Excluding Stralsund City)"
+  },
+  {
+    "code": "RV",
+    "name": "Ravensburg District"
+  },
+  {
+    "code": "RW",
+    "name": "Rottweil District"
+  },
+  {
+    "code": "RZ",
+    "name": "Herzogtum Lauenburg District"
+  },
+  {
+    "code": "S",
+    "name": "Stuttgart City"
+  },
+  {
+    "code": "SAB",
+    "name": "Trier-Saarburg District"
+  },
+  {
+    "code": "SAD",
+    "name": "Schwandorf District"
+  },
+  {
+    "code": "SÄK",
+    "name": "Waldshut District"
+  },
+  {
+    "code": "SAL",
+    "name": "Saarland Government, Landtag, and State Police"
+  },
+  {
+    "code": "SAN",
+    "name": "Kronach District"
+  },
+  {
+    "code": "SAW",
+    "name": "Altmark District Salzwedel"
+  },
+  {
+    "code": "SB",
+    "name": "Saarbrücken Region(Excluding Völklingen City)"
+  },
+  {
+    "code": "SBG",
+    "name": "Vorpommern-Greifswald District(Excluding Greifswald City)"
+  },
+  {
+    "code": "SBK",
+    "name": "Salzland District"
+  },
+  {
+    "code": "SC",
+    "name": "Schwabach City"
+  },
+  {
+    "code": "SCZ",
+    "name": "Saale-Orla District"
+  },
+  {
+    "code": "SDH",
+    "name": "Kyffhäuser Dristrict"
+  },
+  {
+    "code": "SDL",
+    "name": "Stendal District"
+  },
+  {
+    "code": "SDT",
+    "name": "Uckermark District"
+  },
+  {
+    "code": "SE",
+    "name": "Segeberg District"
+  },
+  {
+    "code": "SEB",
+    "name": "Sächsische Schweiz-Osterzgebirge District"
+  },
+  {
+    "code": "SEE",
+    "name": "Märkisch-Oderland District"
+  },
+  {
+    "code": "SEF",
+    "name": "Neustadt an der Aisch-Bad Windsheim District"
+  },
+  {
+    "code": "SEL",
+    "name": "Wunsiedel im Fichtelgebirge District"
+  },
+  {
+    "code": "SFB",
+    "name": "Oberspreewald-Lausitz District"
+  },
+  {
+    "code": "SFT",
+    "name": "Salzland District"
+  },
+  {
+    "code": "SG",
+    "name": "Solingen City"
+  },
+  {
+    "code": "SGH",
+    "name": "Mansfeld-Südharz District"
+  },
+  {
+    "code": "SH",
+    "name": "Schleswig-Holstein Government, Landtag, and Schleswig-Holstein Police"
+  },
+  {
+    "code": "SHA",
+    "name": "Schwäbisch Hall District"
+  },
+  {
+    "code": "SHG",
+    "name": "Schaumburg District"
+  },
+  {
+    "code": "SHK",
+    "name": "Saale-Holzland District"
+  },
+  {
+    "code": "SHL",
+    "name": "Suhl City"
+  },
+  {
+    "code": "SI",
+    "name": "Siegen-Wittgenstein District"
+  },
+  {
+    "code": "SIG",
+    "name": "Sigmaringen District"
+  },
+  {
+    "code": "SIM",
+    "name": "Rhein-Hunsrück District"
+  },
+  {
+    "code": "SK",
+    "name": "Saale District"
+  },
+  {
+    "code": "SL",
+    "name": "Schleswig-Flensburg District"
+  },
+  {
+    "code": "SLE",
+    "name": "Düren DistrictEuskirchen District"
+  },
+  {
+    "code": "SLF",
+    "name": "Saalfeld-Rudolstadt District"
+  },
+  {
+    "code": "SLG",
+    "name": "Ravensburg District"
+  },
+  {
+    "code": "SLK",
+    "name": "Salzland District"
+  },
+  {
+    "code": "SLN",
+    "name": "Altenburger Land District"
+  },
+  {
+    "code": "SLS",
+    "name": "Saarlouis District"
+  },
+  {
+    "code": "SLÜ",
+    "name": "Main-Kinzig District(Excluding Hanau City)"
+  },
+  {
+    "code": "SLZ",
+    "name": "Wartburg District"
+  },
+  {
+    "code": "SM",
+    "name": "Schmalkalden-Meiningen District"
+  },
+  {
+    "code": "SMÜ",
+    "name": "Augsburg District"
+  },
+  {
+    "code": "SN",
+    "name": "Schwerin City"
+  },
+  {
+    "code": "SO",
+    "name": "Soest District"
+  },
+  {
+    "code": "SOB",
+    "name": "Neuburg-Schrobenhausen District"
+  },
+  {
+    "code": "SOG",
+    "name": "Weilheim-Schongau District"
+  },
+  {
+    "code": "SOK",
+    "name": "Saale-Orla District"
+  },
+  {
+    "code": "SÖM",
+    "name": "Sömmerda District"
+  },
+  {
+    "code": "SON",
+    "name": "Sonneberg District"
+  },
+  {
+    "code": "SP",
+    "name": "Speyer City"
+  },
+  {
+    "code": "SPB",
+    "name": "Spree-Neiße District"
+  },
+  {
+    "code": "SPN",
+    "name": "Spree-Neiße District"
+  },
+  {
+    "code": "SR",
+    "name": "Straubing City"
+  },
+  {
+    "code": "SRB",
+    "name": "Märkisch-Oderland District"
+  },
+  {
+    "code": "SRO",
+    "name": "Saale-Holzland District"
+  },
+  {
+    "code": "ST",
+    "name": "Steinfurt District"
+  },
+  {
+    "code": "STA",
+    "name": "Starnberg District"
+  },
+  {
+    "code": "STB",
+    "name": "Ludwigslust-Parchim District"
+  },
+  {
+    "code": "STD",
+    "name": "Stade District"
+  },
+  {
+    "code": "STE",
+    "name": "Lichtenfels District"
+  },
+  {
+    "code": "STL",
+    "name": "Erzgebirge District"
+  },
+  {
+    "code": "STO",
+    "name": "Sigmaringen District"
+  },
+  {
+    "code": "SU",
+    "name": "Rhein-Sieg District"
+  },
+  {
+    "code": "SUL",
+    "name": "Amberg-Sulzbach District"
+  },
+  {
+    "code": "SÜW",
+    "name": "Südliche Weinstraße District"
+  },
+  {
+    "code": "SW",
+    "name": "Schweinfurt District"
+  },
+  {
+    "code": "SWA",
+    "name": "Rheingau-Taunus District"
+  },
+  {
+    "code": "SY",
+    "name": "Diepholz District"
+  },
+  {
+    "code": "SZ",
+    "name": "Salzgitter City"
+  },
+  {
+    "code": "SZB",
+    "name": "Erzgebirge District"
+  },
+  {
+    "code": "TBB",
+    "name": "Main-Tauber District"
+  },
+  {
+    "code": "TDO",
+    "name": "Nordsachsen District"
+  },
+  {
+    "code": "TE",
+    "name": "Steinfurt District"
+  },
+  {
+    "code": "TET",
+    "name": "Rostock District"
+  },
+  {
+    "code": "TF",
+    "name": "Teltow-Fläming District"
+  },
+  {
+    "code": "TG",
+    "name": "Nordsachsen District"
+  },
+  {
+    "code": "THL",
+    "name": "Thuringia Government and Landtag"
+  },
+  {
+    "code": "THW",
+    "name": "Federal Agency for Technical Relief"
+  },
+  {
+    "code": "TIR",
+    "name": "Tirschenreuth District"
+  },
+  {
+    "code": "TO",
+    "name": "Nordsachsen District"
+  },
+  {
+    "code": "TÖL",
+    "name": "Bad Tölz-Wolfratshausen District"
+  },
+  {
+    "code": "TP",
+    "name": "Uckermark District"
+  },
+  {
+    "code": "TR",
+    "name": "Trier-Saarburg DistrictTrier City"
+  },
+  {
+    "code": "TS",
+    "name": "Traunstein District"
+  },
+  {
+    "code": "TT",
+    "name": "Bodensee (Lake Constance) District"
+  },
+  {
+    "code": "TÜ",
+    "name": "Tübingen District"
+  },
+  {
+    "code": "TUT",
+    "name": "Tuttlingen District"
+  },
+  {
+    "code": "ÜB",
+    "name": "Sigmaringen District"
+  },
+  {
+    "code": "UE",
+    "name": "Uelzen District"
+  },
+  {
+    "code": "UEM",
+    "name": "Vorpommern-Greifswald District(Excluding Greifswald City)"
+  },
+  {
+    "code": "UFF",
+    "name": "Neustadt an der Aisch-Bad Windsheim District"
+  },
+  {
+    "code": "UH",
+    "name": "Unstrut-Hainich District"
+  },
+  {
+    "code": "UL",
+    "name": "Alb-Donau District"
+  },
+  {
+    "code": "UM",
+    "name": "Uckermark District"
+  },
+  {
+    "code": "UN",
+    "name": "Unna District"
+  },
+  {
+    "code": "USI",
+    "name": "Hochtaunus District"
+  },
+  {
+    "code": "V",
+    "name": "Vogtland District"
+  },
+  {
+    "code": "VAI",
+    "name": "Ludwigsburg District"
+  },
+  {
+    "code": "VB",
+    "name": "Vogelsberg District"
+  },
+  {
+    "code": "VEC",
+    "name": "Vechta District"
+  },
+  {
+    "code": "VER",
+    "name": "Verden District"
+  },
+  {
+    "code": "VG",
+    "name": "Vorpommern-Greifswald District(Excluding Greifswald City)"
+  },
+  {
+    "code": "VIB",
+    "name": "Rottal-Inn District"
+  },
+  {
+    "code": "VIE",
+    "name": "Viersen District"
+  },
+  {
+    "code": "VIT",
+    "name": "Regen District"
+  },
+  {
+    "code": "VK",
+    "name": "Völklingen City(A subdivision of Saarbrücken Region)"
+  },
+  {
+    "code": "VOH",
+    "name": "Neustadt an der Waldnaab District"
+  },
+  {
+    "code": "VR",
+    "name": "Vorpommern-Rügen District(Excluding Stralsund City)"
+  },
+  {
+    "code": "VS",
+    "name": "Schwarzwald-Baar District"
+  },
+  {
+    "code": "W",
+    "name": "Wuppertal City"
+  },
+  {
+    "code": "WA",
+    "name": "Waldeck-Frankenberg District"
+  },
+  {
+    "code": "WAF",
+    "name": "Warendorf District"
+  },
+  {
+    "code": "WAK",
+    "name": "Wartburg District"
+  },
+  {
+    "code": "WAN",
+    "name": "Herne City"
+  },
+  {
+    "code": "WAR",
+    "name": "Höxter District"
+  },
+  {
+    "code": "WAT",
+    "name": "Bochum City"
+  },
+  {
+    "code": "WB",
+    "name": "Wittenberg District"
+  },
+  {
+    "code": "WBS",
+    "name": "Eichsfeld District"
+  },
+  {
+    "code": "WDA",
+    "name": "Zwickau District"
+  },
+  {
+    "code": "WE",
+    "name": "Weimar City"
+  },
+  {
+    "code": "WEL",
+    "name": "Limburg-Weilburg District"
+  },
+  {
+    "code": "WEN",
+    "name": "Weiden in der Oberpfalz City"
+  },
+  {
+    "code": "WER",
+    "name": "Augsburg District"
+  },
+  {
+    "code": "WES",
+    "name": "Wesel District"
+  },
+  {
+    "code": "WF",
+    "name": "Wolfenbüttel District"
+  },
+  {
+    "code": "WG",
+    "name": "Ravensburg District"
+  },
+  {
+    "code": "WHV",
+    "name": "Wilhelmshaven City"
+  },
+  {
+    "code": "WI",
+    "name": "Wiesbaden City"
+  },
+  {
+    "code": "WIL",
+    "name": "Bernkastel-Wittlich District"
+  },
+  {
+    "code": "WIS",
+    "name": "Nordwestmecklenburg District(Excluding Wismar City)"
+  },
+  {
+    "code": "WIT",
+    "name": "Ennepe-Ruhr District"
+  },
+  {
+    "code": "WIZ",
+    "name": "Werra-Meißner District"
+  },
+  {
+    "code": "WK",
+    "name": "Ostprignitz-Ruppin District"
+  },
+  {
+    "code": "WL",
+    "name": "Harburg District"
+  },
+  {
+    "code": "WLG",
+    "name": "Vorpommern-Greifswald District(Excluding Greifswald City)"
+  },
+  {
+    "code": "WM",
+    "name": "Weilheim-Schongau District"
+  },
+  {
+    "code": "WMS",
+    "name": "Börde District"
+  },
+  {
+    "code": "WN",
+    "name": "Rems-Murr District"
+  },
+  {
+    "code": "WND",
+    "name": "Sankt Wendel District"
+  },
+  {
+    "code": "WO",
+    "name": "Worms City"
+  },
+  {
+    "code": "WOB",
+    "name": "Wolfsburg City"
+  },
+  {
+    "code": "WOH",
+    "name": "Kassel District"
+  },
+  {
+    "code": "WOL",
+    "name": "Freudenstadt District"
+  },
+  {
+    "code": "WOR",
+    "name": "Munich District"
+  },
+  {
+    "code": "WOS",
+    "name": "Freyung-Grafenau District"
+  },
+  {
+    "code": "WR",
+    "name": "Harz District"
+  },
+  {
+    "code": "WRN",
+    "name": "Mecklenburgische Seenplatte District(Excluding Neubrandenburg City)"
+  },
+  {
+    "code": "WS",
+    "name": "Mühldorf am Inn District"
+  },
+  {
+    "code": "WSF",
+    "name": "Burgenland District"
+  },
+  {
+    "code": "WST",
+    "name": "Ammerland District"
+  },
+  {
+    "code": "WSW",
+    "name": "Görlitz District"
+  },
+  {
+    "code": "WT",
+    "name": "Waldshut District"
+  },
+  {
+    "code": "WTL",
+    "name": "Osnabrück District"
+  },
+  {
+    "code": "WTM",
+    "name": "Wittmund District"
+  },
+  {
+    "code": "WÜ",
+    "name": "Würzburg City"
+  },
+  {
+    "code": "WUG",
+    "name": "Weißenburg-Gunzenhausen District"
+  },
+  {
+    "code": "WÜM",
+    "name": "Cham District"
+  },
+  {
+    "code": "WUN",
+    "name": "Wunsiedel im Fichtelgebirge District"
+  },
+  {
+    "code": "WUR",
+    "name": "Leipzig District"
+  },
+  {
+    "code": "WW",
+    "name": "Westerwald District"
+  },
+  {
+    "code": "WZ",
+    "name": "Lahn-Dill District"
+  },
+  {
+    "code": "WZL",
+    "name": "Börde District"
+  },
+  {
+    "code": "X",
+    "name": "NATO Headquarters in Germany"
+  },
+  {
+    "code": "Y",
+    "name": "Bundeswehr (German Federal Military)"
+  },
+  {
+    "code": "Z",
+    "name": "Zwickau District"
+  },
+  {
+    "code": "ZE",
+    "name": "Anhalt-Bitterfeld District"
+  },
+  {
+    "code": "ZEL",
+    "name": "Cochem-Zell District"
+  },
+  {
+    "code": "ZI",
+    "name": "Görlitz District"
+  },
+  {
+    "code": "ZIG",
+    "name": "Schwalm-Eder District"
+  },
+  {
+    "code": "ZP",
+    "name": "Erzgebirge District"
+  },
+  {
+    "code": "ZR",
+    "name": "Greiz District"
+  },
+  {
+    "code": "ZW",
+    "name": "Zweibrücken City"
+  },
+  {
+    "code": "ZZ",
+    "name": "Burgenland District"
+  }
+]

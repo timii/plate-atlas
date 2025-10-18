@@ -1,0 +1,582 @@
+[
+  {
+    "code": "01",
+    "name": "Republic of Adygea"
+  },
+  {
+    "code": "02",
+    "name": "Republic of Bashkortostan"
+  },
+  {
+    "code": "102",
+    "name": "Republic of Bashkortostan"
+  },
+  {
+    "code": "702",
+    "name": "Republic of Bashkortostan"
+  },
+  {
+    "code": "03",
+    "name": "Republic of Buryatia"
+  },
+  {
+    "code": "04",
+    "name": "Altai Republic"
+  },
+  {
+    "code": "05",
+    "name": "Republic of Dagestan"
+  },
+  {
+    "code": "105",
+    "name": "Republic of Dagestan"
+  },
+  {
+    "code": "06",
+    "name": "Republic of Ingushetia"
+  },
+  {
+    "code": "07",
+    "name": "Kabardino-Balkar Republic"
+  },
+  {
+    "code": "08",
+    "name": "Republic of Kalmykia"
+  },
+  {
+    "code": "09",
+    "name": "Karachay-Cherkess Republic"
+  },
+  {
+    "code": "10",
+    "name": "Republic of Karelia"
+  },
+  {
+    "code": "11",
+    "name": "Komi Republic"
+  },
+  {
+    "code": "12",
+    "name": "Mari El Republic"
+  },
+  {
+    "code": "13",
+    "name": "Republic of Mordovia"
+  },
+  {
+    "code": "113",
+    "name": "Republic of Mordovia"
+  },
+  {
+    "code": "14",
+    "name": "Sakha Republic"
+  },
+  {
+    "code": "15",
+    "name": "Republic of North Ossetia-Alania"
+  },
+  {
+    "code": "16",
+    "name": "Republic of Tatarstan"
+  },
+  {
+    "code": "116",
+    "name": "Republic of Tatarstan"
+  },
+  {
+    "code": "716",
+    "name": "Republic of Tatarstan"
+  },
+  {
+    "code": "17",
+    "name": "Tuva Republic"
+  },
+  {
+    "code": "18",
+    "name": "Udmurt Republic"
+  },
+  {
+    "code": "19",
+    "name": "Republic of Khakassia"
+  },
+  {
+    "code": "95",
+    "name": "Chechen Republic"
+  },
+  {
+    "code": "21",
+    "name": "Chuvash Republic"
+  },
+  {
+    "code": "121",
+    "name": "Chuvash Republic"
+  },
+  {
+    "code": "22",
+    "name": "Altai Krai"
+  },
+  {
+    "code": "23",
+    "name": "Krasnodar Krai"
+  },
+  {
+    "code": "93",
+    "name": "Krasnodar Krai"
+  },
+  {
+    "code": "123",
+    "name": "Krasnodar Krai"
+  },
+  {
+    "code": "193",
+    "name": "Krasnodar Krai"
+  },
+  {
+    "code": "323",
+    "name": "Krasnodar Krai"
+  },
+  {
+    "code": "24",
+    "name": "Krasnoyarsk Krai"
+  },
+  {
+    "code": "84",
+    "name": "Krasnoyarsk Krai"
+  },
+  {
+    "code": "88",
+    "name": "Krasnoyarsk Krai"
+  },
+  {
+    "code": "124",
+    "name": "Krasnoyarsk Krai"
+  },
+  {
+    "code": "25",
+    "name": "Primorsky Krai"
+  },
+  {
+    "code": "125",
+    "name": "Primorsky Krai"
+  },
+  {
+    "code": "26",
+    "name": "Stavropol Krai"
+  },
+  {
+    "code": "126",
+    "name": "Stavropol Krai"
+  },
+  {
+    "code": "27",
+    "name": "Khabarovsk Krai"
+  },
+  {
+    "code": "28",
+    "name": "Amur Oblast"
+  },
+  {
+    "code": "29",
+    "name": "Arkhangelsk Oblast"
+  },
+  {
+    "code": "30",
+    "name": "Astrakhan Oblast"
+  },
+  {
+    "code": "31",
+    "name": "Belgorod Oblast"
+  },
+  {
+    "code": "32",
+    "name": "Bryansk Oblast"
+  },
+  {
+    "code": "33",
+    "name": "Vladimir Oblast"
+  },
+  {
+    "code": "34",
+    "name": "Volgograd Oblast"
+  },
+  {
+    "code": "134",
+    "name": "Volgograd Oblast"
+  },
+  {
+    "code": "35",
+    "name": "Vologda Oblast"
+  },
+  {
+    "code": "36",
+    "name": "Voronezh Oblast"
+  },
+  {
+    "code": "136",
+    "name": "Voronezh Oblast"
+  },
+  {
+    "code": "37",
+    "name": "Ivanovo Oblast"
+  },
+  {
+    "code": "38",
+    "name": "Irkutsk Oblast"
+  },
+  {
+    "code": "85",
+    "name": "Irkutsk Oblast"
+  },
+  {
+    "code": "138",
+    "name": "Irkutsk Oblast"
+  },
+  {
+    "code": "39",
+    "name": "Kaliningrad Oblast"
+  },
+  {
+    "code": "40",
+    "name": "Kaluga Oblast"
+  },
+  {
+    "code": "41",
+    "name": "Kamchatka Krai"
+  },
+  {
+    "code": "82",
+    "name": "Kamchatka Krai"
+  },
+  {
+    "code": "42",
+    "name": "Kemerovo Oblast"
+  },
+  {
+    "code": "142",
+    "name": "Kemerovo Oblast"
+  },
+  {
+    "code": "43",
+    "name": "Kirov Oblast"
+  },
+  {
+    "code": "44",
+    "name": "Kostroma Oblast"
+  },
+  {
+    "code": "45",
+    "name": "Kurgan Oblast"
+  },
+  {
+    "code": "46",
+    "name": "Kursk Oblast"
+  },
+  {
+    "code": "47",
+    "name": "Leningrad Oblast"
+  },
+  {
+    "code": "147",
+    "name": "Leningrad Oblast"
+  },
+  {
+    "code": "48",
+    "name": "Lipetsk Oblast"
+  },
+  {
+    "code": "49",
+    "name": "Magadan Oblast"
+  },
+  {
+    "code": "50",
+    "name": "Moscow Oblast"
+  },
+  {
+    "code": "90",
+    "name": "Moscow Oblast"
+  },
+  {
+    "code": "150",
+    "name": "Moscow Oblast"
+  },
+  {
+    "code": "190",
+    "name": "Moscow Oblast"
+  },
+  {
+    "code": "750",
+    "name": "Moscow Oblast"
+  },
+  {
+    "code": "790",
+    "name": "Moscow Oblast"
+  },
+  {
+    "code": "250",
+    "name": "Moscow Oblast"
+  },
+  {
+    "code": "550",
+    "name": "Moscow Oblast"
+  },
+  {
+    "code": "51",
+    "name": "Murmansk Oblast"
+  },
+  {
+    "code": "52",
+    "name": "Nizhny Novgorod Oblast"
+  },
+  {
+    "code": "152",
+    "name": "Nizhny Novgorod Oblast"
+  },
+  {
+    "code": "252",
+    "name": "Nizhny Novgorod Oblast"
+  },
+  {
+    "code": "53",
+    "name": "Novgorod Oblast"
+  },
+  {
+    "code": "54",
+    "name": "Novosibirsk Oblast"
+  },
+  {
+    "code": "154",
+    "name": "Novosibirsk Oblast"
+  },
+  {
+    "code": "55",
+    "name": "Omsk Oblast"
+  },
+  {
+    "code": "155",
+    "name": "Omsk Oblast"
+  },
+  {
+    "code": "56",
+    "name": "Orenburg Oblast"
+  },
+  {
+    "code": "156",
+    "name": "Orenburg Oblast"
+  },
+  {
+    "code": "57",
+    "name": "Oryol Oblast"
+  },
+  {
+    "code": "58",
+    "name": "Penza Oblast"
+  },
+  {
+    "code": "59",
+    "name": "Perm Krai"
+  },
+  {
+    "code": "81",
+    "name": "Perm Krai"
+  },
+  {
+    "code": "159",
+    "name": "Perm Krai"
+  },
+  {
+    "code": "60",
+    "name": "Pskov Oblast"
+  },
+  {
+    "code": "61",
+    "name": "Rostov Oblast"
+  },
+  {
+    "code": "161",
+    "name": "Rostov Oblast"
+  },
+  {
+    "code": "761",
+    "name": "Rostov Oblast"
+  },
+  {
+    "code": "62",
+    "name": "Ryazan Oblast"
+  },
+  {
+    "code": "63",
+    "name": "Samara Oblast"
+  },
+  {
+    "code": "163",
+    "name": "Samara Oblast"
+  },
+  {
+    "code": "763",
+    "name": "Samara Oblast"
+  },
+  {
+    "code": "64",
+    "name": "Saratov Oblast"
+  },
+  {
+    "code": "164",
+    "name": "Saratov Oblast"
+  },
+  {
+    "code": "65",
+    "name": "Sakhalin Oblast"
+  },
+  {
+    "code": "66",
+    "name": "Sverdlovsk Oblast"
+  },
+  {
+    "code": "96",
+    "name": "Sverdlovsk Oblast"
+  },
+  {
+    "code": "196",
+    "name": "Sverdlovsk Oblast"
+  },
+  {
+    "code": "67",
+    "name": "Smolensk Oblast"
+  },
+  {
+    "code": "68",
+    "name": "Tambov Oblast"
+  },
+  {
+    "code": "69",
+    "name": "Tver Oblast"
+  },
+  {
+    "code": "70",
+    "name": "Tomsk Oblast"
+  },
+  {
+    "code": "71",
+    "name": "Tula Oblast"
+  },
+  {
+    "code": "72",
+    "name": "Tyumen Oblast"
+  },
+  {
+    "code": "172",
+    "name": "Tyumen Oblast"
+  },
+  {
+    "code": "73",
+    "name": "Ulyanovsk Oblast"
+  },
+  {
+    "code": "173",
+    "name": "Ulyanovsk Oblast"
+  },
+  {
+    "code": "74",
+    "name": "Chelyabinsk Oblast"
+  },
+  {
+    "code": "174",
+    "name": "Chelyabinsk Oblast"
+  },
+  {
+    "code": "774",
+    "name": "Chelyabinsk Oblast"
+  },
+  {
+    "code": "75",
+    "name": "Zabaykalsky Krai"
+  },
+  {
+    "code": "80",
+    "name": "Zabaykalsky Krai"
+  },
+  {
+    "code": "76",
+    "name": "Yaroslavl Oblast"
+  },
+  {
+    "code": "77",
+    "name": "Moscow"
+  },
+  {
+    "code": "97",
+    "name": "Moscow"
+  },
+  {
+    "code": "99",
+    "name": "Moscow"
+  },
+  {
+    "code": "177",
+    "name": "Moscow"
+  },
+  {
+    "code": "197",
+    "name": "Moscow"
+  },
+  {
+    "code": "199",
+    "name": "Moscow"
+  },
+  {
+    "code": "777",
+    "name": "Moscow"
+  },
+  {
+    "code": "797",
+    "name": "Moscow"
+  },
+  {
+    "code": "799",
+    "name": "Moscow"
+  },
+  {
+    "code": "977",
+    "name": "Moscow"
+  },
+  {
+    "code": "78",
+    "name": "St. Petersburg"
+  },
+  {
+    "code": "98",
+    "name": "St. Petersburg"
+  },
+  {
+    "code": "178",
+    "name": "St. Petersburg"
+  },
+  {
+    "code": "198",
+    "name": "St. Petersburg"
+  },
+  {
+    "code": "79",
+    "name": "Jewish Autonomous Oblast"
+  },
+  {
+    "code": "83",
+    "name": "Nenets Autonomous Okrug"
+  },
+  {
+    "code": "86",
+    "name": "Khanty-Mansi Autonomous Okrug"
+  },
+  {
+    "code": "186",
+    "name": "Khanty-Mansi Autonomous Okrug"
+  },
+  {
+    "code": "87",
+    "name": "Chukotka Autonomous Okrug"
+  },
+  {
+    "code": "89",
+    "name": "Yamalo-Nenets Autonomous Okrug"
+  }
+]

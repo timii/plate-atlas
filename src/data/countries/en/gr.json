@@ -1,0 +1,782 @@
+[
+  {
+    "code": "ΑΑ",
+    "name": "Achaia"
+  },
+  {
+    "code": "ΑΒ",
+    "name": "Kavala"
+  },
+  {
+    "code": "ΑΕ",
+    "name": "Lasithi"
+  },
+  {
+    "code": "ΑΖ",
+    "name": "Achaia"
+  },
+  {
+    "code": "ΑΗ",
+    "name": "Xanthi"
+  },
+  {
+    "code": "ΑΙ",
+    "name": "Aitoloakarnania"
+  },
+  {
+    "code": "ΑΚ",
+    "name": "Laconia"
+  },
+  {
+    "code": "ΑΜ",
+    "name": "Phokida"
+  },
+  {
+    "code": "ΑΝ",
+    "name": "Lasithi"
+  },
+  {
+    "code": "ΑΟ",
+    "name": "Achaia"
+  },
+  {
+    "code": "ΑΡ",
+    "name": "Argolis"
+  },
+  {
+    "code": "ΑΤ",
+    "name": "Arta"
+  },
+  {
+    "code": "AY",
+    "name": "Achaia"
+  },
+  {
+    "code": "ΑΧ",
+    "name": "Achaia"
+  },
+  {
+    "code": "ΒΑ",
+    "name": "Magnesia"
+  },
+  {
+    "code": "ΒΒ",
+    "name": "Magnesia"
+  },
+  {
+    "code": "ΒΕ",
+    "name": "Piraeus"
+  },
+  {
+    "code": "BZ",
+    "name": "Piraeus"
+  },
+  {
+    "code": "ΒΗ",
+    "name": "Piraeus"
+  },
+  {
+    "code": "ΒΙ",
+    "name": "Boeotia"
+  },
+  {
+    "code": "ΒΚ",
+    "name": "East Attica"
+  },
+  {
+    "code": "ΒΜ",
+    "name": "East Attica"
+  },
+  {
+    "code": "ΒΝ",
+    "name": "West Attica"
+  },
+  {
+    "code": "ΒΟ",
+    "name": "Magnesia"
+  },
+  {
+    "code": "ΒΡ",
+    "name": "West Attica"
+  },
+  {
+    "code": "ΒΤ",
+    "name": "Magnesia"
+  },
+  {
+    "code": "ΒΥ",
+    "name": "Boeotia"
+  },
+  {
+    "code": "ΒΧ",
+    "name": "Piraeus"
+  },
+  {
+    "code": "ΕΑ",
+    "name": "Dodecanese"
+  },
+  {
+    "code": "ΕΒ",
+    "name": "Evros"
+  },
+  {
+    "code": "ΕΕ",
+    "name": "Pella"
+  },
+  {
+    "code": "ΕΖ",
+    "name": "Cyclades"
+  },
+  {
+    "code": "ΕΗ",
+    "name": "Euboea"
+  },
+  {
+    "code": "EI",
+    "name": "Euboea"
+  },
+  {
+    "code": "EK",
+    "name": "Trucks"
+  },
+  {
+    "code": "ΕΜ",
+    "name": "Cyclades"
+  },
+  {
+    "code": "ΕΡ",
+    "name": "Serres"
+  },
+  {
+    "code": "ΕΤ",
+    "name": "Corfu"
+  },
+  {
+    "code": "ΕΥ",
+    "name": "Lefkada"
+  },
+  {
+    "code": "ΕΧ",
+    "name": "Kilkis"
+  },
+  {
+    "code": "ΖΑ",
+    "name": "Zakynthos"
+  },
+  {
+    "code": "ΖΒ",
+    "name": "Zakynthos"
+  },
+  {
+    "code": "ΖΕ",
+    "name": "Thessaloniki"
+  },
+  {
+    "code": "ΖΖ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΖΗ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΖΙ",
+    "name": "Thessaloniki"
+  },
+  {
+    "code": "ΖΚ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΖΜ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΖΝ",
+    "name": "Piraeus"
+  },
+  {
+    "code": "ΖΟ",
+    "name": "Thessaloniki"
+  },
+  {
+    "code": "ΖΡ",
+    "name": "Piraeus"
+  },
+  {
+    "code": "ΖΤ",
+    "name": "West Attica"
+  },
+  {
+    "code": "ΖΥ",
+    "name": "East Attica"
+  },
+  {
+    "code": "ΖΧ",
+    "name": "East Attica"
+  },
+  {
+    "code": "ΗΑ",
+    "name": "Ilia"
+  },
+  {
+    "code": "ΗΒ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΗΕ",
+    "name": "Ilia"
+  },
+  {
+    "code": "ΗΖ",
+    "name": "Heraklion"
+  },
+  {
+    "code": "ΗΗ",
+    "name": "Heraklion"
+  },
+  {
+    "code": "ΗΙ",
+    "name": "Heraklion"
+  },
+  {
+    "code": "ΗΚ",
+    "name": "Heraklion"
+  },
+  {
+    "code": "ΗΜ",
+    "name": "Imathia"
+  },
+  {
+    "code": "ΗΝ",
+    "name": "Thesprotia"
+  },
+  {
+    "code": "ΗΟ",
+    "name": "Xanthi"
+  },
+  {
+    "code": "ΗΡ",
+    "name": "Heraklion"
+  },
+  {
+    "code": "ΗΤ",
+    "name": "Xanthi"
+  },
+  {
+    "code": "ΗΥ",
+    "name": "Phthiotis"
+  },
+  {
+    "code": "ΗΧ",
+    "name": "Imathia"
+  },
+  {
+    "code": "ΙΑ",
+    "name": "Trucks"
+  },
+  {
+    "code": "ΙΒ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΙΕ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΙΖ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΙΗ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΙΙ",
+    "name": "Ioannina"
+  },
+  {
+    "code": "ΙΚ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΙΜ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΙΝ",
+    "name": "Ioannina"
+  },
+  {
+    "code": "ΙΟ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΙΡ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΙΤ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΙΥ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΙΧ",
+    "name": "Serres"
+  },
+  {
+    "code": "ΚΑ",
+    "name": "Karditsa"
+  },
+  {
+    "code": "ΚΒ",
+    "name": "Kavala"
+  },
+  {
+    "code": "ΚΕ",
+    "name": "Kefalonia and Ithaca"
+  },
+  {
+    "code": "ΚΖ",
+    "name": "Kozani"
+  },
+  {
+    "code": "ΚΗ",
+    "name": "Evrytania"
+  },
+  {
+    "code": "ΚΙ",
+    "name": "Kilkis"
+  },
+  {
+    "code": "ΚΚ",
+    "name": "Rhodope"
+  },
+  {
+    "code": "ΚΜ",
+    "name": "Messinia"
+  },
+  {
+    "code": "ΚΝ",
+    "name": "Pieria"
+  },
+  {
+    "code": "ΚΟ",
+    "name": "Rhodope"
+  },
+  {
+    "code": "ΚΡ",
+    "name": "Corinthia"
+  },
+  {
+    "code": "ΚΤ",
+    "name": "Kastoria"
+  },
+  {
+    "code": "ΚΥ",
+    "name": "Corfu"
+  },
+  {
+    "code": "ΚΧ",
+    "name": "Dodecanese"
+  },
+  {
+    "code": "ΜΑ",
+    "name": "Chalkidiki"
+  },
+  {
+    "code": "ΜΒ",
+    "name": "Samos"
+  },
+  {
+    "code": "ΜΕ",
+    "name": "Aitoloakarnania"
+  },
+  {
+    "code": "ΜΖ",
+    "name": "Messinia"
+  },
+  {
+    "code": "ΜΗ",
+    "name": "Lesvos"
+  },
+  {
+    "code": "ΜΙ",
+    "name": "Phthiotis"
+  },
+  {
+    "code": "ΜΚ",
+    "name": "Karditsa"
+  },
+  {
+    "code": "ΜΜ",
+    "name": "Pella"
+  },
+  {
+    "code": "ΜΝ",
+    "name": "Kozani"
+  },
+  {
+    "code": "ΜΟ",
+    "name": "Samos"
+  },
+  {
+    "code": "ΜΡ",
+    "name": "Laconia"
+  },
+  {
+    "code": "ΜΤ",
+    "name": "Lesbos"
+  },
+  {
+    "code": "ΜΥ",
+    "name": "Lesbos"
+  },
+  {
+    "code": "ΜΧ",
+    "name": "Evros"
+  },
+  {
+    "code": "ΝΑ",
+    "name": "Thessaloniki"
+  },
+  {
+    "code": "ΝΒ",
+    "name": "Thessaloniki"
+  },
+  {
+    "code": "ΝΕ",
+    "name": "Thessaloniki"
+  },
+  {
+    "code": "ΝΖ",
+    "name": "Thessaloniki"
+  },
+  {
+    "code": "ΝΗ",
+    "name": "Thessaloniki"
+  },
+  {
+    "code": "ΝΙ",
+    "name": "Thessaloniki"
+  },
+  {
+    "code": "ΝΚ",
+    "name": "Thessaloniki"
+  },
+  {
+    "code": "ΝΜ",
+    "name": "Thessaloniki"
+  },
+  {
+    "code": "ΝΝ",
+    "name": "Thessaloniki"
+  },
+  {
+    "code": "ΝΟ",
+    "name": "Thessaloniki"
+  },
+  {
+    "code": "ΝΡ",
+    "name": "Thessaloniki"
+  },
+  {
+    "code": "ΝΤ",
+    "name": "Thessaloniki"
+  },
+  {
+    "code": "ΝΥ",
+    "name": "Thessaloniki"
+  },
+  {
+    "code": "NX",
+    "name": "Thessaloniki"
+  },
+  {
+    "code": "ΝΧ",
+    "name": "Trucks"
+  },
+  {
+    "code": "ΟΑ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΟΒ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΟΕ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΟΖ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΟΗ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΟΙ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΟΚ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΟΜ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΟΝ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΟΟ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΟΡ",
+    "name": "Evros"
+  },
+  {
+    "code": "ΟΤ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΟΥ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΟΧ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΡΑ",
+    "name": "Florina"
+  },
+  {
+    "code": "ΡΒ",
+    "name": "Corinthia"
+  },
+  {
+    "code": "ΡΕ",
+    "name": "Rethymno"
+  },
+  {
+    "code": "ΡΖ",
+    "name": "Preveza"
+  },
+  {
+    "code": "ΡΗ",
+    "name": "Rethymno"
+  },
+  {
+    "code": "ΡΙ",
+    "name": "Larissa"
+  },
+  {
+    "code": "ΡΚ",
+    "name": "Dodecanese"
+  },
+  {
+    "code": "ΡΜ",
+    "name": "Drama"
+  },
+  {
+    "code": "ΡΝ",
+    "name": "Grevena"
+  },
+  {
+    "code": "ΡΟ",
+    "name": "Dodecanese"
+  },
+  {
+    "code": "ΡΡ",
+    "name": "Larissa"
+  },
+  {
+    "code": "ΡΤ",
+    "name": "Larissa"
+  },
+  {
+    "code": "ΡΥ",
+    "name": "Dodecanese"
+  },
+  {
+    "code": "ΡΧ",
+    "name": "Dodecanese"
+  },
+  {
+    "code": "ΤΑ",
+    "name": "Taxis"
+  },
+  {
+    "code": "ΤΒ",
+    "name": "Corfu"
+  },
+  {
+    "code": "ΤΕ",
+    "name": "Corfu"
+  },
+  {
+    "code": "ΤΖ",
+    "name": "Piraeus"
+  },
+  {
+    "code": "ΤΗ",
+    "name": "Aitoloakarnania"
+  },
+  {
+    "code": "ΤΙ",
+    "name": "Pieria"
+  },
+  {
+    "code": "ΤΚ",
+    "name": "Trikala"
+  },
+  {
+    "code": "ΤΜ",
+    "name": "Argolis"
+  },
+  {
+    "code": "ΤΝ",
+    "name": "Trikala"
+  },
+  {
+    "code": "ΤΟ",
+    "name": "Drama"
+  },
+  {
+    "code": "ΤΡ",
+    "name": "Arcadia"
+  },
+  {
+    "code": "ΤΤ",
+    "name": "Rhodope"
+  },
+  {
+    "code": "ΤΥ",
+    "name": "Chania"
+  },
+  {
+    "code": "ΤΧ",
+    "name": "Preveza"
+  },
+  {
+    "code": "ΥΑ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΥΒ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΥΕ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΥΖ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΥΗ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΥΙ",
+    "name": "Piraeus"
+  },
+  {
+    "code": "ΥΚ",
+    "name": "Piraeus"
+  },
+  {
+    "code": "ΥΜ",
+    "name": "Piraeus"
+  },
+  {
+    "code": "ΥΝ",
+    "name": "Piraeus"
+  },
+  {
+    "code": "ΥΟ",
+    "name": "West Attica"
+  },
+  {
+    "code": "ΥΡ",
+    "name": "West Attica"
+  },
+  {
+    "code": "ΥΤ",
+    "name": "West Attica"
+  },
+  {
+    "code": "ΥΥ",
+    "name": "East Attica"
+  },
+  {
+    "code": "ΥΧ",
+    "name": "East Attica"
+  },
+  {
+    "code": "ΧΑ",
+    "name": "Euboea"
+  },
+  {
+    "code": "ΧΒ",
+    "name": "Chania"
+  },
+  {
+    "code": "ΧΕ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΧΖ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΧΗ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΧΙ",
+    "name": "Chios"
+  },
+  {
+    "code": "ΧΚ",
+    "name": "Chalkidiki"
+  },
+  {
+    "code": "ΧΜ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΧΝ",
+    "name": "Chania"
+  },
+  {
+    "code": "ΧΟ",
+    "name": "Chios"
+  },
+  {
+    "code": "ΧΡ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΧΤ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΧΥ",
+    "name": "Athens"
+  },
+  {
+    "code": "ΧΧ",
+    "name": "Athens"
+  }
+]
