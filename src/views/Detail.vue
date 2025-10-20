@@ -2,10 +2,13 @@
 import { onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import areaCodesJson from '../data/country-area-codes.json'
+import { useCountriesStore } from '@/stores/countries'
 
 const route = useRoute()
+const countriesStore = useCountriesStore()
 
 const details = ref({})
+const countryName = ref('')
 
 onMounted(async () => {
   console.log('onMounted in Detail called -> code:', route.params.code)
@@ -15,6 +18,11 @@ onMounted(async () => {
   const imported = await import(`../data/countries/en/${route.params.code}.json`)
   details.value = imported.default
   console.log('onMounted in Detail:', details.value)
+  // get the country name from full list in store
+  const foundCountry = countriesStore.countries.countries.find(
+    (country) => country.code.toLowerCase() === route.params.code,
+  )
+  countryName.value = foundCountry?.country ?? 'No country found'
 })
 </script>
 
