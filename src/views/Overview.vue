@@ -5,6 +5,7 @@ import CountryCard from '@/components/overview/CountryCard.vue'
 import ListActions from '@/components/overview/ListActions.vue'
 import type { ICountryData } from '@/models/country.model'
 import { useCountriesStore } from '@/stores/countries'
+import NoResults from '@/components/shared/NoResults.vue'
 
 const store = useCountriesStore()
 
@@ -44,12 +45,7 @@ onMounted(() => {
           <CountryCard :country="country"></CountryCard>
         </div>
       </div>
-      <div v-else class="text-text-light-info dark:text-text-dark-info">
-        No results for "
-        <span class="text-text-light-default dark:text-text-dark-default">
-          {{ store.searchTerm }} </span
-        >"
-      </div>
+      <NoResults v-else />
     </div>
   </div>
 </template>
