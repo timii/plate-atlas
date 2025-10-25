@@ -14,3 +14,8 @@ export interface ICountryData {
   lastUpdate: string // date and time of last time data was updated
   countries: ICountry[] // list of countries
 }
+
+export interface ICountryDetail {
+  code: string // area/region code (such as "A" for Augsburg in Germany)
+  name: string // name of the area/region
+}

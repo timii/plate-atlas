@@ -3,6 +3,7 @@ import { onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import areaCodesJson from '../data/country-area-codes.json'
 import { useCountriesStore } from '@/stores/countries'
+import type { ICountryDetail } from '@/models/country.model'
 import countriesJson from '../data/current-license-plates.json'
 
 const route = useRoute()
@@ -15,10 +16,18 @@ onMounted(async () => {
   console.log('onMounted in Detail called -> code:', route.params.code)
   // TODO: dynamically import country details using code (always import test country for testing layout and necessary data fields)
   // TODO: add interface for json
+  // details.value = areaCodesJson[route.params.code as string]
+
   // TODO: dynamically set language in import
-  const imported = await import(`../data/countries/en/${route.params.code}.json`)
-  details.value = imported.default
+  // dynamically import the country json using the country code
+  const { default: countryDetails } = (await import(
+    `../data/countries/en/${route.params.code}.json`
+  )) as { default: ICountryDetail[] }
+
+  details.value = countryDetails
+
   console.log('onMounted in Detail:', details.value)
+  console.log('onMounted in Detail -> countries', countriesStore.countries.countries)
 
   const countryList = countriesStore.countries.countries
 
