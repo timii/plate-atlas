@@ -1,15 +1,16 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
-import areaCodesJson from '../data/country-area-codes.json'
+// import areaCodesJson from '../data/country-area-codes.json'
 import { useCountriesStore } from '@/stores/countries'
 import type { ICountryDetail } from '@/models/country.model'
 import countriesJson from '../data/current-license-plates.json'
+import RegionCard from '@/components/detail/RegionCard.vue'
 
 const route = useRoute()
 const countriesStore = useCountriesStore()
 
-const details = ref({})
+const details = ref<ICountryDetail[]>([])
 const countryName = ref('')
 
 onMounted(async () => {
@@ -52,14 +53,18 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div>Detail page for {{ $route.params.code }}</div>
-  <div>{{ countryName }}</div>
-  <div class="sections flex flex-col gap-4">
-    <div v-for="detail in details" :key="detail">
-      <div>{{ detail }}</div>
+  <div class="flex h-full w-full flex-col items-center justify-center pt-6 pb-6">
+    <h1 class="title mb-8 text-4xl">{{ countryName }}</h1>
+
+    <div class="content flex w-4/5 flex-col items-center justify-center gap-8">
+      <ListActions></ListActions>
+      <div v-if="details && details.length > 0" class="list flex w-full flex-wrap gap-4">
+        <div class="list-element" v-for="detail in details" :key="detail.code">
+          <RegionCard :region="detail" />
+        </div>
+      </div>
+      <NoResults v-else />
     </div>
-    <!-- TODO: add component for each area element -->
-    <!-- <AreaCard></AreaCard> -->
   </div>
 </template>
 
