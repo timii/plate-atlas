@@ -18,20 +18,26 @@ onMounted(async () => {
   // TODO: add interface for json
   // details.value = areaCodesJson[route.params.code as string]
 
-  // TODO: dynamically set language in import
-  // dynamically import the country json using the country code
-  const { default: countryDetails } = (await import(
-    `../data/countries/en/${route.params.code}.json`
-  )) as { default: ICountryDetail[] }
+  try {
+    // TODO: dynamically set language in import
+    // dynamically import the country json using the country code
+    const { default: countryDetails } = (await import(
+      `../data/countries/en/${route.params.code}.json`
+    )) as { default: ICountryDetail[] }
 
-  details.value = countryDetails
+    details.value = countryDetails
+  } catch (error) {
+    console.log('Error importing detail json:', error)
+  }
 
   console.log('onMounted in Detail:', details.value)
   console.log('onMounted in Detail -> countries', countriesStore.countries.countries)
 
   const countryList = countriesStore.countries.countries
 
-  // check if country list is available from store, if not load the full json into the store
+  // check if country list is available in store, if not load the full json into the store.
+  // included for cases when detail page is opened directly without navigating from overview page,
+  // where the country list is loaded into the store
   if (!countryList || countryList.length === 0) {
     console.log('No country list found in store, reload json')
     countriesStore.countries = countriesJson
