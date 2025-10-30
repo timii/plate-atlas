@@ -6,6 +6,9 @@ import { useCountriesStore } from '@/stores/countries'
 import type { ICountryDetail } from '@/models/country.model'
 import countriesJson from '../data/current-license-plates.json'
 import RegionCard from '@/components/detail/RegionCard.vue'
+import IconButton from '@/components/shared/IconButton.vue'
+import StarEmpty from '@/assets/icons/StarEmpty.vue'
+import StarFilled from '@/assets/icons/StarFilled.vue'
 
 const route = useRoute()
 const countriesStore = useCountriesStore()
@@ -54,7 +57,13 @@ onMounted(async () => {
 
 <template>
   <div class="flex h-full w-full flex-col items-center justify-center pt-6 pb-6">
-    <h1 class="title mb-8 text-4xl">{{ countryName }}</h1>
+    <div class="relative flex w-4/5 items-center justify-center">
+      <h1 class="title mb-8 text-4xl">{{ countryName }}</h1>
+      <div class="absolute right-0">
+        <IconButton :icon-component="StarEmpty" />
+        <IconButton :icon-component="StarFilled" />
+      </div>
+    </div>
 
     <div class="content flex w-4/5 flex-col items-center justify-center gap-8">
       <ListActions></ListActions>
