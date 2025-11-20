@@ -27,6 +27,7 @@ const props = defineProps({
   <!-- ------------------------------- -->
   <div
     v-if="props.iconComponent"
+    class="cursor-pointer rounded-lg p-1 transition-all duration-200 ease-cubic hover:bg-background-light-hover hover:dark:bg-background-dark-hover"
     :style="{
       color: props.color,
     }"
