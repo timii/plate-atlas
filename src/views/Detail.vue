@@ -57,11 +57,25 @@ onMounted(async () => {
 
 <template>
   <div class="flex h-full w-full flex-col items-center justify-center pt-6 pb-6">
-    <div class="relative flex w-4/5 items-center justify-center">
-      <h1 class="title mb-8 text-4xl">{{ countryName }}</h1>
-      <div class="absolute right-0">
-        <IconButton :icon-component="StarEmpty" />
-        <IconButton :icon-component="StarFilled" />
+    <div class="relative mt-4 mb-8 flex w-4/5 items-end justify-center">
+      <h1 class="title text-4xl">{{ countryName }}</h1>
+      <div class="absolute right-0 flex">
+        <IconButton
+          :icon-component="StarFilled"
+          :color="{
+            darkMode: '#daaa3f',
+            lightMode: '#daaa3f',
+          }"
+          @click="onFavoriteClick"
+        />
+        <IconButton
+          :icon-component="StarEmpty"
+          :color="{
+            darkMode: '#9198a1',
+            lightMode: '#59636e',
+          }"
+          @click="onFavoriteClick"
+        />
       </div>
     </div>
 
