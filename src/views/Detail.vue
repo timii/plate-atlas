@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 // import areaCodesJson from '../data/country-area-codes.json'
 import { useCountriesStore } from '@/stores/countries'
@@ -15,6 +15,10 @@ const countriesStore = useCountriesStore()
 
 const details = ref<ICountryDetail[]>([])
 const countryName = ref('')
+
+const countryCode = computed(() => (route.params.code as string) ?? '')
+
+const isCountryFavorited = computed(() => countriesStore.favorites.includes(countryCode.value))
 
 onMounted(async () => {
   console.log('onMounted in Detail called -> code:', route.params.code)
@@ -53,6 +57,18 @@ onMounted(async () => {
   )
   countryName.value = foundCountry?.country ?? 'No country found'
 })
+
+function onFavoriteClick() {
+  if (isCountryFavorited.value) {
+    // find and remove country code from favorites
+    const index = countriesStore.favorites.findIndex((el) => el === countryCode.value)
+    if (index === -1) return
+    countriesStore.favorites.splice(index, 1)
+  } else {
+    // add country code to favorites
+    countriesStore.favorites.push(countryCode.value)
+  }
+}
 </script>
 
 <template>
@@ -61,6 +77,7 @@ onMounted(async () => {
       <h1 class="title text-4xl">{{ countryName }}</h1>
       <div class="absolute right-0 flex">
         <IconButton
+          v-if="isCountryFavorited"
           :icon-component="StarFilled"
           :color="{
             darkMode: '#daaa3f',
@@ -69,6 +86,7 @@ onMounted(async () => {
           @click="onFavoriteClick"
         />
         <IconButton
+          v-else
           :icon-component="StarEmpty"
           :color="{
             darkMode: '#9198a1',

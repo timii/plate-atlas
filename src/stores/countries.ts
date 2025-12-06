@@ -7,6 +7,7 @@ export const useCountriesStore = defineStore('countries', () => {
   const countries = ref<ICountryData>({ lastUpdate: '', countries: [] })
   const searchTerm = ref<string>('')
   const sortBy = ref<SortBy>(SortBy.ALPHABETIC_ASC)
+  const favorites = ref<string[]>([])
 
   // return list of countries after being filtered and sorted
   const mappedCountries = computed(() => {
@@ -39,5 +40,5 @@ export const useCountriesStore = defineStore('countries', () => {
     return sorted
   })
 
-  return { countries, searchTerm, sortBy, mappedCountries }
+  return { countries, searchTerm, sortBy, favorites, mappedCountries }
 })
