@@ -44,7 +44,11 @@ onMounted(() => {
       <ListActions></ListActions>
       <div v-if="store.mappedCountries.length > 0" class="list flex w-full flex-wrap gap-4">
         <!-- <div>Letter</div> -->
-        <div class="list-element" v-for="country in store.mappedCountries" :key="country.code">
+        <div
+          class="list-element w-full"
+          v-for="country in store.mappedCountries"
+          :key="country.code"
+        >
           <CountryCard :country="country"></CountryCard>
         </div>
       </div>

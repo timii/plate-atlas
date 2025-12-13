@@ -47,8 +47,8 @@ function onCountryClick() {
   </div>
 </template> -->
 
-<!-- Version 3 -->
-<template>
+<!-- Version 3 (current favorite) -->
+<!-- <template>
   <div
     class="country-card flex flex-row rounded-lg pr-2 gap-2 items-center bg-background-light-default dark:bg-background-dark-highlight border border-border-light3 dark:border-border-dark3 cursor-pointer h-12 relative"
     @click="onCountryClick"
@@ -68,7 +68,7 @@ function onCountryClick() {
       <img :src="props.country.flagThumb" :alt="'flag'" />
     </div>
   </div>
-</template>
+</template> -->
 
 <!-- Version 4 -->
 <!-- <template>
@@ -93,6 +93,33 @@ function onCountryClick() {
   </div>
 </template> -->
 
+<!-- Version 5 (full width) -->
+<template>
+  <div
+    class="country-card relative flex h-12 cursor-pointer flex-row items-center gap-2 rounded-lg border border-border-light3 bg-background-light-default dark:border-border-dark3 dark:bg-background-dark-highlight"
+    @click="onCountryClick"
+  >
+    <div
+      class="flex h-full min-w-16 items-center rounded-[inherit] border-r border-border-light2 p-2 text-xl font-bold dark:border-border-dark2 dark:bg-background-dark-highlight-layer2"
+    >
+      <div>{{ props.country.code }}</div>
+    </div>
+    <div class="flex flex-col leading-5">
+      <div>{{ props.country.country }}</div>
+      <div class="text-sm text-text-light-info italic dark:text-text-dark-info">
+        {{ props.country.continent }}
+      </div>
+    </div>
+    <div
+      class="ml-auto flex h-full items-center rounded-[inherit] border-l border-border-light2 p-4 text-xl font-bold dark:border-border-dark2 dark:bg-background-dark-highlight-layer2"
+    >
+      <div class="image-containermax-h-6 max-w-7">
+        <img :src="props.country.flagThumb" :alt="'flag'" />
+      </div>
+    </div>
+  </div>
+</template>
+
 <style scoped>
 .country-card::after {
   --starting-position: 0px;
@@ -103,12 +130,12 @@ function onCountryClick() {
   position: absolute;
   z-index: -1;
   left: var(--starting-position);
-  top: var(--starting-position);
   width: 100%;
   height: 100%;
   /* TODO: use accent color if defined */
   /* background-color: rgba(0, 88, 0, 0.589); */
   background-color: var(--color-background-hover);
+  top: var(--starting-position);
   -webkit-transition: all var(--animation-time) var(--ease-cubic);
   transition: all var(--animation-time) var(--ease-cubic);
 }
