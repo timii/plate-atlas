@@ -32,10 +32,13 @@ onMounted(() => {
 
 <template>
   <div class="flex h-full w-full flex-col items-center justify-center pt-6 pb-6">
-    <div class="text-xs text-text-light-secondary dark:text-text-dark-secondary">
-      Last Updated: {{ lastUpdated }}
+    <div class="mb-8 flex flex-col items-center gap-2">
+      <h1 class="title text-4xl">Countries</h1>
+      <div class="text-base text-text-light-secondary dark:text-text-dark-secondary">
+        Complete list of international vehicle registration codes for all countries worldwide (last
+        updated: {{ lastUpdated }})
+      </div>
     </div>
-    <h1 class="title mb-8 text-4xl">Countries</h1>
 
     <div class="content flex w-4/5 flex-col items-center justify-center gap-8">
       <ListActions></ListActions>
