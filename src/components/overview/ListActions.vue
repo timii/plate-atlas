@@ -4,10 +4,12 @@ import Dropdown from '../shared/Dropdown.vue'
 import Searchbar from '../shared/Searchbar.vue'
 import { SortBy, type IDropdownItem } from '@/models/dropdown.model'
 import { useCountriesStore } from '@/stores/countries'
+import { storeToRefs } from 'pinia'
 
 const searchTerm = ref('')
 
-const store = useCountriesStore()
+const countriesStore = useCountriesStore()
+const { mappedCountriesLength, allCountriesLength } = storeToRefs(countriesStore)
 
 const sortByElements = ref([
   { id: 1, label: 'Alphabetic Asc', value: SortBy.ALPHABETIC_ASC, selected: true },
@@ -25,7 +27,7 @@ function onSortBySelect(item: IDropdownItem) {
     sortByElements.value[index] = { ...sortByElements.value[index], selected: true }
 
     // update store with selected value
-    store.sortBy = sortByElements.value[index].value
+    countriesStore.sortBy = sortByElements.value[index].value
   }
 }
 
@@ -34,7 +36,7 @@ watch(
   (value: string) => {
     console.log('searchTerm changed:', value)
     // update search term in store
-    store.searchTerm = value
+    countriesStore.searchTerm = value
   },
 )
 </script>
@@ -44,8 +46,8 @@ watch(
     <div class="flex items-center gap-4">
       <Searchbar v-model:text="searchTerm"></Searchbar>
       <div class="text-base text-text-light-secondary dark:text-text-dark-secondary">
-        Showing <span class="highlight">{{ store.mappedCountries.length }}</span> of
-        <span class="highlight">{{ store.countries.countries.length }}</span> countries
+        Showing <span class="highlight">{{ mappedCountriesLength }}</span> of
+        <span class="highlight">{{ allCountriesLength }}</span> countries
       </div>
     </div>
     <div>

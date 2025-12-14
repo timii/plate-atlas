@@ -9,6 +9,10 @@ export const useCountriesStore = defineStore('countries', () => {
   const sortBy = ref<SortBy>(SortBy.ALPHABETIC_ASC)
   const favorites = ref<string[]>([])
 
+  // keep track of amount of all and mapped countries
+  const allCountriesLength = computed(() => countries.value.countries.length ?? 0)
+  const mappedCountriesLength = computed(() => mappedCountries.value.length ?? 0)
+
   // return list of countries after being filtered and sorted
   const mappedCountries = computed(() => {
     console.log('mappedCountries -> searchTerm:', searchTerm.value, 'sortBy:', sortBy.value)
@@ -40,5 +44,13 @@ export const useCountriesStore = defineStore('countries', () => {
     return sorted
   })
 
-  return { countries, searchTerm, sortBy, favorites, mappedCountries }
+  return {
+    countries,
+    searchTerm,
+    sortBy,
+    favorites,
+    allCountriesLength,
+    mappedCountriesLength,
+    mappedCountries,
+  }
 })
