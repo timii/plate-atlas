@@ -35,8 +35,8 @@ onMounted(() => {
     <div class="mb-8 flex flex-col items-center gap-2">
       <h1 class="title text-4xl">Countries</h1>
       <div class="text-base text-text-light-secondary dark:text-text-dark-secondary">
-        Complete list of international vehicle registration codes for all countries worldwide (last
-        updated: {{ lastUpdated }})
+        List of international vehicle registration codes for countries worldwide (last updated:
+        {{ lastUpdated }})
       </div>
     </div>
 

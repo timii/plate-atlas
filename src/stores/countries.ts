@@ -17,13 +17,13 @@ export const useCountriesStore = defineStore('countries', () => {
     // const countriesLength = countriesCopy.length
     // const slice = countriesCopy.slice(0, randomIntFromInterval(1, countriesLength))
 
-    // filter countries by search term
+    // filter countries by `searchTerm`
     const filtered = countriesCopy.filter((countryObj) => {
       const countryName = countryObj.country.toLowerCase()
       return countryName.includes(searchTerm.value.toLowerCase())
     })
 
-    // sort filtered countries by current sort by value
+    // sort filtered countries by current `sortBy` value
     const sorted = filtered.sort((a, b) => {
       // sort alphabetically in descending order
       if (sortBy.value === SortBy.ALPHABETIC_DESC) {
