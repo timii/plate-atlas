@@ -1,15 +1,24 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue'
+import { computed, ref, watch, type PropType } from 'vue'
 import Dropdown from '../shared/Dropdown.vue'
 import Searchbar from '../shared/Searchbar.vue'
 import { SortBy, type IDropdownItem } from '@/models/dropdown.model'
 import { useCountriesStore } from '@/stores/countries'
-import { storeToRefs } from 'pinia'
+
+const props = defineProps({
+  shownElementsInfo: {
+    type: Object as PropType<{ current: number; total: number }>,
+    default: () => {},
+  },
+  elementTypes: {
+    type: String,
+    default: 'countries',
+  },
+})
 
 const searchTerm = ref('')
 
 const countriesStore = useCountriesStore()
-const { mappedCountriesLength, allCountriesLength } = storeToRefs(countriesStore)
 
 const sortByElements = ref([
   { id: 1, label: 'Alphabetic Asc', value: SortBy.ALPHABETIC_ASC, selected: true },
@@ -31,6 +40,13 @@ function onSortBySelect(item: IDropdownItem) {
   }
 }
 
+const elementsInfoAvailable = computed(
+  () =>
+    props.shownElementsInfo &&
+    'current' in props.shownElementsInfo &&
+    'total' in props.shownElementsInfo,
+)
+
 watch(
   () => searchTerm.value,
   (value: string) => {
@@ -45,9 +61,12 @@ watch(
   <div class="actions flex w-full items-end justify-between gap-6">
     <div class="flex items-center gap-4">
       <Searchbar v-model:text="searchTerm"></Searchbar>
-      <div class="text-base text-text-light-secondary dark:text-text-dark-secondary">
-        Showing <span class="highlight">{{ mappedCountriesLength }}</span> of
-        <span class="highlight">{{ allCountriesLength }}</span> countries
+      <div
+        v-if="elementsInfoAvailable"
+        class="text-base text-text-light-secondary dark:text-text-dark-secondary"
+      >
+        Showing <span class="highlight">{{ props.shownElementsInfo.current }}</span> of
+        <span class="highlight">{{ props.shownElementsInfo.total }}</span> countries
       </div>
     </div>
     <div>

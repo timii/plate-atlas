@@ -65,15 +65,6 @@ async function loadDetails() {
   console.log('onMounted in Detail:', details.value)
 }
 
-onMounted(async () => {
-  loading.value = true
-
-  loadCountryName()
-  await loadDetails()
-
-  loading.value = false
-})
-
 // TODO: save/read favorites in localStorage
 function onFavoriteClick() {
   if (isCountryFavorited.value) {
@@ -86,6 +77,15 @@ function onFavoriteClick() {
     countriesStore.favorites.push(countryCode.value)
   }
 }
+
+onMounted(async () => {
+  loading.value = true
+
+  loadCountryName()
+  await loadDetails()
+
+  loading.value = false
+})
 </script>
 
 <template>
@@ -120,7 +120,7 @@ function onFavoriteClick() {
     <div class="content flex w-4/5 flex-col items-center justify-center gap-8">
       <ListActions></ListActions>
       <div v-if="details && details.length > 0" class="list flex w-full flex-wrap gap-4">
-        <div class="list-element" v-for="detail in details" :key="detail.code">
+        <div class="list-element w-full" v-for="detail in details" :key="detail.code">
           <RegionCard :region="detail" />
         </div>
       </div>

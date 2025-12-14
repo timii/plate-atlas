@@ -14,7 +14,7 @@ const props = defineProps({
     class="region-card relative flex h-12 cursor-pointer flex-row items-center gap-2 rounded-lg border border-border-light3 bg-background-light-default pr-2 dark:border-border-dark3 dark:bg-background-dark-highlight"
   >
     <div
-      class="flex h-full flex-row items-center gap-2 rounded-[inherit] border-r border-border-light2 p-2 text-xl font-bold dark:border-border-dark2 dark:bg-background-dark-highlight-layer2"
+      class="flex h-full min-w-16 items-center gap-2 rounded-[inherit] border-r border-border-light2 p-2 text-xl font-bold dark:border-border-dark2 dark:bg-background-dark-highlight-layer2"
     >
       <div>{{ props.region.code }}</div>
     </div>
