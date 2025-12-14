@@ -11,18 +11,40 @@ import ListActions from '@/components/overview/ListActions.vue'
 import NoResults from '@/components/shared/NoResults.vue'
 import StarEmpty from '@/assets/icons/StarEmpty.vue'
 import StarFilled from '@/assets/icons/StarFilled.vue'
+import Loading from '@/components/shared/Loading.vue'
 
 const route = useRoute()
 const countriesStore = useCountriesStore()
 
 const details = ref<ICountryDetail[]>([])
 const countryName = ref('')
+const loading = ref(false)
 
 const countryCode = computed(() => (route.params.code as string) ?? '')
 
 const isCountryFavorited = computed(() => countriesStore.favorites.includes(countryCode.value))
 
-onMounted(async () => {
+function loadCountryName() {
+  console.log('onMounted in Detail -> countries', countriesStore.countries.countries)
+
+  const countryList = countriesStore.countries.countries
+
+  // check if country list is available in store, if not load the full json into the store.
+  // included for cases when detail page is opened directly without navigating from overview page,
+  // where the country list is loaded into the store
+  if (!countryList || countryList.length === 0) {
+    console.log('No country list found in store, reload json')
+    countriesStore.countries = countriesJson
+  }
+
+  // get the country name from country list in store
+  const foundCountry = countryList.find(
+    (country) => country.code.toLowerCase() === route.params.code,
+  )
+  countryName.value = foundCountry?.country ?? 'No country found'
+}
+
+async function loadDetails() {
   console.log('onMounted in Detail called -> code:', route.params.code)
   // TODO: dynamically import country details using code (always import test country for testing layout and necessary data fields)
   // TODO: add interface for json
@@ -41,25 +63,18 @@ onMounted(async () => {
   }
 
   console.log('onMounted in Detail:', details.value)
-  console.log('onMounted in Detail -> countries', countriesStore.countries.countries)
+}
 
-  const countryList = countriesStore.countries.countries
+onMounted(async () => {
+  loading.value = true
 
-  // check if country list is available in store, if not load the full json into the store.
-  // included for cases when detail page is opened directly without navigating from overview page,
-  // where the country list is loaded into the store
-  if (!countryList || countryList.length === 0) {
-    console.log('No country list found in store, reload json')
-    countriesStore.countries = countriesJson
-  }
+  loadCountryName()
+  await loadDetails()
 
-  // get the country name from country list in store
-  const foundCountry = countryList.find(
-    (country) => country.code.toLowerCase() === route.params.code,
-  )
-  countryName.value = foundCountry?.country ?? 'No country found'
+  loading.value = false
 })
 
+// TODO: save/read favorites in localStorage
 function onFavoriteClick() {
   if (isCountryFavorited.value) {
     // find and remove country code from favorites
@@ -74,7 +89,10 @@ function onFavoriteClick() {
 </script>
 
 <template>
-  <div class="flex h-full w-full flex-col items-center justify-center pt-6 pb-6">
+  <div class="flex h-96 w-full items-center justify-center" v-if="loading">
+    <Loading />
+  </div>
+  <div v-else class="flex h-full w-full flex-col items-center justify-center pt-6 pb-6">
     <div class="relative mt-4 mb-8 flex w-4/5 items-end justify-center">
       <h1 class="title text-4xl">{{ countryName }}</h1>
       <div class="absolute right-0 flex">
