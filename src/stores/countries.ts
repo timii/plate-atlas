@@ -3,6 +3,15 @@ import { SortBy } from '@/models/dropdown.model'
 import { defineStore } from 'pinia'
 import { computed, ref } from 'vue'
 
+// dynamically get available country codes from folder of detail jsons
+const countryDetailFiles = import.meta.glob('/src/data/countries/en/*.json', { eager: true })
+const availableCountryCodes = new Set(
+  Object.keys(countryDetailFiles).map((path) => {
+    const filename = path.split('/').pop()?.replace('.json', '') || ''
+    return filename.toLowerCase()
+  }),
+)
+
 export const useCountriesStore = defineStore('countries', () => {
   const countries = ref<ICountryData>({ lastUpdate: '', countries: [] })
   const searchTerm = ref<string>('')
@@ -17,9 +26,10 @@ export const useCountriesStore = defineStore('countries', () => {
   const mappedCountries = computed(() => {
     console.log('mappedCountries -> searchTerm:', searchTerm.value, 'sortBy:', sortBy.value)
 
-    const countriesCopy = countries.value.countries
-    // const countriesLength = countriesCopy.length
-    // const slice = countriesCopy.slice(0, randomIntFromInterval(1, countriesLength))
+    // filter countries by available detail JSONs
+    const countriesCopy = countries.value.countries.filter((countryObj) => {
+      return availableCountryCodes.has(countryObj.code.toLowerCase())
+    })
 
     // filter countries by `searchTerm`
     const filtered = countriesCopy.filter((countryObj) => {
