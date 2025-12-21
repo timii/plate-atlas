@@ -8,7 +8,7 @@ import NoResults from '@/components/shared/NoResults.vue'
 import { storeToRefs } from 'pinia'
 
 const countriesStore = useCountriesStore()
-const { mappedCountriesLength, allCountriesLength, mappedCountries, countries } =
+const { mappedCountriesLength, allCountriesLength, mappedCountries, countries, searchTerm } =
   storeToRefs(countriesStore)
 
 const lastUpdated = computed(() => {
@@ -42,6 +42,7 @@ onMounted(() => {
     <div class="content flex w-4/5 flex-col items-center justify-center gap-8">
       <ListActions
         :shown-elements-info="{ current: mappedCountriesLength, total: allCountriesLength }"
+        v-model:searchTerm="searchTerm"
       ></ListActions>
       <div
         v-if="countriesStore.mappedCountries.length > 0"

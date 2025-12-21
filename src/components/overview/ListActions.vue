@@ -16,7 +16,11 @@ const props = defineProps({
   },
 })
 
-const searchTerm = ref('')
+// let the parent component define the search behaviour
+const searchTerm = defineModel('searchTerm', {
+  type: String,
+  default: '',
+})
 
 const countriesStore = useCountriesStore()
 
@@ -45,15 +49,6 @@ const elementsInfoAvailable = computed(
     props.shownElementsInfo &&
     'current' in props.shownElementsInfo &&
     'total' in props.shownElementsInfo,
-)
-
-watch(
-  () => searchTerm.value,
-  (value: string) => {
-    console.log('searchTerm changed:', value)
-    // update search term in store
-    countriesStore.searchTerm = value
-  },
 )
 </script>
 

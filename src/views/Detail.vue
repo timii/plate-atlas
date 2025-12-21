@@ -18,7 +18,8 @@ import { storeToRefs } from 'pinia'
 const route = useRoute()
 const countriesStore = useCountriesStore()
 const detailsStore = useDetailsStore()
-const { mappedDetailsLength, allDetailsLength, mappedDetails } = storeToRefs(detailsStore)
+const { mappedDetailsLength, allDetailsLength, mappedDetails, searchTerm } =
+  storeToRefs(detailsStore)
 
 const countryName = ref('')
 const loading = ref(false)
@@ -125,6 +126,7 @@ onMounted(async () => {
       <ListActions
         :shown-elements-info="{ current: mappedDetailsLength, total: allDetailsLength }"
         :element-types="'regions'"
+        v-model:search-term="searchTerm"
       ></ListActions>
       <div
         v-if="mappedDetails && mappedDetails.length > 0"
