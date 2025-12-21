@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import { computed, ref, watch, type PropType } from 'vue'
+import { computed, ref, type PropType } from 'vue'
 import Dropdown from '../shared/Dropdown.vue'
 import Searchbar from '../shared/Searchbar.vue'
 import { SortBy, type IDropdownItem } from '@/models/dropdown.model'
-import { useCountriesStore } from '@/stores/countries'
 
 const props = defineProps({
   shownElementsInfo: {
@@ -16,13 +15,15 @@ const props = defineProps({
   },
 })
 
-// let the parent component define the search behaviour
+// let the parent component define the search and sort behaviour
 const searchTerm = defineModel('searchTerm', {
   type: String,
   default: '',
 })
-
-const countriesStore = useCountriesStore()
+const sortBy = defineModel('sortBy', {
+  type: String as PropType<SortBy>,
+  default: SortBy.ALPHABETIC_ASC,
+})
 
 const sortByElements = ref([
   { id: 1, label: 'Alphabetic Asc', value: SortBy.ALPHABETIC_ASC, selected: true },
@@ -39,8 +40,8 @@ function onSortBySelect(item: IDropdownItem) {
     // update `selected` of element at correct index
     sortByElements.value[index] = { ...sortByElements.value[index], selected: true }
 
-    // update store with selected value
-    countriesStore.sortBy = sortByElements.value[index].value
+    // update model with selected value
+    sortBy.value = sortByElements.value[index].value
   }
 }
 
