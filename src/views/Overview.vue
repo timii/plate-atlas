@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue'
+import { computed, onMounted } from 'vue'
 import countriesJson from '../data/current-license-plates.json'
 import CountryCard from '@/components/overview/CountryCard.vue'
 import ListActions from '@/components/overview/ListActions.vue'
-import type { ICountryData } from '@/models/country.model'
 import { useCountriesStore } from '@/stores/countries'
 import NoResults from '@/components/shared/NoResults.vue'
 import { storeToRefs } from 'pinia'
 
 const countriesStore = useCountriesStore()
-const { mappedCountriesLength, allCountriesLength } = storeToRefs(countriesStore)
+const { mappedCountriesLength, allCountriesLength, mappedCountries, countries } =
+  storeToRefs(countriesStore)
 
 const lastUpdated = computed(() => {
   const date = new Date(countriesStore.countries.lastUpdate)
@@ -22,17 +22,10 @@ const lastUpdated = computed(() => {
   return formatted
 })
 
-const countriesObj = ref<ICountryData>({ lastUpdate: '', countries: [] })
-
 onMounted(() => {
   countriesStore.countries = countriesJson
-  console.log(
-    'Overview mounted -> store:',
-    countriesStore.countries,
-    countriesStore.mappedCountries,
-  )
+  console.log('Overview mounted -> store:', countries.value, mappedCountries.value)
   console.log('Overview mounted -> json:', countriesJson, countriesJson.countries.length)
-  countriesObj.value = countriesJson
 })
 </script>
 
@@ -55,11 +48,7 @@ onMounted(() => {
         class="list flex w-full flex-wrap gap-4"
       >
         <!-- <div>Letter</div> -->
-        <div
-          class="list-element w-full"
-          v-for="country in countriesStore.mappedCountries"
-          :key="country.code"
-        >
+        <div class="list-element w-full" v-for="country in mappedCountries" :key="country.code">
           <CountryCard :country="country"></CountryCard>
         </div>
       </div>

@@ -12,11 +12,14 @@ import NoResults from '@/components/shared/NoResults.vue'
 import StarEmpty from '@/assets/icons/StarEmpty.vue'
 import StarFilled from '@/assets/icons/StarFilled.vue'
 import Loading from '@/components/shared/Loading.vue'
+import { useDetailsStore } from '@/stores/details'
+import { storeToRefs } from 'pinia'
 
 const route = useRoute()
 const countriesStore = useCountriesStore()
+const detailsStore = useDetailsStore()
+const { mappedDetailsLength, allDetailsLength, mappedDetails } = storeToRefs(detailsStore)
 
-const details = ref<ICountryDetail[]>([])
 const countryName = ref('')
 const loading = ref(false)
 
@@ -35,6 +38,7 @@ function loadCountryName() {
   if (!countryList || countryList.length === 0) {
     console.log('No country list found in store, reload json')
     countriesStore.countries = countriesJson
+    console.log('Countries after reload:', countriesStore.countries.countries)
   }
 
   // get the country name from country list in store
@@ -57,12 +61,11 @@ async function loadDetails() {
       `../data/countries/en/${route.params.code}.json`
     )) as { default: ICountryDetail[] }
 
-    details.value = countryDetails
+    detailsStore.details = countryDetails
+    console.log('onMounted in Detail:', countryDetails)
   } catch (error) {
     console.log('Error importing detail json:', error)
   }
-
-  console.log('onMounted in Detail:', details.value)
 }
 
 // TODO: save/read favorites in localStorage
@@ -118,9 +121,16 @@ onMounted(async () => {
     </div>
 
     <div class="content flex w-4/5 flex-col items-center justify-center gap-8">
-      <ListActions></ListActions>
-      <div v-if="details && details.length > 0" class="list flex w-full flex-wrap gap-4">
-        <div class="list-element w-full" v-for="detail in details" :key="detail.code">
+      <!-- TODO: implement search for detail page -->
+      <ListActions
+        :shown-elements-info="{ current: mappedDetailsLength, total: allDetailsLength }"
+        :element-types="'regions'"
+      ></ListActions>
+      <div
+        v-if="mappedDetails && mappedDetails.length > 0"
+        class="list flex w-full flex-wrap gap-4"
+      >
+        <div class="list-element w-full" v-for="detail in mappedDetails" :key="detail.code">
           <RegionCard :region="detail" />
         </div>
       </div>
