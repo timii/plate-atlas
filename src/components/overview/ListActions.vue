@@ -66,7 +66,7 @@ watch(
         class="text-base text-text-light-secondary dark:text-text-dark-secondary"
       >
         Showing <span class="highlight">{{ props.shownElementsInfo.current }}</span> of
-        <span class="highlight">{{ props.shownElementsInfo.total }}</span> countries
+        <span class="highlight">{{ props.shownElementsInfo.total }}</span> {{ props.elementTypes }}
       </div>
     </div>
     <div>
