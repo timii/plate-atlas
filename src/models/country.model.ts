@@ -15,7 +15,14 @@ export interface ICountryData {
   countries: ICountry[] // list of countries
 }
 
-export interface ICountryDetail {
+// interface used for countries that have no regions/areas in their license plates, instead examples images are used for the country
+export interface ICountryDetailNoRegionCode {
+  title: string // title/name of the example image (something like "current" or "used from YEAR to YEAR")
+  images?: string[] // list of example license plates (as urls of images) that match the title
+}
+
+// interface used for countries that have regions/areas in their license plates
+export interface ICountryDetailCode {
   code: string // area/region code (such as "A" for Augsburg in Germany)
   name: string // name of the area/region
 }

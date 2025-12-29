@@ -3,7 +3,7 @@ import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 // import areaCodesJson from '../data/country-area-codes.json'
 import { useCountriesStore } from '@/stores/countries'
-import type { ICountryDetail } from '@/models/country.model'
+import type { ICountryDetailCode } from '@/models/country.model'
 import countriesJson from '../data/current-license-plates.json'
 import RegionCard from '@/components/detail/RegionCard.vue'
 import IconButton from '@/components/shared/IconButton.vue'
@@ -60,7 +60,7 @@ async function loadDetails() {
     // dynamically import the country json using the country code
     const { default: countryDetails } = (await import(
       `../data/countries/en/${route.params.code}.json`
-    )) as { default: ICountryDetail[] }
+    )) as { default: ICountryDetailCode[] }
 
     detailsStore.details = countryDetails
     console.log('onMounted in Detail:', countryDetails)

@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import type { ICountryDetail } from '@/models/country.model'
+import type { ICountryDetailCode } from '@/models/country.model'
 import type { PropType } from 'vue'
 
 const props = defineProps({
   region: {
-    type: Object as PropType<ICountryDetail>,
+    type: Object as PropType<ICountryDetailCode>,
     required: true,
   },
 })
