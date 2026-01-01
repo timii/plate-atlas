@@ -1,10 +1,11 @@
-import { type ICountryDetailCode } from '@/models/country.model'
+import { type ICountryDetailCode, type ICountryDetailExampleImages } from '@/models/country.model'
 import { SortBy } from '@/models/dropdown.model'
 import { defineStore } from 'pinia'
 import { computed, ref } from 'vue'
 
 export const useDetailsStore = defineStore('details', () => {
   const details = ref<ICountryDetailCode[]>([])
+  const exampleImages = ref<ICountryDetailExampleImages[]>([])
   const searchTerm = ref<string>('')
   const sortBy = ref<SortBy>(SortBy.ALPHABETIC_ASC)
 
@@ -43,6 +44,7 @@ export const useDetailsStore = defineStore('details', () => {
 
   return {
     details,
+    exampleImages,
     searchTerm,
     sortBy,
     allDetailsLength,

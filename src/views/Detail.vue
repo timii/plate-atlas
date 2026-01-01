@@ -1,9 +1,8 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
-// import areaCodesJson from '../data/country-area-codes.json'
 import { useCountriesStore } from '@/stores/countries'
-import type { ICountryDetailCode } from '@/models/country.model'
+import { isOfTypeCodes, isOfTypeExampleImages, type ICountryDetails } from '@/models/country.model'
 import countriesJson from '../data/current-license-plates.json'
 import RegionCard from '@/components/detail/RegionCard.vue'
 import IconButton from '@/components/shared/IconButton.vue'
@@ -18,11 +17,12 @@ import { storeToRefs } from 'pinia'
 const route = useRoute()
 const countriesStore = useCountriesStore()
 const detailsStore = useDetailsStore()
-const { mappedDetailsLength, allDetailsLength, mappedDetails, searchTerm, sortBy } =
+const { mappedDetailsLength, allDetailsLength, mappedDetails, searchTerm, sortBy, exampleImages } =
   storeToRefs(detailsStore)
 
 const countryName = ref('')
 const loading = ref(false)
+const countryHasCodes = ref(false)
 
 const countryCode = computed(() => (route.params.code as string) ?? '')
 
@@ -51,19 +51,26 @@ function loadCountryName() {
 
 async function loadDetails() {
   console.log('onMounted in Detail called -> code:', route.params.code)
-  // TODO: dynamically import country details using code (always import test country for testing layout and necessary data fields)
-  // TODO: add interface for json
-  // details.value = areaCodesJson[route.params.code as string]
 
   try {
     // TODO: dynamically set language in import
     // dynamically import the country json using the country code
     const { default: countryDetails } = (await import(
       `../data/countries/en/${route.params.code}.json`
-    )) as { default: ICountryDetailCode[] }
+    )) as { default: ICountryDetails }
 
-    detailsStore.details = countryDetails
     console.log('onMounted in Detail:', countryDetails)
+
+    // depending on the type of country details, set the store values accordingly
+    if (isOfTypeExampleImages(countryDetails)) {
+      detailsStore.exampleImages = countryDetails
+      countryHasCodes.value = false
+    } else if (isOfTypeCodes(countryDetails)) {
+      detailsStore.details = countryDetails
+      countryHasCodes.value = true
+    } else {
+      console.error('Country details are of unknown type')
+    }
   } catch (error) {
     console.log('Error importing detail json:', error)
   }
@@ -97,9 +104,11 @@ onMounted(async () => {
     <Loading />
   </div>
   <div v-else class="flex h-full w-full flex-col items-center justify-center pt-6 pb-6">
-    <div class="relative mt-4 mb-8 flex w-4/5 items-end justify-center">
+    <div class="relative mt-4 mb-8 flex w-4/5 items-center justify-between">
+      <!-- empty div so "justify-between" centers the country name -->
+      <div class="w-8"></div>
       <h1 class="title text-4xl">{{ countryName }}</h1>
-      <div class="absolute right-0 flex">
+      <div>
         <IconButton
           v-if="isCountryFavorited"
           :icon-component="StarFilled"
@@ -121,8 +130,10 @@ onMounted(async () => {
       </div>
     </div>
 
-    <div class="content flex w-4/5 flex-col items-center justify-center gap-8">
-      <!-- TODO: implement search for detail page -->
+    <div
+      v-if="countryHasCodes"
+      class="content flex w-4/5 flex-col items-center justify-center gap-8"
+    >
       <ListActions
         :shown-elements-info="{ current: mappedDetailsLength, total: allDetailsLength }"
         :element-types="'regions'"
@@ -138,6 +149,33 @@ onMounted(async () => {
         </div>
       </div>
       <NoResults v-else />
+    </div>
+
+    <div v-else class="content flex w-4/5 flex-col items-center justify-center gap-8">
+      <template v-if="exampleImages && exampleImages.length > 0">
+        <div
+          class="flex w-full flex-col items-center justify-center gap-4"
+          v-for="imageCategory in exampleImages"
+          :key="imageCategory.category"
+        >
+          <h2 class="text-center text-xl">{{ imageCategory.category }}</h2>
+          <div class="flex max-w-full flex-wrap items-center justify-center gap-4">
+            <template v-for="imageObj in imageCategory.images" :key="imageObj.url">
+              <div class="flex flex-col">
+                <img
+                  :src="imageObj.url"
+                  :alt="`Example image for ${imageObj.title ?? 'license plate'}`"
+                  class="max-h-40 max-w-64 object-contain"
+                />
+                <span class="text-center text-base text-text-light-info dark:text-text-dark-info">{{
+                  imageObj.title
+                }}</span>
+              </div>
+            </template>
+          </div>
+        </div>
+      </template>
+      <div v-else>No example</div>
     </div>
   </div>
 </template>

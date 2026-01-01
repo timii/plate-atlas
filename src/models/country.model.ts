@@ -15,14 +15,26 @@ export interface ICountryData {
   countries: ICountry[] // list of countries
 }
 
-// interface used for countries that have no regions/areas in their license plates, instead examples images are used for the country
-export interface ICountryDetailNoRegionCode {
-  title: string // title/name of the example image (something like "current" or "used from YEAR to YEAR")
-  images?: string[] // list of example license plates (as urls of images) that match the title
+// used for countries that have no regions/areas in their license plates, instead examples images are used for the country
+export interface ICountryDetailExampleImages {
+  category: string // category name of the example images (something like "current" or "used from YEAR to YEAR")
+  images: { title?: string; url: string }[] // list of example license plates (as urls of images + optional title) that fit into the category
 }
 
-// interface used for countries that have regions/areas in their license plates
+// used for countries that have regions/areas in their license plates
 export interface ICountryDetailCode {
   code: string // area/region code (such as "A" for Augsburg in Germany)
   name: string // name of the area/region
+}
+
+export type ICountryDetails = ICountryDetailCode[] | ICountryDetailExampleImages[]
+
+export function isOfTypeExampleImages(
+  data: ICountryDetails,
+): data is ICountryDetailExampleImages[] {
+  return data && data.length > 0 && data.every((item) => 'category' in item && 'images' in item)
+}
+
+export function isOfTypeCodes(data: ICountryDetails): data is ICountryDetailCode[] {
+  return data && data.length > 0 && data.every((item) => 'code' in item && 'name' in item)
 }
