@@ -177,9 +177,10 @@ onMounted(async () => {
                   :alt="`Example image for ${imageObj.title ?? 'license plate'}`"
                   class="max-h-72 max-w-64 object-contain"
                 />
-                <span class="text-center text-base text-text-light-info dark:text-text-dark-info">{{
-                  imageObj.title
-                }}</span>
+                <span
+                  class="max-w-64 text-center text-base text-wrap text-text-light-info dark:text-text-dark-info"
+                  >{{ imageObj.title }}</span
+                >
               </div>
             </template>
           </div>
