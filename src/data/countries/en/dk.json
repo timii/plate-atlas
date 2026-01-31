@@ -1,0 +1,39 @@
+[
+  {
+    "category": "Current standard license plates (since 2009 car buyers have been able to choose between a license plate with or without an EU strip)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Denmark_europlates.jpg",
+        "title": "License plate with an EU strip"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Danish_number_plate.jpg",
+        "title": "License plate without an EU strip"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Danish_armed_forces_licenseplates.jpg",
+        "title": "Armed forces (Army, Navy, Air Force, newer symbol common to all three branches)"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Danmark_Royal_licenseplate.JPG",
+        "title": "License plate used by the King"
+      }
+    ]
+  },
+  {
+    "category": "Current standard license plates (Faroe Islands)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/BG_339_Faroer_license_plate_seen_in_Vaduz_FL.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Current standard license plates (Greenland)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Greenland_license_plate.jpg"
+      }
+    ]
+  }
+]

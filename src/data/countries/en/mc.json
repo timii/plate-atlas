@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Current standard license plates (1978-present)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/License_plate_Monaco_2014.jpg/250px-License_plate_Monaco_2014.jpg",
+        "title": "Standard rear plate example (2014 tax stamp shown)"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/License_plate_2014_Monaco_front.jpg/250px-License_plate_2014_Monaco_front.jpg",
+        "title": "Standard front plate example (with 'MC' on the left)"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/2015_Monaco_front_and_rear_plate.JPG/250px-2015_Monaco_front_and_rear_plate.JPG",
+        "title": "Front and rear plate example (2015)"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/License_plate_2013_Monaco_scooter.jpg/250px-License_plate_2013_Monaco_scooter.jpg",
+        "title": "Two-wheeler plate example (2013)"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates (1950-1978)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/MONACO_1960%27s_passenger_sample_-_Flickr_-_woody1778a.jpg/250px-MONACO_1960%27s_passenger_sample_-_Flickr_-_woody1778a.jpg",
+        "title": "Passenger plate example from the 1960s (blue background, white characters)"
+      }
+    ]
+  }
+]

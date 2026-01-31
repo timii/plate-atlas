@@ -1,0 +1,34 @@
+[
+  {
+    "category": "Current standard license plates (2010-present)",
+    "images": [
+      {
+        "url": "https://olavsplates.com/foto_b/b_1-ctc-350_close.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/2010_belgian_diplomatic_license_plate.jpg",
+        "title": "Diplomatic license plate"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Belgium_Royal_Family_license_plate_with_Euroband.jpg",
+        "title": "Plate belonging to the Royal family"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Belgian_military_plate.jpg",
+        "title": "Belgian military license plate"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates (pre 2010)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Belgian_1971-1973_license_plate.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Belgium_diplomatic_license_plate_CD-S970.jpg",
+        "title": "Plate for embassy staff"
+      }
+    ]
+  }
+]

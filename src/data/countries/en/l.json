@@ -1,0 +1,22 @@
+[
+  {
+    "category": "Current standard license plates (2003-present)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Luxembourg_licenseplate_EU.JPG"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/14-02-04-Parlement-europ%C3%A9en-Strasbourg-RalfR-008.jpg",
+        "title": "Diplomatic license plate"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates (1966-1978)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/MA_204_lux.png"
+      }
+    ]
+  }
+]

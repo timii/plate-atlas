@@ -1,0 +1,33 @@
+[
+  {
+    "category": "Current standard license plates (2004-present)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Latvian_EU_number_plate_front.png/250px-Latvian_EU_number_plate_front.png",
+        "title": "EU-style Latvian standard plate (LV on blue EU band)"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Latvian_license_plate.svg/960px-Latvian_license_plate.svg.png",
+        "title": "EU-style Latvian standard plate (illustration)"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates with Latvian flag and LV (1993-2004)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/LATVIA_11990%27s_Post_independence_from_Soviet_Union_-_Flickr_-_woody1778a.jpg/960px-LATVIA_11990%27s_Post_independence_from_Soviet_Union_-_Flickr_-_woody1778a.jpg",
+        "title": "Non-EU style plate with Latvian flag and LV on the left"
+      }
+    ]
+  },
+  {
+    "category": "Soviet-era plates used after independence (1991-1993)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/USSR_LATVIAN_SSR_motorcycle_official%2C_leading_0_in_serial_number.jpg/960px-USSR_LATVIAN_SSR_motorcycle_official%2C_leading_0_in_serial_number.jpg",
+        "title": "Example Soviet Latvian SSR-style plate (Soviet plates were used until 1993)"
+      }
+    ]
+  }
+]

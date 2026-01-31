@@ -1,0 +1,38 @@
+[
+  {
+    "category": "Current standard license plates (2020-present)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Portuguese_licence_plate_AA16AA.jpg/250px-Portuguese_licence_plate_AA16AA.jpg",
+        "title": "Current standard format introduced in March 2020 (AA-00-AA style; yellow date band removed)"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates with yellow registration date band (1998-2020)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Placapt2007.jpg/250px-Placapt2007.jpg",
+        "title": "Standard plate with yellow date band (example shows first registration date 04/06)"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates without yellow band (1992-1998)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Chapa92-98.jpg/250px-Chapa92-98.jpg",
+        "title": "White background with EU band, before the yellow date band was introduced"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates (1937-1992)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Portugallicenseplate.jpg/250px-Portugallicenseplate.jpg",
+        "title": "White characters on black background (pre-1992 standard style)"
+      }
+    ]
+  }
+]

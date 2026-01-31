@@ -1,0 +1,24 @@
+[
+  {
+    "category": "Current private resident license plates (1988-present)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Targa_automobilistica_Citt%C3%A0_del_Vaticano_1988_CV_03566_residenti.jpg",
+        "title": "Resident/private plate example (1988, CV prefix)"
+      }
+    ]
+  },
+  {
+    "category": "Current official government license plates (1930-present)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Targa_automobilistica_Citt%C3%A0_del_Vaticano_2018_SCV_01177.jpg/330px-Targa_automobilistica_Citt%C3%A0_del_Vaticano_2018_SCV_01177.jpg",
+        "title": "Official/government plate in use (SCV prefix)"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Targa_automobilistica_Citt%C3%A0_del_Vaticano_2002_SCV_1_Papamobile.jpg",
+        "title": "Vehicle plate used by the pope (SCV 1, red letters)"
+      }
+    ]
+  }
+]

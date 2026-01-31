@@ -1,0 +1,22 @@
+[
+  {
+    "category": "Current standard license plates",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Old_licenseplate_of_Guernsey_%28GBG%29.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/GBG_white_front_plate.jpg",
+        "title": "Guernsey front license plate without an identifier band"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Guernsey_license_plate_rear_yellow.jpg",
+        "title": "Guernsey rear licesne plate without an identifier band"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/GBG_Number_Plate_Band.png",
+        "title": "The Guernsey (GBG) identifier"
+      }
+    ]
+  }
+]

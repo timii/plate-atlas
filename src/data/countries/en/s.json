@@ -1,0 +1,47 @@
+[
+  {
+    "category": "Current standard license plates (2019-present)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Swedish_license_plate_2019.jpg/250px-Swedish_license_plate_2019.jpg",
+        "title": "Current format with last character as digit or letter (Format: ABC 12A)"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates without taxation sticker (2010-2018)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Sweden_licenseplate_EU.JPG/250px-Sweden_licenseplate_EU.JPG",
+        "title": "Standard plate example without taxation sticker (2010-2013 example shown)"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates with taxation sticker (1973-2009)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Swedish_licenseplate.jpg/250px-Swedish_licenseplate.jpg",
+        "title": "Standard plate with taxation sticker (sticker abolished in 2010)"
+      }
+    ]
+  },
+  {
+    "category": "Previous county code license plates (1906-1973)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Sweden_SE_license_plate_before_1973.jpg/250px-Sweden_SE_license_plate_before_1973.jpg",
+        "title": "County code format used before 1973 (example: A = Stockholm)"
+      }
+    ]
+  },
+  {
+    "category": "Military plates (1906-present)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Swedish_military_license_plate_118076.jpg/250px-Swedish_military_license_plate_118076.jpg",
+        "title": "Military plate (yellow digits on black background; 1906-series format still used)"
+      }
+    ]
+  }
+]
