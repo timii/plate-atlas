@@ -1,0 +1,38 @@
+[
+  {
+    "code": "CP",
+    "name": "Central Province"
+  },
+  {
+    "code": "EP",
+    "name": "Eastern Province"
+  },
+  {
+    "code": "NC",
+    "name": "North Central Province"
+  },
+  {
+    "code": "NP",
+    "name": "Northern Province"
+  },
+  {
+    "code": "NW",
+    "name": "North Western Province"
+  },
+  {
+    "code": "SG",
+    "name": "Sabaragamuwa Province"
+  },
+  {
+    "code": "SP",
+    "name": "Southern Province"
+  },
+  {
+    "code": "UP",
+    "name": "Uva Province"
+  },
+  {
+    "code": "WP",
+    "name": "Western Province"
+  }
+]

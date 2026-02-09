@@ -1,0 +1,20 @@
+[
+  {
+    "category": "Current standard license plates (2017-present)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Plak-IL-Shakhsi_8_digits.svg",
+        "title": "Standard plate (8-digit format)"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates (1980-2017)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Israeli_reg_6876.jpg",
+        "title": "Standard plate (7-digit format, 2008 example)"
+      }
+    ]
+  }
+]

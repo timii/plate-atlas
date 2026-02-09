@@ -1,0 +1,28 @@
+[
+  {
+    "category": "Current standard license plates (2009-present)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Brunei_car_plate_%28cropped%29.JPG",
+        "title": "Standard plate (black background, white characters)"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Diplomatic_car_plates_in_Brunei.jpg",
+        "title": "Diplomatic"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Embassy_car_from_Brunei.jpg",
+        "title": "Embassy"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates (pre-2009)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Old_license_plate_of_Brunei.jpg",
+        "title": "Older plate style"
+      }
+    ]
+  }
+]

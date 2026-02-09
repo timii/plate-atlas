@@ -1,0 +1,190 @@
+[
+  {
+    "code": "01",
+    "name": "Hokkaido (北海道)"
+  },
+  {
+    "code": "02",
+    "name": "Aomori (青森県)"
+  },
+  {
+    "code": "03",
+    "name": "Iwate (岩手県)"
+  },
+  {
+    "code": "04",
+    "name": "Miyagi (宮城県)"
+  },
+  {
+    "code": "05",
+    "name": "Akita (秋田県)"
+  },
+  {
+    "code": "06",
+    "name": "Yamagata (山形県)"
+  },
+  {
+    "code": "07",
+    "name": "Fukushima (福島県)"
+  },
+  {
+    "code": "08",
+    "name": "Ibaraki (茨城県)"
+  },
+  {
+    "code": "09",
+    "name": "Tochigi (栃木県)"
+  },
+  {
+    "code": "10",
+    "name": "Gunma (群馬県)"
+  },
+  {
+    "code": "11",
+    "name": "Saitama (埼玉県)"
+  },
+  {
+    "code": "12",
+    "name": "Chiba (千葉県)"
+  },
+  {
+    "code": "13",
+    "name": "Tokyo (東京都)"
+  },
+  {
+    "code": "14",
+    "name": "Kanagawa (神奈川県)"
+  },
+  {
+    "code": "15",
+    "name": "Niigata (新潟県)"
+  },
+  {
+    "code": "16",
+    "name": "Toyama (富山県)"
+  },
+  {
+    "code": "17",
+    "name": "Ishikawa (石川県)"
+  },
+  {
+    "code": "18",
+    "name": "Fukui (福井県)"
+  },
+  {
+    "code": "19",
+    "name": "Yamanashi (山梨県)"
+  },
+  {
+    "code": "20",
+    "name": "Nagano (長野県)"
+  },
+  {
+    "code": "21",
+    "name": "Gifu (岐阜県)"
+  },
+  {
+    "code": "22",
+    "name": "Shizuoka (静岡県)"
+  },
+  {
+    "code": "23",
+    "name": "Aichi (愛知県)"
+  },
+  {
+    "code": "24",
+    "name": "Mie (三重県)"
+  },
+  {
+    "code": "25",
+    "name": "Shiga (滋賀県)"
+  },
+  {
+    "code": "26",
+    "name": "Kyoto (京都府)"
+  },
+  {
+    "code": "27",
+    "name": "Osaka (大阪府)"
+  },
+  {
+    "code": "28",
+    "name": "Hyogo (兵庫県)"
+  },
+  {
+    "code": "29",
+    "name": "Nara (奈良県)"
+  },
+  {
+    "code": "30",
+    "name": "Wakayama (和歌山県)"
+  },
+  {
+    "code": "31",
+    "name": "Tottori (鳥取県)"
+  },
+  {
+    "code": "32",
+    "name": "Shimane (島根県)"
+  },
+  {
+    "code": "33",
+    "name": "Okayama (岡山県)"
+  },
+  {
+    "code": "34",
+    "name": "Hiroshima (広島県)"
+  },
+  {
+    "code": "35",
+    "name": "Yamaguchi (山口県)"
+  },
+  {
+    "code": "36",
+    "name": "Tokushima (徳島県)"
+  },
+  {
+    "code": "37",
+    "name": "Kagawa (香川県)"
+  },
+  {
+    "code": "38",
+    "name": "Ehime (愛媛県)"
+  },
+  {
+    "code": "39",
+    "name": "Kochi (高知県)"
+  },
+  {
+    "code": "40",
+    "name": "Fukuoka (福岡県)"
+  },
+  {
+    "code": "41",
+    "name": "Saga (佐賀県)"
+  },
+  {
+    "code": "42",
+    "name": "Nagasaki (長崎県)"
+  },
+  {
+    "code": "43",
+    "name": "Kumamoto (熊本県)"
+  },
+  {
+    "code": "44",
+    "name": "Oita (大分県)"
+  },
+  {
+    "code": "45",
+    "name": "Miyazaki (宮崎県)"
+  },
+  {
+    "code": "46",
+    "name": "Kagoshima (鹿児島県)"
+  },
+  {
+    "code": "47",
+    "name": "Okinawa (沖縄県)"
+  }
+]

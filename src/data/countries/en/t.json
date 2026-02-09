@@ -1,0 +1,310 @@
+﻿[
+    {
+        "code":  "กรุงเทพมหานคร",
+        "name":  "Bangkok (กรุงเทพมหานคร)"
+    },
+    {
+        "code":  "อำนาจเจริญ",
+        "name":  "Amnat Charoen (อำนาจเจริญ)"
+    },
+    {
+        "code":  "อ่างทอง",
+        "name":  "Ang Thong (อ่างทอง)"
+    },
+    {
+        "code":  "บึงกาฬ",
+        "name":  "Bueng Kan (บึงกาฬ)"
+    },
+    {
+        "code":  "บุรีรัมย์",
+        "name":  "Buriram (บุรีรัมย์)"
+    },
+    {
+        "code":  "ฉะเชิงเทรา",
+        "name":  "Chachoengsao (ฉะเชิงเทรา)"
+    },
+    {
+        "code":  "ชัยนาท",
+        "name":  "Chai Nat (ชัยนาท)"
+    },
+    {
+        "code":  "ชัยภูมิ",
+        "name":  "Chaiyaphum (ชัยภูมิ)"
+    },
+    {
+        "code":  "จันทบุรี",
+        "name":  "Chanthaburi (จันทบุรี)"
+    },
+    {
+        "code":  "เชียงใหม่",
+        "name":  "Chiang Mai (เชียงใหม่)"
+    },
+    {
+        "code":  "เชียงราย",
+        "name":  "Chiang Rai (เชียงราย)"
+    },
+    {
+        "code":  "ชลบุรี",
+        "name":  "Chonburi (ชลบุรี)"
+    },
+    {
+        "code":  "ชุมพร",
+        "name":  "Chumphon (ชุมพร)"
+    },
+    {
+        "code":  "กาฬสินธุ์",
+        "name":  "Kalasin (กาฬสินธุ์)"
+    },
+    {
+        "code":  "กำแพงเพชร",
+        "name":  "Kamphaeng Phet (กำแพงเพชร)"
+    },
+    {
+        "code":  "กาญจนบุรี",
+        "name":  "Kanchanaburi (กาญจนบุรี)"
+    },
+    {
+        "code":  "ขอนแก่น",
+        "name":  "Khon Kaen (ขอนแก่น)"
+    },
+    {
+        "code":  "กระบี่",
+        "name":  "Krabi (กระบี่)"
+    },
+    {
+        "code":  "ลำปาง",
+        "name":  "Lampang (ลำปาง)"
+    },
+    {
+        "code":  "ลำพูน",
+        "name":  "Lamphun (ลำพูน)"
+    },
+    {
+        "code":  "เลย",
+        "name":  "Loei (เลย)"
+    },
+    {
+        "code":  "ลพบุรี",
+        "name":  "Lopburi (ลพบุรี)"
+    },
+    {
+        "code":  "แม่ฮ่องสอน",
+        "name":  "Mae Hong Son (แม่ฮ่องสอน)"
+    },
+    {
+        "code":  "มหาสารคาม",
+        "name":  "Maha Sarakham (มหาสารคาม)"
+    },
+    {
+        "code":  "มุกดาหาร",
+        "name":  "Mukdahan (มุกดาหาร)"
+    },
+    {
+        "code":  "นครนายก",
+        "name":  "Nakhon Nayok (นครนายก)"
+    },
+    {
+        "code":  "นครปฐม",
+        "name":  "Nakhon Pathom (นครปฐม)"
+    },
+    {
+        "code":  "นครพนม",
+        "name":  "Nakhon Phanom (นครพนม)"
+    },
+    {
+        "code":  "นครราชสีมา",
+        "name":  "Nakhon Ratchasima (นครราชสีมา)"
+    },
+    {
+        "code":  "นครสวรรค์",
+        "name":  "Nakhon Sawan (นครสวรรค์)"
+    },
+    {
+        "code":  "นครศรีธรรมราช",
+        "name":  "Nakhon Si Thammarat (นครศรีธรรมราช)"
+    },
+    {
+        "code":  "น่าน",
+        "name":  "Nan (น่าน)"
+    },
+    {
+        "code":  "นราธิวาส",
+        "name":  "Narathiwat (นราธิวาส)"
+    },
+    {
+        "code":  "หนองบัวลำภู",
+        "name":  "Nong Bua Lamphu (หนองบัวลำภู)"
+    },
+    {
+        "code":  "หนองคาย",
+        "name":  "Nong Khai (หนองคาย)"
+    },
+    {
+        "code":  "นนทบุรี",
+        "name":  "Nonthaburi (นนทบุรี)"
+    },
+    {
+        "code":  "ปทุมธานี",
+        "name":  "Pathum Thani (ปทุมธานี)"
+    },
+    {
+        "code":  "ปัตตานี",
+        "name":  "Pattani (ปัตตานี)"
+    },
+    {
+        "code":  "พังงา",
+        "name":  "Phang Nga (พังงา)"
+    },
+    {
+        "code":  "พัทลุง",
+        "name":  "Phatthalung (พัทลุง)"
+    },
+    {
+        "code":  "พะเยา",
+        "name":  "Phayao (พะเยา)"
+    },
+    {
+        "code":  "เพชรบูรณ์",
+        "name":  "Phetchabun (เพชรบูรณ์)"
+    },
+    {
+        "code":  "เพชรบุรี",
+        "name":  "Phetchaburi (เพชรบุรี)"
+    },
+    {
+        "code":  "พิจิตร",
+        "name":  "Phichit (พิจิตร)"
+    },
+    {
+        "code":  "พิษณุโลก",
+        "name":  "Phitsanulok (พิษณุโลก)"
+    },
+    {
+        "code":  "พระนครศรีอยุธยา",
+        "name":  "Phra Nakhon Si Ayutthaya (พระนครศรีอยุธยา)"
+    },
+    {
+        "code":  "แพร่",
+        "name":  "Phrae (แพร่)"
+    },
+    {
+        "code":  "ภูเก็ต",
+        "name":  "Phuket (ภูเก็ต)"
+    },
+    {
+        "code":  "ปราจีนบุรี",
+        "name":  "Prachinburi (ปราจีนบุรี)"
+    },
+    {
+        "code":  "ประจวบคีรีขันธ์",
+        "name":  "Prachuap Khiri Khan (ประจวบคีรีขันธ์)"
+    },
+    {
+        "code":  "ระนอง",
+        "name":  "Ranong (ระนอง)"
+    },
+    {
+        "code":  "ราชบุรี",
+        "name":  "Ratchaburi (ราชบุรี)"
+    },
+    {
+        "code":  "ระยอง",
+        "name":  "Rayong (ระยอง)"
+    },
+    {
+        "code":  "ร้อยเอ็ด",
+        "name":  "Roi Et (ร้อยเอ็ด)"
+    },
+    {
+        "code":  "สระแก้ว",
+        "name":  "Sa Kaeo (สระแก้ว)"
+    },
+    {
+        "code":  "สกลนคร",
+        "name":  "Sakon Nakhon (สกลนคร)"
+    },
+    {
+        "code":  "สมุทรปราการ",
+        "name":  "Samut Prakan (สมุทรปราการ)"
+    },
+    {
+        "code":  "สมุทรสาคร",
+        "name":  "Samut Sakhon (สมุทรสาคร)"
+    },
+    {
+        "code":  "สมุทรสงคราม",
+        "name":  "Samut Songkhram (สมุทรสงคราม)"
+    },
+    {
+        "code":  "สระบุรี",
+        "name":  "Saraburi (สระบุรี)"
+    },
+    {
+        "code":  "สตูล",
+        "name":  "Satun (สตูล)"
+    },
+    {
+        "code":  "สิงห์บุรี",
+        "name":  "Sing Buri (สิงห์บุรี)"
+    },
+    {
+        "code":  "ศรีสะเกษ",
+        "name":  "Sisaket (ศรีสะเกษ)"
+    },
+    {
+        "code":  "สงขลา",
+        "name":  "Songkhla (สงขลา)"
+    },
+    {
+        "code":  "สุโขทัย",
+        "name":  "Sukhothai (สุโขทัย)"
+    },
+    {
+        "code":  "สุพรรณบุรี",
+        "name":  "Suphan Buri (สุพรรณบุรี)"
+    },
+    {
+        "code":  "สุราษฎร์ธานี",
+        "name":  "Surat Thani (สุราษฎร์ธานี)"
+    },
+    {
+        "code":  "สุรินทร์",
+        "name":  "Surin (สุรินทร์)"
+    },
+    {
+        "code":  "ตาก",
+        "name":  "Tak (ตาก)"
+    },
+    {
+        "code":  "ตรัง",
+        "name":  "Trang (ตรัง)"
+    },
+    {
+        "code":  "ตราด",
+        "name":  "Trat (ตราด)"
+    },
+    {
+        "code":  "อุบลราชธานี",
+        "name":  "Ubon Ratchathani (อุบลราชธานี)"
+    },
+    {
+        "code":  "อุดรธานี",
+        "name":  "Udon Thani (อุดรธานี)"
+    },
+    {
+        "code":  "อุทัยธานี",
+        "name":  "Uthai Thani (อุทัยธานี)"
+    },
+    {
+        "code":  "อุตรดิตถ์",
+        "name":  "Uttaradit (อุตรดิตถ์)"
+    },
+    {
+        "code":  "ยะลา",
+        "name":  "Yala (ยะลา)"
+    },
+    {
+        "code":  "ยโสธร",
+        "name":  "Yasothon (ยโสธร)"
+    }
+]

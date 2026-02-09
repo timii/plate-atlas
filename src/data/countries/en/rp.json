@@ -1,0 +1,102 @@
+[
+  {
+    "code": "A",
+    "name": "Ilocos Region (motorcycles only)"
+  },
+  {
+    "code": "B",
+    "name": "Cagayan Valley"
+  },
+  {
+    "code": "C",
+    "name": "Central Luzon"
+  },
+  {
+    "code": "D",
+    "name": "Calabarzon"
+  },
+  {
+    "code": "E",
+    "name": "Bicol Region"
+  },
+  {
+    "code": "F",
+    "name": "Western Visayas"
+  },
+  {
+    "code": "G",
+    "name": "Central Visayas"
+  },
+  {
+    "code": "H",
+    "name": "Eastern Visayas"
+  },
+  {
+    "code": "I",
+    "name": "Ilocos Region"
+  },
+  {
+    "code": "J",
+    "name": "Zamboanga Peninsula / Bangsamoro"
+  },
+  {
+    "code": "K",
+    "name": "Northern Mindanao"
+  },
+  {
+    "code": "L",
+    "name": "Davao Region"
+  },
+  {
+    "code": "M",
+    "name": "Soccsksargen"
+  },
+  {
+    "code": "N",
+    "name": "Metro Manila"
+  },
+  {
+    "code": "O",
+    "name": "Calabarzon"
+  },
+  {
+    "code": "P",
+    "name": "Metro Manila"
+  },
+  {
+    "code": "Q",
+    "name": "Metro Manila"
+  },
+  {
+    "code": "R",
+    "name": "Central Luzon"
+  },
+  {
+    "code": "T",
+    "name": "Metro Manila"
+  },
+  {
+    "code": "U",
+    "name": "Metro Manila"
+  },
+  {
+    "code": "V",
+    "name": "Mimaropa"
+  },
+  {
+    "code": "W",
+    "name": "Central Luzon"
+  },
+  {
+    "code": "X",
+    "name": "Metro Manila"
+  },
+  {
+    "code": "Y",
+    "name": "Cordillera Administrative Region"
+  },
+  {
+    "code": "Z",
+    "name": "Caraga"
+  }
+]

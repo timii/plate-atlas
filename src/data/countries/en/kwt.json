@@ -1,0 +1,43 @@
+[
+  {
+    "category": "Current standard and special license plates (2008-present)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Kuwait_License_Plate_-_Private.png",
+        "title": "Private car (standard size)"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Kuwait_License_Plate_-_Private_-_EU_Size.png",
+        "title": "Private car (EU size)"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Kuwait_License_Plate_-_Public.png",
+        "title": "Public transport (standard size)"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Kuwait_License_Plate_-_Public_-_EU_Size.png",
+        "title": "Public transport (EU size)"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Kuwait_License_Plate_-_Motorcycle.png",
+        "title": "Motorcycle"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Kuwait_License_Plate_-_Police.png",
+        "title": "Police"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Kuwait_License_Plate_-_Governmental.png",
+        "title": "Government"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Kuwait_License_Plate_-_Diplomatic.png",
+        "title": "Diplomatic"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Commercial_Vehicle_Plate.png",
+        "title": "Commercial"
+      }
+    ]
+  }
+]

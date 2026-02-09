@@ -1,0 +1,38 @@
+[
+  {
+    "code": "01",
+    "name": "Bishkek (Бишкек)"
+  },
+  {
+    "code": "02",
+    "name": "Osh (Ош)"
+  },
+  {
+    "code": "03",
+    "name": "Batken Region (Баткен облусу)"
+  },
+  {
+    "code": "04",
+    "name": "Jalal-Abad Region (Жалал-Абад облусу)"
+  },
+  {
+    "code": "05",
+    "name": "Naryn Region (Нарын облусу)"
+  },
+  {
+    "code": "06",
+    "name": "Osh Region (Ош облусу)"
+  },
+  {
+    "code": "07",
+    "name": "Talas Region (Талас облусу)"
+  },
+  {
+    "code": "08",
+    "name": "Chuy Region (Чүй облусу)"
+  },
+  {
+    "code": "09",
+    "name": "Issyk-Kul Region (Ысык-Көл облусу)"
+  }
+]

@@ -1,0 +1,246 @@
+[
+  {
+    "code": "A",
+    "name": "Banten"
+  },
+  {
+    "code": "AA",
+    "name": "Central Java (Kedu region)"
+  },
+  {
+    "code": "AB",
+    "name": "Yogyakarta"
+  },
+  {
+    "code": "AD",
+    "name": "Central Java (Surakarta region)"
+  },
+  {
+    "code": "AE",
+    "name": "East Java (Madiun region)"
+  },
+  {
+    "code": "AG",
+    "name": "East Java (Kediri region)"
+  },
+  {
+    "code": "B",
+    "name": "Greater Jakarta"
+  },
+  {
+    "code": "BA",
+    "name": "West Sumatra"
+  },
+  {
+    "code": "BB",
+    "name": "North Sumatra (western region)"
+  },
+  {
+    "code": "BD",
+    "name": "Bengkulu"
+  },
+  {
+    "code": "BE",
+    "name": "Lampung"
+  },
+  {
+    "code": "BG",
+    "name": "South Sumatra"
+  },
+  {
+    "code": "BH",
+    "name": "Jambi"
+  },
+  {
+    "code": "BK",
+    "name": "North Sumatra (eastern region)"
+  },
+  {
+    "code": "BL",
+    "name": "Aceh"
+  },
+  {
+    "code": "BM",
+    "name": "Riau"
+  },
+  {
+    "code": "BN",
+    "name": "Bangka Belitung"
+  },
+  {
+    "code": "BP",
+    "name": "Riau Islands"
+  },
+  {
+    "code": "D",
+    "name": "West Java (central Preanger region)"
+  },
+  {
+    "code": "DA",
+    "name": "South Kalimantan"
+  },
+  {
+    "code": "DB",
+    "name": "North Sulawesi (mainland)"
+  },
+  {
+    "code": "DC",
+    "name": "West Sulawesi"
+  },
+  {
+    "code": "DD",
+    "name": "South Sulawesi (southern region)"
+  },
+  {
+    "code": "DE",
+    "name": "Maluku"
+  },
+  {
+    "code": "DG",
+    "name": "North Maluku"
+  },
+  {
+    "code": "DH",
+    "name": "East Nusa Tenggara (Timor)"
+  },
+  {
+    "code": "DK",
+    "name": "Bali"
+  },
+  {
+    "code": "DL",
+    "name": "North Sulawesi (islands)"
+  },
+  {
+    "code": "DM",
+    "name": "Gorontalo"
+  },
+  {
+    "code": "DN",
+    "name": "Central Sulawesi"
+  },
+  {
+    "code": "DP",
+    "name": "South Sulawesi (northern region)"
+  },
+  {
+    "code": "DR",
+    "name": "West Nusa Tenggara (Lombok)"
+  },
+  {
+    "code": "DT",
+    "name": "Southeast Sulawesi"
+  },
+  {
+    "code": "DW",
+    "name": "South Sulawesi (central region)"
+  },
+  {
+    "code": "E",
+    "name": "West Java (Cirebon region)"
+  },
+  {
+    "code": "EA",
+    "name": "West Nusa Tenggara (Sumbawa)"
+  },
+  {
+    "code": "EB",
+    "name": "East Nusa Tenggara (Flores, Alor, and Lembata)"
+  },
+  {
+    "code": "ED",
+    "name": "East Nusa Tenggara (Sumba)"
+  },
+  {
+    "code": "F",
+    "name": "West Java (western Preanger region)"
+  },
+  {
+    "code": "G",
+    "name": "Central Java (Pekalongan region)"
+  },
+  {
+    "code": "H",
+    "name": "Central Java (Semarang region)"
+  },
+  {
+    "code": "K",
+    "name": "Central Java (Pati region)"
+  },
+  {
+    "code": "KB",
+    "name": "West Kalimantan"
+  },
+  {
+    "code": "KH",
+    "name": "Central Kalimantan"
+  },
+  {
+    "code": "KT",
+    "name": "East Kalimantan"
+  },
+  {
+    "code": "KU",
+    "name": "North Kalimantan"
+  },
+  {
+    "code": "L",
+    "name": "East Java (Surabaya)"
+  },
+  {
+    "code": "M",
+    "name": "East Java (Madura)"
+  },
+  {
+    "code": "N",
+    "name": "East Java (Malang region)"
+  },
+  {
+    "code": "P",
+    "name": "East Java (Besuki region)"
+  },
+  {
+    "code": "PA",
+    "name": "Papua"
+  },
+  {
+    "code": "PB",
+    "name": "West Papua"
+  },
+  {
+    "code": "PG",
+    "name": "Highland Papua"
+  },
+  {
+    "code": "PS",
+    "name": "South Papua"
+  },
+  {
+    "code": "PT",
+    "name": "Central Papua"
+  },
+  {
+    "code": "PY",
+    "name": "Southwest Papua"
+  },
+  {
+    "code": "R",
+    "name": "Central Java (Banyumas region)"
+  },
+  {
+    "code": "S",
+    "name": "East Java (Bojonegoro region)"
+  },
+  {
+    "code": "T",
+    "name": "West Java (Karawang region)"
+  },
+  {
+    "code": "W",
+    "name": "East Java (Sidoarjo and Gresik)"
+  },
+  {
+    "code": "Z",
+    "name": "West Java (eastern Preanger region)"
+  }
+]

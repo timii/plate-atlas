@@ -1,0 +1,34 @@
+[
+  {
+    "code": "B",
+    "name": "Beirut (بيروت)"
+  },
+  {
+    "code": "G",
+    "name": "Jounieh (جونية)"
+  },
+  {
+    "code": "N",
+    "name": "Nabatieh (النبطية)"
+  },
+  {
+    "code": "O",
+    "name": "Ouzai (الأوزاعي)"
+  },
+  {
+    "code": "S",
+    "name": "Sidon (صيدا)"
+  },
+  {
+    "code": "T",
+    "name": "Tripoli (طرابلس)"
+  },
+  {
+    "code": "Y",
+    "name": "Aley (عاليه)"
+  },
+  {
+    "code": "Z",
+    "name": "Zahle (زحلة)"
+  }
+]

@@ -1,0 +1,166 @@
+﻿[
+    {
+        "code":  "A",
+        "name":  "Perak"
+    },
+    {
+        "code":  "B",
+        "name":  "Selangor"
+    },
+    {
+        "code":  "C",
+        "name":  "Pahang"
+    },
+    {
+        "code":  "D",
+        "name":  "Kelantan"
+    },
+    {
+        "code":  "F",
+        "name":  "Putrajaya (Wilayah Persekutuan Putrajaya)"
+    },
+    {
+        "code":  "J",
+        "name":  "Johor"
+    },
+    {
+        "code":  "K",
+        "name":  "Kedah"
+    },
+    {
+        "code":  "KV",
+        "name":  "Langkawi (Kedah)"
+    },
+    {
+        "code":  "L",
+        "name":  "Labuan (Wilayah Persekutuan Labuan)"
+    },
+    {
+        "code":  "M",
+        "name":  "Malacca (Melaka)"
+    },
+    {
+        "code":  "N",
+        "name":  "Negeri Sembilan"
+    },
+    {
+        "code":  "P",
+        "name":  "Penang (Pulau Pinang)"
+    },
+    {
+        "code":  "Q",
+        "name":  "Sarawak"
+    },
+    {
+        "code":  "QA",
+        "name":  "Kuching (Sarawak)"
+    },
+    {
+        "code":  "QK",
+        "name":  "Kuching (Sarawak)"
+    },
+    {
+        "code":  "QB",
+        "name":  "Sri Aman and Betong (Sarawak)"
+    },
+    {
+        "code":  "QC",
+        "name":  "Samarahan and Serian (Sarawak)"
+    },
+    {
+        "code":  "QL",
+        "name":  "Limbang (Sarawak)"
+    },
+    {
+        "code":  "QM",
+        "name":  "Miri (Sarawak)"
+    },
+    {
+        "code":  "QP",
+        "name":  "Kapit (Sarawak)"
+    },
+    {
+        "code":  "QR",
+        "name":  "Sarikei (Sarawak)"
+    },
+    {
+        "code":  "QS",
+        "name":  "Sibu and Mukah (Sarawak)"
+    },
+    {
+        "code":  "QT",
+        "name":  "Bintulu (Sarawak)"
+    },
+    {
+        "code":  "QD",
+        "name":  "Bintulu (Sarawak)"
+    },
+    {
+        "code":  "R",
+        "name":  "Perlis"
+    },
+    {
+        "code":  "S",
+        "name":  "Sabah"
+    },
+    {
+        "code":  "SA",
+        "name":  "West Coast (Sabah)"
+    },
+    {
+        "code":  "SY",
+        "name":  "West Coast (Sabah)"
+    },
+    {
+        "code":  "SJ",
+        "name":  "West Coast (Sabah)"
+    },
+    {
+        "code":  "SB",
+        "name":  "Beaufort (Sabah)"
+    },
+    {
+        "code":  "SD",
+        "name":  "Lahad Datu (Sabah)"
+    },
+    {
+        "code":  "SP",
+        "name":  "Lahad Datu (Sabah)"
+    },
+    {
+        "code":  "SK",
+        "name":  "Kudat (Sabah)"
+    },
+    {
+        "code":  "SS",
+        "name":  "Sandakan (Sabah)"
+    },
+    {
+        "code":  "SM",
+        "name":  "Sandakan (Sabah)"
+    },
+    {
+        "code":  "ST",
+        "name":  "Tawau (Sabah)"
+    },
+    {
+        "code":  "SW",
+        "name":  "Tawau (Sabah)"
+    },
+    {
+        "code":  "SU",
+        "name":  "Keningau (Sabah)"
+    },
+    {
+        "code":  "T",
+        "name":  "Terengganu"
+    },
+    {
+        "code":  "V",
+        "name":  "Kuala Lumpur (Wilayah Persekutuan Kuala Lumpur)"
+    },
+    {
+        "code":  "W",
+        "name":  "Kuala Lumpur (Wilayah Persekutuan Kuala Lumpur)"
+    }
+]

@@ -1,0 +1,258 @@
+[
+  {
+    "code": "01",
+    "name": "Bandarban (বান্দরবান)"
+  },
+  {
+    "code": "02",
+    "name": "Barguna (বরগুনা)"
+  },
+  {
+    "code": "03",
+    "name": "Bogura (বগুড়া)"
+  },
+  {
+    "code": "04",
+    "name": "Brahmanbaria (ব্রাহ্মণবাড়িয়া)"
+  },
+  {
+    "code": "05",
+    "name": "Bagerhat (বাগেরহাট)"
+  },
+  {
+    "code": "06",
+    "name": "Barishal (বরিশাল)"
+  },
+  {
+    "code": "07",
+    "name": "Bhola (ভোলা)"
+  },
+  {
+    "code": "08",
+    "name": "Cumilla (কুমিল্লা)"
+  },
+  {
+    "code": "09",
+    "name": "Chandpur (চাঁদপুর)"
+  },
+  {
+    "code": "10",
+    "name": "Chattogram (চট্টগ্রাম)"
+  },
+  {
+    "code": "11",
+    "name": "Cox's Bazar (কক্সবাজার)"
+  },
+  {
+    "code": "12",
+    "name": "Chuadanga (চুয়াডাঙ্গা)"
+  },
+  {
+    "code": "13",
+    "name": "Dhaka (ঢাকা)"
+  },
+  {
+    "code": "14",
+    "name": "Dinajpur (দিনাজপুর)"
+  },
+  {
+    "code": "15",
+    "name": "Faridpur (ফরিদপুর)"
+  },
+  {
+    "code": "16",
+    "name": "Feni (ফেনী)"
+  },
+  {
+    "code": "17",
+    "name": "Gopalganj (গোপালগঞ্জ)"
+  },
+  {
+    "code": "18",
+    "name": "Gazipur (গাজীপুর)"
+  },
+  {
+    "code": "19",
+    "name": "Gaibandha (গাইবান্ধা)"
+  },
+  {
+    "code": "20",
+    "name": "Habiganj (হবিগঞ্জ)"
+  },
+  {
+    "code": "21",
+    "name": "Jamalpur (জামালপুর)"
+  },
+  {
+    "code": "22",
+    "name": "Jashore (যশোর)"
+  },
+  {
+    "code": "23",
+    "name": "Jhenaidah (ঝিনাইদহ)"
+  },
+  {
+    "code": "24",
+    "name": "Joypurhat (জয়পুরহাট)"
+  },
+  {
+    "code": "25",
+    "name": "Jhalakathi (ঝালকাঠি)"
+  },
+  {
+    "code": "26",
+    "name": "Kishoreganj (কিশোরগঞ্জ)"
+  },
+  {
+    "code": "27",
+    "name": "Khulna (খুলনা)"
+  },
+  {
+    "code": "28",
+    "name": "Kurigram (কুড়িগ্রাম)"
+  },
+  {
+    "code": "29",
+    "name": "Khagrachhari (খাগড়াছড়ি)"
+  },
+  {
+    "code": "30",
+    "name": "Kushtia (কুষ্টিয়া)"
+  },
+  {
+    "code": "31",
+    "name": "Lakshmipur (লক্ষ্মীপুর)"
+  },
+  {
+    "code": "32",
+    "name": "Lalmonirhat (লালমনিরহাট)"
+  },
+  {
+    "code": "33",
+    "name": "Manikganj (মানিকগঞ্জ)"
+  },
+  {
+    "code": "34",
+    "name": "Mymensingh (ময়মনসিংহ)"
+  },
+  {
+    "code": "35",
+    "name": "Munshiganj (মুন্সীগঞ্জ)"
+  },
+  {
+    "code": "36",
+    "name": "Madaripur (মাদারীপুর)"
+  },
+  {
+    "code": "37",
+    "name": "Magura (মাগুরা)"
+  },
+  {
+    "code": "38",
+    "name": "Moulvibazar (মৌলভীবাজার)"
+  },
+  {
+    "code": "39",
+    "name": "Meherpur (মেহেরপুর)"
+  },
+  {
+    "code": "40",
+    "name": "Narayanganj (নারায়ণগঞ্জ)"
+  },
+  {
+    "code": "41",
+    "name": "Netrakona (নেত্রকোণা)"
+  },
+  {
+    "code": "42",
+    "name": "Narsingdi (নরসিংদী)"
+  },
+  {
+    "code": "43",
+    "name": "Narail (নড়াইল)"
+  },
+  {
+    "code": "44",
+    "name": "Natore (নাটোর)"
+  },
+  {
+    "code": "45",
+    "name": "Chapai Nawabganj (চাঁপাইনবাবগঞ্জ)"
+  },
+  {
+    "code": "46",
+    "name": "Nilphamari (নীলফামারী)"
+  },
+  {
+    "code": "47",
+    "name": "Noakhali (নোয়াখালী)"
+  },
+  {
+    "code": "48",
+    "name": "Naogaon (নওগাঁ)"
+  },
+  {
+    "code": "49",
+    "name": "Pabna (পাবনা)"
+  },
+  {
+    "code": "50",
+    "name": "Pirojpur (পিরোজপুর)"
+  },
+  {
+    "code": "51",
+    "name": "Patuakhali (পটুয়াখালী)"
+  },
+  {
+    "code": "52",
+    "name": "Panchagarh (পঞ্চগড়)"
+  },
+  {
+    "code": "53",
+    "name": "Rajbari (রাজবাড়ী)"
+  },
+  {
+    "code": "54",
+    "name": "Rajshahi (রাজশাহী)"
+  },
+  {
+    "code": "55",
+    "name": "Rangpur (রংপুর)"
+  },
+  {
+    "code": "56",
+    "name": "Rangamati (রাঙ্গামাটি)"
+  },
+  {
+    "code": "57",
+    "name": "Sherpur (শেরপুর)"
+  },
+  {
+    "code": "58",
+    "name": "Satkhira (সাতক্ষীরা)"
+  },
+  {
+    "code": "59",
+    "name": "Sirajganj (সিরাজগঞ্জ)"
+  },
+  {
+    "code": "60",
+    "name": "Sylhet (সিলেট)"
+  },
+  {
+    "code": "61",
+    "name": "Sunamganj (সুনামগঞ্জ)"
+  },
+  {
+    "code": "62",
+    "name": "Shariatpur (শরিয়তপুর)"
+  },
+  {
+    "code": "63",
+    "name": "Tangail (টাঙ্গাইল)"
+  },
+  {
+    "code": "64",
+    "name": "Thakurgaon (ঠাকুরগাঁও)"
+  }
+]

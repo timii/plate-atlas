@@ -1,0 +1,24 @@
+[
+  {
+    "category": "Current standard license plates (2012-present)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Qatar_License_plate.png",
+        "title": "Standard plate (single digits are used by the royal family)"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Qatar_police_license_plate.jpg",
+        "title": "Police"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates (1997-2011)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Qatar_license_plate.JPG",
+        "title": "Previous plate design"
+      }
+    ]
+  }
+]

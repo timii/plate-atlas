@@ -1,0 +1,294 @@
+[
+  {
+    "code": "01",
+    "name": "Absheron (Abşeron)"
+  },
+  {
+    "code": "02",
+    "name": "Agdam (Ağdam)"
+  },
+  {
+    "code": "03",
+    "name": "Agdash (Ağdaş)"
+  },
+  {
+    "code": "04",
+    "name": "Agjabadi (Ağcabədi)"
+  },
+  {
+    "code": "05",
+    "name": "Agstafa (Ağstafa)"
+  },
+  {
+    "code": "06",
+    "name": "Agsu (Ağsu)"
+  },
+  {
+    "code": "07",
+    "name": "Astara"
+  },
+  {
+    "code": "08",
+    "name": "Balakan (Balakən)"
+  },
+  {
+    "code": "09",
+    "name": "Barda (Bərdə)"
+  },
+  {
+    "code": "10",
+    "name": "Baku (Bakı)"
+  },
+  {
+    "code": "11",
+    "name": "Beylagan (Beyləqan)"
+  },
+  {
+    "code": "12",
+    "name": "Bilasuvar (Biləsuvar)"
+  },
+  {
+    "code": "14",
+    "name": "Jabrayil (Cəbrayıl)"
+  },
+  {
+    "code": "15",
+    "name": "Jalilabad (Cəlilabad)"
+  },
+  {
+    "code": "16",
+    "name": "Dashkasan (Daşkəsən)"
+  },
+  {
+    "code": "17",
+    "name": "Davachi (Dəvəçi)"
+  },
+  {
+    "code": "18",
+    "name": "Shirvan (Şirvan)"
+  },
+  {
+    "code": "19",
+    "name": "Fuzuli (Füzuli)"
+  },
+  {
+    "code": "20",
+    "name": "Ganja (Gəncə)"
+  },
+  {
+    "code": "21",
+    "name": "Gadabay (Gədəbəy)"
+  },
+  {
+    "code": "22",
+    "name": "Goranboy"
+  },
+  {
+    "code": "23",
+    "name": "Goychay (Göyçay)"
+  },
+  {
+    "code": "24",
+    "name": "Hajigabul (Hacıqabul)"
+  },
+  {
+    "code": "25",
+    "name": "Khanlar (Xanlar)"
+  },
+  {
+    "code": "26",
+    "name": "Khankandi (Xankəndi)"
+  },
+  {
+    "code": "27",
+    "name": "Khachmaz (Xaçmaz)"
+  },
+  {
+    "code": "28",
+    "name": "Khojavand (Xocavənd)"
+  },
+  {
+    "code": "29",
+    "name": "Khizi (Xızı)"
+  },
+  {
+    "code": "30",
+    "name": "Imishli (İmişli)"
+  },
+  {
+    "code": "31",
+    "name": "Ismayilli (İsmayıllı)"
+  },
+  {
+    "code": "32",
+    "name": "Kalbajar (Kəlbəcər)"
+  },
+  {
+    "code": "33",
+    "name": "Kurdamir (Kürdəmir)"
+  },
+  {
+    "code": "34",
+    "name": "Gakh (Qax)"
+  },
+  {
+    "code": "35",
+    "name": "Gazakh (Qazax)"
+  },
+  {
+    "code": "36",
+    "name": "Gabala (Qəbələ)"
+  },
+  {
+    "code": "37",
+    "name": "Gobustan (Qobustan)"
+  },
+  {
+    "code": "38",
+    "name": "Gusar (Qusar)"
+  },
+  {
+    "code": "39",
+    "name": "Gubadli (Qubadlı)"
+  },
+  {
+    "code": "40",
+    "name": "Guba (Quba)"
+  },
+  {
+    "code": "41",
+    "name": "Lachin (Laçın)"
+  },
+  {
+    "code": "42",
+    "name": "Lankaran (Lənkəran)"
+  },
+  {
+    "code": "43",
+    "name": "Lerik"
+  },
+  {
+    "code": "44",
+    "name": "Masalli (Masallı)"
+  },
+  {
+    "code": "45",
+    "name": "Mingachevir (Mingəçevir)"
+  },
+  {
+    "code": "46",
+    "name": "Naftalan"
+  },
+  {
+    "code": "47",
+    "name": "Neftchala (Neftçala)"
+  },
+  {
+    "code": "48",
+    "name": "Oguz (Oğuz)"
+  },
+  {
+    "code": "49",
+    "name": "Saatli (Saatlı)"
+  },
+  {
+    "code": "50",
+    "name": "Sumgayit (Sumqayıt)"
+  },
+  {
+    "code": "51",
+    "name": "Samukh (Samux)"
+  },
+  {
+    "code": "52",
+    "name": "Salyan"
+  },
+  {
+    "code": "53",
+    "name": "Siyazan (Siyəzən)"
+  },
+  {
+    "code": "54",
+    "name": "Sabirabad"
+  },
+  {
+    "code": "55",
+    "name": "Shaki (Şəki)"
+  },
+  {
+    "code": "56",
+    "name": "Shamakhi (Şamaxı)"
+  },
+  {
+    "code": "57",
+    "name": "Shamkir (Şəmkir)"
+  },
+  {
+    "code": "58",
+    "name": "Shusha (Şuşa)"
+  },
+  {
+    "code": "59",
+    "name": "Tartar (Tərtər)"
+  },
+  {
+    "code": "60",
+    "name": "Tovuz"
+  },
+  {
+    "code": "61",
+    "name": "Ujar (Ucar)"
+  },
+  {
+    "code": "62",
+    "name": "Zagatala (Zaqatala)"
+  },
+  {
+    "code": "63",
+    "name": "Zardab (Zərdab)"
+  },
+  {
+    "code": "64",
+    "name": "Zangilan (Zəngilan)"
+  },
+  {
+    "code": "65",
+    "name": "Yardimli (Yardımlı)"
+  },
+  {
+    "code": "66",
+    "name": "Yevlakh (Yevlax)"
+  },
+  {
+    "code": "67",
+    "name": "Babek (Babək)"
+  },
+  {
+    "code": "68",
+    "name": "Sharur (Şərur)"
+  },
+  {
+    "code": "69",
+    "name": "Ordubad"
+  },
+  {
+    "code": "70",
+    "name": "Nakhchivan city (Naxçıvan)"
+  },
+  {
+    "code": "71",
+    "name": "Shahbuz (Şahbuz)"
+  },
+  {
+    "code": "72",
+    "name": "Culfa"
+  },
+  {
+    "code": "85",
+    "name": "Nakhchivan (Naxçıvan)"
+  },
+  {
+    "code": "90",
+    "name": "Baku (Bakı)"
+  }
+]

@@ -1,0 +1,327 @@
+﻿[
+  {
+    "code": "11",
+    "name": "Cao Bang (Cao Bằng)"
+  },
+  {
+    "code": "12",
+    "name": "Lang Son (Lạng Sơn)"
+  },
+  {
+    "code": "14",
+    "name": "Quang Ninh (Quảng Ninh)"
+  },
+  {
+    "code": "15",
+    "name": "Hai Phong (Hải Phòng)"
+  },
+  {
+    "code": "16",
+    "name": "Hai Phong (Hải Phòng)"
+  },
+  {
+    "code": "17",
+    "name": "Thai Binh (Thái Bình)"
+  },
+  {
+    "code": "18",
+    "name": "Nam Dinh (Nam Định)"
+  },
+  {
+    "code": "19",
+    "name": "Phu Tho (Phú Thọ)"
+  },
+  {
+    "code": "20",
+    "name": "Thai Nguyen (Thái Nguyên)"
+  },
+  {
+    "code": "21",
+    "name": "Yen Bai (Yên Bái)"
+  },
+  {
+    "code": "22",
+    "name": "Tuyen Quang (Tuyên Quang)"
+  },
+  {
+    "code": "23",
+    "name": "Ha Giang (Hà Giang)"
+  },
+  {
+    "code": "24",
+    "name": "Lao Cai (Lào Cai)"
+  },
+  {
+    "code": "25",
+    "name": "Lai Chau (Lai Châu)"
+  },
+  {
+    "code": "26",
+    "name": "Son La (Sơn La)"
+  },
+  {
+    "code": "27",
+    "name": "Dien Bien (Điện Biên)"
+  },
+  {
+    "code": "28",
+    "name": "Hoa Binh (Hòa Bình)"
+  },
+  {
+    "code": "29",
+    "name": "Hanoi (Hà Nội)"
+  },
+  {
+    "code": "30",
+    "name": "Hanoi (Hà Nội)"
+  },
+  {
+    "code": "31",
+    "name": "Hanoi (Hà Nội)"
+  },
+  {
+    "code": "32",
+    "name": "Hanoi (Hà Nội)"
+  },
+  {
+    "code": "33",
+    "name": "Hanoi (Hà Nội)"
+  },
+  {
+    "code": "34",
+    "name": "Hai Duong (Hải Dương)"
+  },
+  {
+    "code": "35",
+    "name": "Ninh Binh (Ninh Bình)"
+  },
+  {
+    "code": "36",
+    "name": "Thanh Hoa (Thanh Hóa)"
+  },
+  {
+    "code": "37",
+    "name": "Nghe An (Nghệ An)"
+  },
+  {
+    "code": "38",
+    "name": "Ha Tinh (Hà Tĩnh)"
+  },
+  {
+    "code": "39",
+    "name": "Dong Nai (Đồng Nai)"
+  },
+  {
+    "code": "40",
+    "name": "Hanoi (Hà Nội)"
+  },
+  {
+    "code": "41",
+    "name": "Ho Chi Minh City (Thành phố Hồ Chí Minh)"
+  },
+  {
+    "code": "43",
+    "name": "Da Nang (Đà Nẵng)"
+  },
+  {
+    "code": "47",
+    "name": "Dak Lak (Đắk Lắk)"
+  },
+  {
+    "code": "48",
+    "name": "Dak Nong (Đắk Nông)"
+  },
+  {
+    "code": "49",
+    "name": "Lam Dong (Lâm Đồng)"
+  },
+  {
+    "code": "50",
+    "name": "Ho Chi Minh City (Thành phố Hồ Chí Minh)"
+  },
+  {
+    "code": "51",
+    "name": "Ho Chi Minh City (Thành phố Hồ Chí Minh)"
+  },
+  {
+    "code": "52",
+    "name": "Ho Chi Minh City (Thành phố Hồ Chí Minh)"
+  },
+  {
+    "code": "53",
+    "name": "Ho Chi Minh City (Thành phố Hồ Chí Minh)"
+  },
+  {
+    "code": "54",
+    "name": "Ho Chi Minh City (Thành phố Hồ Chí Minh)"
+  },
+  {
+    "code": "55",
+    "name": "Ho Chi Minh City (Thành phố Hồ Chí Minh)"
+  },
+  {
+    "code": "56",
+    "name": "Ho Chi Minh City (Thành phố Hồ Chí Minh)"
+  },
+  {
+    "code": "57",
+    "name": "Ho Chi Minh City (Thành phố Hồ Chí Minh)"
+  },
+  {
+    "code": "58",
+    "name": "Ho Chi Minh City (Thành phố Hồ Chí Minh)"
+  },
+  {
+    "code": "59",
+    "name": "Ho Chi Minh City (Thành phố Hồ Chí Minh)"
+  },
+  {
+    "code": "60",
+    "name": "Dong Nai (Đồng Nai)"
+  },
+  {
+    "code": "61",
+    "name": "Binh Duong (Bình Dương)"
+  },
+  {
+    "code": "62",
+    "name": "Long An (Long An)"
+  },
+  {
+    "code": "63",
+    "name": "Tien Giang (Tiền Giang)"
+  },
+  {
+    "code": "64",
+    "name": "Vinh Long (Vĩnh Long)"
+  },
+  {
+    "code": "65",
+    "name": "Can Tho (Cần Thơ)"
+  },
+  {
+    "code": "66",
+    "name": "Dong Thap (Đồng Tháp)"
+  },
+  {
+    "code": "67",
+    "name": "An Giang (An Giang)"
+  },
+  {
+    "code": "68",
+    "name": "Kien Giang (Kiên Giang)"
+  },
+  {
+    "code": "69",
+    "name": "Ca Mau (Cà Mau)"
+  },
+  {
+    "code": "70",
+    "name": "Tay Ninh (Tây Ninh)"
+  },
+  {
+    "code": "71",
+    "name": "Ben Tre (Bến Tre)"
+  },
+  {
+    "code": "72",
+    "name": "Ba Ria-Vung Tau (Bà Rịa-Vũng Tàu)"
+  },
+  {
+    "code": "73",
+    "name": "Quang Binh (Quảng Bình)"
+  },
+  {
+    "code": "74",
+    "name": "Quang Tri (Quảng Trị)"
+  },
+  {
+    "code": "75",
+    "name": "Hue (Huế)"
+  },
+  {
+    "code": "76",
+    "name": "Quang Ngai (Quảng Ngãi)"
+  },
+  {
+    "code": "77",
+    "name": "Binh Dinh (Bình Định)"
+  },
+  {
+    "code": "78",
+    "name": "Phu Yen (Phú Yên)"
+  },
+  {
+    "code": "79",
+    "name": "Khanh Hoa (Khánh Hòa)"
+  },
+  {
+    "code": "80",
+    "name": "National Authorities (Trung ương)"
+  },
+  {
+    "code": "81",
+    "name": "Gia Lai (Gia Lai)"
+  },
+  {
+    "code": "82",
+    "name": "Kon Tum (Kon Tum)"
+  },
+  {
+    "code": "83",
+    "name": "Soc Trang (Sóc Trăng)"
+  },
+  {
+    "code": "84",
+    "name": "Tra Vinh (Trà Vinh)"
+  },
+  {
+    "code": "85",
+    "name": "Ninh Thuan (Ninh Thuận)"
+  },
+  {
+    "code": "86",
+    "name": "Binh Thuan (Bình Thuận)"
+  },
+  {
+    "code": "88",
+    "name": "Vinh Phuc (Vĩnh Phúc)"
+  },
+  {
+    "code": "89",
+    "name": "Hung Yen (Hưng Yên)"
+  },
+  {
+    "code": "90",
+    "name": "Ha Nam (Hà Nam)"
+  },
+  {
+    "code": "92",
+    "name": "Quang Nam (Quảng Nam)"
+  },
+  {
+    "code": "93",
+    "name": "Binh Phuoc (Bình Phước)"
+  },
+  {
+    "code": "94",
+    "name": "Bac Lieu (Bạc Liêu)"
+  },
+  {
+    "code": "95",
+    "name": "Hau Giang (Hậu Giang)"
+  },
+  {
+    "code": "97",
+    "name": "Bac Kan (Bắc Kạn)"
+  },
+  {
+    "code": "98",
+    "name": "Bac Giang (Bắc Giang)"
+  },
+  {
+    "code": "99",
+    "name": "Bac Ninh (Bắc Ninh)"
+  }
+]
+
