@@ -1,0 +1,33 @@
+[
+  {
+    "category": "Current standard and special license plates (2013-present)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/License%20plate%20of%20Cuba%202013%20Pinar%20del%20R%C3%ADo%20P%20025%20245.jpg",
+        "title": "Private vehicle in the 2013 system"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Diplomatic%20license%20plate%20of%20Cuba%2C%202013%2C%20D%20004%20027.jpg",
+        "title": "Diplomatic plate"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates (2002-2012)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/License%20plate%20of%20Cuba%202002%20private%20vehicle%20Holgu%C3%ADn%20ODF%20766.jpg",
+        "title": "Private vehicle in the 2002 format"
+      }
+    ]
+  },
+  {
+    "category": "Earlier standard license plates (1978-2001)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cuba%201978%20particular%20license%20plate.jpg",
+        "title": "Private vehicle plate from the 1978 series"
+      }
+    ]
+  }
+]

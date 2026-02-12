@@ -1,0 +1,54 @@
+[
+  {
+    "code": "ALBERTA",
+    "name": "Alberta"
+  },
+  {
+    "code": "BRITISH COLUMBIA",
+    "name": "British Columbia"
+  },
+  {
+    "code": "MANITOBA",
+    "name": "Manitoba"
+  },
+  {
+    "code": "NEW BRUNSWICK",
+    "name": "New Brunswick"
+  },
+  {
+    "code": "NEWFOUNDLAND AND LABRADOR",
+    "name": "Newfoundland and Labrador"
+  },
+  {
+    "code": "NOVA SCOTIA",
+    "name": "Nova Scotia"
+  },
+  {
+    "code": "NORTHWEST TERRITORIES",
+    "name": "Northwest Territories"
+  },
+  {
+    "code": "NUNAVUT",
+    "name": "Nunavut"
+  },
+  {
+    "code": "ONTARIO",
+    "name": "Ontario"
+  },
+  {
+    "code": "PRINCE EDWARD ISLAND",
+    "name": "Prince Edward Island"
+  },
+  {
+    "code": "QUEBEC",
+    "name": "Quebec"
+  },
+  {
+    "code": "SASKATCHEWAN",
+    "name": "Saskatchewan"
+  },
+  {
+    "code": "YUKON",
+    "name": "Yukon"
+  }
+]

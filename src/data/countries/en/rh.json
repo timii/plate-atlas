@@ -1,0 +1,29 @@
+[
+  {
+    "category": "Current standard passenger license plates (2014-present)",
+    "images": [
+      {
+        "url": "https://www.plateshack.com/y2k/Haiti/haitiprivebb68161-2021.jpg",
+        "title": "Current private/passenger plate example"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard passenger license plates (2006-2013)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Haiti_2010_License_Plate.jpg",
+        "title": "Private plate with department legend"
+      }
+    ]
+  },
+  {
+    "category": "Earlier standard passenger license plates (1929-2005)",
+    "images": [
+      {
+        "url": "http://www.worldlicenseplates.com/jpglps/CA_HAIT_GI1.jpg",
+        "title": "Historic passenger plate examples"
+      }
+    ]
+  }
+]

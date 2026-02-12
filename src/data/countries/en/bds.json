@@ -1,0 +1,46 @@
+[
+  {
+    "code": "A",
+    "name": "Saint Andrew"
+  },
+  {
+    "code": "E",
+    "name": "Saint Peter"
+  },
+  {
+    "code": "G",
+    "name": "Saint George"
+  },
+  {
+    "code": "J",
+    "name": "Saint John"
+  },
+  {
+    "code": "L",
+    "name": "Saint Lucy"
+  },
+  {
+    "code": "M",
+    "name": "Saint Michael"
+  },
+  {
+    "code": "O",
+    "name": "Saint Joseph"
+  },
+  {
+    "code": "P",
+    "name": "Saint Philip"
+  },
+  {
+    "code": "S",
+    "name": "Saint James"
+  },
+  {
+    "code": "T",
+    "name": "Saint Thomas"
+  },
+  {
+    "code": "X",
+    "name": "Christ Church"
+  }
+]

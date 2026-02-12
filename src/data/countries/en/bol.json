@@ -1,0 +1,38 @@
+[
+  {
+    "code": "B",
+    "name": "Beni"
+  },
+  {
+    "code": "C",
+    "name": "Cochabamba"
+  },
+  {
+    "code": "H",
+    "name": "Chuquisaca"
+  },
+  {
+    "code": "L",
+    "name": "La Paz"
+  },
+  {
+    "code": "N",
+    "name": "Pando"
+  },
+  {
+    "code": "O",
+    "name": "Oruro"
+  },
+  {
+    "code": "P",
+    "name": "Potosi"
+  },
+  {
+    "code": "S",
+    "name": "Santa Cruz"
+  },
+  {
+    "code": "T",
+    "name": "Tarija"
+  }
+]

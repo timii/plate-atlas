@@ -1,0 +1,33 @@
+[
+  {
+    "category": "Current standard and special license plates (2017-present)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dominican%20Republic%20hybrid%20vehicle%20registration%20plate%202017.jpg",
+        "title": "Hybrid vehicle plate"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dominican%20Republic%202018%20Temporary%20Plate.png",
+        "title": "Temporary plate"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates (1996-2016)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dominican%20Republic%20vehicle%20registration%20plate%201996-2003.jpg",
+        "title": "Standard plate format used from 1996 onward"
+      }
+    ]
+  },
+  {
+    "category": "Earlier standard license plates (1990-1995)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/DOMINICAN%20REPUBLIC%201993%2C%201994%20-PRIVATE%20VEHICLE%20PLATE%20-%20Flickr%20-%20woody1778a.jpg",
+        "title": "Private vehicle plate from the early 1990s"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "category": "Current standard license plates (2018-present)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Placa%20vehicular%20de%20Honduras.png",
+        "title": "Current private plate format"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates (1999-2018)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matr%C3%ADcula%20automovil%C3%ADstica%20Honduras%201999%20P%20A%C3%91%206225%20Cuidemos%20los%20Bosques.jpg",
+        "title": "Previous private plate format (including letter Ñ)"
+      }
+    ]
+  }
+]

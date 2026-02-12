@@ -1,0 +1,23 @@
+[
+  {
+    "category": "Current standard and special license plates (1996-present)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/License%20plate%20British%20Virgin%20Islands%201996.jpg",
+        "title": "Private vehicle (PV)"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Government%20License%20plate%20of%20the%20British%20Virgin%20Islands%20%283%29.jpg",
+        "title": "Government vehicle (GV)"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Commercial%20License%20plate%20of%20the%20British%20Virgin%20Islands%20%282%29.jpg",
+        "title": "Commercial vehicle (CM)"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Taxi%20License%20plate%20of%20the%20British%20Virgin%20Islands%202.jpg",
+        "title": "Taxi"
+      }
+    ]
+  }
+]

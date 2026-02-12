@@ -1,0 +1,98 @@
+[
+  {
+    "code": "A",
+    "name": "Capital District (Caracas)"
+  },
+  {
+    "code": "B",
+    "name": "Anzoategui"
+  },
+  {
+    "code": "C",
+    "name": "Apure"
+  },
+  {
+    "code": "D",
+    "name": "Aragua"
+  },
+  {
+    "code": "E",
+    "name": "Barinas"
+  },
+  {
+    "code": "F",
+    "name": "Bolivar"
+  },
+  {
+    "code": "G",
+    "name": "Carabobo"
+  },
+  {
+    "code": "H",
+    "name": "Cojedes"
+  },
+  {
+    "code": "I",
+    "name": "Falcon"
+  },
+  {
+    "code": "J",
+    "name": "Guarico"
+  },
+  {
+    "code": "K",
+    "name": "Lara"
+  },
+  {
+    "code": "L",
+    "name": "Merida"
+  },
+  {
+    "code": "M",
+    "name": "Miranda"
+  },
+  {
+    "code": "N",
+    "name": "Monagas"
+  },
+  {
+    "code": "O",
+    "name": "Nueva Esparta"
+  },
+  {
+    "code": "P",
+    "name": "Portuguesa"
+  },
+  {
+    "code": "R",
+    "name": "Sucre"
+  },
+  {
+    "code": "S",
+    "name": "Tachira"
+  },
+  {
+    "code": "T",
+    "name": "Trujillo"
+  },
+  {
+    "code": "U",
+    "name": "Yaracuy"
+  },
+  {
+    "code": "V",
+    "name": "Zulia"
+  },
+  {
+    "code": "W",
+    "name": "Vargas (La Guaira)"
+  },
+  {
+    "code": "X",
+    "name": "Amazonas"
+  },
+  {
+    "code": "Y",
+    "name": "Delta Amacuro"
+  }
+]

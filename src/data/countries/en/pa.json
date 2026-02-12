@@ -1,0 +1,20 @@
+[
+  {
+    "category": "Current standard license plates (2013-present)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/A_motorcycle_license_plate_of_Panama_seen_in_Liechtenstein.jpg",
+        "title": "Current-format plate series (motorcycle example)"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates (1957-2012)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Matr%C3%ADcula_automovil%C3%ADstica_Panam%C3%A1_2008_703558_Flickr_-_woody1778a.jpg",
+        "title": "Previous standard plate design"
+      }
+    ]
+  }
+]

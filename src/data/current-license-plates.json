@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-05-13T19:43:16.184Z",
+  "lastUpdate": "2026-02-11T20:58:57.444Z",
   "countries": [
     {
       "code": "A",
@@ -688,7 +688,7 @@
       "fromYear": "2018",
       "previousCodes": "",
       "notes": "Unofficial: no other code found for Honduras. Coincides with ISO 3166-1 alpha-2 code.",
-      "flagThumb": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Honduras_%282022%E2%80%93present%29.svg/40px-Flag_of_Honduras_%282022%E2%80%93present%29.svg.png",
+      "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Honduras_%282022-%29.svg/40px-Flag_of_Honduras_%282022-%29.svg.png",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/8/85/Flag_of_Honduras_%282022-%29.svg"
     },
     {
@@ -1104,7 +1104,7 @@
     {
       "code": "NL",
       "country": "Netherlands",
-      "continent": "Americas",
+      "continent": "Europe",
       "fromYear": "1910",
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",

@@ -1,0 +1,24 @@
+[
+  {
+    "category": "Current standard and special license plates (2013-present)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Costa%20Rica%20-%20Private%20Vehicle%202013.png",
+        "title": "Private vehicle in the 2013 series"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Costa%20Rica%20Official%20Vehicle%202013.png",
+        "title": "Official vehicle"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates (1961-2012)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matr%C3%ADcula%20automovil%C3%ADstica%20Costa%20Rica%201961%20San%20Jos%C3%A9%20SJ-10057%20Centroam%C3%A9rica%20Flickr%20-%20woody1778a.jpg",
+        "title": "1961 example with San Jose city code (SJ)"
+      }
+    ]
+  }
+]

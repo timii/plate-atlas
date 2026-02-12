@@ -1,0 +1,74 @@
+[
+  {
+    "code": "A",
+    "name": "Lima"
+  },
+  {
+    "code": "B",
+    "name": "Lima"
+  },
+  {
+    "code": "C",
+    "name": "Lima"
+  },
+  {
+    "code": "D",
+    "name": "Lima"
+  },
+  {
+    "code": "F",
+    "name": "Lima"
+  },
+  {
+    "code": "H",
+    "name": "Ancash"
+  },
+  {
+    "code": "K",
+    "name": "Amazonas / Cajamarca / Lambayeque"
+  },
+  {
+    "code": "L",
+    "name": "Loreto"
+  },
+  {
+    "code": "M",
+    "name": "Amazonas / Cajamarca / Lambayeque"
+  },
+  {
+    "code": "P",
+    "name": "Piura / Tumbes"
+  },
+  {
+    "code": "S",
+    "name": "San Martin"
+  },
+  {
+    "code": "T",
+    "name": "La Libertad"
+  },
+  {
+    "code": "U",
+    "name": "Ucayali"
+  },
+  {
+    "code": "V",
+    "name": "Arequipa"
+  },
+  {
+    "code": "W",
+    "name": "Huanuco / Junin / Pasco"
+  },
+  {
+    "code": "X",
+    "name": "Apurimac / Cusco / Madre de Dios"
+  },
+  {
+    "code": "Y",
+    "name": "Ayacucho / Huancavelica / Ica"
+  },
+  {
+    "code": "Z",
+    "name": "Moquegua / Puno / Tacna"
+  }
+]

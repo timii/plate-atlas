@@ -1,0 +1,29 @@
+[
+  {
+    "category": "Current standard license plates (2016-present)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matr%C3%ADcula_automovil%C3%ADstica_argentina_2016_(Mercosur)-B.png",
+        "title": "Current Mercosur-format private vehicle plate"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates (1995-2015)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matr%C3%ADcula_automovil%C3%ADstica_Argentina_1995_NVZ_087.jpg",
+        "title": "National format with 3 letters and 3 numbers"
+      }
+    ]
+  },
+  {
+    "category": "Legacy provincial-identifier plates (1972-1994)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matr%C3%ADcula_automovil%C3%ADstica_Argentina_1972_C760915.jpg",
+        "title": "Legacy format with visible provincial letter code"
+      }
+    ]
+  }
+]

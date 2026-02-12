@@ -1,0 +1,24 @@
+[
+  {
+    "category": "Current standard license plates (2011-present)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/El%20Salvador%20license%20plate.JPG",
+        "title": "Standard plate with national flag background"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard and special license plates (1976-2010)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matr%C3%ADcula%20automovil%C3%ADstica%20El%20Salvador%201976%20P-0000%20Centroam%C3%A9rica%20muestra%20Flickr%20-%20woody1778a.jpg",
+        "title": "1976 standard sample plate"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/EL%20SALVADOR%201976%20motorcycle%20plate%20-%20Flickr%20-%20woody1778a.jpg",
+        "title": "1976 motorcycle plate"
+      }
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "code": "A",
+    "name": "Azuay"
+  },
+  {
+    "code": "B",
+    "name": "Bolívar"
+  },
+  {
+    "code": "C",
+    "name": "Carchi"
+  },
+  {
+    "code": "E",
+    "name": "Esmeraldas"
+  },
+  {
+    "code": "G",
+    "name": "Guayas"
+  },
+  {
+    "code": "H",
+    "name": "Chimborazo"
+  },
+  {
+    "code": "I",
+    "name": "Imbabura"
+  },
+  {
+    "code": "J",
+    "name": "Santo Domingo de los Tsáchilas"
+  },
+  {
+    "code": "K",
+    "name": "Sucumbíos"
+  },
+  {
+    "code": "L",
+    "name": "Loja"
+  },
+  {
+    "code": "M",
+    "name": "Manabí"
+  },
+  {
+    "code": "N",
+    "name": "Napo"
+  },
+  {
+    "code": "O",
+    "name": "El Oro"
+  },
+  {
+    "code": "P",
+    "name": "Pichincha"
+  },
+  {
+    "code": "Q",
+    "name": "Orellana"
+  },
+  {
+    "code": "R",
+    "name": "Los Ríos"
+  },
+  {
+    "code": "S",
+    "name": "Pastaza"
+  },
+  {
+    "code": "T",
+    "name": "Tungurahua"
+  },
+  {
+    "code": "U",
+    "name": "Cañar"
+  },
+  {
+    "code": "V",
+    "name": "Morona Santiago"
+  },
+  {
+    "code": "W",
+    "name": "Galápagos"
+  },
+  {
+    "code": "X",
+    "name": "Cotopaxi"
+  },
+  {
+    "code": "Y",
+    "name": "Santa Elena"
+  },
+  {
+    "code": "Z",
+    "name": "Zamora-Chinchipe"
+  }
+]
