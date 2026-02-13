@@ -1,0 +1,29 @@
+[
+  {
+    "category": "Current standard license plates (2015-present)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nauru_AAA-595.jpg",
+        "title": "Current standard series (ABC 123)"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates (1975-2014)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/NAuru_7827.jpg",
+        "title": "Numeric standard series (1234)"
+      }
+    ]
+  },
+  {
+    "category": "Earlier standard license plates (1970-1974)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/NAURU_1970s_passenger_license_plate_Flickr_-_woody1778a.jpg",
+        "title": "Early standard series example"
+      }
+    ]
+  }
+]
