@@ -1,0 +1,58 @@
+[
+  {
+    "code": "DB",
+    "name": "Diourbel Region"
+  },
+  {
+    "code": "DK",
+    "name": "Dakar Region"
+  },
+  {
+    "code": "FK",
+    "name": "Fatick Region"
+  },
+  {
+    "code": "KA",
+    "name": "Kaffrine Region"
+  },
+  {
+    "code": "KD",
+    "name": "Kolda Region"
+  },
+  {
+    "code": "KE",
+    "name": "Kedougou Region"
+  },
+  {
+    "code": "KL",
+    "name": "Kaolack Region"
+  },
+  {
+    "code": "LG",
+    "name": "Louga Region"
+  },
+  {
+    "code": "MT",
+    "name": "Matam Region"
+  },
+  {
+    "code": "SE",
+    "name": "Sedhiou Region"
+  },
+  {
+    "code": "SL",
+    "name": "Saint-Louis Region"
+  },
+  {
+    "code": "TC",
+    "name": "Tambacounda Region"
+  },
+  {
+    "code": "TH",
+    "name": "Thies Region"
+  },
+  {
+    "code": "ZG",
+    "name": "Ziguinchor Region"
+  }
+]

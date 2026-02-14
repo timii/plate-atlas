@@ -1,0 +1,28 @@
+[
+  {
+    "category": "Current standard license plate examples (2006-present)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zimbabwe%20car%20plate.JPG",
+        "title": "Current plate example (single-row format)"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zimbabwe%20license%20plate%20square.jpg",
+        "title": "Current plate example (square format)"
+      }
+    ]
+  },
+  {
+    "category": "Historic plate examples (pre-1980 and Rhodesia period)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SOUTHERN%20RHODESIA%2C%20SALISBURY%201931-1958%20SERIES%20-PASSENGER%20license%20plate%20Flickr%20-%20woody1778a.jpg",
+        "title": "Southern Rhodesia example (1931-1958)"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/License%20plate%20of%20Rhodesia%201965-1979.jpg",
+        "title": "Rhodesia example (1965-1979)"
+      }
+    ]
+  }
+]

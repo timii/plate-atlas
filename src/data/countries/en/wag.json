@@ -1,0 +1,30 @@
+[
+  {
+    "code": "BJL",
+    "name": "Banjul"
+  },
+  {
+    "code": "CRR",
+    "name": "Central River Region"
+  },
+  {
+    "code": "KM",
+    "name": "Kanifing Municipality"
+  },
+  {
+    "code": "LRR",
+    "name": "Lower River Region"
+  },
+  {
+    "code": "NBR",
+    "name": "North Bank Region"
+  },
+  {
+    "code": "URR",
+    "name": "Upper River Region"
+  },
+  {
+    "code": "WCR",
+    "name": "West Coast Region"
+  }
+]

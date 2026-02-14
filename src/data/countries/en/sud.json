@@ -1,0 +1,74 @@
+[
+  {
+    "code": "KH",
+    "name": "Khartoum State"
+  },
+  {
+    "code": "KN",
+    "name": "North Kordofan State"
+  },
+  {
+    "code": "NO",
+    "name": "Northern State"
+  },
+  {
+    "code": "KA",
+    "name": "Kassala State"
+  },
+  {
+    "code": "NB",
+    "name": "Blue Nile State"
+  },
+  {
+    "code": "DN",
+    "name": "North Darfur State"
+  },
+  {
+    "code": "DS",
+    "name": "South Darfur State"
+  },
+  {
+    "code": "KS",
+    "name": "South Kordofan State"
+  },
+  {
+    "code": "GZ",
+    "name": "Gezira State"
+  },
+  {
+    "code": "NW",
+    "name": "White Nile State"
+  },
+  {
+    "code": "NR",
+    "name": "River Nile State"
+  },
+  {
+    "code": "RS",
+    "name": "Red Sea State"
+  },
+  {
+    "code": "GD",
+    "name": "Al Qadarif State"
+  },
+  {
+    "code": "SI",
+    "name": "Sennar State"
+  },
+  {
+    "code": "DW",
+    "name": "West Darfur State"
+  },
+  {
+    "code": "DC",
+    "name": "Central Darfur State"
+  },
+  {
+    "code": "DE",
+    "name": "East Darfur State"
+  },
+  {
+    "code": "GK",
+    "name": "West Kordofan State"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "code": "01",
+    "name": "Kinshasa"
+  },
+  {
+    "code": "02",
+    "name": "Bas-Uele"
+  },
+  {
+    "code": "03",
+    "name": "Equateur"
+  },
+  {
+    "code": "04",
+    "name": "Haut-Lomami"
+  },
+  {
+    "code": "05",
+    "name": "Haut-Katanga"
+  },
+  {
+    "code": "06",
+    "name": "Haut-Uele"
+  },
+  {
+    "code": "07",
+    "name": "Ituri"
+  },
+  {
+    "code": "08",
+    "name": "Kasai"
+  },
+  {
+    "code": "09",
+    "name": "Kasai-Oriental"
+  },
+  {
+    "code": "10",
+    "name": "Kongo Central"
+  },
+  {
+    "code": "11",
+    "name": "Kwango"
+  },
+  {
+    "code": "12",
+    "name": "Kwilu"
+  },
+  {
+    "code": "13",
+    "name": "Lomami"
+  },
+  {
+    "code": "14",
+    "name": "Lualaba"
+  },
+  {
+    "code": "15",
+    "name": "Kasai-Central"
+  },
+  {
+    "code": "16",
+    "name": "Mai-Ndombe"
+  },
+  {
+    "code": "17",
+    "name": "Maniema"
+  },
+  {
+    "code": "18",
+    "name": "Mongala"
+  },
+  {
+    "code": "19",
+    "name": "North Kivu"
+  },
+  {
+    "code": "20",
+    "name": "Nord-Ubangi"
+  },
+  {
+    "code": "21",
+    "name": "Sankuru"
+  },
+  {
+    "code": "22",
+    "name": "South Kivu"
+  },
+  {
+    "code": "23",
+    "name": "Sud-Ubangi"
+  },
+  {
+    "code": "24",
+    "name": "Tanganyika"
+  },
+  {
+    "code": "25",
+    "name": "Tshopo"
+  },
+  {
+    "code": "26",
+    "name": "Tshuapa"
+  }
+]

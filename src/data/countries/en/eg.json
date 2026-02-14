@@ -1,0 +1,134 @@
+[
+  {
+    "code": "No suffix (4 digits + 2 letters)",
+    "name": "Giza Governorate"
+  },
+  {
+    "code": "No suffix (3 digits + 3 letters)",
+    "name": "Cairo Governorate"
+  },
+  {
+    "code": "A (أ)",
+    "name": "Cairo Governorate"
+  },
+  {
+    "code": "S (س)",
+    "name": "Alexandria Governorate"
+  },
+  {
+    "code": "K (ق)",
+    "name": "Qalyubia Governorate"
+  },
+  {
+    "code": "R (ر)",
+    "name": "Sharqia Governorate"
+  },
+  {
+    "code": "M (م)",
+    "name": "Monufia Governorate"
+  },
+  {
+    "code": "B (ب)",
+    "name": "Beheira Governorate"
+  },
+  {
+    "code": "D (د)",
+    "name": "Dakahlia Governorate"
+  },
+  {
+    "code": "E (ع)",
+    "name": "Gharbia Governorate"
+  },
+  {
+    "code": "L (ل)",
+    "name": "Kafr El Sheikh Governorate"
+  },
+  {
+    "code": "F (ف)",
+    "name": "Faiyum Governorate"
+  },
+  {
+    "code": "W (و)",
+    "name": "Beni Suef Governorate"
+  },
+  {
+    "code": "N (ن)",
+    "name": "Minya Governorate"
+  },
+  {
+    "code": "Y (ى)",
+    "name": "Asyut Governorate"
+  },
+  {
+    "code": "H (هـ)",
+    "name": "Sohag Governorate"
+  },
+  {
+    "code": "CA (صأ)",
+    "name": "Qena Governorate"
+  },
+  {
+    "code": "CK (صق)",
+    "name": "Luxor Governorate"
+  },
+  {
+    "code": "CW (صو)",
+    "name": "Aswan Governorate"
+  },
+  {
+    "code": "TD (طد)",
+    "name": "Damietta Governorate"
+  },
+  {
+    "code": "TM (طم)",
+    "name": "Damietta Governorate"
+  },
+  {
+    "code": "GM (جم)",
+    "name": "Damietta Governorate"
+  },
+  {
+    "code": "GY (جى)",
+    "name": "Damietta Governorate"
+  },
+  {
+    "code": "TE (طع)",
+    "name": "Port Said Governorate"
+  },
+  {
+    "code": "TB (طب)",
+    "name": "Port Said Governorate"
+  },
+  {
+    "code": "TC (طص)",
+    "name": "Ismailia Governorate"
+  },
+  {
+    "code": "TN (طن)",
+    "name": "Ismailia Governorate"
+  },
+  {
+    "code": "TS (طس)",
+    "name": "Suez Governorate"
+  },
+  {
+    "code": "TR (طر)",
+    "name": "Red Sea Governorate"
+  },
+  {
+    "code": "TA (طأ)",
+    "name": "North Sinai Governorate"
+  },
+  {
+    "code": "TG (طج)",
+    "name": "South Sinai Governorate"
+  },
+  {
+    "code": "GH (جهـ)",
+    "name": "Matrouh Governorate"
+  },
+  {
+    "code": "GB (جب)",
+    "name": "New Valley Governorate"
+  }
+]

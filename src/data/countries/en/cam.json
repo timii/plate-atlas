@@ -1,0 +1,42 @@
+[
+  {
+    "code": "AD",
+    "name": "Adamawa Region"
+  },
+  {
+    "code": "CE",
+    "name": "Centre Region"
+  },
+  {
+    "code": "EN",
+    "name": "Far North Region"
+  },
+  {
+    "code": "ES",
+    "name": "East Region"
+  },
+  {
+    "code": "LT",
+    "name": "Littoral Region"
+  },
+  {
+    "code": "NO",
+    "name": "North Region"
+  },
+  {
+    "code": "NW",
+    "name": "Northwest Region"
+  },
+  {
+    "code": "OU",
+    "name": "West Region"
+  },
+  {
+    "code": "SU",
+    "name": "South Region"
+  },
+  {
+    "code": "SW",
+    "name": "Southwest Region"
+  }
+]

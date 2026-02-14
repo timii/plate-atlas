@@ -1,0 +1,90 @@
+[
+  {
+    "code": "01",
+    "name": "Batha Region"
+  },
+  {
+    "code": "02",
+    "name": "Borkou Region"
+  },
+  {
+    "code": "03",
+    "name": "Chari-Baguirmi Region"
+  },
+  {
+    "code": "04",
+    "name": "Guera Region"
+  },
+  {
+    "code": "05",
+    "name": "Hadjer-Lamis Region"
+  },
+  {
+    "code": "06",
+    "name": "Kanem Region"
+  },
+  {
+    "code": "07",
+    "name": "Lac Region"
+  },
+  {
+    "code": "08",
+    "name": "Logone Occidental Region"
+  },
+  {
+    "code": "09",
+    "name": "Logone Oriental Region"
+  },
+  {
+    "code": "10",
+    "name": "Mandoul Region"
+  },
+  {
+    "code": "11",
+    "name": "Mayo-Kebbi Est Region"
+  },
+  {
+    "code": "12",
+    "name": "Mayo-Kebbi Ouest Region"
+  },
+  {
+    "code": "13",
+    "name": "Moyen-Chari Region"
+  },
+  {
+    "code": "14",
+    "name": "Ouaddai Region"
+  },
+  {
+    "code": "15",
+    "name": "Salamat Region"
+  },
+  {
+    "code": "16",
+    "name": "Tandjile Region"
+  },
+  {
+    "code": "17",
+    "name": "Wadi Fira Region"
+  },
+  {
+    "code": "18",
+    "name": "N'Djamena"
+  },
+  {
+    "code": "19",
+    "name": "Barh El Gazel Region"
+  },
+  {
+    "code": "20",
+    "name": "Ennedi Region"
+  },
+  {
+    "code": "21",
+    "name": "Sila Region"
+  },
+  {
+    "code": "22",
+    "name": "Tibesti Region"
+  }
+]

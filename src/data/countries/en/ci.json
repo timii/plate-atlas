@@ -1,0 +1,42 @@
+[
+  {
+    "code": "01",
+    "name": "Sud (Abidjan)"
+  },
+  {
+    "code": "02",
+    "name": "Centre-Ouest (Daola)"
+  },
+  {
+    "code": "03",
+    "name": "Nord (Korhogo)"
+  },
+  {
+    "code": "04",
+    "name": "Centre-Nord (Bouake)"
+  },
+  {
+    "code": "05",
+    "name": "Est (Abengourou)"
+  },
+  {
+    "code": "06",
+    "name": "Ouest (Man)"
+  },
+  {
+    "code": "07",
+    "name": "Centre (Yamoussoukro)"
+  },
+  {
+    "code": "08",
+    "name": "Nord-Est (Bondoukou)"
+  },
+  {
+    "code": "09",
+    "name": "Sud-Ouest (San Pedro)"
+  },
+  {
+    "code": "10",
+    "name": "Nord-Ouest (Odienne)"
+  }
+]

@@ -1,0 +1,358 @@
+[
+  {
+    "code": "1",
+    "name": "Rabat"
+  },
+  {
+    "code": "2",
+    "name": "Salé-Médina"
+  },
+  {
+    "code": "3",
+    "name": "Sala Al-Jadida"
+  },
+  {
+    "code": "4",
+    "name": "Skhirat-Temara"
+  },
+  {
+    "code": "5",
+    "name": "Khémisset"
+  },
+  {
+    "code": "6",
+    "name": "Casablanca Anfa"
+  },
+  {
+    "code": "7",
+    "name": "Casablanca Hay Mohammadi-Aïn Sebaâ"
+  },
+  {
+    "code": "8",
+    "name": "Casablanca Hay Hassani"
+  },
+  {
+    "code": "9",
+    "name": "Casablanca Benmsik"
+  },
+  {
+    "code": "10",
+    "name": "Casablanca Moulay Rachid"
+  },
+  {
+    "code": "11",
+    "name": "Casablanca-Al Fida Derb Sultan"
+  },
+  {
+    "code": "12",
+    "name": "Casablanca Mechouar"
+  },
+  {
+    "code": "13",
+    "name": "Casablanca Sidi Bernoussi-Zenata"
+  },
+  {
+    "code": "14",
+    "name": "Mohammedia"
+  },
+  {
+    "code": "15",
+    "name": "Fès jdid - dar dbibagh"
+  },
+  {
+    "code": "16",
+    "name": "Fès Medina"
+  },
+  {
+    "code": "17",
+    "name": "Zouagha - Moulay Yacoub"
+  },
+  {
+    "code": "18",
+    "name": "Sefrou"
+  },
+  {
+    "code": "19",
+    "name": "Boulmane"
+  },
+  {
+    "code": "20",
+    "name": "Meknès Menzah"
+  },
+  {
+    "code": "21",
+    "name": "Meknès Ismailia"
+  },
+  {
+    "code": "22",
+    "name": "El Hajeb"
+  },
+  {
+    "code": "23",
+    "name": "Ifrane"
+  },
+  {
+    "code": "24",
+    "name": "Khénifra"
+  },
+  {
+    "code": "25",
+    "name": "Errachidia"
+  },
+  {
+    "code": "26",
+    "name": "Marrakech-Menara"
+  },
+  {
+    "code": "27",
+    "name": "Marrakech-Medina"
+  },
+  {
+    "code": "28",
+    "name": "Marrakech-Sidi Youssef Ben-Ali"
+  },
+  {
+    "code": "29",
+    "name": "El-Haouz"
+  },
+  {
+    "code": "30",
+    "name": "Chichaoua"
+  },
+  {
+    "code": "31",
+    "name": "Kelâat Es-Sraghna"
+  },
+  {
+    "code": "32",
+    "name": "Essaouira"
+  },
+  {
+    "code": "33",
+    "name": "Agadir Ida-Outanane"
+  },
+  {
+    "code": "34",
+    "name": "Agadir - Inezgane - Ait Melloul"
+  },
+  {
+    "code": "35",
+    "name": "Chtouka Aït Baha"
+  },
+  {
+    "code": "36",
+    "name": "Taroudant"
+  },
+  {
+    "code": "37",
+    "name": "Tiznit"
+  },
+  {
+    "code": "38",
+    "name": "Ouarzazate"
+  },
+  {
+    "code": "39",
+    "name": "Zagora"
+  },
+  {
+    "code": "40",
+    "name": "Tangier - Asilah"
+  },
+  {
+    "code": "41",
+    "name": "Tanger Fahs-Bni Makada"
+  },
+  {
+    "code": "42",
+    "name": "Larache"
+  },
+  {
+    "code": "43",
+    "name": "Chefchaouen"
+  },
+  {
+    "code": "44",
+    "name": "Tétouan"
+  },
+  {
+    "code": "45",
+    "name": "Al-Hoceima"
+  },
+  {
+    "code": "46",
+    "name": "Taza"
+  },
+  {
+    "code": "47",
+    "name": "Taounate"
+  },
+  {
+    "code": "48",
+    "name": "Oujda"
+  },
+  {
+    "code": "49",
+    "name": "Berkane"
+  },
+  {
+    "code": "50",
+    "name": "Nador"
+  },
+  {
+    "code": "51",
+    "name": "Taourirt"
+  },
+  {
+    "code": "52",
+    "name": "Jerada"
+  },
+  {
+    "code": "53",
+    "name": "Figuig"
+  },
+  {
+    "code": "54",
+    "name": "Asfi"
+  },
+  {
+    "code": "55",
+    "name": "El Jadida"
+  },
+  {
+    "code": "56",
+    "name": "Settat"
+  },
+  {
+    "code": "57",
+    "name": "Khouribga"
+  },
+  {
+    "code": "58",
+    "name": "Benslimane"
+  },
+  {
+    "code": "59",
+    "name": "Kénitra"
+  },
+  {
+    "code": "60",
+    "name": "Sidi Kacem"
+  },
+  {
+    "code": "61",
+    "name": "Béni Mellal"
+  },
+  {
+    "code": "62",
+    "name": "Azilal"
+  },
+  {
+    "code": "63",
+    "name": "Smara"
+  },
+  {
+    "code": "64",
+    "name": "Guelmim"
+  },
+  {
+    "code": "65",
+    "name": "Tan-Tan"
+  },
+  {
+    "code": "66",
+    "name": "Tata"
+  },
+  {
+    "code": "67",
+    "name": "Assa-Zag"
+  },
+  {
+    "code": "68",
+    "name": "Laâyoune"
+  },
+  {
+    "code": "69",
+    "name": "Boujdour"
+  },
+  {
+    "code": "70",
+    "name": "Oued Ed-Dahab"
+  },
+  {
+    "code": "71",
+    "name": "Aousserd"
+  },
+  {
+    "code": "72",
+    "name": "Casablanca Ain-Chock"
+  },
+  {
+    "code": "73",
+    "name": "Casablanca Nouacer"
+  },
+  {
+    "code": "74",
+    "name": "Casablanca Mediouna"
+  },
+  {
+    "code": "75",
+    "name": "M'diq - Fnideq"
+  },
+  {
+    "code": "76",
+    "name": "Driouch"
+  },
+  {
+    "code": "77",
+    "name": "Guercif"
+  },
+  {
+    "code": "78",
+    "name": "Ouazzane"
+  },
+  {
+    "code": "79",
+    "name": "Sidi Slimane"
+  },
+  {
+    "code": "80",
+    "name": "Midelt"
+  },
+  {
+    "code": "81",
+    "name": "Berrechid"
+  },
+  {
+    "code": "82",
+    "name": "Sidi Bennour"
+  },
+  {
+    "code": "83",
+    "name": "Ben Guerir"
+  },
+  {
+    "code": "84",
+    "name": "Fquih Ben Salah"
+  },
+  {
+    "code": "85",
+    "name": "Youssoufia"
+  },
+  {
+    "code": "86",
+    "name": "Tinghir"
+  },
+  {
+    "code": "87",
+    "name": "Sidi Ifni"
+  },
+  {
+    "code": "88",
+    "name": "Tarfaya"
+  },
+  {
+    "code": "89",
+    "name": "Lagouira"
+  }
+]

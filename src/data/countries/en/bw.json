@@ -1,0 +1,19 @@
+[
+  {
+    "category": "Current standard license plates",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Botswana_plate_01.JPG",
+        "title": "Current private front plate example"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Botswana-rear-plate.jpg",
+        "title": "Current private rear plate example"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Botswana_public_plate.jpg",
+        "title": "Current public service plate example"
+      }
+    ]
+  }
+]

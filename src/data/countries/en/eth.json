@@ -1,0 +1,42 @@
+[
+  {
+    "code": "ET (ኢት)",
+    "name": "Ethiopia"
+  },
+  {
+    "code": "AA (አአ)",
+    "name": "Addis Ababa"
+  },
+  {
+    "code": "AF (አፋ)",
+    "name": "Afar"
+  },
+  {
+    "code": "AM (አማ)",
+    "name": "Amhara"
+  },
+  {
+    "code": "BG (ቤጉ)",
+    "name": "Benishangul Gumuz"
+  },
+  {
+    "code": "DR (ድሬ)",
+    "name": "Dire Dawa"
+  },
+  {
+    "code": "GM (ጋም)",
+    "name": "Gambela"
+  },
+  {
+    "code": "HR (ሐረ)",
+    "name": "Harar"
+  },
+  {
+    "code": "OR (ኦሮ)",
+    "name": "Oromia"
+  },
+  {
+    "code": "SM (ሶማ)",
+    "name": "Somali"
+  }
+]

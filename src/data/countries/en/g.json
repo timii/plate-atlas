@@ -1,0 +1,20 @@
+[
+  {
+    "category": "Current standard license plates (2013-present)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/%D0%93%D0%90%D0%91%D0%9E%D0%9D%D0%A1%D0%AC%D0%9A%D0%98%D0%99_%D0%9D%D0%9E%D0%9C%D0%95%D0%A0_2013.gif/250px-%D0%93%D0%90%D0%91%D0%9E%D0%9D%D0%A1%D0%AC%D0%9A%D0%98%D0%99_%D0%9D%D0%9E%D0%9C%D0%95%D0%A0_2013.gif",
+        "title": "Current standard plate example"
+      }
+    ]
+  },
+  {
+    "category": "Previous standard license plates with regional codes (pre-2013)",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%93%D0%90%D0%91%D0%9E%D0%9D%D0%A1%D0%AC%D0%9A%D0%98%D0%99_%D0%9D%D0%9E%D0%9C%D0%95%D0%A0_1.gif",
+        "title": "Pre-2013 plate format (included G1-G9 regional code)"
+      }
+    ]
+  }
+]

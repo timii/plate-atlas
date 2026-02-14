@@ -1,0 +1,82 @@
+[
+  {
+    "code": "BKO",
+    "name": "Bamako District"
+  },
+  {
+    "code": "KAY",
+    "name": "Kayes Region"
+  },
+  {
+    "code": "KKR",
+    "name": "Koulikoro Region"
+  },
+  {
+    "code": "SKO",
+    "name": "Sikasso Region"
+  },
+  {
+    "code": "SEG",
+    "name": "Segou Region"
+  },
+  {
+    "code": "MPT",
+    "name": "Mopti Region"
+  },
+  {
+    "code": "TBT",
+    "name": "Tombouctou Region"
+  },
+  {
+    "code": "GAO",
+    "name": "Gao Region"
+  },
+  {
+    "code": "KDL",
+    "name": "Kidal Region"
+  },
+  {
+    "code": "TDI",
+    "name": "Taoudeni Region"
+  },
+  {
+    "code": "MNK",
+    "name": "Menaka Region"
+  },
+  {
+    "code": "NRO",
+    "name": "Nioro Region"
+  },
+  {
+    "code": "KTA",
+    "name": "Kita Region"
+  },
+  {
+    "code": "DLA",
+    "name": "Dioila Region"
+  },
+  {
+    "code": "NRA",
+    "name": "Nara Region"
+  },
+  {
+    "code": "BGN",
+    "name": "Bougouni Region"
+  },
+  {
+    "code": "KLA",
+    "name": "Koutiala Region"
+  },
+  {
+    "code": "SAN",
+    "name": "San Region"
+  },
+  {
+    "code": "DTZ",
+    "name": "Douentza Region"
+  },
+  {
+    "code": "BGA",
+    "name": "Bandiagara Region"
+  }
+]

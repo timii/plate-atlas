@@ -1,0 +1,46 @@
+[
+  {
+    "code": "CA",
+    "name": "Cabo Delgado"
+  },
+  {
+    "code": "GZ",
+    "name": "Gaza"
+  },
+  {
+    "code": "IB",
+    "name": "Inhambane"
+  },
+  {
+    "code": "MC",
+    "name": "Maputo City"
+  },
+  {
+    "code": "MP",
+    "name": "Maputo Province"
+  },
+  {
+    "code": "MN",
+    "name": "Manica"
+  },
+  {
+    "code": "NP",
+    "name": "Nampula"
+  },
+  {
+    "code": "NS",
+    "name": "Niassa"
+  },
+  {
+    "code": "SF",
+    "name": "Sofala"
+  },
+  {
+    "code": "TT",
+    "name": "Tete"
+  },
+  {
+    "code": "ZB",
+    "name": "Zambezia"
+  }
+]

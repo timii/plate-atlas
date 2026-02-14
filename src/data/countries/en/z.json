@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Current standard license plates (2000-present)",
+    "images": [
+      {
+        "url": "https://www.plateshack.com/y2k/Zambia/zamabd7712-2021.jpg",
+        "title": "Current plate example (Lusaka Rural/Feira, 2021)"
+      },
+      {
+        "url": "https://www.plateshack.com/y2k/Zambia/zambiaBAA3919.jpg",
+        "title": "2000-series plate still in use (2021)"
+      },
+      {
+        "url": "https://www.plateshack.com/y2k/Zambia/zambia2010.jpg",
+        "title": "Current plate example (Livingstone, 2010)"
+      }
+    ]
+  },
+  {
+    "category": "Historic and special plate examples",
+    "images": [
+      {
+        "url": "https://www.plateshack.com/y2k/Zambia/zambiaoldstyle2014.jpg",
+        "title": "Pre-2000 plate style example"
+      },
+      {
+        "url": "https://www.plateshack.com/y2k/Zambia/zambabl1792t.jpg",
+        "title": "Trailer plate example (Lusaka Rural/Feira)"
+      }
+    ]
+  }
+]

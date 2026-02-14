@@ -1,0 +1,24 @@
+[
+  {
+    "category": "Current standard license plates",
+    "images": [
+      {
+        "url": "https://www.plateshack.com/y2k/Uganda/uganda2006.jpg",
+        "title": "Current passenger plate example (single-row format)"
+      },
+      {
+        "url": "https://www.plateshack.com/y2k/Uganda/ugandUBD219M.jpg",
+        "title": "Current passenger plate example (two-row format)"
+      }
+    ]
+  },
+  {
+    "category": "Special and older plate examples",
+    "images": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/UGANDA_c.1990_-FOREIGN_AGENCIES_LICENSE_PLATE_-UZO_PREFIX_-_Flickr_-_woody1778a.jpg",
+        "title": "Foreign agencies plate (c. 1990, UZO prefix)"
+      }
+    ]
+  }
+]
