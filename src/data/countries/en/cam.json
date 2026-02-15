@@ -1,42 +1,42 @@
 [
   {
     "code": "AD",
-    "name": "Adamawa Region"
+    "name": "Adamawa Region (Adamaoua)"
   },
   {
     "code": "CE",
-    "name": "Centre Region"
+    "name": "Centre Region (Centre)"
   },
   {
     "code": "EN",
-    "name": "Far North Region"
+    "name": "Far North Region (Extrême-Nord)"
   },
   {
     "code": "ES",
-    "name": "East Region"
+    "name": "East Region (Est)"
   },
   {
     "code": "LT",
-    "name": "Littoral Region"
+    "name": "Littoral Region (Littoral)"
   },
   {
     "code": "NO",
-    "name": "North Region"
+    "name": "North Region (Nord)"
   },
   {
     "code": "NW",
-    "name": "Northwest Region"
+    "name": "Northwest Region (Nord-Ouest)"
   },
   {
     "code": "OU",
-    "name": "West Region"
+    "name": "West Region (Ouest)"
   },
   {
     "code": "SU",
-    "name": "South Region"
+    "name": "South Region (Sud)"
   },
   {
     "code": "SW",
-    "name": "Southwest Region"
+    "name": "Southwest Region (Sud-Ouest)"
   }
 ]

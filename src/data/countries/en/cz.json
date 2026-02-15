@@ -1,16 +1,58 @@
 [
-  { "code": "A", "name": "Prague" },
-  { "code": "B", "name": "South Moravia" },
-  { "code": "C", "name": "South Bohemia" },
-  { "code": "E", "name": "Pardubice" },
-  { "code": "H", "name": "Hradec Králové" },
-  { "code": "J", "name": "Vysočina (Highlands)" },
-  { "code": "K", "name": "Karlovy Vary" },
-  { "code": "L", "name": "Liberec" },
-  { "code": "M", "name": "Olomouc" },
-  { "code": "P", "name": "Plzeň" },
-  { "code": "S", "name": "Central Bohemia" },
-  { "code": "T", "name": "Moravian-Silesian" },
-  { "code": "U", "name": "Ústí nad Labem" },
-  { "code": "Z", "name": "Zlín" }
+  {
+    "code": "A",
+    "name": "Prague (Praha)"
+  },
+  {
+    "code": "B",
+    "name": "South Moravia (Jihomoravský kraj)"
+  },
+  {
+    "code": "C",
+    "name": "South Bohemia (Jihočeský kraj)"
+  },
+  {
+    "code": "E",
+    "name": "Pardubice (Pardubický kraj)"
+  },
+  {
+    "code": "H",
+    "name": "Hradec Králové (Královéhradecký kraj)"
+  },
+  {
+    "code": "J",
+    "name": "Vysočina (Highlands, Kraj Vysočina)"
+  },
+  {
+    "code": "K",
+    "name": "Karlovy Vary (Karlovarský kraj)"
+  },
+  {
+    "code": "L",
+    "name": "Liberec (Liberecký kraj)"
+  },
+  {
+    "code": "M",
+    "name": "Olomouc (Olomoucký kraj)"
+  },
+  {
+    "code": "P",
+    "name": "Plzeň (Plzeňský kraj)"
+  },
+  {
+    "code": "S",
+    "name": "Central Bohemia (Středočeský kraj)"
+  },
+  {
+    "code": "T",
+    "name": "Moravian-Silesian (Moravskoslezský kraj)"
+  },
+  {
+    "code": "U",
+    "name": "Ústí nad Labem (Ústecký kraj)"
+  },
+  {
+    "code": "Z",
+    "name": "Zlín (Zlínský kraj)"
+  }
 ]

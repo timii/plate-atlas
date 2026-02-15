@@ -1,34 +1,34 @@
 [
   {
     "code": "01",
-    "name": "Conakry Region"
+    "name": "Conakry Region (Région de Conakry)"
   },
   {
     "code": "02",
-    "name": "Kindia Region"
+    "name": "Kindia Region (Région de Kindia)"
   },
   {
     "code": "03",
-    "name": "Boke Region"
+    "name": "Boke Region (Région de Boké)"
   },
   {
     "code": "04",
-    "name": "Mamou Region"
+    "name": "Mamou Region (Région de Mamou)"
   },
   {
     "code": "05",
-    "name": "Labe Region"
+    "name": "Labe Region (Région de Labé)"
   },
   {
     "code": "06",
-    "name": "Faranah Region"
+    "name": "Faranah Region (Région de Faranah)"
   },
   {
     "code": "07",
-    "name": "Kankan Region"
+    "name": "Kankan Region (Région de Kankan)"
   },
   {
     "code": "08",
-    "name": "Nzerekore Region"
+    "name": "Nzerekore Region (Région de Nzérékoré)"
   }
 ]

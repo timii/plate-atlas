@@ -1,82 +1,82 @@
 [
   {
     "code": "BKO",
-    "name": "Bamako District"
+    "name": "Bamako District (District de Bamako)"
   },
   {
     "code": "KAY",
-    "name": "Kayes Region"
+    "name": "Kayes Region (Région de Kayes)"
   },
   {
     "code": "KKR",
-    "name": "Koulikoro Region"
+    "name": "Koulikoro Region (Région de Koulikoro)"
   },
   {
     "code": "SKO",
-    "name": "Sikasso Region"
+    "name": "Sikasso Region (Région de Sikasso)"
   },
   {
     "code": "SEG",
-    "name": "Segou Region"
+    "name": "Segou Region (Ségou, Région de Ségou)"
   },
   {
     "code": "MPT",
-    "name": "Mopti Region"
+    "name": "Mopti Region (Région de Mopti)"
   },
   {
     "code": "TBT",
-    "name": "Tombouctou Region"
+    "name": "Tombouctou Region (Région de Tombouctou)"
   },
   {
     "code": "GAO",
-    "name": "Gao Region"
+    "name": "Gao Region (Région de Gao)"
   },
   {
     "code": "KDL",
-    "name": "Kidal Region"
+    "name": "Kidal Region (Région de Kidal)"
   },
   {
     "code": "TDI",
-    "name": "Taoudeni Region"
+    "name": "Taoudeni Region (Région de Taoudénit)"
   },
   {
     "code": "MNK",
-    "name": "Menaka Region"
+    "name": "Menaka Region (Ménaka, Région de Ménaka)"
   },
   {
     "code": "NRO",
-    "name": "Nioro Region"
+    "name": "Nioro Region (Région de Nioro)"
   },
   {
     "code": "KTA",
-    "name": "Kita Region"
+    "name": "Kita Region (Région de Kita)"
   },
   {
     "code": "DLA",
-    "name": "Dioila Region"
+    "name": "Dioila Region (Dioïla, Région de Dioïla)"
   },
   {
     "code": "NRA",
-    "name": "Nara Region"
+    "name": "Nara Region (Région de Nara)"
   },
   {
     "code": "BGN",
-    "name": "Bougouni Region"
+    "name": "Bougouni Region (Région de Bougouni)"
   },
   {
     "code": "KLA",
-    "name": "Koutiala Region"
+    "name": "Koutiala Region (Région de Koutiala)"
   },
   {
     "code": "SAN",
-    "name": "San Region"
+    "name": "San Region (Région de San)"
   },
   {
     "code": "DTZ",
-    "name": "Douentza Region"
+    "name": "Douentza Region (Région de Douentza)"
   },
   {
     "code": "BGA",
-    "name": "Bandiagara Region"
+    "name": "Bandiagara Region (Région de Bandiagara)"
   }
 ]

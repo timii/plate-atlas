@@ -1,7 +1,7 @@
 [
   {
     "code": "A",
-    "name": "Banten"
+    "name": "Banten (Provinsi Banten)"
   },
   {
     "code": "AA",
@@ -9,7 +9,7 @@
   },
   {
     "code": "AB",
-    "name": "Yogyakarta"
+    "name": "Yogyakarta (Daerah Istimewa Yogyakarta)"
   },
   {
     "code": "AD",
@@ -25,11 +25,11 @@
   },
   {
     "code": "B",
-    "name": "Greater Jakarta"
+    "name": "Greater Jakarta (Jabodetabek)"
   },
   {
     "code": "BA",
-    "name": "West Sumatra"
+    "name": "West Sumatra (Sumatera Barat)"
   },
   {
     "code": "BB",
@@ -37,19 +37,19 @@
   },
   {
     "code": "BD",
-    "name": "Bengkulu"
+    "name": "Bengkulu (Provinsi Bengkulu)"
   },
   {
     "code": "BE",
-    "name": "Lampung"
+    "name": "Lampung (Provinsi Lampung)"
   },
   {
     "code": "BG",
-    "name": "South Sumatra"
+    "name": "South Sumatra (Sumatera Selatan)"
   },
   {
     "code": "BH",
-    "name": "Jambi"
+    "name": "Jambi (Provinsi Jambi)"
   },
   {
     "code": "BK",
@@ -57,19 +57,19 @@
   },
   {
     "code": "BL",
-    "name": "Aceh"
+    "name": "Aceh (Provinsi Aceh)"
   },
   {
     "code": "BM",
-    "name": "Riau"
+    "name": "Riau (Provinsi Riau)"
   },
   {
     "code": "BN",
-    "name": "Bangka Belitung"
+    "name": "Bangka Belitung (Kepulauan Bangka Belitung)"
   },
   {
     "code": "BP",
-    "name": "Riau Islands"
+    "name": "Riau Islands (Kepulauan Riau)"
   },
   {
     "code": "D",
@@ -77,7 +77,7 @@
   },
   {
     "code": "DA",
-    "name": "South Kalimantan"
+    "name": "South Kalimantan (Kalimantan Selatan)"
   },
   {
     "code": "DB",
@@ -85,7 +85,7 @@
   },
   {
     "code": "DC",
-    "name": "West Sulawesi"
+    "name": "West Sulawesi (Sulawesi Barat)"
   },
   {
     "code": "DD",
@@ -93,11 +93,11 @@
   },
   {
     "code": "DE",
-    "name": "Maluku"
+    "name": "Maluku (Provinsi Maluku)"
   },
   {
     "code": "DG",
-    "name": "North Maluku"
+    "name": "North Maluku (Maluku Utara)"
   },
   {
     "code": "DH",
@@ -105,7 +105,7 @@
   },
   {
     "code": "DK",
-    "name": "Bali"
+    "name": "Bali (Provinsi Bali)"
   },
   {
     "code": "DL",
@@ -113,11 +113,11 @@
   },
   {
     "code": "DM",
-    "name": "Gorontalo"
+    "name": "Gorontalo (Provinsi Gorontalo)"
   },
   {
     "code": "DN",
-    "name": "Central Sulawesi"
+    "name": "Central Sulawesi (Sulawesi Tengah)"
   },
   {
     "code": "DP",
@@ -129,7 +129,7 @@
   },
   {
     "code": "DT",
-    "name": "Southeast Sulawesi"
+    "name": "Southeast Sulawesi (Sulawesi Tenggara)"
   },
   {
     "code": "DW",
@@ -169,19 +169,19 @@
   },
   {
     "code": "KB",
-    "name": "West Kalimantan"
+    "name": "West Kalimantan (Kalimantan Barat)"
   },
   {
     "code": "KH",
-    "name": "Central Kalimantan"
+    "name": "Central Kalimantan (Kalimantan Tengah)"
   },
   {
     "code": "KT",
-    "name": "East Kalimantan"
+    "name": "East Kalimantan (Kalimantan Timur)"
   },
   {
     "code": "KU",
-    "name": "North Kalimantan"
+    "name": "North Kalimantan (Kalimantan Utara)"
   },
   {
     "code": "L",
@@ -201,27 +201,27 @@
   },
   {
     "code": "PA",
-    "name": "Papua"
+    "name": "Papua (Provinsi Papua)"
   },
   {
     "code": "PB",
-    "name": "West Papua"
+    "name": "West Papua (Papua Barat)"
   },
   {
     "code": "PG",
-    "name": "Highland Papua"
+    "name": "Highland Papua (Papua Pegunungan)"
   },
   {
     "code": "PS",
-    "name": "South Papua"
+    "name": "South Papua (Papua Selatan)"
   },
   {
     "code": "PT",
-    "name": "Central Papua"
+    "name": "Central Papua (Papua Tengah)"
   },
   {
     "code": "PY",
-    "name": "Southwest Papua"
+    "name": "Southwest Papua (Papua Barat Daya)"
   },
   {
     "code": "R",

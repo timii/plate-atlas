@@ -1,56 +1,218 @@
 [
-  { "code": "AA", "name": "Kyiv (city)" },
-  { "code": "KA", "name": "Kyiv (city)" },
-  { "code": "AI", "name": "Kyiv Oblast" },
-  { "code": "KI", "name": "Kyiv Oblast" },
-  { "code": "AB", "name": "Vinnytsia Oblast" },
-  { "code": "KB", "name": "Vinnytsia Oblast" },
-  { "code": "AC", "name": "Volyn Oblast" },
-  { "code": "KC", "name": "Volyn Oblast" },
-  { "code": "AE", "name": "Dnipropetrovsk Oblast" },
-  { "code": "KE", "name": "Dnipropetrovsk Oblast" },
-  { "code": "AN", "name": "Donetsk Oblast" },
-  { "code": "KN", "name": "Donetsk Oblast" },
-  { "code": "AM", "name": "Zhytomyr Oblast" },
-  { "code": "KM", "name": "Zhytomyr Oblast" },
-  { "code": "AO", "name": "Zakarpattia Oblast" },
-  { "code": "KO", "name": "Zakarpattia Oblast" },
-  { "code": "AP", "name": "Zaporizhia Oblast" },
-  { "code": "KP", "name": "Zaporizhia Oblast" },
-  { "code": "AT", "name": "Ivano-Frankivsk Oblast" },
-  { "code": "KT", "name": "Ivano-Frankivsk Oblast" },
-  { "code": "AR", "name": "Kharkiv Oblast" },
-  { "code": "KR", "name": "Kharkiv Oblast" },
-  { "code": "VA", "name": "Kirovohrad Oblast" },
-  { "code": "NA", "name": "Kirovohrad Oblast" },
-  { "code": "BB", "name": "Luhansk Oblast" },
-  { "code": "NV", "name": "Luhansk Oblast" },
-  { "code": "VS", "name": "Lviv Oblast" },
-  { "code": "NS", "name": "Lviv Oblast" },
-  { "code": "VE", "name": "Mykolaiv Oblast" },
-  { "code": "NE", "name": "Mykolaiv Oblast" },
-  { "code": "BH", "name": "Odesa Oblast" },
-  { "code": "HH", "name": "Odesa Oblast" },
-  { "code": "VI", "name": "Poltava Oblast" },
-  { "code": "NI", "name": "Poltava Oblast" },
-  { "code": "VK", "name": "Rivne Oblast" },
-  { "code": "NK", "name": "Rivne Oblast" },
-  { "code": "VM", "name": "Sumy Oblast" },
-  { "code": "NM", "name": "Sumy Oblast" },
-  { "code": "VO", "name": "Ternopil Oblast" },
-  { "code": "NO", "name": "Ternopil Oblast" },
-  { "code": "BT", "name": "Kherson Oblast" },
-  { "code": "NT", "name": "Kherson Oblast" },
-  { "code": "VH", "name": "Khmelnytskyi Oblast" },
-  { "code": "NH", "name": "Khmelnytskyi Oblast" },
-  { "code": "SA", "name": "Cherkasy Oblast" },
-  { "code": "IA", "name": "Cherkasy Oblast" },
-  { "code": "SV", "name": "Chernihiv Oblast" },
-  { "code": "IV", "name": "Chernihiv Oblast" },
-  { "code": "SE", "name": "Chernivtsi Oblast" },
-  { "code": "IE", "name": "Chernivtsi Oblast" },
-  { "code": "AK", "name": "Crimea" },
-  { "code": "KK", "name": "Crimea" },
-  { "code": "CH", "name": "Sevastopol" },
-  { "code": "IH", "name": "Sevastopol" }
+  {
+    "code": "AA",
+    "name": "Kyiv (city, Київ)"
+  },
+  {
+    "code": "KA",
+    "name": "Kyiv (city, Київ)"
+  },
+  {
+    "code": "AI",
+    "name": "Kyiv Oblast (Київська область)"
+  },
+  {
+    "code": "KI",
+    "name": "Kyiv Oblast (Київська область)"
+  },
+  {
+    "code": "AB",
+    "name": "Vinnytsia Oblast (Вінницька область)"
+  },
+  {
+    "code": "KB",
+    "name": "Vinnytsia Oblast (Вінницька область)"
+  },
+  {
+    "code": "AC",
+    "name": "Volyn Oblast (Волинська область)"
+  },
+  {
+    "code": "KC",
+    "name": "Volyn Oblast (Волинська область)"
+  },
+  {
+    "code": "AE",
+    "name": "Dnipropetrovsk Oblast (Дніпропетровська область)"
+  },
+  {
+    "code": "KE",
+    "name": "Dnipropetrovsk Oblast (Дніпропетровська область)"
+  },
+  {
+    "code": "AN",
+    "name": "Donetsk Oblast (Донецька область)"
+  },
+  {
+    "code": "KN",
+    "name": "Donetsk Oblast (Донецька область)"
+  },
+  {
+    "code": "AM",
+    "name": "Zhytomyr Oblast (Житомирська область)"
+  },
+  {
+    "code": "KM",
+    "name": "Zhytomyr Oblast (Житомирська область)"
+  },
+  {
+    "code": "AO",
+    "name": "Zakarpattia Oblast (Закарпатська область)"
+  },
+  {
+    "code": "KO",
+    "name": "Zakarpattia Oblast (Закарпатська область)"
+  },
+  {
+    "code": "AP",
+    "name": "Zaporizhia Oblast (Запорізька область)"
+  },
+  {
+    "code": "KP",
+    "name": "Zaporizhia Oblast (Запорізька область)"
+  },
+  {
+    "code": "AT",
+    "name": "Ivano-Frankivsk Oblast (Івано-Франківська область)"
+  },
+  {
+    "code": "KT",
+    "name": "Ivano-Frankivsk Oblast (Івано-Франківська область)"
+  },
+  {
+    "code": "AR",
+    "name": "Kharkiv Oblast (Харківська область)"
+  },
+  {
+    "code": "KR",
+    "name": "Kharkiv Oblast (Харківська область)"
+  },
+  {
+    "code": "VA",
+    "name": "Kirovohrad Oblast (Кіровоградська область)"
+  },
+  {
+    "code": "NA",
+    "name": "Kirovohrad Oblast (Кіровоградська область)"
+  },
+  {
+    "code": "BB",
+    "name": "Luhansk Oblast (Луганська область)"
+  },
+  {
+    "code": "NV",
+    "name": "Luhansk Oblast (Луганська область)"
+  },
+  {
+    "code": "VS",
+    "name": "Lviv Oblast (Львівська область)"
+  },
+  {
+    "code": "NS",
+    "name": "Lviv Oblast (Львівська область)"
+  },
+  {
+    "code": "VE",
+    "name": "Mykolaiv Oblast (Миколаївська область)"
+  },
+  {
+    "code": "NE",
+    "name": "Mykolaiv Oblast (Миколаївська область)"
+  },
+  {
+    "code": "BH",
+    "name": "Odesa Oblast (Одеська область)"
+  },
+  {
+    "code": "HH",
+    "name": "Odesa Oblast (Одеська область)"
+  },
+  {
+    "code": "VI",
+    "name": "Poltava Oblast (Полтавська область)"
+  },
+  {
+    "code": "NI",
+    "name": "Poltava Oblast (Полтавська область)"
+  },
+  {
+    "code": "VK",
+    "name": "Rivne Oblast (Рівненська область)"
+  },
+  {
+    "code": "NK",
+    "name": "Rivne Oblast (Рівненська область)"
+  },
+  {
+    "code": "VM",
+    "name": "Sumy Oblast (Сумська область)"
+  },
+  {
+    "code": "NM",
+    "name": "Sumy Oblast (Сумська область)"
+  },
+  {
+    "code": "VO",
+    "name": "Ternopil Oblast (Тернопільська область)"
+  },
+  {
+    "code": "NO",
+    "name": "Ternopil Oblast (Тернопільська область)"
+  },
+  {
+    "code": "BT",
+    "name": "Kherson Oblast (Херсонська область)"
+  },
+  {
+    "code": "NT",
+    "name": "Kherson Oblast (Херсонська область)"
+  },
+  {
+    "code": "VH",
+    "name": "Khmelnytskyi Oblast (Хмельницька область)"
+  },
+  {
+    "code": "NH",
+    "name": "Khmelnytskyi Oblast (Хмельницька область)"
+  },
+  {
+    "code": "SA",
+    "name": "Cherkasy Oblast (Черкаська область)"
+  },
+  {
+    "code": "IA",
+    "name": "Cherkasy Oblast (Черкаська область)"
+  },
+  {
+    "code": "SV",
+    "name": "Chernihiv Oblast (Чернігівська область)"
+  },
+  {
+    "code": "IV",
+    "name": "Chernihiv Oblast (Чернігівська область)"
+  },
+  {
+    "code": "SE",
+    "name": "Chernivtsi Oblast (Чернівецька область)"
+  },
+  {
+    "code": "IE",
+    "name": "Chernivtsi Oblast (Чернівецька область)"
+  },
+  {
+    "code": "AK",
+    "name": "Crimea (Крим)"
+  },
+  {
+    "code": "KK",
+    "name": "Crimea (Крим)"
+  },
+  {
+    "code": "CH",
+    "name": "Sevastopol (Севастополь)"
+  },
+  {
+    "code": "IH",
+    "name": "Sevastopol (Севастополь)"
+  }
 ]

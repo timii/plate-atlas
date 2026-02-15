@@ -1,98 +1,98 @@
 [
   {
     "code": "A",
-    "name": "Capital District (Caracas)"
+    "name": "Capital District (Distrito Capital, Caracas)"
   },
   {
     "code": "B",
-    "name": "Anzoategui"
+    "name": "Anzoategui (Anzoátegui, Estado Anzoátegui)"
   },
   {
     "code": "C",
-    "name": "Apure"
+    "name": "Apure (Estado Apure)"
   },
   {
     "code": "D",
-    "name": "Aragua"
+    "name": "Aragua (Estado Aragua)"
   },
   {
     "code": "E",
-    "name": "Barinas"
+    "name": "Barinas (Estado Barinas)"
   },
   {
     "code": "F",
-    "name": "Bolivar"
+    "name": "Bolivar (Bolívar, Estado Bolívar)"
   },
   {
     "code": "G",
-    "name": "Carabobo"
+    "name": "Carabobo (Estado Carabobo)"
   },
   {
     "code": "H",
-    "name": "Cojedes"
+    "name": "Cojedes (Estado Cojedes)"
   },
   {
     "code": "I",
-    "name": "Falcon"
+    "name": "Falcon (Falcón, Estado Falcón)"
   },
   {
     "code": "J",
-    "name": "Guarico"
+    "name": "Guarico (Guárico, Estado Guárico)"
   },
   {
     "code": "K",
-    "name": "Lara"
+    "name": "Lara (Estado Lara)"
   },
   {
     "code": "L",
-    "name": "Merida"
+    "name": "Merida (Mérida, Estado Mérida)"
   },
   {
     "code": "M",
-    "name": "Miranda"
+    "name": "Miranda (Estado Miranda)"
   },
   {
     "code": "N",
-    "name": "Monagas"
+    "name": "Monagas (Estado Monagas)"
   },
   {
     "code": "O",
-    "name": "Nueva Esparta"
+    "name": "Nueva Esparta (Estado Nueva Esparta)"
   },
   {
     "code": "P",
-    "name": "Portuguesa"
+    "name": "Portuguesa (Estado Portuguesa)"
   },
   {
     "code": "R",
-    "name": "Sucre"
+    "name": "Sucre (Estado Sucre)"
   },
   {
     "code": "S",
-    "name": "Tachira"
+    "name": "Tachira (Táchira, Estado Táchira)"
   },
   {
     "code": "T",
-    "name": "Trujillo"
+    "name": "Trujillo (Estado Trujillo)"
   },
   {
     "code": "U",
-    "name": "Yaracuy"
+    "name": "Yaracuy (Estado Yaracuy)"
   },
   {
     "code": "V",
-    "name": "Zulia"
+    "name": "Zulia (Estado Zulia)"
   },
   {
     "code": "W",
-    "name": "Vargas (La Guaira)"
+    "name": "La Guaira (Estado La Guaira, formerly Vargas)"
   },
   {
     "code": "X",
-    "name": "Amazonas"
+    "name": "Amazonas (Estado Amazonas)"
   },
   {
     "code": "Y",
-    "name": "Delta Amacuro"
+    "name": "Delta Amacuro (Estado Delta Amacuro)"
   }
 ]

@@ -1,38 +1,38 @@
 [
   {
     "code": "B",
-    "name": "Beni"
+    "name": "Beni (Departamento del Beni)"
   },
   {
     "code": "C",
-    "name": "Cochabamba"
+    "name": "Cochabamba (Departamento de Cochabamba)"
   },
   {
     "code": "H",
-    "name": "Chuquisaca"
+    "name": "Chuquisaca (Departamento de Chuquisaca)"
   },
   {
     "code": "L",
-    "name": "La Paz"
+    "name": "La Paz (Departamento de La Paz)"
   },
   {
     "code": "N",
-    "name": "Pando"
+    "name": "Pando (Departamento de Pando)"
   },
   {
     "code": "O",
-    "name": "Oruro"
+    "name": "Oruro (Departamento de Oruro)"
   },
   {
     "code": "P",
-    "name": "Potosi"
+    "name": "Potosi (Potosí, Departamento de Potosí)"
   },
   {
     "code": "S",
-    "name": "Santa Cruz"
+    "name": "Santa Cruz (Departamento de Santa Cruz)"
   },
   {
     "code": "T",
-    "name": "Tarija"
+    "name": "Tarija (Departamento de Tarija)"
   }
 ]

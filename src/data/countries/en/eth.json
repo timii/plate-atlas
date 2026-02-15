@@ -1,42 +1,42 @@
 [
   {
     "code": "ET (ኢት)",
-    "name": "Ethiopia"
+    "name": "Ethiopia (ኢትዮጵያ)"
   },
   {
     "code": "AA (አአ)",
-    "name": "Addis Ababa"
+    "name": "Addis Ababa (አዲስ አበባ)"
   },
   {
     "code": "AF (አፋ)",
-    "name": "Afar"
+    "name": "Afar (አፋር)"
   },
   {
     "code": "AM (አማ)",
-    "name": "Amhara"
+    "name": "Amhara (አማራ)"
   },
   {
     "code": "BG (ቤጉ)",
-    "name": "Benishangul Gumuz"
+    "name": "Benishangul Gumuz (ቤኒሻንጉል ጉሙዝ)"
   },
   {
     "code": "DR (ድሬ)",
-    "name": "Dire Dawa"
+    "name": "Dire Dawa (ድሬ ዳዋ)"
   },
   {
     "code": "GM (ጋም)",
-    "name": "Gambela"
+    "name": "Gambela (ጋምቤላ)"
   },
   {
     "code": "HR (ሐረ)",
-    "name": "Harar"
+    "name": "Harar (ሐረሪ)"
   },
   {
     "code": "OR (ኦሮ)",
-    "name": "Oromia"
+    "name": "Oromia (ኪሮሚያ)"
   },
   {
     "code": "SM (ሶማ)",
-    "name": "Somali"
+    "name": "Somali (ሶማሌ)"
   }
 ]

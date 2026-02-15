@@ -1,28 +1,106 @@
 [
-  { "code": "C", "name": "Cork" },
-  { "code": "CE", "name": "Clare" },
-  { "code": "CN", "name": "Cavan" },
-  { "code": "CW", "name": "Carlow" },
-  { "code": "D", "name": "Dublin" },
-  { "code": "DL", "name": "Donegal" },
-  { "code": "G", "name": "Galway" },
-  { "code": "KE", "name": "Kildare" },
-  { "code": "KK", "name": "Kilkenny" },
-  { "code": "KY", "name": "Kerry" },
-  { "code": "L", "name": "Limerick" },
-  { "code": "LD", "name": "Longford" },
-  { "code": "LH", "name": "Louth" },
-  { "code": "LM", "name": "Leitrim" },
-  { "code": "LS", "name": "Laois" },
-  { "code": "MH", "name": "Meath" },
-  { "code": "MN", "name": "Monaghan" },
-  { "code": "MO", "name": "Mayo" },
-  { "code": "OY", "name": "Offaly" },
-  { "code": "RN", "name": "Roscommon" },
-  { "code": "SO", "name": "Sligo" },
-  { "code": "T", "name": "Tipperary" },
-  { "code": "W", "name": "Waterford" },
-  { "code": "WH", "name": "Westmeath" },
-  { "code": "WX", "name": "Wexford" },
-  { "code": "WW", "name": "Wicklow" }
+  {
+    "code": "C",
+    "name": "Cork (Corcaigh)"
+  },
+  {
+    "code": "CE",
+    "name": "Clare (An Clár)"
+  },
+  {
+    "code": "CN",
+    "name": "Cavan (An Cabhán)"
+  },
+  {
+    "code": "CW",
+    "name": "Carlow (Ceatharlach)"
+  },
+  {
+    "code": "D",
+    "name": "Dublin (Baile Átha Cliath)"
+  },
+  {
+    "code": "DL",
+    "name": "Donegal (Dún na nGall)"
+  },
+  {
+    "code": "G",
+    "name": "Galway (Gaillimh)"
+  },
+  {
+    "code": "KE",
+    "name": "Kildare (Cill Dara)"
+  },
+  {
+    "code": "KK",
+    "name": "Kilkenny (Cill Chainnigh)"
+  },
+  {
+    "code": "KY",
+    "name": "Kerry (Ciarraí)"
+  },
+  {
+    "code": "L",
+    "name": "Limerick (Luimneach)"
+  },
+  {
+    "code": "LD",
+    "name": "Longford (An Longfort)"
+  },
+  {
+    "code": "LH",
+    "name": "Louth (Lú)"
+  },
+  {
+    "code": "LM",
+    "name": "Leitrim (Liatroim)"
+  },
+  {
+    "code": "LS",
+    "name": "Laois (Laois)"
+  },
+  {
+    "code": "MH",
+    "name": "Meath (An Mhí)"
+  },
+  {
+    "code": "MN",
+    "name": "Monaghan (Muineachán)"
+  },
+  {
+    "code": "MO",
+    "name": "Mayo (Maigh Eo)"
+  },
+  {
+    "code": "OY",
+    "name": "Offaly (Uíbh Fhailí)"
+  },
+  {
+    "code": "RN",
+    "name": "Roscommon (Ros Comáin)"
+  },
+  {
+    "code": "SO",
+    "name": "Sligo (Sligeach)"
+  },
+  {
+    "code": "T",
+    "name": "Tipperary (Tiobraid Árann)"
+  },
+  {
+    "code": "W",
+    "name": "Waterford (Port Láirge)"
+  },
+  {
+    "code": "WH",
+    "name": "Westmeath (An Iarmhí)"
+  },
+  {
+    "code": "WX",
+    "name": "Wexford (Loch Garman)"
+  },
+  {
+    "code": "WW",
+    "name": "Wicklow (Cill Mhantáin)"
+  }
 ]

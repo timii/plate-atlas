@@ -1,90 +1,90 @@
 [
   {
     "code": "01",
-    "name": "Batha Region"
+    "name": "Batha Region (Région du Batha)"
   },
   {
     "code": "02",
-    "name": "Borkou Region"
+    "name": "Borkou Region (Région du Borkou)"
   },
   {
     "code": "03",
-    "name": "Chari-Baguirmi Region"
+    "name": "Chari-Baguirmi Region (Région du Chari-Baguirmi)"
   },
   {
     "code": "04",
-    "name": "Guera Region"
+    "name": "Guera Region (Guéra)"
   },
   {
     "code": "05",
-    "name": "Hadjer-Lamis Region"
+    "name": "Hadjer-Lamis Region (Région du Hadjer-Lamis)"
   },
   {
     "code": "06",
-    "name": "Kanem Region"
+    "name": "Kanem Region (Région du Kanem)"
   },
   {
     "code": "07",
-    "name": "Lac Region"
+    "name": "Lac Region (Région du Lac)"
   },
   {
     "code": "08",
-    "name": "Logone Occidental Region"
+    "name": "Logone Occidental Region (Région du Logone Occidental)"
   },
   {
     "code": "09",
-    "name": "Logone Oriental Region"
+    "name": "Logone Oriental Region (Région du Logone Oriental)"
   },
   {
     "code": "10",
-    "name": "Mandoul Region"
+    "name": "Mandoul Region (Région du Mandoul)"
   },
   {
     "code": "11",
-    "name": "Mayo-Kebbi Est Region"
+    "name": "Mayo-Kebbi Est Region (Région du Mayo-Kebbi Est)"
   },
   {
     "code": "12",
-    "name": "Mayo-Kebbi Ouest Region"
+    "name": "Mayo-Kebbi Ouest Region (Région du Mayo-Kebbi Ouest)"
   },
   {
     "code": "13",
-    "name": "Moyen-Chari Region"
+    "name": "Moyen-Chari Region (Région du Moyen-Chari)"
   },
   {
     "code": "14",
-    "name": "Ouaddai Region"
+    "name": "Ouaddai Region (Ouaddaï)"
   },
   {
     "code": "15",
-    "name": "Salamat Region"
+    "name": "Salamat Region (Région du Salamat)"
   },
   {
     "code": "16",
-    "name": "Tandjile Region"
+    "name": "Tandjile Region (Tandjilé)"
   },
   {
     "code": "17",
-    "name": "Wadi Fira Region"
+    "name": "Wadi Fira Region (Région du Wadi Fira)"
   },
   {
     "code": "18",
-    "name": "N'Djamena"
+    "name": "N'Djamena (Ville de N'Djamena)"
   },
   {
     "code": "19",
-    "name": "Barh El Gazel Region"
+    "name": "Barh El Gazel Region (Région du Barh El Gazel)"
   },
   {
     "code": "20",
-    "name": "Ennedi Region"
+    "name": "Ennedi Region (Région de l'Ennedi)"
   },
   {
     "code": "21",
-    "name": "Sila Region"
+    "name": "Sila Region (Région du Sila)"
   },
   {
     "code": "22",
-    "name": "Tibesti Region"
+    "name": "Tibesti Region (Région du Tibesti)"
   }
 ]

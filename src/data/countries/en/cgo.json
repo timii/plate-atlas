@@ -1,106 +1,106 @@
 [
   {
     "code": "01",
-    "name": "Kinshasa"
+    "name": "Kinshasa (Ville-province de Kinshasa)"
   },
   {
     "code": "02",
-    "name": "Bas-Uele"
+    "name": "Bas-Uele (Province du Bas-Uele)"
   },
   {
     "code": "03",
-    "name": "Equateur"
+    "name": "Equateur (Équateur)"
   },
   {
     "code": "04",
-    "name": "Haut-Lomami"
+    "name": "Haut-Lomami (Province du Haut-Lomami)"
   },
   {
     "code": "05",
-    "name": "Haut-Katanga"
+    "name": "Haut-Katanga (Province du Haut-Katanga)"
   },
   {
     "code": "06",
-    "name": "Haut-Uele"
+    "name": "Haut-Uele (Province du Haut-Uele)"
   },
   {
     "code": "07",
-    "name": "Ituri"
+    "name": "Ituri (Province de l'Ituri)"
   },
   {
     "code": "08",
-    "name": "Kasai"
+    "name": "Kasai (Kasaï)"
   },
   {
     "code": "09",
-    "name": "Kasai-Oriental"
+    "name": "Kasai-Oriental (Kasaï-Oriental)"
   },
   {
     "code": "10",
-    "name": "Kongo Central"
+    "name": "Kongo Central (Province du Kongo Central)"
   },
   {
     "code": "11",
-    "name": "Kwango"
+    "name": "Kwango (Province du Kwango)"
   },
   {
     "code": "12",
-    "name": "Kwilu"
+    "name": "Kwilu (Province du Kwilu)"
   },
   {
     "code": "13",
-    "name": "Lomami"
+    "name": "Lomami (Province du Lomami)"
   },
   {
     "code": "14",
-    "name": "Lualaba"
+    "name": "Lualaba (Province du Lualaba)"
   },
   {
     "code": "15",
-    "name": "Kasai-Central"
+    "name": "Kasai-Central (Kasaï-Central)"
   },
   {
     "code": "16",
-    "name": "Mai-Ndombe"
+    "name": "Mai-Ndombe (Province du Mai-Ndombe)"
   },
   {
     "code": "17",
-    "name": "Maniema"
+    "name": "Maniema (Province du Maniema)"
   },
   {
     "code": "18",
-    "name": "Mongala"
+    "name": "Mongala (Province de la Mongala)"
   },
   {
     "code": "19",
-    "name": "North Kivu"
+    "name": "North Kivu (Nord-Kivu)"
   },
   {
     "code": "20",
-    "name": "Nord-Ubangi"
+    "name": "Nord-Ubangi (Province du Nord-Ubangi)"
   },
   {
     "code": "21",
-    "name": "Sankuru"
+    "name": "Sankuru (Province du Sankuru)"
   },
   {
     "code": "22",
-    "name": "South Kivu"
+    "name": "South Kivu (Sud-Kivu)"
   },
   {
     "code": "23",
-    "name": "Sud-Ubangi"
+    "name": "Sud-Ubangi (Province du Sud-Ubangi)"
   },
   {
     "code": "24",
-    "name": "Tanganyika"
+    "name": "Tanganyika (Province du Tanganyika)"
   },
   {
     "code": "25",
-    "name": "Tshopo"
+    "name": "Tshopo (Province de la Tshopo)"
   },
   {
     "code": "26",
-    "name": "Tshuapa"
+    "name": "Tshuapa (Province de la Tshuapa)"
   }
 ]

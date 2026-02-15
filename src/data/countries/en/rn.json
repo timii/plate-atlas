@@ -1,34 +1,34 @@
 [
   {
     "code": "1",
-    "name": "Agadez Region"
+    "name": "Agadez Region (Région d'Agadez)"
   },
   {
     "code": "2",
-    "name": "Diffa Region"
+    "name": "Diffa Region (Région de Diffa)"
   },
   {
     "code": "3",
-    "name": "Dosso Region"
+    "name": "Dosso Region (Région de Dosso)"
   },
   {
     "code": "4",
-    "name": "Maradi Region"
+    "name": "Maradi Region (Région de Maradi)"
   },
   {
     "code": "5",
-    "name": "Tahoua Region"
+    "name": "Tahoua Region (Région de Tahoua)"
   },
   {
     "code": "6",
-    "name": "Tillaberi Region"
+    "name": "Tillaberi Region (Région de Tillabéri)"
   },
   {
     "code": "7",
-    "name": "Zinder Region"
+    "name": "Zinder Region (Région de Zinder)"
   },
   {
     "code": "8",
-    "name": "Niamey"
+    "name": "Niamey (Ville de Niamey)"
   }
 ]

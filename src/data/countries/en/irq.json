@@ -1,78 +1,78 @@
 [
   {
     "code": "11",
-    "name": "Baghdad"
+    "name": "Baghdad (بغداد)"
   },
   {
     "code": "12",
-    "name": "Nineveh"
+    "name": "Nineveh (نينوى)"
   },
   {
     "code": "13",
-    "name": "Maysan"
+    "name": "Maysan (ميسان)"
   },
   {
     "code": "14",
-    "name": "Basra"
+    "name": "Basra (البصرة)"
   },
   {
     "code": "15",
-    "name": "Al Anbar"
+    "name": "Al Anbar (الأنبار)"
   },
   {
     "code": "16",
-    "name": "Al-Qadisiyyah"
+    "name": "Al-Qadisiyyah (القادسية)"
   },
   {
     "code": "17",
-    "name": "Muthanna"
+    "name": "Muthanna (المثنى)"
   },
   {
     "code": "18",
-    "name": "Babil"
+    "name": "Babil (بابل)"
   },
   {
     "code": "19",
-    "name": "Karbala"
+    "name": "Karbala (كربلاء)"
   },
   {
     "code": "20",
-    "name": "Diyala"
+    "name": "Diyala (ديالى)"
   },
   {
     "code": "21",
-    "name": "Sulaymaniyah"
+    "name": "Sulaymaniyah (السليمانية)"
   },
   {
     "code": "22",
-    "name": "Erbil"
+    "name": "Erbil (أربيل)"
   },
   {
     "code": "23",
-    "name": "Halabja"
+    "name": "Halabja (حلبجة)"
   },
   {
     "code": "24",
-    "name": "Duhok"
+    "name": "Duhok (دهوك)"
   },
   {
     "code": "25",
-    "name": "Kirkuk"
+    "name": "Kirkuk (كركوك)"
   },
   {
     "code": "26",
-    "name": "Saladin"
+    "name": "Saladin (صلاح الدين)"
   },
   {
     "code": "27",
-    "name": "Dhi Qar"
+    "name": "Dhi Qar (ذي قار)"
   },
   {
     "code": "28",
-    "name": "Najaf"
+    "name": "Najaf (النجف)"
   },
   {
     "code": "29",
-    "name": "Wasit"
+    "name": "Wasit (واسط)"
   }
 ]

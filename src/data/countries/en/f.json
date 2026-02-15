@@ -1,438 +1,438 @@
 [
   {
     "code": "01",
-    "name": "Ain"
+    "name": "Ain (Département de Ain)"
   },
   {
     "code": "02",
-    "name": "Aisne"
+    "name": "Aisne (Département de Aisne)"
   },
   {
     "code": "03",
-    "name": "Allier"
+    "name": "Allier (Département de Allier)"
   },
   {
     "code": "04",
-    "name": "Alpes-de-Haute-Provence"
+    "name": "Alpes-de-Haute-Provence (Département de Alpes-de-Haute-Provence)"
   },
   {
     "code": "05",
-    "name": "Hautes-Alpes"
+    "name": "Hautes-Alpes (Département de Hautes-Alpes)"
   },
   {
     "code": "06",
-    "name": "Alpes-Maritimes"
+    "name": "Alpes-Maritimes (Département de Alpes-Maritimes)"
   },
   {
     "code": "07",
-    "name": "Ard\u00e8che"
+    "name": "Ardèche (Département de Ardèche)"
   },
   {
     "code": "08",
-    "name": "Ardennes"
+    "name": "Ardennes (Département de Ardennes)"
   },
   {
     "code": "09",
-    "name": "Ari\u00e8ge"
+    "name": "Ariège (Département de Ariège)"
   },
   {
     "code": "10",
-    "name": "Aube"
+    "name": "Aube (Département de Aube)"
   },
   {
     "code": "11",
-    "name": "Aude"
+    "name": "Aude (Département de Aude)"
   },
   {
     "code": "12",
-    "name": "Aveyron"
+    "name": "Aveyron (Département de Aveyron)"
   },
   {
     "code": "13",
-    "name": "Bouches-du-Rh\u00f4ne"
+    "name": "Bouches-du-Rhône (Département de Bouches-du-Rhône)"
   },
   {
     "code": "14",
-    "name": "Calvados"
+    "name": "Calvados (Département de Calvados)"
   },
   {
     "code": "15",
-    "name": "Cantal"
+    "name": "Cantal (Département de Cantal)"
   },
   {
     "code": "16",
-    "name": "Charente"
+    "name": "Charente (Département de Charente)"
   },
   {
     "code": "17",
-    "name": "Charente-Maritime"
+    "name": "Charente-Maritime (Département de Charente-Maritime)"
   },
   {
     "code": "18",
-    "name": "Cher"
+    "name": "Cher (Département de Cher)"
   },
   {
     "code": "19",
-    "name": "Corr\u00e8ze"
+    "name": "Corrèze (Département de Corrèze)"
   },
   {
     "code": "21",
-    "name": "C\u00f4te-d'Or"
+    "name": "Côte-d'Or (Département de Côte-d'Or)"
   },
   {
     "code": "22",
-    "name": "C\u00f4tes-d'Armor"
+    "name": "Côtes-d'Armor (Département de Côtes-d'Armor)"
   },
   {
     "code": "23",
-    "name": "Creuse"
+    "name": "Creuse (Département de Creuse)"
   },
   {
     "code": "24",
-    "name": "Dordogne"
+    "name": "Dordogne (Département de Dordogne)"
   },
   {
     "code": "25",
-    "name": "Doubs"
+    "name": "Doubs (Département de Doubs)"
   },
   {
     "code": "26",
-    "name": "Dr\u00f4me"
+    "name": "Drôme (Département de Drôme)"
   },
   {
     "code": "27",
-    "name": "Eure"
+    "name": "Eure (Département de Eure)"
   },
   {
     "code": "28",
-    "name": "Eure-et-Loir"
+    "name": "Eure-et-Loir (Département de Eure-et-Loir)"
   },
   {
     "code": "29",
-    "name": "Finist\u00e8re"
+    "name": "Finistère (Département de Finistère)"
   },
   {
     "code": "2A",
-    "name": "Corse-du-Sud"
+    "name": "Corse-du-Sud (Département de Corse-du-Sud)"
   },
   {
     "code": "2B",
-    "name": "Haute-Corse"
+    "name": "Haute-Corse (Département de Haute-Corse)"
   },
   {
     "code": "30",
-    "name": "Gard"
+    "name": "Gard (Département de Gard)"
   },
   {
     "code": "31",
-    "name": "Haute-Garonne"
+    "name": "Haute-Garonne (Département de Haute-Garonne)"
   },
   {
     "code": "32",
-    "name": "Gers"
+    "name": "Gers (Département de Gers)"
   },
   {
     "code": "33",
-    "name": "Gironde"
+    "name": "Gironde (Département de Gironde)"
   },
   {
     "code": "34",
-    "name": "H\u00e9rault"
+    "name": "Hérault (Département de Hérault)"
   },
   {
     "code": "35",
-    "name": "Ille-et-Vilaine"
+    "name": "Ille-et-Vilaine (Département de Ille-et-Vilaine)"
   },
   {
     "code": "36",
-    "name": "Indre"
+    "name": "Indre (Département de Indre)"
   },
   {
     "code": "37",
-    "name": "Indre-et-Loire"
+    "name": "Indre-et-Loire (Département de Indre-et-Loire)"
   },
   {
     "code": "38",
-    "name": "Is\u00e8re"
+    "name": "Isère (Département de Isère)"
   },
   {
     "code": "39",
-    "name": "Jura"
+    "name": "Jura (Département de Jura)"
   },
   {
     "code": "40",
-    "name": "Landes"
+    "name": "Landes (Département de Landes)"
   },
   {
     "code": "41",
-    "name": "Loir-et-Cher"
+    "name": "Loir-et-Cher (Département de Loir-et-Cher)"
   },
   {
     "code": "42",
-    "name": "Loire"
+    "name": "Loire (Département de Loire)"
   },
   {
     "code": "43",
-    "name": "Haute-Loire"
+    "name": "Haute-Loire (Département de Haute-Loire)"
   },
   {
     "code": "44",
-    "name": "Loire-Atlantique"
+    "name": "Loire-Atlantique (Département de Loire-Atlantique)"
   },
   {
     "code": "45",
-    "name": "Loiret"
+    "name": "Loiret (Département de Loiret)"
   },
   {
     "code": "46",
-    "name": "Lot"
+    "name": "Lot (Département de Lot)"
   },
   {
     "code": "47",
-    "name": "Lot-et-Garonne"
+    "name": "Lot-et-Garonne (Département de Lot-et-Garonne)"
   },
   {
     "code": "48",
-    "name": "Loz\u00e8re"
+    "name": "Lozère (Département de Lozère)"
   },
   {
     "code": "49",
-    "name": "Maine-et-Loire"
+    "name": "Maine-et-Loire (Département de Maine-et-Loire)"
   },
   {
     "code": "50",
-    "name": "Manche"
+    "name": "Manche (Département de Manche)"
   },
   {
     "code": "51",
-    "name": "Marne"
+    "name": "Marne (Département de Marne)"
   },
   {
     "code": "52",
-    "name": "Haute-Marne"
+    "name": "Haute-Marne (Département de Haute-Marne)"
   },
   {
     "code": "53",
-    "name": "Mayenne"
+    "name": "Mayenne (Département de Mayenne)"
   },
   {
     "code": "54",
-    "name": "Meurthe-et-Moselle"
+    "name": "Meurthe-et-Moselle (Département de Meurthe-et-Moselle)"
   },
   {
     "code": "55",
-    "name": "Meuse"
+    "name": "Meuse (Département de Meuse)"
   },
   {
     "code": "56",
-    "name": "Morbihan"
+    "name": "Morbihan (Département de Morbihan)"
   },
   {
     "code": "57",
-    "name": "Moselle"
+    "name": "Moselle (Département de Moselle)"
   },
   {
     "code": "58",
-    "name": "Ni\u00e8vre"
+    "name": "Nièvre (Département de Nièvre)"
   },
   {
     "code": "59",
-    "name": "Nord"
+    "name": "Nord (Département de Nord)"
   },
   {
     "code": "60",
-    "name": "Oise"
+    "name": "Oise (Département de Oise)"
   },
   {
     "code": "61",
-    "name": "Orne"
+    "name": "Orne (Département de Orne)"
   },
   {
     "code": "62",
-    "name": "Pas-de-Calais"
+    "name": "Pas-de-Calais (Département de Pas-de-Calais)"
   },
   {
     "code": "63",
-    "name": "Puy-de-D\u00f4me"
+    "name": "Puy-de-Dôme (Département de Puy-de-Dôme)"
   },
   {
     "code": "64",
-    "name": "Pyr\u00e9n\u00e9es-Atlantiques"
+    "name": "Pyrénées-Atlantiques (Département de Pyrénées-Atlantiques)"
   },
   {
     "code": "65",
-    "name": "Hautes-Pyr\u00e9n\u00e9es"
+    "name": "Hautes-Pyrénées (Département de Hautes-Pyrénées)"
   },
   {
     "code": "66",
-    "name": "Pyr\u00e9n\u00e9es-Orientales"
+    "name": "Pyrénées-Orientales (Département de Pyrénées-Orientales)"
   },
   {
     "code": "67",
-    "name": "Bas-Rhin"
+    "name": "Bas-Rhin (Département de Bas-Rhin)"
   },
   {
     "code": "68",
-    "name": "Haut-Rhin"
+    "name": "Haut-Rhin (Département de Haut-Rhin)"
   },
   {
     "code": "69",
-    "name": "Rh\u00f4ne"
+    "name": "Rhône (Département de Rhône)"
   },
   {
     "code": "70",
-    "name": "Haute-Sa\u00f4ne"
+    "name": "Haute-Saône (Département de Haute-Saône)"
   },
   {
     "code": "71",
-    "name": "Sa\u00f4ne-et-Loire"
+    "name": "Saône-et-Loire (Département de Saône-et-Loire)"
   },
   {
     "code": "72",
-    "name": "Sarthe"
+    "name": "Sarthe (Département de Sarthe)"
   },
   {
     "code": "73",
-    "name": "Savoie"
+    "name": "Savoie (Département de Savoie)"
   },
   {
     "code": "74",
-    "name": "Haute-Savoie"
+    "name": "Haute-Savoie (Département de Haute-Savoie)"
   },
   {
     "code": "75",
-    "name": "Paris"
+    "name": "Paris (Département de Paris)"
   },
   {
     "code": "76",
-    "name": "Seine-Maritime"
+    "name": "Seine-Maritime (Département de Seine-Maritime)"
   },
   {
     "code": "77",
-    "name": "Seine-et-Marne"
+    "name": "Seine-et-Marne (Département de Seine-et-Marne)"
   },
   {
     "code": "78",
-    "name": "Yvelines"
+    "name": "Yvelines (Département de Yvelines)"
   },
   {
     "code": "79",
-    "name": "Deux-S\u00e8vres"
+    "name": "Deux-Sèvres (Département de Deux-Sèvres)"
   },
   {
     "code": "80",
-    "name": "Somme"
+    "name": "Somme (Département de Somme)"
   },
   {
     "code": "81",
-    "name": "Tarn"
+    "name": "Tarn (Département de Tarn)"
   },
   {
     "code": "82",
-    "name": "Tarn-et-Garonne"
+    "name": "Tarn-et-Garonne (Département de Tarn-et-Garonne)"
   },
   {
     "code": "83",
-    "name": "Var"
+    "name": "Var (Département de Var)"
   },
   {
     "code": "84",
-    "name": "Vaucluse"
+    "name": "Vaucluse (Département de Vaucluse)"
   },
   {
     "code": "85",
-    "name": "Vend\u00e9e"
+    "name": "Vendée (Département de Vendée)"
   },
   {
     "code": "86",
-    "name": "Vienne"
+    "name": "Vienne (Département de Vienne)"
   },
   {
     "code": "87",
-    "name": "Haute-Vienne"
+    "name": "Haute-Vienne (Département de Haute-Vienne)"
   },
   {
     "code": "88",
-    "name": "Vosges"
+    "name": "Vosges (Département de Vosges)"
   },
   {
     "code": "89",
-    "name": "Yonne"
+    "name": "Yonne (Département de Yonne)"
   },
   {
     "code": "90",
-    "name": "Territoire de Belfort"
+    "name": "Territoire de Belfort (Département de Territoire de Belfort)"
   },
   {
     "code": "91",
-    "name": "Essonne"
+    "name": "Essonne (Département de Essonne)"
   },
   {
     "code": "92",
-    "name": "Hauts-de-Seine"
+    "name": "Hauts-de-Seine (Département de Hauts-de-Seine)"
   },
   {
     "code": "93",
-    "name": "Seine-Saint-Denis"
+    "name": "Seine-Saint-Denis (Département de Seine-Saint-Denis)"
   },
   {
     "code": "94",
-    "name": "Val-de-Marne"
+    "name": "Val-de-Marne (Département de Val-de-Marne)"
   },
   {
     "code": "95",
-    "name": "Val-d'Oise"
+    "name": "Val-d'Oise (Département de Val-d'Oise)"
   },
   {
     "code": "971",
-    "name": "Guadeloupe"
+    "name": "Guadeloupe (Département de Guadeloupe)"
   },
   {
     "code": "972",
-    "name": "Martinique"
+    "name": "Martinique (Département de Martinique)"
   },
   {
     "code": "973",
-    "name": "Guyane"
+    "name": "Guyane (Département de Guyane)"
   },
   {
     "code": "974",
-    "name": "La R\u00e9union"
+    "name": "La Réunion (Département de La Réunion)"
   },
   {
     "code": "976",
-    "name": "Mayotte"
+    "name": "Mayotte (Département de Mayotte)"
   },
   {
     "code": "975",
-    "name": "Saint Pierre and Miquelon"
+    "name": "Saint Pierre and Miquelon (Département de Saint Pierre and Miquelon)"
   },
   {
     "code": "977",
-    "name": "Saint-Barth\u00e9lemy"
+    "name": "Saint-Barthélemy (Département de Saint-Barthélemy)"
   },
   {
     "code": "978",
-    "name": "Saint-Martin"
+    "name": "Saint-Martin (Département de Saint-Martin)"
   },
   {
     "code": "984",
-    "name": "French Southern and Antarctic Lands"
+    "name": "French Southern and Antarctic Lands (Département de French Southern and Antarctic Lands)"
   },
   {
     "code": "986",
-    "name": "Wallis and Futuna"
+    "name": "Wallis and Futuna (Département de Wallis and Futuna)"
   },
   {
     "code": "987",
-    "name": "French Polynesia"
+    "name": "French Polynesia (Département de French Polynesia)"
   },
   {
     "code": "988",
-    "name": "New Caledonia"
+    "name": "New Caledonia (Département de New Caledonia)"
   },
   {
     "code": "989",
-    "name": "Clipperton Atoll"
+    "name": "Clipperton Atoll (Département de Clipperton Atoll)"
   }
 ]

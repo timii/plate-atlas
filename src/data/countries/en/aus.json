@@ -1,38 +1,38 @@
 [
   {
     "code": "ACT",
-    "name": "Australian Capital Territory"
+    "name": "Australian Capital Territory (ACT)"
   },
   {
     "code": "JERVIS BAY TERRITORY",
-    "name": "Jervis Bay Territory"
+    "name": "Jervis Bay Territory (JBT)"
   },
   {
     "code": "NEW SOUTH WALES",
-    "name": "New South Wales"
+    "name": "New South Wales (NSW)"
   },
   {
     "code": "NORTHERN TERRITORY",
-    "name": "Northern Territory"
+    "name": "Northern Territory (NT)"
   },
   {
     "code": "QUEENSLAND",
-    "name": "Queensland"
+    "name": "Queensland (QLD)"
   },
   {
     "code": "SOUTH AUSTRALIA",
-    "name": "South Australia"
+    "name": "South Australia (SA)"
   },
   {
     "code": "TASMANIA",
-    "name": "Tasmania"
+    "name": "Tasmania (TAS)"
   },
   {
     "code": "VICTORIA",
-    "name": "Victoria"
+    "name": "Victoria (VIC)"
   },
   {
     "code": "WESTERN AUSTRALIA",
-    "name": "Western Australia"
+    "name": "Western Australia (WA)"
   }
 ]

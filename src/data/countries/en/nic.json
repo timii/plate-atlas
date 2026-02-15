@@ -1,66 +1,66 @@
 [
   {
     "code": "BO",
-    "name": "Boaco"
+    "name": "Boaco (Departamento de Boaco)"
   },
   {
     "code": "CA",
-    "name": "Carazo"
+    "name": "Carazo (Departamento de Carazo)"
   },
   {
     "code": "CH",
-    "name": "Chinandega"
+    "name": "Chinandega (Departamento de Chinandega)"
   },
   {
     "code": "CT",
-    "name": "Chontales"
+    "name": "Chontales (Departamento de Chontales)"
   },
   {
     "code": "ES",
-    "name": "Esteli"
+    "name": "Esteli (Estelí, Departamento de Estelí)"
   },
   {
     "code": "GR",
-    "name": "Granada"
+    "name": "Granada (Departamento de Granada)"
   },
   {
     "code": "JI",
-    "name": "Jinotega"
+    "name": "Jinotega (Departamento de Jinotega)"
   },
   {
     "code": "LE",
-    "name": "Leon"
+    "name": "Leon (León, Departamento de León)"
   },
   {
     "code": "M",
-    "name": "Managua"
+    "name": "Managua (Departamento de Managua)"
   },
   {
     "code": "MA",
-    "name": "Managua"
+    "name": "Managua (Departamento de Managua)"
   },
   {
     "code": "MT",
-    "name": "Matagalpa"
+    "name": "Matagalpa (Departamento de Matagalpa)"
   },
   {
     "code": "MY",
-    "name": "Masaya"
+    "name": "Masaya (Departamento de Masaya)"
   },
   {
     "code": "MZ",
-    "name": "Madriz"
+    "name": "Madriz (Departamento de Madriz)"
   },
   {
     "code": "NS",
-    "name": "Nueva Segovia"
+    "name": "Nueva Segovia (Departamento de Nueva Segovia)"
   },
   {
     "code": "RI",
-    "name": "Rivas"
+    "name": "Rivas (Departamento de Rivas)"
   },
   {
     "code": "RJ",
-    "name": "Rio San Juan"
+    "name": "Rio San Juan (Río San Juan, Departamento de Río San Juan)"
   }
 ]

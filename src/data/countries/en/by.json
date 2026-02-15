@@ -1,34 +1,34 @@
 [
   {
     "code": "1",
-    "name": "Brest Region"
+    "name": "Brest Region (Брэсцкая вобласць)"
   },
   {
     "code": "2",
-    "name": "Vitebsk Region"
+    "name": "Vitebsk Region (Віцебская вобласць)"
   },
   {
     "code": "3",
-    "name": "Gomel Region"
+    "name": "Gomel Region (Гомельская вобласць)"
   },
   {
     "code": "4",
-    "name": "Grodno Region"
+    "name": "Grodno Region (Гродзенская вобласць)"
   },
   {
     "code": "5",
-    "name": "Minsk Region"
+    "name": "Minsk Region (Мінская вобласць)"
   },
   {
     "code": "6",
-    "name": "Mogilev Region"
+    "name": "Mogilev Region (Магілёўская вобласць)"
   },
   {
     "code": "7",
-    "name": "Minsk (city)"
+    "name": "Minsk (city, Мінск)"
   },
   {
     "code": "8",
-    "name": "Minsk (city, used after code “7” was exhausted)"
+    "name": "Minsk (city, Мінск, used after code “7” was exhausted)"
   }
 ]

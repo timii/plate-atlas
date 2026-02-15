@@ -1,13 +1,46 @@
 [
-  { "code": "CE", "name": "Celje" },
-  { "code": "GO", "name": "Nova Gorica" },
-  { "code": "KK", "name": "Krško" },
-  { "code": "KP", "name": "Koper" },
-  { "code": "KR", "name": "Kranj" },
-  { "code": "LJ", "name": "Ljubljana" },
-  { "code": "MB", "name": "Maribor" },
-  { "code": "MS", "name": "Murska Sobota" },
-  { "code": "NM", "name": "Novo Mesto" },
-  { "code": "PO", "name": "Postojna" },
-  { "code": "SG", "name": "Slovenj Gradec" }
+  {
+    "code": "CE",
+    "name": "Celje (Mestna občina Celje)"
+  },
+  {
+    "code": "GO",
+    "name": "Nova Gorica (Mestna občina Nova Gorica)"
+  },
+  {
+    "code": "KK",
+    "name": "Krško (Mestna občina Krško)"
+  },
+  {
+    "code": "KP",
+    "name": "Koper (Mestna občina Koper)"
+  },
+  {
+    "code": "KR",
+    "name": "Kranj (Mestna občina Kranj)"
+  },
+  {
+    "code": "LJ",
+    "name": "Ljubljana (Mestna občina Ljubljana)"
+  },
+  {
+    "code": "MB",
+    "name": "Maribor (Mestna občina Maribor)"
+  },
+  {
+    "code": "MS",
+    "name": "Murska Sobota (Mestna občina Murska Sobota)"
+  },
+  {
+    "code": "NM",
+    "name": "Novo Mesto (Mestna občina Novo mesto)"
+  },
+  {
+    "code": "PO",
+    "name": "Postojna (Občina Postojna)"
+  },
+  {
+    "code": "SG",
+    "name": "Slovenj Gradec (Mestna občina Slovenj Gradec)"
+  }
 ]

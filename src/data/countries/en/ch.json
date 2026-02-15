@@ -25,11 +25,11 @@
   },
   {
     "code": "FR",
-    "name": "Fribourg"
+    "name": "Fribourg (Freiburg)"
   },
   {
     "code": "GE",
-    "name": "Geneva"
+    "name": "Geneva (Genève)"
   },
   {
     "code": "GL",
@@ -37,7 +37,7 @@
   },
   {
     "code": "GR",
-    "name": "Grisons"
+    "name": "Grisons (Graubünden)"
   },
   {
     "code": "JU",
@@ -45,7 +45,7 @@
   },
   {
     "code": "LU",
-    "name": "Lucerne"
+    "name": "Lucerne (Luzern)"
   },
   {
     "code": "NE",
@@ -93,7 +93,7 @@
   },
   {
     "code": "VS",
-    "name": "Valais"
+    "name": "Valais (Wallis)"
   },
   {
     "code": "ZG",

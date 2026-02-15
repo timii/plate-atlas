@@ -1,95 +1,374 @@
 [
-  { "code": "BA", "name": "Bratislava" },
-  { "code": "BD", "name": "Bratislava" },
-  { "code": "BE", "name": "Bratislava" },
-  { "code": "BI", "name": "Bratislava" },
-  { "code": "BL", "name": "Bratislava" },
-  { "code": "BT", "name": "Bratislava" },
-  { "code": "BB", "name": "Banská Bystrica" },
-  { "code": "BC", "name": "Banská Bystrica" },
-  { "code": "BK", "name": "Banská Bystrica" },
-  { "code": "BJ", "name": "Bardejov" },
-  { "code": "BN", "name": "Bánovce nad Bebravou" },
-  { "code": "BR", "name": "Brezno" },
-  { "code": "BS", "name": "Banská Štiavnica" },
-  { "code": "BY", "name": "Bytča" },
-  { "code": "CA", "name": "Čadca" },
-  { "code": "DK", "name": "Dolný Kubín" },
-  { "code": "DS", "name": "Dunajská Streda" },
-  { "code": "DT", "name": "Detva" },
-  { "code": "GA", "name": "Galanta" },
-  { "code": "GL", "name": "Gelnica" },
-  { "code": "HC", "name": "Hlohovec" },
-  { "code": "HE", "name": "Humenné" },
-  { "code": "IL", "name": "Ilava" },
-  { "code": "KA", "name": "Krupina" },
-  { "code": "KE", "name": "Košice" },
-  { "code": "KC", "name": "Košice" },
-  { "code": "KI", "name": "Košice" },
-  { "code": "KK", "name": "Kežmarok" },
-  { "code": "KM", "name": "Kysucké Nové Mesto" },
-  { "code": "KN", "name": "Komárno" },
-  { "code": "KS", "name": "Košice-okolie" },
-  { "code": "LC", "name": "Lučenec" },
-  { "code": "LE", "name": "Levoča" },
-  { "code": "LM", "name": "Liptovský Mikuláš" },
-  { "code": "LV", "name": "Levice" },
-  { "code": "LL", "name": "Levice" },
-  { "code": "MA", "name": "Malacky" },
-  { "code": "MI", "name": "Michalovce" },
-  { "code": "ML", "name": "Medzilaborce" },
-  { "code": "MT", "name": "Martin" },
-  { "code": "MY", "name": "Myjava" },
-  { "code": "NR", "name": "Nitra" },
-  { "code": "NI", "name": "Nitra" },
-  { "code": "NT", "name": "Nitra" },
-  { "code": "NM", "name": "Nové Mesto nad Váhom" },
-  { "code": "NO", "name": "Námestovo" },
-  { "code": "NZ", "name": "Nové Zámky" },
-  { "code": "NC", "name": "Nové Zámky" },
-  { "code": "PB", "name": "Považská Bystrica" },
-  { "code": "PD", "name": "Prievidza" },
-  { "code": "PE", "name": "Partizánske" },
-  { "code": "PK", "name": "Pezinok" },
-  { "code": "PN", "name": "Piešťany" },
-  { "code": "PO", "name": "Prešov" },
-  { "code": "PV", "name": "Prešov" },
-  { "code": "PS", "name": "Prešov" },
-  { "code": "PP", "name": "Poprad" },
-  { "code": "PT", "name": "Poltár" },
-  { "code": "PU", "name": "Púchov" },
-  { "code": "RA", "name": "Revúca" },
-  { "code": "RK", "name": "Ružomberok" },
-  { "code": "RS", "name": "Rimavská Sobota" },
-  { "code": "RV", "name": "Rožňava" },
-  { "code": "SA", "name": "Šaľa" },
-  { "code": "SB", "name": "Sabinov" },
-  { "code": "SC", "name": "Senec" },
-  { "code": "SE", "name": "Senica" },
-  { "code": "SI", "name": "Skalica" },
-  { "code": "SK", "name": "Svidník" },
-  { "code": "SL", "name": "Stará Ľubovňa" },
-  { "code": "SN", "name": "Spišská Nová Ves" },
-  { "code": "SO", "name": "Sobrance" },
-  { "code": "SP", "name": "Stropkov" },
-  { "code": "SV", "name": "Snina" },
-  { "code": "TT", "name": "Trnava" },
-  { "code": "TA", "name": "Trnava" },
-  { "code": "TB", "name": "Trnava" },
-  { "code": "TN", "name": "Trenčín" },
-  { "code": "TC", "name": "Trenčín" },
-  { "code": "TE", "name": "Trenčín" },
-  { "code": "TO", "name": "Topoľčany" },
-  { "code": "TR", "name": "Turčianske Teplice" },
-  { "code": "TS", "name": "Tvrdošín" },
-  { "code": "TV", "name": "Trebišov" },
-  { "code": "VK", "name": "Veľký Krtíš" },
-  { "code": "VT", "name": "Vranov nad Topľou" },
-  { "code": "ZA", "name": "Žilina" },
-  { "code": "ZI", "name": "Žilina" },
-  { "code": "ZL", "name": "Žilina" },
-  { "code": "ZC", "name": "Žarnovica" },
-  { "code": "ZH", "name": "Žiar nad Hronom" },
-  { "code": "ZM", "name": "Zlaté Moravce" },
-  { "code": "ZV", "name": "Zvolen" }
+  {
+    "code": "BA",
+    "name": "Bratislava (okres Bratislava)"
+  },
+  {
+    "code": "BD",
+    "name": "Bratislava (okres Bratislava)"
+  },
+  {
+    "code": "BE",
+    "name": "Bratislava (okres Bratislava)"
+  },
+  {
+    "code": "BI",
+    "name": "Bratislava (okres Bratislava)"
+  },
+  {
+    "code": "BL",
+    "name": "Bratislava (okres Bratislava)"
+  },
+  {
+    "code": "BT",
+    "name": "Bratislava (okres Bratislava)"
+  },
+  {
+    "code": "BB",
+    "name": "Banská Bystrica (okres Banská Bystrica)"
+  },
+  {
+    "code": "BC",
+    "name": "Banská Bystrica (okres Banská Bystrica)"
+  },
+  {
+    "code": "BK",
+    "name": "Banská Bystrica (okres Banská Bystrica)"
+  },
+  {
+    "code": "BJ",
+    "name": "Bardejov (okres Bardejov)"
+  },
+  {
+    "code": "BN",
+    "name": "Bánovce nad Bebravou (okres Bánovce nad Bebravou)"
+  },
+  {
+    "code": "BR",
+    "name": "Brezno (okres Brezno)"
+  },
+  {
+    "code": "BS",
+    "name": "Banská Štiavnica (okres Banská Štiavnica)"
+  },
+  {
+    "code": "BY",
+    "name": "Bytča (okres Bytča)"
+  },
+  {
+    "code": "CA",
+    "name": "Čadca (okres Čadca)"
+  },
+  {
+    "code": "DK",
+    "name": "Dolný Kubín (okres Dolný Kubín)"
+  },
+  {
+    "code": "DS",
+    "name": "Dunajská Streda (okres Dunajská Streda)"
+  },
+  {
+    "code": "DT",
+    "name": "Detva (okres Detva)"
+  },
+  {
+    "code": "GA",
+    "name": "Galanta (okres Galanta)"
+  },
+  {
+    "code": "GL",
+    "name": "Gelnica (okres Gelnica)"
+  },
+  {
+    "code": "HC",
+    "name": "Hlohovec (okres Hlohovec)"
+  },
+  {
+    "code": "HE",
+    "name": "Humenné (okres Humenné)"
+  },
+  {
+    "code": "IL",
+    "name": "Ilava (okres Ilava)"
+  },
+  {
+    "code": "KA",
+    "name": "Krupina (okres Krupina)"
+  },
+  {
+    "code": "KE",
+    "name": "Košice (okres Košice)"
+  },
+  {
+    "code": "KC",
+    "name": "Košice (okres Košice)"
+  },
+  {
+    "code": "KI",
+    "name": "Košice (okres Košice)"
+  },
+  {
+    "code": "KK",
+    "name": "Kežmarok (okres Kežmarok)"
+  },
+  {
+    "code": "KM",
+    "name": "Kysucké Nové Mesto (okres Kysucké Nové Mesto)"
+  },
+  {
+    "code": "KN",
+    "name": "Komárno (okres Komárno)"
+  },
+  {
+    "code": "KS",
+    "name": "Košice-okolie (okres Košice-okolie)"
+  },
+  {
+    "code": "LC",
+    "name": "Lučenec (okres Lučenec)"
+  },
+  {
+    "code": "LE",
+    "name": "Levoča (okres Levoča)"
+  },
+  {
+    "code": "LM",
+    "name": "Liptovský Mikuláš (okres Liptovský Mikuláš)"
+  },
+  {
+    "code": "LV",
+    "name": "Levice (okres Levice)"
+  },
+  {
+    "code": "LL",
+    "name": "Levice (okres Levice)"
+  },
+  {
+    "code": "MA",
+    "name": "Malacky (okres Malacky)"
+  },
+  {
+    "code": "MI",
+    "name": "Michalovce (okres Michalovce)"
+  },
+  {
+    "code": "ML",
+    "name": "Medzilaborce (okres Medzilaborce)"
+  },
+  {
+    "code": "MT",
+    "name": "Martin (okres Martin)"
+  },
+  {
+    "code": "MY",
+    "name": "Myjava (okres Myjava)"
+  },
+  {
+    "code": "NR",
+    "name": "Nitra (okres Nitra)"
+  },
+  {
+    "code": "NI",
+    "name": "Nitra (okres Nitra)"
+  },
+  {
+    "code": "NT",
+    "name": "Nitra (okres Nitra)"
+  },
+  {
+    "code": "NM",
+    "name": "Nové Mesto nad Váhom (okres Nové Mesto nad Váhom)"
+  },
+  {
+    "code": "NO",
+    "name": "Námestovo (okres Námestovo)"
+  },
+  {
+    "code": "NZ",
+    "name": "Nové Zámky (okres Nové Zámky)"
+  },
+  {
+    "code": "NC",
+    "name": "Nové Zámky (okres Nové Zámky)"
+  },
+  {
+    "code": "PB",
+    "name": "Považská Bystrica (okres Považská Bystrica)"
+  },
+  {
+    "code": "PD",
+    "name": "Prievidza (okres Prievidza)"
+  },
+  {
+    "code": "PE",
+    "name": "Partizánske (okres Partizánske)"
+  },
+  {
+    "code": "PK",
+    "name": "Pezinok (okres Pezinok)"
+  },
+  {
+    "code": "PN",
+    "name": "Piešťany (okres Piešťany)"
+  },
+  {
+    "code": "PO",
+    "name": "Prešov (okres Prešov)"
+  },
+  {
+    "code": "PV",
+    "name": "Prešov (okres Prešov)"
+  },
+  {
+    "code": "PS",
+    "name": "Prešov (okres Prešov)"
+  },
+  {
+    "code": "PP",
+    "name": "Poprad (okres Poprad)"
+  },
+  {
+    "code": "PT",
+    "name": "Poltár (okres Poltár)"
+  },
+  {
+    "code": "PU",
+    "name": "Púchov (okres Púchov)"
+  },
+  {
+    "code": "RA",
+    "name": "Revúca (okres Revúca)"
+  },
+  {
+    "code": "RK",
+    "name": "Ružomberok (okres Ružomberok)"
+  },
+  {
+    "code": "RS",
+    "name": "Rimavská Sobota (okres Rimavská Sobota)"
+  },
+  {
+    "code": "RV",
+    "name": "Rožňava (okres Rožňava)"
+  },
+  {
+    "code": "SA",
+    "name": "Šaľa (okres Šaľa)"
+  },
+  {
+    "code": "SB",
+    "name": "Sabinov (okres Sabinov)"
+  },
+  {
+    "code": "SC",
+    "name": "Senec (okres Senec)"
+  },
+  {
+    "code": "SE",
+    "name": "Senica (okres Senica)"
+  },
+  {
+    "code": "SI",
+    "name": "Skalica (okres Skalica)"
+  },
+  {
+    "code": "SK",
+    "name": "Svidník (okres Svidník)"
+  },
+  {
+    "code": "SL",
+    "name": "Stará Ľubovňa (okres Stará Ľubovňa)"
+  },
+  {
+    "code": "SN",
+    "name": "Spišská Nová Ves (okres Spišská Nová Ves)"
+  },
+  {
+    "code": "SO",
+    "name": "Sobrance (okres Sobrance)"
+  },
+  {
+    "code": "SP",
+    "name": "Stropkov (okres Stropkov)"
+  },
+  {
+    "code": "SV",
+    "name": "Snina (okres Snina)"
+  },
+  {
+    "code": "TT",
+    "name": "Trnava (okres Trnava)"
+  },
+  {
+    "code": "TA",
+    "name": "Trnava (okres Trnava)"
+  },
+  {
+    "code": "TB",
+    "name": "Trnava (okres Trnava)"
+  },
+  {
+    "code": "TN",
+    "name": "Trenčín (okres Trenčín)"
+  },
+  {
+    "code": "TC",
+    "name": "Trenčín (okres Trenčín)"
+  },
+  {
+    "code": "TE",
+    "name": "Trenčín (okres Trenčín)"
+  },
+  {
+    "code": "TO",
+    "name": "Topoľčany (okres Topoľčany)"
+  },
+  {
+    "code": "TR",
+    "name": "Turčianske Teplice (okres Turčianske Teplice)"
+  },
+  {
+    "code": "TS",
+    "name": "Tvrdošín (okres Tvrdošín)"
+  },
+  {
+    "code": "TV",
+    "name": "Trebišov (okres Trebišov)"
+  },
+  {
+    "code": "VK",
+    "name": "Veľký Krtíš (okres Veľký Krtíš)"
+  },
+  {
+    "code": "VT",
+    "name": "Vranov nad Topľou (okres Vranov nad Topľou)"
+  },
+  {
+    "code": "ZA",
+    "name": "Žilina (okres Žilina)"
+  },
+  {
+    "code": "ZI",
+    "name": "Žilina (okres Žilina)"
+  },
+  {
+    "code": "ZL",
+    "name": "Žilina (okres Žilina)"
+  },
+  {
+    "code": "ZC",
+    "name": "Žarnovica (okres Žarnovica)"
+  },
+  {
+    "code": "ZH",
+    "name": "Žiar nad Hronom (okres Žiar nad Hronom)"
+  },
+  {
+    "code": "ZM",
+    "name": "Zlaté Moravce (okres Zlaté Moravce)"
+  },
+  {
+    "code": "ZV",
+    "name": "Zvolen (okres Zvolen)"
+  }
 ]

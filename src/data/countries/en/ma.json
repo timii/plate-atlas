@@ -1,358 +1,358 @@
 [
   {
     "code": "1",
-    "name": "Rabat"
+    "name": "Rabat (الرباط)"
   },
   {
     "code": "2",
-    "name": "Salé-Médina"
+    "name": "Salé-Médina (سلا المدينة)"
   },
   {
     "code": "3",
-    "name": "Sala Al-Jadida"
+    "name": "Sala Al-Jadida (سلا الجديدة)"
   },
   {
     "code": "4",
-    "name": "Skhirat-Temara"
+    "name": "Skhirat-Temara (الصخيرات - تمارة)"
   },
   {
     "code": "5",
-    "name": "Khémisset"
+    "name": "Khémisset (الخميسات)"
   },
   {
     "code": "6",
-    "name": "Casablanca Anfa"
+    "name": "Casablanca Anfa (الدار البيضاء أنفا)"
   },
   {
     "code": "7",
-    "name": "Casablanca Hay Mohammadi-Aïn Sebaâ"
+    "name": "Casablanca Hay Mohammadi-Aïn Sebaâ (الدار البيضاء الحي المحمدي عين السبع)"
   },
   {
     "code": "8",
-    "name": "Casablanca Hay Hassani"
+    "name": "Casablanca Hay Hassani (الدار البيضاء الحي الحسني)"
   },
   {
     "code": "9",
-    "name": "Casablanca Benmsik"
+    "name": "Casablanca Benmsik (الدار البيضاء بنمسيك)"
   },
   {
     "code": "10",
-    "name": "Casablanca Moulay Rachid"
+    "name": "Casablanca Moulay Rachid (الدار البيضاء مولاي رشيد)"
   },
   {
     "code": "11",
-    "name": "Casablanca-Al Fida Derb Sultan"
+    "name": "Casablanca-Al Fida Derb Sultan (الدار البيضاء-الفداء درب السلطان)"
   },
   {
     "code": "12",
-    "name": "Casablanca Mechouar"
+    "name": "Casablanca Mechouar (الدار البيضاء المشور)"
   },
   {
     "code": "13",
-    "name": "Casablanca Sidi Bernoussi-Zenata"
+    "name": "Casablanca Sidi Bernoussi-Zenata (الدار البيضاء سيدي البرنوصي زناتة)"
   },
   {
     "code": "14",
-    "name": "Mohammedia"
+    "name": "Mohammedia (المحمدية)"
   },
   {
     "code": "15",
-    "name": "Fès jdid - dar dbibagh"
+    "name": "Fès jdid - dar dbibagh (فاس الجديد - دار الدبيباغ)"
   },
   {
     "code": "16",
-    "name": "Fès Medina"
+    "name": "Fès Medina (فاس المدينة)"
   },
   {
     "code": "17",
-    "name": "Zouagha - Moulay Yacoub"
+    "name": "Zouagha - Moulay Yacoub (زواغة - مولاي يعقوب)"
   },
   {
     "code": "18",
-    "name": "Sefrou"
+    "name": "Sefrou (صفرو)"
   },
   {
     "code": "19",
-    "name": "Boulmane"
+    "name": "Boulmane (بولمان)"
   },
   {
     "code": "20",
-    "name": "Meknès Menzah"
+    "name": "Meknès Menzah (مكناس منزا)"
   },
   {
     "code": "21",
-    "name": "Meknès Ismailia"
+    "name": "Meknès Ismailia (مكناس الإسماعيلية)"
   },
   {
     "code": "22",
-    "name": "El Hajeb"
+    "name": "El Hajeb (الحاجب)"
   },
   {
     "code": "23",
-    "name": "Ifrane"
+    "name": "Ifrane (إفران)"
   },
   {
     "code": "24",
-    "name": "Khénifra"
+    "name": "Khénifra (خنيفرة)"
   },
   {
     "code": "25",
-    "name": "Errachidia"
+    "name": "Errachidia (الرشيدية)"
   },
   {
     "code": "26",
-    "name": "Marrakech-Menara"
+    "name": "Marrakech-Menara (مراكش المنارة)"
   },
   {
     "code": "27",
-    "name": "Marrakech-Medina"
+    "name": "Marrakech-Medina (مراكش المدينة)"
   },
   {
     "code": "28",
-    "name": "Marrakech-Sidi Youssef Ben-Ali"
+    "name": "Marrakech-Sidi Youssef Ben-Ali (مراكش-سيدي يوسف بن علي)"
   },
   {
     "code": "29",
-    "name": "El-Haouz"
+    "name": "El-Haouz (الحوز)"
   },
   {
     "code": "30",
-    "name": "Chichaoua"
+    "name": "Chichaoua (شيشاوة)"
   },
   {
     "code": "31",
-    "name": "Kelâat Es-Sraghna"
+    "name": "Kelâat Es-Sraghna (قلعة السراغنة)"
   },
   {
     "code": "32",
-    "name": "Essaouira"
+    "name": "Essaouira (الصويرة)"
   },
   {
     "code": "33",
-    "name": "Agadir Ida-Outanane"
+    "name": "Agadir Ida-Outanane (أكادير إيدا أوتانان)"
   },
   {
     "code": "34",
-    "name": "Agadir - Inezgane - Ait Melloul"
+    "name": "Agadir - Inezgane - Ait Melloul (أكادير - إنزكان - آيت ملول)"
   },
   {
     "code": "35",
-    "name": "Chtouka Aït Baha"
+    "name": "Chtouka Aït Baha (اشتوكة آيت باها)"
   },
   {
     "code": "36",
-    "name": "Taroudant"
+    "name": "Taroudant (تارودانت)"
   },
   {
     "code": "37",
-    "name": "Tiznit"
+    "name": "Tiznit (تزنيت)"
   },
   {
     "code": "38",
-    "name": "Ouarzazate"
+    "name": "Ouarzazate (ورزازات)"
   },
   {
     "code": "39",
-    "name": "Zagora"
+    "name": "Zagora (زاكورة)"
   },
   {
     "code": "40",
-    "name": "Tangier - Asilah"
+    "name": "Tangier - Asilah (طنجة – أصيلة)"
   },
   {
     "code": "41",
-    "name": "Tanger Fahs-Bni Makada"
+    "name": "Tanger Fahs-Bni Makada (طنجة الفحص-بني مكادة)"
   },
   {
     "code": "42",
-    "name": "Larache"
+    "name": "Larache (العرائش)"
   },
   {
     "code": "43",
-    "name": "Chefchaouen"
+    "name": "Chefchaouen (شفشاون)"
   },
   {
     "code": "44",
-    "name": "Tétouan"
+    "name": "Tétouan (تطوان)"
   },
   {
     "code": "45",
-    "name": "Al-Hoceima"
+    "name": "Al-Hoceima (الحسيمة)"
   },
   {
     "code": "46",
-    "name": "Taza"
+    "name": "Taza (تازة)"
   },
   {
     "code": "47",
-    "name": "Taounate"
+    "name": "Taounate (تاونات)"
   },
   {
     "code": "48",
-    "name": "Oujda"
+    "name": "Oujda (وجدة)"
   },
   {
     "code": "49",
-    "name": "Berkane"
+    "name": "Berkane (بركان)"
   },
   {
     "code": "50",
-    "name": "Nador"
+    "name": "Nador (الناظور)"
   },
   {
     "code": "51",
-    "name": "Taourirt"
+    "name": "Taourirt (تاوريرت)"
   },
   {
     "code": "52",
-    "name": "Jerada"
+    "name": "Jerada (جرادة)"
   },
   {
     "code": "53",
-    "name": "Figuig"
+    "name": "Figuig (فكيك)"
   },
   {
     "code": "54",
-    "name": "Asfi"
+    "name": "Asfi (آسفي)"
   },
   {
     "code": "55",
-    "name": "El Jadida"
+    "name": "El Jadida (الجديدة)"
   },
   {
     "code": "56",
-    "name": "Settat"
+    "name": "Settat (سطات)"
   },
   {
     "code": "57",
-    "name": "Khouribga"
+    "name": "Khouribga (خريبكة)"
   },
   {
     "code": "58",
-    "name": "Benslimane"
+    "name": "Benslimane (بنسليمان)"
   },
   {
     "code": "59",
-    "name": "Kénitra"
+    "name": "Kénitra (القنيطرة)"
   },
   {
     "code": "60",
-    "name": "Sidi Kacem"
+    "name": "Sidi Kacem (سيدي قاسم)"
   },
   {
     "code": "61",
-    "name": "Béni Mellal"
+    "name": "Béni Mellal (بني ملال)"
   },
   {
     "code": "62",
-    "name": "Azilal"
+    "name": "Azilal (أزيلال)"
   },
   {
     "code": "63",
-    "name": "Smara"
+    "name": "Smara (السمارة)"
   },
   {
     "code": "64",
-    "name": "Guelmim"
+    "name": "Guelmim (كلميم)"
   },
   {
     "code": "65",
-    "name": "Tan-Tan"
+    "name": "Tan-Tan (طانطان)"
   },
   {
     "code": "66",
-    "name": "Tata"
+    "name": "Tata (تاتا)"
   },
   {
     "code": "67",
-    "name": "Assa-Zag"
+    "name": "Assa-Zag (آسا الزاك)"
   },
   {
     "code": "68",
-    "name": "Laâyoune"
+    "name": "Laâyoune (العيون)"
   },
   {
     "code": "69",
-    "name": "Boujdour"
+    "name": "Boujdour (بوجدور)"
   },
   {
     "code": "70",
-    "name": "Oued Ed-Dahab"
+    "name": "Oued Ed-Dahab (وادي الذهب)"
   },
   {
     "code": "71",
-    "name": "Aousserd"
+    "name": "Aousserd (أوسرد)"
   },
   {
     "code": "72",
-    "name": "Casablanca Ain-Chock"
+    "name": "Casablanca Ain-Chock (الدار البيضاء عين الشق)"
   },
   {
     "code": "73",
-    "name": "Casablanca Nouacer"
+    "name": "Casablanca Nouacer (الدار البيضاء النواصر)"
   },
   {
     "code": "74",
-    "name": "Casablanca Mediouna"
+    "name": "Casablanca Mediouna (الدار البيضاء المديونة)"
   },
   {
     "code": "75",
-    "name": "M'diq - Fnideq"
+    "name": "M'diq - Fnideq (المضيق - الفنيدق)"
   },
   {
     "code": "76",
-    "name": "Driouch"
+    "name": "Driouch (الدريوش)"
   },
   {
     "code": "77",
-    "name": "Guercif"
+    "name": "Guercif (جرسيف)"
   },
   {
     "code": "78",
-    "name": "Ouazzane"
+    "name": "Ouazzane (وزان)"
   },
   {
     "code": "79",
-    "name": "Sidi Slimane"
+    "name": "Sidi Slimane (سيدي سليمان)"
   },
   {
     "code": "80",
-    "name": "Midelt"
+    "name": "Midelt (ميدلت)"
   },
   {
     "code": "81",
-    "name": "Berrechid"
+    "name": "Berrechid (برشيد)"
   },
   {
     "code": "82",
-    "name": "Sidi Bennour"
+    "name": "Sidi Bennour (سيدي بنور)"
   },
   {
     "code": "83",
-    "name": "Ben Guerir"
+    "name": "Ben Guerir (بن جرير)"
   },
   {
     "code": "84",
-    "name": "Fquih Ben Salah"
+    "name": "Fquih Ben Salah (الفقيه بن صلاح)"
   },
   {
     "code": "85",
-    "name": "Youssoufia"
+    "name": "Youssoufia (اليوسفية)"
   },
   {
     "code": "86",
-    "name": "Tinghir"
+    "name": "Tinghir (تنغير)"
   },
   {
     "code": "87",
-    "name": "Sidi Ifni"
+    "name": "Sidi Ifni (سيدي افني)"
   },
   {
     "code": "88",
-    "name": "Tarfaya"
+    "name": "Tarfaya (طرفاية)"
   },
   {
     "code": "89",
-    "name": "Lagouira"
+    "name": "Lagouira (الكويرة)"
   }
 ]

@@ -1,114 +1,114 @@
 [
   {
     "code": "\u0410",
-    "name": "Burgas Province"
+    "name": "Burgas Province (Бургас)"
   },
   {
     "code": "\u0412",
-    "name": "Varna Province"
+    "name": "Varna Province (Варна)"
   },
   {
     "code": "\u0412\u041d",
-    "name": "Vidin Province"
+    "name": "Vidin Province (Видин)"
   },
   {
     "code": "\u0412\u0420",
-    "name": "Vratsa Province"
+    "name": "Vratsa Province (Враца)"
   },
   {
     "code": "\u0412\u0422",
-    "name": "Veliko Tarnovo Province"
+    "name": "Veliko Tarnovo Province (Велико Търново)"
   },
   {
     "code": "\u0415",
-    "name": "Blagoevgrad Province"
+    "name": "Blagoevgrad Province (Благоевград)"
   },
   {
     "code": "\u0415\u0412",
-    "name": "Gabrovo Province"
+    "name": "Gabrovo Province (Габрово)"
   },
   {
     "code": "\u0415\u041d",
-    "name": "Pleven Province"
+    "name": "Pleven Province (Плевен)"
   },
   {
     "code": "\u041a",
-    "name": "Kardzhali Province"
+    "name": "Kardzhali Province (Кърджали)"
   },
   {
     "code": "\u041a\u041d",
-    "name": "Kyustendil Province"
+    "name": "Kyustendil Province (Кюстендил)"
   },
   {
     "code": "\u041c",
-    "name": "Montana Province"
+    "name": "Montana Province (Монтана)"
   },
   {
     "code": "\u041d",
-    "name": "Shumen Province"
+    "name": "Shumen Province (Шумен)"
   },
   {
     "code": "\u041e\u0412",
-    "name": "Lovech Province"
+    "name": "Lovech Province (Ловеч)"
   },
   {
     "code": "\u0420",
-    "name": "Ruse Province"
+    "name": "Ruse Province (Русе)"
   },
   {
     "code": "\u0420\u0410",
-    "name": "Pazardzhik Province"
+    "name": "Pazardzhik Province (Пазарджик)"
   },
   {
     "code": "\u0420\u0412",
-    "name": "Plovdiv Province"
+    "name": "Plovdiv Province (Пловдив)"
   },
   {
     "code": "\u0420\u041a",
-    "name": "Pernik Province"
+    "name": "Pernik Province (Перник)"
   },
   {
     "code": "\u0420\u0420",
-    "name": "Razgrad Province"
+    "name": "Razgrad Province (Разград)"
   },
   {
-    "code": "\u0421, \u0421\u0410, \u0421B",
-    "name": "Sofia (Capital)"
+    "code": "\u0421, \u0421\u0410, \u0421\u0412",
+    "name": "Sofia (Capital, Столична община)"
   },
   {
     "code": "\u0421\u041d",
-    "name": "Sliven Province"
+    "name": "Sliven Province (Сливен)"
   },
   {
     "code": "\u0421\u041c",
-    "name": "Smolyan Province"
+    "name": "Smolyan Province (Смолян)"
   },
   {
     "code": "\u0421\u041e",
-    "name": "Sofia Province"
+    "name": "Sofia Province (София област)"
   },
   {
     "code": "\u0421\u0421",
-    "name": "Silistra Province"
+    "name": "Silistra Province (Силистра)"
   },
   {
     "code": "\u0421\u0422",
-    "name": "Stara Zagora Province"
+    "name": "Stara Zagora Province (Стара Загора)"
   },
   {
     "code": "\u0422",
-    "name": "Targovishte Province"
+    "name": "Targovishte Province (Търговище)"
   },
   {
     "code": "\u0422\u0425",
-    "name": "Dobrich Province"
+    "name": "Dobrich Province (Добрич)"
   },
   {
     "code": "Y",
-    "name": "Yambol Province"
+    "name": "Yambol Province (Ямбол)"
   },
   {
     "code": "\u0425",
-    "name": "Haskovo Province"
+    "name": "Haskovo Province (Хасково)"
   }
 ]

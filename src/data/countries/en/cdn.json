@@ -1,54 +1,54 @@
 [
   {
     "code": "ALBERTA",
-    "name": "Alberta"
+    "name": "Alberta (Province de l'Alberta)"
   },
   {
     "code": "BRITISH COLUMBIA",
-    "name": "British Columbia"
+    "name": "British Columbia (Colombie-Britannique)"
   },
   {
     "code": "MANITOBA",
-    "name": "Manitoba"
+    "name": "Manitoba (Province du Manitoba)"
   },
   {
     "code": "NEW BRUNSWICK",
-    "name": "New Brunswick"
+    "name": "New Brunswick (Nouveau-Brunswick)"
   },
   {
     "code": "NEWFOUNDLAND AND LABRADOR",
-    "name": "Newfoundland and Labrador"
+    "name": "Newfoundland and Labrador (Terre-Neuve-et-Labrador)"
   },
   {
     "code": "NOVA SCOTIA",
-    "name": "Nova Scotia"
+    "name": "Nova Scotia (Nouvelle-Écosse)"
   },
   {
     "code": "NORTHWEST TERRITORIES",
-    "name": "Northwest Territories"
+    "name": "Northwest Territories (Territoires du Nord-Ouest)"
   },
   {
     "code": "NUNAVUT",
-    "name": "Nunavut"
+    "name": "Nunavut (Territoire du Nunavut)"
   },
   {
     "code": "ONTARIO",
-    "name": "Ontario"
+    "name": "Ontario (Province de l'Ontario)"
   },
   {
     "code": "PRINCE EDWARD ISLAND",
-    "name": "Prince Edward Island"
+    "name": "Prince Edward Island (Île-du-Prince-Édouard)"
   },
   {
     "code": "QUEBEC",
-    "name": "Quebec"
+    "name": "Quebec (Québec)"
   },
   {
     "code": "SASKATCHEWAN",
-    "name": "Saskatchewan"
+    "name": "Saskatchewan (Province de la Saskatchewan)"
   },
   {
     "code": "YUKON",
-    "name": "Yukon"
+    "name": "Yukon (Territoire du Yukon)"
   }
 ]

@@ -1,326 +1,326 @@
 [
   {
     "code": "01",
-    "name": "Adana"
+    "name": "Adana (Adana ili)"
   },
   {
     "code": "02",
-    "name": "Adıyaman"
+    "name": "Adıyaman (Adıyaman ili)"
   },
   {
     "code": "03",
-    "name": "Afyonkarahisar"
+    "name": "Afyonkarahisar (Afyonkarahisar ili)"
   },
   {
     "code": "04",
-    "name": "Ağrı"
+    "name": "Ağrı (Ağrı ili)"
   },
   {
     "code": "68",
-    "name": "Aksaray"
+    "name": "Aksaray (Aksaray ili)"
   },
   {
     "code": "05",
-    "name": "Amasya"
+    "name": "Amasya (Amasya ili)"
   },
   {
     "code": "06",
-    "name": "Ankara"
+    "name": "Ankara (Ankara ili)"
   },
   {
     "code": "07",
-    "name": "Antalya"
+    "name": "Antalya (Antalya ili)"
   },
   {
     "code": "75",
-    "name": "Ardahan"
+    "name": "Ardahan (Ardahan ili)"
   },
   {
     "code": "08",
-    "name": "Artvin"
+    "name": "Artvin (Artvin ili)"
   },
   {
     "code": "09",
-    "name": "Aydın"
+    "name": "Aydın (Aydın ili)"
   },
   {
     "code": "10",
-    "name": "Balıkesir"
+    "name": "Balıkesir (Balıkesir ili)"
   },
   {
     "code": "74",
-    "name": "Bartın"
+    "name": "Bartın (Bartın ili)"
   },
   {
     "code": "72",
-    "name": "Batman"
+    "name": "Batman (Batman ili)"
   },
   {
     "code": "69",
-    "name": "Bayburt"
+    "name": "Bayburt (Bayburt ili)"
   },
   {
     "code": "11",
-    "name": "Bilecik"
+    "name": "Bilecik (Bilecik ili)"
   },
   {
     "code": "12",
-    "name": "Bingöl"
+    "name": "Bingöl (Bingöl ili)"
   },
   {
     "code": "13",
-    "name": "Bitlis"
+    "name": "Bitlis (Bitlis ili)"
   },
   {
     "code": "14",
-    "name": "Bolu"
+    "name": "Bolu (Bolu ili)"
   },
   {
     "code": "15",
-    "name": "Burdur"
+    "name": "Burdur (Burdur ili)"
   },
   {
     "code": "16",
-    "name": "Bursa"
+    "name": "Bursa (Bursa ili)"
   },
   {
     "code": "17",
-    "name": "Çanakkale"
+    "name": "Çanakkale (Çanakkale ili)"
   },
   {
     "code": "18",
-    "name": "Çankırı"
+    "name": "Çankırı (Çankırı ili)"
   },
   {
     "code": "19",
-    "name": "Çorum"
+    "name": "Çorum (Çorum ili)"
   },
   {
     "code": "20",
-    "name": "Denizli"
+    "name": "Denizli (Denizli ili)"
   },
   {
     "code": "21",
-    "name": "Diyarbakır"
+    "name": "Diyarbakır (Diyarbakır ili)"
   },
   {
     "code": "81",
-    "name": "Düzce"
+    "name": "Düzce (Düzce ili)"
   },
   {
     "code": "22",
-    "name": "Edirne"
+    "name": "Edirne (Edirne ili)"
   },
   {
     "code": "23",
-    "name": "Elazığ"
+    "name": "Elazığ (Elazığ ili)"
   },
   {
     "code": "24",
-    "name": "Erzincan"
+    "name": "Erzincan (Erzincan ili)"
   },
   {
     "code": "25",
-    "name": "Erzurum"
+    "name": "Erzurum (Erzurum ili)"
   },
   {
     "code": "26",
-    "name": "Eskişehir"
+    "name": "Eskişehir (Eskişehir ili)"
   },
   {
     "code": "27",
-    "name": "Gaziantep"
+    "name": "Gaziantep (Gaziantep ili)"
   },
   {
     "code": "28",
-    "name": "Giresun"
+    "name": "Giresun (Giresun ili)"
   },
   {
     "code": "29",
-    "name": "Gümüşhane"
+    "name": "Gümüşhane (Gümüşhane ili)"
   },
   {
     "code": "30",
-    "name": "Hakkari"
+    "name": "Hakkari (Hakkari ili)"
   },
   {
     "code": "31",
-    "name": "Hatay"
+    "name": "Hatay (Hatay ili)"
   },
   {
     "code": "76",
-    "name": "Iğdır"
+    "name": "Iğdır (Iğdır ili)"
   },
   {
     "code": "32",
-    "name": "Isparta"
+    "name": "Isparta (Isparta ili)"
   },
   {
     "code": "34",
-    "name": "İstanbul"
+    "name": "İstanbul (İstanbul ili)"
   },
   {
     "code": "35",
-    "name": "İzmir"
+    "name": "İzmir (İzmir ili)"
   },
   {
     "code": "46",
-    "name": "Kahramanmaraş"
+    "name": "Kahramanmaraş (Kahramanmaraş ili)"
   },
   {
     "code": "78",
-    "name": "Karabük"
+    "name": "Karabük (Karabük ili)"
   },
   {
     "code": "70",
-    "name": "Karaman"
+    "name": "Karaman (Karaman ili)"
   },
   {
     "code": "36",
-    "name": "Kars"
+    "name": "Kars (Kars ili)"
   },
   {
     "code": "37",
-    "name": "Kastamonu"
+    "name": "Kastamonu (Kastamonu ili)"
   },
   {
     "code": "38",
-    "name": "Kayseri"
+    "name": "Kayseri (Kayseri ili)"
   },
   {
     "code": "71",
-    "name": "Kırıkkale"
+    "name": "Kırıkkale (Kırıkkale ili)"
   },
   {
     "code": "39",
-    "name": "Kırklareli"
+    "name": "Kırklareli (Kırklareli ili)"
   },
   {
     "code": "40",
-    "name": "Kırşehir"
+    "name": "Kırşehir (Kırşehir ili)"
   },
   {
     "code": "79",
-    "name": "Kilis"
+    "name": "Kilis (Kilis ili)"
   },
   {
     "code": "41",
-    "name": "Kocaeli"
+    "name": "Kocaeli (Kocaeli ili)"
   },
   {
     "code": "42",
-    "name": "Konya"
+    "name": "Konya (Konya ili)"
   },
   {
     "code": "43",
-    "name": "Kütahya"
+    "name": "Kütahya (Kütahya ili)"
   },
   {
     "code": "44",
-    "name": "Malatya"
+    "name": "Malatya (Malatya ili)"
   },
   {
     "code": "45",
-    "name": "Manisa"
+    "name": "Manisa (Manisa ili)"
   },
   {
     "code": "47",
-    "name": "Mardin"
+    "name": "Mardin (Mardin ili)"
   },
   {
     "code": "33",
-    "name": "Mersin"
+    "name": "Mersin (Mersin ili)"
   },
   {
     "code": "48",
-    "name": "Muğla"
+    "name": "Muğla (Muğla ili)"
   },
   {
     "code": "49",
-    "name": "Muş"
+    "name": "Muş (Muş ili)"
   },
   {
     "code": "50",
-    "name": "Nevşehir"
+    "name": "Nevşehir (Nevşehir ili)"
   },
   {
     "code": "51",
-    "name": "Niğde"
+    "name": "Niğde (Niğde ili)"
   },
   {
     "code": "52",
-    "name": "Ordu"
+    "name": "Ordu (Ordu ili)"
   },
   {
     "code": "80",
-    "name": "Osmaniye"
+    "name": "Osmaniye (Osmaniye ili)"
   },
   {
     "code": "53",
-    "name": "Rize"
+    "name": "Rize (Rize ili)"
   },
   {
     "code": "54",
-    "name": "Sakarya"
+    "name": "Sakarya (Sakarya ili)"
   },
   {
     "code": "55",
-    "name": "Samsun"
+    "name": "Samsun (Samsun ili)"
   },
   {
     "code": "56",
-    "name": "Siirt"
+    "name": "Siirt (Siirt ili)"
   },
   {
     "code": "57",
-    "name": "Sinop"
+    "name": "Sinop (Sinop ili)"
   },
   {
     "code": "58",
-    "name": "Sivas"
+    "name": "Sivas (Sivas ili)"
   },
   {
     "code": "63",
-    "name": "Şanlıurfa"
+    "name": "Şanlıurfa (Şanlıurfa ili)"
   },
   {
     "code": "73",
-    "name": "Şırnak"
+    "name": "Şırnak (Şırnak ili)"
   },
   {
     "code": "59",
-    "name": "Tekirdağ"
+    "name": "Tekirdağ (Tekirdağ ili)"
   },
   {
     "code": "60",
-    "name": "Tokat"
+    "name": "Tokat (Tokat ili)"
   },
   {
     "code": "61",
-    "name": "Trabzon"
+    "name": "Trabzon (Trabzon ili)"
   },
   {
     "code": "62",
-    "name": "Tunceli"
+    "name": "Tunceli (Tunceli ili)"
   },
   {
     "code": "64",
-    "name": "Uşak"
+    "name": "Uşak (Uşak ili)"
   },
   {
     "code": "65",
-    "name": "Van"
+    "name": "Van (Van ili)"
   },
   {
     "code": "77",
-    "name": "Yalova"
+    "name": "Yalova (Yalova ili)"
   },
   {
     "code": "66",
-    "name": "Yozgat"
+    "name": "Yozgat (Yozgat ili)"
   },
   {
     "code": "67",
-    "name": "Zonguldak"
+    "name": "Zonguldak (Zonguldak ili)"
   }
 ]

@@ -1,146 +1,146 @@
 [
   {
     "code": "AN",
-    "name": "Andaman and Nicobar Islands"
+    "name": "Andaman and Nicobar Islands (अंडमान और निकोबार द्वीप समूह)"
   },
   {
     "code": "AP",
-    "name": "Andhra Pradesh"
+    "name": "Andhra Pradesh (आंध्र प्रदेश)"
   },
   {
     "code": "AR",
-    "name": "Arunachal Pradesh"
+    "name": "Arunachal Pradesh (अरुणाचल प्रदेश)"
   },
   {
     "code": "AS",
-    "name": "Assam"
+    "name": "Assam (असम)"
   },
   {
     "code": "BR",
-    "name": "Bihar"
+    "name": "Bihar (बिहार)"
   },
   {
     "code": "CG",
-    "name": "Chhattisgarh"
+    "name": "Chhattisgarh (छत्तीसगढ़)"
   },
   {
     "code": "CH",
-    "name": "Chandigarh"
+    "name": "Chandigarh (चंडीगढ़)"
   },
   {
     "code": "DD",
-    "name": "Dadra and Nagar Haveli and Daman and Diu"
+    "name": "Dadra and Nagar Haveli and Daman and Diu (दादरा और नगर हवेली और दमन और दीव)"
   },
   {
     "code": "DL",
-    "name": "Delhi"
+    "name": "Delhi (दिल्ली)"
   },
   {
     "code": "GA",
-    "name": "Goa"
+    "name": "Goa (गोवा)"
   },
   {
     "code": "GJ",
-    "name": "Gujarat"
+    "name": "Gujarat (गुजरात)"
   },
   {
     "code": "HP",
-    "name": "Himachal Pradesh"
+    "name": "Himachal Pradesh (हिमाचल प्रदेश)"
   },
   {
     "code": "HR",
-    "name": "Haryana"
+    "name": "Haryana (हरियाणा)"
   },
   {
     "code": "JH",
-    "name": "Jharkhand"
+    "name": "Jharkhand (झारखंड)"
   },
   {
     "code": "JK",
-    "name": "Jammu and Kashmir"
+    "name": "Jammu and Kashmir (जम्मू और कश्मीर)"
   },
   {
     "code": "KA",
-    "name": "Karnataka"
+    "name": "Karnataka (कर्नाटक)"
   },
   {
     "code": "KL",
-    "name": "Kerala"
+    "name": "Kerala (केरल)"
   },
   {
     "code": "LA",
-    "name": "Ladakh"
+    "name": "Ladakh (लद्दाख)"
   },
   {
     "code": "LD",
-    "name": "Lakshadweep"
+    "name": "Lakshadweep (लक्षद्वीप)"
   },
   {
     "code": "MH",
-    "name": "Maharashtra"
+    "name": "Maharashtra (महाराष्ट्र)"
   },
   {
     "code": "ML",
-    "name": "Meghalaya"
+    "name": "Meghalaya (मेघालय)"
   },
   {
     "code": "MN",
-    "name": "Manipur"
+    "name": "Manipur (मणिपुर)"
   },
   {
     "code": "MP",
-    "name": "Madhya Pradesh"
+    "name": "Madhya Pradesh (मध्य प्रदेश)"
   },
   {
     "code": "MZ",
-    "name": "Mizoram"
+    "name": "Mizoram (मिजोरम)"
   },
   {
     "code": "NL",
-    "name": "Nagaland"
+    "name": "Nagaland (नागालैंड)"
   },
   {
     "code": "OD",
-    "name": "Odisha"
+    "name": "Odisha (ओडिशा)"
   },
   {
     "code": "PB",
-    "name": "Punjab"
+    "name": "Punjab (पंजाब)"
   },
   {
     "code": "PY",
-    "name": "Puducherry"
+    "name": "Puducherry (पुदुचेरी)"
   },
   {
     "code": "RJ",
-    "name": "Rajasthan"
+    "name": "Rajasthan (राजस्थान)"
   },
   {
     "code": "SK",
-    "name": "Sikkim"
+    "name": "Sikkim (सिक्किम)"
   },
   {
     "code": "TG",
-    "name": "Telangana"
+    "name": "Telangana (तेलंगाना)"
   },
   {
     "code": "TN",
-    "name": "Tamil Nadu"
+    "name": "Tamil Nadu (तमिलनाडु)"
   },
   {
     "code": "TR",
-    "name": "Tripura"
+    "name": "Tripura (त्रिपुरा)"
   },
   {
     "code": "UK",
-    "name": "Uttarakhand"
+    "name": "Uttarakhand (उत्तराखंड)"
   },
   {
     "code": "UP",
-    "name": "Uttar Pradesh"
+    "name": "Uttar Pradesh (उत्तर प्रदेश)"
   },
   {
     "code": "WB",
-    "name": "West Bengal"
+    "name": "West Bengal (पश्चिम बंगाल)"
   }
 ]

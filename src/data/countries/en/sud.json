@@ -1,74 +1,74 @@
 [
   {
     "code": "KH",
-    "name": "Khartoum State"
+    "name": "Khartoum State (الخرطوم)"
   },
   {
     "code": "KN",
-    "name": "North Kordofan State"
+    "name": "North Kordofan State (شمال كردفان)"
   },
   {
     "code": "NO",
-    "name": "Northern State"
+    "name": "Northern State (الشمالية)"
   },
   {
     "code": "KA",
-    "name": "Kassala State"
+    "name": "Kassala State (كسلا)"
   },
   {
     "code": "NB",
-    "name": "Blue Nile State"
+    "name": "Blue Nile State (النيل الأزرق)"
   },
   {
     "code": "DN",
-    "name": "North Darfur State"
+    "name": "North Darfur State (شمال دارفور)"
   },
   {
     "code": "DS",
-    "name": "South Darfur State"
+    "name": "South Darfur State (جنوب دارفور)"
   },
   {
     "code": "KS",
-    "name": "South Kordofan State"
+    "name": "South Kordofan State (جنوب كردفان)"
   },
   {
     "code": "GZ",
-    "name": "Gezira State"
+    "name": "Gezira State (الجزيرة)"
   },
   {
     "code": "NW",
-    "name": "White Nile State"
+    "name": "White Nile State (النيل الأبيض)"
   },
   {
     "code": "NR",
-    "name": "River Nile State"
+    "name": "River Nile State (نهر النيل)"
   },
   {
     "code": "RS",
-    "name": "Red Sea State"
+    "name": "Red Sea State (البحر الأحمر)"
   },
   {
     "code": "GD",
-    "name": "Al Qadarif State"
+    "name": "Al Qadarif State (القضارف)"
   },
   {
     "code": "SI",
-    "name": "Sennar State"
+    "name": "Sennar State (سنار)"
   },
   {
     "code": "DW",
-    "name": "West Darfur State"
+    "name": "West Darfur State (غرب دارفور)"
   },
   {
     "code": "DC",
-    "name": "Central Darfur State"
+    "name": "Central Darfur State (وسط دارفور)"
   },
   {
     "code": "DE",
-    "name": "East Darfur State"
+    "name": "East Darfur State (شرق دارفور)"
   },
   {
     "code": "GK",
-    "name": "West Kordofan State"
+    "name": "West Kordofan State (غرب كردفان)"
   }
 ]

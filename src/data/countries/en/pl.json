@@ -1,79 +1,79 @@
 [
   {
     "code": "D",
-    "name": "Lower Silesian"
+    "name": "Lower Silesian (Dolnośląskie)"
   },
   {
     "code": "V",
-    "name": "Lower Silesian (supplementary)"
+    "name": "Lower Silesian (Dolnośląskie, supplementary)"
   },
   {
     "code": "C",
-    "name": "Kuyavia-Pomerania"
+    "name": "Kuyavia-Pomerania (Kujawsko-Pomorskie)"
   },
   {
     "code": "E",
-    "name": "Łódź"
+    "name": "Łódź (Łódzkie)"
   },
   {
     "code": "L",
-    "name": "Lublin"
+    "name": "Lublin (Lubelskie)"
   },
   {
     "code": "F",
-    "name": "Lubusz"
+    "name": "Lubusz (Lubuskie)"
   },
   {
     "code": "K",
-    "name": "Lesser Poland"
+    "name": "Lesser Poland (Małopolskie)"
   },
   {
     "code": "J",
-    "name": "Lesser Poland (supplementary)"
+    "name": "Lesser Poland (Małopolskie, supplementary)"
   },
   {
     "code": "W",
-    "name": "Masovian"
+    "name": "Masovian (Mazowieckie)"
   },
   {
     "code": "A",
-    "name": "Masovian (supplementary)"
+    "name": "Masovian (Mazowieckie, supplementary)"
   },
   {
     "code": "O",
-    "name": "Opole"
+    "name": "Opole (Opolskie)"
   },
   {
     "code": "R",
-    "name": "Subcarpathian"
+    "name": "Subcarpathian (Podkarpackie)"
   },
   {
     "code": "Y",
-    "name": "Subcarpathian (supplementary)"
+    "name": "Subcarpathian (Podkarpackie, supplementary)"
   },
   {
     "code": "P",
-    "name": "Greater Poland"
+    "name": "Greater Poland (Wielkopolskie)"
   },
   {
     "code": "M",
-    "name": "Greater Poland (supplementary, currently unused)"
+    "name": "Greater Poland (Wielkopolskie, supplementary, currently unused)"
   },
   {
     "code": "G",
-    "name": "Pomeranian"
+    "name": "Pomeranian (Pomorskie)"
   },
   {
     "code": "X",
-    "name": "Pomeranian (supplementary)"
+    "name": "Pomeranian (Pomorskie, supplementary)"
   },
   {
     "code": "S",
-    "name": "Silesian"
+    "name": "Silesian (Śląskie)"
   },
   {
     "code": "I",
-    "name": "Silesian (supplementary)"
+    "name": "Silesian (Śląskie, supplementary)"
   },
   {
     "code": "T",
@@ -81,7 +81,7 @@
   },
   {
     "code": "N",
-    "name": "Warmian-Masuria"
+    "name": "Warmian-Masuria (Warmińsko-Mazurskie)"
   },
   {
     "code": "B",
@@ -89,7 +89,7 @@
   },
   {
     "code": "Z",
-    "name": "West Pomeranian"
+    "name": "West Pomeranian (Zachodniopomorskie)"
   },
   {
     "code": "BAU",
@@ -109,11 +109,11 @@
   },
   {
     "code": "BI",
-    "name": "Bialystok town"
+    "name": "Bialystok town (Białystok)"
   },
   {
     "code": "BIA",
-    "name": "Bialystok district"
+    "name": "Bialystok district (Białystok)"
   },
   {
     "code": "BKL",
@@ -121,19 +121,19 @@
   },
   {
     "code": "BL",
-    "name": "Lomza town"
+    "name": "Lomza town (Łomża)"
   },
   {
     "code": "BLM",
-    "name": "Lomza district"
+    "name": "Lomza district (Łomża)"
   },
   {
     "code": "BMN",
-    "name": "Monki"
+    "name": "Monki (Mońki)"
   },
   {
     "code": "BS",
-    "name": "Suwalki town"
+    "name": "Suwalki town (Suwałki)"
   },
   {
     "code": "BSE",
@@ -145,11 +145,11 @@
   },
   {
     "code": "BSK",
-    "name": "Sokólka"
+    "name": "Sokólka (Sokółka)"
   },
   {
     "code": "BSU",
-    "name": "Suwalki district"
+    "name": "Suwalki district (Suwałki)"
   },
   {
     "code": "BWM",
@@ -165,7 +165,7 @@
   },
   {
     "code": "CB",
-    "name": "Bycgoszcz town"
+    "name": "Bycgoszcz town (Bydgoszcz)"
   },
   {
     "code": "CBR",
@@ -177,23 +177,23 @@
   },
   {
     "code": "CCH",
-    "name": "Chelmno"
+    "name": "Chelmno (Chełmno)"
   },
   {
     "code": "CG",
-    "name": "Grudziadz town"
+    "name": "Grudziadz town (Grudziądz)"
   },
   {
     "code": "CGD",
-    "name": "Golub-Dobrzyn"
+    "name": "Golub-Dobrzyn (Golub-Dobrzyń)"
   },
   {
     "code": "CGR",
-    "name": "Grudziadz district"
+    "name": "Grudziadz district (Grudziądz)"
   },
   {
     "code": "CIN",
-    "name": "Inowroclaw"
+    "name": "Inowroclaw (Inowrocław)"
   },
   {
     "code": "CLI",
@@ -205,7 +205,7 @@
   },
   {
     "code": "CNA",
-    "name": "Naklo n. Notecia"
+    "name": "Naklo n. Notecia (Nakło nad Notecią)"
   },
   {
     "code": "CRA",
@@ -217,19 +217,19 @@
   },
   {
     "code": "CSE",
-    "name": "Sepólno Krajenskie"
+    "name": "Sepólno Krajenskie (Sępólno Krajeńskie)"
   },
   {
     "code": "CSW",
-    "name": "Swiecie"
+    "name": "Swiecie (Świecie)"
   },
   {
     "code": "CT",
-    "name": "Torun town"
+    "name": "Torun town (Toruń)"
   },
   {
     "code": "CTR",
-    "name": "Torun district"
+    "name": "Torun district (Toruń)"
   },
   {
     "code": "CTU",
@@ -237,39 +237,39 @@
   },
   {
     "code": "CW",
-    "name": "Wloclawek town"
+    "name": "Wloclawek town (Włocławek)"
   },
   {
     "code": "CWA",
-    "name": "Wabrzezno"
+    "name": "Wabrzezno (Wąbrzeźno)"
   },
   {
     "code": "CWL",
-    "name": "Wloclawek district"
+    "name": "Wloclawek district (Włocławek)"
   },
   {
     "code": "CZN",
-    "name": "Znin"
+    "name": "Znin (Żnin)"
   },
   {
     "code": "DB",
-    "name": "Walbrzych town"
+    "name": "Walbrzych town (Wałbrzych)"
   },
   {
     "code": "DBA",
-    "name": "Walbrzych district"
+    "name": "Walbrzych district (Wałbrzych)"
   },
   {
     "code": "DBL",
-    "name": "Boleslawiec"
+    "name": "Boleslawiec (Bolesławiec)"
   },
   {
     "code": "DDZ",
-    "name": "Dzierzoniów"
+    "name": "Dzierzoniów (Dzierżoniów)"
   },
   {
     "code": "DGL",
-    "name": "Glogów"
+    "name": "Glogów (Głogów)"
   },
   {
     "code": "DGR",
@@ -293,7 +293,7 @@
   },
   {
     "code": "DKL",
-    "name": "Klodzko"
+    "name": "Klodzko (Kłodzko)"
   },
   {
     "code": "DL",
@@ -301,7 +301,7 @@
   },
   {
     "code": "DLB",
-    "name": "Luban"
+    "name": "Luban (Lubań)"
   },
   {
     "code": "DLE",
@@ -313,7 +313,7 @@
   },
   {
     "code": "DLW",
-    "name": "Lwówek"
+    "name": "Lwówek (Lwówek Śląski)"
   },
   {
     "code": "DMI",
@@ -321,11 +321,11 @@
   },
   {
     "code": "DOA",
-    "name": "Olawa"
+    "name": "Olawa (Oława)"
   },
   {
     "code": "DOL",
-    "name": "Olesnica"
+    "name": "Olesnica (Oleśnica)"
   },
   {
     "code": "DPL",
@@ -333,7 +333,7 @@
   },
   {
     "code": "DSR",
-    "name": "Sroda Slaska"
+    "name": "Sroda Slaska (Środa Śląska)"
   },
   {
     "code": "DST",
@@ -341,7 +341,7 @@
   },
   {
     "code": "DSW",
-    "name": "Swidnica"
+    "name": "Swidnica (Świdnica)"
   },
   {
     "code": "DTR",
@@ -349,19 +349,19 @@
   },
   {
     "code": "DW",
-    "name": "Wroclaw town"
+    "name": "Wroclaw town (Wrocław)"
   },
   {
     "code": "DWL",
-    "name": "Wolów"
+    "name": "Wolów (Wołów)"
   },
   {
     "code": "DWR",
-    "name": "Wroclaw district"
+    "name": "Wroclaw district (Wrocław)"
   },
   {
     "code": "DZA",
-    "name": "Zabkowice"
+    "name": "Zabkowice (Ząbkowice Śląskie)"
   },
   {
     "code": "DZG",
@@ -369,11 +369,11 @@
   },
   {
     "code": "DZL",
-    "name": "Zlotoryja"
+    "name": "Zlotoryja (Złotoryja)"
   },
   {
     "code": "EBE",
-    "name": "Belchatów"
+    "name": "Belchatów (Bełchatów)"
   },
   {
     "code": "EBR",
@@ -385,23 +385,23 @@
   },
   {
     "code": "EL",
-    "name": "Lódz town"
+    "name": "Lódz town (Łódź)"
   },
   {
     "code": "ELA",
-    "name": "Lask"
+    "name": "Lask (LASK)"
   },
   {
     "code": "ELC",
-    "name": "Lowicz"
+    "name": "Lowicz (Łowicz)"
   },
   {
     "code": "ELE",
-    "name": "Leczyca"
+    "name": "Leczyca (Łęczyca)"
   },
   {
     "code": "ELW",
-    "name": "Lódz district"
+    "name": "Lódz district (Łódź)"
   },
   {
     "code": "EOP",
@@ -409,7 +409,7 @@
   },
   {
     "code": "EP",
-    "name": "Piotrków Tryb. town"
+    "name": "Piotrków Tryb. town (Piotrków Trybunalski)"
   },
   {
     "code": "EPA",
@@ -417,15 +417,15 @@
   },
   {
     "code": "EPD",
-    "name": "Poddebice"
+    "name": "Poddebice (Poddębice)"
   },
   {
     "code": "EPI",
-    "name": "Piotrków Tryb. district"
+    "name": "Piotrków Tryb. district (Piotrków Trybunalski)"
   },
   {
     "code": "EPJ",
-    "name": "Pajeczno"
+    "name": "Pajeczno (Pajęczno)"
   },
   {
     "code": "ERA",
@@ -457,11 +457,11 @@
   },
   {
     "code": "EWI",
-    "name": "Wielun"
+    "name": "Wielun (Wieluń)"
   },
   {
     "code": "EZD",
-    "name": "Zdunska Wola"
+    "name": "Zdunska Wola (Zduńska Wola)"
   },
   {
     "code": "EZG",
@@ -477,11 +477,11 @@
   },
   {
     "code": "FKR",
-    "name": "Krosno Odrzanskie"
+    "name": "Krosno Odrzanskie (Krosno Odrzańskie)"
   },
   {
     "code": "FMI",
-    "name": "Miedzyrzecz"
+    "name": "Miedzyrzecz (Międzyrzecz)"
   },
   {
     "code": "FNW",
@@ -489,19 +489,19 @@
   },
   {
     "code": "FSD",
-    "name": "Strzelce Krajenskie"
+    "name": "Strzelce Krajenskie (Strzelce Krajeńskie)"
   },
   {
     "code": "FSL",
-    "name": "Slubice"
+    "name": "Slubice (Słubice)"
   },
   {
     "code": "FSU",
-    "name": "Suleczyn"
+    "name": "Suleczyn (Sulęczyno)"
   },
   {
     "code": "FSW",
-    "name": "Swiebodzin"
+    "name": "Swiebodzin (Świebodzin)"
   },
   {
     "code": "FZ",
@@ -509,15 +509,15 @@
   },
   {
     "code": "FZA",
-    "name": "Zary"
+    "name": "Zary (Żary)"
   },
   {
     "code": "FZG",
-    "name": "Zagan"
+    "name": "Zagan (Żagań)"
   },
   {
     "code": "FZI",
-    "name": "Zielona Góra powiat"
+    "name": "Zielona Góra powiat (Zielona Góra)"
   },
   {
     "code": "GA",
@@ -533,15 +533,15 @@
   },
   {
     "code": "GCZ",
-    "name": "Czluchów"
+    "name": "Czluchów (Człuchów)"
   },
   {
     "code": "GD",
-    "name": "Gdansk town"
+    "name": "Gdansk town (Gdańsk)"
   },
   {
     "code": "GDA",
-    "name": "Pruszcz Gdanski"
+    "name": "Pruszcz Gdanski (Pruszcz Gdański)"
   },
   {
     "code": "GKA",
@@ -549,7 +549,7 @@
   },
   {
     "code": "GKS",
-    "name": "Koscierzyna"
+    "name": "Koscierzyna (Kościerzyna)"
   },
   {
     "code": "GKW",
@@ -557,7 +557,7 @@
   },
   {
     "code": "GLE",
-    "name": "Lebork"
+    "name": "Lebork (Lębork)"
   },
   {
     "code": "GMB",
@@ -565,7 +565,7 @@
   },
   {
     "code": "GND",
-    "name": "Nowy Dwór Gdanski"
+    "name": "Nowy Dwór Gdanski (Nowy Dwór Gdański)"
   },
   {
     "code": "GPU",
@@ -573,11 +573,11 @@
   },
   {
     "code": "GS",
-    "name": "Slupsk town"
+    "name": "Slupsk town (Słupsk)"
   },
   {
     "code": "GSL",
-    "name": "Slupsk district"
+    "name": "Slupsk district (Słupsk)"
   },
   {
     "code": "GSP",
@@ -585,7 +585,7 @@
   },
   {
     "code": "GST",
-    "name": "Starogard Gdanski"
+    "name": "Starogard Gdanski (Starogard Gdański)"
   },
   {
     "code": "GSZ",
@@ -613,7 +613,7 @@
   },
   {
     "code": "KDA",
-    "name": "Dabrowa Tarnowska"
+    "name": "Dabrowa Tarnowska (Dąbrowa Tarnowska)"
   },
   {
     "code": "KGR",
@@ -629,15 +629,15 @@
   },
   {
     "code": "KMY",
-    "name": "Myslenice"
+    "name": "Myslenice (Myślenice)"
   },
   {
     "code": "KN",
-    "name": "Nowy Sacz town"
+    "name": "Nowy Sacz town (Nowy Sącz)"
   },
   {
     "code": "KNS",
-    "name": "Nowy Sacz district"
+    "name": "Nowy Sacz district (Nowy Sącz)"
   },
   {
     "code": "KNT",
@@ -649,7 +649,7 @@
   },
   {
     "code": "KOS",
-    "name": "Oswiecim"
+    "name": "Oswiecim (Oświęcim)"
   },
   {
     "code": "KPR",
@@ -689,23 +689,23 @@
   },
   {
     "code": "LB",
-    "name": "Biala Podlaska town"
+    "name": "Biala Podlaska town (Biała Podlaska)"
   },
   {
     "code": "LBI",
-    "name": "Biala Podlaska district"
+    "name": "Biala Podlaska district (Biała Podlaska)"
   },
   {
     "code": "LBL",
-    "name": "Bilgoraj"
+    "name": "Bilgoraj (Biłgoraj)"
   },
   {
     "code": "LC",
-    "name": "Chelm town"
+    "name": "Chelm town (Chełm)"
   },
   {
     "code": "LCH",
-    "name": "Chelm district"
+    "name": "Chelm district (Chełm)"
   },
   {
     "code": "LHR",
@@ -717,7 +717,7 @@
   },
   {
     "code": "LKR",
-    "name": "Krasnik"
+    "name": "Krasnik (Kraśnik)"
   },
   {
     "code": "LKS",
@@ -729,11 +729,11 @@
   },
   {
     "code": "LLE",
-    "name": "Leczna"
+    "name": "Leczna (Łęczna)"
   },
   {
     "code": "LLU",
-    "name": "Luków"
+    "name": "Luków (Łuków)"
   },
   {
     "code": "LOP",
@@ -745,11 +745,11 @@
   },
   {
     "code": "LPU",
-    "name": "Pulawy"
+    "name": "Pulawy (Puławy)"
   },
   {
     "code": "LRA",
-    "name": "Radzyn Podlaski"
+    "name": "Radzyn Podlaski (Radzyń Podlaski)"
   },
   {
     "code": "LRY",
@@ -757,7 +757,7 @@
   },
   {
     "code": "LSW",
-    "name": "Swidnik"
+    "name": "Swidnik (Świdnik)"
   },
   {
     "code": "LTM",
@@ -773,15 +773,15 @@
   },
   {
     "code": "LWL",
-    "name": "Wlodawa"
+    "name": "Wlodawa (Włodawa)"
   },
   {
     "code": "LZ",
-    "name": "Zamosc town"
+    "name": "Zamosc town (Zamość)"
   },
   {
     "code": "LZA",
-    "name": "Zamosc district"
+    "name": "Zamosc district (Zamość)"
   },
   {
     "code": "NBA",
@@ -793,43 +793,43 @@
   },
   {
     "code": "NDZ",
-    "name": "Dzialdowo"
+    "name": "Dzialdowo (Działdowo)"
   },
   {
     "code": "NE",
-    "name": "Elblag town"
+    "name": "Elblag town (Elbląg)"
   },
   {
     "code": "NEB",
-    "name": "Elblag district"
+    "name": "Elblag district (Elbląg)"
   },
   {
     "code": "NEL",
-    "name": "Elk"
+    "name": "Elk (Ełk)"
   },
   {
     "code": "NGI",
-    "name": "Gizycko"
+    "name": "Gizycko (Giżycko)"
   },
   {
     "code": "NGO",
-    "name": "Goldap"
+    "name": "Goldap (Gołdap)"
   },
   {
     "code": "NIL",
-    "name": "Ilawa"
+    "name": "Ilawa (Iława)"
   },
   {
     "code": "NKE",
-    "name": "Ketrzyn"
+    "name": "Ketrzyn (Kętrzyn)"
   },
   {
     "code": "NLI",
-    "name": "Lidzbark Warminski"
+    "name": "Lidzbark Warminski (Lidzbark Warmiński)"
   },
   {
     "code": "NMR",
-    "name": "Mragowo"
+    "name": "Mragowo (Mrągowo)"
   },
   {
     "code": "NNI",
@@ -865,7 +865,7 @@
   },
   {
     "code": "NWE",
-    "name": "Wegorzewo"
+    "name": "Wegorzewo (Węgorzewo)"
   },
   {
     "code": "OB",
@@ -873,11 +873,11 @@
   },
   {
     "code": "OGL",
-    "name": "Glubczyce"
+    "name": "Glubczyce (Głubczyce)"
   },
   {
     "code": "OK",
-    "name": "Kedzierzyn Kozle"
+    "name": "Kedzierzyn Kozle (Kędzierzyn-Koźle)"
   },
   {
     "code": "OKL",
@@ -889,7 +889,7 @@
   },
   {
     "code": "ONA",
-    "name": "Namyslów"
+    "name": "Namyslów (Namysłów)"
   },
   {
     "code": "ONY",
@@ -917,7 +917,7 @@
   },
   {
     "code": "PCH",
-    "name": "Chodziez"
+    "name": "Chodziez (Chodzież)"
   },
   {
     "code": "PCT",
@@ -933,7 +933,7 @@
   },
   {
     "code": "PGS",
-    "name": "Gostyn"
+    "name": "Gostyn (Gostyń)"
   },
   {
     "code": "PJA",
@@ -949,11 +949,11 @@
   },
   {
     "code": "PKE",
-    "name": "Kepno"
+    "name": "Kepno (Kępno)"
   },
   {
     "code": "PKL",
-    "name": "Kolo"
+    "name": "Kolo (Koło)"
   },
   {
     "code": "PKN",
@@ -969,7 +969,7 @@
   },
   {
     "code": "PKS",
-    "name": "Koscian"
+    "name": "Koscian (Kościan)"
   },
   {
     "code": "PL",
@@ -981,7 +981,7 @@
   },
   {
     "code": "PMI",
-    "name": "Miedzychód"
+    "name": "Miedzychód (Międzychód)"
   },
   {
     "code": "PN",
@@ -989,11 +989,11 @@
   },
   {
     "code": "PNT",
-    "name": "Nowy Tomysl"
+    "name": "Nowy Tomysl (Nowy Tomyśl)"
   },
   {
     "code": "PO",
-    "name": "Poznan town"
+    "name": "Poznan town (Poznań)"
   },
   {
     "code": "POB",
@@ -1009,11 +1009,11 @@
   },
   {
     "code": "POZ",
-    "name": "Poznan district"
+    "name": "Poznan district (Poznań)"
   },
   {
     "code": "PP",
-    "name": "Pila"
+    "name": "Pila (Piła)"
   },
   {
     "code": "PPL",
@@ -1025,11 +1025,11 @@
   },
   {
     "code": "PSE",
-    "name": "Srem"
+    "name": "Srem (Śrem)"
   },
   {
     "code": "PSL",
-    "name": "Slupca"
+    "name": "Slupca (Słupca)"
   },
   {
     "code": "PSR",
@@ -1037,7 +1037,7 @@
   },
   {
     "code": "PSZ",
-    "name": "Szamotuly"
+    "name": "Szamotuly (Szamotuły)"
   },
   {
     "code": "PTU",
@@ -1045,7 +1045,7 @@
   },
   {
     "code": "PWA",
-    "name": "Wagrowiec"
+    "name": "Wagrowiec (Wągrowiec)"
   },
   {
     "code": "PWL",
@@ -1053,15 +1053,15 @@
   },
   {
     "code": "PWR",
-    "name": "Wrzesnia"
+    "name": "Wrzesnia (Września)"
   },
   {
     "code": "PZ",
-    "name": "Poznan district"
+    "name": "Poznan district (Poznań)"
   },
   {
     "code": "PZL",
-    "name": "Zlotów"
+    "name": "Zlotów (Złotów)"
   },
   {
     "code": "RBI",
@@ -1073,7 +1073,7 @@
   },
   {
     "code": "RDE",
-    "name": "Debica"
+    "name": "Debica (Dębica)"
   },
   {
     "code": "RJA",
@@ -1081,7 +1081,7 @@
   },
   {
     "code": "RJS",
-    "name": "Jaslo"
+    "name": "Jaslo (Jasło)"
   },
   {
     "code": "RK",
@@ -1097,11 +1097,11 @@
   },
   {
     "code": "RLA",
-    "name": "Lancut"
+    "name": "Lancut (Łańcut)"
   },
   {
     "code": "RLE",
-    "name": "Lezajsk"
+    "name": "Lezajsk (Leżajsk)"
   },
   {
     "code": "RLS",
@@ -1121,11 +1121,11 @@
   },
   {
     "code": "RP",
-    "name": "Przemysl town"
+    "name": "Przemysl town (Przemyśl)"
   },
   {
     "code": "RPR",
-    "name": "Przemysl district"
+    "name": "Przemysl district (Przemyśl)"
   },
   {
     "code": "RPZ",
@@ -1133,7 +1133,7 @@
   },
   {
     "code": "RRS",
-    "name": "Ropczyce - Sedziszów"
+    "name": "Ropczyce - Sedziszów (Ropczyce - Sedziszów)"
   },
   {
     "code": "RSA",
@@ -1141,7 +1141,7 @@
   },
   {
     "code": "RSR",
-    "name": "Strzyzów"
+    "name": "Strzyzów (Strzyżów)"
   },
   {
     "code": "RST",
@@ -1165,23 +1165,23 @@
   },
   {
     "code": "SB",
-    "name": "Bielsko-Biala town"
+    "name": "Bielsko-Biala town (Bielsko-Biała)"
   },
   {
     "code": "SBE",
-    "name": "Bedzin"
+    "name": "Bedzin (Będzin)"
   },
   {
     "code": "SBI",
-    "name": "Bielsko-Biala district"
+    "name": "Bielsko-Biala district (Bielsko-Biała)"
   },
   {
     "code": "SBL",
-    "name": "Bierun - Ledziny"
+    "name": "Bierun - Ledziny (Bierun - Ledziny)"
   },
   {
     "code": "SC",
-    "name": "Czestochowa town"
+    "name": "Czestochowa town (Częstochowa)"
   },
   {
     "code": "SCI",
@@ -1189,11 +1189,11 @@
   },
   {
     "code": "SCZ",
-    "name": "Czestochowa district"
+    "name": "Czestochowa district (Częstochowa)"
   },
   {
     "code": "SD",
-    "name": "Dabrowa Górnicza"
+    "name": "Dabrowa Górnicza (Dąbrowa Górnicza)"
   },
   {
     "code": "SG",
@@ -1209,7 +1209,7 @@
   },
   {
     "code": "SI",
-    "name": "Siemianowice Slaskie"
+    "name": "Siemianowice Slaskie (Siemianowice Śląskie)"
   },
   {
     "code": "SJJ",
@@ -1217,7 +1217,7 @@
   },
   {
     "code": "SJZ",
-    "name": "Jastrzebie - Zdrój"
+    "name": "Jastrzebie - Zdrój (Jastrzebie - Zdrój)"
   },
   {
     "code": "SK",
@@ -1225,11 +1225,11 @@
   },
   {
     "code": "SKL",
-    "name": "Klobuck"
+    "name": "Klobuck (Kłobuck)"
   },
   {
     "code": "SLR",
-    "name": "Ruda Slaska"
+    "name": "Ruda Slaska (Ruda Śląska)"
   },
   {
     "code": "SLU",
@@ -1237,11 +1237,11 @@
   },
   {
     "code": "SM",
-    "name": "Myslowice"
+    "name": "Myslowice (Mysłowice)"
   },
   {
     "code": "SMI",
-    "name": "Mikolów"
+    "name": "Mikolów (Mikołów)"
   },
   {
     "code": "SMY",
@@ -1253,7 +1253,7 @@
   },
   {
     "code": "SPI",
-    "name": "Piekary Slaskie"
+    "name": "Piekary Slaskie (Piekary Śląskie)"
   },
   {
     "code": "SPS",
@@ -1273,7 +1273,7 @@
   },
   {
     "code": "SRS",
-    "name": "Ruda Slaska"
+    "name": "Ruda Slaska (Ruda Śląska)"
   },
   {
     "code": "ST",
@@ -1285,15 +1285,15 @@
   },
   {
     "code": "STY",
-    "name": "Tychy district (old)"
+    "name": "Tychy district (Tychy (old), old)"
   },
   {
     "code": "SW",
-    "name": "Swietochlowice"
+    "name": "Swietochlowice (Świętochłowice)"
   },
   {
     "code": "SWD",
-    "name": "Wodzislaw"
+    "name": "Wodzislaw (Wodzisław Śląski)"
   },
   {
     "code": "SY",
@@ -1309,11 +1309,11 @@
   },
   {
     "code": "SZO",
-    "name": "Zory"
+    "name": "Zory (Żory)"
   },
   {
     "code": "SZY",
-    "name": "Zywiec"
+    "name": "Zywiec (Żywiec)"
   },
   {
     "code": "TBU",
@@ -1321,7 +1321,7 @@
   },
   {
     "code": "TJE",
-    "name": "Jedrzejów"
+    "name": "Jedrzejów (Jędrzejów)"
   },
   {
     "code": "TK",
@@ -1337,11 +1337,11 @@
   },
   {
     "code": "TKN",
-    "name": "Konskie"
+    "name": "Konskie (Końskie)"
   },
   {
     "code": "TLW",
-    "name": "Wloszczowa"
+    "name": "Wloszczowa (Włoszczowa)"
   },
   {
     "code": "TOP",
@@ -1349,11 +1349,11 @@
   },
   {
     "code": "TOS",
-    "name": "Ostrowiec Swietokrzyski"
+    "name": "Ostrowiec Swietokrzyski (Ostrowiec Świętokrzyski)"
   },
   {
     "code": "TPI",
-    "name": "Pinczów"
+    "name": "Pinczów (Pińczów)"
   },
   {
     "code": "TSA",
@@ -1361,7 +1361,7 @@
   },
   {
     "code": "TSK",
-    "name": "Skarzysko-Kamienna"
+    "name": "Skarzysko-Kamienna (Skarżysko-Kamienna)"
   },
   {
     "code": "TST",
@@ -1373,7 +1373,7 @@
   },
   {
     "code": "WA",
-    "name": "Warszawa-Bialoleka"
+    "name": "Warszawa-Bialoleka (Gmina Warszawa-Białołęka)"
   },
   {
     "code": "WB",
@@ -1381,7 +1381,7 @@
   },
   {
     "code": "WBR",
-    "name": "Bialobrzegi"
+    "name": "Bialobrzegi (Białobrzegi)"
   },
   {
     "code": "WCI",
@@ -1393,7 +1393,7 @@
   },
   {
     "code": "WE",
-    "name": "Warszawa-Mokotów"
+    "name": "Warszawa-Mokotów (Warszawa Mokotów railway station)"
   },
   {
     "code": "WF",
@@ -1421,15 +1421,15 @@
   },
   {
     "code": "WI",
-    "name": "Warszawa-Sródmiescie"
+    "name": "Warszawa-Sródmiescie (Śródmieście)"
   },
   {
     "code": "WJ",
-    "name": "Warszawa-Targówek"
+    "name": "Warszawa-Targówek (Warszawa Targówek railway station)"
   },
   {
     "code": "WK",
-    "name": "Warszawa-Ursus"
+    "name": "Warszawa-Ursus (Ursus)"
   },
   {
     "code": "WKZ",
@@ -1445,11 +1445,11 @@
   },
   {
     "code": "WLS",
-    "name": "Losice"
+    "name": "Losice (Łosice)"
   },
   {
     "code": "WM",
-    "name": "Minsk Mazowiecki"
+    "name": "Minsk Mazowiecki (Mińsk Mazowiecki)"
   },
   {
     "code": "WMA",
@@ -1457,11 +1457,11 @@
   },
   {
     "code": "WML",
-    "name": "Mlawa"
+    "name": "Mlawa (Mława)"
   },
   {
     "code": "WN",
-    "name": "Warszawa-Ursynów"
+    "name": "Warszawa-Ursynów (Anschlussstelle Warszawa Ursynów)"
   },
   {
     "code": "WND",
@@ -1469,7 +1469,7 @@
   },
   {
     "code": "WO",
-    "name": "Ostroleka town"
+    "name": "Ostroleka town (Ostrołęka)"
   },
   {
     "code": "WOR",
@@ -1477,7 +1477,7 @@
   },
   {
     "code": "WOS",
-    "name": "Ostroleka district"
+    "name": "Ostroleka district (Ostrołęka)"
   },
   {
     "code": "WOT",
@@ -1485,7 +1485,7 @@
   },
   {
     "code": "WP",
-    "name": "Plock town"
+    "name": "Plock town (Płock)"
   },
   {
     "code": "WPI",
@@ -1493,11 +1493,11 @@
   },
   {
     "code": "WPL",
-    "name": "Plock district"
+    "name": "Plock district (Płock)"
   },
   {
     "code": "WPN",
-    "name": "Plonsk"
+    "name": "Plonsk (Płońsk)"
   },
   {
     "code": "WPR",
@@ -1505,7 +1505,7 @@
   },
   {
     "code": "WPU",
-    "name": "Pultusk"
+    "name": "Pultusk (Pułtusk)"
   },
   {
     "code": "WPY",
@@ -1541,27 +1541,27 @@
   },
   {
     "code": "WSK",
-    "name": "Sokolów Podlaski"
+    "name": "Sokolów Podlaski (Sokołów Podlaski)"
   },
   {
     "code": "WSZ",
-    "name": "Szydlowiec"
+    "name": "Szydlowiec (Szydłowiec)"
   },
   {
     "code": "WT",
-    "name": "Warszawa-Wawer"
+    "name": "Warszawa-Wawer (Warszawa Wawer railway station)"
   },
   {
     "code": "WU",
-    "name": "Warszawa-Ochota"
+    "name": "Warszawa-Ochota (Warszawa Ochota)"
   },
   {
     "code": "WWE",
-    "name": "Wegrów"
+    "name": "Wegrów (Węgrów)"
   },
   {
     "code": "WWL",
-    "name": "Wolomin"
+    "name": "Wolomin (Wołomin)"
   },
   {
     "code": "WWY",
@@ -1573,27 +1573,27 @@
   },
   {
     "code": "WY",
-    "name": "Warszawa-Wola"
+    "name": "Warszawa-Wola (Wola)"
   },
   {
     "code": "WZ",
-    "name": "Ozarów Mazowiecki"
+    "name": "Ozarów Mazowiecki (Ożarów Mazowiecki)"
   },
   {
     "code": "WZU",
-    "name": "Zuromin"
+    "name": "Zuromin (Żuromin)"
   },
   {
     "code": "WZW",
-    "name": "Zwolen"
+    "name": "Zwolen (Zwoleń)"
   },
   {
     "code": "WZY",
-    "name": "Zyrardów"
+    "name": "Zyrardów (Żyrardów)"
   },
   {
     "code": "ZBI",
-    "name": "Bialogard"
+    "name": "Bialogard (Białogard)"
   },
   {
     "code": "ZCH",
@@ -1621,11 +1621,11 @@
   },
   {
     "code": "ZKA",
-    "name": "Kamien Pomorski"
+    "name": "Kamien Pomorski (Kamień Pomorski)"
   },
   {
     "code": "ZKL",
-    "name": "Kolobrzeg"
+    "name": "Kolobrzeg (Kołobrzeg)"
   },
   {
     "code": "ZKO",
@@ -1633,11 +1633,11 @@
   },
   {
     "code": "ZMY",
-    "name": "Myslibórz"
+    "name": "Myslibórz (Myślibórz)"
   },
   {
     "code": "ZPL",
-    "name": "Police"
+    "name": "Police (The Police)"
   },
   {
     "code": "ZPY",
@@ -1649,19 +1649,19 @@
   },
   {
     "code": "ZSD",
-    "name": "Swidwin"
+    "name": "Swidwin (Świdwin)"
   },
   {
     "code": "ZSL",
-    "name": "Slawno"
+    "name": "Slawno (Sławno)"
   },
   {
     "code": "ZST",
-    "name": "Stargard Szczecinski"
+    "name": "Stargard Szczecinski (Stargard)"
   },
   {
     "code": "ZSW",
-    "name": "Swinoujscie"
+    "name": "Swinoujscie (Świnoujście)"
   },
   {
     "code": "ZSZ",
@@ -1669,6 +1669,6 @@
   },
   {
     "code": "ZWA",
-    "name": "Walcz"
+    "name": "Walcz (Wałcz)"
   }
 ]

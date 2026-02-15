@@ -1,54 +1,54 @@
 [
   {
     "code": "00",
-    "name": "Nouakchott"
+    "name": "Nouakchott (نواكشوط)"
   },
   {
     "code": "01",
-    "name": "Hodh Ech Chargui"
+    "name": "Hodh Ech Chargui (الحوض الشرقي)"
   },
   {
     "code": "02",
-    "name": "Hodh El Gharbi"
+    "name": "Hodh El Gharbi (الحوض الغربي)"
   },
   {
     "code": "03",
-    "name": "Assaba"
+    "name": "Assaba (العصابة)"
   },
   {
     "code": "04",
-    "name": "Gorgol"
+    "name": "Gorgol (كوركول)"
   },
   {
     "code": "05",
-    "name": "Brakna"
+    "name": "Brakna (لبراكنة)"
   },
   {
     "code": "06",
-    "name": "Trarza"
+    "name": "Trarza (اترارزة)"
   },
   {
     "code": "07",
-    "name": "Adrar"
+    "name": "Adrar (آدرار)"
   },
   {
     "code": "08",
-    "name": "Dakhlet Nouadhibou"
+    "name": "Dakhlet Nouadhibou (داخلت نواذيبو)"
   },
   {
     "code": "09",
-    "name": "Tagant"
+    "name": "Tagant (تكانت)"
   },
   {
     "code": "10",
-    "name": "Guidimaga"
+    "name": "Guidimaga (كيدي ماغا)"
   },
   {
     "code": "11",
-    "name": "Tiris Zemmour"
+    "name": "Tiris Zemmour (تيرس زمور)"
   },
   {
     "code": "12",
-    "name": "Inchiri"
+    "name": "Inchiri (إنشيري)"
   }
 ]

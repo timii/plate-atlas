@@ -1,38 +1,38 @@
 [
   {
     "code": "CP",
-    "name": "Central Province"
+    "name": "Central Province (මධ්‍යම පළාත)"
   },
   {
     "code": "EP",
-    "name": "Eastern Province"
+    "name": "Eastern Province (නැගෙනහිර පළාත)"
   },
   {
     "code": "NC",
-    "name": "North Central Province"
+    "name": "North Central Province (උතුරු මැද පළාත)"
   },
   {
     "code": "NP",
-    "name": "Northern Province"
+    "name": "Northern Province (උතුරු පළාත)"
   },
   {
     "code": "NW",
-    "name": "North Western Province"
+    "name": "North Western Province (වයඹ පළාත)"
   },
   {
     "code": "SG",
-    "name": "Sabaragamuwa Province"
+    "name": "Sabaragamuwa Province (සබරගමුව පළාත)"
   },
   {
     "code": "SP",
-    "name": "Southern Province"
+    "name": "Southern Province (දකුණු පළාත)"
   },
   {
     "code": "UP",
-    "name": "Uva Province"
+    "name": "Uva Province (ඌව පළාත)"
   },
   {
     "code": "WP",
-    "name": "Western Province"
+    "name": "Western Province (බස්නාහිර පළාත)"
   }
 ]

@@ -1,36 +1,138 @@
 [
-  { "code": "BJ", "name": "Bjelovar" },
-  { "code": "BM", "name": "Beli Manastir" },
-  { "code": "ČK", "name": "Čakovec" },
-  { "code": "DA", "name": "Daruvar" },
-  { "code": "DE", "name": "Delnice" },
-  { "code": "DJ", "name": "Đakovo" },
-  { "code": "DU", "name": "Dubrovnik" },
-  { "code": "GS", "name": "Gospić" },
-  { "code": "IM", "name": "Imotski" },
-  { "code": "KA", "name": "Karlovac" },
-  { "code": "KC", "name": "Koprivnica" },
-  { "code": "KR", "name": "Krapina" },
-  { "code": "KT", "name": "Kutina" },
-  { "code": "KŽ", "name": "Križevci" },
-  { "code": "MA", "name": "Makarska" },
-  { "code": "NA", "name": "Našice" },
-  { "code": "NG", "name": "Nova Gradiška" },
-  { "code": "OG", "name": "Ogulin" },
-  { "code": "OS", "name": "Osijek" },
-  { "code": "PU", "name": "Pula" },
-  { "code": "PŽ", "name": "Požega" },
-  { "code": "RI", "name": "Rijeka" },
-  { "code": "SB", "name": "Slavonski Brod" },
-  { "code": "SK", "name": "Sisak" },
-  { "code": "SL", "name": "Slatina" },
-  { "code": "ST", "name": "Split" },
-  { "code": "ŠI", "name": "Šibenik" },
-  { "code": "VK", "name": "Vinkovci" },
-  { "code": "VT", "name": "Virovitica" },
-  { "code": "VU", "name": "Vukovar" },
-  { "code": "VŽ", "name": "Varaždin" },
-  { "code": "ZD", "name": "Zadar" },
-  { "code": "ZG", "name": "Zagreb" },
-  { "code": "ŽU", "name": "Županja" }
+  {
+    "code": "BJ",
+    "name": "Bjelovar (Grad Bjelovar)"
+  },
+  {
+    "code": "BM",
+    "name": "Beli Manastir (Grad Beli Manastir)"
+  },
+  {
+    "code": "ČK",
+    "name": "Čakovec (Grad Čakovec)"
+  },
+  {
+    "code": "DA",
+    "name": "Daruvar (Grad Daruvar)"
+  },
+  {
+    "code": "DE",
+    "name": "Delnice (Grad Delnice)"
+  },
+  {
+    "code": "DJ",
+    "name": "Đakovo (Grad Đakovo)"
+  },
+  {
+    "code": "DU",
+    "name": "Dubrovnik (Grad Dubrovnik)"
+  },
+  {
+    "code": "GS",
+    "name": "Gospić (Grad Gospić)"
+  },
+  {
+    "code": "IM",
+    "name": "Imotski (Grad Imotski)"
+  },
+  {
+    "code": "KA",
+    "name": "Karlovac (Grad Karlovac)"
+  },
+  {
+    "code": "KC",
+    "name": "Koprivnica (Grad Koprivnica)"
+  },
+  {
+    "code": "KR",
+    "name": "Krapina (Grad Krapina)"
+  },
+  {
+    "code": "KT",
+    "name": "Kutina (Grad Kutina)"
+  },
+  {
+    "code": "KŽ",
+    "name": "Križevci (Grad Križevci)"
+  },
+  {
+    "code": "MA",
+    "name": "Makarska (Grad Makarska)"
+  },
+  {
+    "code": "NA",
+    "name": "Našice (Grad Našice)"
+  },
+  {
+    "code": "NG",
+    "name": "Nova Gradiška (Grad Nova Gradiška)"
+  },
+  {
+    "code": "OG",
+    "name": "Ogulin (Grad Ogulin)"
+  },
+  {
+    "code": "OS",
+    "name": "Osijek (Grad Osijek)"
+  },
+  {
+    "code": "PU",
+    "name": "Pula (Grad Pula)"
+  },
+  {
+    "code": "PŽ",
+    "name": "Požega (Grad Požega)"
+  },
+  {
+    "code": "RI",
+    "name": "Rijeka (Grad Rijeka)"
+  },
+  {
+    "code": "SB",
+    "name": "Slavonski Brod (Grad Slavonski Brod)"
+  },
+  {
+    "code": "SK",
+    "name": "Sisak (Grad Sisak)"
+  },
+  {
+    "code": "SL",
+    "name": "Slatina (Grad Slatina)"
+  },
+  {
+    "code": "ST",
+    "name": "Split (Grad Split)"
+  },
+  {
+    "code": "ŠI",
+    "name": "Šibenik (Grad Šibenik)"
+  },
+  {
+    "code": "VK",
+    "name": "Vinkovci (Grad Vinkovci)"
+  },
+  {
+    "code": "VT",
+    "name": "Virovitica (Grad Virovitica)"
+  },
+  {
+    "code": "VU",
+    "name": "Vukovar (Grad Vukovar)"
+  },
+  {
+    "code": "VŽ",
+    "name": "Varaždin (Grad Varaždin)"
+  },
+  {
+    "code": "ZD",
+    "name": "Zadar (Grad Zadar)"
+  },
+  {
+    "code": "ZG",
+    "name": "Zagreb (Grad Zagreb)"
+  },
+  {
+    "code": "ŽU",
+    "name": "Županja (Grad Županja)"
+  }
 ]
