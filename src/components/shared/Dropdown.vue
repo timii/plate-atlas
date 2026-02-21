@@ -68,7 +68,7 @@ function toggleMenu() {
       }"
     >
       <span
-        v-for="item of list"
+        v-for="item of props.list"
         :key="item.id"
         class="item cursor-pointer px-4 py-2 transition-all duration-200 ease-cubic hover:bg-background-light-hover hover:dark:bg-background-dark-hover"
         role="menuitem"

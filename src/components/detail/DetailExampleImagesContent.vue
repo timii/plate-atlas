@@ -1,28 +1,27 @@
 <script setup lang="ts">
-import Info from '@/assets/icons/Info.vue'
+import DetailInfoBox from '@/components/detail/DetailInfoBox.vue'
 import { useDetailsStore } from '@/stores/details'
 import { storeToRefs } from 'pinia'
+import { computed } from 'vue'
 
-defineProps<{
+const props = defineProps<{
   countryName: string
 }>()
 
 const detailsStore = useDetailsStore()
 const { exampleImages } = storeToRefs(detailsStore)
+const countryNameInSentence = computed(() =>
+  props.countryName === 'No country found' ? 'no country found' : props.countryName,
+)
 </script>
 
 <template>
   <div class="content flex w-4/5 flex-col items-center justify-center gap-8">
     <template v-if="exampleImages && exampleImages.length > 0">
-      <div
-        class="flex items-center gap-4 rounded-lg border border-border-light3 px-6 py-4 text-lg text-text-light-default dark:border-border-dark3 dark:bg-background-dark-highlight dark:text-text-dark-default dark:placeholder-gray-400"
-      >
-        <Info></Info>
-        <span>
-          License plates in {{ countryName ?? 'this country' }} are not tied to specific regions or
-          area codes
-        </span>
-      </div>
+      <DetailInfoBox :title="'Plate format'">
+        License plates in {{ countryNameInSentence || 'this country' }} do not include region-specific
+        codes; the examples below show common plate formats.
+      </DetailInfoBox>
       <div
         class="flex w-full flex-col items-center justify-center gap-4"
         v-for="imageCategory in exampleImages"

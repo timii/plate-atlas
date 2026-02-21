@@ -19,6 +19,7 @@ const detailsStore = useDetailsStore()
 const countryName = ref('')
 const loading = ref(false)
 const countryHasCodes = ref(false)
+const formatDescription = ref('')
 
 const countryCode = computed(() => (route.params.code as string) ?? '')
 
@@ -49,6 +50,8 @@ async function loadDetails() {
   console.log('onMounted in Detail called -> code:', route.params.code)
 
   try {
+    formatDescription.value = ''
+
     // TODO: dynamically set language in import
     // dynamically import the country json using the country code
     const { default: countryDetails } = (await import(
@@ -61,9 +64,11 @@ async function loadDetails() {
     if (isOfTypeExampleImages(countryDetails)) {
       detailsStore.exampleImages = countryDetails
       countryHasCodes.value = false
+      formatDescription.value = ''
     } else if (isOfTypeCodes(countryDetails)) {
       detailsStore.details = countryDetails.entries
       countryHasCodes.value = true
+      formatDescription.value = countryDetails.format
     } else {
       console.error('Country details are of unknown type')
     }
@@ -126,7 +131,7 @@ onMounted(async () => {
       </div>
     </div>
 
-    <DetailCodesContent v-if="countryHasCodes" />
+    <DetailCodesContent v-if="countryHasCodes" :format-description="formatDescription" />
 
     <DetailExampleImagesContent v-else :country-name="countryName" />
   </div>
