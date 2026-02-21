@@ -27,14 +27,36 @@ export interface ICountryDetailCode {
   name: string // name of the area/region
 }
 
-export type ICountryDetails = ICountryDetailCode[] | ICountryDetailExampleImages[]
+export interface ICountryDetailCodesWithFormat {
+  format: string // description of where the regional identifier appears on the plate
+  entries: ICountryDetailCode[] // list of area/region codes for the country
+}
+
+export type ICountryDetails = ICountryDetailCodesWithFormat | ICountryDetailExampleImages[]
 
 export function isOfTypeExampleImages(
   data: ICountryDetails,
 ): data is ICountryDetailExampleImages[] {
-  return data && data.length > 0 && data.every((item) => 'category' in item && 'images' in item)
+  return (
+    Array.isArray(data) &&
+    data.length > 0 &&
+    data.every((item) => !!item && typeof item === 'object' && 'category' in item && 'images' in item)
+  )
 }
 
-export function isOfTypeCodes(data: ICountryDetails): data is ICountryDetailCode[] {
-  return data && data.length > 0 && data.every((item) => 'code' in item && 'name' in item)
+export function isOfTypeCodes(
+  data: ICountryDetails,
+): data is ICountryDetailCodesWithFormat {
+  return (
+    !!data &&
+    typeof data === 'object' &&
+    'format' in data &&
+    typeof data.format === 'string' &&
+    'entries' in data &&
+    Array.isArray(data.entries) &&
+    data.entries.length > 0 &&
+    data.entries.every(
+      (item) => !!item && typeof item === 'object' && 'code' in item && 'name' in item,
+    )
+  )
 }

@@ -67,7 +67,7 @@ async function loadDetails() {
       detailsStore.exampleImages = countryDetails
       countryHasCodes.value = false
     } else if (isOfTypeCodes(countryDetails)) {
-      detailsStore.details = countryDetails
+      detailsStore.details = countryDetails.entries
       countryHasCodes.value = true
     } else {
       console.error('Country details are of unknown type')
