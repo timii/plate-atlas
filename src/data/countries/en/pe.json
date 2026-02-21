@@ -1,74 +1,77 @@
-[
-  {
-    "code": "A",
-    "name": "Lima (Lima Metropolitana)"
-  },
-  {
-    "code": "B",
-    "name": "Lima (Lima Metropolitana)"
-  },
-  {
-    "code": "C",
-    "name": "Lima (Lima Metropolitana)"
-  },
-  {
-    "code": "D",
-    "name": "Lima (Lima Metropolitana)"
-  },
-  {
-    "code": "F",
-    "name": "Lima (Lima Metropolitana)"
-  },
-  {
-    "code": "H",
-    "name": "Ancash (Áncash, Departamento de Áncash)"
-  },
-  {
-    "code": "K",
-    "name": "Amazonas / Cajamarca / Lambayeque (Departamentos de Amazonas / Cajamarca / Lambayeque)"
-  },
-  {
-    "code": "L",
-    "name": "Loreto (Departamento de Loreto)"
-  },
-  {
-    "code": "M",
-    "name": "Amazonas / Cajamarca / Lambayeque (Departamentos de Amazonas / Cajamarca / Lambayeque)"
-  },
-  {
-    "code": "P",
-    "name": "Piura / Tumbes (Departamentos de Piura / Tumbes)"
-  },
-  {
-    "code": "S",
-    "name": "San Martin (San Martín, Departamento de San Martín)"
-  },
-  {
-    "code": "T",
-    "name": "La Libertad (Departamento de La Libertad)"
-  },
-  {
-    "code": "U",
-    "name": "Ucayali (Departamento de Ucayali)"
-  },
-  {
-    "code": "V",
-    "name": "Arequipa (Departamento de Arequipa)"
-  },
-  {
-    "code": "W",
-    "name": "Huanuco / Junin / Pasco (Huánuco / Junín / Pasco, Departamentos de Huánuco / Junín / Pasco)"
-  },
-  {
-    "code": "X",
-    "name": "Apurimac / Cusco / Madre de Dios (Departamentos de Apurímac / Cusco / Madre de Dios)"
-  },
-  {
-    "code": "Y",
-    "name": "Ayacucho / Huancavelica / Ica (Departamentos de Ayacucho / Huancavelica / Ica)"
-  },
-  {
-    "code": "Z",
-    "name": "Moquegua / Puno / Tacna (Departamentos de Moquegua / Puno / Tacna)"
-  }
-]
+{
+  "format": "The regional identifier is the leading code prefix at the beginning of the plate serial (Format: ABC-123).",
+  "entries": [
+    {
+      "code": "A",
+      "name": "Lima (Lima Metropolitana)"
+    },
+    {
+      "code": "B",
+      "name": "Lima (Lima Metropolitana)"
+    },
+    {
+      "code": "C",
+      "name": "Lima (Lima Metropolitana)"
+    },
+    {
+      "code": "D",
+      "name": "Lima (Lima Metropolitana)"
+    },
+    {
+      "code": "F",
+      "name": "Lima (Lima Metropolitana)"
+    },
+    {
+      "code": "H",
+      "name": "Ancash (Áncash, Departamento de Áncash)"
+    },
+    {
+      "code": "K",
+      "name": "Amazonas / Cajamarca / Lambayeque (Departamentos de Amazonas / Cajamarca / Lambayeque)"
+    },
+    {
+      "code": "L",
+      "name": "Loreto (Departamento de Loreto)"
+    },
+    {
+      "code": "M",
+      "name": "Amazonas / Cajamarca / Lambayeque (Departamentos de Amazonas / Cajamarca / Lambayeque)"
+    },
+    {
+      "code": "P",
+      "name": "Piura / Tumbes (Departamentos de Piura / Tumbes)"
+    },
+    {
+      "code": "S",
+      "name": "San Martin (San Martín, Departamento de San Martín)"
+    },
+    {
+      "code": "T",
+      "name": "La Libertad (Departamento de La Libertad)"
+    },
+    {
+      "code": "U",
+      "name": "Ucayali (Departamento de Ucayali)"
+    },
+    {
+      "code": "V",
+      "name": "Arequipa (Departamento de Arequipa)"
+    },
+    {
+      "code": "W",
+      "name": "Huanuco / Junin / Pasco (Huánuco / Junín / Pasco, Departamentos de Huánuco / Junín / Pasco)"
+    },
+    {
+      "code": "X",
+      "name": "Apurimac / Cusco / Madre de Dios (Departamentos de Apurímac / Cusco / Madre de Dios)"
+    },
+    {
+      "code": "Y",
+      "name": "Ayacucho / Huancavelica / Ica (Departamentos de Ayacucho / Huancavelica / Ica)"
+    },
+    {
+      "code": "Z",
+      "name": "Moquegua / Puno / Tacna (Departamentos de Moquegua / Puno / Tacna)"
+    }
+  ]
+}

@@ -1,399 +1,401 @@
-﻿[
-  {
-    "code": "01",
-    "name": "Tashkent (city) (Toshkent shahri)"
-  },
-  {
-    "code": "02",
-    "name": "Tashkent (city) (Toshkent shahri)"
-  },
-  {
-    "code": "03",
-    "name": "Tashkent (city) (Toshkent shahri)"
-  },
-  {
-    "code": "04",
-    "name": "Tashkent (city) (Toshkent shahri)"
-  },
-  {
-    "code": "05",
-    "name": "Tashkent (city) (Toshkent shahri)"
-  },
-  {
-    "code": "06",
-    "name": "Tashkent (city) (Toshkent shahri)"
-  },
-  {
-    "code": "07",
-    "name": "Tashkent (city) (Toshkent shahri)"
-  },
-  {
-    "code": "08",
-    "name": "Tashkent (city) (Toshkent shahri)"
-  },
-  {
-    "code": "09",
-    "name": "Tashkent (city) (Toshkent shahri)"
-  },
-  {
-    "code": "10",
-    "name": "Tashkent Region (Toshkent viloyati)"
-  },
-  {
-    "code": "11",
-    "name": "Tashkent Region (Toshkent viloyati)"
-  },
-  {
-    "code": "12",
-    "name": "Tashkent Region (Toshkent viloyati)"
-  },
-  {
-    "code": "13",
-    "name": "Tashkent Region (Toshkent viloyati)"
-  },
-  {
-    "code": "14",
-    "name": "Tashkent Region (Toshkent viloyati)"
-  },
-  {
-    "code": "15",
-    "name": "Tashkent Region (Toshkent viloyati)"
-  },
-  {
-    "code": "16",
-    "name": "Tashkent Region (Toshkent viloyati)"
-  },
-  {
-    "code": "17",
-    "name": "Tashkent Region (Toshkent viloyati)"
-  },
-  {
-    "code": "18",
-    "name": "Tashkent Region (Toshkent viloyati)"
-  },
-  {
-    "code": "19",
-    "name": "Tashkent Region (Toshkent viloyati)"
-  },
-  {
-    "code": "20",
-    "name": "Sirdaryo Region (Sirdaryo viloyati)"
-  },
-  {
-    "code": "21",
-    "name": "Sirdaryo Region (Sirdaryo viloyati)"
-  },
-  {
-    "code": "22",
-    "name": "Sirdaryo Region (Sirdaryo viloyati)"
-  },
-  {
-    "code": "23",
-    "name": "Sirdaryo Region (Sirdaryo viloyati)"
-  },
-  {
-    "code": "24",
-    "name": "Sirdaryo Region (Sirdaryo viloyati)"
-  },
-  {
-    "code": "25",
-    "name": "Jizzakh Region (Jizzax viloyati)"
-  },
-  {
-    "code": "26",
-    "name": "Jizzakh Region (Jizzax viloyati)"
-  },
-  {
-    "code": "27",
-    "name": "Jizzakh Region (Jizzax viloyati)"
-  },
-  {
-    "code": "28",
-    "name": "Jizzakh Region (Jizzax viloyati)"
-  },
-  {
-    "code": "29",
-    "name": "Jizzakh Region (Jizzax viloyati)"
-  },
-  {
-    "code": "30",
-    "name": "Samarqand Region (Samarqand viloyati)"
-  },
-  {
-    "code": "31",
-    "name": "Samarqand Region (Samarqand viloyati)"
-  },
-  {
-    "code": "32",
-    "name": "Samarqand Region (Samarqand viloyati)"
-  },
-  {
-    "code": "33",
-    "name": "Samarqand Region (Samarqand viloyati)"
-  },
-  {
-    "code": "34",
-    "name": "Samarqand Region (Samarqand viloyati)"
-  },
-  {
-    "code": "35",
-    "name": "Samarqand Region (Samarqand viloyati)"
-  },
-  {
-    "code": "36",
-    "name": "Samarqand Region (Samarqand viloyati)"
-  },
-  {
-    "code": "37",
-    "name": "Samarqand Region (Samarqand viloyati)"
-  },
-  {
-    "code": "38",
-    "name": "Samarqand Region (Samarqand viloyati)"
-  },
-  {
-    "code": "39",
-    "name": "Samarqand Region (Samarqand viloyati)"
-  },
-  {
-    "code": "40",
-    "name": "Fergana Region (Farg\u0027ona viloyati)"
-  },
-  {
-    "code": "41",
-    "name": "Fergana Region (Farg\u0027ona viloyati)"
-  },
-  {
-    "code": "42",
-    "name": "Fergana Region (Farg\u0027ona viloyati)"
-  },
-  {
-    "code": "43",
-    "name": "Fergana Region (Farg\u0027ona viloyati)"
-  },
-  {
-    "code": "44",
-    "name": "Fergana Region (Farg\u0027ona viloyati)"
-  },
-  {
-    "code": "45",
-    "name": "Fergana Region (Farg\u0027ona viloyati)"
-  },
-  {
-    "code": "46",
-    "name": "Fergana Region (Farg\u0027ona viloyati)"
-  },
-  {
-    "code": "47",
-    "name": "Fergana Region (Farg\u0027ona viloyati)"
-  },
-  {
-    "code": "48",
-    "name": "Fergana Region (Farg\u0027ona viloyati)"
-  },
-  {
-    "code": "49",
-    "name": "Fergana Region (Farg\u0027ona viloyati)"
-  },
-  {
-    "code": "50",
-    "name": "Namangan Region (Namangan viloyati)"
-  },
-  {
-    "code": "51",
-    "name": "Namangan Region (Namangan viloyati)"
-  },
-  {
-    "code": "52",
-    "name": "Namangan Region (Namangan viloyati)"
-  },
-  {
-    "code": "53",
-    "name": "Namangan Region (Namangan viloyati)"
-  },
-  {
-    "code": "54",
-    "name": "Namangan Region (Namangan viloyati)"
-  },
-  {
-    "code": "55",
-    "name": "Namangan Region (Namangan viloyati)"
-  },
-  {
-    "code": "56",
-    "name": "Namangan Region (Namangan viloyati)"
-  },
-  {
-    "code": "57",
-    "name": "Namangan Region (Namangan viloyati)"
-  },
-  {
-    "code": "58",
-    "name": "Namangan Region (Namangan viloyati)"
-  },
-  {
-    "code": "59",
-    "name": "Namangan Region (Namangan viloyati)"
-  },
-  {
-    "code": "60",
-    "name": "Andijan Region (Andijon viloyati)"
-  },
-  {
-    "code": "61",
-    "name": "Andijan Region (Andijon viloyati)"
-  },
-  {
-    "code": "62",
-    "name": "Andijan Region (Andijon viloyati)"
-  },
-  {
-    "code": "63",
-    "name": "Andijan Region (Andijon viloyati)"
-  },
-  {
-    "code": "64",
-    "name": "Andijan Region (Andijon viloyati)"
-  },
-  {
-    "code": "65",
-    "name": "Andijan Region (Andijon viloyati)"
-  },
-  {
-    "code": "66",
-    "name": "Andijan Region (Andijon viloyati)"
-  },
-  {
-    "code": "67",
-    "name": "Andijan Region (Andijon viloyati)"
-  },
-  {
-    "code": "68",
-    "name": "Andijan Region (Andijon viloyati)"
-  },
-  {
-    "code": "69",
-    "name": "Andijan Region (Andijon viloyati)"
-  },
-  {
-    "code": "70",
-    "name": "Qashqadaryo Region (Qashqadaryo viloyati)"
-  },
-  {
-    "code": "71",
-    "name": "Qashqadaryo Region (Qashqadaryo viloyati)"
-  },
-  {
-    "code": "72",
-    "name": "Qashqadaryo Region (Qashqadaryo viloyati)"
-  },
-  {
-    "code": "73",
-    "name": "Qashqadaryo Region (Qashqadaryo viloyati)"
-  },
-  {
-    "code": "74",
-    "name": "Qashqadaryo Region (Qashqadaryo viloyati)"
-  },
-  {
-    "code": "75",
-    "name": "Surxondaryo Region (Surxondaryo viloyati)"
-  },
-  {
-    "code": "76",
-    "name": "Surxondaryo Region (Surxondaryo viloyati)"
-  },
-  {
-    "code": "77",
-    "name": "Surxondaryo Region (Surxondaryo viloyati)"
-  },
-  {
-    "code": "78",
-    "name": "Surxondaryo Region (Surxondaryo viloyati)"
-  },
-  {
-    "code": "79",
-    "name": "Surxondaryo Region (Surxondaryo viloyati)"
-  },
-  {
-    "code": "80",
-    "name": "Bukhara Region (Buxoro viloyati)"
-  },
-  {
-    "code": "81",
-    "name": "Bukhara Region (Buxoro viloyati)"
-  },
-  {
-    "code": "82",
-    "name": "Bukhara Region (Buxoro viloyati)"
-  },
-  {
-    "code": "83",
-    "name": "Bukhara Region (Buxoro viloyati)"
-  },
-  {
-    "code": "84",
-    "name": "Bukhara Region (Buxoro viloyati)"
-  },
-  {
-    "code": "85",
-    "name": "Navoiy Region (Navoiy viloyati)"
-  },
-  {
-    "code": "86",
-    "name": "Navoiy Region (Navoiy viloyati)"
-  },
-  {
-    "code": "87",
-    "name": "Navoiy Region (Navoiy viloyati)"
-  },
-  {
-    "code": "88",
-    "name": "Navoiy Region (Navoiy viloyati)"
-  },
-  {
-    "code": "89",
-    "name": "Navoiy Region (Navoiy viloyati)"
-  },
-  {
-    "code": "90",
-    "name": "Xorazm Region (Xorazm viloyati)"
-  },
-  {
-    "code": "91",
-    "name": "Xorazm Region (Xorazm viloyati)"
-  },
-  {
-    "code": "92",
-    "name": "Xorazm Region (Xorazm viloyati)"
-  },
-  {
-    "code": "93",
-    "name": "Xorazm Region (Xorazm viloyati)"
-  },
-  {
-    "code": "94",
-    "name": "Xorazm Region (Xorazm viloyati)"
-  },
-  {
-    "code": "95",
-    "name": "Republic of Karakalpakstan (Qoraqalpog\u0027iston Respublikasi)"
-  },
-  {
-    "code": "96",
-    "name": "Republic of Karakalpakstan (Qoraqalpog\u0027iston Respublikasi)"
-  },
-  {
-    "code": "97",
-    "name": "Republic of Karakalpakstan (Qoraqalpog\u0027iston Respublikasi)"
-  },
-  {
-    "code": "98",
-    "name": "Republic of Karakalpakstan (Qoraqalpog\u0027iston Respublikasi)"
-  },
-  {
-    "code": "99",
-    "name": "Republic of Karakalpakstan (Qoraqalpog\u0027iston Respublikasi)"
-  }
-]
-
+{
+  "format": "The regional identifier is the leading two-digit regional prefix at the beginning of the plate (Format: 01 A123BC).",
+  "entries": [
+    {
+      "code": "01",
+      "name": "Tashkent (city) (Toshkent shahri)"
+    },
+    {
+      "code": "02",
+      "name": "Tashkent (city) (Toshkent shahri)"
+    },
+    {
+      "code": "03",
+      "name": "Tashkent (city) (Toshkent shahri)"
+    },
+    {
+      "code": "04",
+      "name": "Tashkent (city) (Toshkent shahri)"
+    },
+    {
+      "code": "05",
+      "name": "Tashkent (city) (Toshkent shahri)"
+    },
+    {
+      "code": "06",
+      "name": "Tashkent (city) (Toshkent shahri)"
+    },
+    {
+      "code": "07",
+      "name": "Tashkent (city) (Toshkent shahri)"
+    },
+    {
+      "code": "08",
+      "name": "Tashkent (city) (Toshkent shahri)"
+    },
+    {
+      "code": "09",
+      "name": "Tashkent (city) (Toshkent shahri)"
+    },
+    {
+      "code": "10",
+      "name": "Tashkent Region (Toshkent viloyati)"
+    },
+    {
+      "code": "11",
+      "name": "Tashkent Region (Toshkent viloyati)"
+    },
+    {
+      "code": "12",
+      "name": "Tashkent Region (Toshkent viloyati)"
+    },
+    {
+      "code": "13",
+      "name": "Tashkent Region (Toshkent viloyati)"
+    },
+    {
+      "code": "14",
+      "name": "Tashkent Region (Toshkent viloyati)"
+    },
+    {
+      "code": "15",
+      "name": "Tashkent Region (Toshkent viloyati)"
+    },
+    {
+      "code": "16",
+      "name": "Tashkent Region (Toshkent viloyati)"
+    },
+    {
+      "code": "17",
+      "name": "Tashkent Region (Toshkent viloyati)"
+    },
+    {
+      "code": "18",
+      "name": "Tashkent Region (Toshkent viloyati)"
+    },
+    {
+      "code": "19",
+      "name": "Tashkent Region (Toshkent viloyati)"
+    },
+    {
+      "code": "20",
+      "name": "Sirdaryo Region (Sirdaryo viloyati)"
+    },
+    {
+      "code": "21",
+      "name": "Sirdaryo Region (Sirdaryo viloyati)"
+    },
+    {
+      "code": "22",
+      "name": "Sirdaryo Region (Sirdaryo viloyati)"
+    },
+    {
+      "code": "23",
+      "name": "Sirdaryo Region (Sirdaryo viloyati)"
+    },
+    {
+      "code": "24",
+      "name": "Sirdaryo Region (Sirdaryo viloyati)"
+    },
+    {
+      "code": "25",
+      "name": "Jizzakh Region (Jizzax viloyati)"
+    },
+    {
+      "code": "26",
+      "name": "Jizzakh Region (Jizzax viloyati)"
+    },
+    {
+      "code": "27",
+      "name": "Jizzakh Region (Jizzax viloyati)"
+    },
+    {
+      "code": "28",
+      "name": "Jizzakh Region (Jizzax viloyati)"
+    },
+    {
+      "code": "29",
+      "name": "Jizzakh Region (Jizzax viloyati)"
+    },
+    {
+      "code": "30",
+      "name": "Samarqand Region (Samarqand viloyati)"
+    },
+    {
+      "code": "31",
+      "name": "Samarqand Region (Samarqand viloyati)"
+    },
+    {
+      "code": "32",
+      "name": "Samarqand Region (Samarqand viloyati)"
+    },
+    {
+      "code": "33",
+      "name": "Samarqand Region (Samarqand viloyati)"
+    },
+    {
+      "code": "34",
+      "name": "Samarqand Region (Samarqand viloyati)"
+    },
+    {
+      "code": "35",
+      "name": "Samarqand Region (Samarqand viloyati)"
+    },
+    {
+      "code": "36",
+      "name": "Samarqand Region (Samarqand viloyati)"
+    },
+    {
+      "code": "37",
+      "name": "Samarqand Region (Samarqand viloyati)"
+    },
+    {
+      "code": "38",
+      "name": "Samarqand Region (Samarqand viloyati)"
+    },
+    {
+      "code": "39",
+      "name": "Samarqand Region (Samarqand viloyati)"
+    },
+    {
+      "code": "40",
+      "name": "Fergana Region (Farg'ona viloyati)"
+    },
+    {
+      "code": "41",
+      "name": "Fergana Region (Farg'ona viloyati)"
+    },
+    {
+      "code": "42",
+      "name": "Fergana Region (Farg'ona viloyati)"
+    },
+    {
+      "code": "43",
+      "name": "Fergana Region (Farg'ona viloyati)"
+    },
+    {
+      "code": "44",
+      "name": "Fergana Region (Farg'ona viloyati)"
+    },
+    {
+      "code": "45",
+      "name": "Fergana Region (Farg'ona viloyati)"
+    },
+    {
+      "code": "46",
+      "name": "Fergana Region (Farg'ona viloyati)"
+    },
+    {
+      "code": "47",
+      "name": "Fergana Region (Farg'ona viloyati)"
+    },
+    {
+      "code": "48",
+      "name": "Fergana Region (Farg'ona viloyati)"
+    },
+    {
+      "code": "49",
+      "name": "Fergana Region (Farg'ona viloyati)"
+    },
+    {
+      "code": "50",
+      "name": "Namangan Region (Namangan viloyati)"
+    },
+    {
+      "code": "51",
+      "name": "Namangan Region (Namangan viloyati)"
+    },
+    {
+      "code": "52",
+      "name": "Namangan Region (Namangan viloyati)"
+    },
+    {
+      "code": "53",
+      "name": "Namangan Region (Namangan viloyati)"
+    },
+    {
+      "code": "54",
+      "name": "Namangan Region (Namangan viloyati)"
+    },
+    {
+      "code": "55",
+      "name": "Namangan Region (Namangan viloyati)"
+    },
+    {
+      "code": "56",
+      "name": "Namangan Region (Namangan viloyati)"
+    },
+    {
+      "code": "57",
+      "name": "Namangan Region (Namangan viloyati)"
+    },
+    {
+      "code": "58",
+      "name": "Namangan Region (Namangan viloyati)"
+    },
+    {
+      "code": "59",
+      "name": "Namangan Region (Namangan viloyati)"
+    },
+    {
+      "code": "60",
+      "name": "Andijan Region (Andijon viloyati)"
+    },
+    {
+      "code": "61",
+      "name": "Andijan Region (Andijon viloyati)"
+    },
+    {
+      "code": "62",
+      "name": "Andijan Region (Andijon viloyati)"
+    },
+    {
+      "code": "63",
+      "name": "Andijan Region (Andijon viloyati)"
+    },
+    {
+      "code": "64",
+      "name": "Andijan Region (Andijon viloyati)"
+    },
+    {
+      "code": "65",
+      "name": "Andijan Region (Andijon viloyati)"
+    },
+    {
+      "code": "66",
+      "name": "Andijan Region (Andijon viloyati)"
+    },
+    {
+      "code": "67",
+      "name": "Andijan Region (Andijon viloyati)"
+    },
+    {
+      "code": "68",
+      "name": "Andijan Region (Andijon viloyati)"
+    },
+    {
+      "code": "69",
+      "name": "Andijan Region (Andijon viloyati)"
+    },
+    {
+      "code": "70",
+      "name": "Qashqadaryo Region (Qashqadaryo viloyati)"
+    },
+    {
+      "code": "71",
+      "name": "Qashqadaryo Region (Qashqadaryo viloyati)"
+    },
+    {
+      "code": "72",
+      "name": "Qashqadaryo Region (Qashqadaryo viloyati)"
+    },
+    {
+      "code": "73",
+      "name": "Qashqadaryo Region (Qashqadaryo viloyati)"
+    },
+    {
+      "code": "74",
+      "name": "Qashqadaryo Region (Qashqadaryo viloyati)"
+    },
+    {
+      "code": "75",
+      "name": "Surxondaryo Region (Surxondaryo viloyati)"
+    },
+    {
+      "code": "76",
+      "name": "Surxondaryo Region (Surxondaryo viloyati)"
+    },
+    {
+      "code": "77",
+      "name": "Surxondaryo Region (Surxondaryo viloyati)"
+    },
+    {
+      "code": "78",
+      "name": "Surxondaryo Region (Surxondaryo viloyati)"
+    },
+    {
+      "code": "79",
+      "name": "Surxondaryo Region (Surxondaryo viloyati)"
+    },
+    {
+      "code": "80",
+      "name": "Bukhara Region (Buxoro viloyati)"
+    },
+    {
+      "code": "81",
+      "name": "Bukhara Region (Buxoro viloyati)"
+    },
+    {
+      "code": "82",
+      "name": "Bukhara Region (Buxoro viloyati)"
+    },
+    {
+      "code": "83",
+      "name": "Bukhara Region (Buxoro viloyati)"
+    },
+    {
+      "code": "84",
+      "name": "Bukhara Region (Buxoro viloyati)"
+    },
+    {
+      "code": "85",
+      "name": "Navoiy Region (Navoiy viloyati)"
+    },
+    {
+      "code": "86",
+      "name": "Navoiy Region (Navoiy viloyati)"
+    },
+    {
+      "code": "87",
+      "name": "Navoiy Region (Navoiy viloyati)"
+    },
+    {
+      "code": "88",
+      "name": "Navoiy Region (Navoiy viloyati)"
+    },
+    {
+      "code": "89",
+      "name": "Navoiy Region (Navoiy viloyati)"
+    },
+    {
+      "code": "90",
+      "name": "Xorazm Region (Xorazm viloyati)"
+    },
+    {
+      "code": "91",
+      "name": "Xorazm Region (Xorazm viloyati)"
+    },
+    {
+      "code": "92",
+      "name": "Xorazm Region (Xorazm viloyati)"
+    },
+    {
+      "code": "93",
+      "name": "Xorazm Region (Xorazm viloyati)"
+    },
+    {
+      "code": "94",
+      "name": "Xorazm Region (Xorazm viloyati)"
+    },
+    {
+      "code": "95",
+      "name": "Republic of Karakalpakstan (Qoraqalpog'iston Respublikasi)"
+    },
+    {
+      "code": "96",
+      "name": "Republic of Karakalpakstan (Qoraqalpog'iston Respublikasi)"
+    },
+    {
+      "code": "97",
+      "name": "Republic of Karakalpakstan (Qoraqalpog'iston Respublikasi)"
+    },
+    {
+      "code": "98",
+      "name": "Republic of Karakalpakstan (Qoraqalpog'iston Respublikasi)"
+    },
+    {
+      "code": "99",
+      "name": "Republic of Karakalpakstan (Qoraqalpog'iston Respublikasi)"
+    }
+  ]
+}

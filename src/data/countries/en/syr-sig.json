@@ -1,66 +1,69 @@
-[
-  {
-    "code": "AFR",
-    "name": "Afrin Local Council (عفرين)"
-  },
-  {
-    "code": "AHT",
-    "name": "Akhtarin Local Council (اخترين)"
-  },
-  {
-    "code": "AZZ",
-    "name": "Azaz Local Council (اعزاز)"
-  },
-  {
-    "code": "BAB",
-    "name": "Al-Bab Local Council (الباب)"
-  },
-  {
-    "code": "BZA",
-    "name": "Bizaah Local Council (بزاعة)"
-  },
-  {
-    "code": "CIN",
-    "name": "Jindires Local Council (جندريس)"
-  },
-  {
-    "code": "ÇBY",
-    "name": "Al-Rai Local Council (الراعي)"
-  },
-  {
-    "code": "GDR",
-    "name": "Ghandoura Local Council (غندورة)"
-  },
-  {
-    "code": "KBS",
-    "name": "Qabasin Local Council (قباسين)"
-  },
-  {
-    "code": "MAB",
-    "name": "Maabatli Local Council (معبطلي)"
-  },
-  {
-    "code": "MRA",
-    "name": "Mare Local Council (مارع)"
-  },
-  {
-    "code": "RAS",
-    "name": "Ras al-Ayn Local Council (رأس العين)"
-  },
-  {
-    "code": "RCU",
-    "name": "Rajo Local Council (راجو)"
-  },
-  {
-    "code": "SRN",
-    "name": "Soran Local Council (صوران)"
-  },
-  {
-    "code": "ŞYH",
-    "name": "Sheikh al-Hadid Local Council (شيخ الحديد)"
-  },
-  {
-    "code": "TEL",
-    "name": "Tell Abyad Local Council (تل أبيض)"
-  }
-]
+{
+  "format": "The regional identifier is shown in Arabic in the governorate text area (the labeled box/section on the plate), separate from the main serial digits.",
+  "entries": [
+    {
+      "code": "AFR",
+      "name": "Afrin Local Council (عفرين)"
+    },
+    {
+      "code": "AHT",
+      "name": "Akhtarin Local Council (اخترين)"
+    },
+    {
+      "code": "AZZ",
+      "name": "Azaz Local Council (اعزاز)"
+    },
+    {
+      "code": "BAB",
+      "name": "Al-Bab Local Council (الباب)"
+    },
+    {
+      "code": "BZA",
+      "name": "Bizaah Local Council (بزاعة)"
+    },
+    {
+      "code": "CIN",
+      "name": "Jindires Local Council (جندريس)"
+    },
+    {
+      "code": "ÇBY",
+      "name": "Al-Rai Local Council (الراعي)"
+    },
+    {
+      "code": "GDR",
+      "name": "Ghandoura Local Council (غندورة)"
+    },
+    {
+      "code": "KBS",
+      "name": "Qabasin Local Council (قباسين)"
+    },
+    {
+      "code": "MAB",
+      "name": "Maabatli Local Council (معبطلي)"
+    },
+    {
+      "code": "MRA",
+      "name": "Mare Local Council (مارع)"
+    },
+    {
+      "code": "RAS",
+      "name": "Ras al-Ayn Local Council (رأس العين)"
+    },
+    {
+      "code": "RCU",
+      "name": "Rajo Local Council (راجو)"
+    },
+    {
+      "code": "SRN",
+      "name": "Soran Local Council (صوران)"
+    },
+    {
+      "code": "ŞYH",
+      "name": "Sheikh al-Hadid Local Council (شيخ الحديد)"
+    },
+    {
+      "code": "TEL",
+      "name": "Tell Abyad Local Council (تل أبيض)"
+    }
+  ]
+}

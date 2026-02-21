@@ -1,206 +1,209 @@
-[
-  {
-    "code": "ALABAMA",
-    "name": "Alabama"
-  },
-  {
-    "code": "ALASKA",
-    "name": "Alaska"
-  },
-  {
-    "code": "ARIZONA",
-    "name": "Arizona"
-  },
-  {
-    "code": "ARKANSAS",
-    "name": "Arkansas"
-  },
-  {
-    "code": "CALIFORNIA",
-    "name": "California"
-  },
-  {
-    "code": "COLORADO",
-    "name": "Colorado"
-  },
-  {
-    "code": "CONNECTICUT",
-    "name": "Connecticut"
-  },
-  {
-    "code": "DELAWARE",
-    "name": "Delaware"
-  },
-  {
-    "code": "DISTRICT OF COLUMBIA",
-    "name": "District of Columbia"
-  },
-  {
-    "code": "FLORIDA",
-    "name": "Florida"
-  },
-  {
-    "code": "GEORGIA",
-    "name": "Georgia"
-  },
-  {
-    "code": "HAWAII",
-    "name": "Hawaii"
-  },
-  {
-    "code": "IDAHO",
-    "name": "Idaho"
-  },
-  {
-    "code": "ILLINOIS",
-    "name": "Illinois"
-  },
-  {
-    "code": "INDIANA",
-    "name": "Indiana"
-  },
-  {
-    "code": "IOWA",
-    "name": "Iowa"
-  },
-  {
-    "code": "KANSAS",
-    "name": "Kansas"
-  },
-  {
-    "code": "KENTUCKY",
-    "name": "Kentucky"
-  },
-  {
-    "code": "LOUISIANA",
-    "name": "Louisiana"
-  },
-  {
-    "code": "MAINE",
-    "name": "Maine"
-  },
-  {
-    "code": "MARYLAND",
-    "name": "Maryland"
-  },
-  {
-    "code": "MASSACHUSETTS",
-    "name": "Massachusetts"
-  },
-  {
-    "code": "MICHIGAN",
-    "name": "Michigan"
-  },
-  {
-    "code": "MINNESOTA",
-    "name": "Minnesota"
-  },
-  {
-    "code": "MISSISSIPPI",
-    "name": "Mississippi"
-  },
-  {
-    "code": "MISSOURI",
-    "name": "Missouri"
-  },
-  {
-    "code": "MONTANA",
-    "name": "Montana"
-  },
-  {
-    "code": "NEBRASKA",
-    "name": "Nebraska"
-  },
-  {
-    "code": "NEVADA",
-    "name": "Nevada"
-  },
-  {
-    "code": "NEW HAMPSHIRE",
-    "name": "New Hampshire"
-  },
-  {
-    "code": "NEW JERSEY",
-    "name": "New Jersey"
-  },
-  {
-    "code": "NEW MEXICO",
-    "name": "New Mexico"
-  },
-  {
-    "code": "NEW YORK",
-    "name": "New York"
-  },
-  {
-    "code": "NORTH CAROLINA",
-    "name": "North Carolina"
-  },
-  {
-    "code": "NORTH DAKOTA",
-    "name": "North Dakota"
-  },
-  {
-    "code": "OHIO",
-    "name": "Ohio"
-  },
-  {
-    "code": "OKLAHOMA",
-    "name": "Oklahoma"
-  },
-  {
-    "code": "OREGON",
-    "name": "Oregon"
-  },
-  {
-    "code": "PENNSYLVANIA",
-    "name": "Pennsylvania"
-  },
-  {
-    "code": "RHODE ISLAND",
-    "name": "Rhode Island"
-  },
-  {
-    "code": "SOUTH CAROLINA",
-    "name": "South Carolina"
-  },
-  {
-    "code": "SOUTH DAKOTA",
-    "name": "South Dakota"
-  },
-  {
-    "code": "TENNESSEE",
-    "name": "Tennessee"
-  },
-  {
-    "code": "TEXAS",
-    "name": "Texas"
-  },
-  {
-    "code": "UTAH",
-    "name": "Utah"
-  },
-  {
-    "code": "VERMONT",
-    "name": "Vermont"
-  },
-  {
-    "code": "VIRGINIA",
-    "name": "Virginia"
-  },
-  {
-    "code": "WASHINGTON",
-    "name": "Washington"
-  },
-  {
-    "code": "WEST VIRGINIA",
-    "name": "West Virginia"
-  },
-  {
-    "code": "WISCONSIN",
-    "name": "Wisconsin"
-  },
-  {
-    "code": "WYOMING",
-    "name": "Wyoming"
-  }
-]
+{
+  "format": "The regional identifier is the issuing state name printed on the plate (typically at the top), while the serial number is separate.",
+  "entries": [
+    {
+      "code": "ALABAMA",
+      "name": "Alabama"
+    },
+    {
+      "code": "ALASKA",
+      "name": "Alaska"
+    },
+    {
+      "code": "ARIZONA",
+      "name": "Arizona"
+    },
+    {
+      "code": "ARKANSAS",
+      "name": "Arkansas"
+    },
+    {
+      "code": "CALIFORNIA",
+      "name": "California"
+    },
+    {
+      "code": "COLORADO",
+      "name": "Colorado"
+    },
+    {
+      "code": "CONNECTICUT",
+      "name": "Connecticut"
+    },
+    {
+      "code": "DELAWARE",
+      "name": "Delaware"
+    },
+    {
+      "code": "DISTRICT OF COLUMBIA",
+      "name": "District of Columbia"
+    },
+    {
+      "code": "FLORIDA",
+      "name": "Florida"
+    },
+    {
+      "code": "GEORGIA",
+      "name": "Georgia"
+    },
+    {
+      "code": "HAWAII",
+      "name": "Hawaii"
+    },
+    {
+      "code": "IDAHO",
+      "name": "Idaho"
+    },
+    {
+      "code": "ILLINOIS",
+      "name": "Illinois"
+    },
+    {
+      "code": "INDIANA",
+      "name": "Indiana"
+    },
+    {
+      "code": "IOWA",
+      "name": "Iowa"
+    },
+    {
+      "code": "KANSAS",
+      "name": "Kansas"
+    },
+    {
+      "code": "KENTUCKY",
+      "name": "Kentucky"
+    },
+    {
+      "code": "LOUISIANA",
+      "name": "Louisiana"
+    },
+    {
+      "code": "MAINE",
+      "name": "Maine"
+    },
+    {
+      "code": "MARYLAND",
+      "name": "Maryland"
+    },
+    {
+      "code": "MASSACHUSETTS",
+      "name": "Massachusetts"
+    },
+    {
+      "code": "MICHIGAN",
+      "name": "Michigan"
+    },
+    {
+      "code": "MINNESOTA",
+      "name": "Minnesota"
+    },
+    {
+      "code": "MISSISSIPPI",
+      "name": "Mississippi"
+    },
+    {
+      "code": "MISSOURI",
+      "name": "Missouri"
+    },
+    {
+      "code": "MONTANA",
+      "name": "Montana"
+    },
+    {
+      "code": "NEBRASKA",
+      "name": "Nebraska"
+    },
+    {
+      "code": "NEVADA",
+      "name": "Nevada"
+    },
+    {
+      "code": "NEW HAMPSHIRE",
+      "name": "New Hampshire"
+    },
+    {
+      "code": "NEW JERSEY",
+      "name": "New Jersey"
+    },
+    {
+      "code": "NEW MEXICO",
+      "name": "New Mexico"
+    },
+    {
+      "code": "NEW YORK",
+      "name": "New York"
+    },
+    {
+      "code": "NORTH CAROLINA",
+      "name": "North Carolina"
+    },
+    {
+      "code": "NORTH DAKOTA",
+      "name": "North Dakota"
+    },
+    {
+      "code": "OHIO",
+      "name": "Ohio"
+    },
+    {
+      "code": "OKLAHOMA",
+      "name": "Oklahoma"
+    },
+    {
+      "code": "OREGON",
+      "name": "Oregon"
+    },
+    {
+      "code": "PENNSYLVANIA",
+      "name": "Pennsylvania"
+    },
+    {
+      "code": "RHODE ISLAND",
+      "name": "Rhode Island"
+    },
+    {
+      "code": "SOUTH CAROLINA",
+      "name": "South Carolina"
+    },
+    {
+      "code": "SOUTH DAKOTA",
+      "name": "South Dakota"
+    },
+    {
+      "code": "TENNESSEE",
+      "name": "Tennessee"
+    },
+    {
+      "code": "TEXAS",
+      "name": "Texas"
+    },
+    {
+      "code": "UTAH",
+      "name": "Utah"
+    },
+    {
+      "code": "VERMONT",
+      "name": "Vermont"
+    },
+    {
+      "code": "VIRGINIA",
+      "name": "Virginia"
+    },
+    {
+      "code": "WASHINGTON",
+      "name": "Washington"
+    },
+    {
+      "code": "WEST VIRGINIA",
+      "name": "West Virginia"
+    },
+    {
+      "code": "WISCONSIN",
+      "name": "Wisconsin"
+    },
+    {
+      "code": "WYOMING",
+      "name": "Wyoming"
+    }
+  ]
+}

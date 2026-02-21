@@ -1,38 +1,41 @@
-[
-  {
-    "code": "DRK",
-    "name": "Al-Malikiyah (Derik) District (ديرك)"
-  },
-  {
-    "code": "DRZ",
-    "name": "Deir ez-Zor Region (دير الزور)"
-  },
-  {
-    "code": "EFR",
-    "name": "Afrin Region (عفرين)"
-  },
-  {
-    "code": "HSK",
-    "name": "Al-Hasakah District (الحسكة)"
-  },
-  {
-    "code": "KBN",
-    "name": "Kobani Region (كوباني)"
-  },
-  {
-    "code": "MNB",
-    "name": "Manbij Region (منبج)"
-  },
-  {
-    "code": "QMŞ",
-    "name": "Qamishli District (قامشلو)"
-  },
-  {
-    "code": "RQE",
-    "name": "Raqqa Region (الرقة)"
-  },
-  {
-    "code": "TBQ",
-    "name": "Tabqa Region (الطبقة)"
-  }
-]
+{
+  "format": "The regional identifier is shown in Arabic in the governorate text area (the labeled box/section on the plate), separate from the main serial digits.",
+  "entries": [
+    {
+      "code": "DRK",
+      "name": "Al-Malikiyah (Derik) District (ديرك)"
+    },
+    {
+      "code": "DRZ",
+      "name": "Deir ez-Zor Region (دير الزور)"
+    },
+    {
+      "code": "EFR",
+      "name": "Afrin Region (عفرين)"
+    },
+    {
+      "code": "HSK",
+      "name": "Al-Hasakah District (الحسكة)"
+    },
+    {
+      "code": "KBN",
+      "name": "Kobani Region (كوباني)"
+    },
+    {
+      "code": "MNB",
+      "name": "Manbij Region (منبج)"
+    },
+    {
+      "code": "QMŞ",
+      "name": "Qamishli District (قامشلو)"
+    },
+    {
+      "code": "RQE",
+      "name": "Raqqa Region (الرقة)"
+    },
+    {
+      "code": "TBQ",
+      "name": "Tabqa Region (الطبقة)"
+    }
+  ]
+}

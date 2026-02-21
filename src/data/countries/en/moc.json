@@ -1,46 +1,49 @@
-[
-  {
-    "code": "CA",
-    "name": "Cabo Delgado (Província de Cabo Delgado)"
-  },
-  {
-    "code": "GZ",
-    "name": "Gaza (Província de Gaza)"
-  },
-  {
-    "code": "IB",
-    "name": "Inhambane (Província de Inhambane)"
-  },
-  {
-    "code": "MC",
-    "name": "Maputo City (Cidade de Maputo)"
-  },
-  {
-    "code": "MP",
-    "name": "Maputo Province (Província de Maputo)"
-  },
-  {
-    "code": "MN",
-    "name": "Manica (Província de Manica)"
-  },
-  {
-    "code": "NP",
-    "name": "Nampula (Província de Nampula)"
-  },
-  {
-    "code": "NS",
-    "name": "Niassa (Província de Niassa)"
-  },
-  {
-    "code": "SF",
-    "name": "Sofala (Província de Sofala)"
-  },
-  {
-    "code": "TT",
-    "name": "Tete (Província de Tete)"
-  },
-  {
-    "code": "ZB",
-    "name": "Zambezia (Zambézia, Província da Zambézia)"
-  }
-]
+{
+  "format": "The regional identifier is the two-letter suffix at the end of the plate, after the main serial letters and digits (Format: ABC 123 DE).",
+  "entries": [
+    {
+      "code": "CA",
+      "name": "Cabo Delgado (Província de Cabo Delgado)"
+    },
+    {
+      "code": "GZ",
+      "name": "Gaza (Província de Gaza)"
+    },
+    {
+      "code": "IB",
+      "name": "Inhambane (Província de Inhambane)"
+    },
+    {
+      "code": "MC",
+      "name": "Maputo City (Cidade de Maputo)"
+    },
+    {
+      "code": "MP",
+      "name": "Maputo Province (Província de Maputo)"
+    },
+    {
+      "code": "MN",
+      "name": "Manica (Província de Manica)"
+    },
+    {
+      "code": "NP",
+      "name": "Nampula (Província de Nampula)"
+    },
+    {
+      "code": "NS",
+      "name": "Niassa (Província de Niassa)"
+    },
+    {
+      "code": "SF",
+      "name": "Sofala (Província de Sofala)"
+    },
+    {
+      "code": "TT",
+      "name": "Tete (Província de Tete)"
+    },
+    {
+      "code": "ZB",
+      "name": "Zambezia (Zambézia, Província da Zambézia)"
+    }
+  ]
+}

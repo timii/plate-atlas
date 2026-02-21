@@ -1,30 +1,33 @@
-[
-  {
-    "code": "KOSHI",
-    "name": "Koshi Province (कोशी प्रदेश)"
-  },
-  {
-    "code": "MADHESH",
-    "name": "Madhesh Province (मधेश प्रदेश)"
-  },
-  {
-    "code": "BAGMATI",
-    "name": "Bagmati Province (बागमती प्रदेश)"
-  },
-  {
-    "code": "GANDAKI",
-    "name": "Gandaki Province (गण्डकी प्रदेश)"
-  },
-  {
-    "code": "LUMBINI",
-    "name": "Lumbini Province (लुम्बिनी प्रदेश)"
-  },
-  {
-    "code": "KARNALI",
-    "name": "Karnali Province (कर्णाली प्रदेश)"
-  },
-  {
-    "code": "SUDURPASHCHIM",
-    "name": "Sudurpashchim Province (सुदूरपश्चिम प्रदेश)"
-  }
-]
+{
+  "format": "The regional identifier is shown in the province/office code area (prefix part before or above the main serial number, depending on plate type), separate from the serial digits.",
+  "entries": [
+    {
+      "code": "KOSHI",
+      "name": "Koshi Province (कोशी प्रदेश)"
+    },
+    {
+      "code": "MADHESH",
+      "name": "Madhesh Province (मधेश प्रदेश)"
+    },
+    {
+      "code": "BAGMATI",
+      "name": "Bagmati Province (बागमती प्रदेश)"
+    },
+    {
+      "code": "GANDAKI",
+      "name": "Gandaki Province (गण्डकी प्रदेश)"
+    },
+    {
+      "code": "LUMBINI",
+      "name": "Lumbini Province (लुम्बिनी प्रदेश)"
+    },
+    {
+      "code": "KARNALI",
+      "name": "Karnali Province (कर्णाली प्रदेश)"
+    },
+    {
+      "code": "SUDURPASHCHIM",
+      "name": "Sudurpashchim Province (सुदूरपश्चिम प्रदेश)"
+    }
+  ]
+}

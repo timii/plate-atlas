@@ -1,86 +1,89 @@
-[
-  {
-    "code": "B",
-    "name": "National Capital District (Port Moresby)"
-  },
-  {
-    "code": "C",
-    "name": "Central Province"
-  },
-  {
-    "code": "D",
-    "name": "Western (Fly) Province"
-  },
-  {
-    "code": "E",
-    "name": "Eastern Highlands Province"
-  },
-  {
-    "code": "F",
-    "name": "Milne Bay Province"
-  },
-  {
-    "code": "G",
-    "name": "Gulf Province"
-  },
-  {
-    "code": "H",
-    "name": "Highlands Region"
-  },
-  {
-    "code": "I",
-    "name": "Chimbu (Simbu) Province"
-  },
-  {
-    "code": "J",
-    "name": "Manus Province"
-  },
-  {
-    "code": "JWK",
-    "name": "Jiwaka Province"
-  },
-  {
-    "code": "K",
-    "name": "West New Britain Province"
-  },
-  {
-    "code": "L",
-    "name": "Morobe Province"
-  },
-  {
-    "code": "M",
-    "name": "Madang Province"
-  },
-  {
-    "code": "N",
-    "name": "New Ireland Province"
-  },
-  {
-    "code": "O",
-    "name": "Oro Province"
-  },
-  {
-    "code": "R",
-    "name": "East New Britain Province"
-  },
-  {
-    "code": "S",
-    "name": "Southern Highlands Province"
-  },
-  {
-    "code": "T",
-    "name": "Hela Province"
-  },
-  {
-    "code": "U",
-    "name": "Autonomous Region of Bougainville"
-  },
-  {
-    "code": "V",
-    "name": "Sandaun (West Sepik) Province"
-  },
-  {
-    "code": "W",
-    "name": "East Sepik (Wewak)"
-  }
-]
+{
+  "format": "The regional identifier is the leading code prefix at the beginning of the plate serial (Format: MAE-123).",
+  "entries": [
+    {
+      "code": "B",
+      "name": "National Capital District (Port Moresby)"
+    },
+    {
+      "code": "C",
+      "name": "Central Province"
+    },
+    {
+      "code": "D",
+      "name": "Western (Fly) Province"
+    },
+    {
+      "code": "E",
+      "name": "Eastern Highlands Province"
+    },
+    {
+      "code": "F",
+      "name": "Milne Bay Province"
+    },
+    {
+      "code": "G",
+      "name": "Gulf Province"
+    },
+    {
+      "code": "H",
+      "name": "Highlands Region"
+    },
+    {
+      "code": "I",
+      "name": "Chimbu (Simbu) Province"
+    },
+    {
+      "code": "J",
+      "name": "Manus Province"
+    },
+    {
+      "code": "JWK",
+      "name": "Jiwaka Province"
+    },
+    {
+      "code": "K",
+      "name": "West New Britain Province"
+    },
+    {
+      "code": "L",
+      "name": "Morobe Province"
+    },
+    {
+      "code": "M",
+      "name": "Madang Province"
+    },
+    {
+      "code": "N",
+      "name": "New Ireland Province"
+    },
+    {
+      "code": "O",
+      "name": "Oro Province"
+    },
+    {
+      "code": "R",
+      "name": "East New Britain Province"
+    },
+    {
+      "code": "S",
+      "name": "Southern Highlands Province"
+    },
+    {
+      "code": "T",
+      "name": "Hela Province"
+    },
+    {
+      "code": "U",
+      "name": "Autonomous Region of Bougainville"
+    },
+    {
+      "code": "V",
+      "name": "Sandaun (West Sepik) Province"
+    },
+    {
+      "code": "W",
+      "name": "East Sepik (Wewak)"
+    }
+  ]
+}

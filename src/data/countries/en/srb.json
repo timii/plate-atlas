@@ -1,298 +1,301 @@
-[
-  {
-    "code": "AL",
-    "name": "Aleksinac (Алексинац)"
-  },
-  {
-    "code": "AR",
-    "name": "Aranđelovac (Аранђеловац)"
-  },
-  {
-    "code": "AC",
-    "name": "Aleksandrovac (Александровац)"
-  },
-  {
-    "code": "BB",
-    "name": "Bajina Bašta (Бајина Башта)"
-  },
-  {
-    "code": "BG",
-    "name": "Belgrade (Београд)"
-  },
-  {
-    "code": "BO",
-    "name": "Bor (Бор)"
-  },
-  {
-    "code": "BP",
-    "name": "Bačka Palanka (Бачка Паланка)"
-  },
-  {
-    "code": "BT",
-    "name": "Bačka Topola (Бачка Топола)"
-  },
-  {
-    "code": "BĆ",
-    "name": "Bogatić (Богатић)"
-  },
-  {
-    "code": "BU",
-    "name": "Bujanovac (Бујановац)"
-  },
-  {
-    "code": "BČ",
-    "name": "Bečej (Бечеј)"
-  },
-  {
-    "code": "VA",
-    "name": "Valjevo (Ваљево)"
-  },
-  {
-    "code": "VB",
-    "name": "Vrnjačka Banja (Врњачка Бања)"
-  },
-  {
-    "code": "VL",
-    "name": "Vlasotince (Власотинце)"
-  },
-  {
-    "code": "VP",
-    "name": "Velika Plana (Велика Плана)"
-  },
-  {
-    "code": "VR",
-    "name": "Vranje (Врање)"
-  },
-  {
-    "code": "VS",
-    "name": "Vrbas (Врбас)"
-  },
-  {
-    "code": "VŠ",
-    "name": "Vršac (Вршац)"
-  },
-  {
-    "code": "GM",
-    "name": "Gornji Milanovac (Горњи Милановац)"
-  },
-  {
-    "code": "DE",
-    "name": "Despotovac (Деспотовац)"
-  },
-  {
-    "code": "ZA",
-    "name": "Zaječar (Зајечар)"
-  },
-  {
-    "code": "ZR",
-    "name": "Zrenjanin (Зрењанин)"
-  },
-  {
-    "code": "IN",
-    "name": "Inđija (Инђија)"
-  },
-  {
-    "code": "IC",
-    "name": "Ivanjica (Ивањица)"
-  },
-  {
-    "code": "JA",
-    "name": "Jagodina (Јагодина)"
-  },
-  {
-    "code": "KA",
-    "name": "Kanjiža (Кањижа)"
-  },
-  {
-    "code": "KC",
-    "name": "Koceljeva (Коцељева)"
-  },
-  {
-    "code": "KV",
-    "name": "Kraljevo (Краљево)"
-  },
-  {
-    "code": "KG",
-    "name": "Kragujevac (Крагујевац)"
-  },
-  {
-    "code": "KŽ",
-    "name": "Knjaževac (Књажевац)"
-  },
-  {
-    "code": "KI",
-    "name": "Kikinda (Кикинда)"
-  },
-  {
-    "code": "KL",
-    "name": "Kladovo (Кладово)"
-  },
-  {
-    "code": "KO",
-    "name": "Kovin (Ковин)"
-  },
-  {
-    "code": "KU",
-    "name": "Kula (Кула)"
-  },
-  {
-    "code": "KŠ",
-    "name": "Kruševac (Крушевац)"
-  },
-  {
-    "code": "LB",
-    "name": "Lebane (Лебане)"
-  },
-  {
-    "code": "LE",
-    "name": "Leskovac (Лесковац)"
-  },
-  {
-    "code": "LO",
-    "name": "Loznica (Лозница)"
-  },
-  {
-    "code": "LU",
-    "name": "Lučani (Лучани)"
-  },
-  {
-    "code": "NV",
-    "name": "Nova Varoš (Нова Варош)"
-  },
-  {
-    "code": "NG",
-    "name": "Negotin (Неготин)"
-  },
-  {
-    "code": "NI",
-    "name": "Niš (Ниш)"
-  },
-  {
-    "code": "NP",
-    "name": "Novi Pazar (Нови Пазар)"
-  },
-  {
-    "code": "NS",
-    "name": "Novi Sad (Нови Сад)"
-  },
-  {
-    "code": "PA",
-    "name": "Pančevo (Панчево)"
-  },
-  {
-    "code": "PB",
-    "name": "Priboj (Прибој)"
-  },
-  {
-    "code": "PŽ",
-    "name": "Požega (Пожега)"
-  },
-  {
-    "code": "PI",
-    "name": "Pirot (Пирот)"
-  },
-  {
-    "code": "PK",
-    "name": "Prokuplje (Прокупље)"
-  },
-  {
-    "code": "PN",
-    "name": "Paraćin (Параћин)"
-  },
-  {
-    "code": "PO",
-    "name": "Požarevac (Пожаревац)"
-  },
-  {
-    "code": "PP",
-    "name": "Prijepolje (Пријепоље)"
-  },
-  {
-    "code": "PT",
-    "name": "Petrovac (Петровац)"
-  },
-  {
-    "code": "RA",
-    "name": "Raška (Рашка)"
-  },
-  {
-    "code": "RU",
-    "name": "Ruma (Рума)"
-  },
-  {
-    "code": "SA",
-    "name": "Senta (Сента)"
-  },
-  {
-    "code": "SM",
-    "name": "Sremska Mitrovica (Сремска Митровица)"
-  },
-  {
-    "code": "SV",
-    "name": "Svilajnac (Свилајнац)"
-  },
-  {
-    "code": "SD",
-    "name": "Smederevo (Смедерево)"
-  },
-  {
-    "code": "SJ",
-    "name": "Sjenica (Сјеница)"
-  },
-  {
-    "code": "SO",
-    "name": "Sombor (Сомбор)"
-  },
-  {
-    "code": "SP",
-    "name": "Smederevska Palanka (Смедеревска Паланка)"
-  },
-  {
-    "code": "ST",
-    "name": "Stara Pazova (Стара Пазова)"
-  },
-  {
-    "code": "SU",
-    "name": "Subotica (Суботица)"
-  },
-  {
-    "code": "SC",
-    "name": "Surdulica (Сурдулица)"
-  },
-  {
-    "code": "TO",
-    "name": "Topola (Топола)"
-  },
-  {
-    "code": "TS",
-    "name": "Trstenik (Трстеник)"
-  },
-  {
-    "code": "TT",
-    "name": "Tutin (Тутин)"
-  },
-  {
-    "code": "ĆU",
-    "name": "Ćuprija (Ћуприја)"
-  },
-  {
-    "code": "UB",
-    "name": "Ub (Уб)"
-  },
-  {
-    "code": "UE",
-    "name": "Užice (Ужице)"
-  },
-  {
-    "code": "ČA",
-    "name": "Čačak (Чачак)"
-  },
-  {
-    "code": "ŠA",
-    "name": "Šabac (Шабац)"
-  },
-  {
-    "code": "ŠI",
-    "name": "Šid (Шид)"
-  }
-]
+{
+  "format": "The regional identifier is the two-letter area code at the beginning of the plate, with the corresponding Cyrillic area code shown below the Serbian cross shield in the center (Format: BG 123-AB or BG 1234-AB).",
+  "entries": [
+    {
+      "code": "AL",
+      "name": "Aleksinac (Алексинац)"
+    },
+    {
+      "code": "AR",
+      "name": "Aranđelovac (Аранђеловац)"
+    },
+    {
+      "code": "AC",
+      "name": "Aleksandrovac (Александровац)"
+    },
+    {
+      "code": "BB",
+      "name": "Bajina Bašta (Бајина Башта)"
+    },
+    {
+      "code": "BG",
+      "name": "Belgrade (Београд)"
+    },
+    {
+      "code": "BO",
+      "name": "Bor (Бор)"
+    },
+    {
+      "code": "BP",
+      "name": "Bačka Palanka (Бачка Паланка)"
+    },
+    {
+      "code": "BT",
+      "name": "Bačka Topola (Бачка Топола)"
+    },
+    {
+      "code": "BĆ",
+      "name": "Bogatić (Богатић)"
+    },
+    {
+      "code": "BU",
+      "name": "Bujanovac (Бујановац)"
+    },
+    {
+      "code": "BČ",
+      "name": "Bečej (Бечеј)"
+    },
+    {
+      "code": "VA",
+      "name": "Valjevo (Ваљево)"
+    },
+    {
+      "code": "VB",
+      "name": "Vrnjačka Banja (Врњачка Бања)"
+    },
+    {
+      "code": "VL",
+      "name": "Vlasotince (Власотинце)"
+    },
+    {
+      "code": "VP",
+      "name": "Velika Plana (Велика Плана)"
+    },
+    {
+      "code": "VR",
+      "name": "Vranje (Врање)"
+    },
+    {
+      "code": "VS",
+      "name": "Vrbas (Врбас)"
+    },
+    {
+      "code": "VŠ",
+      "name": "Vršac (Вршац)"
+    },
+    {
+      "code": "GM",
+      "name": "Gornji Milanovac (Горњи Милановац)"
+    },
+    {
+      "code": "DE",
+      "name": "Despotovac (Деспотовац)"
+    },
+    {
+      "code": "ZA",
+      "name": "Zaječar (Зајечар)"
+    },
+    {
+      "code": "ZR",
+      "name": "Zrenjanin (Зрењанин)"
+    },
+    {
+      "code": "IN",
+      "name": "Inđija (Инђија)"
+    },
+    {
+      "code": "IC",
+      "name": "Ivanjica (Ивањица)"
+    },
+    {
+      "code": "JA",
+      "name": "Jagodina (Јагодина)"
+    },
+    {
+      "code": "KA",
+      "name": "Kanjiža (Кањижа)"
+    },
+    {
+      "code": "KC",
+      "name": "Koceljeva (Коцељева)"
+    },
+    {
+      "code": "KV",
+      "name": "Kraljevo (Краљево)"
+    },
+    {
+      "code": "KG",
+      "name": "Kragujevac (Крагујевац)"
+    },
+    {
+      "code": "KŽ",
+      "name": "Knjaževac (Књажевац)"
+    },
+    {
+      "code": "KI",
+      "name": "Kikinda (Кикинда)"
+    },
+    {
+      "code": "KL",
+      "name": "Kladovo (Кладово)"
+    },
+    {
+      "code": "KO",
+      "name": "Kovin (Ковин)"
+    },
+    {
+      "code": "KU",
+      "name": "Kula (Кула)"
+    },
+    {
+      "code": "KŠ",
+      "name": "Kruševac (Крушевац)"
+    },
+    {
+      "code": "LB",
+      "name": "Lebane (Лебане)"
+    },
+    {
+      "code": "LE",
+      "name": "Leskovac (Лесковац)"
+    },
+    {
+      "code": "LO",
+      "name": "Loznica (Лозница)"
+    },
+    {
+      "code": "LU",
+      "name": "Lučani (Лучани)"
+    },
+    {
+      "code": "NV",
+      "name": "Nova Varoš (Нова Варош)"
+    },
+    {
+      "code": "NG",
+      "name": "Negotin (Неготин)"
+    },
+    {
+      "code": "NI",
+      "name": "Niš (Ниш)"
+    },
+    {
+      "code": "NP",
+      "name": "Novi Pazar (Нови Пазар)"
+    },
+    {
+      "code": "NS",
+      "name": "Novi Sad (Нови Сад)"
+    },
+    {
+      "code": "PA",
+      "name": "Pančevo (Панчево)"
+    },
+    {
+      "code": "PB",
+      "name": "Priboj (Прибој)"
+    },
+    {
+      "code": "PŽ",
+      "name": "Požega (Пожега)"
+    },
+    {
+      "code": "PI",
+      "name": "Pirot (Пирот)"
+    },
+    {
+      "code": "PK",
+      "name": "Prokuplje (Прокупље)"
+    },
+    {
+      "code": "PN",
+      "name": "Paraćin (Параћин)"
+    },
+    {
+      "code": "PO",
+      "name": "Požarevac (Пожаревац)"
+    },
+    {
+      "code": "PP",
+      "name": "Prijepolje (Пријепоље)"
+    },
+    {
+      "code": "PT",
+      "name": "Petrovac (Петровац)"
+    },
+    {
+      "code": "RA",
+      "name": "Raška (Рашка)"
+    },
+    {
+      "code": "RU",
+      "name": "Ruma (Рума)"
+    },
+    {
+      "code": "SA",
+      "name": "Senta (Сента)"
+    },
+    {
+      "code": "SM",
+      "name": "Sremska Mitrovica (Сремска Митровица)"
+    },
+    {
+      "code": "SV",
+      "name": "Svilajnac (Свилајнац)"
+    },
+    {
+      "code": "SD",
+      "name": "Smederevo (Смедерево)"
+    },
+    {
+      "code": "SJ",
+      "name": "Sjenica (Сјеница)"
+    },
+    {
+      "code": "SO",
+      "name": "Sombor (Сомбор)"
+    },
+    {
+      "code": "SP",
+      "name": "Smederevska Palanka (Смедеревска Паланка)"
+    },
+    {
+      "code": "ST",
+      "name": "Stara Pazova (Стара Пазова)"
+    },
+    {
+      "code": "SU",
+      "name": "Subotica (Суботица)"
+    },
+    {
+      "code": "SC",
+      "name": "Surdulica (Сурдулица)"
+    },
+    {
+      "code": "TO",
+      "name": "Topola (Топола)"
+    },
+    {
+      "code": "TS",
+      "name": "Trstenik (Трстеник)"
+    },
+    {
+      "code": "TT",
+      "name": "Tutin (Тутин)"
+    },
+    {
+      "code": "ĆU",
+      "name": "Ćuprija (Ћуприја)"
+    },
+    {
+      "code": "UB",
+      "name": "Ub (Уб)"
+    },
+    {
+      "code": "UE",
+      "name": "Užice (Ужице)"
+    },
+    {
+      "code": "ČA",
+      "name": "Čačak (Чачак)"
+    },
+    {
+      "code": "ŠA",
+      "name": "Šabac (Шабац)"
+    },
+    {
+      "code": "ŠI",
+      "name": "Šid (Шид)"
+    }
+  ]
+}

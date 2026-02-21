@@ -1,46 +1,49 @@
-[
-  {
-    "code": "A",
-    "name": "Saint Andrew (Parish of Saint Andrew)"
-  },
-  {
-    "code": "E",
-    "name": "Saint Peter (Parish of Saint Peter)"
-  },
-  {
-    "code": "G",
-    "name": "Saint George (Parish of Saint George)"
-  },
-  {
-    "code": "J",
-    "name": "Saint John (Parish of Saint John)"
-  },
-  {
-    "code": "L",
-    "name": "Saint Lucy (Parish of Saint Lucy)"
-  },
-  {
-    "code": "M",
-    "name": "Saint Michael (Parish of Saint Michael)"
-  },
-  {
-    "code": "O",
-    "name": "Saint Joseph (Parish of Saint Joseph)"
-  },
-  {
-    "code": "P",
-    "name": "Saint Philip (Parish of Saint Philip)"
-  },
-  {
-    "code": "S",
-    "name": "Saint James (Parish of Saint James)"
-  },
-  {
-    "code": "T",
-    "name": "Saint Thomas (Parish of Saint Thomas)"
-  },
-  {
-    "code": "X",
-    "name": "Christ Church (Parish of Christ Church)"
-  }
-]
+{
+  "format": "The regional identifier is the leading code prefix at the beginning of the plate serial.",
+  "entries": [
+    {
+      "code": "A",
+      "name": "Saint Andrew (Parish of Saint Andrew)"
+    },
+    {
+      "code": "E",
+      "name": "Saint Peter (Parish of Saint Peter)"
+    },
+    {
+      "code": "G",
+      "name": "Saint George (Parish of Saint George)"
+    },
+    {
+      "code": "J",
+      "name": "Saint John (Parish of Saint John)"
+    },
+    {
+      "code": "L",
+      "name": "Saint Lucy (Parish of Saint Lucy)"
+    },
+    {
+      "code": "M",
+      "name": "Saint Michael (Parish of Saint Michael)"
+    },
+    {
+      "code": "O",
+      "name": "Saint Joseph (Parish of Saint Joseph)"
+    },
+    {
+      "code": "P",
+      "name": "Saint Philip (Parish of Saint Philip)"
+    },
+    {
+      "code": "S",
+      "name": "Saint James (Parish of Saint James)"
+    },
+    {
+      "code": "T",
+      "name": "Saint Thomas (Parish of Saint Thomas)"
+    },
+    {
+      "code": "X",
+      "name": "Christ Church (Parish of Christ Church)"
+    }
+  ]
+}

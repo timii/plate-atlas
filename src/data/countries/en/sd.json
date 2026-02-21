@@ -1,18 +1,21 @@
-[
-  {
-    "code": "H",
-    "name": "Hhohho Region"
-  },
-  {
-    "code": "L",
-    "name": "Lubombo Region"
-  },
-  {
-    "code": "M",
-    "name": "Manzini Region"
-  },
-  {
-    "code": "S",
-    "name": "Shiselweni Region"
-  }
-]
+{
+  "format": "The regional identifier is the last letter of the final two-letter block, which marks the registration region (ABC 123 DE).",
+  "entries": [
+    {
+      "code": "H",
+      "name": "Hhohho Region"
+    },
+    {
+      "code": "L",
+      "name": "Lubombo Region"
+    },
+    {
+      "code": "M",
+      "name": "Manzini Region"
+    },
+    {
+      "code": "S",
+      "name": "Shiselweni Region"
+    }
+  ]
+}

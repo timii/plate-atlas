@@ -1,26 +1,29 @@
-[
-  {
-    "code": "A",
-    "name": "Toamasina Province (Faritanin'i Toamasina)"
-  },
-  {
-    "code": "D",
-    "name": "Antsiranana Province (Faritanin'Antsiranana)"
-  },
-  {
-    "code": "F",
-    "name": "Fianarantsoa Province (Faritanin'i Fianarantsoa)"
-  },
-  {
-    "code": "M",
-    "name": "Mahajanga Province (Faritanin'i Mahajanga)"
-  },
-  {
-    "code": "T",
-    "name": "Antananarivo Province (Faritanin'Antananarivo)"
-  },
-  {
-    "code": "U",
-    "name": "Toliara Province (Faritanin'i Toliara)"
-  }
-]
+{
+  "format": "The regional identifier is the first letter after the four digits, followed by two serial letters (Format: 1234 XAB).",
+  "entries": [
+    {
+      "code": "A",
+      "name": "Toamasina Province (Faritanin'i Toamasina)"
+    },
+    {
+      "code": "D",
+      "name": "Antsiranana Province (Faritanin'Antsiranana)"
+    },
+    {
+      "code": "F",
+      "name": "Fianarantsoa Province (Faritanin'i Fianarantsoa)"
+    },
+    {
+      "code": "M",
+      "name": "Mahajanga Province (Faritanin'i Mahajanga)"
+    },
+    {
+      "code": "T",
+      "name": "Antananarivo Province (Faritanin'Antananarivo)"
+    },
+    {
+      "code": "U",
+      "name": "Toliara Province (Faritanin'i Toliara)"
+    }
+  ]
+}

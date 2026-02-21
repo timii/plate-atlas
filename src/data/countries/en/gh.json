@@ -1,142 +1,145 @@
-[
-  {
-    "code": "AC",
-    "name": "Ashanti Region"
-  },
-  {
-    "code": "AE",
-    "name": "Ashanti Region"
-  },
-  {
-    "code": "AK",
-    "name": "Ashanti Region"
-  },
-  {
-    "code": "AP",
-    "name": "Ashanti Region"
-  },
-  {
-    "code": "AS",
-    "name": "Ashanti Region"
-  },
-  {
-    "code": "AW",
-    "name": "Ashanti Region"
-  },
-  {
-    "code": "BA",
-    "name": "Bono Region"
-  },
-  {
-    "code": "BR",
-    "name": "Bono Region"
-  },
-  {
-    "code": "BT",
-    "name": "Bono East Region"
-  },
-  {
-    "code": "BW",
-    "name": "Bono Region"
-  },
-  {
-    "code": "CR",
-    "name": "Central Region"
-  },
-  {
-    "code": "EN",
-    "name": "Eastern Region"
-  },
-  {
-    "code": "ER",
-    "name": "Eastern Region"
-  },
-  {
-    "code": "ES",
-    "name": "Eastern Region"
-  },
-  {
-    "code": "GB",
-    "name": "Greater Accra Region"
-  },
-  {
-    "code": "GC",
-    "name": "Greater Accra Region"
-  },
-  {
-    "code": "GE",
-    "name": "Greater Accra Region"
-  },
-  {
-    "code": "GG",
-    "name": "Greater Accra Region"
-  },
-  {
-    "code": "GH",
-    "name": "Greater Accra Region"
-  },
-  {
-    "code": "GL",
-    "name": "Greater Accra Region"
-  },
-  {
-    "code": "GM",
-    "name": "Greater Accra Region"
-  },
-  {
-    "code": "GN",
-    "name": "Greater Accra Region"
-  },
-  {
-    "code": "GS",
-    "name": "Greater Accra Region"
-  },
-  {
-    "code": "GT",
-    "name": "Greater Accra Region"
-  },
-  {
-    "code": "GW",
-    "name": "Greater Accra Region"
-  },
-  {
-    "code": "GX",
-    "name": "Greater Accra Region"
-  },
-  {
-    "code": "GY",
-    "name": "Greater Accra Region"
-  },
-  {
-    "code": "NR",
-    "name": "Northern Region"
-  },
-  {
-    "code": "UE",
-    "name": "Upper East Region"
-  },
-  {
-    "code": "UW",
-    "name": "Upper West Region"
-  },
-  {
-    "code": "VA",
-    "name": "Volta Region"
-  },
-  {
-    "code": "VD",
-    "name": "Volta Region"
-  },
-  {
-    "code": "VR",
-    "name": "Volta Region"
-  },
-  {
-    "code": "WR",
-    "name": "Western Region"
-  },
-  {
-    "code": "WT",
-    "name": "Western Region"
-  }
-]
+{
+  "format": "The regional identifier is the leading code prefix at the beginning of the plate serial, followed by a four-digit numeric and two-digit year code (Format: AB 1234-CD).",
+  "entries": [
+    {
+      "code": "AC",
+      "name": "Ashanti Region"
+    },
+    {
+      "code": "AE",
+      "name": "Ashanti Region"
+    },
+    {
+      "code": "AK",
+      "name": "Ashanti Region"
+    },
+    {
+      "code": "AP",
+      "name": "Ashanti Region"
+    },
+    {
+      "code": "AS",
+      "name": "Ashanti Region"
+    },
+    {
+      "code": "AW",
+      "name": "Ashanti Region"
+    },
+    {
+      "code": "BA",
+      "name": "Bono Region"
+    },
+    {
+      "code": "BR",
+      "name": "Bono Region"
+    },
+    {
+      "code": "BT",
+      "name": "Bono East Region"
+    },
+    {
+      "code": "BW",
+      "name": "Bono Region"
+    },
+    {
+      "code": "CR",
+      "name": "Central Region"
+    },
+    {
+      "code": "EN",
+      "name": "Eastern Region"
+    },
+    {
+      "code": "ER",
+      "name": "Eastern Region"
+    },
+    {
+      "code": "ES",
+      "name": "Eastern Region"
+    },
+    {
+      "code": "GB",
+      "name": "Greater Accra Region"
+    },
+    {
+      "code": "GC",
+      "name": "Greater Accra Region"
+    },
+    {
+      "code": "GE",
+      "name": "Greater Accra Region"
+    },
+    {
+      "code": "GG",
+      "name": "Greater Accra Region"
+    },
+    {
+      "code": "GH",
+      "name": "Greater Accra Region"
+    },
+    {
+      "code": "GL",
+      "name": "Greater Accra Region"
+    },
+    {
+      "code": "GM",
+      "name": "Greater Accra Region"
+    },
+    {
+      "code": "GN",
+      "name": "Greater Accra Region"
+    },
+    {
+      "code": "GS",
+      "name": "Greater Accra Region"
+    },
+    {
+      "code": "GT",
+      "name": "Greater Accra Region"
+    },
+    {
+      "code": "GW",
+      "name": "Greater Accra Region"
+    },
+    {
+      "code": "GX",
+      "name": "Greater Accra Region"
+    },
+    {
+      "code": "GY",
+      "name": "Greater Accra Region"
+    },
+    {
+      "code": "NR",
+      "name": "Northern Region"
+    },
+    {
+      "code": "UE",
+      "name": "Upper East Region"
+    },
+    {
+      "code": "UW",
+      "name": "Upper West Region"
+    },
+    {
+      "code": "VA",
+      "name": "Volta Region"
+    },
+    {
+      "code": "VD",
+      "name": "Volta Region"
+    },
+    {
+      "code": "VR",
+      "name": "Volta Region"
+    },
+    {
+      "code": "WR",
+      "name": "Western Region"
+    },
+    {
+      "code": "WT",
+      "name": "Western Region"
+    }
+  ]
+}

@@ -1,58 +1,61 @@
-[
-  {
-    "code": "A",
-    "name": "Prague (Praha)"
-  },
-  {
-    "code": "B",
-    "name": "South Moravia (Jihomoravský kraj)"
-  },
-  {
-    "code": "C",
-    "name": "South Bohemia (Jihočeský kraj)"
-  },
-  {
-    "code": "E",
-    "name": "Pardubice (Pardubický kraj)"
-  },
-  {
-    "code": "H",
-    "name": "Hradec Králové (Královéhradecký kraj)"
-  },
-  {
-    "code": "J",
-    "name": "Vysočina (Highlands, Kraj Vysočina)"
-  },
-  {
-    "code": "K",
-    "name": "Karlovy Vary (Karlovarský kraj)"
-  },
-  {
-    "code": "L",
-    "name": "Liberec (Liberecký kraj)"
-  },
-  {
-    "code": "M",
-    "name": "Olomouc (Olomoucký kraj)"
-  },
-  {
-    "code": "P",
-    "name": "Plzeň (Plzeňský kraj)"
-  },
-  {
-    "code": "S",
-    "name": "Central Bohemia (Středočeský kraj)"
-  },
-  {
-    "code": "T",
-    "name": "Moravian-Silesian (Moravskoslezský kraj)"
-  },
-  {
-    "code": "U",
-    "name": "Ústí nad Labem (Ústecký kraj)"
-  },
-  {
-    "code": "Z",
-    "name": "Zlín (Zlínský kraj)"
-  }
-]
+{
+  "format": "The regional identifier is the first letter from the left, placed after the initial digit and before the remaining serial digits (Format: 1A2 3456).",
+  "entries": [
+    {
+      "code": "A",
+      "name": "Prague (Praha)"
+    },
+    {
+      "code": "B",
+      "name": "South Moravia (Jihomoravský kraj)"
+    },
+    {
+      "code": "C",
+      "name": "South Bohemia (Jihočeský kraj)"
+    },
+    {
+      "code": "E",
+      "name": "Pardubice (Pardubický kraj)"
+    },
+    {
+      "code": "H",
+      "name": "Hradec Králové (Královéhradecký kraj)"
+    },
+    {
+      "code": "J",
+      "name": "Vysočina (Highlands, Kraj Vysočina)"
+    },
+    {
+      "code": "K",
+      "name": "Karlovy Vary (Karlovarský kraj)"
+    },
+    {
+      "code": "L",
+      "name": "Liberec (Liberecký kraj)"
+    },
+    {
+      "code": "M",
+      "name": "Olomouc (Olomoucký kraj)"
+    },
+    {
+      "code": "P",
+      "name": "Plzeň (Plzeňský kraj)"
+    },
+    {
+      "code": "S",
+      "name": "Central Bohemia (Středočeský kraj)"
+    },
+    {
+      "code": "T",
+      "name": "Moravian-Silesian (Moravskoslezský kraj)"
+    },
+    {
+      "code": "U",
+      "name": "Ústí nad Labem (Ústecký kraj)"
+    },
+    {
+      "code": "Z",
+      "name": "Zlín (Zlínský kraj)"
+    }
+  ]
+}

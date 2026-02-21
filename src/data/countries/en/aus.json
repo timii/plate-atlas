@@ -1,38 +1,41 @@
-[
-  {
-    "code": "ACT",
-    "name": "Australian Capital Territory (ACT)"
-  },
-  {
-    "code": "JERVIS BAY TERRITORY",
-    "name": "Jervis Bay Territory (JBT)"
-  },
-  {
-    "code": "NEW SOUTH WALES",
-    "name": "New South Wales (NSW)"
-  },
-  {
-    "code": "NORTHERN TERRITORY",
-    "name": "Northern Territory (NT)"
-  },
-  {
-    "code": "QUEENSLAND",
-    "name": "Queensland (QLD)"
-  },
-  {
-    "code": "SOUTH AUSTRALIA",
-    "name": "South Australia (SA)"
-  },
-  {
-    "code": "TASMANIA",
-    "name": "Tasmania (TAS)"
-  },
-  {
-    "code": "VICTORIA",
-    "name": "Victoria (VIC)"
-  },
-  {
-    "code": "WESTERN AUSTRALIA",
-    "name": "Western Australia (WA)"
-  }
-]
+{
+  "format": "The regional identifier is the state or territory name printed on the plate (typically at the top), while the serial registration number is separate.",
+  "entries": [
+    {
+      "code": "ACT",
+      "name": "Australian Capital Territory (ACT)"
+    },
+    {
+      "code": "JERVIS BAY TERRITORY",
+      "name": "Jervis Bay Territory (JBT)"
+    },
+    {
+      "code": "NEW SOUTH WALES",
+      "name": "New South Wales (NSW)"
+    },
+    {
+      "code": "NORTHERN TERRITORY",
+      "name": "Northern Territory (NT)"
+    },
+    {
+      "code": "QUEENSLAND",
+      "name": "Queensland (QLD)"
+    },
+    {
+      "code": "SOUTH AUSTRALIA",
+      "name": "South Australia (SA)"
+    },
+    {
+      "code": "TASMANIA",
+      "name": "Tasmania (TAS)"
+    },
+    {
+      "code": "VICTORIA",
+      "name": "Victoria (VIC)"
+    },
+    {
+      "code": "WESTERN AUSTRALIA",
+      "name": "Western Australia (WA)"
+    }
+  ]
+}

@@ -1,98 +1,101 @@
-[
-  {
-    "code": "A",
-    "name": "Azuay (Azuay)"
-  },
-  {
-    "code": "B",
-    "name": "Bolivar (Bolívar)"
-  },
-  {
-    "code": "C",
-    "name": "Carchi (Carchi)"
-  },
-  {
-    "code": "E",
-    "name": "Esmeraldas (Esmeraldas)"
-  },
-  {
-    "code": "G",
-    "name": "Guayas (Guayas)"
-  },
-  {
-    "code": "H",
-    "name": "Chimborazo (Chimborazo)"
-  },
-  {
-    "code": "I",
-    "name": "Imbabura (Imbabura)"
-  },
-  {
-    "code": "J",
-    "name": "Santo Domingo de los Tsachilas (Santo Domingo de los Tsáchilas)"
-  },
-  {
-    "code": "K",
-    "name": "Sucumbios (Sucumbíos)"
-  },
-  {
-    "code": "L",
-    "name": "Loja (Loja)"
-  },
-  {
-    "code": "M",
-    "name": "Manabi (Manabí)"
-  },
-  {
-    "code": "N",
-    "name": "Napo (Napo)"
-  },
-  {
-    "code": "O",
-    "name": "El Oro (El Oro)"
-  },
-  {
-    "code": "P",
-    "name": "Pichincha (Pichincha)"
-  },
-  {
-    "code": "Q",
-    "name": "Orellana (Orellana)"
-  },
-  {
-    "code": "R",
-    "name": "Los Rios (Los Ríos)"
-  },
-  {
-    "code": "S",
-    "name": "Pastaza (Pastaza)"
-  },
-  {
-    "code": "T",
-    "name": "Tungurahua (Tungurahua)"
-  },
-  {
-    "code": "U",
-    "name": "Canar (Cañar)"
-  },
-  {
-    "code": "V",
-    "name": "Morona Santiago (Morona Santiago)"
-  },
-  {
-    "code": "W",
-    "name": "Galapagos (Galápagos)"
-  },
-  {
-    "code": "X",
-    "name": "Cotopaxi (Cotopaxi)"
-  },
-  {
-    "code": "Y",
-    "name": "Santa Elena (Santa Elena)"
-  },
-  {
-    "code": "Z",
-    "name": "Zamora-Chinchipe (Zamora-Chinchipe)"
-  }
-]
+{
+  "format": "The regional identifier is the leading code prefix at the beginning of the plate serial.",
+  "entries": [
+    {
+      "code": "A",
+      "name": "Azuay (Azuay)"
+    },
+    {
+      "code": "B",
+      "name": "Bolivar (Bolívar)"
+    },
+    {
+      "code": "C",
+      "name": "Carchi (Carchi)"
+    },
+    {
+      "code": "E",
+      "name": "Esmeraldas (Esmeraldas)"
+    },
+    {
+      "code": "G",
+      "name": "Guayas (Guayas)"
+    },
+    {
+      "code": "H",
+      "name": "Chimborazo (Chimborazo)"
+    },
+    {
+      "code": "I",
+      "name": "Imbabura (Imbabura)"
+    },
+    {
+      "code": "J",
+      "name": "Santo Domingo de los Tsachilas (Santo Domingo de los Tsáchilas)"
+    },
+    {
+      "code": "K",
+      "name": "Sucumbios (Sucumbíos)"
+    },
+    {
+      "code": "L",
+      "name": "Loja (Loja)"
+    },
+    {
+      "code": "M",
+      "name": "Manabi (Manabí)"
+    },
+    {
+      "code": "N",
+      "name": "Napo (Napo)"
+    },
+    {
+      "code": "O",
+      "name": "El Oro (El Oro)"
+    },
+    {
+      "code": "P",
+      "name": "Pichincha (Pichincha)"
+    },
+    {
+      "code": "Q",
+      "name": "Orellana (Orellana)"
+    },
+    {
+      "code": "R",
+      "name": "Los Rios (Los Ríos)"
+    },
+    {
+      "code": "S",
+      "name": "Pastaza (Pastaza)"
+    },
+    {
+      "code": "T",
+      "name": "Tungurahua (Tungurahua)"
+    },
+    {
+      "code": "U",
+      "name": "Canar (Cañar)"
+    },
+    {
+      "code": "V",
+      "name": "Morona Santiago (Morona Santiago)"
+    },
+    {
+      "code": "W",
+      "name": "Galapagos (Galápagos)"
+    },
+    {
+      "code": "X",
+      "name": "Cotopaxi (Cotopaxi)"
+    },
+    {
+      "code": "Y",
+      "name": "Santa Elena (Santa Elena)"
+    },
+    {
+      "code": "Z",
+      "name": "Zamora-Chinchipe (Zamora-Chinchipe)"
+    }
+  ]
+}

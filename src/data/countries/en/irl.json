@@ -1,106 +1,109 @@
-[
-  {
-    "code": "C",
-    "name": "Cork (Corcaigh)"
-  },
-  {
-    "code": "CE",
-    "name": "Clare (An Clár)"
-  },
-  {
-    "code": "CN",
-    "name": "Cavan (An Cabhán)"
-  },
-  {
-    "code": "CW",
-    "name": "Carlow (Ceatharlach)"
-  },
-  {
-    "code": "D",
-    "name": "Dublin (Baile Átha Cliath)"
-  },
-  {
-    "code": "DL",
-    "name": "Donegal (Dún na nGall)"
-  },
-  {
-    "code": "G",
-    "name": "Galway (Gaillimh)"
-  },
-  {
-    "code": "KE",
-    "name": "Kildare (Cill Dara)"
-  },
-  {
-    "code": "KK",
-    "name": "Kilkenny (Cill Chainnigh)"
-  },
-  {
-    "code": "KY",
-    "name": "Kerry (Ciarraí)"
-  },
-  {
-    "code": "L",
-    "name": "Limerick (Luimneach)"
-  },
-  {
-    "code": "LD",
-    "name": "Longford (An Longfort)"
-  },
-  {
-    "code": "LH",
-    "name": "Louth (Lú)"
-  },
-  {
-    "code": "LM",
-    "name": "Leitrim (Liatroim)"
-  },
-  {
-    "code": "LS",
-    "name": "Laois (Laois)"
-  },
-  {
-    "code": "MH",
-    "name": "Meath (An Mhí)"
-  },
-  {
-    "code": "MN",
-    "name": "Monaghan (Muineachán)"
-  },
-  {
-    "code": "MO",
-    "name": "Mayo (Maigh Eo)"
-  },
-  {
-    "code": "OY",
-    "name": "Offaly (Uíbh Fhailí)"
-  },
-  {
-    "code": "RN",
-    "name": "Roscommon (Ros Comáin)"
-  },
-  {
-    "code": "SO",
-    "name": "Sligo (Sligeach)"
-  },
-  {
-    "code": "T",
-    "name": "Tipperary (Tiobraid Árann)"
-  },
-  {
-    "code": "W",
-    "name": "Waterford (Port Láirge)"
-  },
-  {
-    "code": "WH",
-    "name": "Westmeath (An Iarmhí)"
-  },
-  {
-    "code": "WX",
-    "name": "Wexford (Loch Garman)"
-  },
-  {
-    "code": "WW",
-    "name": "Wicklow (Cill Mhantáin)"
-  }
-]
+{
+  "format": "The regional identifier is the one- or two-letter county/city code in the middle of the plate, between the year block and the serial number (Format: 231-D-12345 or 231-DL-12345).",
+  "entries": [
+    {
+      "code": "C",
+      "name": "Cork (Corcaigh)"
+    },
+    {
+      "code": "CE",
+      "name": "Clare (An Clár)"
+    },
+    {
+      "code": "CN",
+      "name": "Cavan (An Cabhán)"
+    },
+    {
+      "code": "CW",
+      "name": "Carlow (Ceatharlach)"
+    },
+    {
+      "code": "D",
+      "name": "Dublin (Baile Átha Cliath)"
+    },
+    {
+      "code": "DL",
+      "name": "Donegal (Dún na nGall)"
+    },
+    {
+      "code": "G",
+      "name": "Galway (Gaillimh)"
+    },
+    {
+      "code": "KE",
+      "name": "Kildare (Cill Dara)"
+    },
+    {
+      "code": "KK",
+      "name": "Kilkenny (Cill Chainnigh)"
+    },
+    {
+      "code": "KY",
+      "name": "Kerry (Ciarraí)"
+    },
+    {
+      "code": "L",
+      "name": "Limerick (Luimneach)"
+    },
+    {
+      "code": "LD",
+      "name": "Longford (An Longfort)"
+    },
+    {
+      "code": "LH",
+      "name": "Louth (Lú)"
+    },
+    {
+      "code": "LM",
+      "name": "Leitrim (Liatroim)"
+    },
+    {
+      "code": "LS",
+      "name": "Laois (Laois)"
+    },
+    {
+      "code": "MH",
+      "name": "Meath (An Mhí)"
+    },
+    {
+      "code": "MN",
+      "name": "Monaghan (Muineachán)"
+    },
+    {
+      "code": "MO",
+      "name": "Mayo (Maigh Eo)"
+    },
+    {
+      "code": "OY",
+      "name": "Offaly (Uíbh Fhailí)"
+    },
+    {
+      "code": "RN",
+      "name": "Roscommon (Ros Comáin)"
+    },
+    {
+      "code": "SO",
+      "name": "Sligo (Sligeach)"
+    },
+    {
+      "code": "T",
+      "name": "Tipperary (Tiobraid Árann)"
+    },
+    {
+      "code": "W",
+      "name": "Waterford (Port Láirge)"
+    },
+    {
+      "code": "WH",
+      "name": "Westmeath (An Iarmhí)"
+    },
+    {
+      "code": "WX",
+      "name": "Wexford (Loch Garman)"
+    },
+    {
+      "code": "WW",
+      "name": "Wicklow (Cill Mhantáin)"
+    }
+  ]
+}

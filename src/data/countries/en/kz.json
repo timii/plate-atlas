@@ -1,82 +1,85 @@
-[
-  {
-    "code": "01",
-    "name": "Astana (Астана)"
-  },
-  {
-    "code": "02",
-    "name": "Almaty (Алматы)"
-  },
-  {
-    "code": "03",
-    "name": "Akmola Region (Ақмола облысы)"
-  },
-  {
-    "code": "04",
-    "name": "Aktobe Region (Ақтөбе облысы)"
-  },
-  {
-    "code": "05",
-    "name": "Almaty Region (Алматы облысы)"
-  },
-  {
-    "code": "06",
-    "name": "Atyrau Region (Атырау облысы)"
-  },
-  {
-    "code": "07",
-    "name": "West Kazakhstan Region (Батыс Қазақстан облысы)"
-  },
-  {
-    "code": "08",
-    "name": "Zhambyl Region (Жамбыл облысы)"
-  },
-  {
-    "code": "09",
-    "name": "Karaganda Region (Қарағанды облысы)"
-  },
-  {
-    "code": "10",
-    "name": "Kostanay Region (Қостанай облысы)"
-  },
-  {
-    "code": "11",
-    "name": "Kyzylorda Region (Қызылорда облысы)"
-  },
-  {
-    "code": "12",
-    "name": "Mangystau Region (Маңғыстау облысы)"
-  },
-  {
-    "code": "13",
-    "name": "Turkistan Region (Түркістан облысы)"
-  },
-  {
-    "code": "14",
-    "name": "Pavlodar Region (Павлодар облысы)"
-  },
-  {
-    "code": "15",
-    "name": "North Kazakhstan Region (Солтүстік Қазақстан облысы)"
-  },
-  {
-    "code": "16",
-    "name": "East Kazakhstan Region (Шығыс Қазақстан облысы)"
-  },
-  {
-    "code": "17",
-    "name": "Shymkent (Шымкент)"
-  },
-  {
-    "code": "18",
-    "name": "Abai Region (Абай облысы)"
-  },
-  {
-    "code": "19",
-    "name": "Jetisu Region (Жетісу облысы)"
-  },
-  {
-    "code": "20",
-    "name": "Ulytau Region (Ұлытау облысы)"
-  }
-]
+{
+  "format": "The regional identifier is the two-digit code shown in the right-side square at the end of the plate (Format: 123 ABC 45).",
+  "entries": [
+    {
+      "code": "01",
+      "name": "Astana (Астана)"
+    },
+    {
+      "code": "02",
+      "name": "Almaty (Алматы)"
+    },
+    {
+      "code": "03",
+      "name": "Akmola Region (Ақмола облысы)"
+    },
+    {
+      "code": "04",
+      "name": "Aktobe Region (Ақтөбе облысы)"
+    },
+    {
+      "code": "05",
+      "name": "Almaty Region (Алматы облысы)"
+    },
+    {
+      "code": "06",
+      "name": "Atyrau Region (Атырау облысы)"
+    },
+    {
+      "code": "07",
+      "name": "West Kazakhstan Region (Батыс Қазақстан облысы)"
+    },
+    {
+      "code": "08",
+      "name": "Zhambyl Region (Жамбыл облысы)"
+    },
+    {
+      "code": "09",
+      "name": "Karaganda Region (Қарағанды облысы)"
+    },
+    {
+      "code": "10",
+      "name": "Kostanay Region (Қостанай облысы)"
+    },
+    {
+      "code": "11",
+      "name": "Kyzylorda Region (Қызылорда облысы)"
+    },
+    {
+      "code": "12",
+      "name": "Mangystau Region (Маңғыстау облысы)"
+    },
+    {
+      "code": "13",
+      "name": "Turkistan Region (Түркістан облысы)"
+    },
+    {
+      "code": "14",
+      "name": "Pavlodar Region (Павлодар облысы)"
+    },
+    {
+      "code": "15",
+      "name": "North Kazakhstan Region (Солтүстік Қазақстан облысы)"
+    },
+    {
+      "code": "16",
+      "name": "East Kazakhstan Region (Шығыс Қазақстан облысы)"
+    },
+    {
+      "code": "17",
+      "name": "Shymkent (Шымкент)"
+    },
+    {
+      "code": "18",
+      "name": "Abai Region (Абай облысы)"
+    },
+    {
+      "code": "19",
+      "name": "Jetisu Region (Жетісу облысы)"
+    },
+    {
+      "code": "20",
+      "name": "Ulytau Region (Ұлытау облысы)"
+    }
+  ]
+}

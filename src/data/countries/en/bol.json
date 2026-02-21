@@ -1,38 +1,41 @@
-[
-  {
-    "code": "B",
-    "name": "Beni (Departamento del Beni)"
-  },
-  {
-    "code": "C",
-    "name": "Cochabamba (Departamento de Cochabamba)"
-  },
-  {
-    "code": "H",
-    "name": "Chuquisaca (Departamento de Chuquisaca)"
-  },
-  {
-    "code": "L",
-    "name": "La Paz (Departamento de La Paz)"
-  },
-  {
-    "code": "N",
-    "name": "Pando (Departamento de Pando)"
-  },
-  {
-    "code": "O",
-    "name": "Oruro (Departamento de Oruro)"
-  },
-  {
-    "code": "P",
-    "name": "Potosi (Potosí, Departamento de Potosí)"
-  },
-  {
-    "code": "S",
-    "name": "Santa Cruz (Departamento de Santa Cruz)"
-  },
-  {
-    "code": "T",
-    "name": "Tarija (Departamento de Tarija)"
-  }
-]
+{
+  "format": "The regional identifier is the department letter in the small box at the top right of the plate separate from the main serial.",
+  "entries": [
+    {
+      "code": "B",
+      "name": "Beni (Departamento del Beni)"
+    },
+    {
+      "code": "C",
+      "name": "Cochabamba (Departamento de Cochabamba)"
+    },
+    {
+      "code": "H",
+      "name": "Chuquisaca (Departamento de Chuquisaca)"
+    },
+    {
+      "code": "L",
+      "name": "La Paz (Departamento de La Paz)"
+    },
+    {
+      "code": "N",
+      "name": "Pando (Departamento de Pando)"
+    },
+    {
+      "code": "O",
+      "name": "Oruro (Departamento de Oruro)"
+    },
+    {
+      "code": "P",
+      "name": "Potosi (Potosí, Departamento de Potosí)"
+    },
+    {
+      "code": "S",
+      "name": "Santa Cruz (Departamento de Santa Cruz)"
+    },
+    {
+      "code": "T",
+      "name": "Tarija (Departamento de Tarija)"
+    }
+  ]
+}

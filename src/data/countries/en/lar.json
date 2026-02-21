@@ -1,246 +1,249 @@
-[
-  {
-    "code": "1",
-    "name": "Sabha (سبها)"
-  },
-  {
-    "code": "2",
-    "name": "Bayda (البيضاء)"
-  },
-  {
-    "code": "3",
-    "name": "Misrata (مصراتة)"
-  },
-  {
-    "code": "4",
-    "name": "Zawiya (الزاوية)"
-  },
-  {
-    "code": "5",
-    "name": "Tripoli (طرابلس)"
-  },
-  {
-    "code": "6",
-    "name": "Al Khums (الخمس)"
-  },
-  {
-    "code": "7",
-    "name": "Sirte (سرت)"
-  },
-  {
-    "code": "8",
-    "name": "Benghazi (بنغازي)"
-  },
-  {
-    "code": "9",
-    "name": "Zuwarah (زوارة)"
-  },
-  {
-    "code": "10",
-    "name": "Derna (درنة)"
-  },
-  {
-    "code": "11",
-    "name": "Al Shatii al Sharqi (الشاطئ الشرقي)"
-  },
-  {
-    "code": "12",
-    "name": "Ajdabiya (أجدابيا)"
-  },
-  {
-    "code": "13",
-    "name": "Hun (هون)"
-  },
-  {
-    "code": "14",
-    "name": "Tobruk (طبرق)"
-  },
-  {
-    "code": "15",
-    "name": "Murzuq (مرزق)"
-  },
-  {
-    "code": "16",
-    "name": "Jalu (جالو)"
-  },
-  {
-    "code": "17",
-    "name": "Ghadames (غدامس)"
-  },
-  {
-    "code": "18",
-    "name": "Marj (المرج)"
-  },
-  {
-    "code": "19",
-    "name": "Nalut (نالوت)"
-  },
-  {
-    "code": "20",
-    "name": "Kufra (الكفرة)"
-  },
-  {
-    "code": "21",
-    "name": "Gharyan (غريان)"
-  },
-  {
-    "code": "22",
-    "name": "Yafran (يفرن)"
-  },
-  {
-    "code": "24",
-    "name": "Ubari (أوباري)"
-  },
-  {
-    "code": "25",
-    "name": "Aziziya (العزيزية)"
-  },
-  {
-    "code": "26",
-    "name": "Sabratha (صبراتة)"
-  },
-  {
-    "code": "27",
-    "name": "Tarhuna (ترهونة)"
-  },
-  {
-    "code": "28",
-    "name": "Bani Walid (بني وليد)"
-  },
-  {
-    "code": "30",
-    "name": "Al Abyar (الأبيار)"
-  },
-  {
-    "code": "32",
-    "name": "Ghat (غات)"
-  },
-  {
-    "code": "33",
-    "name": "Qasr bin Ghashir (قصر بن غشير)"
-  },
-  {
-    "code": "35",
-    "name": "Shahhat (شحات, Cyrene)"
-  },
-  {
-    "code": "36",
-    "name": "Zliten (زليتن)"
-  },
-  {
-    "code": "37",
-    "name": "Baten Al Jabal (بطن الجبل)"
-  },
-  {
-    "code": "38",
-    "name": "Mizda (مزدة)"
-  },
-  {
-    "code": "40",
-    "name": "Jumayl (جميل)"
-  },
-  {
-    "code": "41",
-    "name": "Al Ajaylat (العجيلات)"
-  },
-  {
-    "code": "42",
-    "name": "Zintan (الزنتان)"
-  },
-  {
-    "code": "43",
-    "name": "Jadu (جادو)"
-  },
-  {
-    "code": "44",
-    "name": "Msallata (مسلاتة)"
-  },
-  {
-    "code": "45",
-    "name": "Sahel El-Jebel (ساحل الجبل)"
-  },
-  {
-    "code": "46",
-    "name": "Castelverde (كاستيلفيردي)"
-  },
-  {
-    "code": "47",
-    "name": "Sorman (صرمان)"
-  },
-  {
-    "code": "48",
-    "name": "Kabaw (كاباو)"
-  },
-  {
-    "code": "49",
-    "name": "Al Qubbah (القبة)"
-  },
-  {
-    "code": "50",
-    "name": "Al Asbi'a (الأصابعة)"
-  },
-  {
-    "code": "51",
-    "name": "Ras Lanuf (رأس لانوف)"
-  },
-  {
-    "code": "52",
-    "name": "Tocra (توكرا)"
-  },
-  {
-    "code": "53",
-    "name": "Kikla (كيكلا)"
-  },
-  {
-    "code": "54",
-    "name": "Al Rhibat (الرباطات)"
-  },
-  {
-    "code": "55",
-    "name": "Al Shatii al Gharbi (الشاطئ الغربي)"
-  },
-  {
-    "code": "56",
-    "name": "Al Rijban (الرجبان)"
-  },
-  {
-    "code": "57",
-    "name": "Harraba (حرابة)"
-  },
-  {
-    "code": "59",
-    "name": "Al Shagiga (الشقيقة)"
-  },
-  {
-    "code": "60",
-    "name": "Ras al-Helal (رأس الهلال)"
-  },
-  {
-    "code": "61",
-    "name": "Zaltan (زلطن)"
-  },
-  {
-    "code": "62",
-    "name": "Qatrun (القطرون)"
-  },
-  {
-    "code": "63",
-    "name": "Janzur (جنزور)"
-  },
-  {
-    "code": "64",
-    "name": "Al Shwayrif (الشويرف)"
-  },
-  {
-    "code": "65",
-    "name": "Al Riyayna (الرياينة)"
-  },
-  {
-    "code": "66",
-    "name": "Suluq (سلوق)"
-  },
-  {
-    "code": "67",
-    "name": "Awjila (اوجيلة)"
-  }
-]
+{
+  "format": "The regional identifier is the leading one- or two-digit municipality code at the beginning of the plate, before the dash and serial digits.",
+  "entries": [
+    {
+      "code": "1",
+      "name": "Sabha (سبها)"
+    },
+    {
+      "code": "2",
+      "name": "Bayda (البيضاء)"
+    },
+    {
+      "code": "3",
+      "name": "Misrata (مصراتة)"
+    },
+    {
+      "code": "4",
+      "name": "Zawiya (الزاوية)"
+    },
+    {
+      "code": "5",
+      "name": "Tripoli (طرابلس)"
+    },
+    {
+      "code": "6",
+      "name": "Al Khums (الخمس)"
+    },
+    {
+      "code": "7",
+      "name": "Sirte (سرت)"
+    },
+    {
+      "code": "8",
+      "name": "Benghazi (بنغازي)"
+    },
+    {
+      "code": "9",
+      "name": "Zuwarah (زوارة)"
+    },
+    {
+      "code": "10",
+      "name": "Derna (درنة)"
+    },
+    {
+      "code": "11",
+      "name": "Al Shatii al Sharqi (الشاطئ الشرقي)"
+    },
+    {
+      "code": "12",
+      "name": "Ajdabiya (أجدابيا)"
+    },
+    {
+      "code": "13",
+      "name": "Hun (هون)"
+    },
+    {
+      "code": "14",
+      "name": "Tobruk (طبرق)"
+    },
+    {
+      "code": "15",
+      "name": "Murzuq (مرزق)"
+    },
+    {
+      "code": "16",
+      "name": "Jalu (جالو)"
+    },
+    {
+      "code": "17",
+      "name": "Ghadames (غدامس)"
+    },
+    {
+      "code": "18",
+      "name": "Marj (المرج)"
+    },
+    {
+      "code": "19",
+      "name": "Nalut (نالوت)"
+    },
+    {
+      "code": "20",
+      "name": "Kufra (الكفرة)"
+    },
+    {
+      "code": "21",
+      "name": "Gharyan (غريان)"
+    },
+    {
+      "code": "22",
+      "name": "Yafran (يفرن)"
+    },
+    {
+      "code": "24",
+      "name": "Ubari (أوباري)"
+    },
+    {
+      "code": "25",
+      "name": "Aziziya (العزيزية)"
+    },
+    {
+      "code": "26",
+      "name": "Sabratha (صبراتة)"
+    },
+    {
+      "code": "27",
+      "name": "Tarhuna (ترهونة)"
+    },
+    {
+      "code": "28",
+      "name": "Bani Walid (بني وليد)"
+    },
+    {
+      "code": "30",
+      "name": "Al Abyar (الأبيار)"
+    },
+    {
+      "code": "32",
+      "name": "Ghat (غات)"
+    },
+    {
+      "code": "33",
+      "name": "Qasr bin Ghashir (قصر بن غشير)"
+    },
+    {
+      "code": "35",
+      "name": "Shahhat (شحات, Cyrene)"
+    },
+    {
+      "code": "36",
+      "name": "Zliten (زليتن)"
+    },
+    {
+      "code": "37",
+      "name": "Baten Al Jabal (بطن الجبل)"
+    },
+    {
+      "code": "38",
+      "name": "Mizda (مزدة)"
+    },
+    {
+      "code": "40",
+      "name": "Jumayl (جميل)"
+    },
+    {
+      "code": "41",
+      "name": "Al Ajaylat (العجيلات)"
+    },
+    {
+      "code": "42",
+      "name": "Zintan (الزنتان)"
+    },
+    {
+      "code": "43",
+      "name": "Jadu (جادو)"
+    },
+    {
+      "code": "44",
+      "name": "Msallata (مسلاتة)"
+    },
+    {
+      "code": "45",
+      "name": "Sahel El-Jebel (ساحل الجبل)"
+    },
+    {
+      "code": "46",
+      "name": "Castelverde (كاستيلفيردي)"
+    },
+    {
+      "code": "47",
+      "name": "Sorman (صرمان)"
+    },
+    {
+      "code": "48",
+      "name": "Kabaw (كاباو)"
+    },
+    {
+      "code": "49",
+      "name": "Al Qubbah (القبة)"
+    },
+    {
+      "code": "50",
+      "name": "Al Asbi'a (الأصابعة)"
+    },
+    {
+      "code": "51",
+      "name": "Ras Lanuf (رأس لانوف)"
+    },
+    {
+      "code": "52",
+      "name": "Tocra (توكرا)"
+    },
+    {
+      "code": "53",
+      "name": "Kikla (كيكلا)"
+    },
+    {
+      "code": "54",
+      "name": "Al Rhibat (الرباطات)"
+    },
+    {
+      "code": "55",
+      "name": "Al Shatii al Gharbi (الشاطئ الغربي)"
+    },
+    {
+      "code": "56",
+      "name": "Al Rijban (الرجبان)"
+    },
+    {
+      "code": "57",
+      "name": "Harraba (حرابة)"
+    },
+    {
+      "code": "59",
+      "name": "Al Shagiga (الشقيقة)"
+    },
+    {
+      "code": "60",
+      "name": "Ras al-Helal (رأس الهلال)"
+    },
+    {
+      "code": "61",
+      "name": "Zaltan (زلطن)"
+    },
+    {
+      "code": "62",
+      "name": "Qatrun (القطرون)"
+    },
+    {
+      "code": "63",
+      "name": "Janzur (جنزور)"
+    },
+    {
+      "code": "64",
+      "name": "Al Shwayrif (الشويرف)"
+    },
+    {
+      "code": "65",
+      "name": "Al Riyayna (الرياينة)"
+    },
+    {
+      "code": "66",
+      "name": "Suluq (سلوق)"
+    },
+    {
+      "code": "67",
+      "name": "Awjila (اوجيلة)"
+    }
+  ]
+}

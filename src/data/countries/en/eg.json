@@ -1,134 +1,137 @@
-[
-  {
-    "code": "No suffix (4 digits + 2 letters)",
-    "name": "Giza Governorate (الجيزة)"
-  },
-  {
-    "code": "No suffix (3 digits + 3 letters)",
-    "name": "Cairo Governorate (القاهرة)"
-  },
-  {
-    "code": "A (أ)",
-    "name": "Cairo Governorate (القاهرة)"
-  },
-  {
-    "code": "S (س)",
-    "name": "Alexandria Governorate (الإسكندرية)"
-  },
-  {
-    "code": "K (ق)",
-    "name": "Qalyubia Governorate (القليوبية)"
-  },
-  {
-    "code": "R (ر)",
-    "name": "Sharqia Governorate (الشرقية)"
-  },
-  {
-    "code": "M (م)",
-    "name": "Monufia Governorate (المنوفية)"
-  },
-  {
-    "code": "B (ب)",
-    "name": "Beheira Governorate (البحيرة)"
-  },
-  {
-    "code": "D (د)",
-    "name": "Dakahlia Governorate (الدقهلية)"
-  },
-  {
-    "code": "E (ع)",
-    "name": "Gharbia Governorate (الغربية)"
-  },
-  {
-    "code": "L (ل)",
-    "name": "Kafr El Sheikh Governorate (كفر الشيخ)"
-  },
-  {
-    "code": "F (ف)",
-    "name": "Faiyum Governorate (الفيوم)"
-  },
-  {
-    "code": "W (و)",
-    "name": "Beni Suef Governorate (بني سويف)"
-  },
-  {
-    "code": "N (ن)",
-    "name": "Minya Governorate (المنيا)"
-  },
-  {
-    "code": "Y (ى)",
-    "name": "Asyut Governorate (أسيوط)"
-  },
-  {
-    "code": "H (هـ)",
-    "name": "Sohag Governorate (سوهاج)"
-  },
-  {
-    "code": "CA (صأ)",
-    "name": "Qena Governorate (قنا)"
-  },
-  {
-    "code": "CK (صق)",
-    "name": "Luxor Governorate (الأقصر)"
-  },
-  {
-    "code": "CW (صو)",
-    "name": "Aswan Governorate (أسوان)"
-  },
-  {
-    "code": "TD (طد)",
-    "name": "Damietta Governorate (دمياط)"
-  },
-  {
-    "code": "TM (طم)",
-    "name": "Damietta Governorate (دمياط)"
-  },
-  {
-    "code": "GM (جم)",
-    "name": "Damietta Governorate (دمياط)"
-  },
-  {
-    "code": "GY (جى)",
-    "name": "Damietta Governorate (دمياط)"
-  },
-  {
-    "code": "TE (طع)",
-    "name": "Port Said Governorate (بورسعيد)"
-  },
-  {
-    "code": "TB (طب)",
-    "name": "Port Said Governorate (بورسعيد)"
-  },
-  {
-    "code": "TC (طص)",
-    "name": "Ismailia Governorate (الإسماعيلية)"
-  },
-  {
-    "code": "TN (طن)",
-    "name": "Ismailia Governorate (الإسماعيلية)"
-  },
-  {
-    "code": "TS (طس)",
-    "name": "Suez Governorate (السويس)"
-  },
-  {
-    "code": "TR (طر)",
-    "name": "Red Sea Governorate (البحر الأحمر)"
-  },
-  {
-    "code": "TA (طأ)",
-    "name": "North Sinai Governorate (شمال سيناء)"
-  },
-  {
-    "code": "TG (طج)",
-    "name": "South Sinai Governorate (جنوب سيناء)"
-  },
-  {
-    "code": "GH (جهـ)",
-    "name": "Matrouh Governorate (مطروح)"
-  },
-  {
-    "code": "GB (جب)",
-    "name": "New Valley Governorate (الوادي الجديد)"
-  }
-]
+{
+  "format": "The governorate identifier is encoded in the letter suffix; Example: 1234 A - here the identifier is 'A' at the end of the plate.",
+  "entries": [
+    {
+      "code": "No suffix (4 digits + 2 letters)",
+      "name": "Giza Governorate (الجيزة)"
+    },
+    {
+      "code": "No suffix (3 digits + 3 letters)",
+      "name": "Cairo Governorate (القاهرة)"
+    },
+    {
+      "code": "A (أ)",
+      "name": "Cairo Governorate (القاهرة)"
+    },
+    {
+      "code": "S (س)",
+      "name": "Alexandria Governorate (الإسكندرية)"
+    },
+    {
+      "code": "K (ق)",
+      "name": "Qalyubia Governorate (القليوبية)"
+    },
+    {
+      "code": "R (ر)",
+      "name": "Sharqia Governorate (الشرقية)"
+    },
+    {
+      "code": "M (م)",
+      "name": "Monufia Governorate (المنوفية)"
+    },
+    {
+      "code": "B (ب)",
+      "name": "Beheira Governorate (البحيرة)"
+    },
+    {
+      "code": "D (د)",
+      "name": "Dakahlia Governorate (الدقهلية)"
+    },
+    {
+      "code": "E (ع)",
+      "name": "Gharbia Governorate (الغربية)"
+    },
+    {
+      "code": "L (ل)",
+      "name": "Kafr El Sheikh Governorate (كفر الشيخ)"
+    },
+    {
+      "code": "F (ف)",
+      "name": "Faiyum Governorate (الفيوم)"
+    },
+    {
+      "code": "W (و)",
+      "name": "Beni Suef Governorate (بني سويف)"
+    },
+    {
+      "code": "N (ن)",
+      "name": "Minya Governorate (المنيا)"
+    },
+    {
+      "code": "Y (ى)",
+      "name": "Asyut Governorate (أسيوط)"
+    },
+    {
+      "code": "H (هـ)",
+      "name": "Sohag Governorate (سوهاج)"
+    },
+    {
+      "code": "CA (صأ)",
+      "name": "Qena Governorate (قنا)"
+    },
+    {
+      "code": "CK (صق)",
+      "name": "Luxor Governorate (الأقصر)"
+    },
+    {
+      "code": "CW (صو)",
+      "name": "Aswan Governorate (أسوان)"
+    },
+    {
+      "code": "TD (طد)",
+      "name": "Damietta Governorate (دمياط)"
+    },
+    {
+      "code": "TM (طم)",
+      "name": "Damietta Governorate (دمياط)"
+    },
+    {
+      "code": "GM (جم)",
+      "name": "Damietta Governorate (دمياط)"
+    },
+    {
+      "code": "GY (جى)",
+      "name": "Damietta Governorate (دمياط)"
+    },
+    {
+      "code": "TE (طع)",
+      "name": "Port Said Governorate (بورسعيد)"
+    },
+    {
+      "code": "TB (طب)",
+      "name": "Port Said Governorate (بورسعيد)"
+    },
+    {
+      "code": "TC (طص)",
+      "name": "Ismailia Governorate (الإسماعيلية)"
+    },
+    {
+      "code": "TN (طن)",
+      "name": "Ismailia Governorate (الإسماعيلية)"
+    },
+    {
+      "code": "TS (طس)",
+      "name": "Suez Governorate (السويس)"
+    },
+    {
+      "code": "TR (طر)",
+      "name": "Red Sea Governorate (البحر الأحمر)"
+    },
+    {
+      "code": "TA (طأ)",
+      "name": "North Sinai Governorate (شمال سيناء)"
+    },
+    {
+      "code": "TG (طج)",
+      "name": "South Sinai Governorate (جنوب سيناء)"
+    },
+    {
+      "code": "GH (جهـ)",
+      "name": "Matrouh Governorate (مطروح)"
+    },
+    {
+      "code": "GB (جب)",
+      "name": "New Valley Governorate (الوادي الجديد)"
+    }
+  ]
+}

@@ -1,30 +1,33 @@
-[
-  {
-    "code": "AJK",
-    "name": "Azad Jammu and Kashmir (آزاد جموں و کشمیر)"
-  },
-  {
-    "code": "BALOCHISTAN",
-    "name": "Balochistan (بلوچستان)"
-  },
-  {
-    "code": "GB",
-    "name": "Gilgit-Baltistan (گلگت بلتستان)"
-  },
-  {
-    "code": "ICT",
-    "name": "Islamabad Capital Territory (اسلام آباد دارالحکومت علاقہ)"
-  },
-  {
-    "code": "KP",
-    "name": "Khyber Pakhtunkhwa (خیبر پختونخوا)"
-  },
-  {
-    "code": "PUNJAB",
-    "name": "Punjab (پنجاب)"
-  },
-  {
-    "code": "SINDH",
-    "name": "Sindh (سندھ)"
-  }
-]
+{
+  "format": "The regional identifier is the issuing province or territory shown on the plate design (province text/emblem), while the serial number is separate.",
+  "entries": [
+    {
+      "code": "AJK",
+      "name": "Azad Jammu and Kashmir (آزاد جموں و کشمیر)"
+    },
+    {
+      "code": "BALOCHISTAN",
+      "name": "Balochistan (بلوچستان)"
+    },
+    {
+      "code": "GB",
+      "name": "Gilgit-Baltistan (گلگت بلتستان)"
+    },
+    {
+      "code": "ICT",
+      "name": "Islamabad Capital Territory (اسلام آباد دارالحکومت علاقہ)"
+    },
+    {
+      "code": "KP",
+      "name": "Khyber Pakhtunkhwa (خیبر پختونخوا)"
+    },
+    {
+      "code": "PUNJAB",
+      "name": "Punjab (پنجاب)"
+    },
+    {
+      "code": "SINDH",
+      "name": "Sindh (سندھ)"
+    }
+  ]
+}

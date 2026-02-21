@@ -1,102 +1,105 @@
-[
-  {
-    "code": "A",
-    "name": "Ilocos Region (Rehiyong Ilocos, motorcycles only)"
-  },
-  {
-    "code": "B",
-    "name": "Cagayan Valley (Lambak ng Cagayan)"
-  },
-  {
-    "code": "C",
-    "name": "Central Luzon (Gitnang Luzon)"
-  },
-  {
-    "code": "D",
-    "name": "Calabarzon (CALABARZON)"
-  },
-  {
-    "code": "E",
-    "name": "Bicol Region (Rehiyong Bikol)"
-  },
-  {
-    "code": "F",
-    "name": "Western Visayas (Kanlurang Kabisayaan)"
-  },
-  {
-    "code": "G",
-    "name": "Central Visayas (Gitnang Kabisayaan)"
-  },
-  {
-    "code": "H",
-    "name": "Eastern Visayas (Silangang Kabisayaan)"
-  },
-  {
-    "code": "I",
-    "name": "Ilocos Region (Rehiyong Ilocos)"
-  },
-  {
-    "code": "J",
-    "name": "Zamboanga Peninsula / Bangsamoro (Tangway ng Zamboanga / Bangsamoro)"
-  },
-  {
-    "code": "K",
-    "name": "Northern Mindanao (Hilagang Mindanao)"
-  },
-  {
-    "code": "L",
-    "name": "Davao Region (Rehiyon ng Davao)"
-  },
-  {
-    "code": "M",
-    "name": "Soccsksargen (SOCCSKSARGEN)"
-  },
-  {
-    "code": "N",
-    "name": "Metro Manila (Kalakhang Maynila)"
-  },
-  {
-    "code": "O",
-    "name": "Calabarzon (CALABARZON)"
-  },
-  {
-    "code": "P",
-    "name": "Metro Manila (Kalakhang Maynila)"
-  },
-  {
-    "code": "Q",
-    "name": "Metro Manila (Kalakhang Maynila)"
-  },
-  {
-    "code": "R",
-    "name": "Central Luzon (Gitnang Luzon)"
-  },
-  {
-    "code": "T",
-    "name": "Metro Manila (Kalakhang Maynila)"
-  },
-  {
-    "code": "U",
-    "name": "Metro Manila (Kalakhang Maynila)"
-  },
-  {
-    "code": "V",
-    "name": "Mimaropa (MIMAROPA)"
-  },
-  {
-    "code": "W",
-    "name": "Central Luzon (Gitnang Luzon)"
-  },
-  {
-    "code": "X",
-    "name": "Metro Manila (Kalakhang Maynila)"
-  },
-  {
-    "code": "Y",
-    "name": "Cordillera Administrative Region (Rehiyong Administratibo ng Cordillera)"
-  },
-  {
-    "code": "Z",
-    "name": "Caraga (CARAGA)"
-  }
-]
+{
+  "format": "The regional identifier is the leading code prefix at the beginning of the plate serial. The letter S is reserved for government-owned vehicles (Format: ABC 1234).",
+  "entries": [
+    {
+      "code": "A",
+      "name": "Ilocos Region (Rehiyong Ilocos, motorcycles only)"
+    },
+    {
+      "code": "B",
+      "name": "Cagayan Valley (Lambak ng Cagayan)"
+    },
+    {
+      "code": "C",
+      "name": "Central Luzon (Gitnang Luzon)"
+    },
+    {
+      "code": "D",
+      "name": "Calabarzon (CALABARZON)"
+    },
+    {
+      "code": "E",
+      "name": "Bicol Region (Rehiyong Bikol)"
+    },
+    {
+      "code": "F",
+      "name": "Western Visayas (Kanlurang Kabisayaan)"
+    },
+    {
+      "code": "G",
+      "name": "Central Visayas (Gitnang Kabisayaan)"
+    },
+    {
+      "code": "H",
+      "name": "Eastern Visayas (Silangang Kabisayaan)"
+    },
+    {
+      "code": "I",
+      "name": "Ilocos Region (Rehiyong Ilocos)"
+    },
+    {
+      "code": "J",
+      "name": "Zamboanga Peninsula / Bangsamoro (Tangway ng Zamboanga / Bangsamoro)"
+    },
+    {
+      "code": "K",
+      "name": "Northern Mindanao (Hilagang Mindanao)"
+    },
+    {
+      "code": "L",
+      "name": "Davao Region (Rehiyon ng Davao)"
+    },
+    {
+      "code": "M",
+      "name": "Soccsksargen (SOCCSKSARGEN)"
+    },
+    {
+      "code": "N",
+      "name": "Metro Manila (Kalakhang Maynila)"
+    },
+    {
+      "code": "O",
+      "name": "Calabarzon (CALABARZON)"
+    },
+    {
+      "code": "P",
+      "name": "Metro Manila (Kalakhang Maynila)"
+    },
+    {
+      "code": "Q",
+      "name": "Metro Manila (Kalakhang Maynila)"
+    },
+    {
+      "code": "R",
+      "name": "Central Luzon (Gitnang Luzon)"
+    },
+    {
+      "code": "T",
+      "name": "Metro Manila (Kalakhang Maynila)"
+    },
+    {
+      "code": "U",
+      "name": "Metro Manila (Kalakhang Maynila)"
+    },
+    {
+      "code": "V",
+      "name": "Mimaropa (MIMAROPA)"
+    },
+    {
+      "code": "W",
+      "name": "Central Luzon (Gitnang Luzon)"
+    },
+    {
+      "code": "X",
+      "name": "Metro Manila (Kalakhang Maynila)"
+    },
+    {
+      "code": "Y",
+      "name": "Cordillera Administrative Region (Rehiyong Administratibo ng Cordillera)"
+    },
+    {
+      "code": "Z",
+      "name": "Caraga (CARAGA)"
+    }
+  ]
+}

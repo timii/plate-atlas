@@ -1,150 +1,153 @@
-[
-  {
-    "code": "ABIA",
-    "name": "Abia"
-  },
-  {
-    "code": "ADAMAWA",
-    "name": "Adamawa"
-  },
-  {
-    "code": "AKWA IBOM",
-    "name": "Akwa Ibom"
-  },
-  {
-    "code": "ANAMBRA",
-    "name": "Anambra"
-  },
-  {
-    "code": "BAUCHI",
-    "name": "Bauchi"
-  },
-  {
-    "code": "BAYELSA",
-    "name": "Bayelsa"
-  },
-  {
-    "code": "BENUE",
-    "name": "Benue"
-  },
-  {
-    "code": "BORNO",
-    "name": "Borno"
-  },
-  {
-    "code": "CROSS RIVER",
-    "name": "Cross River"
-  },
-  {
-    "code": "DELTA",
-    "name": "Delta"
-  },
-  {
-    "code": "EBONYI",
-    "name": "Ebonyi"
-  },
-  {
-    "code": "EDO",
-    "name": "Edo"
-  },
-  {
-    "code": "EKITI",
-    "name": "Ekiti"
-  },
-  {
-    "code": "ENUGU",
-    "name": "Enugu"
-  },
-  {
-    "code": "FEDERAL CAPITAL TERRITORY",
-    "name": "Federal Capital Territory"
-  },
-  {
-    "code": "GOMBE",
-    "name": "Gombe"
-  },
-  {
-    "code": "IMO",
-    "name": "Imo"
-  },
-  {
-    "code": "JIGAWA",
-    "name": "Jigawa"
-  },
-  {
-    "code": "KADUNA",
-    "name": "Kaduna"
-  },
-  {
-    "code": "KANO",
-    "name": "Kano"
-  },
-  {
-    "code": "KATSINA",
-    "name": "Katsina"
-  },
-  {
-    "code": "KEBBI",
-    "name": "Kebbi"
-  },
-  {
-    "code": "KOGI",
-    "name": "Kogi"
-  },
-  {
-    "code": "KWARA",
-    "name": "Kwara"
-  },
-  {
-    "code": "LAGOS",
-    "name": "Lagos"
-  },
-  {
-    "code": "NASARAWA",
-    "name": "Nasarawa"
-  },
-  {
-    "code": "NIGER",
-    "name": "Niger"
-  },
-  {
-    "code": "OGUN",
-    "name": "Ogun"
-  },
-  {
-    "code": "ONDO",
-    "name": "Ondo"
-  },
-  {
-    "code": "OSUN",
-    "name": "Osun"
-  },
-  {
-    "code": "OYO",
-    "name": "Oyo"
-  },
-  {
-    "code": "PLATEAU",
-    "name": "Plateau"
-  },
-  {
-    "code": "RIVERS",
-    "name": "Rivers"
-  },
-  {
-    "code": "SOKOTO",
-    "name": "Sokoto"
-  },
-  {
-    "code": "TARABA",
-    "name": "Taraba"
-  },
-  {
-    "code": "YOBE",
-    "name": "Yobe"
-  },
-  {
-    "code": "ZAMFARA",
-    "name": "Zamfara"
-  }
-]
+{
+  "format": "The regional identifier is the issuing state shown as state text on the plate design; on many plate series the leading letters also identify the local issuing office (Format: ABC-123DE).",
+  "entries": [
+    {
+      "code": "ABIA",
+      "name": "Abia"
+    },
+    {
+      "code": "ADAMAWA",
+      "name": "Adamawa"
+    },
+    {
+      "code": "AKWA IBOM",
+      "name": "Akwa Ibom"
+    },
+    {
+      "code": "ANAMBRA",
+      "name": "Anambra"
+    },
+    {
+      "code": "BAUCHI",
+      "name": "Bauchi"
+    },
+    {
+      "code": "BAYELSA",
+      "name": "Bayelsa"
+    },
+    {
+      "code": "BENUE",
+      "name": "Benue"
+    },
+    {
+      "code": "BORNO",
+      "name": "Borno"
+    },
+    {
+      "code": "CROSS RIVER",
+      "name": "Cross River"
+    },
+    {
+      "code": "DELTA",
+      "name": "Delta"
+    },
+    {
+      "code": "EBONYI",
+      "name": "Ebonyi"
+    },
+    {
+      "code": "EDO",
+      "name": "Edo"
+    },
+    {
+      "code": "EKITI",
+      "name": "Ekiti"
+    },
+    {
+      "code": "ENUGU",
+      "name": "Enugu"
+    },
+    {
+      "code": "FEDERAL CAPITAL TERRITORY",
+      "name": "Federal Capital Territory"
+    },
+    {
+      "code": "GOMBE",
+      "name": "Gombe"
+    },
+    {
+      "code": "IMO",
+      "name": "Imo"
+    },
+    {
+      "code": "JIGAWA",
+      "name": "Jigawa"
+    },
+    {
+      "code": "KADUNA",
+      "name": "Kaduna"
+    },
+    {
+      "code": "KANO",
+      "name": "Kano"
+    },
+    {
+      "code": "KATSINA",
+      "name": "Katsina"
+    },
+    {
+      "code": "KEBBI",
+      "name": "Kebbi"
+    },
+    {
+      "code": "KOGI",
+      "name": "Kogi"
+    },
+    {
+      "code": "KWARA",
+      "name": "Kwara"
+    },
+    {
+      "code": "LAGOS",
+      "name": "Lagos"
+    },
+    {
+      "code": "NASARAWA",
+      "name": "Nasarawa"
+    },
+    {
+      "code": "NIGER",
+      "name": "Niger"
+    },
+    {
+      "code": "OGUN",
+      "name": "Ogun"
+    },
+    {
+      "code": "ONDO",
+      "name": "Ondo"
+    },
+    {
+      "code": "OSUN",
+      "name": "Osun"
+    },
+    {
+      "code": "OYO",
+      "name": "Oyo"
+    },
+    {
+      "code": "PLATEAU",
+      "name": "Plateau"
+    },
+    {
+      "code": "RIVERS",
+      "name": "Rivers"
+    },
+    {
+      "code": "SOKOTO",
+      "name": "Sokoto"
+    },
+    {
+      "code": "TARABA",
+      "name": "Taraba"
+    },
+    {
+      "code": "YOBE",
+      "name": "Yobe"
+    },
+    {
+      "code": "ZAMFARA",
+      "name": "Zamfara"
+    }
+  ]
+}

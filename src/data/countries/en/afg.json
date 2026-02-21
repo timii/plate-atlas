@@ -1,138 +1,141 @@
-[
-  {
-    "code": "BDN",
-    "name": "Badakhshan (بدخشان)"
-  },
-  {
-    "code": "BDS",
-    "name": "Badghis (بادغیس)"
-  },
-  {
-    "code": "BAG",
-    "name": "Baghlan (بغلان)"
-  },
-  {
-    "code": "BLH",
-    "name": "Balkh (بلخ)"
-  },
-  {
-    "code": "BMN",
-    "name": "Bamyan (بامیان)"
-  },
-  {
-    "code": "DYK",
-    "name": "Daykundi (دایکندی)"
-  },
-  {
-    "code": "FRH",
-    "name": "Farah (فراه)"
-  },
-  {
-    "code": "FRB",
-    "name": "Faryab (فاریاب)"
-  },
-  {
-    "code": "GZN",
-    "name": "Ghazni (غزنی)"
-  },
-  {
-    "code": "GHR",
-    "name": "Ghor (غور)"
-  },
-  {
-    "code": "HEL",
-    "name": "Helmand (هملند)"
-  },
-  {
-    "code": "HRT",
-    "name": "Herat (هرات)"
-  },
-  {
-    "code": "JZJ",
-    "name": "Jowzjan (جوزجان)"
-  },
-  {
-    "code": "KBL",
-    "name": "Kabul (کابل)"
-  },
-  {
-    "code": "KDR",
-    "name": "Kandahar (کندهار)"
-  },
-  {
-    "code": "KPS",
-    "name": "Kapisa (کپیسا)"
-  },
-  {
-    "code": "KST",
-    "name": "Khost (خوست)"
-  },
-  {
-    "code": "KNR",
-    "name": "Kunar (کونر)"
-  },
-  {
-    "code": "KDZ",
-    "name": "Kunduz (کندوز)"
-  },
-  {
-    "code": "LGM",
-    "name": "Laghman (لغمان)"
-  },
-  {
-    "code": "LGR",
-    "name": "Logar (لوگر)"
-  },
-  {
-    "code": "NGR",
-    "name": "Nangarhar (ننگرهار)"
-  },
-  {
-    "code": "NRZ",
-    "name": "Nimruz (نیمروز)"
-  },
-  {
-    "code": "NUR",
-    "name": "Nuristan (نورستان)"
-  },
-  {
-    "code": "PAK",
-    "name": "Paktia (پکتیا)"
-  },
-  {
-    "code": "PKT",
-    "name": "Paktika (پکتیکا)"
-  },
-  {
-    "code": "PJR",
-    "name": "Panjshir (پنجیشیر)"
-  },
-  {
-    "code": "PRN",
-    "name": "Parwan (پروان)"
-  },
-  {
-    "code": "SAM",
-    "name": "Samangan (سمنگان)"
-  },
-  {
-    "code": "SPL",
-    "name": "Sar-e Pol (سرپل)"
-  },
-  {
-    "code": "TAK",
-    "name": "Takhar (تخار)"
-  },
-  {
-    "code": "ORZ",
-    "name": "Urozgan (اروزگان)"
-  },
-  {
-    "code": "WDK",
-    "name": "Wardak (وردک)"
-  },
-  {
-    "code": "ZBL",
-    "name": "Zabul (زابل)"
-  }
-]
+{
+  "format": "The regional identifier is the leading code prefix at the beginning of the plate serial.",
+  "entries": [
+    {
+      "code": "BDN",
+      "name": "Badakhshan (بدخشان)"
+    },
+    {
+      "code": "BDS",
+      "name": "Badghis (بادغیس)"
+    },
+    {
+      "code": "BAG",
+      "name": "Baghlan (بغلان)"
+    },
+    {
+      "code": "BLH",
+      "name": "Balkh (بلخ)"
+    },
+    {
+      "code": "BMN",
+      "name": "Bamyan (بامیان)"
+    },
+    {
+      "code": "DYK",
+      "name": "Daykundi (دایکندی)"
+    },
+    {
+      "code": "FRH",
+      "name": "Farah (فراه)"
+    },
+    {
+      "code": "FRB",
+      "name": "Faryab (فاریاب)"
+    },
+    {
+      "code": "GZN",
+      "name": "Ghazni (غزنی)"
+    },
+    {
+      "code": "GHR",
+      "name": "Ghor (غور)"
+    },
+    {
+      "code": "HEL",
+      "name": "Helmand (هملند)"
+    },
+    {
+      "code": "HRT",
+      "name": "Herat (هرات)"
+    },
+    {
+      "code": "JZJ",
+      "name": "Jowzjan (جوزجان)"
+    },
+    {
+      "code": "KBL",
+      "name": "Kabul (کابل)"
+    },
+    {
+      "code": "KDR",
+      "name": "Kandahar (کندهار)"
+    },
+    {
+      "code": "KPS",
+      "name": "Kapisa (کپیسا)"
+    },
+    {
+      "code": "KST",
+      "name": "Khost (خوست)"
+    },
+    {
+      "code": "KNR",
+      "name": "Kunar (کونر)"
+    },
+    {
+      "code": "KDZ",
+      "name": "Kunduz (کندوز)"
+    },
+    {
+      "code": "LGM",
+      "name": "Laghman (لغمان)"
+    },
+    {
+      "code": "LGR",
+      "name": "Logar (لوگر)"
+    },
+    {
+      "code": "NGR",
+      "name": "Nangarhar (ننگرهار)"
+    },
+    {
+      "code": "NRZ",
+      "name": "Nimruz (نیمروز)"
+    },
+    {
+      "code": "NUR",
+      "name": "Nuristan (نورستان)"
+    },
+    {
+      "code": "PAK",
+      "name": "Paktia (پکتیا)"
+    },
+    {
+      "code": "PKT",
+      "name": "Paktika (پکتیکا)"
+    },
+    {
+      "code": "PJR",
+      "name": "Panjshir (پنجیشیر)"
+    },
+    {
+      "code": "PRN",
+      "name": "Parwan (پروان)"
+    },
+    {
+      "code": "SAM",
+      "name": "Samangan (سمنگان)"
+    },
+    {
+      "code": "SPL",
+      "name": "Sar-e Pol (سرپل)"
+    },
+    {
+      "code": "TAK",
+      "name": "Takhar (تخار)"
+    },
+    {
+      "code": "ORZ",
+      "name": "Urozgan (اروزگان)"
+    },
+    {
+      "code": "WDK",
+      "name": "Wardak (وردک)"
+    },
+    {
+      "code": "ZBL",
+      "name": "Zabul (زابل)"
+    }
+  ]
+}

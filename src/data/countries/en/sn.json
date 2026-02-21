@@ -1,58 +1,61 @@
-[
-  {
-    "code": "DB",
-    "name": "Diourbel Region (Région de Diourbel)"
-  },
-  {
-    "code": "DK",
-    "name": "Dakar Region (Région de Dakar)"
-  },
-  {
-    "code": "FK",
-    "name": "Fatick Region (Région de Fatick)"
-  },
-  {
-    "code": "KA",
-    "name": "Kaffrine Region (Région de Kaffrine)"
-  },
-  {
-    "code": "KD",
-    "name": "Kolda Region (Région de Kolda)"
-  },
-  {
-    "code": "KE",
-    "name": "Kedougou Region (Région de Kédougou)"
-  },
-  {
-    "code": "KL",
-    "name": "Kaolack Region (Région de Kaolack)"
-  },
-  {
-    "code": "LG",
-    "name": "Louga Region (Région de Louga)"
-  },
-  {
-    "code": "MT",
-    "name": "Matam Region (Région de Matam)"
-  },
-  {
-    "code": "SE",
-    "name": "Sedhiou Region (Région de Sédhiou)"
-  },
-  {
-    "code": "SL",
-    "name": "Saint-Louis Region (Région de Saint-Louis)"
-  },
-  {
-    "code": "TC",
-    "name": "Tambacounda Region (Région de Tambacounda)"
-  },
-  {
-    "code": "TH",
-    "name": "Thies Region (Région de Thiès)"
-  },
-  {
-    "code": "ZG",
-    "name": "Ziguinchor Region (Région de Ziguinchor)"
-  }
-]
+{
+  "format": "The regional identifier is the two-letter region code on the right end of the plate, with a two-digit department code below it (Format: Ab-123-CD with [EF/45]).",
+  "entries": [
+    {
+      "code": "DB",
+      "name": "Diourbel Region (Région de Diourbel)"
+    },
+    {
+      "code": "DK",
+      "name": "Dakar Region (Région de Dakar)"
+    },
+    {
+      "code": "FK",
+      "name": "Fatick Region (Région de Fatick)"
+    },
+    {
+      "code": "KA",
+      "name": "Kaffrine Region (Région de Kaffrine)"
+    },
+    {
+      "code": "KD",
+      "name": "Kolda Region (Région de Kolda)"
+    },
+    {
+      "code": "KE",
+      "name": "Kedougou Region (Région de Kédougou)"
+    },
+    {
+      "code": "KL",
+      "name": "Kaolack Region (Région de Kaolack)"
+    },
+    {
+      "code": "LG",
+      "name": "Louga Region (Région de Louga)"
+    },
+    {
+      "code": "MT",
+      "name": "Matam Region (Région de Matam)"
+    },
+    {
+      "code": "SE",
+      "name": "Sedhiou Region (Région de Sédhiou)"
+    },
+    {
+      "code": "SL",
+      "name": "Saint-Louis Region (Région de Saint-Louis)"
+    },
+    {
+      "code": "TC",
+      "name": "Tambacounda Region (Région de Tambacounda)"
+    },
+    {
+      "code": "TH",
+      "name": "Thies Region (Région de Thiès)"
+    },
+    {
+      "code": "ZG",
+      "name": "Ziguinchor Region (Région de Ziguinchor)"
+    }
+  ]
+}

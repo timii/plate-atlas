@@ -1,98 +1,101 @@
-[
-  {
-    "code": "A",
-    "name": "Capital District (Distrito Capital, Caracas)"
-  },
-  {
-    "code": "B",
-    "name": "Anzoategui (Anzoátegui, Estado Anzoátegui)"
-  },
-  {
-    "code": "C",
-    "name": "Apure (Estado Apure)"
-  },
-  {
-    "code": "D",
-    "name": "Aragua (Estado Aragua)"
-  },
-  {
-    "code": "E",
-    "name": "Barinas (Estado Barinas)"
-  },
-  {
-    "code": "F",
-    "name": "Bolivar (Bolívar, Estado Bolívar)"
-  },
-  {
-    "code": "G",
-    "name": "Carabobo (Estado Carabobo)"
-  },
-  {
-    "code": "H",
-    "name": "Cojedes (Estado Cojedes)"
-  },
-  {
-    "code": "I",
-    "name": "Falcon (Falcón, Estado Falcón)"
-  },
-  {
-    "code": "J",
-    "name": "Guarico (Guárico, Estado Guárico)"
-  },
-  {
-    "code": "K",
-    "name": "Lara (Estado Lara)"
-  },
-  {
-    "code": "L",
-    "name": "Merida (Mérida, Estado Mérida)"
-  },
-  {
-    "code": "M",
-    "name": "Miranda (Estado Miranda)"
-  },
-  {
-    "code": "N",
-    "name": "Monagas (Estado Monagas)"
-  },
-  {
-    "code": "O",
-    "name": "Nueva Esparta (Estado Nueva Esparta)"
-  },
-  {
-    "code": "P",
-    "name": "Portuguesa (Estado Portuguesa)"
-  },
-  {
-    "code": "R",
-    "name": "Sucre (Estado Sucre)"
-  },
-  {
-    "code": "S",
-    "name": "Tachira (Táchira, Estado Táchira)"
-  },
-  {
-    "code": "T",
-    "name": "Trujillo (Estado Trujillo)"
-  },
-  {
-    "code": "U",
-    "name": "Yaracuy (Estado Yaracuy)"
-  },
-  {
-    "code": "V",
-    "name": "Zulia (Estado Zulia)"
-  },
-  {
-    "code": "W",
-    "name": "La Guaira (Estado La Guaira, formerly Vargas)"
-  },
-  {
-    "code": "X",
-    "name": "Amazonas (Estado Amazonas)"
-  },
-  {
-    "code": "Y",
-    "name": "Delta Amacuro (Estado Delta Amacuro)"
-  }
-]
+{
+  "format": "The regional identifier is the final letter at the end of the serial (Format: AB123CD).",
+  "entries": [
+    {
+      "code": "A",
+      "name": "Capital District (Distrito Capital, Caracas)"
+    },
+    {
+      "code": "B",
+      "name": "Anzoategui (Anzoátegui, Estado Anzoátegui)"
+    },
+    {
+      "code": "C",
+      "name": "Apure (Estado Apure)"
+    },
+    {
+      "code": "D",
+      "name": "Aragua (Estado Aragua)"
+    },
+    {
+      "code": "E",
+      "name": "Barinas (Estado Barinas)"
+    },
+    {
+      "code": "F",
+      "name": "Bolivar (Bolívar, Estado Bolívar)"
+    },
+    {
+      "code": "G",
+      "name": "Carabobo (Estado Carabobo)"
+    },
+    {
+      "code": "H",
+      "name": "Cojedes (Estado Cojedes)"
+    },
+    {
+      "code": "I",
+      "name": "Falcon (Falcón, Estado Falcón)"
+    },
+    {
+      "code": "J",
+      "name": "Guarico (Guárico, Estado Guárico)"
+    },
+    {
+      "code": "K",
+      "name": "Lara (Estado Lara)"
+    },
+    {
+      "code": "L",
+      "name": "Merida (Mérida, Estado Mérida)"
+    },
+    {
+      "code": "M",
+      "name": "Miranda (Estado Miranda)"
+    },
+    {
+      "code": "N",
+      "name": "Monagas (Estado Monagas)"
+    },
+    {
+      "code": "O",
+      "name": "Nueva Esparta (Estado Nueva Esparta)"
+    },
+    {
+      "code": "P",
+      "name": "Portuguesa (Estado Portuguesa)"
+    },
+    {
+      "code": "R",
+      "name": "Sucre (Estado Sucre)"
+    },
+    {
+      "code": "S",
+      "name": "Tachira (Táchira, Estado Táchira)"
+    },
+    {
+      "code": "T",
+      "name": "Trujillo (Estado Trujillo)"
+    },
+    {
+      "code": "U",
+      "name": "Yaracuy (Estado Yaracuy)"
+    },
+    {
+      "code": "V",
+      "name": "Zulia (Estado Zulia)"
+    },
+    {
+      "code": "W",
+      "name": "La Guaira (Estado La Guaira, formerly Vargas)"
+    },
+    {
+      "code": "X",
+      "name": "Amazonas (Estado Amazonas)"
+    },
+    {
+      "code": "Y",
+      "name": "Delta Amacuro (Estado Delta Amacuro)"
+    }
+  ]
+}

@@ -1,54 +1,57 @@
-[
-  {
-    "code": "00",
-    "name": "Nouakchott (نواكشوط)"
-  },
-  {
-    "code": "01",
-    "name": "Hodh Ech Chargui (الحوض الشرقي)"
-  },
-  {
-    "code": "02",
-    "name": "Hodh El Gharbi (الحوض الغربي)"
-  },
-  {
-    "code": "03",
-    "name": "Assaba (العصابة)"
-  },
-  {
-    "code": "04",
-    "name": "Gorgol (كوركول)"
-  },
-  {
-    "code": "05",
-    "name": "Brakna (لبراكنة)"
-  },
-  {
-    "code": "06",
-    "name": "Trarza (اترارزة)"
-  },
-  {
-    "code": "07",
-    "name": "Adrar (آدرار)"
-  },
-  {
-    "code": "08",
-    "name": "Dakhlet Nouadhibou (داخلت نواذيبو)"
-  },
-  {
-    "code": "09",
-    "name": "Tagant (تكانت)"
-  },
-  {
-    "code": "10",
-    "name": "Guidimaga (كيدي ماغا)"
-  },
-  {
-    "code": "11",
-    "name": "Tiris Zemmour (تيرس زمور)"
-  },
-  {
-    "code": "12",
-    "name": "Inchiri (إنشيري)"
-  }
-]
+{
+  "format": "The regional identifier is the final two-digit suffix at the end of the plate, after the four digits and two-letter series.",
+  "entries": [
+    {
+      "code": "00",
+      "name": "Nouakchott (نواكشوط)"
+    },
+    {
+      "code": "01",
+      "name": "Hodh Ech Chargui (الحوض الشرقي)"
+    },
+    {
+      "code": "02",
+      "name": "Hodh El Gharbi (الحوض الغربي)"
+    },
+    {
+      "code": "03",
+      "name": "Assaba (العصابة)"
+    },
+    {
+      "code": "04",
+      "name": "Gorgol (كوركول)"
+    },
+    {
+      "code": "05",
+      "name": "Brakna (لبراكنة)"
+    },
+    {
+      "code": "06",
+      "name": "Trarza (اترارزة)"
+    },
+    {
+      "code": "07",
+      "name": "Adrar (آدرار)"
+    },
+    {
+      "code": "08",
+      "name": "Dakhlet Nouadhibou (داخلت نواذيبو)"
+    },
+    {
+      "code": "09",
+      "name": "Tagant (تكانت)"
+    },
+    {
+      "code": "10",
+      "name": "Guidimaga (كيدي ماغا)"
+    },
+    {
+      "code": "11",
+      "name": "Tiris Zemmour (تيرس زمور)"
+    },
+    {
+      "code": "12",
+      "name": "Inchiri (إنشيري)"
+    }
+  ]
+}

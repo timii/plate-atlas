@@ -1,66 +1,69 @@
-[
-  {
-    "code": "BO",
-    "name": "Boaco (Departamento de Boaco)"
-  },
-  {
-    "code": "CA",
-    "name": "Carazo (Departamento de Carazo)"
-  },
-  {
-    "code": "CH",
-    "name": "Chinandega (Departamento de Chinandega)"
-  },
-  {
-    "code": "CT",
-    "name": "Chontales (Departamento de Chontales)"
-  },
-  {
-    "code": "ES",
-    "name": "Esteli (Estelí, Departamento de Estelí)"
-  },
-  {
-    "code": "GR",
-    "name": "Granada (Departamento de Granada)"
-  },
-  {
-    "code": "JI",
-    "name": "Jinotega (Departamento de Jinotega)"
-  },
-  {
-    "code": "LE",
-    "name": "Leon (León, Departamento de León)"
-  },
-  {
-    "code": "M",
-    "name": "Managua (Departamento de Managua)"
-  },
-  {
-    "code": "MA",
-    "name": "Managua (Departamento de Managua)"
-  },
-  {
-    "code": "MT",
-    "name": "Matagalpa (Departamento de Matagalpa)"
-  },
-  {
-    "code": "MY",
-    "name": "Masaya (Departamento de Masaya)"
-  },
-  {
-    "code": "MZ",
-    "name": "Madriz (Departamento de Madriz)"
-  },
-  {
-    "code": "NS",
-    "name": "Nueva Segovia (Departamento de Nueva Segovia)"
-  },
-  {
-    "code": "RI",
-    "name": "Rivas (Departamento de Rivas)"
-  },
-  {
-    "code": "RJ",
-    "name": "Rio San Juan (Río San Juan, Departamento de Río San Juan)"
-  }
-]
+{
+  "format": "The regional identifier is the leading code prefix at the beginning of the plate serial.",
+  "entries": [
+    {
+      "code": "BO",
+      "name": "Boaco (Departamento de Boaco)"
+    },
+    {
+      "code": "CA",
+      "name": "Carazo (Departamento de Carazo)"
+    },
+    {
+      "code": "CH",
+      "name": "Chinandega (Departamento de Chinandega)"
+    },
+    {
+      "code": "CT",
+      "name": "Chontales (Departamento de Chontales)"
+    },
+    {
+      "code": "ES",
+      "name": "Esteli (Estelí, Departamento de Estelí)"
+    },
+    {
+      "code": "GR",
+      "name": "Granada (Departamento de Granada)"
+    },
+    {
+      "code": "JI",
+      "name": "Jinotega (Departamento de Jinotega)"
+    },
+    {
+      "code": "LE",
+      "name": "Leon (León, Departamento de León)"
+    },
+    {
+      "code": "M",
+      "name": "Managua (Departamento de Managua)"
+    },
+    {
+      "code": "MA",
+      "name": "Managua (Departamento de Managua)"
+    },
+    {
+      "code": "MT",
+      "name": "Matagalpa (Departamento de Matagalpa)"
+    },
+    {
+      "code": "MY",
+      "name": "Masaya (Departamento de Masaya)"
+    },
+    {
+      "code": "MZ",
+      "name": "Madriz (Departamento de Madriz)"
+    },
+    {
+      "code": "NS",
+      "name": "Nueva Segovia (Departamento de Nueva Segovia)"
+    },
+    {
+      "code": "RI",
+      "name": "Rivas (Departamento de Rivas)"
+    },
+    {
+      "code": "RJ",
+      "name": "Rio San Juan (Río San Juan, Departamento de Río San Juan)"
+    }
+  ]
+}

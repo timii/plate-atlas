@@ -1,66 +1,69 @@
-[
-  {
-    "code": "BB",
-    "name": "Bamingui-Bangoran (Pr\u00e9fecture de Bamingui-Bangoran)"
-  },
-  {
-    "code": "BG",
-    "name": "Bangui (Commune de Bangui)"
-  },
-  {
-    "code": "BK",
-    "name": "Basse-Kotto (Pr\u00e9fecture de la Basse-Kotto)"
-  },
-  {
-    "code": "HB",
-    "name": "Haut-Mbomou (Pr\u00e9fecture du Haut-Mbomou)"
-  },
-  {
-    "code": "HK",
-    "name": "Haute-Kotto (Pr\u00e9fecture de la Haute-Kotto)"
-  },
-  {
-    "code": "KG",
-    "name": "Kemo (K\u00e9mo, Pr\u00e9fecture de la K\u00e9mo)"
-  },
-  {
-    "code": "LB",
-    "name": "Lobaye (Pr\u00e9fecture de la Lobaye)"
-  },
-  {
-    "code": "MB",
-    "name": "Mbomou (Pr\u00e9fecture du Mbomou)"
-  },
-  {
-    "code": "MK",
-    "name": "Mambere-Kadei (Mamb\u00e9r\u00e9-Kad\u00e9\u00ef, Pr\u00e9fecture de la Mamb\u00e9r\u00e9-Kad\u00e9\u00ef)"
-  },
-  {
-    "code": "MP",
-    "name": "Ombella-M'Poko (Pr\u00e9fecture de l'Ombella-M'Poko)"
-  },
-  {
-    "code": "NG",
-    "name": "Nana-Grebizi (Nana-Gr\u00e9bizi, Pr\u00e9fecture de la Nana-Gr\u00e9bizi)"
-  },
-  {
-    "code": "SE",
-    "name": "Sangha-Mbaere (Sangha-Mba\u00e9r\u00e9, Pr\u00e9fecture de la Sangha-Mba\u00e9r\u00e9)"
-  },
-  {
-    "code": "UA",
-    "name": "Ouham (Pr\u00e9fecture de l'Ouham)"
-  },
-  {
-    "code": "UK",
-    "name": "Ouaka (Pr\u00e9fecture de la Ouaka)"
-  },
-  {
-    "code": "UP",
-    "name": "Ouham-Pende (Ouham-Pend\u00e9, Pr\u00e9fecture de l'Ouham-Pend\u00e9)"
-  },
-  {
-    "code": "VK",
-    "name": "Vakaga (Pr\u00e9fecture de la Vakaga)"
-  }
-]
+{
+  "format": "The regional identifier is the leading code prefix at the beginning of the plate serial (Format: AA 123 CD).",
+  "entries": [
+    {
+      "code": "BB",
+      "name": "Bamingui-Bangoran (Préfecture de Bamingui-Bangoran)"
+    },
+    {
+      "code": "BG",
+      "name": "Bangui (Commune de Bangui)"
+    },
+    {
+      "code": "BK",
+      "name": "Basse-Kotto (Préfecture de la Basse-Kotto)"
+    },
+    {
+      "code": "HB",
+      "name": "Haut-Mbomou (Préfecture du Haut-Mbomou)"
+    },
+    {
+      "code": "HK",
+      "name": "Haute-Kotto (Préfecture de la Haute-Kotto)"
+    },
+    {
+      "code": "KG",
+      "name": "Kemo (Kémo, Préfecture de la Kémo)"
+    },
+    {
+      "code": "LB",
+      "name": "Lobaye (Préfecture de la Lobaye)"
+    },
+    {
+      "code": "MB",
+      "name": "Mbomou (Préfecture du Mbomou)"
+    },
+    {
+      "code": "MK",
+      "name": "Mambere-Kadei (Mambéré-Kadéï, Préfecture de la Mambéré-Kadéï)"
+    },
+    {
+      "code": "MP",
+      "name": "Ombella-M'Poko (Préfecture de l'Ombella-M'Poko)"
+    },
+    {
+      "code": "NG",
+      "name": "Nana-Grebizi (Nana-Grébizi, Préfecture de la Nana-Grébizi)"
+    },
+    {
+      "code": "SE",
+      "name": "Sangha-Mbaere (Sangha-Mbaéré, Préfecture de la Sangha-Mbaéré)"
+    },
+    {
+      "code": "UA",
+      "name": "Ouham (Préfecture de l'Ouham)"
+    },
+    {
+      "code": "UK",
+      "name": "Ouaka (Préfecture de la Ouaka)"
+    },
+    {
+      "code": "UP",
+      "name": "Ouham-Pende (Ouham-Pendé, Préfecture de l'Ouham-Pendé)"
+    },
+    {
+      "code": "VK",
+      "name": "Vakaga (Préfecture de la Vakaga)"
+    }
+  ]
+}

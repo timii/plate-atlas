@@ -1,34 +1,37 @@
-[
-  {
-    "code": "B",
-    "name": "Beirut (بيروت)"
-  },
-  {
-    "code": "G",
-    "name": "Jounieh (جونية)"
-  },
-  {
-    "code": "N",
-    "name": "Nabatieh (النبطية)"
-  },
-  {
-    "code": "O",
-    "name": "Ouzai (الأوزاعي)"
-  },
-  {
-    "code": "S",
-    "name": "Sidon (صيدا)"
-  },
-  {
-    "code": "T",
-    "name": "Tripoli (طرابلس)"
-  },
-  {
-    "code": "Y",
-    "name": "Aley (عاليه)"
-  },
-  {
-    "code": "Z",
-    "name": "Zahle (زحلة)"
-  }
-]
+{
+  "format": "The regional identifier is the leading code prefix at the beginning of the plate serial (Format: A 123456).",
+  "entries": [
+    {
+      "code": "B",
+      "name": "Beirut (بيروت)"
+    },
+    {
+      "code": "G",
+      "name": "Jounieh (جونية)"
+    },
+    {
+      "code": "N",
+      "name": "Nabatieh (النبطية)"
+    },
+    {
+      "code": "O",
+      "name": "Ouzai (الأوزاعي)"
+    },
+    {
+      "code": "S",
+      "name": "Sidon (صيدا)"
+    },
+    {
+      "code": "T",
+      "name": "Tripoli (طرابلس)"
+    },
+    {
+      "code": "Y",
+      "name": "Aley (عاليه)"
+    },
+    {
+      "code": "Z",
+      "name": "Zahle (زحلة)"
+    }
+  ]
+}

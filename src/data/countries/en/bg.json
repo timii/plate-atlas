@@ -1,114 +1,117 @@
-[
-  {
-    "code": "\u0410",
-    "name": "Burgas Province (Бургас)"
-  },
-  {
-    "code": "\u0412",
-    "name": "Varna Province (Варна)"
-  },
-  {
-    "code": "\u0412\u041d",
-    "name": "Vidin Province (Видин)"
-  },
-  {
-    "code": "\u0412\u0420",
-    "name": "Vratsa Province (Враца)"
-  },
-  {
-    "code": "\u0412\u0422",
-    "name": "Veliko Tarnovo Province (Велико Търново)"
-  },
-  {
-    "code": "\u0415",
-    "name": "Blagoevgrad Province (Благоевград)"
-  },
-  {
-    "code": "\u0415\u0412",
-    "name": "Gabrovo Province (Габрово)"
-  },
-  {
-    "code": "\u0415\u041d",
-    "name": "Pleven Province (Плевен)"
-  },
-  {
-    "code": "\u041a",
-    "name": "Kardzhali Province (Кърджали)"
-  },
-  {
-    "code": "\u041a\u041d",
-    "name": "Kyustendil Province (Кюстендил)"
-  },
-  {
-    "code": "\u041c",
-    "name": "Montana Province (Монтана)"
-  },
-  {
-    "code": "\u041d",
-    "name": "Shumen Province (Шумен)"
-  },
-  {
-    "code": "\u041e\u0412",
-    "name": "Lovech Province (Ловеч)"
-  },
-  {
-    "code": "\u0420",
-    "name": "Ruse Province (Русе)"
-  },
-  {
-    "code": "\u0420\u0410",
-    "name": "Pazardzhik Province (Пазарджик)"
-  },
-  {
-    "code": "\u0420\u0412",
-    "name": "Plovdiv Province (Пловдив)"
-  },
-  {
-    "code": "\u0420\u041a",
-    "name": "Pernik Province (Перник)"
-  },
-  {
-    "code": "\u0420\u0420",
-    "name": "Razgrad Province (Разград)"
-  },
-  {
-    "code": "\u0421, \u0421\u0410, \u0421\u0412",
-    "name": "Sofia (Capital, Столична община)"
-  },
-  {
-    "code": "\u0421\u041d",
-    "name": "Sliven Province (Сливен)"
-  },
-  {
-    "code": "\u0421\u041c",
-    "name": "Smolyan Province (Смолян)"
-  },
-  {
-    "code": "\u0421\u041e",
-    "name": "Sofia Province (София област)"
-  },
-  {
-    "code": "\u0421\u0421",
-    "name": "Silistra Province (Силистра)"
-  },
-  {
-    "code": "\u0421\u0422",
-    "name": "Stara Zagora Province (Стара Загора)"
-  },
-  {
-    "code": "\u0422",
-    "name": "Targovishte Province (Търговище)"
-  },
-  {
-    "code": "\u0422\u0425",
-    "name": "Dobrich Province (Добрич)"
-  },
-  {
-    "code": "Y",
-    "name": "Yambol Province (Ямбол)"
-  },
-  {
-    "code": "\u0425",
-    "name": "Haskovo Province (Хасково)"
-  }
-]
+{
+  "format": "The regional identifier is the leading Cyrillic letter code at the beginning of the plate serial.",
+  "entries": [
+    {
+      "code": "А",
+      "name": "Burgas Province (Бургас)"
+    },
+    {
+      "code": "В",
+      "name": "Varna Province (Варна)"
+    },
+    {
+      "code": "ВН",
+      "name": "Vidin Province (Видин)"
+    },
+    {
+      "code": "ВР",
+      "name": "Vratsa Province (Враца)"
+    },
+    {
+      "code": "ВТ",
+      "name": "Veliko Tarnovo Province (Велико Търново)"
+    },
+    {
+      "code": "Е",
+      "name": "Blagoevgrad Province (Благоевград)"
+    },
+    {
+      "code": "ЕВ",
+      "name": "Gabrovo Province (Габрово)"
+    },
+    {
+      "code": "ЕН",
+      "name": "Pleven Province (Плевен)"
+    },
+    {
+      "code": "К",
+      "name": "Kardzhali Province (Кърджали)"
+    },
+    {
+      "code": "КН",
+      "name": "Kyustendil Province (Кюстендил)"
+    },
+    {
+      "code": "М",
+      "name": "Montana Province (Монтана)"
+    },
+    {
+      "code": "Н",
+      "name": "Shumen Province (Шумен)"
+    },
+    {
+      "code": "ОВ",
+      "name": "Lovech Province (Ловеч)"
+    },
+    {
+      "code": "Р",
+      "name": "Ruse Province (Русе)"
+    },
+    {
+      "code": "РА",
+      "name": "Pazardzhik Province (Пазарджик)"
+    },
+    {
+      "code": "РВ",
+      "name": "Plovdiv Province (Пловдив)"
+    },
+    {
+      "code": "РК",
+      "name": "Pernik Province (Перник)"
+    },
+    {
+      "code": "РР",
+      "name": "Razgrad Province (Разград)"
+    },
+    {
+      "code": "С, СА, СВ",
+      "name": "Sofia (Capital, Столична община)"
+    },
+    {
+      "code": "СН",
+      "name": "Sliven Province (Сливен)"
+    },
+    {
+      "code": "СМ",
+      "name": "Smolyan Province (Смолян)"
+    },
+    {
+      "code": "СО",
+      "name": "Sofia Province (София област)"
+    },
+    {
+      "code": "СС",
+      "name": "Silistra Province (Силистра)"
+    },
+    {
+      "code": "СТ",
+      "name": "Stara Zagora Province (Стара Загора)"
+    },
+    {
+      "code": "Т",
+      "name": "Targovishte Province (Търговище)"
+    },
+    {
+      "code": "ТХ",
+      "name": "Dobrich Province (Добрич)"
+    },
+    {
+      "code": "Y",
+      "name": "Yambol Province (Ямбол)"
+    },
+    {
+      "code": "Х",
+      "name": "Haskovo Province (Хасково)"
+    }
+  ]
+}

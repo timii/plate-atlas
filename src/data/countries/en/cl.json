@@ -1,38 +1,41 @@
-[
-  {
-    "code": "CP",
-    "name": "Central Province (මධ්‍යම පළාත)"
-  },
-  {
-    "code": "EP",
-    "name": "Eastern Province (නැගෙනහිර පළාත)"
-  },
-  {
-    "code": "NC",
-    "name": "North Central Province (උතුරු මැද පළාත)"
-  },
-  {
-    "code": "NP",
-    "name": "Northern Province (උතුරු පළාත)"
-  },
-  {
-    "code": "NW",
-    "name": "North Western Province (වයඹ පළාත)"
-  },
-  {
-    "code": "SG",
-    "name": "Sabaragamuwa Province (සබරගමුව පළාත)"
-  },
-  {
-    "code": "SP",
-    "name": "Southern Province (දකුණු පළාත)"
-  },
-  {
-    "code": "UP",
-    "name": "Uva Province (ඌව පළාත)"
-  },
-  {
-    "code": "WP",
-    "name": "Western Province (බස්නාහිර පළාත)"
-  }
-]
+{
+  "format": "In the two-letter regional system, the regional identifier is the two-letter province code below the emblem on the left side of the plate, separate from the serial letters and digits.",
+  "entries": [
+    {
+      "code": "CP",
+      "name": "Central Province (මධ්‍යම පළාත)"
+    },
+    {
+      "code": "EP",
+      "name": "Eastern Province (නැගෙනහිර පළාත)"
+    },
+    {
+      "code": "NC",
+      "name": "North Central Province (උතුරු මැද පළාත)"
+    },
+    {
+      "code": "NP",
+      "name": "Northern Province (උතුරු පළාත)"
+    },
+    {
+      "code": "NW",
+      "name": "North Western Province (වයඹ පළාත)"
+    },
+    {
+      "code": "SG",
+      "name": "Sabaragamuwa Province (සබරගමුව පළාත)"
+    },
+    {
+      "code": "SP",
+      "name": "Southern Province (දකුණු පළාත)"
+    },
+    {
+      "code": "UP",
+      "name": "Uva Province (ඌව පළාත)"
+    },
+    {
+      "code": "WP",
+      "name": "Western Province (බස්නාහිර පළාත)"
+    }
+  ]
+}
