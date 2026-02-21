@@ -4,22 +4,17 @@ import { useRoute } from 'vue-router'
 import { useCountriesStore } from '@/stores/countries'
 import { isOfTypeCodes, isOfTypeExampleImages, type ICountryDetails } from '@/models/country.model'
 import countriesJson from '../data/current-license-plates.json'
-import RegionCard from '@/components/detail/RegionCard.vue'
 import IconButton from '@/components/shared/IconButton.vue'
-import ListActions from '@/components/overview/ListActions.vue'
-import NoResults from '@/components/shared/NoResults.vue'
 import StarEmpty from '@/assets/icons/StarEmpty.vue'
 import StarFilled from '@/assets/icons/StarFilled.vue'
 import Loading from '@/components/shared/Loading.vue'
 import { useDetailsStore } from '@/stores/details'
-import { storeToRefs } from 'pinia'
-import Info from '@/assets/icons/Info.vue'
+import DetailCodesContent from '@/components/detail/DetailCodesContent.vue'
+import DetailExampleImagesContent from '@/components/detail/DetailExampleImagesContent.vue'
 
 const route = useRoute()
 const countriesStore = useCountriesStore()
 const detailsStore = useDetailsStore()
-const { mappedDetailsLength, allDetailsLength, mappedDetails, searchTerm, sortBy, exampleImages } =
-  storeToRefs(detailsStore)
 
 const countryName = ref('')
 const loading = ref(false)
@@ -131,63 +126,9 @@ onMounted(async () => {
       </div>
     </div>
 
-    <div
-      v-if="countryHasCodes"
-      class="content flex w-4/5 flex-col items-center justify-center gap-8"
-    >
-      <ListActions
-        :shown-elements-info="{ current: mappedDetailsLength, total: allDetailsLength }"
-        :element-types="'regions'"
-        v-model:search-term="searchTerm"
-        v-model:sort-by="sortBy"
-      ></ListActions>
-      <div
-        v-if="mappedDetails && mappedDetails.length > 0"
-        class="list flex w-full flex-wrap gap-4"
-      >
-        <div class="list-element w-full" v-for="detail in mappedDetails" :key="detail.code">
-          <RegionCard :region="detail" />
-        </div>
-      </div>
-      <NoResults v-else />
-    </div>
+    <DetailCodesContent v-if="countryHasCodes" />
 
-    <div v-else class="content flex w-4/5 flex-col items-center justify-center gap-8">
-      <template v-if="exampleImages && exampleImages.length > 0">
-        <div
-          class="flex items-center gap-4 rounded-lg border border-border-light3 px-6 py-4 text-lg text-text-light-default dark:border-border-dark3 dark:bg-background-dark-highlight dark:text-text-dark-default dark:placeholder-gray-400"
-        >
-          <Info></Info>
-          <span>
-            License plates in {{ countryName ?? 'this country' }} are not tied to specific regions
-            or area codes
-          </span>
-        </div>
-        <div
-          class="flex w-full flex-col items-center justify-center gap-4"
-          v-for="imageCategory in exampleImages"
-          :key="imageCategory.category"
-        >
-          <h2 class="text-center text-lg">{{ imageCategory.category }}</h2>
-          <div class="flex max-w-full flex-wrap items-center justify-center gap-4">
-            <template v-for="imageObj in imageCategory.images" :key="imageObj.url">
-              <div class="flex flex-col">
-                <img
-                  :src="imageObj.url"
-                  :alt="`Example image for ${imageObj.title ?? 'license plate'}`"
-                  class="max-h-72 max-w-64 object-contain"
-                />
-                <span
-                  class="max-w-64 text-center text-base text-wrap text-text-light-info dark:text-text-dark-info"
-                  >{{ imageObj.title }}</span
-                >
-              </div>
-            </template>
-          </div>
-        </div>
-      </template>
-      <div v-else>No example</div>
-    </div>
+    <DetailExampleImagesContent v-else :country-name="countryName" />
   </div>
 </template>
 
