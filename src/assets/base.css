@@ -113,6 +113,19 @@
   --color-heading: var(--vt-c-text-light-1);
   --color-text: var(--color-text-light-default);
   /* --color-text: var(--vt-c-text-light-1); */
+
+  /* shared tokens for overview/header design language */
+  --atlas-bg-1: #17131b;
+  --atlas-bg-2: #221b29;
+  --atlas-surface: rgba(10, 8, 13, 0.66);
+  --atlas-surface-2: rgba(7, 5, 10, 0.82);
+  --atlas-text: #f4edff;
+  --atlas-muted: #c7bade;
+  --atlas-line: rgba(244, 237, 255, 0.24);
+  --atlas-header-surface: rgba(13, 10, 18, 0.72);
+  --atlas-header-surface-mobile: rgba(13, 10, 18, 0.82);
+  --atlas-header-height: 3.5rem;
+  --atlas-header-height-mobile: 3.25rem;
 }
 
 @media (prefers-color-scheme: dark) {
