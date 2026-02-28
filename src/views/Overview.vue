@@ -327,7 +327,7 @@ onMounted(() => {
   display: inline-flex;
   justify-content: center;
   align-self: center;
-  font-size: 0.66rem;
+  font-size: 0.75rem;
   letter-spacing: 0.06em;
   white-space: nowrap;
   overflow: hidden;
