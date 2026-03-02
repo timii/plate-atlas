@@ -90,8 +90,8 @@ function toggleMenu() {
 
 .trigger:focus-visible {
   outline: none;
-  border-color: #6f87d9;
-  box-shadow: 0 0 0 3px rgba(111, 135, 217, 0.2);
+  border-color: color-mix(in oklab, var(--tone, #6f87d9) 64%, var(--line));
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--tone, #6f87d9) 18%, transparent);
 }
 
 .list {

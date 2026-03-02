@@ -2,11 +2,20 @@
 import Close from '@/assets/icons/Close.vue'
 
 const text = defineModel('text', { type: String, default: '' })
+
+const props = withDefaults(
+  defineProps<{
+    placeholder?: string
+  }>(),
+  {
+    placeholder: 'country, code, continent',
+  },
+)
 </script>
 
 <template>
   <div class="overview-search">
-    <input v-model="text" type="text" placeholder="country, code, continent" />
+    <input v-model="text" type="text" :placeholder="props.placeholder" />
     <button
       v-if="text.length > 0"
       type="button"
@@ -49,8 +58,8 @@ const text = defineModel('text', { type: String, default: '' })
 }
 
 .overview-search:focus-within {
-  border-color: #6f87d9;
-  box-shadow: 0 0 0 3px rgba(111, 135, 217, 0.2);
+  border-color: color-mix(in oklab, var(--tone, #6f87d9) 64%, var(--line));
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--tone, #6f87d9) 18%, transparent);
 }
 
 .clear {
