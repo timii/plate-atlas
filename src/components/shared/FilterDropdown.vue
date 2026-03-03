@@ -37,7 +37,7 @@ function toggleMenu() {
 </script>
 
 <template>
-  <div class="overview-dropdown">
+  <div class="filter-dropdown">
     <div class="label">{{ props.label }}</div>
     <button
       type="button"
@@ -60,7 +60,7 @@ function toggleMenu() {
 </template>
 
 <style scoped>
-.overview-dropdown {
+.filter-dropdown {
   position: relative;
   min-width: 0;
 }

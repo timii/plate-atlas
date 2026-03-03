@@ -1,52 +1,44 @@
 import { type ICountryDetailCode, type ICountryDetailExampleImages } from '@/models/country.model'
-import { SortBy } from '@/models/dropdown.model'
 import { defineStore } from 'pinia'
 import { computed, ref } from 'vue'
+
+export type DetailSortMode = 'name' | 'code'
 
 export const useDetailsStore = defineStore('details', () => {
   const details = ref<ICountryDetailCode[]>([])
   const exampleImages = ref<ICountryDetailExampleImages[]>([])
   const searchTerm = ref<string>('')
-  const sortBy = ref<SortBy>(SortBy.ALPHABETIC_ASC)
+  const sortMode = ref<DetailSortMode>('name')
 
-  // keep track of amount of all and mapped countries
+  // keep track of amount of all and mapped details
   const allDetailsLength = computed(() => details.value.length ?? 0)
   const mappedDetailsLength = computed(() => mappedDetails.value.length ?? 0)
 
-  // return list of countries after being filtered and sorted
+  // filter and sort details in a deterministic order for all consumers
   const mappedDetails = computed(() => {
-    console.log('mappedDetails -> searchTerm:', searchTerm.value, 'sortBy:', sortBy.value)
+    const normalizedSearch = searchTerm.value.toLowerCase().trim()
 
-    const detailsCopy = details.value
-
-    // filter details by `searchTerm`
-    const filtered = detailsCopy.filter((detail) => {
-      const detailName = detail.name.toLowerCase()
-      return detailName.includes(searchTerm.value.toLowerCase())
+    // include both code and name in the search target
+    const filtered = details.value.filter((detail) => {
+      const target = `${detail.code} ${detail.name}`.toLowerCase()
+      return target.includes(normalizedSearch)
     })
 
-    // sort filtered details by current `sortBy` value
-    const sorted = filtered.sort((a, b) => {
-      // sort alphabetically in descending order
-      if (sortBy.value === SortBy.ALPHABETIC_DESC) {
-        return b.name.localeCompare(a.name)
+    // sort after filtering so rendered rows reflect current subset order
+    return [...filtered].sort((a, b) => {
+      if (sortMode.value === 'code') {
+        return a.code.localeCompare(b.code)
       }
 
-      // sort alphabetically in asecnding order
-      else {
-        return a.name.localeCompare(b.name)
-      }
+      return a.name.localeCompare(b.name)
     })
-
-    console.log('mappedDetails return:', sorted)
-    return sorted
   })
 
   return {
     details,
     exampleImages,
     searchTerm,
-    sortBy,
+    sortMode,
     allDetailsLength,
     mappedDetailsLength,
     mappedDetails,

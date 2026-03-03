@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue'
+import { computed, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useCountriesStore } from '@/stores/countries'
 import { isOfTypeCodes, isOfTypeExampleImages, type ICountryDetails } from '@/models/country.model'
-import countriesJson from '../data/current-license-plates.json'
+import countriesJson from '@/data/current-license-plates.json'
 import IconButton from '@/components/shared/IconButton.vue'
 import StarEmpty from '@/assets/icons/StarEmpty.vue'
 import StarFilled from '@/assets/icons/StarFilled.vue'
@@ -11,130 +11,215 @@ import Loading from '@/components/shared/Loading.vue'
 import { useDetailsStore } from '@/stores/details'
 import DetailCodesContent from '@/components/detail/DetailCodesContent.vue'
 import DetailExampleImagesContent from '@/components/detail/DetailExampleImagesContent.vue'
+import { getToneStyle } from '@/constants/continentTone'
 
 const route = useRoute()
 const countriesStore = useCountriesStore()
 const detailsStore = useDetailsStore()
 
-const countryName = ref('')
 const loading = ref(false)
 const countryHasCodes = ref(false)
 const formatDescription = ref('')
 
-const countryCode = computed(() => (route.params.code as string) ?? '')
+const countryCode = computed(() => ((route.params.code as string | undefined) ?? '').toLowerCase())
+
+const selectedCountry = computed(() => {
+  return countriesStore.countries.countries.find((country) => {
+    return country.code.toLowerCase() === countryCode.value
+  })
+})
+
+const countryName = computed(() => selectedCountry.value?.country ?? 'No country found')
+const countryContinent = computed(() => selectedCountry.value?.continent ?? '-')
+const countryCodeLabel = computed(() => countryCode.value.toUpperCase() || '-')
 
 const isCountryFavorited = computed(() => countriesStore.favorites.includes(countryCode.value))
 
-function loadCountryName() {
-  console.log('onMounted in Detail -> countries', countriesStore.countries.countries)
+const toneStyle = computed(() => {
+  return getToneStyle(countryContinent.value)
+})
 
-  const countryList = countriesStore.countries.countries
-
-  // check if country list is available in store, if not load the full json into the store.
-  // included for cases when detail page is opened directly without navigating from overview page,
-  // where the country list is loaded into the store
-  if (!countryList || countryList.length === 0) {
-    console.log('No country list found in store, reload json')
-    countriesStore.countries = countriesJson
-    console.log('Countries after reload:', countriesStore.countries.countries)
+function ensureCountriesLoaded() {
+  if (!countriesStore.countries.countries.length) {
+    countriesStore.setCountries(countriesJson)
   }
-
-  // get the country name from country list in store
-  const foundCountry = countryList.find(
-    (country) => country.code.toLowerCase() === route.params.code,
-  )
-  countryName.value = foundCountry?.country ?? 'No country found'
 }
 
-async function loadDetails() {
-  console.log('onMounted in Detail called -> code:', route.params.code)
+async function loadDetailsFor(code: string) {
+  loading.value = true
+  formatDescription.value = ''
+  countryHasCodes.value = false
+  detailsStore.details = []
+  detailsStore.exampleImages = []
 
   try {
-    formatDescription.value = ''
+    // dynamically import detail json for the selected country
+    const { default: countryDetails } = (await import(`../data/countries/en/${code}.json`)) as {
+      default: ICountryDetails
+    }
 
-    // TODO: dynamically set language in import
-    // dynamically import the country json using the country code
-    const { default: countryDetails } = (await import(
-      `../data/countries/en/${route.params.code}.json`
-    )) as { default: ICountryDetails }
-
-    console.log('onMounted in Detail:', countryDetails)
-
-    // depending on the type of country details, set the store values accordingly
     if (isOfTypeExampleImages(countryDetails)) {
       detailsStore.exampleImages = countryDetails
       countryHasCodes.value = false
-      formatDescription.value = ''
-    } else if (isOfTypeCodes(countryDetails)) {
+      return
+    }
+
+    if (isOfTypeCodes(countryDetails)) {
       detailsStore.details = countryDetails.entries
-      countryHasCodes.value = true
       formatDescription.value = countryDetails.format
-    } else {
-      console.error('Country details are of unknown type')
+      countryHasCodes.value = true
+      return
     }
   } catch (error) {
-    console.log('Error importing detail json:', error)
+    console.error('failed to load detail json', error)
+  } finally {
+    loading.value = false
   }
 }
 
-// TODO: save/read favorites in localStorage
 function onFavoriteClick() {
+  if (!countryCode.value) return
+
   if (isCountryFavorited.value) {
-    // find and remove country code from favorites
     const index = countriesStore.favorites.findIndex((el) => el === countryCode.value)
-    if (index === -1) return
-    countriesStore.favorites.splice(index, 1)
-  } else {
-    // add country code to favorites
-    countriesStore.favorites.push(countryCode.value)
+    if (index !== -1) {
+      countriesStore.favorites.splice(index, 1)
+    }
+    return
   }
+
+  countriesStore.favorites.push(countryCode.value)
 }
 
-onMounted(async () => {
-  loading.value = true
+watch(
+  countryCode,
+  (code) => {
+    if (!code) return
 
-  loadCountryName()
-  await loadDetails()
-
-  loading.value = false
-})
+    ensureCountriesLoaded()
+    void loadDetailsFor(code)
+  },
+  { immediate: true },
+)
 </script>
 
 <template>
-  <div class="flex h-96 w-full items-center justify-center" v-if="loading">
-    <Loading />
-  </div>
-  <div v-else class="flex h-full w-full flex-col items-center justify-center pt-6 pb-6">
-    <div class="relative mt-4 mb-8 flex w-4/5 items-center justify-between">
-      <!-- empty div so "justify-between" centers the country name -->
-      <div class="w-8"></div>
-      <h1 class="title text-4xl">{{ countryName }}</h1>
-      <div>
-        <IconButton
-          v-if="isCountryFavorited"
-          :icon-component="StarFilled"
-          :color="{
-            darkMode: '#daaa3f',
-            lightMode: '#daaa3f',
-          }"
-          @click="onFavoriteClick"
-        />
-        <IconButton
-          v-else
-          :icon-component="StarEmpty"
-          :color="{
-            darkMode: '#9198a1',
-            lightMode: '#59636e',
-          }"
-          @click="onFavoriteClick"
-        />
+  <section class="detail-page -mx-4 sm:-mx-6 -mt-14 min-h-screen px-4 sm:px-6 pt-20 pb-12" :style="toneStyle">
+    <div class="content-shell">
+      <div class="loading-wrap" v-if="loading">
+        <Loading />
       </div>
+
+      <template v-else>
+        <header class="hero">
+          <div class="hero-copy">
+            <h1>{{ countryName }}</h1>
+            <p class="sub">
+              <span>{{ countryCodeLabel }}</span>
+              <span aria-hidden="true">&middot;</span>
+              <span>{{ countryContinent }}</span>
+            </p>
+          </div>
+
+          <div class="favorite-wrap">
+            <IconButton
+              v-if="isCountryFavorited"
+              :icon-component="StarFilled"
+              :color="{
+                darkMode: '#daaa3f',
+                lightMode: '#daaa3f',
+              }"
+              @click="onFavoriteClick"
+            />
+            <IconButton
+              v-else
+              :icon-component="StarEmpty"
+              :color="{
+                darkMode: '#9198a1',
+                lightMode: '#59636e',
+              }"
+              @click="onFavoriteClick"
+            />
+          </div>
+        </header>
+
+        <DetailCodesContent v-if="countryHasCodes" :format-description="formatDescription" />
+        <DetailExampleImagesContent v-else :country-name="countryName" />
+      </template>
     </div>
-
-    <DetailCodesContent v-if="countryHasCodes" :format-description="formatDescription" />
-
-    <DetailExampleImagesContent v-else :country-name="countryName" />
-  </div>
+  </section>
 </template>
 
-<style scoped></style>
+<style scoped>
+.detail-page {
+  --tone: #97a0b5;
+  --surface: var(--atlas-surface);
+  --surface-2: var(--atlas-surface-2);
+  --text: var(--atlas-text);
+  --muted: var(--atlas-muted);
+  --line: var(--atlas-line);
+  background: linear-gradient(165deg, var(--atlas-bg-1), var(--atlas-bg-2));
+  color: var(--text);
+  padding-bottom: calc(env(safe-area-inset-bottom) + 2.8rem);
+}
+
+.content-shell {
+  width: min(78rem, 100%);
+  margin-inline: auto;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.loading-wrap {
+  min-height: 24rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  margin-top: clamp(0.9rem, 2.3vw, 1.4rem);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.hero-copy {
+  min-width: 0;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5.6vw, 3.8rem);
+  line-height: 0.92;
+}
+
+.sub {
+  margin-top: 0.18rem;
+  color: color-mix(in oklab, var(--tone) 56%, var(--muted));
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.74rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.34rem;
+}
+
+.favorite-wrap {
+  display: inline-flex;
+  align-self: flex-start;
+  margin-top: 0.2rem;
+}
+
+@media (max-width: 760px) {
+  .hero {
+    gap: 0.54rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .content-shell {
+    width: min(82rem, 100%);
+  }
+}
+</style>

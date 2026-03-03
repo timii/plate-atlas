@@ -4,9 +4,10 @@ import { storeToRefs } from 'pinia'
 import { RouterLink } from 'vue-router'
 import countriesJson from '@/data/current-license-plates.json'
 import type { IDropdownItem } from '@/models/dropdown.model'
-import OverviewDropdown from '@/components/overview/OverviewDropdown.vue'
-import OverviewSearchbar from '@/components/overview/OverviewSearchbar.vue'
+import FilterDropdown from '@/components/shared/FilterDropdown.vue'
+import SearchField from '@/components/shared/SearchField.vue'
 import { type CountryGroupBy, type CountrySortMode, useCountriesStore } from '@/stores/countries'
+import { getToneStyle } from '@/constants/continentTone'
 
 type DropdownKey = 'sort' | 'group' | 'continent' | null
 
@@ -29,14 +30,6 @@ const {
 // keep track of if and which dropdown is currently open
 const activeDropdown = ref<DropdownKey>(null)
 
-const continentAccent: Record<string, string> = {
-  Africa: '#d58e56',
-  Americas: '#48ac9e',
-  Asia: '#d46f9f',
-  Europe: '#6f87d9',
-  Oceania: '#c6ab44',
-}
-
 function onSortSelect(item: IDropdownItem) {
   sortMode.value = item.value as CountrySortMode
   activeDropdown.value = null
@@ -57,9 +50,7 @@ function onDropdownToggle(key: Exclude<DropdownKey, null>, nextOpen: boolean) {
 }
 
 function rowStyle(continent: string): Record<string, string> {
-  return {
-    '--tone': continentAccent[continent] ?? '#97a0b5',
-  }
+  return getToneStyle(continent)
 }
 
 function detailPath(code: string): string {
@@ -85,23 +76,23 @@ onMounted(() => {
       <div class="control-row">
         <div class="search-wrap">
           <p class="field-label">Search</p>
-          <OverviewSearchbar class="search" v-model:text="searchTerm" />
+          <SearchField class="search" v-model:text="searchTerm" />
         </div>
-        <OverviewDropdown
+        <FilterDropdown
           label="Sort by"
           :list="sortDropdownItems"
           :open="activeDropdown === 'sort'"
           @toggle="(nextOpen) => onDropdownToggle('sort', nextOpen)"
           @select="onSortSelect"
         />
-        <OverviewDropdown
+        <FilterDropdown
           label="Group by"
           :list="groupDropdownItems"
           :open="activeDropdown === 'group'"
           @toggle="(nextOpen) => onDropdownToggle('group', nextOpen)"
           @select="onGroupBySelect"
         />
-        <OverviewDropdown
+        <FilterDropdown
           label="Continent"
           :list="continentDropdownItems"
           :open="activeDropdown === 'continent'"

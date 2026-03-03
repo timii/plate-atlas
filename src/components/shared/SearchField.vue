@@ -14,7 +14,7 @@ const props = withDefaults(
 </script>
 
 <template>
-  <div class="overview-search">
+  <div class="search-field">
     <input v-model="text" type="text" :placeholder="props.placeholder" />
     <button
       v-if="text.length > 0"
@@ -29,7 +29,7 @@ const props = withDefaults(
 </template>
 
 <style scoped>
-.overview-search {
+.search-field {
   display: flex;
   align-items: center;
   gap: 0.36rem;
@@ -40,7 +40,7 @@ const props = withDefaults(
   padding: 0.28rem 0.56rem;
 }
 
-.overview-search input {
+.search-field input {
   flex: 1;
   min-width: 0;
   background: transparent;
@@ -49,15 +49,15 @@ const props = withDefaults(
   font-size: 0.9rem;
 }
 
-.overview-search input::placeholder {
+.search-field input::placeholder {
   color: color-mix(in oklab, var(--muted) 74%, transparent);
 }
 
-.overview-search input:focus {
+.search-field input:focus {
   outline: none;
 }
 
-.overview-search:focus-within {
+.search-field:focus-within {
   border-color: color-mix(in oklab, var(--tone, #6f87d9) 64%, var(--line));
   box-shadow: 0 0 0 3px color-mix(in oklab, var(--tone, #6f87d9) 18%, transparent);
 }
