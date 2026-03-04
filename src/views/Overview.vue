@@ -64,81 +64,83 @@ onMounted(() => {
 
 <template>
   <section class="overview-page -mx-4 -mt-14 min-h-screen px-4 pt-20 pb-12 sm:-mx-6 sm:px-6">
-    <header class="hero">
-      <h1 class="title">Countries</h1>
-      <p class="subtitle">
-        List of international vehicle registration codes for countries worldwide (last updated:
-        {{ lastUpdatedLabel }})
-      </p>
-    </header>
+    <div class="content-shell">
+      <header class="hero">
+        <h1 class="title">Countries</h1>
+        <p class="subtitle">
+          List of international vehicle registration codes for countries worldwide (last updated:
+          {{ lastUpdatedLabel }})
+        </p>
+      </header>
 
-    <section class="controls" aria-label="overview controls">
-      <div class="control-row">
-        <div class="search-wrap">
-          <p class="field-label">Search</p>
-          <SearchField class="search" v-model:text="searchTerm" />
+      <section class="controls" aria-label="overview controls">
+        <div class="control-row">
+          <div class="search-wrap">
+            <p class="field-label">Search</p>
+            <SearchField class="search" v-model:text="searchTerm" />
+          </div>
+          <FilterDropdown
+            label="Sort by"
+            :list="sortDropdownItems"
+            :open="activeDropdown === 'sort'"
+            @toggle="(nextOpen) => onDropdownToggle('sort', nextOpen)"
+            @select="onSortSelect"
+          />
+          <FilterDropdown
+            label="Group by"
+            :list="groupDropdownItems"
+            :open="activeDropdown === 'group'"
+            @toggle="(nextOpen) => onDropdownToggle('group', nextOpen)"
+            @select="onGroupBySelect"
+          />
+          <FilterDropdown
+            label="Continent"
+            :list="continentDropdownItems"
+            :open="activeDropdown === 'continent'"
+            @toggle="(nextOpen) => onDropdownToggle('continent', nextOpen)"
+            @select="onContinentSelect"
+          />
         </div>
-        <FilterDropdown
-          label="Sort by"
-          :list="sortDropdownItems"
-          :open="activeDropdown === 'sort'"
-          @toggle="(nextOpen) => onDropdownToggle('sort', nextOpen)"
-          @select="onSortSelect"
-        />
-        <FilterDropdown
-          label="Group by"
-          :list="groupDropdownItems"
-          :open="activeDropdown === 'group'"
-          @toggle="(nextOpen) => onDropdownToggle('group', nextOpen)"
-          @select="onGroupBySelect"
-        />
-        <FilterDropdown
-          label="Continent"
-          :list="continentDropdownItems"
-          :open="activeDropdown === 'continent'"
-          @toggle="(nextOpen) => onDropdownToggle('continent', nextOpen)"
-          @select="onContinentSelect"
-        />
-      </div>
 
-      <p class="count">
-        Showing <span>{{ orderedCountries.length }}</span> out of
-        <span>{{ allCountriesLength }}</span> rows
-      </p>
-    </section>
+        <p class="count">
+          Showing <span>{{ orderedCountries.length }}</span> out of
+          <span>{{ allCountriesLength }}</span> rows
+        </p>
+      </section>
 
-    <section v-if="hasResults" class="groups mt-8" aria-label="country rows">
-      <article v-for="group in groupedCountries" :key="group.key" class="group-block">
-        <header v-if="groupBy !== 'none'" class="group-header">
-          <h2 class="group-title">{{ group.label }}</h2>
-          <p class="group-count">{{ group.rows.length }}</p>
-        </header>
+      <section v-if="hasResults" class="groups mt-8" aria-label="country rows">
+        <article v-for="group in groupedCountries" :key="group.key" class="group-block">
+          <header v-if="groupBy !== 'none'" class="group-header">
+            <h2 class="group-title">{{ group.label }}</h2>
+            <p class="group-count">{{ group.rows.length }}</p>
+          </header>
 
-        <div class="rows">
-          <RouterLink
-            v-for="country in group.rows"
-            :key="country.code"
-            :to="detailPath(country.code)"
-            class="row"
-            :style="rowStyle(country.continent)"
-          >
-            <span class="code">{{ country.code }}</span>
-            <span class="meta">
-              <span class="name">{{ country.country }}</span>
-              <span class="continent">{{ country.continent }}</span>
-            </span>
-            <span class="end">
-              <img :src="country.flagThumb" :alt="`${country.country} flag`" loading="lazy" />
-            </span>
-          </RouterLink>
-        </div>
-      </article>
-    </section>
+          <div class="rows">
+            <RouterLink
+              v-for="country in group.rows"
+              :key="country.code"
+              :to="detailPath(country.code)"
+              class="row"
+              :style="rowStyle(country.continent)"
+            >
+              <span class="code">{{ country.code }}</span>
+              <span class="meta">
+                <span class="name">{{ country.country }}</span>
+                <span class="continent">{{ country.continent }}</span>
+              </span>
+              <span class="end">
+                <img :src="country.flagThumb" :alt="`${country.country} flag`" loading="lazy" />
+              </span>
+            </RouterLink>
+          </div>
+        </article>
+      </section>
 
-    <section v-else class="empty-state mt-8" aria-live="polite">
-      <h2>No countries match these filters</h2>
-      <p>Try clearing search text, changing continent, or setting group by to none</p>
-    </section>
+      <section v-else class="empty-state mt-8" aria-live="polite">
+        <h2>No countries match these filters</h2>
+        <p>Try clearing search text, changing continent, or setting group by to none</p>
+      </section>
+    </div>
   </section>
 </template>
 
@@ -157,6 +159,11 @@ onMounted(() => {
   font-size: 1.1rem;
   font-weight: 400;
   padding-bottom: calc(env(safe-area-inset-bottom) + 2.8rem);
+}
+
+.content-shell {
+  width: min(78rem, 100%);
+  margin-inline: auto;
 }
 
 .hero {
@@ -386,6 +393,12 @@ onMounted(() => {
 
   .name {
     overflow-wrap: anywhere;
+  }
+}
+
+@media (min-width: 1500px) {
+  .content-shell {
+    width: min(82rem, 100%);
   }
 }
 </style>
