@@ -86,6 +86,7 @@ function toggleMenu() {
   gap: 0.44rem;
   padding: 0.28rem 0.56rem;
   font-size: 0.84rem;
+  cursor: pointer;
 }
 
 .trigger:focus-visible {
@@ -130,11 +131,17 @@ function toggleMenu() {
   text-align: left;
   padding: 0.38rem 0.44rem;
   font-size: 0.82rem;
+  cursor: pointer;
 }
 
 .item:hover {
   background: rgba(255, 255, 255, 0.08);
   color: var(--text);
+}
+
+.item:focus-visible {
+  outline: 1px solid color-mix(in oklab, var(--tone, #6f87d9) 52%, var(--line));
+  outline-offset: 0;
 }
 
 @media (max-width: 760px) {

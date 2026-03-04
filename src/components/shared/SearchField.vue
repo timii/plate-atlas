@@ -59,7 +59,8 @@ const props = withDefaults(
 
 .search-field:focus-within {
   border-color: color-mix(in oklab, var(--tone, #6f87d9) 64%, var(--line));
-  box-shadow: 0 0 0 3px color-mix(in oklab, var(--tone, #6f87d9) 18%, transparent);
+  /* render focus as an inset ring to keep corner rounding clean */
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--tone, #6f87d9) 52%, var(--line));
 }
 
 .clear {
@@ -69,10 +70,16 @@ const props = withDefaults(
   color: var(--muted);
   border-radius: 0.28rem;
   padding: 0.1rem;
+  cursor: pointer;
 }
 
 .clear:hover {
   background: rgba(255, 255, 255, 0.08);
   color: var(--text);
+}
+
+.clear:focus-visible {
+  outline: 2px solid color-mix(in oklab, var(--tone, #6f87d9) 56%, var(--line));
+  outline-offset: 1px;
 }
 </style>
