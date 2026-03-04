@@ -2,7 +2,7 @@
 import ChevronDown from '@/assets/icons/ChevronDown.vue'
 import ChevronUp from '@/assets/icons/ChevronUp.vue'
 import type { IDropdownItem } from '@/models/dropdown.model'
-import { computed, type PropType } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, type PropType } from 'vue'
 
 const props = defineProps({
   label: {
@@ -20,6 +20,7 @@ const props = defineProps({
 })
 
 const emits = defineEmits(['select', 'toggle'])
+const rootEl = ref<HTMLElement | null>(null)
 
 const selectedItem = computed(() => {
   const selected = props.list.find((e) => e.selected)
@@ -34,10 +35,45 @@ function onItemClick(item: IDropdownItem) {
 function toggleMenu() {
   emits('toggle', !props.open)
 }
+
+function onDocumentPointerDown(event: PointerEvent) {
+  if (!props.open || !rootEl.value) {
+    return
+  }
+
+  const target = event.target
+  if (!(target instanceof Node)) {
+    return
+  }
+
+  // close dropdown when clicking outside of this component
+  if (!rootEl.value.contains(target)) {
+    emits('toggle', false)
+  }
+}
+
+function onDocumentKeydown(event: KeyboardEvent) {
+  // let users close the open menu with escape
+  if (props.open && event.key === 'Escape') {
+    emits('toggle', false)
+  }
+}
+
+onMounted(() => {
+  // attach global listeners so outside interactions can close the menu
+  document.addEventListener('pointerdown', onDocumentPointerDown)
+  document.addEventListener('keydown', onDocumentKeydown)
+})
+
+onBeforeUnmount(() => {
+  // clean up global listeners when component is removed
+  document.removeEventListener('pointerdown', onDocumentPointerDown)
+  document.removeEventListener('keydown', onDocumentKeydown)
+})
 </script>
 
 <template>
-  <div class="filter-dropdown">
+  <div ref="rootEl" class="filter-dropdown">
     <div class="label">{{ props.label }}</div>
     <button
       type="button"
@@ -92,7 +128,8 @@ function toggleMenu() {
 .trigger:focus-visible {
   outline: none;
   border-color: color-mix(in oklab, var(--tone, #6f87d9) 64%, var(--line));
-  box-shadow: 0 0 0 3px color-mix(in oklab, var(--tone, #6f87d9) 18%, transparent);
+  /* match search focus style and keep rounded corners clean */
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--tone, #6f87d9) 52%, var(--line));
 }
 
 .list {
