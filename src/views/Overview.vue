@@ -6,6 +6,7 @@ import countriesJson from '@/data/current-license-plates.json'
 import type { IDropdownItem } from '@/models/dropdown.model'
 import FilterDropdown from '@/components/shared/FilterDropdown.vue'
 import SearchField from '@/components/shared/SearchField.vue'
+import PageHeader from '@/components/shared/PageHeader.vue'
 import { type CountryGroupBy, type CountrySortMode, useCountriesStore } from '@/stores/countries'
 import { getToneStyle } from '@/constants/continentTone'
 
@@ -65,13 +66,10 @@ onMounted(() => {
 <template>
   <section class="overview-page -mx-4 -mt-14 min-h-screen px-4 pt-20 pb-12 sm:-mx-6 sm:px-6">
     <div class="content-shell">
-      <header class="hero">
-        <h1 class="title">Countries</h1>
-        <p class="subtitle">
-          List of international vehicle registration codes for countries worldwide (last updated:
-          {{ lastUpdatedLabel }})
-        </p>
-      </header>
+      <PageHeader
+        title="Countries"
+        :meta="`${allCountriesLength} countries - updated ${lastUpdatedLabel}`"
+      />
 
       <section class="controls" aria-label="overview controls">
         <div class="control-row">
@@ -112,7 +110,7 @@ onMounted(() => {
         </p>
       </section>
 
-      <section v-if="hasResults" class="groups mt-8" aria-label="country rows">
+      <section v-if="hasResults" class="groups" aria-label="country rows">
         <article v-for="group in groupedCountries" :key="group.key" class="group-block">
           <header v-if="groupBy !== 'none'" class="group-header">
             <h2 class="group-title">{{ group.label }}</h2>
@@ -140,7 +138,7 @@ onMounted(() => {
         </article>
       </section>
 
-      <section v-else class="empty-state mt-8" aria-live="polite">
+      <section v-else class="empty-state" aria-live="polite">
         <h2>No countries match these filters</h2>
         <p>Try clearing search text, changing continent, or setting group by to none</p>
       </section>
@@ -168,27 +166,11 @@ onMounted(() => {
 .content-shell {
   width: min(78rem, 100%);
   margin-inline: auto;
-}
-
-.hero {
   display: grid;
-  gap: 0.5rem;
-  justify-items: center;
-  text-align: center;
-  margin-top: clamp(1rem, 2.2vw, 1.85rem);
-}
-
-.title {
-  font-size: clamp(2.1rem, 8vw, 4.3rem);
-  line-height: 0.9;
-}
-
-.subtitle {
-  color: var(--muted);
+  gap: 0.9rem;
 }
 
 .controls {
-  margin-top: clamp(0.95rem, 2vw, 1.45rem);
   display: grid;
   gap: 0.82rem;
   border: 1px solid var(--line);
@@ -234,9 +216,11 @@ onMounted(() => {
 .groups {
   display: grid;
   gap: 0.7rem;
+  margin-top: 0.18rem;
 }
 
 .empty-state {
+  margin-top: 0.18rem;
   border: 1px solid color-mix(in oklab, var(--line) 78%, #ffffff 22%);
   border-radius: 0.46rem;
   background: linear-gradient(180deg, rgba(12, 10, 18, 0.94), rgba(8, 6, 13, 0.9));
@@ -377,14 +361,6 @@ onMounted(() => {
 }
 
 @media (max-width: 760px) {
-  .hero {
-    margin-top: 0.72rem;
-  }
-
-  .controls {
-    margin-top: 0.82rem;
-  }
-
   .control-row {
     grid-template-columns: 1fr;
     gap: 0.62rem;
@@ -406,3 +382,4 @@ onMounted(() => {
   }
 }
 </style>
+

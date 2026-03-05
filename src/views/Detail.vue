@@ -8,6 +8,7 @@ import IconButton from '@/components/shared/IconButton.vue'
 import StarEmpty from '@/assets/icons/StarEmpty.vue'
 import StarFilled from '@/assets/icons/StarFilled.vue'
 import Loading from '@/components/shared/Loading.vue'
+import PageHeader from '@/components/shared/PageHeader.vue'
 import { useDetailsStore } from '@/stores/details'
 import DetailCodesContent from '@/components/detail/DetailCodesContent.vue'
 import DetailExampleImagesContent from '@/components/detail/DetailExampleImagesContent.vue'
@@ -32,6 +33,8 @@ const selectedCountry = computed(() => {
 const countryName = computed(() => selectedCountry.value?.country ?? 'No country found')
 const countryContinent = computed(() => selectedCountry.value?.continent ?? '-')
 const countryCodeLabel = computed(() => countryCode.value.toUpperCase() || '-')
+// keep detail metadata aligned with overview header copy
+const countryMeta = computed(() => `${countryCodeLabel.value} - ${countryContinent.value}`)
 
 const isCountryFavorited = computed(() => countriesStore.favorites.includes(countryCode.value))
 
@@ -111,37 +114,30 @@ watch(
       </div>
 
       <template v-else>
-        <header class="hero">
-          <div class="hero-copy">
-            <h1>{{ countryName }}</h1>
-            <p class="sub">
-              <span>{{ countryCodeLabel }}</span>
-              <span aria-hidden="true">&middot;</span>
-              <span>{{ countryContinent }}</span>
-            </p>
-          </div>
-
-          <div class="favorite-wrap">
-            <IconButton
-              v-if="isCountryFavorited"
-              :icon-component="StarFilled"
-              :color="{
-                darkMode: '#daaa3f',
-                lightMode: '#daaa3f',
-              }"
-              @click="onFavoriteClick"
-            />
-            <IconButton
-              v-else
-              :icon-component="StarEmpty"
-              :color="{
-                darkMode: '#9198a1',
-                lightMode: '#59636e',
-              }"
-              @click="onFavoriteClick"
-            />
-          </div>
-        </header>
+        <PageHeader :title="countryName" :meta="countryMeta">
+          <template #actions>
+            <div class="favorite-wrap">
+              <IconButton
+                v-if="isCountryFavorited"
+                :icon-component="StarFilled"
+                :color="{
+                  darkMode: '#daaa3f',
+                  lightMode: '#daaa3f',
+                }"
+                @click="onFavoriteClick"
+              />
+              <IconButton
+                v-else
+                :icon-component="StarEmpty"
+                :color="{
+                  darkMode: '#9198a1',
+                  lightMode: '#59636e',
+                }"
+                @click="onFavoriteClick"
+              />
+            </div>
+          </template>
+        </PageHeader>
 
         <DetailCodesContent v-if="countryHasCodes" :format-description="formatDescription" />
         <DetailExampleImagesContent v-else :country-name="countryName" />
@@ -177,44 +173,8 @@ watch(
   justify-content: center;
 }
 
-.hero {
-  margin-top: clamp(0.9rem, 2.3vw, 1.4rem);
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 0.8rem;
-}
-
-.hero-copy {
-  min-width: 0;
-}
-
-.hero h1 {
-  font-size: clamp(2rem, 5.6vw, 3.8rem);
-  line-height: 0.92;
-}
-
-.sub {
-  margin-top: 0.18rem;
-  color: color-mix(in oklab, var(--tone) 56%, var(--muted));
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.74rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.34rem;
-}
-
 .favorite-wrap {
   display: inline-flex;
-  align-self: flex-start;
-  margin-top: 0.2rem;
-}
-
-@media (max-width: 760px) {
-  .hero {
-    gap: 0.54rem;
-  }
 }
 
 @media (min-width: 1500px) {
@@ -223,3 +183,4 @@ watch(
   }
 }
 </style>
+
