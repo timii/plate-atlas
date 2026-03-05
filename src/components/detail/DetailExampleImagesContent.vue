@@ -269,8 +269,15 @@ onBeforeUnmount(() => {
 }
 
 .sample-hit:focus-visible {
-  outline: 2px solid color-mix(in oklab, var(--tone, #97a0b5) 65%, #ffffff);
-  outline-offset: -2px;
+  outline: none;
+}
+
+.sample:focus-within {
+  /* keep keyboard focus clearly visible around the whole card */
+  border-color: color-mix(in oklab, var(--tone, #97a0b5) 66%, var(--line));
+  box-shadow:
+    0 0 0 1px color-mix(in oklab, var(--tone, #97a0b5) 62%, var(--line)),
+    0 8px 18px rgba(0, 0, 0, 0.16);
 }
 
 .plate-wrap {
@@ -377,8 +384,10 @@ onBeforeUnmount(() => {
 }
 
 .preview-close:focus-visible {
-  outline: 2px solid color-mix(in oklab, var(--tone, #97a0b5) 65%, #ffffff);
-  outline-offset: 2px;
+  outline: none;
+  border-color: color-mix(in oklab, var(--tone, #97a0b5) 62%, var(--line));
+  /* keep close button focus ring solid and clearly visible */
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--tone, #97a0b5) 56%, var(--line));
 }
 
 .preview-panel img {

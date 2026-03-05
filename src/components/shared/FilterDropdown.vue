@@ -4,6 +4,9 @@ import ChevronUp from '@/assets/icons/ChevronUp.vue'
 import type { IDropdownItem } from '@/models/dropdown.model'
 import { computed, onBeforeUnmount, onMounted, ref, type PropType } from 'vue'
 
+// generate unique ids for aria-controls linking
+let dropdownIdCounter = 0
+
 const props = defineProps({
   label: {
     type: String,
@@ -21,6 +24,8 @@ const props = defineProps({
 
 const emits = defineEmits(['select', 'toggle'])
 const rootEl = ref<HTMLElement | null>(null)
+const triggerEl = ref<HTMLButtonElement | null>(null)
+const listboxId = `filter-dropdown-list-${++dropdownIdCounter}`
 
 const selectedItem = computed(() => {
   const selected = props.list.find((e) => e.selected)
@@ -32,8 +37,24 @@ function onItemClick(item: IDropdownItem) {
   emits('toggle', false)
 }
 
-function toggleMenu() {
+function toggleMenuFromTrigger() {
   emits('toggle', !props.open)
+}
+
+function onTriggerKeydown(event: KeyboardEvent) {
+  // close menu from trigger without relying on global listeners
+  if (event.key === 'Escape' && props.open) {
+    event.preventDefault()
+    emits('toggle', false)
+  }
+}
+
+function onListKeydown(event: KeyboardEvent) {
+  if (event.key === 'Escape' && props.open) {
+    event.preventDefault()
+    emits('toggle', false)
+    triggerEl.value?.focus()
+  }
 }
 
 function onDocumentPointerDown(event: PointerEvent) {
@@ -52,43 +73,69 @@ function onDocumentPointerDown(event: PointerEvent) {
   }
 }
 
-function onDocumentKeydown(event: KeyboardEvent) {
-  // let users close the open menu with escape
-  if (props.open && event.key === 'Escape') {
-    emits('toggle', false)
+function onFocusOut(event: FocusEvent) {
+  if (!props.open || !rootEl.value) {
+    return
   }
+
+  const nextFocusedEl = event.relatedTarget
+  if (nextFocusedEl instanceof Node && rootEl.value.contains(nextFocusedEl)) {
+    return
+  }
+
+  // close when keyboard focus leaves the dropdown
+  emits('toggle', false)
 }
 
 onMounted(() => {
-  // attach global listeners so outside interactions can close the menu
+  // close menu on outside pointer interactions
   document.addEventListener('pointerdown', onDocumentPointerDown)
-  document.addEventListener('keydown', onDocumentKeydown)
 })
 
 onBeforeUnmount(() => {
-  // clean up global listeners when component is removed
+  // clean up listener when component is removed
   document.removeEventListener('pointerdown', onDocumentPointerDown)
-  document.removeEventListener('keydown', onDocumentKeydown)
 })
 </script>
 
 <template>
-  <div ref="rootEl" class="filter-dropdown">
+  <div ref="rootEl" class="filter-dropdown" @focusout="onFocusOut">
     <div class="label">{{ props.label }}</div>
     <button
+      ref="triggerEl"
       type="button"
       class="trigger"
-      aria-haspopup="true"
+      aria-haspopup="listbox"
       :aria-expanded="props.open"
-      @click="toggleMenu"
+      :aria-controls="listboxId"
+      :aria-label="`${props.label}: ${selectedItem.label}`"
+      @click="toggleMenuFromTrigger"
+      @keydown="onTriggerKeydown"
     >
       <span>{{ selectedItem.label }}</span>
       <ChevronUp v-if="props.open" />
       <ChevronDown v-else />
     </button>
 
-    <div class="list" :class="{ open: props.open }" role="menu" aria-orientation="vertical">
-      <button v-for="item of props.list" :key="item.id" type="button" class="item" @click="onItemClick(item)">
+    <div
+      :id="listboxId"
+      class="list"
+      :class="{ open: props.open }"
+      role="listbox"
+      :aria-label="props.label"
+      :aria-hidden="!props.open"
+      @keydown="onListKeydown"
+    >
+      <button
+        v-for="item of props.list"
+        :key="item.id"
+        type="button"
+        class="item"
+        role="option"
+        :aria-selected="item.selected"
+        :tabindex="props.open ? 0 : -1"
+        @click="onItemClick(item)"
+      >
         {{ item.label }}
       </button>
     </div>

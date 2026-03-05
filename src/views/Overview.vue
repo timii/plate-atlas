@@ -77,7 +77,11 @@ onMounted(() => {
         <div class="control-row">
           <div class="search-wrap">
             <p class="field-label">Search</p>
-            <SearchField class="search" v-model:text="searchTerm" />
+            <SearchField
+              class="search"
+              v-model:text="searchTerm"
+              aria-label="search countries by country name, code, or continent"
+            />
           </div>
           <FilterDropdown
             label="Sort by"

@@ -42,7 +42,11 @@ function onSortToggle(nextOpen: boolean) {
       <div class="control-row">
         <div class="search-wrap">
           <p class="field-label">Search</p>
-          <SearchField v-model:text="searchTerm" placeholder="region name or code" />
+          <SearchField
+            v-model:text="searchTerm"
+            placeholder="region name or code"
+            aria-label="search regional codes by region, name or code"
+          />
         </div>
 
         <FilterDropdown
@@ -68,7 +72,14 @@ function onSortToggle(nextOpen: boolean) {
       :class="{ 'rows--long-codes': hasLongCodes }"
       aria-label="regional code rows"
     >
-      <article v-for="detail in mappedDetails" :key="detail.code + detail.name" class="row">
+      <!-- keep rows keyboard reachable like overview links -->
+      <article
+        v-for="detail in mappedDetails"
+        :key="detail.code + detail.name"
+        class="row"
+        tabindex="0"
+        :aria-label="`${detail.code}: ${detail.name}`"
+      >
         <span class="code" :title="detail.code">{{ detail.code }}</span>
         <span class="name">{{ detail.name }}</span>
       </article>
@@ -175,6 +186,13 @@ function onSortToggle(nextOpen: boolean) {
 .row:hover {
   border-color: color-mix(in oklab, var(--tone) 60%, var(--line));
   background: color-mix(in oklab, var(--surface) 80%, #ffffff 20%);
+}
+
+.row:focus-visible {
+  outline: none;
+  border-color: color-mix(in oklab, var(--tone) 64%, var(--line));
+  /* align keyboard focus treatment with shared controls */
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--tone) 52%, var(--line));
 }
 
 .code {

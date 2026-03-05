@@ -6,16 +6,34 @@ const text = defineModel('text', { type: String, default: '' })
 const props = withDefaults(
   defineProps<{
     placeholder?: string
+    ariaLabel?: string
   }>(),
   {
     placeholder: 'country, code, continent',
+    ariaLabel: 'search',
   },
 )
+
+function onInputKeydown(event: KeyboardEvent) {
+  if (event.key !== 'Escape' || text.value.length === 0) {
+    return
+  }
+
+  // let keyboard users clear the current search query quickly
+  event.preventDefault()
+  text.value = ''
+}
 </script>
 
 <template>
   <div class="search-field">
-    <input v-model="text" type="text" :placeholder="props.placeholder" />
+    <input
+      v-model="text"
+      type="text"
+      :placeholder="props.placeholder"
+      :aria-label="props.ariaLabel"
+      @keydown="onInputKeydown"
+    />
     <button
       v-if="text.length > 0"
       type="button"
