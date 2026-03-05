@@ -44,7 +44,7 @@ function onSortToggle(nextOpen: boolean) {
           <p class="field-label">Search</p>
           <SearchField
             v-model:text="searchTerm"
-            placeholder="region name or code"
+            placeholder="Search by name or code"
             aria-label="search regional codes by region, name or code"
           />
         </div>

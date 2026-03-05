@@ -9,7 +9,7 @@ const props = withDefaults(
     ariaLabel?: string
   }>(),
   {
-    placeholder: 'country, code, continent',
+    placeholder: 'Search by country, code or continent',
     ariaLabel: 'search',
   },
 )
