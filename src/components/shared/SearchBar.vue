@@ -2,20 +2,102 @@
 import Close from '@/assets/icons/Close.vue'
 
 const text = defineModel('text', { type: String, default: '' })
+
+const props = withDefaults(
+  defineProps<{
+    placeholder?: string
+    ariaLabel?: string
+  }>(),
+  {
+    placeholder: 'Search by country, code or continent',
+    ariaLabel: 'search',
+  },
+)
+
+function onInputKeydown(event: KeyboardEvent) {
+  if (event.key !== 'Escape' || text.value.length === 0) {
+    return
+  }
+
+  // let keyboard users clear the current search query quickly
+  event.preventDefault()
+  text.value = ''
+}
 </script>
 
 <template>
-  <div
-    class="search-container flex h-action-element-height w-42 items-center gap-x-1.5 rounded-lg border border-border-light3 p-2.5 text-sm text-text-light-default dark:border-border-dark3 dark:bg-background-dark-highlight dark:text-text-dark-default dark:placeholder-gray-400"
-  >
-    <input v-model="text" type="text" placeholder="Search..." class="w-full focus:outline-none" />
-
-    <Close
+  <div class="search-field">
+    <input
+      v-model="text"
+      type="text"
+      :placeholder="props.placeholder"
+      :aria-label="props.ariaLabel"
+      @keydown="onInputKeydown"
+    />
+    <button
       v-if="text.length > 0"
+      type="button"
+      class="clear"
+      aria-label="clear search"
       @click="text = ''"
-      class="cursor-pointer rounded text-gray-400 transition-all duration-200 ease-cubic hover:bg-background-light-hover hover:dark:bg-background-dark-hover"
-    ></Close>
+    >
+      <Close />
+    </button>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.search-field {
+  display: flex;
+  align-items: center;
+  gap: 0.36rem;
+  border: 1px solid var(--line);
+  border-radius: 0.44rem;
+  background: var(--surface-2);
+  min-height: 2.75rem;
+  padding: 0.28rem 0.56rem;
+}
+
+.search-field input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.search-field input::placeholder {
+  color: color-mix(in oklab, var(--muted) 74%, transparent);
+}
+
+.search-field input:focus {
+  outline: none;
+}
+
+.search-field:focus-within {
+  border-color: color-mix(in oklab, var(--tone, #6f87d9) 64%, var(--line));
+  /* render focus as an inset ring to keep corner rounding clean */
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--tone, #6f87d9) 52%, var(--line));
+}
+
+.clear {
+  display: inline-flex;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  border-radius: 0.28rem;
+  padding: 0.1rem;
+  cursor: pointer;
+}
+
+.clear:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text);
+}
+
+.clear:focus-visible {
+  outline: 2px solid color-mix(in oklab, var(--tone, #6f87d9) 56%, var(--line));
+  outline-offset: 1px;
+}
+</style>

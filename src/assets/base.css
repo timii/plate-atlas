@@ -184,6 +184,72 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* shared atlas primitives for list rows and small filter labels */
+.atlas-field-label {
+  margin-bottom: 0.32rem;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.atlas-row {
+  display: grid;
+  gap: 0.56rem;
+  align-items: center;
+  border: 1px solid var(--atlas-row-line, var(--line));
+  border-left: var(--atlas-row-accent-width, 0.32rem) solid
+    color-mix(in oklab, var(--tone, #97a0b5) 76%, #ffffff);
+  border-radius: 0.44rem;
+  background: var(--atlas-row-bg, var(--surface));
+  transition:
+    border-color 160ms ease,
+    background 160ms ease;
+}
+
+.atlas-row:hover {
+  border-color: var(
+    --atlas-row-hover-line,
+    color-mix(in oklab, var(--tone, #97a0b5) 60%, var(--line))
+  );
+  background: var(
+    --atlas-row-hover-bg,
+    color-mix(in oklab, var(--surface) 82%, #ffffff 18%)
+  );
+}
+
+.atlas-code-chip {
+  border: 1px solid var(--atlas-code-chip-line, var(--line));
+  border-radius: 0.22rem;
+  min-inline-size: var(--code-chip-width, 3.5rem);
+  inline-size: var(--code-chip-width, 3.5rem);
+  padding: 0.02rem 0.2rem;
+  display: inline-flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-variant-numeric: tabular-nums;
+}
+
+.atlas-code-chip--accented {
+  --atlas-code-chip-line: color-mix(in oklab, var(--tone, #97a0b5) 44%, var(--line));
+}
+
+.atlas-code-chip--multiline {
+  padding: 0.06rem 0.24rem;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  overflow-wrap: anywhere;
+  line-height: 1.08;
+  font-size: 0.68rem;
+  text-align: left;
+}
+
 /* TODO: overwrite global focus color to be accent color */
 *:focus {
   /* outline: 1px solid var(--color-green-400); */

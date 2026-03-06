@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import EmptyState from '@/components/shared/EmptyState.vue'
+import InfoCard from '@/components/detail/InfoCard.vue'
 import type { ICountryDetailExampleImages } from '@/models/country.model'
 import { useDetailsStore } from '@/stores/details'
 import { storeToRefs } from 'pinia'
@@ -29,6 +31,7 @@ function imageTitle(imageObj: ExampleImage): string {
 }
 
 function openPreview(imageObj: ExampleImage) {
+  // restore keyboard focus to the trigger after closing the preview
   previouslyFocusedEl.value = document.activeElement instanceof HTMLElement ? document.activeElement : null
   previewImage.value = {
     title: imageTitle(imageObj),
@@ -87,13 +90,12 @@ onBeforeUnmount(() => {
 
 <template>
   <section class="detail-examples">
-    <article class="info-card">
-      <p class="label">Plate format</p>
+    <InfoCard title="Plate format">
       <p>
         License plates in {{ countryNameInSentence }} do not include region-specific codes; the
         examples below show common plate formats.
       </p>
-    </article>
+    </InfoCard>
 
     <template v-if="exampleImages && exampleImages.length > 0">
       <section v-for="imageCategory in exampleImages" :key="imageCategory.category" class="group">
@@ -124,10 +126,11 @@ onBeforeUnmount(() => {
       </section>
     </template>
 
-    <section v-else class="empty-state" aria-live="polite">
-      <h2>No examples available</h2>
-      <p>There are currently no preview images for this country</p>
-    </section>
+    <EmptyState
+      v-else
+      title="No examples available"
+      message="There are currently no preview images for this country"
+    />
   </section>
 
   <div v-if="previewImage" class="preview-backdrop" role="dialog" aria-modal="true" @click.self="closePreview">
@@ -157,31 +160,6 @@ onBeforeUnmount(() => {
   width: 100%;
   display: grid;
   gap: 0.86rem;
-}
-
-.info-card {
-  border: 1px solid color-mix(in oklab, var(--line) 80%, #ffffff 20%);
-  border-left: 0.32rem solid color-mix(in oklab, var(--tone, #97a0b5) 76%, #ffffff);
-  border-radius: 0.52rem;
-  padding: 0.62rem 0.78rem;
-  background: linear-gradient(
-    135deg,
-    color-mix(in oklab, var(--tone, #97a0b5) 11%, var(--surface-2)) 0%,
-    var(--surface) 72%
-  );
-}
-
-.label {
-  font-size: 0.74rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--muted);
-}
-
-.info-card p:last-child {
-  margin-top: 0.2rem;
-  line-height: 1.44;
-  color: color-mix(in oklab, var(--text) 90%, var(--muted));
 }
 
 .group {
@@ -311,25 +289,6 @@ onBeforeUnmount(() => {
   line-height: 1.28;
   color: color-mix(in oklab, var(--text) 92%, var(--muted));
   overflow-wrap: anywhere;
-}
-
-.empty-state {
-  border: 1px solid color-mix(in oklab, var(--line) 78%, #ffffff 22%);
-  border-radius: 0.46rem;
-  background: linear-gradient(180deg, rgba(12, 10, 18, 0.94), rgba(8, 6, 13, 0.9));
-  padding: 0.95rem 0.9rem;
-}
-
-.empty-state h2 {
-  margin: 0;
-  font-size: 0.94rem;
-  letter-spacing: 0.02em;
-}
-
-.empty-state p {
-  margin: 0.32rem 0 0;
-  color: var(--muted);
-  font-size: 0.78rem;
 }
 
 .preview-backdrop {

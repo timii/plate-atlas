@@ -4,9 +4,13 @@ import { storeToRefs } from 'pinia'
 import { RouterLink } from 'vue-router'
 import countriesJson from '@/data/current-license-plates.json'
 import type { IDropdownItem } from '@/models/dropdown.model'
-import FilterDropdown from '@/components/shared/FilterDropdown.vue'
-import SearchField from '@/components/shared/SearchField.vue'
+import CodeChip from '@/components/shared/CodeChip.vue'
+import Dropdown from '@/components/shared/Dropdown.vue'
+import FilterPanel from '@/components/shared/FilterPanel.vue'
+import FieldLabel from '@/components/shared/FieldLabel.vue'
+import Searchbar from '@/components/shared/Searchbar.vue'
 import PageHeader from '@/components/shared/PageHeader.vue'
+import EmptyState from '@/components/shared/EmptyState.vue'
 import { type CountryGroupBy, type CountrySortMode, useCountriesStore } from '@/stores/countries'
 import { getToneStyle } from '@/constants/continentTone'
 
@@ -51,6 +55,7 @@ function onDropdownToggle(key: Exclude<DropdownKey, null>, nextOpen: boolean) {
 }
 
 function rowStyle(continent: string): Record<string, string> {
+  // keep overview row accents driven by the shared continent tone map
   return getToneStyle(continent)
 }
 
@@ -71,44 +76,46 @@ onMounted(() => {
         :meta="`${allCountriesLength} countries - updated ${lastUpdatedLabel}`"
       />
 
-      <section class="controls" aria-label="overview controls">
-        <div class="control-row">
-          <div class="search-wrap">
-            <p class="field-label">Search</p>
-            <SearchField
-              class="search"
-              v-model:text="searchTerm"
-              aria-label="search countries by country name, code, or continent"
-            />
-          </div>
-          <FilterDropdown
-            label="Sort by"
-            :list="sortDropdownItems"
-            :open="activeDropdown === 'sort'"
-            @toggle="(nextOpen) => onDropdownToggle('sort', nextOpen)"
-            @select="onSortSelect"
-          />
-          <FilterDropdown
-            label="Group by"
-            :list="groupDropdownItems"
-            :open="activeDropdown === 'group'"
-            @toggle="(nextOpen) => onDropdownToggle('group', nextOpen)"
-            @select="onGroupBySelect"
-          />
-          <FilterDropdown
-            label="Continent"
-            :list="continentDropdownItems"
-            :open="activeDropdown === 'continent'"
-            @toggle="(nextOpen) => onDropdownToggle('continent', nextOpen)"
-            @select="onContinentSelect"
+      <FilterPanel
+        ariaLabel="overview controls"
+        desktop-columns="minmax(14rem, 1.2fr) repeat(3, minmax(10rem, 1fr))"
+      >
+        <div class="search-wrap">
+          <FieldLabel text="Search" />
+          <Searchbar
+            class="search"
+            v-model:text="searchTerm"
+            aria-label="search countries by country name, code, or continent"
           />
         </div>
-
-        <p class="count">
-          Showing <span>{{ orderedCountries.length }}</span> out of
-          <span>{{ allCountriesLength }}</span> rows
-        </p>
-      </section>
+        <Dropdown
+          label="Sort by"
+          :list="sortDropdownItems"
+          :open="activeDropdown === 'sort'"
+          @toggle="(nextOpen) => onDropdownToggle('sort', nextOpen)"
+          @select="onSortSelect"
+        />
+        <Dropdown
+          label="Group by"
+          :list="groupDropdownItems"
+          :open="activeDropdown === 'group'"
+          @toggle="(nextOpen) => onDropdownToggle('group', nextOpen)"
+          @select="onGroupBySelect"
+        />
+        <Dropdown
+          label="Continent"
+          :list="continentDropdownItems"
+          :open="activeDropdown === 'continent'"
+          @toggle="(nextOpen) => onDropdownToggle('continent', nextOpen)"
+          @select="onContinentSelect"
+        />
+        <template #footer>
+          <p class="count">
+            Showing <span>{{ orderedCountries.length }}</span> out of
+            <span>{{ allCountriesLength }}</span> rows
+          </p>
+        </template>
+      </FilterPanel>
 
       <section v-if="hasResults" class="groups" aria-label="country rows">
         <article v-for="group in groupedCountries" :key="group.key" class="group-block">
@@ -122,10 +129,10 @@ onMounted(() => {
               v-for="country in group.rows"
               :key="country.code"
               :to="detailPath(country.code)"
-              class="row"
+              class="row atlas-row"
               :style="rowStyle(country.continent)"
             >
-              <span class="code">{{ country.code }}</span>
+              <CodeChip :text="country.code" />
               <span class="meta">
                 <span class="name">{{ country.country }}</span>
                 <span class="continent">{{ country.continent }}</span>
@@ -138,10 +145,12 @@ onMounted(() => {
         </article>
       </section>
 
-      <section v-else class="empty-state" aria-live="polite">
-        <h2>No countries match these filters</h2>
-        <p>Try clearing search text, changing continent, or setting group by to none</p>
-      </section>
+      <EmptyState
+        v-else
+        class="empty-state--overview"
+        title="No countries match these filters"
+        message="Try clearing search text, changing continent, or setting group by to none"
+      />
     </div>
   </section>
 </template>
@@ -170,38 +179,9 @@ onMounted(() => {
   gap: 0.9rem;
 }
 
-.controls {
-  display: grid;
-  gap: 0.82rem;
-  border: 1px solid var(--line);
-  border-radius: 0.62rem;
-  background: var(--surface);
-  padding: 0.88rem;
-}
-
-.control-row {
-  display: grid;
-  gap: 0.72rem;
-}
-
 .search,
 .search-wrap {
   min-width: 0;
-}
-
-.field-label {
-  margin-bottom: 0.32rem;
-  font-size: 0.74rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--muted);
-}
-
-@media (min-width: 980px) {
-  .control-row {
-    grid-template-columns: minmax(14rem, 1.2fr) repeat(3, minmax(10rem, 1fr));
-    align-items: end;
-  }
 }
 
 .count {
@@ -219,24 +199,8 @@ onMounted(() => {
   margin-top: 0.18rem;
 }
 
-.empty-state {
+.empty-state--overview {
   margin-top: 0.18rem;
-  border: 1px solid color-mix(in oklab, var(--line) 78%, #ffffff 22%);
-  border-radius: 0.46rem;
-  background: linear-gradient(180deg, rgba(12, 10, 18, 0.94), rgba(8, 6, 13, 0.9));
-  padding: 0.95rem 0.9rem;
-}
-
-.empty-state h2 {
-  margin: 0;
-  font-size: 0.94rem;
-  letter-spacing: 0.02em;
-}
-
-.empty-state p {
-  margin: 0.32rem 0 0;
-  color: var(--muted);
-  font-size: 0.78rem;
 }
 
 .group-block {
@@ -279,46 +243,19 @@ onMounted(() => {
 }
 
 .row {
-  --tone: #97a0b5;
+  --atlas-row-accent-width: 0.34rem;
+  --atlas-row-line: var(--line);
+  --atlas-row-bg: var(--surface);
+  --atlas-row-hover-line: color-mix(in oklab, var(--tone) 66%, var(--line));
+  --atlas-row-hover-bg: color-mix(in oklab, var(--surface) 82%, #ffffff 18%);
   display: grid;
   grid-template-columns: var(--code-chip-width) minmax(0, 1fr) auto;
-  gap: 0.56rem;
-  align-items: center;
-  border: 1px solid var(--line);
-  border-left: 0.34rem solid color-mix(in oklab, var(--tone) 76%, #ffffff);
-  border-radius: 0.44rem;
-  background: var(--surface);
   padding: 0.42rem 0.56rem;
-  transition:
-    border-color 140ms ease,
-    background 140ms ease;
-}
-
-.row:hover {
-  border-color: color-mix(in oklab, var(--tone) 66%, var(--line));
-  background: color-mix(in oklab, var(--surface) 82%, #ffffff 18%);
 }
 
 .row:focus-visible {
   outline: 2px solid color-mix(in oklab, var(--tone) 70%, #ffffff);
   outline-offset: 2px;
-}
-
-.code {
-  border: 1px solid var(--line);
-  border-radius: 0.22rem;
-  min-inline-size: var(--code-chip-width);
-  inline-size: var(--code-chip-width);
-  padding: 0.02rem 0.2rem;
-  display: inline-flex;
-  justify-content: center;
-  align-self: center;
-  font-size: 0.75rem;
-  letter-spacing: 0.06em;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-variant-numeric: tabular-nums;
 }
 
 .meta {
@@ -361,11 +298,6 @@ onMounted(() => {
 }
 
 @media (max-width: 760px) {
-  .control-row {
-    grid-template-columns: 1fr;
-    gap: 0.62rem;
-  }
-
   .row {
     gap: 0.46rem;
     padding: 0.4rem 0.5rem;
