@@ -92,7 +92,7 @@ function onInputKeydown(event: KeyboardEvent) {
 }
 
 .clear:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--atlas-control-hover);
   color: var(--text);
 }
 
@@ -101,3 +101,4 @@ function onInputKeydown(event: KeyboardEvent) {
   outline-offset: 1px;
 }
 </style>
+

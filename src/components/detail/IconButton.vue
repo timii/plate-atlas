@@ -38,6 +38,7 @@ const props = defineProps({
 }
 
 .icon:hover {
-  background: color-mix(in oklab, var(--atlas-surface) 72%, #ffffff 28%);
+  background: var(--atlas-control-hover);
 }
 </style>
+

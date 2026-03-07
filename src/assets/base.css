@@ -55,7 +55,8 @@
   --atlas-header-surface: rgba(13, 10, 18, 0.72);
   --atlas-header-surface-mobile: rgba(13, 10, 18, 0.82);
   --atlas-header-height: 3.5rem;
-  --atlas-header-height-mobile: 3.25rem;
+    /* keep compact action hovers consistent across shared controls */
+  --atlas-control-hover: rgba(255, 255, 255, 0.08);
 }
 
 *,
@@ -156,3 +157,4 @@ body {
   font-size: 0.68rem;
   text-align: left;
 }
+

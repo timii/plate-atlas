@@ -212,7 +212,7 @@ onBeforeUnmount(() => {
 }
 
 .item:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--atlas-control-hover);
   color: var(--text);
 }
 
@@ -227,3 +227,4 @@ onBeforeUnmount(() => {
   }
 }
 </style>
+
