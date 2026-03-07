@@ -1,10 +1,5 @@
 <script setup lang="ts">
-import { computed, type Component, type PropType } from 'vue'
-
-interface Color {
-  lightMode: string
-  darkMode: string
-}
+import type { Component, PropType } from 'vue'
 
 const props = defineProps({
   iconComponent: {
@@ -12,28 +7,20 @@ const props = defineProps({
     required: true,
   },
   color: {
-    type: Object as PropType<Color>,
-    default: () => ({
-      lightMode: '#000',
-      darkMode: '#fff',
-    }),
+    type: String,
+    default: '#9198a1',
   },
   size: {
     type: String,
     default: '24px',
   },
 })
-
-const colorVariables = computed(() => ({
-  lightMode: props.color.lightMode,
-  darkMode: props.color.darkMode,
-}))
 </script>
 
 <template>
   <div
     v-if="props.iconComponent"
-    class="icon cursor-pointer rounded-lg p-1 transition-all duration-200 ease-cubic hover:bg-background-light-hover hover:dark:bg-background-dark-hover"
+    class="icon cursor-pointer rounded-lg p-1 transition-all duration-200 ease-cubic"
   >
     <component
       :is="props.iconComponent"
@@ -46,11 +33,11 @@ const colorVariables = computed(() => ({
 
 <style scoped>
 .icon {
-  color: v-bind('colorVariables.lightMode');
+  /* keep icon actions aligned with the dark atlas surface language */
+  color: v-bind('props.color');
 }
-@media (prefers-color-scheme: dark) {
-  .icon {
-    color: v-bind('colorVariables.darkMode');
-  }
+
+.icon:hover {
+  background: color-mix(in oklab, var(--atlas-surface) 72%, #ffffff 28%);
 }
 </style>

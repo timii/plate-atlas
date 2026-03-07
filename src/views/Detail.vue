@@ -120,19 +120,13 @@ watch(
               <IconButton
                 v-if="isCountryFavorited"
                 :icon-component="StarFilled"
-                :color="{
-                  darkMode: '#daaa3f',
-                  lightMode: '#daaa3f',
-                }"
+                color="#daaa3f"
                 @click="onFavoriteClick"
               />
               <IconButton
                 v-else
                 :icon-component="StarEmpty"
-                :color="{
-                  darkMode: '#9198a1',
-                  lightMode: '#59636e',
-                }"
+                color="#9198a1"
                 @click="onFavoriteClick"
               />
             </div>
