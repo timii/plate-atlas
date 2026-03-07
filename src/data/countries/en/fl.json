@@ -3,23 +3,33 @@
     "category": "Current standard license plates (1972-present)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Recently_issued_license_plate_from_Liechtenstein.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Recently_issued_license_plate_from_Liechtenstein.jpg",
+        "thumbLocal": "images/detail/fl/fl-01-01.jpg",
+        "fullSizeLocal": "images/detail/fl/fl-01-01.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/1234_-_Fire_departement.jpg",
-        "title": "Issued for industrial and utility vehicles and trailers"
+        "title": "Issued for industrial and utility vehicles and trailers",
+        "thumbLocal": "images/detail/fl/fl-01-02.jpg",
+        "fullSizeLocal": "images/detail/fl/fl-01-02.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Liechtenstein_small_motorcycle_%28FL_7xxx%29.jpg",
-        "title": "Issued for small motorcycles, light motor vehicles and electric vehicles"
+        "title": "Issued for small motorcycles, light motor vehicles and electric vehicles",
+        "thumbLocal": "images/detail/fl/fl-01-03.jpg",
+        "fullSizeLocal": "images/detail/fl/fl-01-03.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/1_-_FL.jpg",
-        "title": "Numbers 1-4, 6, 8, 10 are assigned to the Princely Family of Liechtenstein"
+        "title": "Numbers 1-4, 6, 8, 10 are assigned to the Princely Family of Liechtenstein",
+        "thumbLocal": "images/detail/fl/fl-01-04.jpg",
+        "fullSizeLocal": "images/detail/fl/fl-01-04.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/2021_Liechtenstein_police_car_FL_9_%28new_colours%29.jpg",
-        "title": "Numbers 7, 9 and 11-20 are assigned to the Liechtenstein Police"
+        "title": "Numbers 7, 9 and 11-20 are assigned to the Liechtenstein Police",
+        "thumbLocal": "images/detail/fl/fl-01-05.jpg",
+        "fullSizeLocal": "images/detail/fl/fl-01-05.jpg"
       }
     ]
   },
@@ -27,7 +37,9 @@
     "category": "Previous standard license plates (1961-1972)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Old_Liechtenstein_plate_FL_2572.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Old_Liechtenstein_plate_FL_2572.jpg",
+        "thumbLocal": "images/detail/fl/fl-02-01.jpg",
+        "fullSizeLocal": "images/detail/fl/fl-02-01.jpg"
       }
     ]
   },
@@ -35,7 +47,9 @@
     "category": "Previous standard license plates (1920-1961)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/FL_2445_-_RARE_-_very_old_style_%281930%29.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/FL_2445_-_RARE_-_very_old_style_%281930%29.jpg",
+        "thumbLocal": "images/detail/fl/fl-03-01.jpg",
+        "fullSizeLocal": "images/detail/fl/fl-03-01.jpg"
       }
     ]
   }

@@ -4,7 +4,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Kosovar_license_plate.svg/250px-Kosovar_license_plate.svg.png",
-        "title": "Standard plate format introduced in December 2010"
+        "title": "Standard plate format introduced in December 2010",
+        "thumbLocal": "images/detail/rks/rks-01-01.png",
+        "fullSizeLocal": "images/detail/rks/rks-01-01.png"
       }
     ]
   },
@@ -13,7 +15,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Kosovo_UNMIK_plate.jpg/120px-Kosovo_UNMIK_plate.jpg",
-        "title": "UNMIK(United Nations Interim Administration Mission in Kosovo)-issued plate example"
+        "title": "UNMIK(United Nations Interim Administration Mission in Kosovo)-issued plate example",
+        "thumbLocal": "images/detail/rks/rks-02-01.jpg",
+        "fullSizeLocal": "images/detail/rks/rks-02-01.jpg"
       }
     ]
   },
@@ -22,7 +26,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Kosovar_license_plate_from_Prizren%2C_Federal_Republic_of_Yugoslavia.jpg/120px-Kosovar_license_plate_from_Prizren%2C_Federal_Republic_of_Yugoslavia.jpg",
-        "title": "'PZ' stands for Prizren (issued between 1998 and 30 September 1999)"
+        "title": "'PZ' stands for Prizren (issued between 1998 and 30 September 1999)",
+        "thumbLocal": "images/detail/rks/rks-03-01.jpg",
+        "fullSizeLocal": "images/detail/rks/rks-03-01.jpg"
       }
     ]
   }

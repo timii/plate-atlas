@@ -4,7 +4,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Moldova_MD_license_plate_ABC012_2015.svg/960px-Moldova_MD_license_plate_ABC012_2015.svg.png",
-        "title": "Standard plate format introduced in 2015 (3 letters + 3 digits, widened blue band with Moldovan flag and MD)"
+        "title": "Standard plate format introduced in 2015 (3 letters + 3 digits, widened blue band with Moldovan flag and MD)",
+        "thumbLocal": "images/detail/md/md-01-01.png",
+        "fullSizeLocal": "images/detail/md/md-01-01.png"
       }
     ]
   },
@@ -13,7 +15,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Moldova_license_plate_CAA001_November_2011.png/960px-Moldova_license_plate_CAA001_November_2011.png",
-        "title": "Standard plate design issued from November 2011 (vertical blue band, regional code ('C' stands for 'Chișinău') + series + digits)"
+        "title": "Standard plate design issued from November 2011 (vertical blue band, regional code ('C' stands for 'Chișinău') + series + digits)",
+        "thumbLocal": "images/detail/md/md-02-01.png",
+        "fullSizeLocal": "images/detail/md/md-02-01.png"
       }
     ]
   },
@@ -22,7 +26,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Moldova_license_plate_C_AA_001.png/250px-Moldova_license_plate_C_AA_001.png",
-        "title": "Standard plate design used after introduction in 1992 (regional code + series + digits; before 1993 the country code could appear as MLD)"
+        "title": "Standard plate design used after introduction in 1992 (regional code + series + digits; before 1993 the country code could appear as MLD)",
+        "thumbLocal": "images/detail/md/md-03-01.png",
+        "fullSizeLocal": "images/detail/md/md-03-01.png"
       }
     ]
   }

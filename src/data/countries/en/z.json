@@ -4,15 +4,21 @@
     "images": [
       {
         "url": "https://www.plateshack.com/y2k/Zambia/zamabd7712-2021.jpg",
-        "title": "Current plate example (Lusaka Rural/Feira, 2021)"
+        "title": "Current plate example (Lusaka Rural/Feira, 2021)",
+        "thumbLocal": "images/detail/z/z-01-01.jpg",
+        "fullSizeLocal": "images/detail/z/z-01-01.jpg"
       },
       {
         "url": "https://www.plateshack.com/y2k/Zambia/zambiaBAA3919.jpg",
-        "title": "2000-series plate still in use (2021)"
+        "title": "2000-series plate still in use (2021)",
+        "thumbLocal": "images/detail/z/z-01-02.jpg",
+        "fullSizeLocal": "images/detail/z/z-01-02.jpg"
       },
       {
         "url": "https://www.plateshack.com/y2k/Zambia/zambia2010.jpg",
-        "title": "Current plate example (Livingstone, 2010)"
+        "title": "Current plate example (Livingstone, 2010)",
+        "thumbLocal": "images/detail/z/z-01-03.jpg",
+        "fullSizeLocal": "images/detail/z/z-01-03.jpg"
       }
     ]
   },
@@ -21,11 +27,15 @@
     "images": [
       {
         "url": "https://www.plateshack.com/y2k/Zambia/zambiaoldstyle2014.jpg",
-        "title": "Pre-2000 plate style example"
+        "title": "Pre-2000 plate style example",
+        "thumbLocal": "images/detail/z/z-02-01.jpg",
+        "fullSizeLocal": "images/detail/z/z-02-01.jpg"
       },
       {
         "url": "https://www.plateshack.com/y2k/Zambia/zambabl1792t.jpg",
-        "title": "Trailer plate example (Lusaka Rural/Feira)"
+        "title": "Trailer plate example (Lusaka Rural/Feira)",
+        "thumbLocal": "images/detail/z/z-02-02.jpg",
+        "fullSizeLocal": "images/detail/z/z-02-02.jpg"
       }
     ]
   }

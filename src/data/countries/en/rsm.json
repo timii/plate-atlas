@@ -3,7 +3,9 @@
     "category": "Current standard license plates (1993-present)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Targa_automobilistica_San_Marino_1993_L3237.jpg/250px-Targa_automobilistica_San_Marino_1993_L3237.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Targa_automobilistica_San_Marino_1993_L3237.jpg/250px-Targa_automobilistica_San_Marino_1993_L3237.jpg",
+        "thumbLocal": "images/detail/rsm/rsm-01-01.jpg",
+        "fullSizeLocal": "images/detail/rsm/rsm-01-01.jpg"
       }
     ]
   },
@@ -11,7 +13,9 @@
     "category": "Previous standard license plates (1987-1993)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Targa_automobilistica_San_Marino_1987_32334.jpg/330px-Targa_automobilistica_San_Marino_1987_32334.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Targa_automobilistica_San_Marino_1987_32334.jpg/330px-Targa_automobilistica_San_Marino_1987_32334.jpg",
+        "thumbLocal": "images/detail/rsm/rsm-02-01.jpg",
+        "fullSizeLocal": "images/detail/rsm/rsm-02-01.jpg"
       }
     ]
   },
@@ -19,7 +23,9 @@
     "category": "Previous standard license plates (1966-1976)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Targa_automobilistica_San_Marino_1966_RSM_4198_decalcomania.jpg/330px-Targa_automobilistica_San_Marino_1966_RSM_4198_decalcomania.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Targa_automobilistica_San_Marino_1966_RSM_4198_decalcomania.jpg/330px-Targa_automobilistica_San_Marino_1966_RSM_4198_decalcomania.jpg",
+        "thumbLocal": "images/detail/rsm/rsm-03-01.jpg",
+        "fullSizeLocal": "images/detail/rsm/rsm-03-01.jpg"
       }
     ]
   }

@@ -3,7 +3,9 @@
     "category": "Current standard license plates (2011-present)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Andorra-front2014.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Andorra-front2014.jpg",
+        "thumbLocal": "images/detail/and/and-01-01.jpg",
+        "fullSizeLocal": "images/detail/and/and-01-01.jpg"
       }
     ]
   },
@@ -11,7 +13,9 @@
     "category": "Previous standard license plates (pre 2011)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Andorra_passenger_license_plate_1970s.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Andorra_passenger_license_plate_1970s.jpg",
+        "thumbLocal": "images/detail/and/and-02-01.jpg",
+        "fullSizeLocal": "images/detail/and/and-02-01.jpg"
       }
     ]
   }

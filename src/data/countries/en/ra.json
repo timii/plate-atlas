@@ -4,7 +4,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matr%C3%ADcula_automovil%C3%ADstica_argentina_2016_(Mercosur)-B.png",
-        "title": "Current Mercosur-format private vehicle plate"
+        "title": "Current Mercosur-format private vehicle plate",
+        "thumbLocal": "images/detail/ra/ra-01-01.png",
+        "fullSizeLocal": "images/detail/ra/ra-01-01.png"
       }
     ]
   },
@@ -13,7 +15,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matr%C3%ADcula_automovil%C3%ADstica_Argentina_1995_NVZ_087.jpg",
-        "title": "National format with 3 letters and 3 numbers"
+        "title": "National format with 3 letters and 3 numbers",
+        "thumbLocal": "images/detail/ra/ra-02-01.jpg",
+        "fullSizeLocal": "images/detail/ra/ra-02-01.jpg"
       }
     ]
   },
@@ -22,7 +26,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matr%C3%ADcula_automovil%C3%ADstica_Argentina_1972_C760915.jpg",
-        "title": "Legacy format with visible provincial letter code"
+        "title": "Legacy format with visible provincial letter code",
+        "thumbLocal": "images/detail/ra/ra-03-01.jpg",
+        "fullSizeLocal": "images/detail/ra/ra-03-01.jpg"
       }
     ]
   }

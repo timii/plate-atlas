@@ -4,15 +4,21 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Brunei_car_plate_%28cropped%29.JPG",
-        "title": "Standard plate (black background, white characters)"
+        "title": "Standard plate (black background, white characters)",
+        "thumbLocal": "images/detail/bru/bru-01-01.jpg",
+        "fullSizeLocal": "images/detail/bru/bru-01-01.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Diplomatic_car_plates_in_Brunei.jpg",
-        "title": "Diplomatic"
+        "title": "Diplomatic",
+        "thumbLocal": "images/detail/bru/bru-01-02.jpg",
+        "fullSizeLocal": "images/detail/bru/bru-01-02.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Embassy_car_from_Brunei.jpg",
-        "title": "Embassy"
+        "title": "Embassy",
+        "thumbLocal": "images/detail/bru/bru-01-03.jpg",
+        "fullSizeLocal": "images/detail/bru/bru-01-03.jpg"
       }
     ]
   },
@@ -21,7 +27,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Old_license_plate_of_Brunei.jpg",
-        "title": "Older plate style"
+        "title": "Older plate style",
+        "thumbLocal": "images/detail/bru/bru-02-01.jpg",
+        "fullSizeLocal": "images/detail/bru/bru-02-01.jpg"
       }
     ]
   }

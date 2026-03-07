@@ -3,7 +3,9 @@
     "category": "Current standard license plates (2009-present)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Registarske_tablice_Bosne_i_Hercegovine.svg/250px-Registarske_tablice_Bosne_i_Hercegovine.svg.png"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Registarske_tablice_Bosne_i_Hercegovine.svg/250px-Registarske_tablice_Bosne_i_Hercegovine.svg.png",
+        "thumbLocal": "images/detail/bih/bih-01-01.png",
+        "fullSizeLocal": "images/detail/bih/bih-01-01.png"
       }
     ]
   },
@@ -11,7 +13,9 @@
     "category": "Previous standard license plates (1998-2009)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Stare_registarske_tablice_Bosne_i_Hercegovine.svg/330px-Stare_registarske_tablice_Bosne_i_Hercegovine.svg.png"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Stare_registarske_tablice_Bosne_i_Hercegovine.svg/330px-Stare_registarske_tablice_Bosne_i_Hercegovine.svg.png",
+        "thumbLocal": "images/detail/bih/bih-02-01.png",
+        "fullSizeLocal": "images/detail/bih/bih-02-01.png"
       }
     ]
   },
@@ -20,7 +24,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/TZ_1826_HA.jpg",
-        "title": "'TZ' stands for Tuzla"
+        "title": "'TZ' stands for Tuzla",
+        "thumbLocal": "images/detail/bih/bih-03-01.jpg",
+        "fullSizeLocal": "images/detail/bih/bih-03-01.jpg"
       }
     ]
   },
@@ -29,7 +35,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/YUGOSLAVIA%2C_BOSNIA-HERZOGOVINA%2C_SARAJEVO_pre1991_-LICENSE_PLATE_-_Flickr_-_woody1778a.jpg",
-        "title": "'SA' stands for Sarajevo"
+        "title": "'SA' stands for Sarajevo",
+        "thumbLocal": "images/detail/bih/bih-04-01.jpg",
+        "fullSizeLocal": "images/detail/bih/bih-04-01.jpg"
       }
     ]
   }

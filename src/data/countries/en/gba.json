@@ -3,10 +3,14 @@
     "category": "Current standard license plates",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/License_plate_of_Alderney.jpg/960px-License_plate_of_Alderney.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/License_plate_of_Alderney.jpg/960px-License_plate_of_Alderney.jpg",
+        "thumbLocal": "images/detail/gba/gba-01-01.jpg",
+        "fullSizeLocal": "images/detail/gba/gba-01-01.jpg"
       },
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/License_plate_Alderney.jpg/250px-License_plate_Alderney.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/License_plate_Alderney.jpg/250px-License_plate_Alderney.jpg",
+        "thumbLocal": "images/detail/gba/gba-01-02.jpg",
+        "fullSizeLocal": "images/detail/gba/gba-01-02.jpg"
       }
     ]
   }

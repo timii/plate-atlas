@@ -4,15 +4,21 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CAR%20GUYANA%20LICENSE%20PLATE-%20PCC.png",
-        "title": "Standard private plate"
+        "title": "Standard private plate",
+        "thumbLocal": "images/detail/guy/guy-01-01.png",
+        "fullSizeLocal": "images/detail/guy/guy-01-01.png"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Guyana%20President%20vehicle%20plate.svg",
-        "title": "Presidential plate"
+        "title": "Presidential plate",
+        "thumbLocal": "images/detail/guy/guy-01-02.svg",
+        "fullSizeLocal": "images/detail/guy/guy-01-02.svg"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Guyana%20Prime%20Minister%20vehicle%20plate.svg",
-        "title": "Prime Minister plate"
+        "title": "Prime Minister plate",
+        "thumbLocal": "images/detail/guy/guy-01-03.svg",
+        "fullSizeLocal": "images/detail/guy/guy-01-03.svg"
       }
     ]
   }

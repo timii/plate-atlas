@@ -4,35 +4,51 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Saudi_Arabia_-_License_Plate_-_Private.png/250px-Saudi_Arabia_-_License_Plate_-_Private.png",
-        "title": "Private car"
+        "title": "Private car",
+        "thumbLocal": "images/detail/ksa/ksa-01-01.png",
+        "fullSizeLocal": "images/detail/ksa/ksa-01-01.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Saudi_Arabia_KSA_-_License_Plate_-_Private_-_550x110mm.png",
-        "title": "Private car (EU size)"
+        "title": "Private car (EU size)",
+        "thumbLocal": "images/detail/ksa/ksa-01-02.png",
+        "fullSizeLocal": "images/detail/ksa/ksa-01-02.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Saudi_Arabia_License_Plate_-_Commercial.png/250px-Saudi_Arabia_License_Plate_-_Commercial.png",
-        "title": "Commercial vehicle"
+        "title": "Commercial vehicle",
+        "thumbLocal": "images/detail/ksa/ksa-01-03.png",
+        "fullSizeLocal": "images/detail/ksa/ksa-01-03.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Saudi_Arabia_KSA_-_License_Plate_-_Commercial_-_550x110mm.png",
-        "title": "Commercial vehicle (EU size)"
+        "title": "Commercial vehicle (EU size)",
+        "thumbLocal": "images/detail/ksa/ksa-01-04.png",
+        "fullSizeLocal": "images/detail/ksa/ksa-01-04.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Saudi_Arabia_-_License_Plate_-_Temporary.png/250px-Saudi_Arabia_-_License_Plate_-_Temporary.png",
-        "title": "Temporary"
+        "title": "Temporary",
+        "thumbLocal": "images/detail/ksa/ksa-01-05.png",
+        "fullSizeLocal": "images/detail/ksa/ksa-01-05.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/KSA_-_License_Plate_-_Temporary_-_550x110mm.png",
-        "title": "Temporary (EU size)"
+        "title": "Temporary (EU size)",
+        "thumbLocal": "images/detail/ksa/ksa-01-06.png",
+        "fullSizeLocal": "images/detail/ksa/ksa-01-06.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Saudi_Arabia_-_License_Plate_-_Diplomatic.png/250px-Saudi_Arabia_-_License_Plate_-_Diplomatic.png",
-        "title": "Diplomatic"
+        "title": "Diplomatic",
+        "thumbLocal": "images/detail/ksa/ksa-01-07.png",
+        "fullSizeLocal": "images/detail/ksa/ksa-01-07.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Saudi_Arabia_KSA_-_License_Plate_-_Diplomatic_-_550x110mm.png",
-        "title": "Diplomatic (EU size)"
+        "title": "Diplomatic (EU size)",
+        "thumbLocal": "images/detail/ksa/ksa-01-08.png",
+        "fullSizeLocal": "images/detail/ksa/ksa-01-08.png"
       }
     ]
   }

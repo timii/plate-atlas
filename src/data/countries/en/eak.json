@@ -4,7 +4,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/New_Kenyan_license_plates.jpg",
-        "title": "Current standard plate design"
+        "title": "Current standard plate design",
+        "thumbLocal": "images/detail/eak/eak-01-01.jpg",
+        "fullSizeLocal": "images/detail/eak/eak-01-01.jpg"
       }
     ]
   },
@@ -13,7 +15,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/KENYA_passenger_license_plate_1950-1989_Flickr_-_woody1778a.jpg",
-        "title": "Historic Nairobi passenger plate example"
+        "title": "Historic Nairobi passenger plate example",
+        "thumbLocal": "images/detail/eak/eak-02-01.jpg",
+        "fullSizeLocal": "images/detail/eak/eak-02-01.jpg"
       }
     ]
   }

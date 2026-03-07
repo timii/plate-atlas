@@ -3,7 +3,9 @@
     "category": "Current standard license plates (2022-present)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/HU_normal_AABP022.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/HU_normal_AABP022.jpg",
+        "thumbLocal": "images/detail/h/h-01-01.jpg",
+        "fullSizeLocal": "images/detail/h/h-01-01.jpg"
       }
     ]
   },
@@ -11,11 +13,15 @@
     "category": "Previous standard license plates (2004-2022)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Lic_plate_hun.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Lic_plate_hun.jpg",
+        "thumbLocal": "images/detail/h/h-02-01.jpg",
+        "fullSizeLocal": "images/detail/h/h-02-01.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Motorcycle_EU_plate_Hungary.jpg",
-        "title": "Motorcycle plate"
+        "title": "Motorcycle plate",
+        "thumbLocal": "images/detail/h/h-02-02.jpg",
+        "fullSizeLocal": "images/detail/h/h-02-02.jpg"
       }
     ]
   },
@@ -23,7 +29,9 @@
     "category": "Previous standard license plates (1990-2004)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/HUNGARY_c.2000_passenger_plate_-_Flickr_-_woody1778a.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/HUNGARY_c.2000_passenger_plate_-_Flickr_-_woody1778a.jpg",
+        "thumbLocal": "images/detail/h/h-03-01.jpg",
+        "fullSizeLocal": "images/detail/h/h-03-01.jpg"
       }
     ]
   },
@@ -31,7 +39,9 @@
     "category": "Previous standard license plates (1958-1990)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Hungarian_license_plate_before_1990.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Hungarian_license_plate_before_1990.jpg",
+        "thumbLocal": "images/detail/h/h-04-01.jpg",
+        "fullSizeLocal": "images/detail/h/h-04-01.jpg"
       }
     ]
   }

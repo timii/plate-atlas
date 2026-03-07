@@ -3,10 +3,14 @@
     "category": "Current standard license plates (1987-present)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/NMN-835-H.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/NMN-835-H.jpg",
+        "thumbLocal": "images/detail/gbm/gbm-01-01.jpg",
+        "fullSizeLocal": "images/detail/gbm/gbm-01-01.jpg"
       },
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Licenceplate_of_Isle_of_Man_2.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Licenceplate_of_Isle_of_Man_2.jpg",
+        "thumbLocal": "images/detail/gbm/gbm-01-02.jpg",
+        "fullSizeLocal": "images/detail/gbm/gbm-01-02.jpg"
       }
     ]
   }

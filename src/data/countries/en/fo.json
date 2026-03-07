@@ -3,7 +3,9 @@
     "category": "Current standard license plates (1996-present)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/BG_339_Faroer_license_plate_seen_in_Vaduz_FL.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/BG_339_Faroer_license_plate_seen_in_Vaduz_FL.jpg",
+        "thumbLocal": "images/detail/fo/fo-01-01.jpg",
+        "fullSizeLocal": "images/detail/fo/fo-01-01.jpg"
       }
     ]
   },
@@ -11,7 +13,9 @@
     "category": "Previous standard license plates (pre 1996)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Car_registration_plate_of_the_Faroe_Islands_before_1996.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Car_registration_plate_of_the_Faroe_Islands_before_1996.jpg",
+        "thumbLocal": "images/detail/fo/fo-02-01.jpg",
+        "fullSizeLocal": "images/detail/fo/fo-02-01.jpg"
       }
     ]
   }

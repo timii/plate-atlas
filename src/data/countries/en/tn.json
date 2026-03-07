@@ -4,23 +4,33 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Imatriculation%20V%C3%A9hicule%20Tunisie.JPG",
-        "title": "Current private plate example"
+        "title": "Current private plate example",
+        "thumbLocal": "images/detail/tn/tn-01-01.jpg",
+        "fullSizeLocal": "images/detail/tn/tn-01-01.jpg"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rented%20car%20license%20plate%20-%20Tunisia%20-%202.jpg",
-        "title": "Rental car plate example"
+        "title": "Rental car plate example",
+        "thumbLocal": "images/detail/tn/tn-01-02.jpg",
+        "fullSizeLocal": "images/detail/tn/tn-01-02.jpg"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tunisian%2020%20Ministerial%20license%20plate.jpg",
-        "title": "Government department plate example"
+        "title": "Government department plate example",
+        "thumbLocal": "images/detail/tn/tn-01-03.jpg",
+        "fullSizeLocal": "images/detail/tn/tn-01-03.jpg"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Military%20plate%20Tunisia.jpg",
-        "title": "Military plate example"
+        "title": "Military plate example",
+        "thumbLocal": "images/detail/tn/tn-01-04.jpg",
+        "fullSizeLocal": "images/detail/tn/tn-01-04.jpg"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tunisian%20license%20plates%2004.JPG",
-        "title": "Diplomatic corps plate example"
+        "title": "Diplomatic corps plate example",
+        "thumbLocal": "images/detail/tn/tn-01-05.jpg",
+        "fullSizeLocal": "images/detail/tn/tn-01-05.jpg"
       }
     ]
   }

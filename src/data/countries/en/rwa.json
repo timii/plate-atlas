@@ -4,11 +4,15 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rwanda_License_Plate_-_Front.png",
-        "title": "Current front plate example"
+        "title": "Current front plate example",
+        "thumbLocal": "images/detail/rwa/rwa-01-01.png",
+        "fullSizeLocal": "images/detail/rwa/rwa-01-01.png"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rwanda_License_Plate_-_Back.png",
-        "title": "Current rear plate example"
+        "title": "Current rear plate example",
+        "thumbLocal": "images/detail/rwa/rwa-01-02.png",
+        "fullSizeLocal": "images/detail/rwa/rwa-01-02.png"
       }
     ]
   }

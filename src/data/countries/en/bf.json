@@ -4,15 +4,21 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kennzeichen-Burkina-Faso.jpg",
-        "title": "Current private plate example"
+        "title": "Current private plate example",
+        "thumbLocal": "images/detail/bf/bf-01-01.jpg",
+        "fullSizeLocal": "images/detail/bf/bf-01-01.jpg"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Burkina_Faso_Commercial_License_Plate.jpg",
-        "title": "Current commercial plate example"
+        "title": "Current commercial plate example",
+        "thumbLocal": "images/detail/bf/bf-01-02.jpg",
+        "fullSizeLocal": "images/detail/bf/bf-01-02.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Burkina_Faso_Gendarmerie_Staff_Vehicle_license_plate.jpg/250px-Burkina_Faso_Gendarmerie_Staff_Vehicle_license_plate.jpg",
-        "title": "Current gendarmerie plate example"
+        "title": "Current gendarmerie plate example",
+        "thumbLocal": "images/detail/bf/bf-01-03.jpg",
+        "fullSizeLocal": "images/detail/bf/bf-01-03.jpg"
       }
     ]
   }

@@ -4,7 +4,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Targa_automobilistica_Citt%C3%A0_del_Vaticano_1988_CV_03566_residenti.jpg",
-        "title": "Resident/private plate example (1988, CV prefix)"
+        "title": "Resident/private plate example (1988, CV prefix)",
+        "thumbLocal": "images/detail/v/v-01-01.jpg",
+        "fullSizeLocal": "images/detail/v/v-01-01.jpg"
       }
     ]
   },
@@ -13,11 +15,15 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Targa_automobilistica_Citt%C3%A0_del_Vaticano_2018_SCV_01177.jpg/330px-Targa_automobilistica_Citt%C3%A0_del_Vaticano_2018_SCV_01177.jpg",
-        "title": "Official/government plate in use (SCV prefix)"
+        "title": "Official/government plate in use (SCV prefix)",
+        "thumbLocal": "images/detail/v/v-02-01.jpg",
+        "fullSizeLocal": "images/detail/v/v-02-01.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Targa_automobilistica_Citt%C3%A0_del_Vaticano_2002_SCV_1_Papamobile.jpg",
-        "title": "Vehicle plate used by the pope (SCV 1, red letters)"
+        "title": "Vehicle plate used by the pope (SCV 1, red letters)",
+        "thumbLocal": "images/detail/v/v-02-02.jpg",
+        "fullSizeLocal": "images/detail/v/v-02-02.jpg"
       }
     ]
   }

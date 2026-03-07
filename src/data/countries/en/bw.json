@@ -4,15 +4,21 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Botswana_plate_01.JPG",
-        "title": "Current private front plate example"
+        "title": "Current private front plate example",
+        "thumbLocal": "images/detail/bw/bw-01-01.jpg",
+        "fullSizeLocal": "images/detail/bw/bw-01-01.jpg"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Botswana-rear-plate.jpg",
-        "title": "Current private rear plate example"
+        "title": "Current private rear plate example",
+        "thumbLocal": "images/detail/bw/bw-01-02.jpg",
+        "fullSizeLocal": "images/detail/bw/bw-01-02.jpg"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Botswana_public_plate.jpg",
-        "title": "Current public service plate example"
+        "title": "Current public service plate example",
+        "thumbLocal": "images/detail/bw/bw-01-03.jpg",
+        "fullSizeLocal": "images/detail/bw/bw-01-03.jpg"
       }
     ]
   }

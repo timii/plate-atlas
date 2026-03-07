@@ -3,19 +3,27 @@
     "category": "Current standard license plates (2010-present)",
     "images": [
       {
-        "url": "https://olavsplates.com/foto_b/b_1-ctc-350_close.jpg"
+        "url": "https://olavsplates.com/foto_b/b_1-ctc-350_close.jpg",
+        "thumbLocal": "images/detail/b/b-01-01.jpg",
+        "fullSizeLocal": "images/detail/b/b-01-01.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/2010_belgian_diplomatic_license_plate.jpg",
-        "title": "Diplomatic license plate"
+        "title": "Diplomatic license plate",
+        "thumbLocal": "images/detail/b/b-01-02.jpg",
+        "fullSizeLocal": "images/detail/b/b-01-02.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Belgium_Royal_Family_license_plate_with_Euroband.jpg",
-        "title": "Plate belonging to the Royal family"
+        "title": "Plate belonging to the Royal family",
+        "thumbLocal": "images/detail/b/b-01-03.jpg",
+        "fullSizeLocal": "images/detail/b/b-01-03.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Belgian_military_plate.jpg",
-        "title": "Belgian military license plate"
+        "title": "Belgian military license plate",
+        "thumbLocal": "images/detail/b/b-01-04.jpg",
+        "fullSizeLocal": "images/detail/b/b-01-04.jpg"
       }
     ]
   },
@@ -23,11 +31,15 @@
     "category": "Previous standard license plates (pre 2010)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Belgian_1971-1973_license_plate.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Belgian_1971-1973_license_plate.jpg",
+        "thumbLocal": "images/detail/b/b-02-01.jpg",
+        "fullSizeLocal": "images/detail/b/b-02-01.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Belgium_diplomatic_license_plate_CD-S970.jpg",
-        "title": "Plate for embassy staff"
+        "title": "Plate for embassy staff",
+        "thumbLocal": "images/detail/b/b-02-02.jpg",
+        "fullSizeLocal": "images/detail/b/b-02-02.jpg"
       }
     ]
   }

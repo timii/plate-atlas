@@ -4,11 +4,15 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Qatar_License_plate.png",
-        "title": "Standard plate (single digits are used by the royal family)"
+        "title": "Standard plate (single digits are used by the royal family)",
+        "thumbLocal": "images/detail/q/q-01-01.png",
+        "fullSizeLocal": "images/detail/q/q-01-01.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Qatar_police_license_plate.jpg",
-        "title": "Police"
+        "title": "Police",
+        "thumbLocal": "images/detail/q/q-01-02.jpg",
+        "fullSizeLocal": "images/detail/q/q-01-02.jpg"
       }
     ]
   },
@@ -17,7 +21,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Qatar_license_plate.JPG",
-        "title": "Previous plate design"
+        "title": "Previous plate design",
+        "thumbLocal": "images/detail/q/q-02-01.jpg",
+        "fullSizeLocal": "images/detail/q/q-02-01.jpg"
       }
     ]
   }

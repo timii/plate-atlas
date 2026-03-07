@@ -4,7 +4,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/WX-12-NZ.jpg",
-        "title": "Current yellow Dutch plate format"
+        "title": "Current yellow Dutch plate format",
+        "thumbLocal": "images/detail/nl/nl-01-01.jpg",
+        "fullSizeLocal": "images/detail/nl/nl-01-01.jpg"
       }
     ]
   },
@@ -13,7 +15,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Dutch_plate_blue_old_code_1.png",
-        "title": "Older blue Dutch plate format"
+        "title": "Older blue Dutch plate format",
+        "thumbLocal": "images/detail/nl/nl-02-01.png",
+        "fullSizeLocal": "images/detail/nl/nl-02-01.png"
       }
     ]
   }

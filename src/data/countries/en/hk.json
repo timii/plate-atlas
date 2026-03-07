@@ -4,19 +4,27 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Hong_Kong_number_plates_2009.png",
-        "title": "Standard plate (black on white and yellow)"
+        "title": "Standard plate (black on white and yellow)",
+        "thumbLocal": "images/detail/hk/hk-01-01.png",
+        "fullSizeLocal": "images/detail/hk/hk-01-01.png"
       },
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/China_cross-border_Guangdong-Hong_Kong_license_plate-%E7%B2%A4Z%E2%80%A2A123%E6%B8%AF.svg/800px-China_cross-border_Guangdong-Hong_Kong_license_plate-%E7%B2%A4Z%E2%80%A2A123%E6%B8%AF.svg.png",
-        "title": "Cross-border plate (Guangdong-Hong Kong)"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/China_cross-border_Guangdong-Hong_Kong_license_plate-%E7%B2%A4Z%E2%80%A2A123%E6%B8%AF.svg/250px-China_cross-border_Guangdong-Hong_Kong_license_plate-%E7%B2%A4Z%E2%80%A2A123%E6%B8%AF.svg.png",
+        "title": "Cross-border plate (Guangdong-Hong Kong)",
+        "thumbLocal": "images/detail/hk/hk-01-02.png",
+        "fullSizeLocal": "images/detail/hk/hk-01-02.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Hong_Kong_normal_registration_plates_used_alongside_CC_diplomatic_oval.jpg",
-        "title": "Diplomatic CC badge (used with standard plates)"
+        "title": "Diplomatic CC badge (used with standard plates)",
+        "thumbLocal": "images/detail/hk/hk-01-03.jpg",
+        "fullSizeLocal": "images/detail/hk/hk-01-03.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Hong_Kong_Garrison_plates.png",
-        "title": "Military ZG plate"
+        "title": "Military ZG plate",
+        "thumbLocal": "images/detail/hk/hk-01-04.png",
+        "fullSizeLocal": "images/detail/hk/hk-01-04.png"
       }
     ]
   }

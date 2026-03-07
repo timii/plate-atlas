@@ -4,19 +4,27 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Lucia_registration_plate.jpg",
-        "title": "Standard private plate example"
+        "title": "Standard private plate example",
+        "thumbLocal": "images/detail/wl/wl-01-01.jpg",
+        "fullSizeLocal": "images/detail/wl/wl-01-01.jpg"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Lucia_taxi_registration_plate.png",
-        "title": "Taxi plate example (TX prefix)"
+        "title": "Taxi plate example (TX prefix)",
+        "thumbLocal": "images/detail/wl/wl-01-02.png",
+        "fullSizeLocal": "images/detail/wl/wl-01-02.png"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Lucia_minibus_registration_plate.png",
-        "title": "Minibus plate example (M prefix)"
+        "title": "Minibus plate example (M prefix)",
+        "thumbLocal": "images/detail/wl/wl-01-03.png",
+        "fullSizeLocal": "images/detail/wl/wl-01-03.png"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Lucia_government_registration_plate.jpg",
-        "title": "Government plate example (SLG prefix)"
+        "title": "Government plate example (SLG prefix)",
+        "thumbLocal": "images/detail/wl/wl-01-04.jpg",
+        "fullSizeLocal": "images/detail/wl/wl-01-04.jpg"
       }
     ]
   }

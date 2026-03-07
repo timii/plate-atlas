@@ -3,7 +3,9 @@
     "category": "Current standard license plate format (2013-present)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Cyprus_license_plate_2013_sample.svg/250px-Cyprus_license_plate_2013_sample.svg.png"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Cyprus_license_plate_2013_sample.svg/250px-Cyprus_license_plate_2013_sample.svg.png",
+        "thumbLocal": "images/detail/cy/cy-01-01.png",
+        "fullSizeLocal": "images/detail/cy/cy-01-01.png"
       }
     ]
   },
@@ -12,7 +14,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Cyprus_license_plate_KQL-343.svg/250px-Cyprus_license_plate_KQL-343.svg.png",
-        "title": "Rear side license plate"
+        "title": "Rear side license plate",
+        "thumbLocal": "images/detail/cy/cy-02-01.png",
+        "fullSizeLocal": "images/detail/cy/cy-02-01.png"
       }
     ]
   },
@@ -21,7 +25,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Cyprus_license_plate_1990-2004_ETM_415.jpg/250px-Cyprus_license_plate_1990-2004_ETM_415.jpg",
-        "title": "Rear side license plate"
+        "title": "Rear side license plate",
+        "thumbLocal": "images/detail/cy/cy-03-01.jpg",
+        "fullSizeLocal": "images/detail/cy/cy-03-01.jpg"
       }
     ]
   },
@@ -30,7 +36,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Cyprus_license_plate_1956-1990_SX_732.jpg/250px-Cyprus_license_plate_1956-1990_SX_732.jpg",
-        "title": "Rear side license plate"
+        "title": "Rear side license plate",
+        "thumbLocal": "images/detail/cy/cy-04-01.jpg",
+        "fullSizeLocal": "images/detail/cy/cy-04-01.jpg"
       }
     ]
   },
@@ -38,7 +46,9 @@
     "category": "Previous standard license plates (1956-1973)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cyprus_1950s-1960s_license_plate_-_Flickr_-_woody1778a.svg/250px-Cyprus_1950s-1960s_license_plate_-_Flickr_-_woody1778a.svg.png"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cyprus_1950s-1960s_license_plate_-_Flickr_-_woody1778a.svg/250px-Cyprus_1950s-1960s_license_plate_-_Flickr_-_woody1778a.svg.png",
+        "thumbLocal": "images/detail/cy/cy-05-01.png",
+        "fullSizeLocal": "images/detail/cy/cy-05-01.png"
       }
     ]
   }

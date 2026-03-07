@@ -4,11 +4,15 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/New_EU_style_vehicle_registration_plates_of_Georgia_%281%29.jpg",
-        "title": "EU-style standard plate"
+        "title": "EU-style standard plate",
+        "thumbLocal": "images/detail/ge/ge-01-01.jpg",
+        "fullSizeLocal": "images/detail/ge/ge-01-01.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Georgia_2014_temporary_plate.jpg",
-        "title": "Temporary plate"
+        "title": "Temporary plate",
+        "thumbLocal": "images/detail/ge/ge-01-02.jpg",
+        "fullSizeLocal": "images/detail/ge/ge-01-02.jpg"
       }
     ]
   },
@@ -17,11 +21,15 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Georgian_license_plate.JPG",
-        "title": "Older standard plate"
+        "title": "Older standard plate",
+        "thumbLocal": "images/detail/ge/ge-02-01.jpg",
+        "fullSizeLocal": "images/detail/ge/ge-02-01.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Georgia_%28country%29_license-plate_GEO.jpg",
-        "title": "Older plate with GEO country code"
+        "title": "Older plate with GEO country code",
+        "thumbLocal": "images/detail/ge/ge-02-02.jpg",
+        "fullSizeLocal": "images/detail/ge/ge-02-02.jpg"
       }
     ]
   }

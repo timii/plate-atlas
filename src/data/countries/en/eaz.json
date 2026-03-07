@@ -4,7 +4,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Motorbike_license_plate_of_Zanzibar_(Tanzania).jpg",
-        "title": "Current Zanzibar format example (motorcycle)"
+        "title": "Current Zanzibar format example (motorcycle)",
+        "thumbLocal": "images/detail/eaz/eaz-01-01.jpg",
+        "fullSizeLocal": "images/detail/eaz/eaz-01-01.jpg"
       }
     ]
   }

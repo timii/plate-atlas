@@ -4,19 +4,27 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/License%20plate%20British%20Virgin%20Islands%201996.jpg",
-        "title": "Private vehicle (PV)"
+        "title": "Private vehicle (PV)",
+        "thumbLocal": "images/detail/bvi/bvi-01-01.jpg",
+        "fullSizeLocal": "images/detail/bvi/bvi-01-01.jpg"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Government%20License%20plate%20of%20the%20British%20Virgin%20Islands%20%283%29.jpg",
-        "title": "Government vehicle (GV)"
+        "title": "Government vehicle (GV)",
+        "thumbLocal": "images/detail/bvi/bvi-01-02.jpg",
+        "fullSizeLocal": "images/detail/bvi/bvi-01-02.jpg"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Commercial%20License%20plate%20of%20the%20British%20Virgin%20Islands%20%282%29.jpg",
-        "title": "Commercial vehicle (CM)"
+        "title": "Commercial vehicle (CM)",
+        "thumbLocal": "images/detail/bvi/bvi-01-03.jpg",
+        "fullSizeLocal": "images/detail/bvi/bvi-01-03.jpg"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Taxi%20License%20plate%20of%20the%20British%20Virgin%20Islands%202.jpg",
-        "title": "Taxi"
+        "title": "Taxi",
+        "thumbLocal": "images/detail/bvi/bvi-01-04.jpg",
+        "fullSizeLocal": "images/detail/bvi/bvi-01-04.jpg"
       }
     ]
   }

@@ -4,11 +4,15 @@
     "images": [
       {
         "url": "https://www.plateshack.com/y2k/Togo/togo7365AR-2021.jpg",
-        "title": "Current private plate example (2008)"
+        "title": "Current private plate example (2008)",
+        "thumbLocal": "images/detail/tg/tg-01-01.jpg",
+        "fullSizeLocal": "images/detail/tg/tg-01-01.jpg"
       },
       {
         "url": "https://www.plateshack.com/y2k/Togo/togo8373AN-2021.jpg",
-        "title": "Current commercial plate example (2008)"
+        "title": "Current commercial plate example (2008)",
+        "thumbLocal": "images/detail/tg/tg-01-02.jpg",
+        "fullSizeLocal": "images/detail/tg/tg-01-02.jpg"
       }
     ]
   }

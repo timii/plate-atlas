@@ -4,7 +4,9 @@
     "images": [
       {
         "url": "https://www.licenseplatemania.com/fotos/taiwan/taiwan73.jpg",
-        "title": "Current-format plate example"
+        "title": "Current-format plate example",
+        "thumbLocal": "images/detail/rc/rc-01-01.jpg",
+        "fullSizeLocal": "images/detail/rc/rc-01-01.jpg"
       }
     ]
   },
@@ -13,11 +15,15 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Taipei_City_License_Plate_%280156%29.JPG",
-        "title": "Taipei City plate example (1990s-2000s series)"
+        "title": "Taipei City plate example (1990s-2000s series)",
+        "thumbLocal": "images/detail/rc/rc-02-01.jpg",
+        "fullSizeLocal": "images/detail/rc/rc-02-01.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Taiwan_Province_License_Plate_1994-2008.jpg",
-        "title": "Plate with issuing jurisdiction legend (used before 2007)"
+        "title": "Plate with issuing jurisdiction legend (used before 2007)",
+        "thumbLocal": "images/detail/rc/rc-02-02.jpg",
+        "fullSizeLocal": "images/detail/rc/rc-02-02.jpg"
       }
     ]
   }

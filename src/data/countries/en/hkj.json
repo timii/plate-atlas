@@ -4,11 +4,15 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Jordan_Licenceplate_3.JPG/250px-Jordan_Licenceplate_3.JPG",
-        "title": "Standard plate (black on white)"
+        "title": "Standard plate (black on white)",
+        "thumbLocal": "images/detail/hkj/hkj-01-01.jpg",
+        "fullSizeLocal": "images/detail/hkj/hkj-01-01.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Jordan_diplomatic_license_plate_7-2373.jpg/250px-Jordan_diplomatic_license_plate_7-2373.jpg",
-        "title": "Diplomatic plate"
+        "title": "Diplomatic plate",
+        "thumbLocal": "images/detail/hkj/hkj-01-02.jpg",
+        "fullSizeLocal": "images/detail/hkj/hkj-01-02.jpg"
       }
     ]
   }

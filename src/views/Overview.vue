@@ -3,6 +3,7 @@ import { onMounted, ref } from 'vue'
 import { storeToRefs } from 'pinia'
 import { RouterLink } from 'vue-router'
 import countriesJson from '@/data/current-license-plates.json'
+import type { ICountry } from '@/models/country.model'
 import type { IDropdownItem } from '@/models/dropdown.model'
 import CodeChip from '@/components/shared/CodeChip.vue'
 import Dropdown from '@/components/shared/Dropdown.vue'
@@ -13,6 +14,7 @@ import PageHeader from '@/components/shared/PageHeader.vue'
 import EmptyState from '@/components/shared/EmptyState.vue'
 import { type CountryGroupBy, type CountrySortMode, useCountriesStore } from '@/stores/countries'
 import { getToneStyle } from '@/constants/continentTone'
+import { pickPreferredStaticAssetUrl } from '@/utils/assetUrl'
 
 type DropdownKey = 'sort' | 'group' | 'continent' | null
 
@@ -61,6 +63,36 @@ function rowStyle(continent: string): Record<string, string> {
 
 function detailPath(code: string): string {
   return `/overview/${code.toLowerCase()}`
+}
+
+// prefer mirrored assets while keeping remote fallback
+function flagThumbSrc(country: ICountry): string {
+  return pickPreferredStaticAssetUrl(country.flagThumbLocal, country.flagThumb)
+}
+
+function flagThumbFallback(country: ICountry): string {
+  return country.flagThumbLocal ? country.flagThumb : ''
+}
+
+// retry the original remote asset if the local path is missing
+function onFlagError(event: Event) {
+  const target = event.target
+  if (!(target instanceof HTMLImageElement)) {
+    return
+  }
+
+  const fallbackSrc = target.dataset.fallbackSrc
+  if (
+    fallbackSrc &&
+    target.getAttribute('src') !== fallbackSrc &&
+    target.currentSrc !== fallbackSrc
+  ) {
+    target.src = fallbackSrc
+    target.dataset.fallbackSrc = ''
+    return
+  }
+
+  target.style.visibility = 'hidden'
 }
 
 onMounted(() => {
@@ -138,7 +170,13 @@ onMounted(() => {
                 <span class="continent">{{ country.continent }}</span>
               </span>
               <span class="end">
-                <img :src="country.flagThumb" :alt="`${country.country} flag`" loading="lazy" />
+                <img
+                  :src="flagThumbSrc(country)"
+                  :data-fallback-src="flagThumbFallback(country)"
+                  :alt="`${country.country} flag`"
+                  loading="lazy"
+                  @error="onFlagError"
+                />
               </span>
             </RouterLink>
           </div>
@@ -314,4 +352,3 @@ onMounted(() => {
   }
 }
 </style>
-

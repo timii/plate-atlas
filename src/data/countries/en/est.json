@@ -3,15 +3,21 @@
     "category": "Current standard license plates (2004-present)",
     "images": [
       {
-        "url": "https://www.olavsplates.com/foto_e/est_460vjj_close.jpg"
+        "url": "https://www.olavsplates.com/foto_e/est_460vjj_close.jpg",
+        "thumbLocal": "images/detail/est/est-01-01.jpg",
+        "fullSizeLocal": "images/detail/est/est-01-01.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Estonian_Presidential_license_plate_2006.png/250px-Estonian_Presidential_license_plate_2006.png",
-        "title": "Plate used on the car of the President"
+        "title": "Plate used on the car of the President",
+        "thumbLocal": "images/detail/est/est-01-02.png",
+        "fullSizeLocal": "images/detail/est/est-01-02.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Estnisk_milit%C3%A4r_registeringsskylt.png",
-        "title": "Plate used on a Defense Forces vehicle"
+        "title": "Plate used on a Defense Forces vehicle",
+        "thumbLocal": "images/detail/est/est-01-03.png",
+        "fullSizeLocal": "images/detail/est/est-01-03.png"
       }
     ]
   },
@@ -19,7 +25,9 @@
     "category": "Previous standard license plates (1991-2004)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Estonian_license_plate_1993-2004.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Estonian_license_plate_1993-2004.jpg",
+        "thumbLocal": "images/detail/est/est-02-01.jpg",
+        "fullSizeLocal": "images/detail/est/est-02-01.jpg"
       }
     ]
   },
@@ -28,7 +36,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Estonia_license_plate_-_o-1331-EA_%281980-1990%29.jpg",
-        "title": "Pre 1991 Estonian (USSR) registration plate"
+        "title": "Pre 1991 Estonian (USSR) registration plate",
+        "thumbLocal": "images/detail/est/est-03-01.jpg",
+        "fullSizeLocal": "images/detail/est/est-03-01.jpg"
       }
     ]
   }

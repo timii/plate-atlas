@@ -4,7 +4,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Chapamercosurpy.jpg",
-        "title": "Mercosur-format private vehicle plate"
+        "title": "Mercosur-format private vehicle plate",
+        "thumbLocal": "images/detail/py/py-01-01.jpg",
+        "fullSizeLocal": "images/detail/py/py-01-01.jpg"
       }
     ]
   },
@@ -13,7 +15,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Matr%C3%ADcula_automovil%C3%ADstica_Paraguay_2000_BAV_027.jpg",
-        "title": "National format before Mercosur"
+        "title": "National format before Mercosur",
+        "thumbLocal": "images/detail/py/py-02-01.jpg",
+        "fullSizeLocal": "images/detail/py/py-02-01.jpg"
       }
     ]
   }

@@ -4,39 +4,57 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Kuwait_License_Plate_-_Private.png",
-        "title": "Private car (standard size)"
+        "title": "Private car (standard size)",
+        "thumbLocal": "images/detail/kwt/kwt-01-01.png",
+        "fullSizeLocal": "images/detail/kwt/kwt-01-01.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Kuwait_License_Plate_-_Private_-_EU_Size.png",
-        "title": "Private car (EU size)"
+        "title": "Private car (EU size)",
+        "thumbLocal": "images/detail/kwt/kwt-01-02.png",
+        "fullSizeLocal": "images/detail/kwt/kwt-01-02.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Kuwait_License_Plate_-_Public.png",
-        "title": "Public transport (standard size)"
+        "title": "Public transport (standard size)",
+        "thumbLocal": "images/detail/kwt/kwt-01-03.png",
+        "fullSizeLocal": "images/detail/kwt/kwt-01-03.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Kuwait_License_Plate_-_Public_-_EU_Size.png",
-        "title": "Public transport (EU size)"
+        "title": "Public transport (EU size)",
+        "thumbLocal": "images/detail/kwt/kwt-01-04.png",
+        "fullSizeLocal": "images/detail/kwt/kwt-01-04.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Kuwait_License_Plate_-_Motorcycle.png",
-        "title": "Motorcycle"
+        "title": "Motorcycle",
+        "thumbLocal": "images/detail/kwt/kwt-01-05.png",
+        "fullSizeLocal": "images/detail/kwt/kwt-01-05.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Kuwait_License_Plate_-_Police.png",
-        "title": "Police"
+        "title": "Police",
+        "thumbLocal": "images/detail/kwt/kwt-01-06.png",
+        "fullSizeLocal": "images/detail/kwt/kwt-01-06.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Kuwait_License_Plate_-_Governmental.png",
-        "title": "Government"
+        "title": "Government",
+        "thumbLocal": "images/detail/kwt/kwt-01-07.png",
+        "fullSizeLocal": "images/detail/kwt/kwt-01-07.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Kuwait_License_Plate_-_Diplomatic.png",
-        "title": "Diplomatic"
+        "title": "Diplomatic",
+        "thumbLocal": "images/detail/kwt/kwt-01-08.png",
+        "fullSizeLocal": "images/detail/kwt/kwt-01-08.png"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Commercial_Vehicle_Plate.png",
-        "title": "Commercial"
+        "title": "Commercial",
+        "thumbLocal": "images/detail/kwt/kwt-01-09.png",
+        "fullSizeLocal": "images/detail/kwt/kwt-01-09.png"
       }
     ]
   }

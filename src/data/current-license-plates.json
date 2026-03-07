@@ -9,7 +9,9 @@
       "previousCodes": "",
       "notes": "Austria in English or Autriche in French",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/40px-Flag_of_Austria.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg",
+      "flagThumbLocal": "images/overview/a.png",
+      "flagLocal": "images/overview/a.png"
     },
     {
       "code": "AFG",
@@ -19,7 +21,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/40px-Flag_of_the_Taliban.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
+      "flagThumbLocal": "images/overview/afg.png",
+      "flagLocal": "images/overview/afg.png"
     },
     {
       "code": "AL",
@@ -29,7 +33,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/40px-Flag_of_Albania.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Albania.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Albania.svg",
+      "flagThumbLocal": "images/overview/al.png",
+      "flagLocal": "images/overview/al.png"
     },
     {
       "code": "AND",
@@ -39,7 +45,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/40px-Flag_of_Andorra.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Andorra.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Andorra.svg",
+      "flagThumbLocal": "images/overview/and.png",
+      "flagLocal": "images/overview/and.png"
     },
     {
       "code": "AM",
@@ -49,7 +57,9 @@
       "previousCodes": "SU",
       "notes": "Formerly part of the Soviet Union. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/40px-Flag_of_Armenia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_Armenia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_Armenia.svg",
+      "flagThumbLocal": "images/overview/am.png",
+      "flagLocal": "images/overview/am.png"
     },
     {
       "code": "AUS",
@@ -59,7 +69,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/40px-Flag_of_Australia_%28converted%29.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
+      "flagThumbLocal": "images/overview/aus.png",
+      "flagLocal": "images/overview/aus.png"
     },
     {
       "code": "AZ",
@@ -69,7 +81,9 @@
       "previousCodes": "SU",
       "notes": "Formerly part of the Soviet Union. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/40px-Flag_of_Azerbaijan.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg",
+      "flagThumbLocal": "images/overview/az.png",
+      "flagLocal": "images/overview/az.png"
     },
     {
       "code": "B",
@@ -79,7 +93,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/40px-Flag_of_Belgium_%28civil%29.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Belgium_%28civil%29.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Belgium_%28civil%29.svg",
+      "flagThumbLocal": "images/overview/b.png",
+      "flagLocal": "images/overview/b.png"
     },
     {
       "code": "BD",
@@ -89,7 +105,9 @@
       "previousCodes": "PAK",
       "notes": "Formerly East Pakistan",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/40px-Flag_of_Bangladesh.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg",
+      "flagThumbLocal": "images/overview/bd.png",
+      "flagLocal": "images/overview/bd.png"
     },
     {
       "code": "BDS",
@@ -99,7 +117,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Barbados.svg/40px-Flag_of_Barbados.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Barbados.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Barbados.svg",
+      "flagThumbLocal": "images/overview/bds.png",
+      "flagLocal": "images/overview/bds.png"
     },
     {
       "code": "BF",
@@ -109,7 +129,9 @@
       "previousCodes": "RHV / HV",
       "notes": "Until August 2003, 1984; (République de) Haute Volta (Upper Volta)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/40px-Flag_of_Burkina_Faso.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Burkina_Faso.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Burkina_Faso.svg",
+      "flagThumbLocal": "images/overview/bf.png",
+      "flagLocal": "images/overview/bf.png"
     },
     {
       "code": "BG",
@@ -119,7 +141,9 @@
       "previousCodes": "BUL",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/40px-Flag_of_Bulgaria.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg",
+      "flagThumbLocal": "images/overview/bg.png",
+      "flagLocal": "images/overview/bg.png"
     },
     {
       "code": "BH",
@@ -129,7 +153,9 @@
       "previousCodes": "",
       "notes": "Formerly British Honduras. Still officially registered as BH as of June 2024. New driving licenses appear to have 'BZ' instead of 'BH' as Belize's code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/40px-Flag_of_Belize.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Flag_of_Belize.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Flag_of_Belize.svg",
+      "flagThumbLocal": "images/overview/bh.png",
+      "flagLocal": "images/overview/bh.png"
     },
     {
       "code": "BIH",
@@ -139,7 +165,9 @@
       "previousCodes": "SHS 1919–29Y 1929–53YU 1953–92",
       "notes": "Bosna i Hercegovina / Босна и Херцеговина (Bosnian).Formerly part of the Kingdom of Serbs, Croats and Slovenes Kraljevina Srba, Hrvata i Slovenaca (Serbo-Croatian), then part of Yugoslavia. Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/40px-Flag_of_Bosnia_and_Herzegovina.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bosnia_and_Herzegovina.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bosnia_and_Herzegovina.svg",
+      "flagThumbLocal": "images/overview/bih.png",
+      "flagLocal": "images/overview/bih.png"
     },
     {
       "code": "BOL",
@@ -149,7 +177,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/40px-Flag_of_Bolivia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Bolivia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Bolivia.svg",
+      "flagThumbLocal": "images/overview/bol.png",
+      "flagLocal": "images/overview/bol.png"
     },
     {
       "code": "BR",
@@ -159,7 +189,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/40px-Flag_of_Brazil.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg",
+      "flagThumbLocal": "images/overview/br.png",
+      "flagLocal": "images/overview/br.png"
     },
     {
       "code": "BRN",
@@ -169,7 +201,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/40px-Flag_of_Bahrain.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Bahrain.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Bahrain.svg",
+      "flagThumbLocal": "images/overview/brn.png",
+      "flagLocal": "images/overview/brn.png"
     },
     {
       "code": "BRU",
@@ -179,7 +213,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/40px-Flag_of_Brunei.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Brunei.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Brunei.svg",
+      "flagThumbLocal": "images/overview/bru.png",
+      "flagLocal": "images/overview/bru.png"
     },
     {
       "code": "BS",
@@ -189,7 +225,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_the_Bahamas.svg/40px-Flag_of_the_Bahamas.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/93/Flag_of_the_Bahamas.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/93/Flag_of_the_Bahamas.svg",
+      "flagThumbLocal": "images/overview/bs.png",
+      "flagLocal": "images/overview/bs.png"
     },
     {
       "code": "BVI",
@@ -199,7 +237,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_the_British_Virgin_Islands.svg/40px-Flag_of_the_British_Virgin_Islands.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_the_British_Virgin_Islands.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_the_British_Virgin_Islands.svg",
+      "flagThumbLocal": "images/overview/bvi.png",
+      "flagLocal": "images/overview/bvi.png"
     },
     {
       "code": "BW",
@@ -209,7 +249,9 @@
       "previousCodes": "BP",
       "notes": "Officially used by Botswana since 2003. Formerly RB (Republic of Botswana) until 2004; Bechuanaland Protectorate before 1966.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Botswana.svg/40px-Flag_of_Botswana.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_Botswana.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_Botswana.svg",
+      "flagThumbLocal": "images/overview/bw.png",
+      "flagLocal": "images/overview/bw.png"
     },
     {
       "code": "BY",
@@ -219,7 +261,9 @@
       "previousCodes": "SU",
       "notes": "Belarus; formerly part of the Soviet Union. The UN was officially notified of the change from SU to BY only in 2004. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/40px-Flag_of_Belarus.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/85/Flag_of_Belarus.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/85/Flag_of_Belarus.svg",
+      "flagThumbLocal": "images/overview/by.png",
+      "flagLocal": "images/overview/by.png"
     },
     {
       "code": "CAM",
@@ -229,7 +273,9 @@
       "previousCodes": "F & WAN",
       "notes": "Formerly a territory of France, plus a strip of territory from eastern Nigeria (WAN). Unofficially using CMR on their plates.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/40px-Flag_of_Cameroon.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Cameroon.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Cameroon.svg",
+      "flagThumbLocal": "images/overview/cam.png",
+      "flagLocal": "images/overview/cam.png"
     },
     {
       "code": "CDN",
@@ -239,7 +285,9 @@
       "previousCodes": "CA",
       "notes": "CDN for \"Canada Dominion\"",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/40px-Flag_of_Canada_%28Pantone%29.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg",
+      "flagThumbLocal": "images/overview/cdn.png",
+      "flagLocal": "images/overview/cdn.png"
     },
     {
       "code": "CGO",
@@ -249,7 +297,9 @@
       "previousCodes": "CB, RCL, ZRE",
       "notes": "French: Congo Belge, République de Congo Léopoldville, Congo (Kinshasa), Zaïre, République Démocratique du Congo (French)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/20px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg",
+      "flagThumbLocal": "images/overview/cgo.png",
+      "flagLocal": "images/overview/cgo.png"
     },
     {
       "code": "CH",
@@ -259,7 +309,9 @@
       "previousCodes": "",
       "notes": "Confoederatio Helvetica (Latin). Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/20px-Flag_of_Switzerland_%28Pantone%29.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/08/Flag_of_Switzerland_%28Pantone%29.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/08/Flag_of_Switzerland_%28Pantone%29.svg",
+      "flagThumbLocal": "images/overview/ch.png",
+      "flagLocal": "images/overview/ch.png"
     },
     {
       "code": "CI",
@@ -269,7 +321,9 @@
       "previousCodes": "F",
       "notes": "Formerly a territory of France. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/40px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg",
+      "flagThumbLocal": "images/overview/ci.png",
+      "flagLocal": "images/overview/ci.png"
     },
     {
       "code": "CL",
@@ -279,7 +333,9 @@
       "previousCodes": "",
       "notes": "Formerly Ceylon. However, \"SL\" is being used on current driver licenses.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/40px-Flag_of_Sri_Lanka.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Sri_Lanka.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Sri_Lanka.svg",
+      "flagThumbLocal": "images/overview/cl.png",
+      "flagLocal": "images/overview/cl.png"
     },
     {
       "code": "CO",
@@ -289,7 +345,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/40px-Flag_of_Colombia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg",
+      "flagThumbLocal": "images/overview/co.png",
+      "flagLocal": "images/overview/co.png"
     },
     {
       "code": "CR",
@@ -299,7 +357,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/40px-Flag_of_Costa_Rica.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Costa_Rica.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Costa_Rica.svg",
+      "flagThumbLocal": "images/overview/cr.png",
+      "flagLocal": "images/overview/cr.png"
     },
     {
       "code": "CU",
@@ -309,7 +369,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/40px-Flag_of_Cuba.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
+      "flagThumbLocal": "images/overview/cu.png",
+      "flagLocal": "images/overview/cu.png"
     },
     {
       "code": "CY",
@@ -319,7 +381,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/40px-Flag_of_Cyprus.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Cyprus.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Cyprus.svg",
+      "flagThumbLocal": "images/overview/cy.png",
+      "flagLocal": "images/overview/cy.png"
     },
     {
       "code": "CZ",
@@ -329,7 +393,9 @@
       "previousCodes": "CS",
       "notes": "Formerly Československo (Czechoslovakia). Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/40px-Flag_of_the_Czech_Republic.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
+      "flagThumbLocal": "images/overview/cz.png",
+      "flagLocal": "images/overview/cz.png"
     },
     {
       "code": "D",
@@ -339,7 +405,9 @@
       "previousCodes": "",
       "notes": "Deutschland (German); also used until 1974 by  East Germany, which then used DDR until German reunification in 1990",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/40px-Flag_of_Germany.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg",
+      "flagThumbLocal": "images/overview/d.png",
+      "flagLocal": "images/overview/d.png"
     },
     {
       "code": "DK",
@@ -349,7 +417,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/20px-Flag_of_Denmark.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg",
+      "flagThumbLocal": "images/overview/dk.png",
+      "flagLocal": "images/overview/dk.png"
     },
     {
       "code": "DOM",
@@ -359,7 +429,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/40px-Flag_of_the_Dominican_Republic.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_the_Dominican_Republic.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_the_Dominican_Republic.svg",
+      "flagThumbLocal": "images/overview/dom.png",
+      "flagLocal": "images/overview/dom.png"
     },
     {
       "code": "DY",
@@ -369,7 +441,9 @@
       "previousCodes": "Part of AOF(Afrique occidentale française) − 1960",
       "notes": "Dahomey (name until 1975). Uses RB unofficially (République du Bénin)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/40px-Flag_of_Benin.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Benin.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Benin.svg",
+      "flagThumbLocal": "images/overview/dy.png",
+      "flagLocal": "images/overview/dy.png"
     },
     {
       "code": "DZ",
@@ -379,7 +453,9 @@
       "previousCodes": "F − 1911",
       "notes": "Djazayer (Algerian Arabic: جزائر); formerly part of France. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/40px-Flag_of_Algeria.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg",
+      "flagThumbLocal": "images/overview/dz.png",
+      "flagLocal": "images/overview/dz.png"
     },
     {
       "code": "E",
@@ -389,7 +465,9 @@
       "previousCodes": "",
       "notes": "España (Spanish)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/40px-Flag_of_Spain.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg",
+      "flagThumbLocal": "images/overview/e.png",
+      "flagLocal": "images/overview/e.png"
     },
     {
       "code": "EAK",
@@ -399,7 +477,9 @@
       "previousCodes": "",
       "notes": "East Africa Kenya",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/40px-Flag_of_Kenya.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Kenya.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Kenya.svg",
+      "flagThumbLocal": "images/overview/eak.png",
+      "flagLocal": "images/overview/eak.png"
     },
     {
       "code": "EAT",
@@ -409,7 +489,9 @@
       "previousCodes": "EAT & EAZ",
       "notes": "East Africa Tanzania; formerly East Africa Tanganyika and East Africa Zanzibar",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/40px-Flag_of_Tanzania.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tanzania.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tanzania.svg",
+      "flagThumbLocal": "images/overview/eat.png",
+      "flagLocal": "images/overview/eat.png"
     },
     {
       "code": "EAU",
@@ -419,7 +501,9 @@
       "previousCodes": "",
       "notes": "East Africa Uganda",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/40px-Flag_of_Uganda.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Uganda.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Uganda.svg",
+      "flagThumbLocal": "images/overview/eau.png",
+      "flagLocal": "images/overview/eau.png"
     },
     {
       "code": "EAZ",
@@ -429,7 +513,9 @@
       "previousCodes": "",
       "notes": "East Africa Zanzibar",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Zanzibar.svg/40px-Flag_of_Zanzibar.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Zanzibar.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Zanzibar.svg",
+      "flagThumbLocal": "images/overview/eaz.png",
+      "flagLocal": "images/overview/eaz.png"
     },
     {
       "code": "EC",
@@ -439,7 +525,9 @@
       "previousCodes": "EQ",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/40px-Flag_of_Ecuador.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Flag_of_Ecuador.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Flag_of_Ecuador.svg",
+      "flagThumbLocal": "images/overview/ec.png",
+      "flagLocal": "images/overview/ec.png"
     },
     {
       "code": "EG",
@@ -449,7 +537,9 @@
       "previousCodes": "ET 1927-2024",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/40px-Flag_of_Egypt.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg",
+      "flagThumbLocal": "images/overview/eg.png",
+      "flagLocal": "images/overview/eg.png"
     },
     {
       "code": "ER",
@@ -459,7 +549,9 @@
       "previousCodes": "AOI",
       "notes": "Africa Orientale Italiana (Italian). Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Eritrea.svg/40px-Flag_of_Eritrea.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/29/Flag_of_Eritrea.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/29/Flag_of_Eritrea.svg",
+      "flagThumbLocal": "images/overview/er.png",
+      "flagLocal": "images/overview/er.png"
     },
     {
       "code": "ES",
@@ -469,7 +561,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/40px-Flag_of_El_Salvador.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/34/Flag_of_El_Salvador.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/34/Flag_of_El_Salvador.svg",
+      "flagThumbLocal": "images/overview/es.png",
+      "flagLocal": "images/overview/es.png"
     },
     {
       "code": "EST",
@@ -479,7 +573,9 @@
       "previousCodes": "EW 1919–1940 & 1991–1993SU 1940–1991",
       "notes": "Eesti Vabariik (Estonian; old style Eesti Wabariik). Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/40px-Flag_of_Estonia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Estonia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Estonia.svg",
+      "flagThumbLocal": "images/overview/est.png",
+      "flagLocal": "images/overview/est.png"
     },
     {
       "code": "ETH",
@@ -489,7 +585,9 @@
       "previousCodes": "AOI − 1941",
       "notes": "Africa Orientale Italiana (Italian). Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethiopia.svg/40px-Flag_of_Ethiopia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/71/Flag_of_Ethiopia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/71/Flag_of_Ethiopia.svg",
+      "flagThumbLocal": "images/overview/eth.png",
+      "flagLocal": "images/overview/eth.png"
     },
     {
       "code": "F",
@@ -499,7 +597,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/40px-Flag_of_France.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg",
+      "flagThumbLocal": "images/overview/f.png",
+      "flagLocal": "images/overview/f.png"
     },
     {
       "code": "FIN",
@@ -509,7 +609,9 @@
       "previousCodes": "SF",
       "notes": "Suomi / Finland (Finnish/Swedish). Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/40px-Flag_of_Finland.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg",
+      "flagThumbLocal": "images/overview/fin.png",
+      "flagLocal": "images/overview/fin.png"
     },
     {
       "code": "FJI",
@@ -519,7 +621,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/40px-Flag_of_Fiji.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Fiji.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Fiji.svg",
+      "flagThumbLocal": "images/overview/fji.png",
+      "flagLocal": "images/overview/fji.png"
     },
     {
       "code": "FL",
@@ -529,7 +633,9 @@
       "previousCodes": "",
       "notes": "Fürstentum Liechtenstein (German: 'Principality of Liechtenstein')",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Liechtenstein.svg/40px-Flag_of_Liechtenstein.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/47/Flag_of_Liechtenstein.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/47/Flag_of_Liechtenstein.svg",
+      "flagThumbLocal": "images/overview/fl.png",
+      "flagLocal": "images/overview/fl.png"
     },
     {
       "code": "FO",
@@ -539,7 +645,9 @@
       "previousCodes": "FR",
       "notes": "Føroyar. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flag_of_the_Faroe_Islands.svg/40px-Flag_of_the_Faroe_Islands.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flag_of_the_Faroe_Islands.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flag_of_the_Faroe_Islands.svg",
+      "flagThumbLocal": "images/overview/fo.png",
+      "flagLocal": "images/overview/fo.png"
     },
     {
       "code": "G",
@@ -549,7 +657,9 @@
       "previousCodes": "ALEF − 1960",
       "notes": "Afrique Équatoriale Française. Unofficially using RG on their license plates.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/20px-Flag_of_Gabon.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg",
+      "flagThumbLocal": "images/overview/g.png",
+      "flagLocal": "images/overview/g.png"
     },
     {
       "code": "GBA",
@@ -559,7 +669,9 @@
       "previousCodes": "GB 1923-1924",
       "notes": "(United Kingdom of) Great Britain & Northern Ireland – Alderney",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Alderney.svg/40px-Flag_of_Alderney.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Alderney.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Alderney.svg",
+      "flagThumbLocal": "images/overview/gba.png",
+      "flagLocal": "images/overview/gba.png"
     },
     {
       "code": "GBG",
@@ -569,7 +681,9 @@
       "previousCodes": "GB 1914-1924",
       "notes": "(United Kingdom of) Great Britain & Northern Ireland – Guernsey",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Guernsey.svg/40px-Flag_of_Guernsey.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_Guernsey.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_Guernsey.svg",
+      "flagThumbLocal": "images/overview/gbg.png",
+      "flagLocal": "images/overview/gbg.png"
     },
     {
       "code": "GBJ",
@@ -579,7 +693,9 @@
       "previousCodes": "GB 1914-1924",
       "notes": "(United Kingdom of) Great Britain & Northern Ireland – Jersey",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Flag_of_Jersey.svg/40px-Flag_of_Jersey.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Flag_of_Jersey.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Flag_of_Jersey.svg",
+      "flagThumbLocal": "images/overview/gbj.png",
+      "flagLocal": "images/overview/gbj.png"
     },
     {
       "code": "GBM",
@@ -589,7 +705,9 @@
       "previousCodes": "",
       "notes": "(United Kingdom of) Great Britain & Northern Ireland – Isle of Man",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_the_Isle_of_Man.svg/40px-Flag_of_the_Isle_of_Man.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_the_Isle_of_Man.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_the_Isle_of_Man.svg",
+      "flagThumbLocal": "images/overview/gbm.png",
+      "flagLocal": "images/overview/gbm.png"
     },
     {
       "code": "GBZ",
@@ -599,7 +717,9 @@
       "previousCodes": "GB 1911-1924",
       "notes": "(United Kingdom of) Great Britain & Northern Ireland – Gibraltar (Z was assigned because G was already used for Guernsey)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Flag_of_Gibraltar.svg/40px-Flag_of_Gibraltar.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/02/Flag_of_Gibraltar.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/02/Flag_of_Gibraltar.svg",
+      "flagThumbLocal": "images/overview/gbz.png",
+      "flagLocal": "images/overview/gbz.png"
     },
     {
       "code": "GCA",
@@ -609,7 +729,9 @@
       "previousCodes": "G",
       "notes": "Guatemala, Central America",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/40px-Flag_of_Guatemala.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Flag_of_Guatemala.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Flag_of_Guatemala.svg",
+      "flagThumbLocal": "images/overview/gca.png",
+      "flagLocal": "images/overview/gca.png"
     },
     {
       "code": "GE",
@@ -619,7 +741,9 @@
       "previousCodes": "SU",
       "notes": "Formerly part of the Soviet Union. Older licence plates use \"GEO\" instead of \"GE\". Also used unofficially and illegally by Equatorial-Guinea (Spanish: Guinea Ecuatorial). Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/40px-Flag_of_Georgia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Georgia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Georgia.svg",
+      "flagThumbLocal": "images/overview/ge.png",
+      "flagLocal": "images/overview/ge.png"
     },
     {
       "code": "GH",
@@ -629,7 +753,9 @@
       "previousCodes": "WAC − 1957",
       "notes": "West Africa Gold Coast − 1957. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/40px-Flag_of_Ghana.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Ghana.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Ghana.svg",
+      "flagThumbLocal": "images/overview/gh.png",
+      "flagLocal": "images/overview/gh.png"
     },
     {
       "code": "GR",
@@ -639,7 +765,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/40px-Flag_of_Greece.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg",
+      "flagThumbLocal": "images/overview/gr.png",
+      "flagLocal": "images/overview/gr.png"
     },
     {
       "code": "GUY",
@@ -649,7 +777,9 @@
       "previousCodes": "BRG",
       "notes": "Formerly British Guiana − 1966. Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Guyana.svg/40px-Flag_of_Guyana.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_Guyana.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_Guyana.svg",
+      "flagThumbLocal": "images/overview/guy.png",
+      "flagLocal": "images/overview/guy.png"
     },
     {
       "code": "H",
@@ -659,7 +789,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/40px-Flag_of_Hungary.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Hungary.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Hungary.svg",
+      "flagThumbLocal": "images/overview/h.png",
+      "flagLocal": "images/overview/h.png"
     },
     {
       "code": "HK",
@@ -669,7 +801,9 @@
       "previousCodes": "",
       "notes": "Hong Kong remains in the United Nations list of country road codes. Reattached to the People's Republic of China in 1997 with a strong autonomy.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/40px-Flag_of_Hong_Kong.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Hong_Kong.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Hong_Kong.svg",
+      "flagThumbLocal": "images/overview/hk.png",
+      "flagLocal": "images/overview/hk.png"
     },
     {
       "code": "HKJ",
@@ -679,7 +813,9 @@
       "previousCodes": "JOR",
       "notes": "Hashemite Kingdom of Jordan",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/40px-Flag_of_Jordan.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Jordan.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Jordan.svg",
+      "flagThumbLocal": "images/overview/hkj.png",
+      "flagLocal": "images/overview/hkj.png"
     },
     {
       "code": "HN",
@@ -689,7 +825,9 @@
       "previousCodes": "",
       "notes": "Unofficial: no other code found for Honduras. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Honduras_%281949%E2%80%932022%2C_2026%E2%80%93present%29.svg/40px-Flag_of_Honduras_%281949%E2%80%932022%2C_2026%E2%80%93present%29.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Honduras_%281949%E2%80%932022%2C_2026%E2%80%93present%29.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Honduras_%281949%E2%80%932022%2C_2026%E2%80%93present%29.svg",
+      "flagThumbLocal": "images/overview/hn.png",
+      "flagLocal": "images/overview/hn.png"
     },
     {
       "code": "HR",
@@ -699,7 +837,9 @@
       "previousCodes": "SHS 1919–29 Y 1929–53YU 1953–92",
       "notes": "Hrvatska (Croatian). Formerly part of Yugoslavia. Immediately after Croatia's declaration of independence in 1991, it was common to see unofficial oval stickers with the letters \"CRO\". Despite the initial anticipation that Croatia's international vehicle registration code would be \"CRO\", Croatia opted for \"HR\" (Hrvatska) instead.\nSHS was for the Kingdom of the Serbs, Croats and Slovenes (Kraljevina Srba, Hrvata i Slovenaca). Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/40px-Flag_of_Croatia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
+      "flagThumbLocal": "images/overview/hr.png",
+      "flagLocal": "images/overview/hr.png"
     },
     {
       "code": "I",
@@ -709,7 +849,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/40px-Flag_of_Italy.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg",
+      "flagThumbLocal": "images/overview/i.png",
+      "flagLocal": "images/overview/i.png"
     },
     {
       "code": "IL",
@@ -719,7 +861,9 @@
       "previousCodes": "",
       "notes": "\"Israel\" is also written on the plate in Hebrew (ישראל) and Arabic (إسرائيل). Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/40px-Flag_of_Israel.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Israel.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Israel.svg",
+      "flagThumbLocal": "images/overview/il.png",
+      "flagLocal": "images/overview/il.png"
     },
     {
       "code": "IND",
@@ -729,7 +873,9 @@
       "previousCodes": "BI",
       "notes": "Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/40px-Flag_of_India.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
+      "flagThumbLocal": "images/overview/ind.png",
+      "flagLocal": "images/overview/ind.png"
     },
     {
       "code": "IR",
@@ -739,7 +885,9 @@
       "previousCodes": "PR",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/40px-Flag_of_Iran.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
+      "flagThumbLocal": "images/overview/ir.png",
+      "flagLocal": "images/overview/ir.png"
     },
     {
       "code": "IRL",
@@ -749,7 +897,9 @@
       "previousCodes": "GB − 1910–24SE − 1924–38EIR − 1938–62EIR/IRL − 1962–92",
       "notes": "Formerly a part of the United Kingdom, Saorstát Éireann, Éire. Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/40px-Flag_of_Ireland.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Ireland.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Ireland.svg",
+      "flagThumbLocal": "images/overview/irl.png",
+      "flagLocal": "images/overview/irl.png"
     },
     {
       "code": "IRQ",
@@ -759,7 +909,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/40px-Flag_of_Iraq.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Iraq.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Iraq.svg",
+      "flagThumbLocal": "images/overview/irq.png",
+      "flagLocal": "images/overview/irq.png"
     },
     {
       "code": "IRQ KR",
@@ -769,7 +921,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Flag_of_Kurdistan.svg/40px-Flag_of_Kurdistan.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/35/Flag_of_Kurdistan.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/35/Flag_of_Kurdistan.svg",
+      "flagThumbLocal": "images/overview/irq-kr.png",
+      "flagLocal": "images/overview/irq-kr.png"
     },
     {
       "code": "IS",
@@ -779,7 +933,9 @@
       "previousCodes": "",
       "notes": "Ísland (Icelandic). Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/40px-Flag_of_Iceland.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg",
+      "flagThumbLocal": "images/overview/is.png",
+      "flagLocal": "images/overview/is.png"
     },
     {
       "code": "J",
@@ -789,7 +945,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/40px-Flag_of_Japan.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg",
+      "flagThumbLocal": "images/overview/j.png",
+      "flagLocal": "images/overview/j.png"
     },
     {
       "code": "JA",
@@ -799,7 +957,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/40px-Flag_of_Jamaica.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Jamaica.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Jamaica.svg",
+      "flagThumbLocal": "images/overview/ja.png",
+      "flagLocal": "images/overview/ja.png"
     },
     {
       "code": "KG",
@@ -809,7 +969,9 @@
       "previousCodes": "SU − 1991",
       "notes": "Formerly part of the Soviet Union. The Kyrgyz government notified the change from \"KS\" to \"KG\", which featured on the new car registration plates from March 2016, in August that year to the UN Secretary-General. Additionally, most vehicles use \"KGZ\" oval stickers instead of \"KS\". Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/40px-Flag_of_Kyrgyzstan.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Flag_of_Kyrgyzstan.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Flag_of_Kyrgyzstan.svg",
+      "flagThumbLocal": "images/overview/kg.png",
+      "flagLocal": "images/overview/kg.png"
     },
     {
       "code": "KH",
@@ -819,7 +981,9 @@
       "previousCodes": "K",
       "notes": "Known as Kampuchea 1976–89. Formerly a territory of France. KH currently being used (Khmer) on driving licenses, which coincides with ISO 3166-1 alpha-2 code. Change ratified from K (previously KHM) to KH in 2009 to the United Nations.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/40px-Flag_of_Cambodia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_Cambodia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_Cambodia.svg",
+      "flagThumbLocal": "images/overview/kh.png",
+      "flagLocal": "images/overview/kh.png"
     },
     {
       "code": "KSA",
@@ -829,7 +993,9 @@
       "previousCodes": "SA",
       "notes": "Kingdom of Saudi Arabia",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/40px-Flag_of_Saudi_Arabia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg",
+      "flagThumbLocal": "images/overview/ksa.png",
+      "flagLocal": "images/overview/ksa.png"
     },
     {
       "code": "KWT",
@@ -839,7 +1005,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/40px-Flag_of_Kuwait.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Kuwait.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Kuwait.svg",
+      "flagThumbLocal": "images/overview/kwt.png",
+      "flagLocal": "images/overview/kwt.png"
     },
     {
       "code": "KZ",
@@ -849,7 +1017,9 @@
       "previousCodes": "SU − 1991",
       "notes": "Formerly part of the Soviet Union. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/40px-Flag_of_Kazakhstan.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
+      "flagThumbLocal": "images/overview/kz.png",
+      "flagLocal": "images/overview/kz.png"
     },
     {
       "code": "L",
@@ -859,7 +1029,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/40px-Flag_of_Luxembourg.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/da/Flag_of_Luxembourg.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/da/Flag_of_Luxembourg.svg",
+      "flagThumbLocal": "images/overview/l.png",
+      "flagLocal": "images/overview/l.png"
     },
     {
       "code": "LAO",
@@ -869,7 +1041,9 @@
       "previousCodes": "F – 1949",
       "notes": "Formerly a territory of France (French Indochina). Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/40px-Flag_of_Laos.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/56/Flag_of_Laos.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/56/Flag_of_Laos.svg",
+      "flagThumbLocal": "images/overview/lao.png",
+      "flagLocal": "images/overview/lao.png"
     },
     {
       "code": "LAR",
@@ -879,7 +1053,9 @@
       "previousCodes": "I  − 1949, LT",
       "notes": "Libyan Arab Republic, unused, unofficial LY used instead.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Libya.svg/40px-Flag_of_Libya.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Libya.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Libya.svg",
+      "flagThumbLocal": "images/overview/lar.png",
+      "flagLocal": "images/overview/lar.png"
     },
     {
       "code": "LB",
@@ -889,7 +1065,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Liberia_23px.svg/40px-Flag_of_Liberia_23px.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Liberia_23px.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Liberia_23px.svg",
+      "flagThumbLocal": "images/overview/lb.png",
+      "flagLocal": "images/overview/lb.png"
     },
     {
       "code": "LS",
@@ -899,7 +1077,9 @@
       "previousCodes": "BL",
       "notes": "Basutoland − 1966. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Lesotho.svg/40px-Flag_of_Lesotho.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Flag_of_Lesotho.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Flag_of_Lesotho.svg",
+      "flagThumbLocal": "images/overview/ls.png",
+      "flagLocal": "images/overview/ls.png"
     },
     {
       "code": "LT",
@@ -909,7 +1089,9 @@
       "previousCodes": "SU 1940–1991",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/40px-Flag_of_Lithuania.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Lithuania.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Lithuania.svg",
+      "flagThumbLocal": "images/overview/lt.png",
+      "flagLocal": "images/overview/lt.png"
     },
     {
       "code": "LV",
@@ -919,7 +1101,9 @@
       "previousCodes": "LR 1927–1940SU 1940–1991",
       "notes": "Latvijas Republika (Latvian). Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/40px-Flag_of_Latvia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Latvia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Latvia.svg",
+      "flagThumbLocal": "images/overview/lv.png",
+      "flagLocal": "images/overview/lv.png"
     },
     {
       "code": "M",
@@ -929,7 +1113,9 @@
       "previousCodes": "GBY 1924–66",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/40px-Flag_of_Malta.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Malta.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Malta.svg",
+      "flagThumbLocal": "images/overview/m.png",
+      "flagLocal": "images/overview/m.png"
     },
     {
       "code": "MA",
@@ -939,7 +1125,9 @@
       "previousCodes": "",
       "notes": "Maroc (French). Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/40px-Flag_of_Morocco.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg",
+      "flagThumbLocal": "images/overview/ma.png",
+      "flagLocal": "images/overview/ma.png"
     },
     {
       "code": "MAL",
@@ -949,7 +1137,9 @@
       "previousCodes": "PRK – 1957FM 1954–57PTM 1957–67",
       "notes": "Formerly Perak, then Federated Malay States, then Persekutuan Tanah Melayu (Malay)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Malaysia_23px.svg/40px-Flag_of_Malaysia_23px.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Malaysia_23px.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Malaysia_23px.svg",
+      "flagThumbLocal": "images/overview/mal.png",
+      "flagLocal": "images/overview/mal.png"
     },
     {
       "code": "MC",
@@ -959,7 +1149,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/20px-Flag_of_Monaco.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Flag_of_Monaco.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Flag_of_Monaco.svg",
+      "flagThumbLocal": "images/overview/mc.png",
+      "flagLocal": "images/overview/mc.png"
     },
     {
       "code": "MD",
@@ -969,7 +1161,9 @@
       "previousCodes": "SU − 1991",
       "notes": "Formerly part of the Soviet Union. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/40px-Flag_of_Moldova.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Moldova.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Moldova.svg",
+      "flagThumbLocal": "images/overview/md.png",
+      "flagLocal": "images/overview/md.png"
     },
     {
       "code": "MEX",
@@ -979,7 +1173,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/40px-Flag_of_Mexico.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg",
+      "flagThumbLocal": "images/overview/mex.png",
+      "flagLocal": "images/overview/mex.png"
     },
     {
       "code": "MNE",
@@ -989,7 +1185,9 @@
       "previousCodes": "MN 1913–1919SHS 1919–29Y 1929–53YU 1953–2003SCG 2003–2006",
       "notes": "Independent nation until 1918. After that, part of the Kingdom of Serbs, Croats and Slovenes (Kraljevina Srba, Hrvata i Slovenaca – Serbo-Croatian), then part of Yugoslavia and then Serbia and Montenegro (Srbija i Crna Gora – Serbian). Independence restored in 2006. Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/40px-Flag_of_Montenegro.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Montenegro.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Montenegro.svg",
+      "flagThumbLocal": "images/overview/mne.png",
+      "flagLocal": "images/overview/mne.png"
     },
     {
       "code": "MGL",
@@ -999,7 +1197,9 @@
       "previousCodes": "",
       "notes": "MNG displayed on current plates. Nevertheless, the new format includes MGL once again. Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/40px-Flag_of_Mongolia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Mongolia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Mongolia.svg",
+      "flagThumbLocal": "images/overview/mgl.png",
+      "flagLocal": "images/overview/mgl.png"
     },
     {
       "code": "MOC",
@@ -1009,7 +1209,9 @@
       "previousCodes": "MOC: 1932–56P: 1957–75",
       "notes": "Formerly part of Portugal. Moçambique (Portuguese). Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/40px-Flag_of_Mozambique.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Mozambique.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Mozambique.svg",
+      "flagThumbLocal": "images/overview/moc.png",
+      "flagLocal": "images/overview/moc.png"
     },
     {
       "code": "MS",
@@ -1019,7 +1221,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/40px-Flag_of_Mauritius.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Mauritius.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Mauritius.svg",
+      "flagThumbLocal": "images/overview/ms.png",
+      "flagLocal": "images/overview/ms.png"
     },
     {
       "code": "MV",
@@ -1029,7 +1233,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/40px-Flag_of_Maldives.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Maldives.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Maldives.svg",
+      "flagThumbLocal": "images/overview/mv.png",
+      "flagLocal": "images/overview/mv.png"
     },
     {
       "code": "MW",
@@ -1039,7 +1245,9 @@
       "previousCodes": "EA 1932–38NP – 1938–70RNY option 1960–65",
       "notes": "Formerly the Nyasaland Protectorate. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Malawi.svg/40px-Flag_of_Malawi.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Flag_of_Malawi.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Flag_of_Malawi.svg",
+      "flagThumbLocal": "images/overview/mw.png",
+      "flagLocal": "images/overview/mw.png"
     },
     {
       "code": "MYA",
@@ -1049,7 +1257,9 @@
       "previousCodes": "BA, BUR",
       "notes": "Previously known as Burma. Coincides with the former ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/40px-Flag_of_Myanmar.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Flag_of_Myanmar.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Flag_of_Myanmar.svg",
+      "flagThumbLocal": "images/overview/mya.png",
+      "flagLocal": "images/overview/mya.png"
     },
     {
       "code": "N",
@@ -1059,7 +1269,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/40px-Flag_of_Norway.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
+      "flagThumbLocal": "images/overview/n.png",
+      "flagLocal": "images/overview/n.png"
     },
     {
       "code": "NAM",
@@ -1069,7 +1281,9 @@
       "previousCodes": "SWA",
       "notes": "Formerly South West Africa. Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Namibia.svg/40px-Flag_of_Namibia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Namibia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Namibia.svg",
+      "flagThumbLocal": "images/overview/nam.png",
+      "flagLocal": "images/overview/nam.png"
     },
     {
       "code": "NAU",
@@ -1079,7 +1293,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Flag_of_Nauru.svg/40px-Flag_of_Nauru.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_Nauru.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_Nauru.svg",
+      "flagThumbLocal": "images/overview/nau.png",
+      "flagLocal": "images/overview/nau.png"
     },
     {
       "code": "NEP",
@@ -1089,7 +1305,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/20px-Flag_of_Nepal.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg",
+      "flagThumbLocal": "images/overview/nep.png",
+      "flagLocal": "images/overview/nep.png"
     },
     {
       "code": "NIC",
@@ -1099,7 +1317,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/40px-Flag_of_Nicaragua.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Nicaragua.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Nicaragua.svg",
+      "flagThumbLocal": "images/overview/nic.png",
+      "flagLocal": "images/overview/nic.png"
     },
     {
       "code": "NL",
@@ -1109,7 +1329,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/40px-Flag_of_the_Netherlands.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
+      "flagThumbLocal": "images/overview/nl.png",
+      "flagLocal": "images/overview/nl.png"
     },
     {
       "code": "NMK",
@@ -1119,7 +1341,9 @@
       "previousCodes": "YU − 1992MK 1992–2019",
       "notes": "Formerly part of Yugoslavia. Known as Republic of Macedonia until 2019. Mix of English North and Macedonian Makedonija.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/40px-Flag_of_North_Macedonia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_North_Macedonia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_North_Macedonia.svg",
+      "flagThumbLocal": "images/overview/nmk.png",
+      "flagLocal": "images/overview/nmk.png"
     },
     {
       "code": "NZ",
@@ -1129,7 +1353,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/40px-Flag_of_New_Zealand.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
+      "flagThumbLocal": "images/overview/nz.png",
+      "flagLocal": "images/overview/nz.png"
     },
     {
       "code": "OM",
@@ -1139,7 +1365,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/40px-Flag_of_Oman.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Oman.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Oman.svg",
+      "flagThumbLocal": "images/overview/om.png",
+      "flagLocal": "images/overview/om.png"
     },
     {
       "code": "P",
@@ -1149,7 +1377,9 @@
       "previousCodes": "",
       "notes": "Unofficially used for Palestine in the West Bank and Gaza Strip.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/40px-Flag_of_Portugal.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg",
+      "flagThumbLocal": "images/overview/p.png",
+      "flagLocal": "images/overview/p.png"
     },
     {
       "code": "PA",
@@ -1159,7 +1389,9 @@
       "previousCodes": "PY 1924–1952",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/40px-Flag_of_Panama.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Flag_of_Panama.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Flag_of_Panama.svg",
+      "flagThumbLocal": "images/overview/pa.png",
+      "flagLocal": "images/overview/pa.png"
     },
     {
       "code": "PE",
@@ -1169,7 +1401,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/40px-Flag_of_Peru.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Peru.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Peru.svg",
+      "flagThumbLocal": "images/overview/pe.png",
+      "flagLocal": "images/overview/pe.png"
     },
     {
       "code": "PK",
@@ -1179,7 +1413,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/40px-Flag_of_Pakistan.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg",
+      "flagThumbLocal": "images/overview/pk.png",
+      "flagLocal": "images/overview/pk.png"
     },
     {
       "code": "PL",
@@ -1189,7 +1425,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/40px-Flag_of_Poland.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg",
+      "flagThumbLocal": "images/overview/pl.png",
+      "flagLocal": "images/overview/pl.png"
     },
     {
       "code": "PNG",
@@ -1199,7 +1437,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/20px-Flag_of_Papua_New_Guinea.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Flag_of_Papua_New_Guinea.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Flag_of_Papua_New_Guinea.svg",
+      "flagThumbLocal": "images/overview/png.png",
+      "flagLocal": "images/overview/png.png"
     },
     {
       "code": "PY",
@@ -1209,7 +1449,9 @@
       "previousCodes": "PA 1924–1952",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/40px-Flag_of_Paraguay.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Paraguay.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Paraguay.svg",
+      "flagThumbLocal": "images/overview/py.png",
+      "flagLocal": "images/overview/py.png"
     },
     {
       "code": "Q",
@@ -1219,7 +1461,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/40px-Flag_of_Qatar.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg",
+      "flagThumbLocal": "images/overview/q.png",
+      "flagLocal": "images/overview/q.png"
     },
     {
       "code": "RA",
@@ -1229,7 +1473,9 @@
       "previousCodes": "",
       "notes": "República Argentina (Spanish)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/40px-Flag_of_Argentina.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
+      "flagThumbLocal": "images/overview/ra.png",
+      "flagLocal": "images/overview/ra.png"
     },
     {
       "code": "RC",
@@ -1239,7 +1485,9 @@
       "previousCodes": "",
       "notes": "Republic of China. Unofficially also used by car license plates in the Republic of Congo \"République du Congo\".",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/40px-Flag_of_the_Republic_of_China.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/72/Flag_of_the_Republic_of_China.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/72/Flag_of_the_Republic_of_China.svg",
+      "flagThumbLocal": "images/overview/rc.png",
+      "flagLocal": "images/overview/rc.png"
     },
     {
       "code": "RCA",
@@ -1249,7 +1497,9 @@
       "previousCodes": "",
       "notes": "République Centrafricaine (French)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Central_African_Republic.svg/40px-Flag_of_the_Central_African_Republic.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Central_African_Republic.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Central_African_Republic.svg",
+      "flagThumbLocal": "images/overview/rca.png",
+      "flagLocal": "images/overview/rca.png"
     },
     {
       "code": "RCB",
@@ -1259,7 +1509,9 @@
       "previousCodes": "",
       "notes": "République du Congo Brazzaville (French). Unofficially using RC on current plates.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_the_Republic_of_the_Congo.svg/40px-Flag_of_the_Republic_of_the_Congo.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_the_Republic_of_the_Congo.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_the_Republic_of_the_Congo.svg",
+      "flagThumbLocal": "images/overview/rcb.png",
+      "flagLocal": "images/overview/rcb.png"
     },
     {
       "code": "RCH",
@@ -1269,7 +1521,9 @@
       "previousCodes": "",
       "notes": "República de Chile (Spanish)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/40px-Flag_of_Chile.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg",
+      "flagThumbLocal": "images/overview/rch.png",
+      "flagLocal": "images/overview/rch.png"
     },
     {
       "code": "RG",
@@ -1279,7 +1533,9 @@
       "previousCodes": "",
       "notes": "République de Guinée (French). Also used unofficially by Gabon.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Guinea.svg/40px-Flag_of_Guinea.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Flag_of_Guinea.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Flag_of_Guinea.svg",
+      "flagThumbLocal": "images/overview/rg.png",
+      "flagLocal": "images/overview/rg.png"
     },
     {
       "code": "RH",
@@ -1289,7 +1545,9 @@
       "previousCodes": "",
       "notes": "République d'Haïti (French)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/40px-Flag_of_Haiti.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/56/Flag_of_Haiti.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/56/Flag_of_Haiti.svg",
+      "flagThumbLocal": "images/overview/rh.png",
+      "flagLocal": "images/overview/rh.png"
     },
     {
       "code": "RI",
@@ -1299,7 +1557,9 @@
       "previousCodes": "",
       "notes": "Republik Indonesia (Indonesian)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/40px-Flag_of_Indonesia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg",
+      "flagThumbLocal": "images/overview/ri.png",
+      "flagLocal": "images/overview/ri.png"
     },
     {
       "code": "RIM",
@@ -1309,7 +1569,9 @@
       "previousCodes": "",
       "notes": "République islamique de Mauritanie (French)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Mauritania.svg/40px-Flag_of_Mauritania.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/43/Flag_of_Mauritania.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/43/Flag_of_Mauritania.svg",
+      "flagThumbLocal": "images/overview/rim.png",
+      "flagLocal": "images/overview/rim.png"
     },
     {
       "code": "RKS",
@@ -1319,7 +1581,9 @@
       "previousCodes": "SHS 1919–29Y 1929–53YU 1953–2003SCG 2003–2006SRB 2006–2010",
       "notes": "Republic of Kosovo",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Kosovo.svg/20px-Flag_of_Kosovo.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Flag_of_Kosovo.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Flag_of_Kosovo.svg",
+      "flagThumbLocal": "images/overview/rks.png",
+      "flagLocal": "images/overview/rks.png"
     },
     {
       "code": "RL",
@@ -1329,7 +1593,9 @@
       "previousCodes": "",
       "notes": "République Libanaise (French)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/40px-Flag_of_Lebanon.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/59/Flag_of_Lebanon.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/59/Flag_of_Lebanon.svg",
+      "flagThumbLocal": "images/overview/rl.png",
+      "flagLocal": "images/overview/rl.png"
     },
     {
       "code": "RM",
@@ -1339,7 +1605,9 @@
       "previousCodes": "",
       "notes": "République de Madagascar (French)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Madagascar.svg/40px-Flag_of_Madagascar.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Madagascar.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Madagascar.svg",
+      "flagThumbLocal": "images/overview/rm.png",
+      "flagLocal": "images/overview/rm.png"
     },
     {
       "code": "RMM",
@@ -1349,7 +1617,9 @@
       "previousCodes": "AOF − 1960",
       "notes": "République du Mali (French). Formerly part of French West Africa (Afrique Occidentale Française)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/40px-Flag_of_Mali.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Mali.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Mali.svg",
+      "flagThumbLocal": "images/overview/rmm.png",
+      "flagLocal": "images/overview/rmm.png"
     },
     {
       "code": "RN",
@@ -1359,7 +1629,9 @@
       "previousCodes": "AOF − 1960; 1960-1977 - NIG (?)",
       "notes": "République du Niger (French). Formerly part of French West Africa (Afrique Occidentale Française). Still listed as NIG under the UN list.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/20px-Flag_of_Niger.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Flag_of_Niger.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Flag_of_Niger.svg",
+      "flagThumbLocal": "images/overview/rn.png",
+      "flagLocal": "images/overview/rn.png"
     },
     {
       "code": "RO",
@@ -1369,7 +1641,9 @@
       "previousCodes": "R - 1981",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/40px-Flag_of_Romania.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg",
+      "flagThumbLocal": "images/overview/ro.png",
+      "flagLocal": "images/overview/ro.png"
     },
     {
       "code": "ROK",
@@ -1379,7 +1653,9 @@
       "previousCodes": "",
       "notes": "Republic of Korea. Unofficially using KOR on their plates.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/40px-Flag_of_South_Korea.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
+      "flagThumbLocal": "images/overview/rok.png",
+      "flagLocal": "images/overview/rok.png"
     },
     {
       "code": "ROU",
@@ -1389,7 +1665,9 @@
       "previousCodes": "U 1926-1981",
       "notes": "Stands for República Oriental del Uruguay.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/40px-Flag_of_Uruguay.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg",
+      "flagThumbLocal": "images/overview/rou.png",
+      "flagLocal": "images/overview/rou.png"
     },
     {
       "code": "RP",
@@ -1399,7 +1677,9 @@
       "previousCodes": "",
       "notes": "Republika ng Pilipinas (Republic of the Philippines)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/40px-Flag_of_the_Philippines.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg",
+      "flagThumbLocal": "images/overview/rp.png",
+      "flagLocal": "images/overview/rp.png"
     },
     {
       "code": "RSM",
@@ -1409,7 +1689,9 @@
       "previousCodes": "",
       "notes": "Repubblica di San Marino (Italian)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_San_Marino.svg/20px-Flag_of_San_Marino.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_San_Marino.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_San_Marino.svg",
+      "flagThumbLocal": "images/overview/rsm.png",
+      "flagLocal": "images/overview/rsm.png"
     },
     {
       "code": "RU",
@@ -1419,7 +1701,9 @@
       "previousCodes": "",
       "notes": "Belgian territory of Ruanda-Urundi. Unofficially using BU on their plates.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Burundi.svg/40px-Flag_of_Burundi.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/50/Flag_of_Burundi.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/50/Flag_of_Burundi.svg",
+      "flagThumbLocal": "images/overview/ru.png",
+      "flagLocal": "images/overview/ru.png"
     },
     {
       "code": "RUS",
@@ -1429,7 +1713,9 @@
       "previousCodes": "",
       "notes": "Formerly part of the Soviet Union. Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/40px-Flag_of_Russia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
+      "flagThumbLocal": "images/overview/rus.png",
+      "flagLocal": "images/overview/rus.png"
     },
     {
       "code": "RWA",
@@ -1439,7 +1725,9 @@
       "previousCodes": "RU − 1962",
       "notes": "Formerly part of Ruanda-Urundi − 1962. Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Rwanda.svg/40px-Flag_of_Rwanda.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Rwanda.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Rwanda.svg",
+      "flagThumbLocal": "images/overview/rwa.png",
+      "flagLocal": "images/overview/rwa.png"
     },
     {
       "code": "S",
@@ -1449,7 +1737,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/40px-Flag_of_Sweden.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg",
+      "flagThumbLocal": "images/overview/s.png",
+      "flagLocal": "images/overview/s.png"
     },
     {
       "code": "SD",
@@ -1459,7 +1749,9 @@
       "previousCodes": "",
       "notes": "Formerly Swaziland",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/40px-Flag_of_Eswatini.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Flag_of_Eswatini.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Flag_of_Eswatini.svg",
+      "flagThumbLocal": "images/overview/sd.png",
+      "flagLocal": "images/overview/sd.png"
     },
     {
       "code": "SGP",
@@ -1469,7 +1761,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/40px-Flag_of_Singapore.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg",
+      "flagThumbLocal": "images/overview/sgp.png",
+      "flagLocal": "images/overview/sgp.png"
     },
     {
       "code": "SK",
@@ -1479,7 +1773,9 @@
       "previousCodes": "CS 1919–39,1945–92SQ 1939–45",
       "notes": "Formerly Československo (Czechoslovakia). Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/40px-Flag_of_Slovakia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Slovakia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Slovakia.svg",
+      "flagThumbLocal": "images/overview/sk.png",
+      "flagLocal": "images/overview/sk.png"
     },
     {
       "code": "SLO",
@@ -1489,7 +1785,9 @@
       "previousCodes": "SHS 1919–29Y 1929–53YU 1953–92",
       "notes": "Formerly part of the Kingdom of Serbs, Croats and Slovenes  Kraljevina Srba, Hrvata i Slovenaca (Serbo-Croatian), then part of Yugoslavia.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/40px-Flag_of_Slovenia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg",
+      "flagThumbLocal": "images/overview/slo.png",
+      "flagLocal": "images/overview/slo.png"
     },
     {
       "code": "SME",
@@ -1499,7 +1797,9 @@
       "previousCodes": "",
       "notes": "Now displaying 'SUR' on current driving licenses.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/40px-Flag_of_Suriname.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/60/Flag_of_Suriname.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/60/Flag_of_Suriname.svg",
+      "flagThumbLocal": "images/overview/sme.png",
+      "flagLocal": "images/overview/sme.png"
     },
     {
       "code": "SN",
@@ -1509,7 +1809,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/40px-Flag_of_Senegal.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg",
+      "flagThumbLocal": "images/overview/sn.png",
+      "flagLocal": "images/overview/sn.png"
     },
     {
       "code": "SO",
@@ -1519,7 +1821,9 @@
       "previousCodes": "SP",
       "notes": "Formerly Somaliland Protectorate. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/40px-Flag_of_Somalia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_Somalia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_Somalia.svg",
+      "flagThumbLocal": "images/overview/so.png",
+      "flagLocal": "images/overview/so.png"
     },
     {
       "code": "SRB",
@@ -1529,7 +1833,9 @@
       "previousCodes": "SB – 1919SHS 1919–29Y 1929–53YU 1953–2003SCG 2003–2006",
       "notes": "Formerly part of Kingdom of Serbia (Kraljevina Srbija – Serbian), Kingdom of Serbs, Croats and Slovenes (Kraljevina Srba, Hrvata i Slovenaca – Serbo-Croatian), Yugoslavia (Jugoslavija – Serbo-Croatian), and Serbia and Montenegro (Srbija i Crna Gora – Serbian).Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/40px-Flag_of_Serbia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg",
+      "flagThumbLocal": "images/overview/srb.png",
+      "flagLocal": "images/overview/srb.png"
     },
     {
       "code": "SUD",
@@ -1539,7 +1845,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Sudan.svg/40px-Flag_of_Sudan.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Sudan.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Sudan.svg",
+      "flagThumbLocal": "images/overview/sud.png",
+      "flagLocal": "images/overview/sud.png"
     },
     {
       "code": "SY",
@@ -1549,7 +1857,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/40px-Flag_of_Seychelles.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Seychelles.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Seychelles.svg",
+      "flagThumbLocal": "images/overview/sy.png",
+      "flagLocal": "images/overview/sy.png"
     },
     {
       "code": "SYR",
@@ -1559,7 +1869,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-3 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Flag_of_Syria_%282025-%29.svg/40px-Flag_of_Syria_%282025-%29.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Syria_%282025-%29.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Syria_%282025-%29.svg",
+      "flagThumbLocal": "images/overview/syr.png",
+      "flagLocal": "images/overview/syr.png"
     },
     {
       "code": "T",
@@ -1569,7 +1881,9 @@
       "previousCodes": "SM",
       "notes": "Siam",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/40px-Flag_of_Thailand.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
+      "flagThumbLocal": "images/overview/t.png",
+      "flagLocal": "images/overview/t.png"
     },
     {
       "code": "TCH",
@@ -1579,7 +1893,9 @@
       "previousCodes": "",
       "notes": "Tchad (French)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Flag_of_Chad.svg/40px-Flag_of_Chad.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Flag_of_Chad.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Flag_of_Chad.svg",
+      "flagThumbLocal": "images/overview/tch.png",
+      "flagLocal": "images/overview/tch.png"
     },
     {
       "code": "TG",
@@ -1589,7 +1905,9 @@
       "previousCodes": "RT",
       "notes": "Formerly République Togolaise (French). Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_Togo_%283-2%29.svg/40px-Flag_of_Togo_%283-2%29.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_Togo_%283-2%29.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_Togo_%283-2%29.svg",
+      "flagThumbLocal": "images/overview/tg.png",
+      "flagLocal": "images/overview/tg.png"
     },
     {
       "code": "TJ",
@@ -1599,7 +1917,9 @@
       "previousCodes": "SU − 1991",
       "notes": "Formerly part of the Soviet Union, used code \"PT\" for Республика Таджикистан\non plates from 1993 to 2003. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Tajikistan.svg/40px-Flag_of_Tajikistan.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Tajikistan.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Tajikistan.svg",
+      "flagThumbLocal": "images/overview/tj.png",
+      "flagLocal": "images/overview/tj.png"
     },
     {
       "code": "TM",
@@ -1609,7 +1929,9 @@
       "previousCodes": "SU − 1991",
       "notes": "Formerly part of the Soviet Union. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Turkmenistan.svg/40px-Flag_of_Turkmenistan.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Turkmenistan.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Turkmenistan.svg",
+      "flagThumbLocal": "images/overview/tm.png",
+      "flagLocal": "images/overview/tm.png"
     },
     {
       "code": "TN",
@@ -1619,7 +1941,9 @@
       "previousCodes": "F − 1956",
       "notes": "Formerly a territory of France. Coincides with ISO 3166-1 alpha-2 code. Unofficial code TU is common.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/40px-Flag_of_Tunisia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg",
+      "flagThumbLocal": "images/overview/tn.png",
+      "flagLocal": "images/overview/tn.png"
     },
     {
       "code": "TO",
@@ -1629,7 +1953,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/40px-Flag_of_Tonga.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Tonga.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Tonga.svg",
+      "flagThumbLocal": "images/overview/to.png",
+      "flagLocal": "images/overview/to.png"
     },
     {
       "code": "TR",
@@ -1639,7 +1965,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/40px-Flag_of_Turkey.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+      "flagThumbLocal": "images/overview/tr.png",
+      "flagLocal": "images/overview/tr.png"
     },
     {
       "code": "TT",
@@ -1649,7 +1977,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/40px-Flag_of_Trinidad_and_Tobago.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Trinidad_and_Tobago.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Trinidad_and_Tobago.svg",
+      "flagThumbLocal": "images/overview/tt.png",
+      "flagLocal": "images/overview/tt.png"
     },
     {
       "code": "UA",
@@ -1659,7 +1989,9 @@
       "previousCodes": "SU",
       "notes": "Formerly part of the Soviet Union. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/40px-Flag_of_Ukraine.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+      "flagThumbLocal": "images/overview/ua.png",
+      "flagLocal": "images/overview/ua.png"
     },
     {
       "code": "UAE",
@@ -1669,7 +2001,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/40px-Flag_of_the_United_Arab_Emirates.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_United_Arab_Emirates.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_United_Arab_Emirates.svg",
+      "flagThumbLocal": "images/overview/uae.png",
+      "flagLocal": "images/overview/uae.png"
     },
     {
       "code": "UK",
@@ -1679,7 +2013,9 @@
       "previousCodes": "GB (1910–2021)",
       "notes": "Before 1922, United Kingdom of Great Britain and Ireland. Until 2021, \"GB\" was used, but from 28 September 2021 the United Kingdom of Great Britain and Northern Ireland changed its international vehicle registration code from \"GB\" to \"UK\". (This does not affect territories for which the United Kingdom controls international relations outside Great Britain and Northern Ireland.)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/40px-Flag_of_the_United_Kingdom.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg",
+      "flagThumbLocal": "images/overview/uk.png",
+      "flagLocal": "images/overview/uk.png"
     },
     {
       "code": "USA",
@@ -1689,7 +2025,9 @@
       "previousCodes": "US",
       "notes": "Coincides with ISO 3166-1 alpha-3 code, used on registration plates for US Forces in Germany from 1962 until 2020, US now used by US Forces Germany since 2020. 'U' is currently used for registration plates for US Forces in Portugal (Lajes, Azores).",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Flag_of_the_United_States_%2823px%29.png/40px-Flag_of_the_United_States_%2823px%29.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Flag_of_the_United_States_%2823px%29.png"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Flag_of_the_United_States_%2823px%29.png",
+      "flagThumbLocal": "images/overview/usa.png",
+      "flagLocal": "images/overview/usa.png"
     },
     {
       "code": "UZ",
@@ -1699,7 +2037,9 @@
       "previousCodes": "SU",
       "notes": "Formerly part of the Soviet Union. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/40px-Flag_of_Uzbekistan.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg",
+      "flagThumbLocal": "images/overview/uz.png",
+      "flagLocal": "images/overview/uz.png"
     },
     {
       "code": "V",
@@ -1709,7 +2049,9 @@
       "previousCodes": "",
       "notes": "CV (Italian: Città del Vaticano) is used as a prefix on the licence plate number itself. The prefix used on official and government vehicles is SCV (Latin: Status Civitatis Vaticanae)",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_Vatican_City_%282023%E2%80%93present%29.svg/20px-Flag_of_Vatican_City_%282023%E2%80%93present%29.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Flag_of_Vatican_City_%282023%E2%80%93present%29.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Flag_of_Vatican_City_%282023%E2%80%93present%29.svg",
+      "flagThumbLocal": "images/overview/v.png",
+      "flagLocal": "images/overview/v.png"
     },
     {
       "code": "VN",
@@ -1719,7 +2061,9 @@
       "previousCodes": "",
       "notes": "Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/40px-Flag_of_Vietnam.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg",
+      "flagThumbLocal": "images/overview/vn.png",
+      "flagLocal": "images/overview/vn.png"
     },
     {
       "code": "WAG",
@@ -1729,7 +2073,9 @@
       "previousCodes": "",
       "notes": "West Africa Gambia",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_The_Gambia.svg/40px-Flag_of_The_Gambia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_The_Gambia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_The_Gambia.svg",
+      "flagThumbLocal": "images/overview/wag.png",
+      "flagLocal": "images/overview/wag.png"
     },
     {
       "code": "WAL",
@@ -1739,7 +2085,9 @@
       "previousCodes": "",
       "notes": "West Africa Sierra Leone; on local licence plates SLE is used",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Sierra_Leone.svg/40px-Flag_of_Sierra_Leone.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Sierra_Leone.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Sierra_Leone.svg",
+      "flagThumbLocal": "images/overview/wal.png",
+      "flagLocal": "images/overview/wal.png"
     },
     {
       "code": "WAN",
@@ -1749,7 +2097,9 @@
       "previousCodes": "",
       "notes": "West Africa Nigeria",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/40px-Flag_of_Nigeria.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Nigeria.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Nigeria.svg",
+      "flagThumbLocal": "images/overview/wan.png",
+      "flagLocal": "images/overview/wan.png"
     },
     {
       "code": "WD",
@@ -1759,7 +2109,9 @@
       "previousCodes": "",
       "notes": "Windward Islands Dominica",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Flag_of_Dominica.svg/40px-Flag_of_Dominica.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Flag_of_Dominica.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Flag_of_Dominica.svg",
+      "flagThumbLocal": "images/overview/wd.png",
+      "flagLocal": "images/overview/wd.png"
     },
     {
       "code": "WG",
@@ -1769,7 +2121,9 @@
       "previousCodes": "",
       "notes": "Windward Islands Grenada",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/40px-Flag_of_Grenada.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Grenada.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Grenada.svg",
+      "flagThumbLocal": "images/overview/wg.png",
+      "flagLocal": "images/overview/wg.png"
     },
     {
       "code": "WL",
@@ -1779,7 +2133,9 @@
       "previousCodes": "",
       "notes": "Windward Islands Saint Lucia",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/40px-Flag_of_Saint_Lucia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Saint_Lucia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Saint_Lucia.svg",
+      "flagThumbLocal": "images/overview/wl.png",
+      "flagLocal": "images/overview/wl.png"
     },
     {
       "code": "WS",
@@ -1789,7 +2145,9 @@
       "previousCodes": "",
       "notes": "Formerly Western Samoa. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Samoa.svg/40px-Flag_of_Samoa.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Samoa.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Samoa.svg",
+      "flagThumbLocal": "images/overview/ws.png",
+      "flagLocal": "images/overview/ws.png"
     },
     {
       "code": "WV",
@@ -1799,7 +2157,9 @@
       "previousCodes": "",
       "notes": "Windward Islands Saint Vincent",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/40px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg",
+      "flagThumbLocal": "images/overview/wv.png",
+      "flagLocal": "images/overview/wv.png"
     },
     {
       "code": "YAR",
@@ -1809,7 +2169,9 @@
       "previousCodes": "",
       "notes": "North Yemen formerly known as the Yemen Arab Republic.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/40px-Flag_of_Yemen.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/89/Flag_of_Yemen.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/89/Flag_of_Yemen.svg",
+      "flagThumbLocal": "images/overview/yar.png",
+      "flagLocal": "images/overview/yar.png"
     },
     {
       "code": "YV",
@@ -1819,7 +2181,9 @@
       "previousCodes": "",
       "notes": "",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/40px-Flag_of_Venezuela.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Venezuela.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Venezuela.svg",
+      "flagThumbLocal": "images/overview/yv.png",
+      "flagLocal": "images/overview/yv.png"
     },
     {
       "code": "Z",
@@ -1829,7 +2193,9 @@
       "previousCodes": "RNR",
       "notes": "Formerly Northern Rhodesia.  However, \"ZM\" is used on current driving licences.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Zambia.svg/40px-Flag_of_Zambia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Zambia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Zambia.svg",
+      "flagThumbLocal": "images/overview/z.png",
+      "flagLocal": "images/overview/z.png"
     },
     {
       "code": "ZA",
@@ -1839,7 +2205,9 @@
       "previousCodes": "",
       "notes": "Zuid-Afrika (from Dutch; in Afrikaans it is Suid-Afrika). Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/40px-Flag_of_South_Africa.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg",
+      "flagThumbLocal": "images/overview/za.png",
+      "flagLocal": "images/overview/za.png"
     },
     {
       "code": "ZW",
@@ -1849,7 +2217,9 @@
       "previousCodes": "SR, RSR",
       "notes": "Formerly Southern Rhodesia until 1965, Rhodesia unrecognised until 1980. Coincides with ISO 3166-1 alpha-2 code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/40px-Flag_of_Zimbabwe.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Flag_of_Zimbabwe.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Flag_of_Zimbabwe.svg",
+      "flagThumbLocal": "images/overview/zw.png",
+      "flagLocal": "images/overview/zw.png"
     }
   ]
 }

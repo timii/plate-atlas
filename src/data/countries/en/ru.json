@@ -4,11 +4,15 @@
     "images": [
       {
         "url": "https://plateshack.com/y2k/Burundi/Burundi2.JPG",
-        "title": "Current front plate example"
+        "title": "Current front plate example",
+        "thumbLocal": "images/detail/ru/ru-01-01.jpg",
+        "fullSizeLocal": "images/detail/ru/ru-01-01.jpg"
       },
       {
         "url": "https://plateshack.com/y2k/Burundi/busmall1.jpg",
-        "title": "Current rear plate example"
+        "title": "Current rear plate example",
+        "thumbLocal": "images/detail/ru/ru-01-02.jpg",
+        "fullSizeLocal": "images/detail/ru/ru-01-02.jpg"
       }
     ]
   }

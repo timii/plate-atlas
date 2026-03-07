@@ -4,7 +4,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Singaporean_License_Plate_SNB9538E.jpg",
-        "title": "Standard private vehicle plate"
+        "title": "Standard private vehicle plate",
+        "thumbLocal": "images/detail/sgp/sgp-01-01.jpg",
+        "fullSizeLocal": "images/detail/sgp/sgp-01-01.jpg"
       }
     ]
   },
@@ -13,7 +15,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/SG_registration_plate_EP369T.jpg",
-        "title": "E-series private vehicle plate"
+        "title": "E-series private vehicle plate",
+        "thumbLocal": "images/detail/sgp/sgp-02-01.jpg",
+        "fullSizeLocal": "images/detail/sgp/sgp-02-01.jpg"
       }
     ]
   }

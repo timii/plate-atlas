@@ -4,19 +4,27 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Maldives-black_license_plate.jpg",
-        "title": "Standard plate (black background, white characters)"
+        "title": "Standard plate (black background, white characters)",
+        "thumbLocal": "images/detail/mv/mv-01-01.jpg",
+        "fullSizeLocal": "images/detail/mv/mv-01-01.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Maldives_privat_plate_graphic.jpg",
-        "title": "Private, commercial, government and police (prefixes P/C/G/S)"
+        "title": "Private, commercial, government and police (prefixes P/C/G/S)",
+        "thumbLocal": "images/detail/mv/mv-01-02.jpg",
+        "fullSizeLocal": "images/detail/mv/mv-01-02.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Maldives_taxi_plate_graphic.jpg",
-        "title": "Taxi (prefix T)"
+        "title": "Taxi (prefix T)",
+        "thumbLocal": "images/detail/mv/mv-01-03.jpg",
+        "fullSizeLocal": "images/detail/mv/mv-01-03.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Maldives_diplomatic_plate_graphic.jpg",
-        "title": "Diplomatic (prefix D)"
+        "title": "Diplomatic (prefix D)",
+        "thumbLocal": "images/detail/mv/mv-01-04.jpg",
+        "fullSizeLocal": "images/detail/mv/mv-01-04.jpg"
       }
     ]
   },
@@ -25,7 +33,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/MALDIVE_ISLANDS_1990%27S_passenger_-_Flickr_-_woody1778a.jpg",
-        "title": "Older standard style (1990s)"
+        "title": "Older standard style (1990s)",
+        "thumbLocal": "images/detail/mv/mv-02-01.jpg",
+        "fullSizeLocal": "images/detail/mv/mv-02-01.jpg"
       }
     ]
   }

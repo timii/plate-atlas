@@ -1,12 +1,20 @@
 <script setup lang="ts">
 import EmptyState from '@/components/shared/EmptyState.vue'
 import InfoCard from '@/components/detail/InfoCard.vue'
-import type { ICountryDetailExampleImages } from '@/models/country.model'
+import type { ICountryDetailExampleImage } from '@/models/country.model'
 import { useDetailsStore } from '@/stores/details'
+import { pickPreferredStaticAssetUrl } from '@/utils/assetUrl'
 import { storeToRefs } from 'pinia'
 import { computed, nextTick, onBeforeUnmount, ref, watch } from 'vue'
 
-type ExampleImage = ICountryDetailExampleImages['images'][number]
+type ExampleImage = ICountryDetailExampleImage
+
+type PreviewImage = {
+  failureKey: string
+  fallbackSrc: string
+  src: string
+  title: string
+}
 
 const props = defineProps<{
   countryName: string
@@ -15,12 +23,11 @@ const props = defineProps<{
 const detailsStore = useDetailsStore()
 const { exampleImages } = storeToRefs(detailsStore)
 
-const previewImage = ref<{
-  title: string
-  url: string
-} | null>(null)
+const previewImage = ref<PreviewImage | null>(null)
 const previewCloseRef = ref<HTMLButtonElement | null>(null)
 const previouslyFocusedEl = ref<HTMLElement | null>(null)
+const failedPreviewImages = ref<Record<string, true>>({})
+const failedThumbnailImages = ref<Record<string, true>>({})
 
 const countryNameInSentence = computed(() => {
   return props.countryName === 'No country found' ? 'this country' : props.countryName
@@ -30,13 +37,100 @@ function imageTitle(imageObj: ExampleImage): string {
   return imageObj.title || 'Plate sample'
 }
 
+function imageKey(imageObj: ExampleImage, variant: 'preview' | 'thumb'): string {
+  return `${variant}:${imageObj.url}`
+}
+
+// load local detail assets first and keep the source url as the fallback
+function thumbnailSrc(imageObj: ExampleImage): string {
+  return pickPreferredStaticAssetUrl(imageObj.thumbLocal, imageObj.url)
+}
+
+function thumbnailFallbackSrc(imageObj: ExampleImage): string {
+  return imageObj.thumbLocal ? imageObj.url : ''
+}
+
+function previewSource(imageObj: ExampleImage): PreviewImage {
+  return {
+    failureKey: imageKey(imageObj, 'preview'),
+    fallbackSrc: imageObj.fullSizeLocal || imageObj.thumbLocal ? imageObj.url : '',
+    src: pickPreferredStaticAssetUrl(imageObj.fullSizeLocal ?? imageObj.thumbLocal, imageObj.url),
+    title: imageTitle(imageObj),
+  }
+}
+
+function hasPreviewFailed(imageObj: PreviewImage): boolean {
+  return !!failedPreviewImages.value[imageObj.failureKey]
+}
+
+function hasThumbnailFailed(imageObj: ExampleImage): boolean {
+  return !!failedThumbnailImages.value[imageKey(imageObj, 'thumb')]
+}
+
+function markPreviewImageFailed(key: string) {
+  if (failedPreviewImages.value[key]) {
+    return
+  }
+
+  failedPreviewImages.value = {
+    ...failedPreviewImages.value,
+    [key]: true,
+  }
+}
+
+function markThumbnailImageFailed(key: string) {
+  if (failedThumbnailImages.value[key]) {
+    return
+  }
+
+  failedThumbnailImages.value = {
+    ...failedThumbnailImages.value,
+    [key]: true,
+  }
+}
+
+// swap back to the source url once before showing the unavailable state
+function tryFallbackImage(event: Event): boolean {
+  const target = event.target
+  if (!(target instanceof HTMLImageElement)) {
+    return false
+  }
+
+  const fallbackSrc = target.dataset.fallbackSrc
+  if (
+    !fallbackSrc ||
+    target.getAttribute('src') === fallbackSrc ||
+    target.currentSrc === fallbackSrc
+  ) {
+    return false
+  }
+
+  target.src = fallbackSrc
+  target.dataset.fallbackSrc = ''
+  return true
+}
+
+function onThumbnailError(event: Event, imageObj: ExampleImage) {
+  if (tryFallbackImage(event)) {
+    return
+  }
+
+  markThumbnailImageFailed(imageKey(imageObj, 'thumb'))
+}
+
+function onPreviewError(event: Event, failureKey: string) {
+  if (tryFallbackImage(event)) {
+    return
+  }
+
+  markPreviewImageFailed(failureKey)
+}
+
 function openPreview(imageObj: ExampleImage) {
   // restore keyboard focus to the trigger after closing the preview
-  previouslyFocusedEl.value = document.activeElement instanceof HTMLElement ? document.activeElement : null
-  previewImage.value = {
-    title: imageTitle(imageObj),
-    url: imageObj.url,
-  }
+  previouslyFocusedEl.value =
+    document.activeElement instanceof HTMLElement ? document.activeElement : null
+  previewImage.value = previewSource(imageObj)
 
   void nextTick(() => {
     previewCloseRef.value?.focus()
@@ -113,10 +207,16 @@ onBeforeUnmount(() => {
               @click="openPreview(imageObj)"
             >
               <div class="plate-wrap">
+                <div v-if="hasThumbnailFailed(imageObj)" class="plate-fallback" aria-hidden="true">
+                  <span>Image unavailable</span>
+                </div>
                 <img
-                  :src="imageObj.url"
+                  v-else
+                  :src="thumbnailSrc(imageObj)"
+                  :data-fallback-src="thumbnailFallbackSrc(imageObj)"
                   :alt="`Example image for ${imageTitle(imageObj)}`"
                   loading="lazy"
+                  @error="onThumbnailError($event, imageObj)"
                 />
               </div>
               <span class="sample-caption">{{ imageTitle(imageObj) }}</span>
@@ -133,7 +233,13 @@ onBeforeUnmount(() => {
     />
   </section>
 
-  <div v-if="previewImage" class="preview-backdrop" role="dialog" aria-modal="true" @click.self="closePreview">
+  <div
+    v-if="previewImage"
+    class="preview-backdrop"
+    role="dialog"
+    aria-modal="true"
+    @click.self="closePreview"
+  >
     <div class="preview-panel">
       <button
         ref="previewCloseRef"
@@ -144,7 +250,17 @@ onBeforeUnmount(() => {
       >
         close
       </button>
-      <img :src="previewImage.url" :alt="previewImage.title" />
+      <div v-if="hasPreviewFailed(previewImage)" class="preview-fallback" role="status">
+        <strong>Image unavailable</strong>
+        <span>The original source could not be loaded</span>
+      </div>
+      <img
+        v-else
+        :src="previewImage.src"
+        :data-fallback-src="previewImage.fallbackSrc"
+        :alt="previewImage.title"
+        @error="onPreviewError($event, previewImage.failureKey)"
+      />
       <p>{{ previewImage.title }}</p>
     </div>
   </div>
@@ -278,6 +394,25 @@ onBeforeUnmount(() => {
   object-fit: contain;
 }
 
+.plate-fallback,
+.preview-fallback {
+  width: 100%;
+  height: 100%;
+  border: 1px dashed color-mix(in oklab, var(--line) 70%, #ffffff 30%);
+  border-radius: 0.34rem;
+  background: color-mix(in oklab, var(--surface) 92%, #0b0a12 8%);
+  color: var(--muted);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 0.75rem;
+}
+
+.plate-fallback span {
+  font-size: 0.78rem;
+  line-height: 1.3;
+}
+
 .sample-caption {
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -353,6 +488,21 @@ onBeforeUnmount(() => {
   width: 100%;
   max-height: 70vh;
   object-fit: contain;
+}
+
+.preview-fallback {
+  min-height: 16rem;
+  gap: 0.35rem;
+}
+
+.preview-fallback strong {
+  color: var(--text);
+  font-size: 0.94rem;
+}
+
+.preview-fallback span {
+  font-size: 0.82rem;
+  line-height: 1.4;
 }
 
 .preview-panel p {

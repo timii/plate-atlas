@@ -4,11 +4,15 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/License_plate_of_Trinidad_and_Tobago_06.jpg",
-        "title": "Current private series example"
+        "title": "Current private series example",
+        "thumbLocal": "images/detail/tt/tt-01-01.jpg",
+        "fullSizeLocal": "images/detail/tt/tt-01-01.jpg"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/TRINIDAD_and_TOBAGO_commercial_-_Flickr_-_woody1778a.jpg",
-        "title": "Current commercial series example"
+        "title": "Current commercial series example",
+        "thumbLocal": "images/detail/tt/tt-01-02.jpg",
+        "fullSizeLocal": "images/detail/tt/tt-01-02.jpg"
       }
     ]
   },
@@ -17,11 +21,15 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/TRINIDAD_and_TOBAGO_1980%27S_passenger_-_Flickr_-_woody1778a.jpg",
-        "title": "Passenger plate in an older series"
+        "title": "Passenger plate in an older series",
+        "thumbLocal": "images/detail/tt/tt-02-01.jpg",
+        "fullSizeLocal": "images/detail/tt/tt-02-01.jpg"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/License_Plate_Trinidad_%26_Tobago.png",
-        "title": "Older private series sample"
+        "title": "Older private series sample",
+        "thumbLocal": "images/detail/tt/tt-02-02.png",
+        "fullSizeLocal": "images/detail/tt/tt-02-02.png"
       }
     ]
   }

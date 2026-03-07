@@ -4,7 +4,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grenada_license_plate_2010_graphic.png",
-        "title": "Current standard series (ABC123)"
+        "title": "Current standard series (ABC123)",
+        "thumbLocal": "images/detail/wg/wg-01-01.png",
+        "fullSizeLocal": "images/detail/wg/wg-01-01.png"
       }
     ]
   },
@@ -13,7 +15,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GRENADA_1974,_INDEPENDENCE_YEAR_-PASSENGER_PLATE,_PORCELAIN_-_Flickr_-_woody1778a.jpg",
-        "title": "Independence-era passenger plate (1974)"
+        "title": "Independence-era passenger plate (1974)",
+        "thumbLocal": "images/detail/wg/wg-02-01.jpg",
+        "fullSizeLocal": "images/detail/wg/wg-02-01.jpg"
       }
     ]
   }

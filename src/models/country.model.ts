@@ -8,6 +8,8 @@ export interface ICountry {
   notes: string // extra notes about the country
   flagThumb: string // small version of the country flag
   flag: string // "normal" sized version of the flag
+  flagThumbLocal?: string // relative local path for the overview flag thumb
+  flagLocal?: string // relative local path for the full flag image
 }
 
 export interface ICountryData {
@@ -15,10 +17,17 @@ export interface ICountryData {
   countries: ICountry[] // list of countries
 }
 
+export interface ICountryDetailExampleImage {
+  title?: string
+  url: string
+  thumbLocal?: string // relative local path for the detail card image
+  fullSizeLocal?: string // relative local path for the detail preview image
+}
+
 // used for countries that have no regions/areas in their license plates, instead examples images are used for the country
 export interface ICountryDetailExampleImages {
   category: string // category name of the example images (something like "current" or "used from YEAR to YEAR")
-  images: { title?: string; url: string }[] // list of example license plates (as urls of images + optional title) that fit into the category
+  images: ICountryDetailExampleImage[] // list of example license plates (as urls of images + optional title) that fit into the category
 }
 
 // used for countries that have regions/areas in their license plates

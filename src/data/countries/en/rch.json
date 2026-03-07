@@ -4,7 +4,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matr%C3%ADcula_automovil%C3%ADstica_Chile_2014.png",
-        "title": "Current-format private vehicle plate (4 letters, 2 numbers)"
+        "title": "Current-format private vehicle plate (4 letters, 2 numbers)",
+        "thumbLocal": "images/detail/rch/rch-01-01.png",
+        "fullSizeLocal": "images/detail/rch/rch-01-01.png"
       }
     ]
   },
@@ -13,11 +15,15 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matr%C3%ADcula_automovil%C3%ADstica_Chile_1985_DT%E2%80%A2RC%2A78_particular.jpg",
-        "title": "Standard private plate in the 1985-2013 series"
+        "title": "Standard private plate in the 1985-2013 series",
+        "thumbLocal": "images/detail/rch/rch-02-01.jpg",
+        "fullSizeLocal": "images/detail/rch/rch-02-01.jpg"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matr%C3%ADcula_automovil%C3%ADstica_Chile_1985_XH%2A66%E2%80%A240.jpg",
-        "title": "Earlier visual style within the 1985-era system"
+        "title": "Earlier visual style within the 1985-era system",
+        "thumbLocal": "images/detail/rch/rch-02-02.jpg",
+        "fullSizeLocal": "images/detail/rch/rch-02-02.jpg"
       }
     ]
   },
@@ -26,11 +32,15 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matr%C3%ADcula_automovil%C3%ADstica_Chile_1963_Valpara%C3%ADso_ES%C2%A7430_Flickr_-_woody1778a.jpg",
-        "title": "1960s municipal-era passenger plate (Valparaiso)"
+        "title": "1960s municipal-era passenger plate (Valparaiso)",
+        "thumbLocal": "images/detail/rch/rch-03-01.jpg",
+        "fullSizeLocal": "images/detail/rch/rch-03-01.jpg"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matr%C3%ADcula_automovil%C3%ADstica_Chile_1977_Peumo_NCC%C2%A727_Flickr_-_woody1778a.jpg",
-        "title": "1970s municipal-era passenger plate (Peumo)"
+        "title": "1970s municipal-era passenger plate (Peumo)",
+        "thumbLocal": "images/detail/rch/rch-03-02.jpg",
+        "fullSizeLocal": "images/detail/rch/rch-03-02.jpg"
       }
     ]
   }

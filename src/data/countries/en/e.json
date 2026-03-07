@@ -3,7 +3,9 @@
     "category": "Current standard license plates (2000-present)",
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Matr%C3%ADcula_automovil%C3%ADstica_Espa%C3%B1a_2000_2008_ZGZ_largo.svg/250px-Matr%C3%ADcula_automovil%C3%ADstica_Espa%C3%B1a_2000_2008_ZGZ_largo.svg.png"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Matr%C3%ADcula_automovil%C3%ADstica_Espa%C3%B1a_2000_2008_ZGZ_largo.svg/250px-Matr%C3%ADcula_automovil%C3%ADstica_Espa%C3%B1a_2000_2008_ZGZ_largo.svg.png",
+        "thumbLocal": "images/detail/e/e-01-01.png",
+        "fullSizeLocal": "images/detail/e/e-01-01.png"
       }
     ]
   },
@@ -12,15 +14,21 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Matr%C3%ADcula_automovil%C3%ADstica_Espa%C3%B1a_1971_PO-9385-BH.jpg",
-        "title": "Provincial registration plate from Pontevedra"
+        "title": "Provincial registration plate from Pontevedra",
+        "thumbLocal": "images/detail/e/e-02-01.jpg",
+        "fullSizeLocal": "images/detail/e/e-02-01.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Matr%C3%ADcula_automovil%C3%ADstica_Espa%C3%B1a_1971_A_0849_CS_banda_UE.jpg",
-        "title": "Provincial registration plate from Alicante with the EU strip (optional since 1990s)"
+        "title": "Provincial registration plate from Alicante with the EU strip (optional since 1990s)",
+        "thumbLocal": "images/detail/e/e-02-02.jpg",
+        "fullSizeLocal": "images/detail/e/e-02-02.jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Spanish_vehicle_registration_plate.jpg",
-        "title": "Provincial registration plate from Girona with the EU strip"
+        "title": "Provincial registration plate from Girona with the EU strip",
+        "thumbLocal": "images/detail/e/e-02-03.jpg",
+        "fullSizeLocal": "images/detail/e/e-02-03.jpg"
       }
     ]
   },
@@ -29,7 +37,9 @@
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Matr%C3%ADcula_automobil%C3%ADstica_da_provincia_de_Ourense_1971_OR_29495.jpg",
-        "title": "Provincial registration plate from Orense"
+        "title": "Provincial registration plate from Orense",
+        "thumbLocal": "images/detail/e/e-03-01.jpg",
+        "fullSizeLocal": "images/detail/e/e-03-01.jpg"
       }
     ]
   }

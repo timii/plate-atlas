@@ -4,11 +4,15 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%91%D0%95%D0%9D%D0%86%D0%9D_%D0%9D%D0%9E%D0%9C%D0%95%D0%A0_1.gif",
-        "title": "Current private format example (no regional coding)"
+        "title": "Current private format example (no regional coding)",
+        "thumbLocal": "images/detail/dy/dy-01-01.gif",
+        "fullSizeLocal": "images/detail/dy/dy-01-01.gif"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%91%D0%95%D0%9D%D0%86%D0%9D_%D0%9D%D0%9E%D0%9C%D0%95%D0%A0_2.gif",
-        "title": "Current commercial format example (no regional coding)"
+        "title": "Current commercial format example (no regional coding)",
+        "thumbLocal": "images/detail/dy/dy-01-02.gif",
+        "fullSizeLocal": "images/detail/dy/dy-01-02.gif"
       }
     ]
   }
