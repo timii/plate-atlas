@@ -26,7 +26,6 @@ const sortDropdownItems = computed<IDropdownItem[]>(() => [
   { id: 2, label: 'Code', value: 'code', selected: sortMode.value === 'code' },
 ])
 
-// widen code chips only when the current dataset contains long region codes
 const hasLongCodes = computed(() => {
   return mappedDetails.value.some((detail) => detail.code.length > 6 || detail.code.includes(' '))
 })
@@ -79,14 +78,7 @@ function onSortToggle(nextOpen: boolean) {
       :class="{ 'rows--long-codes': hasLongCodes }"
       aria-label="regional code rows"
     >
-      <!-- keep rows keyboard reachable like overview links -->
-      <article
-        v-for="detail in mappedDetails"
-        :key="detail.code + detail.name"
-        class="row atlas-row"
-        tabindex="0"
-        :aria-label="`${detail.code}: ${detail.name}`"
-      >
+      <article v-for="detail in mappedDetails" :key="detail.code + detail.name" class="row atlas-row">
         <CodeChip :text="detail.code" :title="detail.code" accented :multiline="hasLongCodes" />
         <span class="name">{{ detail.name }}</span>
       </article>
@@ -137,13 +129,6 @@ function onSortToggle(nextOpen: boolean) {
   display: grid;
   grid-template-columns: var(--code-chip-width) minmax(0, 1fr);
   padding: 0.46rem 0.54rem;
-}
-
-.row:focus-visible {
-  outline: none;
-  border-color: color-mix(in oklab, var(--tone) 64%, var(--line));
-  /* align keyboard focus treatment with shared controls */
-  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--tone) 52%, var(--line));
 }
 
 .name {

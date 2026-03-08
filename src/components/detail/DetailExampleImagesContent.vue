@@ -16,6 +16,8 @@ type PreviewImage = {
   title: string
 }
 
+let previewIdCounter = 0
+
 const props = defineProps<{
   countryName: string
 }>()
@@ -24,10 +26,12 @@ const detailsStore = useDetailsStore()
 const { exampleImages } = storeToRefs(detailsStore)
 
 const previewImage = ref<PreviewImage | null>(null)
+const previewPanelRef = ref<HTMLElement | null>(null)
 const previewCloseRef = ref<HTMLButtonElement | null>(null)
 const previouslyFocusedEl = ref<HTMLElement | null>(null)
 const failedPreviewImages = ref<Record<string, true>>({})
 const failedThumbnailImages = ref<Record<string, true>>({})
+const previewTitleId = `example-preview-title-${++previewIdCounter}`
 
 const countryNameInSentence = computed(() => {
   return props.countryName === 'No country found' ? 'this country' : props.countryName
@@ -41,7 +45,6 @@ function imageKey(imageObj: ExampleImage, variant: 'preview' | 'thumb'): string 
   return `${variant}:${imageObj.url}`
 }
 
-// load local detail assets first and keep the source url as the fallback
 function thumbnailSrc(imageObj: ExampleImage): string {
   return pickPreferredStaticAssetUrl(imageObj.thumbLocal, imageObj.url)
 }
@@ -89,7 +92,6 @@ function markThumbnailImageFailed(key: string) {
   }
 }
 
-// swap back to the source url once before showing the unavailable state
 function tryFallbackImage(event: Event): boolean {
   const target = event.target
   if (!(target instanceof HTMLImageElement)) {
@@ -127,12 +129,12 @@ function onPreviewError(event: Event, failureKey: string) {
 }
 
 function openPreview(imageObj: ExampleImage) {
-  // restore keyboard focus to the trigger after closing the preview
+  // restore focus to the thumbnail trigger after closing the dialog
   previouslyFocusedEl.value =
     document.activeElement instanceof HTMLElement ? document.activeElement : null
   previewImage.value = previewSource(imageObj)
 
-  void nextTick(() => {
+  nextTick(() => {
     previewCloseRef.value?.focus()
   })
 }
@@ -140,7 +142,7 @@ function openPreview(imageObj: ExampleImage) {
 function closePreview() {
   previewImage.value = null
 
-  void nextTick(() => {
+  nextTick(() => {
     previouslyFocusedEl.value?.focus()
   })
 }
@@ -154,31 +156,71 @@ function onPreviewKeydown(event: KeyboardEvent) {
     return
   }
 
-  // keep modal keyboard handling scoped while preview is open
   if (event.key === 'Escape') {
     event.preventDefault()
     closePreview()
     return
   }
 
-  // keep focus in the preview while modal is open
-  if (event.key === 'Tab') {
-    event.preventDefault()
-    previewCloseRef.value?.focus()
+  if (event.key !== 'Tab' || !previewPanelRef.value) {
+    return
   }
+
+  // keep tab focus inside the preview dialog
+  const focusableElements = previewPanelRef.value.querySelectorAll<HTMLElement>(
+    'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])',
+  )
+
+  if (focusableElements.length === 0) {
+    event.preventDefault()
+    previewPanelRef.value.focus()
+    return
+  }
+
+  const firstFocusable = focusableElements[0]
+  const lastFocusable = focusableElements[focusableElements.length - 1]
+  const activeElement = document.activeElement
+
+  if (event.shiftKey && activeElement === firstFocusable) {
+    event.preventDefault()
+    lastFocusable.focus()
+    return
+  }
+
+  if (!event.shiftKey && activeElement === lastFocusable) {
+    event.preventDefault()
+    firstFocusable.focus()
+  }
+}
+
+function onPreviewFocusIn(event: FocusEvent) {
+  if (!previewImage.value || !previewPanelRef.value) {
+    return
+  }
+
+  const target = event.target
+  if (target instanceof Node && previewPanelRef.value.contains(target)) {
+    return
+  }
+
+  // move focus back if something outside the dialog gets it
+  previewCloseRef.value?.focus()
 }
 
 watch(previewImage, (value) => {
   if (value) {
     document.addEventListener('keydown', onPreviewKeydown)
+    document.addEventListener('focusin', onPreviewFocusIn)
     return
   }
 
   document.removeEventListener('keydown', onPreviewKeydown)
+  document.removeEventListener('focusin', onPreviewFocusIn)
 })
 
 onBeforeUnmount(() => {
   document.removeEventListener('keydown', onPreviewKeydown)
+  document.removeEventListener('focusin', onPreviewFocusIn)
 })
 </script>
 
@@ -238,9 +280,10 @@ onBeforeUnmount(() => {
     class="preview-backdrop"
     role="dialog"
     aria-modal="true"
+    :aria-labelledby="previewTitleId"
     @click.self="closePreview"
   >
-    <div class="preview-panel">
+    <div ref="previewPanelRef" class="preview-panel" tabindex="-1">
       <button
         ref="previewCloseRef"
         type="button"
@@ -261,7 +304,7 @@ onBeforeUnmount(() => {
         :alt="previewImage.title"
         @error="onPreviewError($event, previewImage.failureKey)"
       />
-      <p>{{ previewImage.title }}</p>
+      <p :id="previewTitleId">{{ previewImage.title }}</p>
     </div>
   </div>
 </template>
@@ -367,7 +410,6 @@ onBeforeUnmount(() => {
 }
 
 .sample:focus-within {
-  /* keep keyboard focus clearly visible around the whole card */
   border-color: color-mix(in oklab, var(--tone, #97a0b5) 66%, var(--line));
   box-shadow:
     0 0 0 1px color-mix(in oklab, var(--tone, #97a0b5) 62%, var(--line)),
@@ -480,7 +522,6 @@ onBeforeUnmount(() => {
 .preview-close:focus-visible {
   outline: none;
   border-color: color-mix(in oklab, var(--tone, #97a0b5) 62%, var(--line));
-  /* keep close button focus ring solid and clearly visible */
   box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--tone, #97a0b5) 56%, var(--line));
 }
 

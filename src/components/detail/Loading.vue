@@ -1,12 +1,18 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
-    <span class="loader"></span>
+  <div class="loading" role="status" aria-live="polite">
+    <span class="loader" aria-hidden="true"></span>
+    <span class="sr-only">Loading content</span>
   </div>
 </template>
 
 <style scoped>
+.loading {
+  display: inline-flex;
+  align-items: center;
+}
+
 .loader {
   --speed: 600ms;
   --size: 8px;
@@ -55,4 +61,26 @@
     transform: translateX(16px);
   }
 }
+
+/* hide the status text visually but keep it for screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* stop the spinner for people who prefer reduced motion */
+  .loader:before,
+  .loader:after {
+    animation: none;
+  }
+}
 </style>
+

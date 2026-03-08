@@ -1,9 +1,10 @@
 <script setup lang="ts">
 const props = defineProps<{
   text: string
+  id?: string
 }>()
 </script>
 
 <template>
-  <p class="atlas-field-label">{{ props.text }}</p>
+  <p :id="props.id" class="atlas-field-label">{{ props.text }}</p>
 </template>

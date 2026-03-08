@@ -3,9 +3,8 @@ import ChevronDown from '@/assets/icons/ChevronDown.vue'
 import ChevronUp from '@/assets/icons/ChevronUp.vue'
 import FieldLabel from '@/components/shared/FieldLabel.vue'
 import type { IDropdownItem } from '@/models/dropdown.model'
-import { computed, onBeforeUnmount, onMounted, ref, type PropType } from 'vue'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch, type PropType } from 'vue'
 
-// generate unique ids for aria-controls linking
 let dropdownIdCounter = 0
 
 const props = defineProps({
@@ -26,24 +25,105 @@ const props = defineProps({
 const emits = defineEmits(['select', 'toggle'])
 const rootEl = ref<HTMLElement | null>(null)
 const triggerEl = ref<HTMLButtonElement | null>(null)
-const listboxId = `filter-dropdown-list-${++dropdownIdCounter}`
+const optionEls = ref<HTMLButtonElement[]>([])
+const baseId = `filter-dropdown-${++dropdownIdCounter}`
+const labelId = `${baseId}-label`
+const valueId = `${baseId}-value`
+const listboxId = `${baseId}-list`
+
+const selectedIndex = computed(() => {
+  const index = props.list.findIndex((item) => item.selected)
+  return index >= 0 ? index : 0
+})
+
+// keep focus on the selected option while the list is open
+const activeIndex = ref(selectedIndex.value)
 
 const selectedItem = computed(() => {
   const selected = props.list.find((e) => e.selected)
   return selected ?? props.list[0]
 })
 
+function setOptionRef(element: HTMLButtonElement | null, index: number) {
+  if (!element) {
+    return
+  }
+
+  optionEls.value[index] = element
+}
+
 function onItemClick(item: IDropdownItem) {
   emits('select', item)
   emits('toggle', false)
+  activeIndex.value = props.list.findIndex((entry) => entry.id === item.id)
+
+  // return focus to the trigger after choosing an option
+  nextTick(() => {
+    triggerEl.value?.focus()
+  })
 }
 
 function toggleMenuFromTrigger() {
   emits('toggle', !props.open)
 }
 
+function focusOption(index: number) {
+  const clampedIndex = Math.max(0, Math.min(index, props.list.length - 1))
+  activeIndex.value = clampedIndex
+
+  nextTick(() => {
+    optionEls.value[clampedIndex]?.focus()
+  })
+}
+
+function openFromTrigger(index: number) {
+  if (!props.open) {
+    emits('toggle', true)
+  }
+
+  focusOption(index)
+}
+
+function selectActiveItem() {
+  const item = props.list[activeIndex.value]
+  if (!item) {
+    return
+  }
+
+  onItemClick(item)
+}
+
 function onTriggerKeydown(event: KeyboardEvent) {
-  // close menu from trigger without relying on global listeners
+  if ((event.key === 'Enter' || event.key === ' ') && !props.open) {
+    event.preventDefault()
+    openFromTrigger(selectedIndex.value)
+    return
+  }
+
+  if (event.key === 'ArrowDown') {
+    event.preventDefault()
+    openFromTrigger(props.open ? activeIndex.value + 1 : selectedIndex.value)
+    return
+  }
+
+  if (event.key === 'ArrowUp') {
+    event.preventDefault()
+    openFromTrigger(props.open ? activeIndex.value - 1 : selectedIndex.value)
+    return
+  }
+
+  if (event.key === 'Home') {
+    event.preventDefault()
+    openFromTrigger(0)
+    return
+  }
+
+  if (event.key === 'End') {
+    event.preventDefault()
+    openFromTrigger(props.list.length - 1)
+    return
+  }
+
   if (event.key === 'Escape' && props.open) {
     event.preventDefault()
     emits('toggle', false)
@@ -51,6 +131,42 @@ function onTriggerKeydown(event: KeyboardEvent) {
 }
 
 function onListKeydown(event: KeyboardEvent) {
+  if (event.key === 'ArrowDown') {
+    event.preventDefault()
+    focusOption(activeIndex.value + 1)
+    return
+  }
+
+  if (event.key === 'ArrowUp') {
+    event.preventDefault()
+    focusOption(activeIndex.value - 1)
+    return
+  }
+
+  if (event.key === 'Home') {
+    event.preventDefault()
+    focusOption(0)
+    return
+  }
+
+  if (event.key === 'End') {
+    event.preventDefault()
+    focusOption(props.list.length - 1)
+    return
+  }
+
+  if (event.key === 'Enter' || event.key === ' ') {
+    event.preventDefault()
+    selectActiveItem()
+    return
+  }
+
+  if (event.key === 'Tab') {
+    // let tab leave the widget instead of walking every option
+    emits('toggle', false)
+    return
+  }
+
   if (event.key === 'Escape' && props.open) {
     event.preventDefault()
     emits('toggle', false)
@@ -68,7 +184,6 @@ function onDocumentPointerDown(event: PointerEvent) {
     return
   }
 
-  // close dropdown when clicking outside of this component
   if (!rootEl.value.contains(target)) {
     emits('toggle', false)
   }
@@ -84,24 +199,46 @@ function onFocusOut(event: FocusEvent) {
     return
   }
 
-  // close when keyboard focus leaves the dropdown
   emits('toggle', false)
 }
 
 onMounted(() => {
-  // close menu on outside pointer interactions
   document.addEventListener('pointerdown', onDocumentPointerDown)
 })
 
 onBeforeUnmount(() => {
-  // clean up listener when component is removed
   document.removeEventListener('pointerdown', onDocumentPointerDown)
 })
+
+watch(
+  () => props.open,
+  (isOpen) => {
+    if (!isOpen) {
+      optionEls.value = []
+      return
+    }
+
+    activeIndex.value = selectedIndex.value
+
+    // open on the selected option so arrow navigation starts in context
+    nextTick(() => {
+      optionEls.value[selectedIndex.value]?.focus()
+    })
+  },
+)
+
+watch(
+  () => props.list,
+  () => {
+    activeIndex.value = selectedIndex.value
+  },
+  { deep: true },
+)
 </script>
 
 <template>
   <div ref="rootEl" class="filter-dropdown" @focusout="onFocusOut">
-    <FieldLabel :text="props.label" />
+    <FieldLabel :id="labelId" :text="props.label" />
     <button
       ref="triggerEl"
       type="button"
@@ -109,11 +246,11 @@ onBeforeUnmount(() => {
       aria-haspopup="listbox"
       :aria-expanded="props.open"
       :aria-controls="listboxId"
-      :aria-label="`${props.label}: ${selectedItem.label}`"
+      :aria-labelledby="`${labelId} ${valueId}`"
       @click="toggleMenuFromTrigger"
       @keydown="onTriggerKeydown"
     >
-      <span>{{ selectedItem.label }}</span>
+      <span :id="valueId">{{ selectedItem.label }}</span>
       <ChevronUp v-if="props.open" />
       <ChevronDown v-else />
     </button>
@@ -123,18 +260,21 @@ onBeforeUnmount(() => {
       class="list"
       :class="{ open: props.open }"
       role="listbox"
-      :aria-label="props.label"
+      :aria-labelledby="labelId"
       :aria-hidden="!props.open"
       @keydown="onListKeydown"
     >
       <button
-        v-for="item of props.list"
+        v-for="(item, index) of props.list"
+        :id="`${listboxId}-option-${index}`"
         :key="item.id"
+        :ref="(element) => setOptionRef(element as HTMLButtonElement | null, index)"
         type="button"
         class="item"
         role="option"
         :aria-selected="item.selected"
-        :tabindex="props.open ? 0 : -1"
+        :tabindex="props.open && activeIndex === index ? 0 : -1"
+        @focus="activeIndex = index"
         @click="onItemClick(item)"
       >
         {{ item.label }}
@@ -168,7 +308,6 @@ onBeforeUnmount(() => {
 .trigger:focus-visible {
   outline: none;
   border-color: color-mix(in oklab, var(--tone, #6f87d9) 64%, var(--line));
-  /* match search focus style and keep rounded corners clean */
   box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--tone, #6f87d9) 52%, var(--line));
 }
 
@@ -227,4 +366,3 @@ onBeforeUnmount(() => {
   }
 }
 </style>
-

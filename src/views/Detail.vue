@@ -33,10 +33,15 @@ const selectedCountry = computed(() => {
 const countryName = computed(() => selectedCountry.value?.country ?? 'No country found')
 const countryContinent = computed(() => selectedCountry.value?.continent ?? '-')
 const countryCodeLabel = computed(() => countryCode.value.toUpperCase() || '-')
-// keep detail metadata aligned with overview header copy
 const countryMeta = computed(() => `${countryCodeLabel.value} - ${countryContinent.value}`)
 
 const isCountryFavorited = computed(() => countriesStore.favorites.includes(countryCode.value))
+// keep the button label aligned with the current favorite state
+const favoriteButtonLabel = computed(() => {
+  return isCountryFavorited.value
+    ? `Remove ${countryName.value} from favorites`
+    : `Add ${countryName.value} to favorites`
+})
 
 const toneStyle = computed(() => {
   return getToneStyle(countryContinent.value)
@@ -56,7 +61,6 @@ async function loadDetailsFor(code: string) {
   detailsStore.exampleImages = []
 
   try {
-    // dynamically import detail json for the selected country
     const { default: countryDetails } = (await import(`../data/countries/en/${code}.json`)) as {
       default: ICountryDetails
     }
@@ -100,16 +104,19 @@ watch(
     if (!code) return
 
     ensureCountriesLoaded()
-    void loadDetailsFor(code)
+    loadDetailsFor(code)
   },
   { immediate: true },
 )
 </script>
 
 <template>
-  <section class="detail-page -mx-4 sm:-mx-6 -mt-14 min-h-screen px-4 sm:px-6 pt-20 pb-12" :style="toneStyle">
+  <section
+    class="detail-page -mx-4 -mt-14 min-h-screen px-4 pt-20 pb-12 sm:-mx-6 sm:px-6"
+    :style="toneStyle"
+  >
     <div class="content-shell">
-      <div class="loading-wrap" v-if="loading">
+      <div v-if="loading" class="loading-wrap">
         <Loading />
       </div>
 
@@ -121,12 +128,16 @@ watch(
                 v-if="isCountryFavorited"
                 :icon-component="StarFilled"
                 color="#daaa3f"
+                :label="favoriteButtonLabel"
+                :pressed="true"
                 @click="onFavoriteClick"
               />
               <IconButton
                 v-else
                 :icon-component="StarEmpty"
                 color="#9198a1"
+                :label="favoriteButtonLabel"
+                :pressed="false"
                 @click="onFavoriteClick"
               />
             </div>
