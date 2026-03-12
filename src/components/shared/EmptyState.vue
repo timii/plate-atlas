@@ -21,7 +21,7 @@ const props = withDefaults(
 <style scoped>
 .empty-state {
   border: 1px solid color-mix(in oklab, var(--line) 78%, #ffffff 22%);
-  border-radius: 0.46rem;
+  border-radius: var(--atlas-radius-panel);
   background: linear-gradient(180deg, rgba(12, 10, 18, 0.94), rgba(8, 6, 13, 0.9));
   padding: 0.95rem 0.9rem;
 }
@@ -38,3 +38,4 @@ const props = withDefaults(
   font-size: 0.78rem;
 }
 </style>
+

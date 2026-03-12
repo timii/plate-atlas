@@ -293,7 +293,7 @@ watch(
   width: 100%;
   min-height: 2.75rem;
   border: 1px solid var(--line);
-  border-radius: 0.44rem;
+  border-radius: var(--atlas-radius-control);
   background: color-mix(in oklab, var(--surface-2) 92%, #0a0b10 8%);
   color: var(--text);
   display: inline-flex;
@@ -319,7 +319,7 @@ watch(
   width: 100%;
   min-width: 12rem;
   border: 1px solid color-mix(in oklab, var(--line) 84%, #ffffff 16%);
-  border-radius: 0.44rem;
+  border-radius: var(--atlas-radius-control);
   background: linear-gradient(180deg, rgba(14, 14, 20, 0.98), rgba(10, 10, 16, 0.96));
   padding: 0.28rem;
   display: grid;
@@ -341,7 +341,7 @@ watch(
 
 .item {
   border: none;
-  border-radius: 0.32rem;
+  border-radius: var(--atlas-radius-option);
   background: transparent;
   color: var(--muted);
   text-align: left;
@@ -366,3 +366,4 @@ watch(
   }
 }
 </style>
+

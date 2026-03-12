@@ -54,8 +54,21 @@
   --atlas-line: rgba(244, 237, 255, 0.24);
   --atlas-header-surface: rgba(13, 10, 18, 0.72);
   --atlas-header-surface-mobile: rgba(13, 10, 18, 0.82);
-  --atlas-header-height: 3.5rem;
-    /* keep compact action hovers consistent across shared controls */
+  --atlas-header-height: 3.35rem;
+  --atlas-header-height-mobile: 3.1rem;
+  --atlas-header-offset: 0.55rem;
+  --atlas-header-offset-mobile: 0.42rem;
+  --atlas-content-width: 78rem;
+  --atlas-content-width-wide: 82rem;
+  --atlas-page-gutter: 1.5rem;
+  --atlas-page-gutter-mobile: 0.9rem;
+  --atlas-radius-shell: 0.92rem;
+  --atlas-radius-panel: 0.92rem;
+  --atlas-radius-control: 0.52rem;
+  --atlas-radius-row: 0.52rem;
+  --atlas-radius-chip: 0.28rem;
+  --atlas-radius-option: 0.36rem;
+  /* keep compact action hovers consistent across shared controls */
   --atlas-control-hover: rgba(255, 255, 255, 0.08);
 }
 
@@ -111,7 +124,7 @@ body {
   border: 1px solid var(--atlas-row-line, var(--line));
   border-left: var(--atlas-row-accent-width, 0.32rem) solid
     color-mix(in oklab, var(--tone, #97a0b5) 76%, #ffffff);
-  border-radius: 0.44rem;
+  border-radius: var(--atlas-radius-row);
   background: var(--atlas-row-bg, var(--surface));
   transition:
     border-color 160ms ease,
@@ -128,7 +141,7 @@ body {
 
 .atlas-code-chip {
   border: 1px solid var(--atlas-code-chip-line, var(--line));
-  border-radius: 0.22rem;
+  border-radius: var(--atlas-radius-chip);
   min-inline-size: var(--code-chip-width, 3.5rem);
   inline-size: var(--code-chip-width, 3.5rem);
   padding: 0.02rem 0.2rem;
@@ -157,4 +170,5 @@ body {
   font-size: 0.68rem;
   text-align: left;
 }
+
 

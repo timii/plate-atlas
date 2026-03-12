@@ -32,7 +32,7 @@ const panelStyle = computed(() => {
   display: grid;
   gap: 0.82rem;
   border: 1px solid var(--line);
-  border-radius: 0.62rem;
+  border-radius: var(--atlas-radius-panel);
   background: var(--surface);
   padding: 0.88rem;
 }
@@ -64,3 +64,4 @@ const panelStyle = computed(() => {
   }
 }
 </style>
+

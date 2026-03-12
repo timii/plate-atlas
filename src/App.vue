@@ -4,9 +4,21 @@ import Header from './components/header/Header.vue'
 
 <template>
   <Header></Header>
-  <main class="h-full px-6 pt-14">
+  <main class="app-main">
     <RouterView></RouterView>
   </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+.app-main {
+  min-height: 100vh;
+  padding: calc(var(--atlas-header-height) + var(--atlas-header-offset) + 0.45rem) var(--atlas-page-gutter) 0;
+}
+
+@media (max-width: 760px) {
+  .app-main {
+    padding: calc(var(--atlas-header-height-mobile) + var(--atlas-header-offset-mobile) + 0.35rem) var(--atlas-page-gutter-mobile) 0;
+  }
+}
+</style>
+

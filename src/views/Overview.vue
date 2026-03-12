@@ -211,7 +211,7 @@ onMounted(() => {
 }
 
 .content-shell {
-  width: min(78rem, 100%);
+  width: min(var(--atlas-content-width), 100%);
   margin-inline: auto;
   display: grid;
   gap: 0.9rem;
@@ -251,7 +251,7 @@ onMounted(() => {
   align-items: center;
   justify-content: space-between;
   border: 1px solid color-mix(in oklab, var(--line) 78%, #ffffff 22%);
-  border-radius: 0.46rem;
+  border-radius: var(--atlas-radius-row);
   background: linear-gradient(180deg, rgba(12, 10, 18, 0.94), rgba(8, 6, 13, 0.9));
   padding: 0.36rem 0.56rem;
 }
@@ -348,7 +348,8 @@ onMounted(() => {
 
 @media (min-width: 1500px) {
   .content-shell {
-    width: min(82rem, 100%);
+    width: min(var(--atlas-content-width-wide), 100%);
   }
 }
 </style>
+

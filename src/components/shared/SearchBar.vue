@@ -52,7 +52,7 @@ function onInputKeydown(event: KeyboardEvent) {
   align-items: center;
   gap: 0.36rem;
   border: 1px solid var(--line);
-  border-radius: 0.44rem;
+  border-radius: var(--atlas-radius-control);
   background: var(--surface-2);
   min-height: 2.75rem;
   padding: 0.28rem 0.56rem;
@@ -86,7 +86,7 @@ function onInputKeydown(event: KeyboardEvent) {
   border: none;
   background: transparent;
   color: var(--muted);
-  border-radius: 0.28rem;
+  border-radius: var(--atlas-radius-chip);
   padding: 0.1rem;
   cursor: pointer;
 }
@@ -101,4 +101,5 @@ function onInputKeydown(event: KeyboardEvent) {
   outline-offset: 1px;
 }
 </style>
+
 
