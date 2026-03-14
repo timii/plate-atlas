@@ -29,7 +29,7 @@ const props = defineProps({
   <button
     v-if="props.iconComponent"
     type="button"
-    class="icon cursor-pointer rounded-lg p-1 transition-all duration-200 ease-cubic"
+    class="icon"
     :aria-label="props.label"
     :aria-pressed="props.pressed"
   >
@@ -37,6 +37,7 @@ const props = defineProps({
       :is="props.iconComponent"
       :style="{
         width: props.size,
+        height: props.size,
       }"
     ></component>
   </button>
@@ -44,9 +45,19 @@ const props = defineProps({
 
 <style scoped>
 .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--atlas-touch-target);
+  height: var(--atlas-touch-target);
   border: none;
+  border-radius: var(--atlas-radius-control);
   background: transparent;
   color: v-bind('props.color');
+  cursor: pointer;
+  transition:
+    background-color 200ms ease,
+    color 200ms ease;
 }
 
 .icon:hover {

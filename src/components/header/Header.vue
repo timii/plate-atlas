@@ -129,7 +129,7 @@ watch(
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 0.72rem;
+  gap: 0.04rem;
   flex: 0 0 auto;
   min-width: 0;
 }
@@ -138,31 +138,33 @@ watch(
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
   border: none;
+  border-radius: 999px;
   background: transparent;
   padding: 0;
   color: color-mix(in oklab, var(--atlas-muted) 88%, #ffffff 12%);
-  transition: color 160ms ease;
+  cursor: pointer;
+  transition:
+    background-color 160ms ease,
+    color 160ms ease;
 }
 
 .icon-link:hover {
+  background: var(--atlas-control-hover);
   color: var(--atlas-text);
 }
 
 .icon-link:focus-visible {
   outline: 2px solid color-mix(in oklab, #8ea3f2 58%, #ffffff 42%);
-  outline-offset: 4px;
-  border-radius: var(--atlas-radius-control);
+  outline-offset: 3px;
 }
 
 .icon-link svg,
 .icon-link :deep(svg) {
-  width: 1rem;
-  height: 1rem;
-}
-
-.icon-link {
-  cursor: pointer;
+  width: 1.16rem;
+  height: 1.16rem;
 }
 
 @media (max-width: 760px) {
@@ -187,10 +189,6 @@ watch(
   .title {
     font-size: 0.89rem;
   }
-
-  .header-actions {
-    gap: 0.62rem;
-  }
 }
 
 @media (max-width: 520px) {
@@ -212,8 +210,9 @@ watch(
     font-size: 0.84rem;
   }
 
-  .header-actions {
-    gap: 0.54rem;
+  .icon-link {
+    width: 2.3rem;
+    height: 2.3rem;
   }
 }
 
