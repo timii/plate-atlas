@@ -6,7 +6,7 @@ import { computed, ref } from 'vue'
 export type CountrySortMode = 'country' | 'code'
 export type CountryGroupBy = 'none' | 'letter' | 'continent'
 
-export interface ICountryGroup {
+interface ICountryGroup {
   key: string
   label: string
   rows: ICountry[]
@@ -162,10 +162,6 @@ export const useCountriesStore = defineStore('countries', () => {
 
   const hasResults = computed(() => orderedCountries.value.length > 0)
 
-  // keep these aliases for backwards compatibility with earlier overview wiring
-  const mappedCountries = computed(() => orderedCountries.value)
-  const mappedCountriesLength = computed(() => orderedCountries.value.length)
-
   function setCountries(data: ICountryData) {
     countries.value = data
   }
@@ -178,8 +174,6 @@ export const useCountriesStore = defineStore('countries', () => {
     groupBy,
     selectedContinent,
     allCountriesLength,
-    mappedCountries,
-    mappedCountriesLength,
     lastUpdatedLabel,
     sortDropdownItems,
     groupDropdownItems,

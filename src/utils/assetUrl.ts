@@ -1,4 +1,4 @@
-export function resolveStaticAssetUrl(path?: string | null): string | null {
+function resolveStaticAssetUrl(path?: string | null): string | null {
   if (!path) {
     return null
   }
