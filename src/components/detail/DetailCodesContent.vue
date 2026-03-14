@@ -78,7 +78,7 @@ function onSortToggle(nextOpen: boolean) {
       :class="{ 'rows--long-codes': hasLongCodes }"
       aria-label="regional code rows"
     >
-      <article v-for="detail in mappedDetails" :key="detail.code + detail.name" class="row atlas-row">
+      <article v-for="detail in mappedDetails" :key="detail.code + detail.name" class="row">
         <CodeChip :text="detail.code" :title="detail.code" accented :multiline="hasLongCodes" />
         <span class="name">{{ detail.name }}</span>
       </article>
@@ -121,13 +121,17 @@ function onSortToggle(nextOpen: boolean) {
 }
 
 .row {
-  --row-line: color-mix(in oklab, var(--line) 80%, #ffffff 20%);
-  --atlas-row-line: var(--row-line);
+  --atlas-row-accent-width: 0.32rem;
+  --atlas-row-line: color-mix(in oklab, var(--line) 80%, #ffffff 20%);
   --atlas-row-bg: color-mix(in oklab, var(--surface) 88%, #09070d 12%);
-  --atlas-row-hover-line: color-mix(in oklab, var(--tone) 60%, var(--line));
-  --atlas-row-hover-bg: color-mix(in oklab, var(--surface) 80%, #ffffff 20%);
   display: grid;
+  gap: 0.56rem;
+  align-items: center;
   grid-template-columns: var(--code-chip-width) minmax(0, 1fr);
+  border: 1px solid var(--atlas-row-line);
+  border-left: var(--atlas-row-accent-width) solid color-mix(in oklab, var(--tone) 76%, #ffffff);
+  border-radius: var(--atlas-radius-row);
+  background: var(--atlas-row-bg);
   padding: 0.46rem 0.54rem;
 }
 

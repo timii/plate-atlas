@@ -1,5 +1,6 @@
 import type { ICountry, ICountryData } from '@/models/country.model'
 import type { IDropdownItem } from '@/models/dropdown.model'
+import { hasCountryDetailsFile } from '@/utils/countryDetailsLoader'
 import { defineStore } from 'pinia'
 import { computed, ref } from 'vue'
 
@@ -14,20 +15,6 @@ interface ICountryGroup {
 
 const continentOrder = ['Africa', 'Americas', 'Asia', 'Europe', 'Oceania'] as const
 
-// resolve which overview rows have detail pages without pulling every detail file into the main bundle
-const countryDetailFiles = import.meta.glob('/src/data/countries/en/*.json')
-const availableCountryCodes = new Set(
-  Object.keys(countryDetailFiles).map((path) => {
-    const filename = path.split('/').pop()?.replace('.json', '') || ''
-    return filename.toLowerCase()
-  }),
-)
-
-// check if a detail file exists for a given country code
-export function hasCountryDetailsFile(code: string): boolean {
-  return availableCountryCodes.has(code.toLowerCase())
-}
-
 export const useCountriesStore = defineStore('countries', () => {
   const countries = ref<ICountryData>({ lastUpdate: '', countries: [] })
   const favorites = ref<string[]>([])
@@ -40,7 +27,7 @@ export const useCountriesStore = defineStore('countries', () => {
 
   const countriesWithDetails = computed(() => {
     return countries.value.countries.filter((country) => {
-      return availableCountryCodes.has(country.code.toLowerCase())
+      return hasCountryDetailsFile(country.code)
     })
   })
 

@@ -14,6 +14,7 @@ import PageHeader from '@/components/shared/PageHeader.vue'
 import EmptyState from '@/components/shared/EmptyState.vue'
 import { type CountryGroupBy, type CountrySortMode, useCountriesStore } from '@/stores/countries'
 import { getToneStyle } from '@/constants/continentTone'
+import { preloadCountryDetails } from '@/utils/countryDetailsLoader'
 import { pickPreferredStaticAssetUrl } from '@/utils/assetUrl'
 
 type DropdownKey = 'sort' | 'group' | 'continent' | null
@@ -63,6 +64,12 @@ function rowStyle(continent: string): Record<string, string> {
 
 function detailPath(code: string): string {
   return `/overview/${code.toLowerCase()}`
+}
+
+function onCountryIntent(code: string) {
+  // hover, focus, and touch already preload the next detail file
+  // if navigation happens next the detail page can await the already running request
+  preloadCountryDetails(code)
 }
 
 // prefer mirrored assets while keeping remote fallback
@@ -163,6 +170,9 @@ onMounted(() => {
               :to="detailPath(country.code)"
               class="row atlas-row"
               :style="rowStyle(country.continent)"
+              @mouseenter="onCountryIntent(country.code)"
+              @focus="onCountryIntent(country.code)"
+              @touchstart.passive="onCountryIntent(country.code)"
             >
               <CodeChip :text="country.code" />
               <span class="meta">
@@ -360,4 +370,3 @@ onMounted(() => {
   }
 }
 </style>
-

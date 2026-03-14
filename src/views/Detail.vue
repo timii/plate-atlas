@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
-import { hasCountryDetailsFile, useCountriesStore } from '@/stores/countries'
-import { isOfTypeCodes, isOfTypeExampleImages, type ICountryDetails } from '@/models/country.model'
+import { useCountriesStore } from '@/stores/countries'
+import { isOfTypeCodes, isOfTypeExampleImages } from '@/models/country.model'
 import countriesJson from '@/data/current-license-plates.json'
 import IconButton from '@/components/detail/IconButton.vue'
 import StarEmpty from '@/assets/icons/StarEmpty.vue'
@@ -14,6 +14,7 @@ import { useDetailsStore } from '@/stores/details'
 import DetailCodesContent from '@/components/detail/DetailCodesContent.vue'
 import DetailExampleImagesContent from '@/components/detail/DetailExampleImagesContent.vue'
 import { getContinentTone, getToneStyle } from '@/constants/continentTone'
+import { hasCountryDetailsFile, loadCountryDetails } from '@/utils/countryDetailsLoader'
 
 const route = useRoute()
 const countriesStore = useCountriesStore()
@@ -137,9 +138,8 @@ async function loadDetailsFor(code: string) {
   resetDetailContent()
 
   try {
-    const { default: countryDetails } = (await import(`../data/countries/en/${code}.json`)) as {
-      default: ICountryDetails
-    }
+    // reuse the preloaded request when navigation started from the overview
+    const countryDetails = await loadCountryDetails(code)
 
     if (isOfTypeExampleImages(countryDetails)) {
       detailsStore.exampleImages = countryDetails
@@ -194,7 +194,10 @@ onBeforeUnmount(() => {
   document.documentElement.style.removeProperty('--atlas-page-tone')
 })
 
-// treat missing routes and missing data files as explicit not-found states
+// route flow:
+// 1) make sure the country list exists so the route can resolve its metadata
+// 2) stop early for invalid codes or countries without a detail file
+// 3) hand the code to the shared loader which either starts or reuses the import promise
 watch(
   countryCode,
   async (code) => {
@@ -206,6 +209,7 @@ watch(
     ensureCountriesLoaded()
 
     if (!selectedCountry.value || !hasCountryDetailsFile(code)) {
+      // treat missing data files as explicit not-found states
       showNotFoundState()
       return
     }
@@ -217,10 +221,7 @@ watch(
 </script>
 
 <template>
-  <section
-    class="detail-page -mx-4 min-h-screen px-4 pb-12 sm:-mx-6 sm:px-6"
-    :style="toneStyle"
-  >
+  <section class="detail-page -mx-4 min-h-screen px-4 pb-12 sm:-mx-6 sm:px-6" :style="toneStyle">
     <div class="content-shell">
       <div v-if="loading" class="loading-wrap">
         <Loading />
