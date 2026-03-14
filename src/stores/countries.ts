@@ -14,8 +14,8 @@ export interface ICountryGroup {
 
 const continentOrder = ['Africa', 'Americas', 'Asia', 'Europe', 'Oceania'] as const
 
-// resolve which overview rows have detail pages
-const countryDetailFiles = import.meta.glob('/src/data/countries/en/*.json', { eager: true })
+// resolve which overview rows have detail pages without pulling every detail file into the main bundle
+const countryDetailFiles = import.meta.glob('/src/data/countries/en/*.json')
 const availableCountryCodes = new Set(
   Object.keys(countryDetailFiles).map((path) => {
     const filename = path.split('/').pop()?.replace('.json', '') || ''
