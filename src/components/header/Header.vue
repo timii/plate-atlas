@@ -1,6 +1,30 @@
 <script setup lang="ts">
-import { RouterLink } from 'vue-router'
+import { ref, watch } from 'vue'
+import { RouterLink, useRoute } from 'vue-router'
+import Github from '@/assets/icons/Github.vue'
+import Info from '@/assets/icons/Info.vue'
 import logo from '@/assets/logo.svg'
+import AboutDialog from './AboutDialog.vue'
+
+const route = useRoute()
+const isAboutOpen = ref(false)
+const repositoryUrl = 'https://github.com/timii/plate-atlas'
+
+function openAbout() {
+  isAboutOpen.value = true
+}
+
+function closeAbout() {
+  isAboutOpen.value = false
+}
+
+// close the about dialog when navigation changes
+watch(
+  () => route.fullPath,
+  () => {
+    isAboutOpen.value = false
+  },
+)
 </script>
 
 <template>
@@ -12,10 +36,33 @@ import logo from '@/assets/logo.svg'
       </RouterLink>
 
       <div class="header-actions">
-        <span class="meta-link">About</span>
+        <a
+          :href="repositoryUrl"
+          class="icon-link"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Open the Plate Atlas repository on GitHub"
+          title="GitHub repository"
+        >
+          <Github />
+        </a>
+        <button
+          type="button"
+          class="icon-link"
+          aria-haspopup="dialog"
+          aria-controls="about-dialog-panel"
+          :aria-expanded="isAboutOpen"
+          aria-label="About Plate Atlas"
+          title="About Plate Atlas"
+          @click="openAbout"
+        >
+          <Info />
+        </button>
       </div>
     </div>
   </header>
+
+  <AboutDialog :open="isAboutOpen" @close="closeAbout" />
 </template>
 
 <style scoped>
@@ -82,16 +129,40 @@ import logo from '@/assets/logo.svg'
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  gap: 0.72rem;
   flex: 0 0 auto;
   min-width: 0;
 }
 
-.meta-link {
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  padding: 0;
   color: color-mix(in oklab, var(--atlas-muted) 88%, #ffffff 12%);
-  font-size: 0.79rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  white-space: nowrap;
+  transition: color 160ms ease;
+}
+
+.icon-link:hover {
+  color: var(--atlas-text);
+}
+
+.icon-link:focus-visible {
+  outline: 2px solid color-mix(in oklab, #8ea3f2 58%, #ffffff 42%);
+  outline-offset: 4px;
+  border-radius: var(--atlas-radius-control);
+}
+
+.icon-link svg,
+.icon-link :deep(svg) {
+  width: 1rem;
+  height: 1rem;
+}
+
+.icon-link {
+  cursor: pointer;
 }
 
 @media (max-width: 760px) {
@@ -117,9 +188,8 @@ import logo from '@/assets/logo.svg'
     font-size: 0.89rem;
   }
 
-  .meta-link {
-    font-size: 0.73rem;
-    letter-spacing: 0.05em;
+  .header-actions {
+    gap: 0.62rem;
   }
 }
 
@@ -142,9 +212,8 @@ import logo from '@/assets/logo.svg'
     font-size: 0.84rem;
   }
 
-  .meta-link {
-    font-size: 0.69rem;
-    letter-spacing: 0.04em;
+  .header-actions {
+    gap: 0.54rem;
   }
 }
 
@@ -154,8 +223,3 @@ import logo from '@/assets/logo.svg'
   }
 }
 </style>
-
-
-
-
-
