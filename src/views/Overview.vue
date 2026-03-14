@@ -101,7 +101,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="overview-page -mx-4 -mt-14 min-h-screen px-4 pt-20 pb-12 sm:-mx-6 sm:px-6">
+  <section class="overview-page -mx-4 min-h-screen px-4 pb-12 sm:-mx-6 sm:px-6">
     <div class="content-shell">
       <PageHeader
         title="Countries"
@@ -205,6 +205,8 @@ onMounted(() => {
   --code-chip-width: 3.5rem;
   background: linear-gradient(165deg, var(--bg-1), var(--bg-2));
   color: var(--text);
+  margin-top: -3.5rem;
+  padding-top: 5rem;
   font-size: 1.1rem;
   font-weight: 400;
   padding-bottom: calc(env(safe-area-inset-bottom) + 2.8rem);
@@ -336,6 +338,12 @@ onMounted(() => {
 }
 
 @media (max-width: 760px) {
+  /* return the page to normal flow when the mobile header scrolls away */
+  .overview-page {
+    margin-top: 0;
+    padding-top: 0.95rem;
+  }
+
   .row {
     gap: 0.46rem;
     padding: 0.4rem 0.5rem;

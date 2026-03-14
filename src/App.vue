@@ -17,8 +17,9 @@ import Header from './components/header/Header.vue'
 }
 
 @media (max-width: 760px) {
+  /* let the mobile header take part in normal page flow */
   .app-main {
-    padding: calc(var(--atlas-header-height-mobile) + var(--atlas-header-offset-mobile) + 0.35rem) var(--atlas-page-gutter-mobile) 0;
+    padding: 0 var(--atlas-page-gutter-mobile) 0;
   }
 }
 </style>

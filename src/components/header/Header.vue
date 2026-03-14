@@ -169,7 +169,10 @@ watch(
 }
 
 @media (max-width: 760px) {
+  /* let the header scroll with the content on smaller screens */
   .header {
+    position: static;
+    inset: auto;
     padding: var(--atlas-header-offset-mobile) var(--atlas-page-gutter-mobile) 0;
   }
 

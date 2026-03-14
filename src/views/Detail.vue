@@ -218,7 +218,7 @@ watch(
 
 <template>
   <section
-    class="detail-page -mx-4 -mt-14 min-h-screen px-4 pt-20 pb-12 sm:-mx-6 sm:px-6"
+    class="detail-page -mx-4 min-h-screen px-4 pb-12 sm:-mx-6 sm:px-6"
     :style="toneStyle"
   >
     <div class="content-shell">
@@ -279,6 +279,8 @@ watch(
   --line: var(--atlas-line);
   background: linear-gradient(165deg, var(--atlas-bg-1), var(--atlas-bg-2));
   color: var(--text);
+  margin-top: -3.5rem;
+  padding-top: 5rem;
   padding-bottom: calc(env(safe-area-inset-bottom) + 2.8rem);
 }
 
@@ -298,6 +300,14 @@ watch(
 
 .favorite-wrap {
   display: inline-flex;
+}
+
+@media (max-width: 760px) {
+  /* return the page to normal flow when the mobile header scrolls away */
+  .detail-page {
+    margin-top: 0;
+    padding-top: 0.95rem;
+  }
 }
 
 @media (min-width: 1500px) {
