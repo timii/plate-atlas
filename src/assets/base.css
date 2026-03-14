@@ -1,56 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import 'tailwindcss';
 
-@theme {
-  --color-background-default-token: #131516;
-  --color-background-highlight-token: #262c36;
-  --color-background-highlight-layer1-token: #10141e;
-  --color-background-highlight-layer2-token: #1c2029;
-  --color-background-hover-token: var(--color-gray-700);
-
-  --color-border-default-token: rgba(84, 84, 84, 0.48);
-  --color-border-hover-token: rgba(84, 84, 84, 0.65);
-
-  --color-text-default-token: var(--color-white);
-  --color-text-secondary-token: var(--color-gray-400);
-  --color-text-tertiary-token: var(--color-gray-300);
-  --color-text-info-token: var(--color-gray-400);
-
-  /* ----------------------------- */
-  /* transition stuff */
-  /* ----------------------------- */
-  --ease-cubic: cubic-bezier(0.165, 0.84, 0.44, 1);
-
-  /* ----------------------------- */
-  /* spacing/dimensions */
-  /* ----------------------------- */
-  --spacing-action-element-height: var(--spacing) * 10; /* 10 * 4px = 40px */
-}
-
 :root {
   color-scheme: dark;
-  --color-background: var(--color-background-default-token);
-  --color-background-soft: var(--color-background-highlight-layer1-token);
-  --color-background-mute: var(--color-background-highlight-layer2-token);
-  --color-background-highlight: var(--color-background-highlight-token);
-  --color-background-highlight-layer1: var(--color-background-highlight-layer1-token);
-  --color-background-highlight-layer2: var(--color-background-highlight-layer2-token);
-  --color-background-hover: var(--color-background-hover-token);
-  --color-border: var(--color-border-default-token);
-  --color-border-hover: var(--color-border-hover-token);
-  --color-text: var(--color-text-default-token);
-  --color-heading: var(--color-text-default-token);
 
-  /* shared tokens for overview/header design language */
+  /* atlas surface and text tokens */
   --atlas-bg-1: #17131b;
   --atlas-bg-2: #221b29;
   --atlas-surface: rgba(10, 8, 13, 0.66);
   --atlas-surface-2: rgba(7, 5, 10, 0.82);
+  --atlas-header-surface: rgba(13, 10, 18, 0.72);
   --atlas-text: #f4edff;
   --atlas-muted: #c7bade;
   --atlas-line: rgba(244, 237, 255, 0.24);
-  --atlas-header-surface: rgba(13, 10, 18, 0.72);
-  --atlas-header-surface-mobile: rgba(13, 10, 18, 0.82);
+
+  /* shared layout tokens */
   --atlas-header-height: 3.35rem;
   --atlas-header-height-mobile: 3.1rem;
   --atlas-header-offset: 0.55rem;
@@ -59,14 +23,17 @@
   --atlas-content-width-wide: 82rem;
   --atlas-page-gutter: 1.5rem;
   --atlas-page-gutter-mobile: 0.9rem;
+  --atlas-touch-target: 2.75rem;
+
+  /* shared shape tokens */
   --atlas-radius-shell: 0.92rem;
   --atlas-radius-panel: 0.92rem;
   --atlas-radius-control: 0.52rem;
   --atlas-radius-row: 0.52rem;
   --atlas-radius-chip: 0.28rem;
   --atlas-radius-option: 0.36rem;
-  --atlas-touch-target: 2.75rem;
-  /* keep compact action hovers consistent across shared controls */
+
+  /* shared interaction tokens */
   --atlas-control-hover: rgba(255, 255, 255, 0.08);
 }
 
@@ -79,8 +46,8 @@
 
 body {
   min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
+  color: var(--atlas-text);
+  background: var(--atlas-bg-1);
   line-height: 1.6;
   font-family:
     'Inter',
