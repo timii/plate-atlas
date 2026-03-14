@@ -18,11 +18,14 @@ const { lastUpdatedLabel } = storeToRefs(countriesStore)
 const panelRef = ref<HTMLElement | null>(null)
 const closeButtonRef = ref<HTMLButtonElement | null>(null)
 const previouslyFocusedElement = ref<HTMLElement | null>(null)
+const creatorUrl = 'https://github.com/timii'
 const repositoryUrl = 'https://github.com/timii/plate-atlas'
+const licenseUrl = `${repositoryUrl}/blob/main/LICENSE`
 const correctionUrl = `${repositoryUrl}/issues/new/choose`
 const pullRequestUrl = `${repositoryUrl}/pulls`
 const sources = [
   { label: 'Wikimedia Commons', href: 'https://commons.wikimedia.org/' },
+  { label: 'Wikipedia', href: 'https://www.wikipedia.org/' },
   { label: 'Plate Shack', href: 'https://www.plateshack.com/' },
   { label: "Olav's Plates", href: 'https://www.olavsplates.com/' },
   { label: 'License Plate Mania', href: 'https://www.licenseplatemania.com/' },
@@ -172,11 +175,30 @@ onBeforeUnmount(() => {
                   v-for="source in sources"
                   :key="source.label"
                   :href="source.href"
+                  class="inline-link"
                   target="_blank"
                   rel="noreferrer"
                 >
                   {{ source.label }}
                 </a>
+              </dd>
+            </div>
+
+            <div class="fact-row">
+              <dt>Created by</dt>
+              <dd>
+                <a :href="creatorUrl" class="inline-link" target="_blank" rel="noreferrer"
+                  >timii</a
+                >
+              </dd>
+            </div>
+
+            <div class="fact-row">
+              <dt>License</dt>
+              <dd>
+                <a :href="licenseUrl" class="inline-link" target="_blank" rel="noreferrer"
+                  >MIT</a
+                >
               </dd>
             </div>
 
@@ -314,7 +336,7 @@ onBeforeUnmount(() => {
   gap: 0.28rem 0.46rem;
 }
 
-.source-links a {
+.inline-link {
   color: color-mix(in oklab, var(--atlas-text) 90%, #ffffff 10%);
   text-decoration: none;
   border-bottom: 1px solid color-mix(in oklab, var(--atlas-line) 76%, #ffffff 12%);
@@ -323,7 +345,7 @@ onBeforeUnmount(() => {
     border-color 160ms ease;
 }
 
-.source-links a:hover {
+.inline-link:hover {
   color: var(--atlas-text);
   border-color: color-mix(in oklab, var(--atlas-text) 40%, var(--atlas-line));
 }
@@ -363,7 +385,7 @@ onBeforeUnmount(() => {
 }
 
 .text-link:focus-visible,
-.source-links a:focus-visible {
+.inline-link:focus-visible {
   outline: 2px solid color-mix(in oklab, var(--atlas-page-tone, #6f87d9) 64%, var(--atlas-line));
   outline-offset: 3px;
   border-radius: 0.35rem;
