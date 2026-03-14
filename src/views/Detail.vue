@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
-import { useCountriesStore } from '@/stores/countries'
+import { hasCountryDetailsFile, useCountriesStore } from '@/stores/countries'
 import { isOfTypeCodes, isOfTypeExampleImages, type ICountryDetails } from '@/models/country.model'
 import countriesJson from '@/data/current-license-plates.json'
 import IconButton from '@/components/detail/IconButton.vue'
@@ -9,6 +9,7 @@ import StarEmpty from '@/assets/icons/StarEmpty.vue'
 import StarFilled from '@/assets/icons/StarFilled.vue'
 import Loading from '@/components/detail/Loading.vue'
 import PageHeader from '@/components/shared/PageHeader.vue'
+import EmptyState from '@/components/shared/EmptyState.vue'
 import { useDetailsStore } from '@/stores/details'
 import DetailCodesContent from '@/components/detail/DetailCodesContent.vue'
 import DetailExampleImagesContent from '@/components/detail/DetailExampleImagesContent.vue'
@@ -18,9 +19,13 @@ const route = useRoute()
 const countriesStore = useCountriesStore()
 const detailsStore = useDetailsStore()
 
+type DetailStatus = 'loading' | 'ready' | 'not-found' | 'error'
+
 const loading = ref(false)
+const detailStatus = ref<DetailStatus>('loading')
 const countryHasCodes = ref(false)
 const formatDescription = ref('')
+const detailErrorMessage = ref('')
 
 const countryCode = computed(() => ((route.params.code as string | undefined) ?? '').toLowerCase())
 
@@ -34,6 +39,50 @@ const countryName = computed(() => selectedCountry.value?.country ?? 'No country
 const countryContinent = computed(() => selectedCountry.value?.continent ?? '-')
 const countryCodeLabel = computed(() => countryCode.value.toUpperCase() || '-')
 const countryMeta = computed(() => `${countryCodeLabel.value} - ${countryContinent.value}`)
+const canFavoriteCountry = computed(() => Boolean(selectedCountry.value))
+
+// show detail state in detail title
+const detailPageTitle = computed(() => {
+  if (detailStatus.value === 'not-found') {
+    return 'Country not found'
+  }
+
+  if (detailStatus.value === 'error') {
+    return selectedCountry.value?.country ?? 'Details unavailable'
+  }
+
+  return countryName.value
+})
+
+const detailPageMeta = computed(() => {
+  if (detailStatus.value === 'not-found') {
+    return countryCodeLabel.value
+      ? `No plate data found for ${countryCodeLabel.value}`
+      : 'Unknown route'
+  }
+
+  if (detailStatus.value === 'error' && !selectedCountry.value) {
+    return 'The detail route could not be resolved'
+  }
+
+  return countryMeta.value
+})
+
+const detailEmptyStateTitle = computed(() => {
+  if (detailStatus.value === 'not-found') {
+    return 'No plate data found for this route'
+  }
+
+  return 'Details are unavailable right now'
+})
+
+const detailEmptyStateMessage = computed(() => {
+  if (detailStatus.value === 'not-found') {
+    return 'Check the country code in the URL or return to the overview to choose a valid country'
+  }
+
+  return detailErrorMessage.value || 'The detail data could not be loaded, so try again later'
+})
 
 const isCountryFavorited = computed(() => countriesStore.favorites.includes(countryCode.value))
 // keep the button label aligned with the current favorite state
@@ -53,12 +102,31 @@ function ensureCountriesLoaded() {
   }
 }
 
-async function loadDetailsFor(code: string) {
-  loading.value = true
+// clear whichever detail branch was rendered for the previous route
+function resetDetailContent() {
   formatDescription.value = ''
   countryHasCodes.value = false
   detailsStore.details = []
   detailsStore.exampleImages = []
+}
+
+function showNotFoundState() {
+  detailStatus.value = 'not-found'
+  detailErrorMessage.value = ''
+  loading.value = false
+  resetDetailContent()
+}
+
+function showErrorState(message: string) {
+  detailStatus.value = 'error'
+  detailErrorMessage.value = message
+}
+
+async function loadDetailsFor(code: string) {
+  loading.value = true
+  detailStatus.value = 'loading'
+  detailErrorMessage.value = ''
+  resetDetailContent()
 
   try {
     const { default: countryDetails } = (await import(`../data/countries/en/${code}.json`)) as {
@@ -68,6 +136,7 @@ async function loadDetailsFor(code: string) {
     if (isOfTypeExampleImages(countryDetails)) {
       detailsStore.exampleImages = countryDetails
       countryHasCodes.value = false
+      detailStatus.value = 'ready'
       return
     }
 
@@ -75,9 +144,13 @@ async function loadDetailsFor(code: string) {
       detailsStore.details = countryDetails.entries
       formatDescription.value = countryDetails.format
       countryHasCodes.value = true
+      detailStatus.value = 'ready'
       return
     }
+
+    showErrorState('The detail data format is not supported yet')
   } catch (error) {
+    showErrorState('The detail data could not be loaded')
     console.error('failed to load detail json', error)
   } finally {
     loading.value = false
@@ -85,7 +158,9 @@ async function loadDetailsFor(code: string) {
 }
 
 function onFavoriteClick() {
-  if (!countryCode.value) return
+  if (!countryCode.value || !selectedCountry.value) {
+    return
+  }
 
   if (isCountryFavorited.value) {
     const index = countriesStore.favorites.findIndex((el) => el === countryCode.value)
@@ -98,13 +173,23 @@ function onFavoriteClick() {
   countriesStore.favorites.push(countryCode.value)
 }
 
+// treat missing routes and missing data files as explicit not-found states
 watch(
   countryCode,
-  (code) => {
-    if (!code) return
+  async (code) => {
+    if (!code) {
+      showNotFoundState()
+      return
+    }
 
     ensureCountriesLoaded()
-    loadDetailsFor(code)
+
+    if (!selectedCountry.value || !hasCountryDetailsFile(code)) {
+      showNotFoundState()
+      return
+    }
+
+    await loadDetailsFor(code)
   },
   { immediate: true },
 )
@@ -121,9 +206,9 @@ watch(
       </div>
 
       <template v-else>
-        <PageHeader :title="countryName" :meta="countryMeta">
+        <PageHeader :title="detailPageTitle" :meta="detailPageMeta">
           <template #actions>
-            <div class="favorite-wrap">
+            <div v-if="canFavoriteCountry" class="favorite-wrap">
               <IconButton
                 v-if="isCountryFavorited"
                 :icon-component="StarFilled"
@@ -144,8 +229,20 @@ watch(
           </template>
         </PageHeader>
 
-        <DetailCodesContent v-if="countryHasCodes" :format-description="formatDescription" />
-        <DetailExampleImagesContent v-else :country-name="countryName" />
+        <DetailCodesContent
+          v-if="detailStatus === 'ready' && countryHasCodes"
+          :format-description="formatDescription"
+        />
+        <DetailExampleImagesContent
+          v-else-if="detailStatus === 'ready'"
+          :country-name="countryName"
+        />
+        <EmptyState
+          v-else
+          :title="detailEmptyStateTitle"
+          :message="detailEmptyStateMessage"
+          aria-live="polite"
+        />
       </template>
     </div>
   </section>
@@ -188,4 +285,3 @@ watch(
   }
 }
 </style>
-

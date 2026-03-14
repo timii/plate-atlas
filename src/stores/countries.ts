@@ -23,6 +23,11 @@ const availableCountryCodes = new Set(
   }),
 )
 
+// check if a detail file exists for a given country code
+export function hasCountryDetailsFile(code: string): boolean {
+  return availableCountryCodes.has(code.toLowerCase())
+}
+
 export const useCountriesStore = defineStore('countries', () => {
   const countries = ref<ICountryData>({ lastUpdate: '', countries: [] })
   const favorites = ref<string[]>([])
