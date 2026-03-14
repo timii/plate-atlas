@@ -1,17 +1,8 @@
 <script setup lang="ts">
+import { storeToRefs } from 'pinia'
+import { nextTick, onBeforeUnmount, ref, watch } from 'vue'
 import Close from '@/assets/icons/Close.vue'
-import countriesData from '@/data/current-license-plates.json'
-import { computed, nextTick, onBeforeUnmount, ref, watch } from 'vue'
-
-interface IAboutAction {
-  href: string
-  label: string
-}
-
-interface IAboutSourceLink {
-  href: string
-  label: string
-}
+import { useCountriesStore } from '@/stores/countries'
 
 const props = defineProps<{
   open: boolean
@@ -21,86 +12,41 @@ const emit = defineEmits<{
   close: []
 }>()
 
-const repositoryUrl = 'https://github.com/timii/plate-atlas'
-const dialogPanelRef = ref<HTMLElement | null>(null)
+const countriesStore = useCountriesStore()
+const { lastUpdatedLabel } = storeToRefs(countriesStore)
+
+const panelRef = ref<HTMLElement | null>(null)
 const closeButtonRef = ref<HTMLButtonElement | null>(null)
-const previouslyFocusedEl = ref<HTMLElement | null>(null)
-const previousBodyOverflow = ref('')
-
-const sourceLinks: IAboutSourceLink[] = [
-  {
-    href: 'https://commons.wikimedia.org/wiki/Home_Page',
-    label: 'Wikimedia Commons',
-  },
-  {
-    href: 'https://www.plateshack.com/',
-    label: 'Plate Shack',
-  },
-  {
-    href: 'https://www.olavsplates.com/',
-    label: "Olav's Plates",
-  },
-  {
-    href: 'https://www.licenseplatemania.com/',
-    label: 'License Plate Mania',
-  },
-  {
-    href: 'http://www.worldlicenseplates.com/',
-    label: 'World License Plates',
-  },
+const previouslyFocusedElement = ref<HTMLElement | null>(null)
+const repositoryUrl = 'https://github.com/timii/plate-atlas'
+const correctionUrl = `${repositoryUrl}/issues/new/choose`
+const pullRequestUrl = `${repositoryUrl}/pulls`
+const sources = [
+  { label: 'Wikimedia Commons', href: 'https://commons.wikimedia.org/' },
+  { label: 'Plate Shack', href: 'https://www.plateshack.com/' },
+  { label: "Olav's Plates", href: 'https://www.olavsplates.com/' },
+  { label: 'License Plate Mania', href: 'https://www.licenseplatemania.com/' },
+  { label: 'World License Plates', href: 'https://www.worldlicenseplates.com/' },
 ]
-
-const aboutActions: IAboutAction[] = [
-  {
-    href: `${repositoryUrl}/issues/new`,
-    label: 'Report a correction',
-  },
-  {
-    href: `${repositoryUrl}/pulls`,
-    label: 'Open a pull request',
-  },
-]
-
-const lastDataUpdateLabel = computed(() => {
-  const date = new Date(countriesData.lastUpdate)
-  return date.toLocaleDateString(undefined, {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  })
-})
+let previousBodyOverflow = ''
 
 function closeDialog() {
   emit('close')
 }
 
-function onBackdropClick() {
-  closeDialog()
-}
-
-function onDialogKeydown(event: KeyboardEvent) {
-  if (!props.open) {
+// keep keyboard focus inside the dialog while it is open
+function trapFocus(event: KeyboardEvent) {
+  if (!props.open || !panelRef.value || event.key !== 'Tab') {
     return
   }
 
-  if (event.key === 'Escape') {
-    event.preventDefault()
-    closeDialog()
-    return
-  }
-
-  if (event.key !== 'Tab' || !dialogPanelRef.value) {
-    return
-  }
-
-  // keep keyboard focus inside the about panel
-  const focusableElements = dialogPanelRef.value.querySelectorAll<HTMLElement>(
-    'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])',
+  const focusableElements = panelRef.value.querySelectorAll<HTMLElement>(
+    'button:not([disabled]), [href], [tabindex]:not([tabindex="-1"])',
   )
 
   if (focusableElements.length === 0) {
     event.preventDefault()
-    dialogPanelRef.value.focus()
+    panelRef.value.focus()
     return
   }
 
@@ -120,79 +66,117 @@ function onDialogKeydown(event: KeyboardEvent) {
   }
 }
 
-// lock scrolling and return focus while the dialog is open
+function onDocumentKeydown(event: KeyboardEvent) {
+  if (!props.open) {
+    return
+  }
+
+  if (event.key === 'Escape') {
+    event.preventDefault()
+    closeDialog()
+    return
+  }
+
+  trapFocus(event)
+}
+
+function onDocumentFocusIn(event: FocusEvent) {
+  if (!props.open || !panelRef.value) {
+    return
+  }
+
+  const target = event.target
+  if (target instanceof Node && panelRef.value.contains(target)) {
+    return
+  }
+
+  closeButtonRef.value?.focus()
+}
+
+function addDialogListeners() {
+  document.addEventListener('keydown', onDocumentKeydown)
+  document.addEventListener('focusin', onDocumentFocusIn)
+}
+
+function removeDialogListeners() {
+  document.removeEventListener('keydown', onDocumentKeydown)
+  document.removeEventListener('focusin', onDocumentFocusIn)
+}
+
 watch(
   () => props.open,
-  (isOpen) => {
-    if (isOpen) {
-      previouslyFocusedEl.value =
+  async (open) => {
+    if (open) {
+      // restore focus to the triggering action after the dialog closes
+      previouslyFocusedElement.value =
         document.activeElement instanceof HTMLElement ? document.activeElement : null
-      previousBodyOverflow.value = document.body.style.overflow
+      previousBodyOverflow = document.body.style.overflow
       document.body.style.overflow = 'hidden'
-      document.addEventListener('keydown', onDialogKeydown)
+      addDialogListeners()
 
-      nextTick(() => {
-        closeButtonRef.value?.focus()
-      })
-
+      await nextTick()
+      closeButtonRef.value?.focus()
       return
     }
 
-    document.body.style.overflow = previousBodyOverflow.value
-    document.removeEventListener('keydown', onDialogKeydown)
+    document.body.style.overflow = previousBodyOverflow
+    removeDialogListeners()
 
-    nextTick(() => {
-      previouslyFocusedEl.value?.focus()
-    })
+    await nextTick()
+    previouslyFocusedElement.value?.focus()
   },
-  { immediate: true },
 )
 
-// clean up the dialog state if the component is removed mid-open
 onBeforeUnmount(() => {
-  document.body.style.overflow = previousBodyOverflow.value
-  document.removeEventListener('keydown', onDialogKeydown)
+  document.body.style.overflow = previousBodyOverflow
+  removeDialogListeners()
 })
 </script>
 
 <template>
   <Teleport to="body">
     <Transition name="about-dialog">
-      <div
-        v-if="props.open"
-        class="about-backdrop"
-        role="dialog"
-        aria-modal="true"
-        aria-label="About Plate Atlas"
-        @click.self="onBackdropClick"
-      >
-        <section id="about-dialog-panel" ref="dialogPanelRef" class="about-panel" tabindex="-1">
-          <header class="panel-header">
-            <p class="panel-label">About</p>
+      <div v-if="props.open" class="about-overlay" @click.self="closeDialog">
+        <section
+          id="about-dialog-panel"
+          ref="panelRef"
+          class="about-panel"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="about-dialog-title"
+          tabindex="-1"
+        >
+          <header class="about-head">
+            <p id="about-dialog-title" class="about-eyebrow">About</p>
             <button
               ref="closeButtonRef"
               type="button"
               class="close-button"
-              aria-label="close about dialog"
+              aria-label="Close the about dialog"
               @click="closeDialog"
             >
-              <Close />
+              <Close class="close-icon" />
             </button>
           </header>
 
-          <dl class="facts">
+          <dl class="fact-list">
             <div class="fact-row">
               <dt>Last data update</dt>
-              <dd>{{ lastDataUpdateLabel }}</dd>
+              <dd>{{ lastUpdatedLabel || 'Unavailable' }}</dd>
             </div>
 
             <div class="fact-row">
               <dt>Sources</dt>
               <dd class="source-links">
-                <template v-for="(source, index) in sourceLinks" :key="source.label">
-                  <a :href="source.href" target="_blank" rel="noreferrer">{{ source.label }}</a>
-                  <span v-if="index < sourceLinks.length - 1" class="separator">, </span>
-                </template>
+                <a
+                  v-for="source in sources"
+                  :key="source.label"
+                  :href="source.href"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {{ source.label }}
+                </a>
               </dd>
             </div>
 
@@ -206,15 +190,11 @@ onBeforeUnmount(() => {
           </dl>
 
           <div class="link-row">
-            <a
-              v-for="action in aboutActions"
-              :key="action.label"
-              :href="action.href"
-              class="text-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {{ action.label }}
+            <a :href="correctionUrl" class="text-link" target="_blank" rel="noreferrer">
+              Report a correction
+            </a>
+            <a :href="pullRequestUrl" class="text-link" target="_blank" rel="noreferrer">
+              Open a pull request
             </a>
           </div>
         </section>
@@ -224,134 +204,168 @@ onBeforeUnmount(() => {
 </template>
 
 <style scoped>
-.about-backdrop {
+.about-overlay {
   position: fixed;
   inset: 0;
-  z-index: 70;
+  z-index: 90;
   display: grid;
   place-items: center;
   padding: 1rem;
-  background:
-    radial-gradient(circle at top, rgba(146, 115, 184, 0.1), transparent 34%),
-    rgba(5, 4, 10, 0.68);
-  backdrop-filter: blur(8px);
+  background: rgba(6, 4, 10, 0.56);
+  backdrop-filter: blur(18px);
 }
 
 .about-panel {
-  width: min(40rem, 100%);
-  border: 1px solid color-mix(in oklab, var(--atlas-line) 70%, #ffffff 18%);
-  border-radius: var(--atlas-radius-panel);
-  background: linear-gradient(
-    180deg,
-    color-mix(in oklab, var(--atlas-header-surface) 98%, rgba(255, 255, 255, 0.025)),
-    color-mix(in oklab, var(--atlas-surface) 94%, #06050b 6%)
-  );
+  width: min(42rem, calc(100vw - 2rem));
+  padding: 0.95rem 1rem 0.95rem;
+  border: 1px solid color-mix(in oklab, var(--atlas-line) 62%, #ffffff 10%);
+  border-radius: 1rem;
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in oklab, var(--atlas-surface-2) 88%, rgba(255, 255, 255, 0.028)),
+      color-mix(in oklab, var(--atlas-surface) 92%, rgba(12, 9, 18, 0.72))
+    ),
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.03), transparent 58%);
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.03),
-    0 20px 48px rgba(5, 4, 10, 0.28);
-  backdrop-filter: blur(18px);
-  padding: 0.46rem 0.92rem 0.9rem;
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    0 22px 56px rgba(3, 2, 7, 0.42);
 }
 
-.about-panel:focus {
-  outline: none;
-}
-
-.panel-header {
+.about-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
-  margin-bottom: -0.04rem;
+  gap: 0.75rem;
+  padding-bottom: 0.35rem;
 }
 
-.panel-label,
-.fact-row dt {
-  margin: 0;
-  font-size: 0.72rem;
-  letter-spacing: 0.1em;
+.about-eyebrow {
+  color: color-mix(in oklab, var(--atlas-muted) 78%, #ffffff 22%);
+  font-size: 0.78rem;
+  font-weight: 560;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: color-mix(in oklab, var(--atlas-muted) 84%, #ffffff 16%);
 }
 
 .close-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
-  flex: 0 0 auto;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin: -0.24rem -0.16rem -0.1rem 0;
   border: none;
-  border-radius: var(--atlas-radius-control);
+  border-radius: 999px;
   background: transparent;
-  color: color-mix(in oklab, var(--atlas-muted) 80%, #ffffff 20%);
+  color: color-mix(in oklab, var(--atlas-muted) 84%, #ffffff 16%);
   cursor: pointer;
+  transition:
+    background-color 160ms ease,
+    color 160ms ease;
+}
+
+.close-icon {
+  width: 1rem;
+  height: 1rem;
+  flex: 0 0 auto;
 }
 
 .close-button:hover {
+  background: var(--atlas-control-hover);
   color: var(--atlas-text);
-  background: rgba(255, 255, 255, 0.05);
 }
 
-.close-button:focus-visible,
-.text-link:focus-visible,
-.source-links a:focus-visible {
+.close-button:focus-visible {
   outline: 2px solid color-mix(in oklab, #8ea3f2 58%, #ffffff 42%);
-  outline-offset: 3px;
+  outline-offset: 2px;
 }
 
-.close-button :deep(svg) {
-  width: 1.2rem;
-  height: 1.2rem;
-}
-
-.facts {
-  margin: 0;
-  border-top: 1px solid color-mix(in oklab, var(--atlas-line) 54%, transparent);
+.fact-list {
+  display: grid;
 }
 
 .fact-row {
   display: grid;
-  grid-template-columns: minmax(8rem, 9.4rem) minmax(0, 1fr);
-  gap: 0.95rem;
+  grid-template-columns: minmax(9.5rem, 10.5rem) minmax(0, 1fr);
+  gap: 0.95rem 1rem;
+  align-items: start;
   padding: 0.82rem 0;
-  border-bottom: 1px solid color-mix(in oklab, var(--atlas-line) 54%, transparent);
+  border-top: 1px solid color-mix(in oklab, var(--atlas-line) 54%, transparent);
+}
+
+.fact-row dt {
+  color: color-mix(in oklab, var(--atlas-muted) 78%, #ffffff 22%);
+  font-size: 0.76rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
 }
 
 .fact-row dd {
-  margin: 0;
-  color: color-mix(in oklab, var(--atlas-text) 90%, var(--atlas-muted));
-  line-height: 1.46;
-}
-
-.source-links a,
-.text-link {
-  color: color-mix(in oklab, var(--atlas-text) 92%, var(--atlas-muted));
-  text-decoration: none;
-  border-bottom: 1px solid color-mix(in oklab, var(--atlas-line) 74%, #ffffff 18%);
-}
-
-.source-links a:hover,
-.text-link:hover {
   color: var(--atlas-text);
-  border-color: color-mix(in oklab, #8ea3f2 48%, #ffffff 32%);
+  font-size: 0.84rem;
+  line-height: 1.6;
 }
 
-.separator {
-  color: color-mix(in oklab, var(--atlas-muted) 74%, #ffffff 26%);
+.source-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.28rem 0.46rem;
+}
+
+.source-links a {
+  color: color-mix(in oklab, var(--atlas-text) 90%, #ffffff 10%);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in oklab, var(--atlas-line) 76%, #ffffff 12%);
+  transition:
+    color 160ms ease,
+    border-color 160ms ease;
+}
+
+.source-links a:hover {
+  color: var(--atlas-text);
+  border-color: color-mix(in oklab, var(--atlas-text) 40%, var(--atlas-line));
 }
 
 .link-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.9rem 1.2rem;
+  gap: 0.55rem 0.7rem;
   padding-top: 0.88rem;
+  border-top: 1px solid color-mix(in oklab, var(--atlas-line) 54%, transparent);
 }
 
 .text-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.35rem;
+  padding: 0 0.9rem;
+  border: 1px solid color-mix(in oklab, var(--atlas-line) 72%, #ffffff 8%);
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--atlas-surface) 86%, transparent);
+  color: color-mix(in oklab, var(--atlas-muted) 86%, #ffffff 14%);
   font-size: 0.82rem;
-  letter-spacing: 0.02em;
-  padding-bottom: 0.08rem;
+  font-weight: 520;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  transition:
+    border-color 160ms ease,
+    background-color 160ms ease,
+    color 160ms ease;
+}
+
+.text-link:hover {
+  border-color: color-mix(in oklab, var(--atlas-text) 16%, var(--atlas-line));
+  background: color-mix(in oklab, var(--atlas-surface) 72%, rgba(255, 255, 255, 0.05));
+  color: var(--atlas-text);
+}
+
+.text-link:focus-visible,
+.source-links a:focus-visible {
+  outline: 2px solid color-mix(in oklab, #8ea3f2 58%, #ffffff 42%);
+  outline-offset: 3px;
+  border-radius: 0.35rem;
 }
 
 .about-dialog-enter-active,
@@ -377,40 +391,41 @@ onBeforeUnmount(() => {
   transform: translateY(10px);
 }
 
-/* switch the modal to a bottom sheet on smaller screens */
 @media (max-width: 640px) {
-  .about-backdrop {
-    place-items: end stretch;
-    padding: 0.6rem 0.6rem calc(0.6rem + env(safe-area-inset-bottom));
+  .about-overlay {
+    align-items: end;
+    padding: 0.7rem 0.7rem calc(0.7rem + env(safe-area-inset-bottom, 0px));
   }
 
+  /* use a bottom sheet on smaller screens so the dialog fits without feeling cramped */
   .about-panel {
-    width: 100%;
-    max-height: min(82vh, 36rem);
-    overflow: auto;
-    padding: 0.5rem 0.82rem 0.9rem;
-    border-radius: 1rem;
+    width: min(100%, 32rem);
+    max-height: min(85vh, 38rem);
+    overflow-y: auto;
+    padding: 0.82rem 0.88rem 0.92rem;
+    border-radius: 1rem 1rem 0.8rem 0.8rem;
   }
 
-  .panel-header {
-    margin-bottom: 0.02rem;
+  .about-head {
+    padding-bottom: 0.22rem;
   }
 
   .fact-row {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 0.32rem;
-    padding: 0.72rem 0;
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+    padding: 0.78rem 0;
   }
 
   .link-row {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr);
-    gap: 0.7rem;
+    flex-direction: column;
+    gap: 0.5rem;
   }
 
   .text-link {
-    width: fit-content;
-    min-height: 1.8rem;
+    width: 100%;
+    min-height: var(--atlas-touch-target);
+    justify-content: flex-start;
+    padding: 0 0.9rem;
   }
 }
 </style>
