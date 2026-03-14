@@ -104,8 +104,9 @@ watch(
   text-decoration: none;
 }
 
+/* use the active page tone so header focus states match overview and detail contexts */
 .brand-link:focus-visible {
-  outline: 2px solid color-mix(in oklab, #8ea3f2 58%, #ffffff 42%);
+  outline: 2px solid color-mix(in oklab, var(--atlas-page-tone, #6f87d9) 64%, var(--atlas-line));
   outline-offset: 4px;
   border-radius: var(--atlas-radius-control);
 }
@@ -157,7 +158,7 @@ watch(
 }
 
 .icon-link:focus-visible {
-  outline: 2px solid color-mix(in oklab, #8ea3f2 58%, #ffffff 42%);
+  outline: 2px solid color-mix(in oklab, var(--atlas-page-tone, #6f87d9) 64%, var(--atlas-line));
   outline-offset: 3px;
 }
 

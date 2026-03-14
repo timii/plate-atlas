@@ -276,8 +276,9 @@ onBeforeUnmount(() => {
   color: var(--atlas-text);
 }
 
+/* reuse the shared page tone inside the dialog */
 .close-button:focus-visible {
-  outline: 2px solid color-mix(in oklab, #8ea3f2 58%, #ffffff 42%);
+  outline: 2px solid color-mix(in oklab, var(--atlas-page-tone, #6f87d9) 64%, var(--atlas-line));
   outline-offset: 2px;
 }
 
@@ -363,7 +364,7 @@ onBeforeUnmount(() => {
 
 .text-link:focus-visible,
 .source-links a:focus-visible {
-  outline: 2px solid color-mix(in oklab, #8ea3f2 58%, #ffffff 42%);
+  outline: 2px solid color-mix(in oklab, var(--atlas-page-tone, #6f87d9) 64%, var(--atlas-line));
   outline-offset: 3px;
   border-radius: 0.35rem;
 }

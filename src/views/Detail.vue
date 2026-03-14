@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref, watch } from 'vue'
+import { computed, onBeforeUnmount, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { hasCountryDetailsFile, useCountriesStore } from '@/stores/countries'
 import { isOfTypeCodes, isOfTypeExampleImages, type ICountryDetails } from '@/models/country.model'
@@ -13,7 +13,7 @@ import EmptyState from '@/components/shared/EmptyState.vue'
 import { useDetailsStore } from '@/stores/details'
 import DetailCodesContent from '@/components/detail/DetailCodesContent.vue'
 import DetailExampleImagesContent from '@/components/detail/DetailExampleImagesContent.vue'
-import { getToneStyle } from '@/constants/continentTone'
+import { getContinentTone, getToneStyle } from '@/constants/continentTone'
 
 const route = useRoute()
 const countriesStore = useCountriesStore()
@@ -96,6 +96,14 @@ const toneStyle = computed(() => {
   return getToneStyle(countryContinent.value)
 })
 
+// sync global page tone with active detail tone
+function syncGlobalPageTone() {
+  document.documentElement.style.setProperty(
+    '--atlas-page-tone',
+    getContinentTone(countryContinent.value),
+  )
+}
+
 function ensureCountriesLoaded() {
   if (!countriesStore.countries.countries.length) {
     countriesStore.setCountries(countriesJson)
@@ -172,6 +180,19 @@ function onFavoriteClick() {
 
   countriesStore.favorites.push(countryCode.value)
 }
+
+// update the shared page tone whenever the resolved country changes
+watch(
+  countryContinent,
+  () => {
+    syncGlobalPageTone()
+  },
+  { immediate: true },
+)
+
+onBeforeUnmount(() => {
+  document.documentElement.style.removeProperty('--atlas-page-tone')
+})
 
 // treat missing routes and missing data files as explicit not-found states
 watch(
