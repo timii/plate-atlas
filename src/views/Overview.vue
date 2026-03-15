@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { storeToRefs } from 'pinia'
 import { RouterLink } from 'vue-router'
 import countriesJson from '@/data/current-license-plates.json'
 import type { ICountry } from '@/models/country.model'
 import type { IDropdownItem } from '@/models/dropdown.model'
+import StarFilled from '@/assets/icons/StarFilled.vue'
 import CodeChip from '@/components/shared/CodeChip.vue'
 import Dropdown from '@/components/shared/Dropdown.vue'
 import FilterPanel from '@/components/shared/FilterPanel.vue'
@@ -25,7 +26,9 @@ const {
   sortMode,
   groupBy,
   selectedContinent,
+  favoritesOnly,
   allCountriesLength,
+  favoriteCount,
   lastUpdatedLabel,
   sortDropdownItems,
   groupDropdownItems,
@@ -34,6 +37,45 @@ const {
   groupedCountries,
   hasResults,
 } = storeToRefs(countriesStore)
+
+const headerMeta = computed(() => {
+  const parts = [`${allCountriesLength.value} countries`, `${favoriteCount.value} saved`]
+
+  if (lastUpdatedLabel.value) {
+    parts.push(`updated ${lastUpdatedLabel.value}`)
+  }
+
+  return parts.join(' - ')
+})
+
+const emptyStateTitle = computed(() => {
+  if (favoritesOnly.value && favoriteCount.value === 0) {
+    return 'No favorite countries yet'
+  }
+
+  if (favoritesOnly.value) {
+    return 'No favorite countries match these filters'
+  }
+
+  return 'No countries match these filters'
+})
+
+const emptyStateMessage = computed(() => {
+  if (favoritesOnly.value && favoriteCount.value === 0) {
+    return 'Open a country detail page and use the star button to save it here'
+  }
+
+  if (favoritesOnly.value) {
+    return 'Try clearing search text, changing continent, or switch back to all countries'
+  }
+
+  return 'Try clearing search text, changing continent, or setting group by to none'
+})
+
+const showFavoritesToggle = computed(() => favoriteCount.value > 0 || favoritesOnly.value)
+const favoritesToggleLabel = computed(() => {
+  return favoritesOnly.value ? 'Show all countries' : 'Show only favorites'
+})
 
 // keep track of if and which dropdown is currently open
 const activeDropdown = ref<DropdownKey>(null)
@@ -57,6 +99,10 @@ function onDropdownToggle(key: Exclude<DropdownKey, null>, nextOpen: boolean) {
   activeDropdown.value = nextOpen ? key : null
 }
 
+function onFavoritesOnlyToggle() {
+  favoritesOnly.value = !favoritesOnly.value
+}
+
 function rowStyle(continent: string): Record<string, string> {
   // keep overview row accents driven by the shared continent tone map
   return getToneStyle(continent)
@@ -70,6 +116,10 @@ function onCountryIntent(code: string) {
   // hover, focus, and touch already preload the next detail file
   // if navigation happens next the detail page can await the already running request
   preloadCountryDetails(code)
+}
+
+function isFavoriteCountry(code: string): boolean {
+  return countriesStore.isFavorite(code)
 }
 
 // prefer mirrored assets while keeping remote fallback
@@ -110,10 +160,7 @@ onMounted(() => {
 <template>
   <section class="overview-page -mx-4 min-h-screen px-4 pb-12 sm:-mx-6 sm:px-6">
     <div class="content-shell">
-      <PageHeader
-        title="Countries"
-        :meta="`${allCountriesLength} countries - updated ${lastUpdatedLabel}`"
-      />
+      <PageHeader title="Countries" :meta="headerMeta" />
 
       <FilterPanel
         ariaLabel="overview controls"
@@ -149,10 +196,25 @@ onMounted(() => {
           @select="onContinentSelect"
         />
         <template #footer>
-          <p class="count">
-            Showing <span>{{ orderedCountries.length }}</span> out of
-            <span>{{ allCountriesLength }}</span> rows
-          </p>
+          <div class="footer-bar">
+            <p class="count">
+              Showing <span>{{ orderedCountries.length }}</span> out of
+              <span>{{ allCountriesLength }}</span> rows
+              <span class="count-separator">-</span>
+              Saved <span>{{ favoriteCount }}</span> favorites
+            </p>
+            <button
+              v-if="showFavoritesToggle"
+              type="button"
+              class="favorites-inline-toggle"
+              :class="{ 'favorites-inline-toggle--active': favoritesOnly }"
+              :aria-pressed="favoritesOnly"
+              @click="onFavoritesOnlyToggle"
+            >
+              <StarFilled class="favorites-inline-toggle-icon" aria-hidden="true" />
+              <span>{{ favoritesToggleLabel }}</span>
+            </button>
+          </div>
         </template>
       </FilterPanel>
 
@@ -178,8 +240,14 @@ onMounted(() => {
               <span class="meta">
                 <span class="name">{{ country.country }}</span>
                 <span class="continent">{{ country.continent }}</span>
+                <span v-if="isFavoriteCountry(country.code)" class="sr-only">Saved favorite</span>
               </span>
               <span class="end">
+                <StarFilled
+                  v-if="isFavoriteCountry(country.code)"
+                  class="favorite-marker"
+                  aria-hidden="true"
+                />
                 <img
                   :src="flagThumbSrc(country)"
                   :data-fallback-src="flagThumbFallback(country)"
@@ -196,8 +264,8 @@ onMounted(() => {
       <EmptyState
         v-else
         class="empty-state--overview"
-        title="No countries match these filters"
-        message="Try clearing search text, changing continent, or setting group by to none"
+        :title="emptyStateTitle"
+        :message="emptyStateMessage"
       />
     </div>
   </section>
@@ -234,6 +302,14 @@ onMounted(() => {
   min-width: 0;
 }
 
+.footer-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.72rem;
+  flex-wrap: wrap;
+}
+
 .count {
   font-size: 0.74rem;
   color: var(--muted);
@@ -241,6 +317,52 @@ onMounted(() => {
 
 .count span {
   color: var(--text);
+}
+
+.count-separator {
+  margin-inline: 0.34rem;
+  color: var(--muted);
+}
+
+.favorites-inline-toggle {
+  border: 1px solid color-mix(in oklab, var(--line) 82%, #ffffff 18%);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.38rem;
+  padding: 0.26rem 0.58rem;
+  font-size: 0.76rem;
+  cursor: pointer;
+  transition:
+    border-color 160ms ease,
+    background-color 160ms ease,
+    color 160ms ease;
+}
+
+.favorites-inline-toggle:hover {
+  color: var(--text);
+  background: color-mix(in oklab, var(--surface-2) 72%, transparent);
+}
+
+.favorites-inline-toggle:focus-visible {
+  outline: none;
+  border-color: color-mix(in oklab, var(--tone, #6f87d9) 64%, var(--line));
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--tone, #6f87d9) 52%, var(--line));
+}
+
+.favorites-inline-toggle--active {
+  color: var(--text);
+  border-color: color-mix(in oklab, #daaa3f 20%, var(--line));
+  background: color-mix(in oklab, #daaa3f 8%, transparent);
+}
+
+.favorites-inline-toggle-icon {
+  width: 0.82rem;
+  height: 0.82rem;
+  color: #daaa3f;
+  flex: 0 0 auto;
 }
 
 .groups {
@@ -336,8 +458,14 @@ onMounted(() => {
   align-items: center;
   justify-content: flex-end;
   align-self: center;
-  inline-size: 1.54rem;
-  flex: 0 0 1.54rem;
+  gap: 0.4rem;
+  flex: 0 0 auto;
+}
+
+.favorite-marker {
+  width: 0.82rem;
+  height: 0.82rem;
+  color: #daaa3f;
 }
 
 .row img {
@@ -347,11 +475,27 @@ onMounted(() => {
   display: block;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 @media (max-width: 760px) {
   /* return the page to normal flow when the mobile header scrolls away */
   .overview-page {
     margin-top: 0;
     padding-top: 0.95rem;
+  }
+
+  .footer-bar {
+    align-items: flex-start;
   }
 
   .row {

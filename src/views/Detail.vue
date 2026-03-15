@@ -85,7 +85,7 @@ const detailEmptyStateMessage = computed(() => {
   return detailErrorMessage.value || 'The detail data could not be loaded, so try again later'
 })
 
-const isCountryFavorited = computed(() => countriesStore.favorites.includes(countryCode.value))
+const isCountryFavorited = computed(() => countriesStore.isFavorite(countryCode.value))
 // keep the button label aligned with the current favorite state
 const favoriteButtonLabel = computed(() => {
   return isCountryFavorited.value
@@ -170,15 +170,7 @@ function onFavoriteClick() {
     return
   }
 
-  if (isCountryFavorited.value) {
-    const index = countriesStore.favorites.findIndex((el) => el === countryCode.value)
-    if (index !== -1) {
-      countriesStore.favorites.splice(index, 1)
-    }
-    return
-  }
-
-  countriesStore.favorites.push(countryCode.value)
+  countriesStore.toggleFavorite(countryCode.value)
 }
 
 // update the shared page tone whenever the resolved country changes

@@ -1,6 +1,12 @@
 import type { ICountry, ICountryData } from '@/models/country.model'
 import type { IDropdownItem } from '@/models/dropdown.model'
 import { hasCountryDetailsFile } from '@/utils/countryDetailsLoader'
+import {
+  loadFavoriteCodes,
+  normalizeFavoriteCode,
+  pruneFavoriteCodes,
+  saveFavoriteCodes,
+} from '@/utils/favoriteStorage'
 import { defineStore } from 'pinia'
 import { computed, ref } from 'vue'
 
@@ -17,13 +23,17 @@ const continentOrder = ['Africa', 'Americas', 'Asia', 'Europe', 'Oceania'] as co
 
 export const useCountriesStore = defineStore('countries', () => {
   const countries = ref<ICountryData>({ lastUpdate: '', countries: [] })
-  const favorites = ref<string[]>([])
+  const favorites = ref<string[]>(loadFavoriteCodes())
 
   // shared list controls for overview and future filter/sort components
   const searchTerm = ref('')
   const sortMode = ref<CountrySortMode>('country')
   const groupBy = ref<CountryGroupBy>('none')
   const selectedContinent = ref('all')
+  const favoritesOnly = ref(false)
+
+  const favoriteCodeSet = computed(() => new Set(favorites.value))
+  const favoriteCount = computed(() => favorites.value.length)
 
   const countriesWithDetails = computed(() => {
     return countries.value.countries.filter((country) => {
@@ -90,7 +100,7 @@ export const useCountriesStore = defineStore('countries', () => {
 
   // list pipeline order:
   // 1) countriesWithDetails -> base source
-  // 2) filteredCountries -> search + continent filter
+  // 2) filteredCountries -> search + continent filter + favorites filter
   // 3) orderedCountries -> sort mode
   // 4) groupedCountries -> group projection of sorted rows
   const filteredCountries = computed(() => {
@@ -100,8 +110,10 @@ export const useCountriesStore = defineStore('countries', () => {
     return countriesWithDetails.value.filter((country) => {
       const continentMatch =
         selectedContinent.value === 'all' || selectedContinent.value === country.continent
+      const favoriteMatch =
+        !favoritesOnly.value || favoriteCodeSet.value.has(normalizeFavoriteCode(country.code))
       const target = `${country.country} ${country.code} ${country.continent}`.toLowerCase()
-      return continentMatch && target.includes(normalizedSearch)
+      return continentMatch && favoriteMatch && target.includes(normalizedSearch)
     })
   })
 
@@ -149,17 +161,58 @@ export const useCountriesStore = defineStore('countries', () => {
 
   const hasResults = computed(() => orderedCountries.value.length > 0)
 
+  // keep store writes and storage writes coupled so favorites never drift
+  function setFavoriteCodes(nextFavoriteCodes: string[]) {
+    favorites.value = nextFavoriteCodes
+    saveFavoriteCodes(nextFavoriteCodes)
+  }
+
+  // drop favorites that no longer exist in the currently shipped country dataset
+  function syncFavoritesWithAvailableCountries() {
+    const availableCodes = countriesWithDetails.value.map((country) => country.code)
+    const nextFavoriteCodes = pruneFavoriteCodes(favorites.value, availableCodes)
+
+    if (nextFavoriteCodes.length === favorites.value.length) {
+      return
+    }
+
+    setFavoriteCodes(nextFavoriteCodes)
+  }
+
+  function isFavorite(code: string): boolean {
+    return favoriteCodeSet.value.has(normalizeFavoriteCode(code))
+  }
+
+  function toggleFavorite(code: string) {
+    const normalizedCode = normalizeFavoriteCode(code)
+    if (!normalizedCode) {
+      return
+    }
+
+    if (favoriteCodeSet.value.has(normalizedCode)) {
+      setFavoriteCodes(
+        favorites.value.filter((favoriteCode) => favoriteCode !== normalizedCode),
+      )
+      return
+    }
+
+    setFavoriteCodes([...favorites.value, normalizedCode])
+  }
+
   function setCountries(data: ICountryData) {
     countries.value = data
+    syncFavoritesWithAvailableCountries()
   }
 
   return {
     countries,
     favorites,
+    favoriteCount,
     searchTerm,
     sortMode,
     groupBy,
     selectedContinent,
+    favoritesOnly,
     allCountriesLength,
     lastUpdatedLabel,
     sortDropdownItems,
@@ -168,6 +221,8 @@ export const useCountriesStore = defineStore('countries', () => {
     orderedCountries,
     groupedCountries,
     hasResults,
+    isFavorite,
+    toggleFavorite,
     setCountries,
   }
 })
