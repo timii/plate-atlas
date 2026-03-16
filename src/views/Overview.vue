@@ -76,6 +76,16 @@ const showFavoritesToggle = computed(() => favoriteCount.value > 0 || favoritesO
 const favoritesToggleLabel = computed(() => {
   return favoritesOnly.value ? 'Show all countries' : 'Show only favorites'
 })
+// pluralize favorites label for footer
+const favoritesCountLabel = computed(() => {
+  return favoriteCount.value === 1 ? 'favorite' : 'favorites'
+})
+// keep advanced filters collapsed on mobile by default
+const mobileFiltersOpen = ref(false)
+const mobileFiltersLabel = computed(() => {
+  return mobileFiltersOpen.value ? 'Hide filters' : 'Filters'
+})
+const advancedFiltersId = 'overview-advanced-filters'
 
 // keep track of if and which dropdown is currently open
 const activeDropdown = ref<DropdownKey>(null)
@@ -101,6 +111,14 @@ function onDropdownToggle(key: Exclude<DropdownKey, null>, nextOpen: boolean) {
 
 function onFavoritesOnlyToggle() {
   favoritesOnly.value = !favoritesOnly.value
+}
+
+function onMobileFiltersToggle() {
+  mobileFiltersOpen.value = !mobileFiltersOpen.value
+
+  if (!mobileFiltersOpen.value) {
+    activeDropdown.value = null
+  }
 }
 
 function rowStyle(continent: string): Record<string, string> {
@@ -174,6 +192,11 @@ onMounted(() => {
             aria-label="search countries by country name, code, or continent"
           />
         </div>
+        <div
+          :id="advancedFiltersId"
+          class="filter-advanced"
+          :class="{ 'filter-advanced--open': mobileFiltersOpen }"
+        >
         <Dropdown
           label="Sort by"
           :list="sortDropdownItems"
@@ -195,25 +218,37 @@ onMounted(() => {
           @toggle="(nextOpen) => onDropdownToggle('continent', nextOpen)"
           @select="onContinentSelect"
         />
+        </div>
         <template #footer>
           <div class="footer-bar">
             <p class="count">
               Showing <span>{{ orderedCountries.length }}</span> out of
               <span>{{ allCountriesLength }}</span> rows
               <span class="count-separator">-</span>
-              Saved <span>{{ favoriteCount }}</span> favorites
+              <span>{{ favoriteCount }}</span> {{ favoritesCountLabel }}
             </p>
-            <button
-              v-if="showFavoritesToggle"
-              type="button"
-              class="favorites-inline-toggle"
-              :class="{ 'favorites-inline-toggle--active': favoritesOnly }"
-              :aria-pressed="favoritesOnly"
-              @click="onFavoritesOnlyToggle"
-            >
-              <StarFilled class="favorites-inline-toggle-icon" aria-hidden="true" />
-              <span>{{ favoritesToggleLabel }}</span>
-            </button>
+            <div class="footer-actions">
+              <button
+                v-if="showFavoritesToggle"
+                type="button"
+                class="favorites-inline-toggle"
+                :class="{ 'favorites-inline-toggle--active': favoritesOnly }"
+                :aria-pressed="favoritesOnly"
+                @click="onFavoritesOnlyToggle"
+              >
+                <StarFilled class="favorites-inline-toggle-icon" aria-hidden="true" />
+                <span>{{ favoritesToggleLabel }}</span>
+              </button>
+              <button
+                type="button"
+                class="filters-toggle"
+                :aria-expanded="mobileFiltersOpen"
+                :aria-controls="advancedFiltersId"
+                @click="onMobileFiltersToggle"
+              >
+                <span>{{ mobileFiltersLabel }}</span>
+              </button>
+            </div>
           </div>
         </template>
       </FilterPanel>
@@ -302,11 +337,22 @@ onMounted(() => {
   min-width: 0;
 }
 
+.filter-advanced {
+  display: contents;
+}
+
 .footer-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 0.72rem;
+  flex-wrap: wrap;
+}
+
+.footer-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   flex-wrap: wrap;
 }
 
@@ -339,6 +385,33 @@ onMounted(() => {
     border-color 160ms ease,
     background-color 160ms ease,
     color 160ms ease;
+}
+
+.filters-toggle {
+  border: 1px solid color-mix(in oklab, var(--line) 82%, #ffffff 18%);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  display: none;
+  align-items: center;
+  padding: 0.26rem 0.58rem;
+  font-size: 0.76rem;
+  cursor: pointer;
+  transition:
+    border-color 160ms ease,
+    background-color 160ms ease,
+    color 160ms ease;
+}
+
+.filters-toggle:hover {
+  color: var(--text);
+  background: color-mix(in oklab, var(--surface-2) 72%, transparent);
+}
+
+.filters-toggle:focus-visible {
+  outline: none;
+  border-color: color-mix(in oklab, var(--tone, #6f87d9) 64%, var(--line));
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--tone, #6f87d9) 52%, var(--line));
 }
 
 .favorites-inline-toggle:hover {
@@ -496,6 +569,49 @@ onMounted(() => {
 
   .footer-bar {
     align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .filter-advanced {
+    display: none;
+    gap: 0.62rem;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-0.2rem);
+    pointer-events: none;
+    transition:
+      max-height 220ms ease,
+      opacity 200ms ease,
+      transform 200ms ease;
+  }
+
+  .filter-advanced--open {
+    display: grid;
+    gap: 0.62rem;
+    max-height: 30rem;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  /* keep footer items stacked on narrow screens */
+  .count {
+    width: 100%;
+  }
+
+  .footer-actions {
+    width: 100%;
+  }
+
+  .favorites-inline-toggle {
+    align-self: flex-start;
+  }
+
+  .filters-toggle {
+    display: inline-flex;
+    align-self: flex-start;
   }
 
   .row {
@@ -514,3 +630,15 @@ onMounted(() => {
   }
 }
 </style>
+
+
+
+
+
+
+
+
+
+
+
+
