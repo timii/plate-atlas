@@ -47,10 +47,12 @@ function onSortToggle(nextOpen: boolean) {
       desktop-columns="minmax(20rem, 1.8fr) minmax(12rem, 1fr)"
     >
       <div class="search-wrap">
-        <FieldLabel text="Search" />
+        <FieldLabel text="Search" id="detail-codes-search-label" />
         <Searchbar
           v-model:text="searchTerm"
           placeholder="Search by name or code"
+          input-id="detail-codes-search-input"
+          aria-labelledby="detail-codes-search-label"
           aria-label="search regional codes by region, name or code"
         />
       </div>

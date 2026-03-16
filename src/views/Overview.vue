@@ -185,10 +185,12 @@ onMounted(() => {
         desktop-columns="minmax(14rem, 1.2fr) repeat(3, minmax(10rem, 1fr))"
       >
         <div class="search-wrap">
-          <FieldLabel text="Search" />
+          <FieldLabel text="Search" id="overview-search-label" />
           <Searchbar
             class="search"
             v-model:text="searchTerm"
+            input-id="overview-search-input"
+            aria-labelledby="overview-search-label"
             aria-label="search countries by country name, code, or continent"
           />
         </div>

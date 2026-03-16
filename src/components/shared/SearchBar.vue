@@ -7,10 +7,14 @@ const props = withDefaults(
   defineProps<{
     placeholder?: string
     ariaLabel?: string
+    inputId?: string
+    ariaLabelledby?: string
   }>(),
   {
     placeholder: 'Search by country, code or continent',
     ariaLabel: 'search',
+    inputId: undefined,
+    ariaLabelledby: undefined,
   },
 )
 
@@ -30,8 +34,10 @@ function onInputKeydown(event: KeyboardEvent) {
     <input
       v-model="text"
       type="text"
+      :id="props.inputId"
       :placeholder="props.placeholder"
-      :aria-label="props.ariaLabel"
+      :aria-label="props.ariaLabelledby ? undefined : props.ariaLabel"
+      :aria-labelledby="props.ariaLabelledby"
       @keydown="onInputKeydown"
     />
     <button
