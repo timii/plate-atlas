@@ -577,25 +577,11 @@ onMounted(() => {
 
   .filter-advanced {
     display: none;
-    gap: 0.62rem;
-    max-height: 0;
-    overflow: hidden;
-    opacity: 0;
-    transform: translateY(-0.2rem);
-    pointer-events: none;
-    transition:
-      max-height 220ms ease,
-      opacity 200ms ease,
-      transform 200ms ease;
   }
 
   .filter-advanced--open {
     display: grid;
     gap: 0.62rem;
-    max-height: 30rem;
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: auto;
   }
 
   /* keep footer items stacked on narrow screens */
@@ -632,6 +618,7 @@ onMounted(() => {
   }
 }
 </style>
+
 
 
 
