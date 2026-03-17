@@ -1,4 +1,4 @@
-<script setup lang="ts">
+﻿<script setup lang="ts">
 import { computed, useSlots } from 'vue'
 
 const props = defineProps<{
@@ -60,7 +60,7 @@ h1 {
   color: color-mix(in oklab, var(--tone, #97a0b5) 56%, var(--muted));
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 0.74rem;
+  font-size: 0.76rem;
   line-height: 1.25;
 }
 
@@ -88,6 +88,8 @@ h1 {
 
   .meta {
     margin-top: 0.28rem;
+    font-size: 0.76rem;
+    line-height: 1.3;
   }
 
   .page-header--with-actions .copy {

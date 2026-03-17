@@ -1,4 +1,4 @@
-<script setup lang="ts">
+﻿<script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
 import { storeToRefs } from 'pinia'
 import { RouterLink } from 'vue-router'
@@ -199,27 +199,27 @@ onMounted(() => {
           class="filter-advanced"
           :class="{ 'filter-advanced--open': mobileFiltersOpen }"
         >
-        <Dropdown
-          label="Sort by"
-          :list="sortDropdownItems"
-          :open="activeDropdown === 'sort'"
-          @toggle="(nextOpen) => onDropdownToggle('sort', nextOpen)"
-          @select="onSortSelect"
-        />
-        <Dropdown
-          label="Group by"
-          :list="groupDropdownItems"
-          :open="activeDropdown === 'group'"
-          @toggle="(nextOpen) => onDropdownToggle('group', nextOpen)"
-          @select="onGroupBySelect"
-        />
-        <Dropdown
-          label="Continent"
-          :list="continentDropdownItems"
-          :open="activeDropdown === 'continent'"
-          @toggle="(nextOpen) => onDropdownToggle('continent', nextOpen)"
-          @select="onContinentSelect"
-        />
+          <Dropdown
+            label="Sort by"
+            :list="sortDropdownItems"
+            :open="activeDropdown === 'sort'"
+            @toggle="(nextOpen) => onDropdownToggle('sort', nextOpen)"
+            @select="onSortSelect"
+          />
+          <Dropdown
+            label="Group by"
+            :list="groupDropdownItems"
+            :open="activeDropdown === 'group'"
+            @toggle="(nextOpen) => onDropdownToggle('group', nextOpen)"
+            @select="onGroupBySelect"
+          />
+          <Dropdown
+            label="Continent"
+            :list="continentDropdownItems"
+            :open="activeDropdown === 'continent'"
+            @toggle="(nextOpen) => onDropdownToggle('continent', nextOpen)"
+            @select="onContinentSelect"
+          />
         </div>
         <template #footer>
           <div class="footer-bar">
@@ -359,7 +359,7 @@ onMounted(() => {
 }
 
 .count {
-  font-size: 0.74rem;
+  font-size: 0.76rem;
   color: var(--muted);
 }
 
@@ -522,7 +522,7 @@ onMounted(() => {
 
 .continent {
   display: block;
-  font-size: 0.62rem;
+  font-size: 0.66rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--muted);
@@ -587,6 +587,7 @@ onMounted(() => {
   /* keep footer items stacked on narrow screens */
   .count {
     width: 100%;
+    font-size: 0.76rem;
   }
 
   .footer-actions {
@@ -610,6 +611,10 @@ onMounted(() => {
   .name {
     overflow-wrap: anywhere;
   }
+
+  .continent {
+    font-size: 0.66rem;
+  }
 }
 
 @media (min-width: 1500px) {
@@ -618,13 +623,6 @@ onMounted(() => {
   }
 }
 </style>
-
-
-
-
-
-
-
 
 
 

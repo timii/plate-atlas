@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import 'tailwindcss';
 
 :root {
@@ -71,11 +71,12 @@ body {
 /* shared primitives for list rows and small filter labels */
 .atlas-field-label {
   margin-bottom: 0.32rem;
-  font-size: 0.74rem;
+  font-size: 0.76rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--muted);
 }
+
 
 .atlas-row {
   display: grid;
@@ -130,3 +131,6 @@ body {
   font-size: 0.68rem;
   text-align: left;
 }
+
+
+
