@@ -18,14 +18,20 @@ const props = withDefaults(
   },
 )
 
+const hasText = computed(() => text.value.length > 0)
+
+function clearText() {
+  text.value = ''
+}
+
 function onInputKeydown(event: KeyboardEvent) {
-  if (event.key !== 'Escape' || text.value.length === 0) {
+  if (event.key !== 'Escape' || !hasText.value) {
     return
   }
 
   // let keyboard users clear the current search query quickly
   event.preventDefault()
-  text.value = ''
+  clearText()
 }
 </script>
 
@@ -41,11 +47,11 @@ function onInputKeydown(event: KeyboardEvent) {
       @keydown="onInputKeydown"
     />
     <button
-      v-if="text.length > 0"
+      v-if="hasText"
       type="button"
       class="clear"
       aria-label="clear search"
-      @click="text = ''"
+      @click="clearText"
     >
       <Close />
     </button>
@@ -56,11 +62,11 @@ function onInputKeydown(event: KeyboardEvent) {
 .search-field {
   display: flex;
   align-items: center;
-  gap: var(--atlas-spacing-xs);
+  gap: var(--atlas-spacing-2xs);
   border: 1px solid var(--line);
   border-radius: var(--atlas-radius-control);
   background: var(--surface-2);
-  min-height: 2.75rem;
+  min-height: var(--atlas-touch-target);
   padding: var(--atlas-spacing-xs) var(--atlas-spacing-sm);
 }
 
@@ -89,17 +95,25 @@ function onInputKeydown(event: KeyboardEvent) {
 
 .clear {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 2rem;
+  height: 2rem;
+  margin-right: calc(var(--atlas-spacing-xs) * -1);
   border: none;
+  border-radius: var(--atlas-radius-control);
   background: transparent;
   color: var(--muted);
-  border-radius: var(--atlas-radius-chip);
-  padding: var(--atlas-spacing-2xs);
   cursor: pointer;
 }
 
-.clear:hover {
-  background: var(--atlas-control-hover);
-  color: var(--text);
+.clear svg {
+  width: 0.92rem;
+  height: 0.92rem;
+  flex: 0 0 auto;
+}
+
 }
 
 .clear:focus-visible {
