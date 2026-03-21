@@ -32,6 +32,8 @@ const previouslyFocusedEl = ref<HTMLElement | null>(null)
 const failedPreviewImages = ref<Record<string, true>>({})
 const failedThumbnailImages = ref<Record<string, true>>({})
 const previewTitleId = `example-preview-title-${++previewIdCounter}`
+// restore the page scroll state after the preview modal closes
+let previousBodyOverflow = ''
 
 const countryNameInSentence = computed(() => {
   return props.countryName === 'No country found' ? 'this country' : props.countryName
@@ -133,18 +135,10 @@ function openPreview(imageObj: ExampleImage) {
   previouslyFocusedEl.value =
     document.activeElement instanceof HTMLElement ? document.activeElement : null
   previewImage.value = previewSource(imageObj)
-
-  nextTick(() => {
-    previewCloseRef.value?.focus()
-  })
 }
 
 function closePreview() {
   previewImage.value = null
-
-  nextTick(() => {
-    previouslyFocusedEl.value?.focus()
-  })
 }
 
 function countLabel(count: number): string {
@@ -207,20 +201,38 @@ function onPreviewFocusIn(event: FocusEvent) {
   previewCloseRef.value?.focus()
 }
 
-watch(previewImage, (value) => {
+function addPreviewListeners() {
+  document.addEventListener('keydown', onPreviewKeydown)
+  document.addEventListener('focusin', onPreviewFocusIn)
+}
+
+function removePreviewListeners() {
+  document.removeEventListener('keydown', onPreviewKeydown)
+  document.removeEventListener('focusin', onPreviewFocusIn)
+}
+
+// keep the preview modal lifecycle in one place for scroll lock and focus handoff
+watch(previewImage, async (value) => {
   if (value) {
-    document.addEventListener('keydown', onPreviewKeydown)
-    document.addEventListener('focusin', onPreviewFocusIn)
+    previousBodyOverflow = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    addPreviewListeners()
+
+    await nextTick()
+    previewCloseRef.value?.focus()
     return
   }
 
-  document.removeEventListener('keydown', onPreviewKeydown)
-  document.removeEventListener('focusin', onPreviewFocusIn)
+  document.body.style.overflow = previousBodyOverflow
+  removePreviewListeners()
+
+  await nextTick()
+  previouslyFocusedEl.value?.focus()
 })
 
 onBeforeUnmount(() => {
-  document.removeEventListener('keydown', onPreviewKeydown)
-  document.removeEventListener('focusin', onPreviewFocusIn)
+  document.body.style.overflow = previousBodyOverflow
+  removePreviewListeners()
 })
 </script>
 
