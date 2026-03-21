@@ -423,7 +423,7 @@ onBeforeUnmount(() => {
   /* use a bottom sheet on smaller screens so the dialog fits without feeling cramped */
   .about-panel {
     width: min(100%, 32rem);
-    max-height: min(85vh, 38rem);
+    max-height: calc(100dvh - var(--atlas-spacing-sm) - var(--atlas-spacing-sm) - env(safe-area-inset-bottom, 0px));
     overflow-y: auto;
         padding: var(--atlas-spacing-md) var(--atlas-spacing-md) var(--atlas-spacing-md);
     border-radius: 1rem 1rem 0.8rem 0.8rem;
