@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import { computed, useSlots } from 'vue'
 
 const props = defineProps<{
@@ -31,8 +31,8 @@ const hasActions = computed(() => Boolean(slots.actions))
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 0.9rem;
-  margin-top: clamp(0.75rem, 2vw, 1.15rem);
+  gap: var(--atlas-spacing-md);
+  margin-top: clamp(var(--atlas-spacing-sm), 2vw, var(--atlas-spacing-md));
 }
 
 .copy {
@@ -42,11 +42,11 @@ const hasActions = computed(() => Boolean(slots.actions))
 }
 
 .eyebrow {
-  margin-bottom: 0.08rem;
+  margin-bottom: var(--atlas-spacing-2xs);
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 0.72rem;
+  font-size: var(--atlas-text-xs);
 }
 
 h1 {
@@ -56,16 +56,16 @@ h1 {
 
 .meta {
   /* increase separation so title and meta do not feel cramped */
-  margin-top: 0.34rem;
+  margin-top: var(--atlas-spacing-xs);
   color: color-mix(in oklab, var(--tone, #97a0b5) 56%, var(--muted));
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 0.76rem;
+  font-size: var(--atlas-text-sm);
   line-height: 1.25;
 }
 
 .description {
-  margin-top: 0.3rem;
+  margin-top: var(--atlas-spacing-xs);
   color: var(--muted);
   line-height: 1.42;
   max-width: 74ch;
@@ -74,7 +74,7 @@ h1 {
 .actions {
   display: inline-flex;
   align-self: flex-start;
-  margin-top: 0.24rem;
+  margin-top: var(--atlas-spacing-xs);
 }
 
 .page-header--with-actions .copy {
@@ -83,12 +83,12 @@ h1 {
 
 @media (max-width: 760px) {
   .page-header {
-    gap: 0.64rem;
+    gap: var(--atlas-spacing-sm);
   }
 
   .meta {
-    margin-top: 0.28rem;
-    font-size: 0.76rem;
+    margin-top: var(--atlas-spacing-xs);
+    font-size: var(--atlas-text-sm);
     line-height: 1.3;
   }
 

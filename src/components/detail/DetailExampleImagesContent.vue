@@ -318,25 +318,25 @@ onBeforeUnmount(() => {
   --line: var(--atlas-line);
   width: 100%;
   display: grid;
-  gap: 0.86rem;
+  gap: var(--atlas-spacing-md);
 }
 
 .group {
   border: 1px solid color-mix(in oklab, var(--line) 82%, #ffffff 18%);
   border-radius: 0.56rem;
   background: color-mix(in oklab, var(--surface) 92%, #07060d 8%);
-  padding: 0.72rem;
+  padding: var(--atlas-spacing-sm);
   display: grid;
-  gap: 0.72rem;
+  gap: var(--atlas-spacing-sm);
 }
 
 .group-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.7rem;
+  gap: var(--atlas-spacing-sm);
   border-bottom: 1px solid color-mix(in oklab, var(--line) 86%, #ffffff 14%);
-  padding-bottom: 0.52rem;
+  padding-bottom: var(--atlas-spacing-sm);
 }
 
 .group-head h2 {
@@ -365,7 +365,7 @@ onBeforeUnmount(() => {
 .samples {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-  gap: 0.58rem;
+  gap: var(--atlas-spacing-sm);
 }
 
 .samples--single {
@@ -423,7 +423,7 @@ onBeforeUnmount(() => {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.42rem;
+  padding: var(--atlas-spacing-sm);
 }
 
 .samples--single .plate-wrap {
@@ -447,7 +447,7 @@ onBeforeUnmount(() => {
   display: grid;
   place-items: center;
   text-align: center;
-  padding: 0.75rem;
+  padding: var(--atlas-spacing-sm);
 }
 
 .plate-fallback span {
@@ -461,7 +461,7 @@ onBeforeUnmount(() => {
   -webkit-box-orient: vertical;
   overflow: hidden;
   min-height: 2.6rem;
-  padding: 0.44rem 0.5rem 0.54rem;
+  padding: var(--atlas-spacing-sm) var(--atlas-spacing-sm) var(--atlas-spacing-sm);
   font-size: 0.78rem;
   line-height: 1.28;
   color: color-mix(in oklab, var(--text) 92%, var(--muted));
@@ -476,7 +476,7 @@ onBeforeUnmount(() => {
   backdrop-filter: blur(2px);
   display: grid;
   place-items: center;
-  padding: 1rem;
+  padding: var(--atlas-spacing-md);
 }
 
 .preview-panel {
@@ -485,9 +485,9 @@ onBeforeUnmount(() => {
   border-radius: 0.64rem;
   background: color-mix(in oklab, var(--surface, #100f18) 92%, #05060b 8%);
   box-shadow: 0 20px 44px rgba(0, 0, 0, 0.46);
-  padding: 0.7rem;
+  padding: var(--atlas-spacing-sm);
   display: grid;
-  gap: 0.56rem;
+  gap: var(--atlas-spacing-sm);
 }
 
 .preview-close {
@@ -498,7 +498,7 @@ onBeforeUnmount(() => {
   font-size: 0.74rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  padding: 0.26rem 0.46rem;
+  padding: var(--atlas-spacing-xs) var(--atlas-spacing-sm);
   justify-self: end;
   cursor: pointer;
   transition:
@@ -533,7 +533,7 @@ onBeforeUnmount(() => {
 
 .preview-fallback {
   min-height: 16rem;
-  gap: 0.35rem;
+  gap: var(--atlas-spacing-xs);
 }
 
 .preview-fallback strong {
@@ -547,7 +547,7 @@ onBeforeUnmount(() => {
 }
 
 .preview-panel p {
-  margin-top: 0.5rem;
+  margin-top: var(--atlas-spacing-sm);
   color: var(--text);
   font-size: 0.86rem;
   line-height: 1.34;
@@ -556,11 +556,11 @@ onBeforeUnmount(() => {
 @media (min-width: 980px) {
   .samples {
     grid-template-columns: repeat(auto-fit, minmax(15.5rem, 1fr));
-    gap: 0.62rem;
+    gap: var(--atlas-spacing-sm);
   }
 
   .group {
-    padding: 0.78rem;
+    padding: var(--atlas-spacing-sm);
   }
 
   .plate-wrap {
@@ -575,7 +575,7 @@ onBeforeUnmount(() => {
 @media (max-width: 760px) {
   .samples {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.48rem;
+    gap: var(--atlas-spacing-sm);
   }
 
   .samples--single {
@@ -607,20 +607,20 @@ onBeforeUnmount(() => {
   .group-head {
     flex-wrap: nowrap;
     align-items: center;
-    gap: 0.45rem;
+    gap: var(--atlas-spacing-sm);
   }
 
   .group-head h2 {
     flex: 1 1 auto;
     min-width: 0;
-    font-size: 0.76rem;
+    font-size: var(--atlas-text-sm);
     letter-spacing: 0.03em;
   }
 
   .group-count {
     margin-left: 0;
-    font-size: 0.66rem;
-    padding: 0.1rem 0.38rem;
+    font-size: var(--atlas-text-xxs);
+    padding: var(--atlas-spacing-2xs) var(--atlas-spacing-xs);
   }
 
   .samples {

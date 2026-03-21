@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
 import { storeToRefs } from 'pinia'
 import { RouterLink } from 'vue-router'
@@ -321,17 +321,17 @@ onMounted(() => {
   background: linear-gradient(165deg, var(--bg-1), var(--bg-2));
   color: var(--text);
   margin-top: -3.5rem;
-  padding-top: 5rem;
+  padding-top: var(--atlas-spacing-layout-lg);
   font-size: 1.1rem;
   font-weight: 400;
-  padding-bottom: calc(env(safe-area-inset-bottom) + 2.8rem);
+  padding-bottom: calc(env(safe-area-inset-bottom) + var(--atlas-spacing-layout-sm));
 }
 
 .content-shell {
   width: min(var(--atlas-content-width), 100%);
   margin-inline: auto;
   display: grid;
-  gap: 0.9rem;
+  gap: var(--atlas-spacing-md);
 }
 
 .search,
@@ -347,19 +347,19 @@ onMounted(() => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.72rem;
+  gap: var(--atlas-spacing-sm);
   flex-wrap: wrap;
 }
 
 .footer-actions {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: var(--atlas-spacing-xs);
   flex-wrap: wrap;
 }
 
 .count {
-  font-size: 0.76rem;
+  font-size: var(--atlas-text-sm);
   color: var(--muted);
 }
 
@@ -379,9 +379,9 @@ onMounted(() => {
   color: var(--muted);
   display: inline-flex;
   align-items: center;
-  gap: 0.38rem;
-  padding: 0.26rem 0.58rem;
-  font-size: 0.76rem;
+  gap: var(--atlas-spacing-xs);
+  padding: var(--atlas-spacing-xs) var(--atlas-spacing-sm);
+  font-size: var(--atlas-text-sm);
   cursor: pointer;
   transition:
     border-color 160ms ease,
@@ -396,8 +396,8 @@ onMounted(() => {
   color: var(--muted);
   display: none;
   align-items: center;
-  padding: 0.26rem 0.58rem;
-  font-size: 0.76rem;
+  padding: var(--atlas-spacing-xs) var(--atlas-spacing-sm);
+  font-size: var(--atlas-text-sm);
   cursor: pointer;
   transition:
     border-color 160ms ease,
@@ -442,17 +442,17 @@ onMounted(() => {
 
 .groups {
   display: grid;
-  gap: 0.7rem;
+  gap: var(--atlas-spacing-sm);
   margin-top: 0.18rem;
 }
 
 .empty-state--overview {
-  margin-top: 0.18rem;
+  margin-top: var(--atlas-spacing-2xs);
 }
 
 .group-block {
   display: grid;
-  gap: 0.34rem;
+  gap: var(--atlas-spacing-xs);
 }
 
 .group-header {
@@ -462,12 +462,12 @@ onMounted(() => {
   border: 1px solid color-mix(in oklab, var(--line) 78%, #ffffff 22%);
   border-radius: var(--atlas-radius-row);
   background: linear-gradient(180deg, rgba(12, 10, 18, 0.94), rgba(8, 6, 13, 0.9));
-  padding: 0.36rem 0.56rem;
+  padding: var(--atlas-spacing-xs) var(--atlas-spacing-sm);
 }
 
 .group-title {
   margin: 0;
-  font-size: 0.72rem;
+  font-size: var(--atlas-text-xs);
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--text);
@@ -480,13 +480,13 @@ onMounted(() => {
   border: 1px solid var(--line);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.06);
-  padding: 0.08rem 0.46rem;
+  padding: var(--atlas-spacing-2xs) var(--atlas-spacing-sm);
   line-height: 1.2;
 }
 
 .rows {
   display: grid;
-  gap: 0.34rem;
+  gap: var(--atlas-spacing-xs);
 }
 
 .row {
@@ -508,7 +508,7 @@ onMounted(() => {
 .meta {
   min-width: 0;
   display: grid;
-  gap: 0.08rem;
+  gap: var(--atlas-spacing-2xs);
 }
 
 .name {
@@ -516,13 +516,13 @@ onMounted(() => {
   min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 1rem;
+  font-size: var(--atlas-text-base);
   line-height: 1.2;
 }
 
 .continent {
   display: block;
-  font-size: 0.66rem;
+  font-size: var(--atlas-text-xxs);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--muted);
@@ -566,13 +566,13 @@ onMounted(() => {
   /* return the page to normal flow when the mobile header scrolls away */
   .overview-page {
     margin-top: 0;
-    padding-top: 0.95rem;
+    padding-top: var(--atlas-spacing-md);
   }
 
   .footer-bar {
     align-items: flex-start;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: var(--atlas-spacing-sm);
   }
 
   .filter-advanced {
@@ -581,13 +581,13 @@ onMounted(() => {
 
   .filter-advanced--open {
     display: grid;
-    gap: 0.62rem;
+    gap: var(--atlas-spacing-sm);
   }
 
   /* keep footer items stacked on narrow screens */
   .count {
     width: 100%;
-    font-size: 0.76rem;
+    font-size: var(--atlas-text-sm);
   }
 
   .footer-actions {
@@ -613,7 +613,7 @@ onMounted(() => {
   }
 
   .continent {
-    font-size: 0.66rem;
+    font-size: var(--atlas-text-xxs);
   }
 }
 
@@ -623,9 +623,3 @@ onMounted(() => {
   }
 }
 </style>
-
-
-
-
-
-

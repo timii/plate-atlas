@@ -103,7 +103,7 @@ function onSortToggle(nextOpen: boolean) {
   --code-chip-width: 3.5rem;
   width: 100%;
   display: grid;
-  gap: 0.82rem;
+  gap: var(--atlas-spacing-md);
 }
 
 .search-wrap {
@@ -111,7 +111,7 @@ function onSortToggle(nextOpen: boolean) {
 }
 
 .count {
-  font-size: 0.76rem;
+  font-size: var(--atlas-text-sm);
   color: var(--muted);
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -119,7 +119,7 @@ function onSortToggle(nextOpen: boolean) {
 
 .rows {
   display: grid;
-  gap: 0.34rem;
+  gap: var(--atlas-spacing-xs);
 }
 
 .row {
@@ -127,7 +127,7 @@ function onSortToggle(nextOpen: boolean) {
   --atlas-row-line: color-mix(in oklab, var(--line) 80%, #ffffff 20%);
   --atlas-row-bg: color-mix(in oklab, var(--surface) 88%, #09070d 12%);
   display: grid;
-  gap: 0.56rem;
+  gap: var(--atlas-spacing-sm);
   align-items: center;
   grid-template-columns: var(--code-chip-width) minmax(0, 1fr);
   border: 1px solid var(--atlas-row-line);

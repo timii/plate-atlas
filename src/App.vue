@@ -23,4 +23,3 @@ import Header from './components/header/Header.vue'
   }
 }
 </style>
-

@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import 'tailwindcss';
 
 :root {
@@ -24,6 +24,21 @@
   --atlas-page-gutter: 1.5rem;
   --atlas-page-gutter-mobile: 0.9rem;
   --atlas-touch-target: 2.75rem;
+
+  /* shared spacing tokens */
+  --atlas-spacing-2xs: 0.125rem;
+  --atlas-spacing-xs: 0.375rem;
+  --atlas-spacing-sm: 0.75rem;
+  --atlas-spacing-md: 1rem;
+  --atlas-spacing-layout-sm: 2.8rem;
+  --atlas-spacing-layout-lg: 5rem;
+
+  /* shared type scale */
+  --atlas-text-xxs: 0.66rem;
+  --atlas-text-xs: 0.72rem;
+  --atlas-text-sm: 0.76rem;
+  --atlas-text-md: 0.84rem;
+  --atlas-text-base: 1rem;
 
   /* shared shape tokens */
   --atlas-radius-shell: 0.92rem;
@@ -70,17 +85,16 @@ body {
 
 /* shared primitives for list rows and small filter labels */
 .atlas-field-label {
-  margin-bottom: 0.32rem;
-  font-size: 0.76rem;
+  margin-bottom: var(--atlas-spacing-xs);
+  font-size: var(--atlas-text-sm);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--muted);
 }
 
-
 .atlas-row {
   display: grid;
-  gap: 0.56rem;
+  gap: var(--atlas-spacing-sm);
   align-items: center;
   border: 1px solid var(--atlas-row-line, var(--line));
   border-left: var(--atlas-row-accent-width, 0.32rem) solid
@@ -129,8 +143,5 @@ body {
   overflow-wrap: anywhere;
   line-height: 1.08;
   font-size: 0.68rem;
-  text-align: left;
+  text-align: center;
 }
-
-
-

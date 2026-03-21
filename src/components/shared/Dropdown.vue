@@ -299,9 +299,9 @@ watch(
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.44rem;
-  padding: 0.28rem 0.56rem;
-  font-size: 0.84rem;
+  gap: var(--atlas-spacing-sm);
+  padding: var(--atlas-spacing-xs) var(--atlas-spacing-sm);
+  font-size: var(--atlas-text-md);
   cursor: pointer;
 }
 
@@ -321,9 +321,9 @@ watch(
   border: 1px solid color-mix(in oklab, var(--line) 84%, #ffffff 16%);
   border-radius: var(--atlas-radius-control);
   background: linear-gradient(180deg, rgba(14, 14, 20, 0.98), rgba(10, 10, 16, 0.96));
-  padding: 0.28rem;
+  padding: var(--atlas-spacing-xs);
   display: grid;
-  gap: 0.14rem;
+  gap: var(--atlas-spacing-2xs);
   box-shadow: 0 10px 22px rgba(2, 3, 8, 0.45);
   opacity: 0;
   transform: scale(0.98);
@@ -366,4 +366,3 @@ watch(
   }
 }
 </style>
-

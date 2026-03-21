@@ -77,11 +77,11 @@ watch(
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: var(--atlas-spacing-md);
   width: min(var(--atlas-content-width), 100%);
   min-height: var(--atlas-header-height);
   margin-inline: auto;
-  padding: 0 1rem;
+  padding: 0 var(--atlas-spacing-md);
   border: 1px solid color-mix(in oklab, var(--atlas-line) 50%, #ffffff 8%);
   border-radius: var(--atlas-radius-shell);
   background: linear-gradient(
@@ -98,7 +98,7 @@ watch(
 .brand-link {
   display: inline-flex;
   align-items: center;
-  gap: 0.62rem;
+  gap: var(--atlas-spacing-sm);
   min-width: 0;
   color: inherit;
   text-decoration: none;
@@ -130,7 +130,7 @@ watch(
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 0.04rem;
+  gap: var(--atlas-spacing-2xs);
   flex: 0 0 auto;
   min-width: 0;
 }
@@ -178,11 +178,11 @@ watch(
 
   .header-inner {
     min-height: var(--atlas-header-height-mobile);
-    padding: 0 0.82rem;
+    padding: 0 var(--atlas-spacing-md);
   }
 
   .brand-link {
-    gap: 0.52rem;
+    gap: var(--atlas-spacing-sm);
   }
 
   .logo {
@@ -197,12 +197,12 @@ watch(
 
 @media (max-width: 520px) {
   .header-inner {
-    gap: 0.72rem;
-    padding: 0 0.74rem;
+    gap: var(--atlas-spacing-sm);
+    padding: 0 var(--atlas-spacing-sm);
   }
 
   .brand-link {
-    gap: 0.44rem;
+    gap: var(--atlas-spacing-sm);
   }
 
   .logo {
@@ -211,7 +211,7 @@ watch(
   }
 
   .title {
-    font-size: 0.84rem;
+    font-size: var(--atlas-text-md);
   }
 
   .icon-link {

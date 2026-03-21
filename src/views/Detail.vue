@@ -273,15 +273,15 @@ watch(
   background: linear-gradient(165deg, var(--atlas-bg-1), var(--atlas-bg-2));
   color: var(--text);
   margin-top: -3.5rem;
-  padding-top: 5rem;
-  padding-bottom: calc(env(safe-area-inset-bottom) + 2.8rem);
+  padding-top: var(--atlas-spacing-layout-lg);
+  padding-bottom: calc(env(safe-area-inset-bottom) + var(--atlas-spacing-layout-sm));
 }
 
 .content-shell {
   width: min(78rem, 100%);
   margin-inline: auto;
   display: grid;
-  gap: 0.9rem;
+  gap: var(--atlas-spacing-md);
 }
 
 .loading-wrap {
@@ -299,7 +299,7 @@ watch(
   /* return the page to normal flow when the mobile header scrolls away */
   .detail-page {
     margin-top: 0;
-    padding-top: 0.95rem;
+    padding-top: var(--atlas-spacing-md);
   }
 }
 

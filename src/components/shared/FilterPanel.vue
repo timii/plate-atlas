@@ -30,16 +30,16 @@ const panelStyle = computed(() => {
 <style scoped>
 .filter-panel {
   display: grid;
-  gap: 0.82rem;
+  gap: var(--atlas-spacing-md);
   border: 1px solid var(--line);
   border-radius: var(--atlas-radius-panel);
   background: var(--surface);
-  padding: 0.88rem;
+  padding: var(--atlas-spacing-md);
 }
 
 .control-row {
   display: grid;
-  gap: 0.72rem;
+  gap: var(--atlas-spacing-sm);
 }
 
 .footer {
@@ -55,13 +55,12 @@ const panelStyle = computed(() => {
 
 @media (max-width: 760px) {
   .filter-panel {
-    padding: 0.8rem;
+    padding: var(--atlas-spacing-md);
   }
 
   .control-row {
     grid-template-columns: 1fr;
-    gap: 0.62rem;
+    gap: var(--atlas-spacing-sm);
   }
 }
 </style>
-

@@ -19,7 +19,7 @@ const props = defineProps<{
   border: 1px solid color-mix(in oklab, var(--line) 80%, #ffffff 20%);
   border-left: 0.32rem solid color-mix(in oklab, var(--tone, #97a0b5) 76%, #ffffff);
   border-radius: 0.52rem;
-  padding: 0.62rem 0.78rem;
+  padding: var(--atlas-spacing-sm) var(--atlas-spacing-sm);
   background: linear-gradient(
     135deg,
     color-mix(in oklab, var(--tone, #97a0b5) 11%, var(--surface-2, var(--surface))) 0%,
@@ -41,7 +41,7 @@ const props = defineProps<{
 }
 
 .info-card__content {
-  margin-top: 0.2rem;
+  margin-top: var(--atlas-spacing-2xs);
   line-height: 1.42;
   color: color-mix(in oklab, var(--text) 90%, var(--muted));
 }

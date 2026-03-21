@@ -56,12 +56,12 @@ function onInputKeydown(event: KeyboardEvent) {
 .search-field {
   display: flex;
   align-items: center;
-  gap: 0.36rem;
+  gap: var(--atlas-spacing-xs);
   border: 1px solid var(--line);
   border-radius: var(--atlas-radius-control);
   background: var(--surface-2);
   min-height: 2.75rem;
-  padding: 0.28rem 0.56rem;
+  padding: var(--atlas-spacing-xs) var(--atlas-spacing-sm);
 }
 
 .search-field input {
@@ -93,7 +93,7 @@ function onInputKeydown(event: KeyboardEvent) {
   background: transparent;
   color: var(--muted);
   border-radius: var(--atlas-radius-chip);
-  padding: 0.1rem;
+  padding: var(--atlas-spacing-2xs);
   cursor: pointer;
 }
 
@@ -107,5 +107,3 @@ function onInputKeydown(event: KeyboardEvent) {
   outline-offset: 1px;
 }
 </style>
-
-

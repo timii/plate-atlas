@@ -232,14 +232,14 @@ onBeforeUnmount(() => {
   z-index: 90;
   display: grid;
   place-items: center;
-  padding: 1rem;
+  padding: var(--atlas-spacing-md);
   background: rgba(6, 4, 10, 0.56);
   backdrop-filter: blur(18px);
 }
 
 .about-panel {
   width: min(42rem, calc(100vw - 2rem));
-  padding: 0.95rem 1rem 0.95rem;
+  padding: var(--atlas-spacing-md) var(--atlas-spacing-md) var(--atlas-spacing-md);
   border: 1px solid color-mix(in oklab, var(--atlas-line) 62%, #ffffff 10%);
   border-radius: 1rem;
   background:
@@ -258,8 +258,8 @@ onBeforeUnmount(() => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.75rem;
-  padding-bottom: 0.35rem;
+  gap: var(--atlas-spacing-sm);
+  padding-bottom: var(--atlas-spacing-xs);
 }
 
 .about-eyebrow {
@@ -276,7 +276,7 @@ onBeforeUnmount(() => {
   justify-content: center;
   width: 2.4rem;
   height: 2.4rem;
-  margin: -0.24rem -0.16rem -0.1rem 0;
+  margin: -var(--atlas-spacing-xs) -var(--atlas-spacing-2xs) -var(--atlas-spacing-2xs) 0;
   border: none;
   border-radius: 999px;
   background: transparent;
@@ -311,29 +311,29 @@ onBeforeUnmount(() => {
 .fact-row {
   display: grid;
   grid-template-columns: minmax(9.5rem, 10.5rem) minmax(0, 1fr);
-  gap: 0.95rem 1rem;
+  gap: var(--atlas-spacing-md) var(--atlas-spacing-md);
   align-items: start;
-  padding: 0.82rem 0;
+  padding: var(--atlas-spacing-md) 0;
   border-top: 1px solid color-mix(in oklab, var(--atlas-line) 54%, transparent);
 }
 
 .fact-row dt {
   color: color-mix(in oklab, var(--atlas-muted) 78%, #ffffff 22%);
-  font-size: 0.76rem;
+  font-size: var(--atlas-text-sm);
   letter-spacing: 0.11em;
   text-transform: uppercase;
 }
 
 .fact-row dd {
   color: var(--atlas-text);
-  font-size: 0.84rem;
+  font-size: var(--atlas-text-md);
   line-height: 1.6;
 }
 
 .source-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.28rem 0.46rem;
+  gap: var(--atlas-spacing-xs) var(--atlas-spacing-sm);
 }
 
 .inline-link {
@@ -353,8 +353,8 @@ onBeforeUnmount(() => {
 .link-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.55rem 0.7rem;
-  padding-top: 0.88rem;
+  gap: var(--atlas-spacing-sm) var(--atlas-spacing-sm);
+  padding-top: var(--atlas-spacing-md);
   border-top: 1px solid color-mix(in oklab, var(--atlas-line) 54%, transparent);
 }
 
@@ -363,7 +363,7 @@ onBeforeUnmount(() => {
   align-items: center;
   justify-content: center;
   min-height: 2.35rem;
-  padding: 0 0.9rem;
+  padding: 0 var(--atlas-spacing-md);
   border: 1px solid color-mix(in oklab, var(--atlas-line) 72%, #ffffff 8%);
   border-radius: 999px;
   background: color-mix(in oklab, var(--atlas-surface) 86%, transparent);
@@ -417,7 +417,7 @@ onBeforeUnmount(() => {
 @media (max-width: 640px) {
   .about-overlay {
     align-items: end;
-    padding: 0.7rem 0.7rem calc(0.7rem + env(safe-area-inset-bottom, 0px));
+    padding: var(--atlas-spacing-sm) var(--atlas-spacing-sm) calc(var(--atlas-spacing-sm) + env(safe-area-inset-bottom, 0px));
   }
 
   /* use a bottom sheet on smaller screens so the dialog fits without feeling cramped */
@@ -425,30 +425,30 @@ onBeforeUnmount(() => {
     width: min(100%, 32rem);
     max-height: min(85vh, 38rem);
     overflow-y: auto;
-    padding: 0.82rem 0.88rem 0.92rem;
+        padding: var(--atlas-spacing-md) var(--atlas-spacing-md) var(--atlas-spacing-md);
     border-radius: 1rem 1rem 0.8rem 0.8rem;
   }
 
   .about-head {
-    padding-bottom: 0.22rem;
+        padding-bottom: var(--atlas-spacing-2xs);
   }
 
   .fact-row {
     grid-template-columns: 1fr;
-    gap: 0.45rem;
-    padding: 0.78rem 0;
+    gap: var(--atlas-spacing-sm);
+    padding: var(--atlas-spacing-sm) 0;
   }
 
   .link-row {
     flex-direction: column;
-    gap: 0.5rem;
+    gap: var(--atlas-spacing-sm);
   }
 
   .text-link {
     width: 100%;
     min-height: var(--atlas-touch-target);
     justify-content: flex-start;
-    padding: 0 0.9rem;
+    padding: 0 var(--atlas-spacing-md);
   }
 }
 </style>
