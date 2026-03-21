@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import Close from '@/assets/icons/Close.vue'
 
 const text = defineModel('text', { type: String, default: '' })
@@ -114,10 +115,26 @@ function onInputKeydown(event: KeyboardEvent) {
   flex: 0 0 auto;
 }
 
+/* keep the hover fill tied to the visual control on pointer devices */
+@media (hover: hover) and (pointer: fine) {
+  .clear:hover {
+    background: var(--atlas-control-hover);
+    color: var(--text);
+  }
 }
 
 .clear:focus-visible {
   outline: 2px solid color-mix(in oklab, var(--tone, #6f87d9) 56%, var(--line));
   outline-offset: 1px;
+}
+
+/* grow the hit area on touch without changing the desktop visual size */
+@media (hover: none), (pointer: coarse) {
+  .clear {
+    min-width: var(--atlas-touch-target);
+    min-height: var(--atlas-touch-target);
+    margin: calc(var(--atlas-spacing-xs) * -1) calc(var(--atlas-spacing-sm) * -1)
+      calc(var(--atlas-spacing-xs) * -1) 0;
+  }
 }
 </style>

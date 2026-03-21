@@ -187,18 +187,14 @@ onBeforeUnmount(() => {
             <div class="fact-row">
               <dt>Created by</dt>
               <dd>
-                <a :href="creatorUrl" class="inline-link" target="_blank" rel="noreferrer"
-                  >timii</a
-                >
+                <a :href="creatorUrl" class="inline-link" target="_blank" rel="noreferrer">timii</a>
               </dd>
             </div>
 
             <div class="fact-row">
               <dt>License</dt>
               <dd>
-                <a :href="licenseUrl" class="inline-link" target="_blank" rel="noreferrer"
-                  >MIT</a
-                >
+                <a :href="licenseUrl" class="inline-link" target="_blank" rel="noreferrer">MIT</a>
               </dd>
             </div>
 
@@ -293,15 +289,27 @@ onBeforeUnmount(() => {
   flex: 0 0 auto;
 }
 
-.close-button:hover {
-  background: var(--atlas-control-hover);
-  color: var(--atlas-text);
+/* keep the hover fill matched to the visible close button on pointer devices */
+@media (hover: hover) and (pointer: fine) {
+  .close-button:hover {
+    background: var(--atlas-control-hover);
+    color: var(--atlas-text);
+  }
 }
 
 /* reuse the shared page tone inside the dialog */
 .close-button:focus-visible {
   outline: 2px solid color-mix(in oklab, var(--atlas-page-tone, #6f87d9) 64%, var(--atlas-line));
   outline-offset: 2px;
+}
+
+/* expand the touch target without changing the desktop close button proportions */
+@media (hover: none), (pointer: coarse) {
+  .close-button {
+    width: var(--atlas-touch-target);
+    height: var(--atlas-touch-target);
+    margin: -var(--atlas-spacing-xs) -var(--atlas-spacing-xs) -var(--atlas-spacing-2xs) 0;
+  }
 }
 
 .fact-list {
@@ -417,20 +425,23 @@ onBeforeUnmount(() => {
 @media (max-width: 640px) {
   .about-overlay {
     align-items: end;
-    padding: var(--atlas-spacing-sm) var(--atlas-spacing-sm) calc(var(--atlas-spacing-sm) + env(safe-area-inset-bottom, 0px));
+    padding: var(--atlas-spacing-sm) var(--atlas-spacing-sm)
+      calc(var(--atlas-spacing-sm) + env(safe-area-inset-bottom, 0px));
   }
 
   /* use a bottom sheet on smaller screens so the dialog fits without feeling cramped */
   .about-panel {
     width: min(100%, 32rem);
-    max-height: calc(100dvh - var(--atlas-spacing-sm) - var(--atlas-spacing-sm) - env(safe-area-inset-bottom, 0px));
+    max-height: calc(
+      100dvh - var(--atlas-spacing-sm) - var(--atlas-spacing-sm) - env(safe-area-inset-bottom, 0px)
+    );
     overflow-y: auto;
-        padding: var(--atlas-spacing-md) var(--atlas-spacing-md) var(--atlas-spacing-md);
+    padding: var(--atlas-spacing-md) var(--atlas-spacing-md) var(--atlas-spacing-md);
     border-radius: 1rem 1rem 0.8rem 0.8rem;
   }
 
   .about-head {
-        padding-bottom: var(--atlas-spacing-2xs);
+    padding-bottom: var(--atlas-spacing-2xs);
   }
 
   .fact-row {

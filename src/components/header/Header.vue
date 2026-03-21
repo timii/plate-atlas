@@ -152,9 +152,12 @@ watch(
     color 160ms ease;
 }
 
-.icon-link:hover {
-  background: var(--atlas-control-hover);
-  color: var(--atlas-text);
+/* keep the hover fill matched to the visible icon button on pointer devices */
+@media (hover: hover) and (pointer: fine) {
+  .icon-link:hover {
+    background: var(--atlas-control-hover);
+    color: var(--atlas-text);
+  }
 }
 
 .icon-link:focus-visible {
@@ -166,6 +169,14 @@ watch(
 .icon-link :deep(svg) {
   width: 1.16rem;
   height: 1.16rem;
+}
+
+/* expand the touch target without changing the desktop icon proportions */
+@media (hover: none), (pointer: coarse) {
+  .icon-link {
+    width: var(--atlas-touch-target);
+    height: var(--atlas-touch-target);
+  }
 }
 
 @media (max-width: 760px) {
@@ -212,11 +223,6 @@ watch(
 
   .title {
     font-size: var(--atlas-text-md);
-  }
-
-  .icon-link {
-    width: 2.3rem;
-    height: 2.3rem;
   }
 }
 

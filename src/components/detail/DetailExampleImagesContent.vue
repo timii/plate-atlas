@@ -525,6 +525,13 @@ onBeforeUnmount(() => {
   box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--tone, #97a0b5) 56%, var(--line));
 }
 
+/* expand the touch target without inflating the desktop button shape */
+@media (hover: none), (pointer: coarse) {
+  .preview-close {
+    min-height: var(--atlas-touch-target);
+  }
+}
+
 .preview-panel img {
   width: 100%;
   max-height: 70vh;

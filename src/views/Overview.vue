@@ -405,9 +405,17 @@ onMounted(() => {
     color 160ms ease;
 }
 
-.filters-toggle:hover {
-  color: var(--text);
-  background: color-mix(in oklab, var(--surface-2) 72%, transparent);
+/* keep hover fills aligned to the visible pill size on pointer devices */
+@media (hover: hover) and (pointer: fine) {
+  .filters-toggle:hover {
+    color: var(--text);
+    background: color-mix(in oklab, var(--surface-2) 72%, transparent);
+  }
+
+  .favorites-inline-toggle:hover {
+    color: var(--text);
+    background: color-mix(in oklab, var(--surface-2) 72%, transparent);
+  }
 }
 
 .filters-toggle:focus-visible {
@@ -416,11 +424,13 @@ onMounted(() => {
   box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--tone, #6f87d9) 52%, var(--line));
 }
 
-.favorites-inline-toggle:hover {
-  color: var(--text);
-  background: color-mix(in oklab, var(--surface-2) 72%, transparent);
+/* expand the tap target on touch without changing the desktop pill proportions */
+@media (hover: none), (pointer: coarse) {
+  .favorites-inline-toggle,
+  .filters-toggle {
+    min-height: var(--atlas-touch-target);
+  }
 }
-
 .favorites-inline-toggle:focus-visible {
   outline: none;
   border-color: color-mix(in oklab, var(--tone, #6f87d9) 64%, var(--line));
@@ -594,26 +604,9 @@ onMounted(() => {
     width: 100%;
   }
 
-  .favorites-inline-toggle {
-    align-self: flex-start;
-  }
-
+  /* surface the compact filter trigger once the advanced controls collapse */
   .filters-toggle {
     display: inline-flex;
-    align-self: flex-start;
-  }
-
-  .row {
-    gap: 0.46rem;
-    padding: 0.4rem 0.5rem;
-  }
-
-  .name {
-    overflow-wrap: anywhere;
-  }
-
-  .continent {
-    font-size: var(--atlas-text-xxs);
   }
 }
 
