@@ -229,7 +229,7 @@ onBeforeUnmount(() => {
   display: grid;
   place-items: center;
   padding: var(--atlas-spacing-md);
-  background: rgba(6, 4, 10, 0.56);
+  background: var(--atlas-backdrop);
   backdrop-filter: blur(18px);
 }
 
@@ -238,16 +238,8 @@ onBeforeUnmount(() => {
   padding: var(--atlas-spacing-md) var(--atlas-spacing-md) var(--atlas-spacing-md);
   border: 1px solid color-mix(in oklab, var(--atlas-line) 62%, #ffffff 10%);
   border-radius: 1rem;
-  background:
-    linear-gradient(
-      180deg,
-      color-mix(in oklab, var(--atlas-surface-2) 88%, rgba(255, 255, 255, 0.028)),
-      color-mix(in oklab, var(--atlas-surface) 92%, rgba(12, 9, 18, 0.72))
-    ),
-    radial-gradient(circle at top, rgba(255, 255, 255, 0.03), transparent 58%);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.04),
-    0 22px 56px rgba(3, 2, 7, 0.42);
+  background: var(--atlas-dialog-bg);
+  box-shadow: var(--atlas-dialog-shadow);
 }
 
 .about-head {

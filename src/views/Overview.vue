@@ -439,14 +439,14 @@ onMounted(() => {
 
 .favorites-inline-toggle--active {
   color: var(--text);
-  border-color: color-mix(in oklab, #daaa3f 20%, var(--line));
-  background: color-mix(in oklab, #daaa3f 8%, transparent);
+  border-color: var(--atlas-favorite-border);
+  background: var(--atlas-favorite-bg);
 }
 
 .favorites-inline-toggle-icon {
   width: 0.82rem;
   height: 0.82rem;
-  color: #daaa3f;
+  color: var(--atlas-favorite);
   flex: 0 0 auto;
 }
 
@@ -471,7 +471,7 @@ onMounted(() => {
   justify-content: space-between;
   border: 1px solid color-mix(in oklab, var(--line) 78%, #ffffff 22%);
   border-radius: var(--atlas-radius-row);
-  background: linear-gradient(180deg, rgba(12, 10, 18, 0.94), rgba(8, 6, 13, 0.9));
+  background: var(--atlas-elevated-bg);
   padding: var(--atlas-spacing-xs) var(--atlas-spacing-sm);
 }
 
@@ -489,7 +489,7 @@ onMounted(() => {
   color: var(--text);
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.06);
+  background: var(--atlas-subtle-bg);
   padding: var(--atlas-spacing-2xs) var(--atlas-spacing-sm);
   line-height: 1.2;
 }
@@ -550,7 +550,7 @@ onMounted(() => {
 .favorite-marker {
   width: 0.82rem;
   height: 0.82rem;
-  color: #daaa3f;
+  color: var(--atlas-favorite);
 }
 
 .row img {

@@ -8,7 +8,7 @@ const props = defineProps({
   },
   color: {
     type: String,
-    default: '#9198a1',
+    default: 'var(--atlas-muted-action)',
   },
   size: {
     type: String,
@@ -65,11 +65,8 @@ const props = defineProps({
 }
 
 .icon:focus-visible {
-  outline: 2px solid color-mix(
-    in oklab,
-    var(--tone, #97a0b5) 62%,
-    var(--line, rgba(255, 255, 255, 0.24))
-  );
+  outline: 2px solid
+    color-mix(in oklab, var(--tone, #97a0b5) 62%, var(--line, rgba(255, 255, 255, 0.24)));
   outline-offset: 2px;
 }
 </style>

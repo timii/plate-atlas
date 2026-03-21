@@ -484,7 +484,7 @@ onBeforeUnmount(() => {
   position: fixed;
   inset: 0;
   z-index: 80;
-  background: rgba(6, 6, 10, 0.74);
+  background: var(--atlas-backdrop);
   backdrop-filter: blur(2px);
   display: grid;
   place-items: center;
@@ -495,8 +495,8 @@ onBeforeUnmount(() => {
   width: min(52rem, 100%);
   border: 1px solid color-mix(in oklab, var(--line) 80%, #ffffff 20%);
   border-radius: 0.64rem;
-  background: color-mix(in oklab, var(--surface, #100f18) 92%, #05060b 8%);
-  box-shadow: 0 20px 44px rgba(0, 0, 0, 0.46);
+  background: var(--atlas-panel-bg);
+  box-shadow: var(--atlas-panel-shadow);
   padding: var(--atlas-spacing-sm);
   display: grid;
   gap: var(--atlas-spacing-sm);

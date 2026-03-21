@@ -14,6 +14,26 @@
   --atlas-muted: #c7bade;
   --atlas-line: rgba(244, 237, 255, 0.24);
 
+  /* shared semantic color tokens */
+  --atlas-default-accent: #97a0b5;
+  --atlas-muted-action: #9198a1;
+  --atlas-favorite: #daaa3f;
+  --atlas-favorite-border: color-mix(in oklab, var(--atlas-favorite) 20%, var(--atlas-line));
+  --atlas-favorite-bg: color-mix(in oklab, var(--atlas-favorite) 8%, transparent);
+  --atlas-elevated-bg: linear-gradient(180deg, rgba(12, 10, 18, 0.94), rgba(8, 6, 13, 0.9));
+  --atlas-panel-bg: color-mix(in oklab, var(--atlas-surface) 92%, #05060b 8%);
+  --atlas-dialog-bg:
+    linear-gradient(
+      180deg,
+      color-mix(in oklab, var(--atlas-surface-2) 88%, rgba(255, 255, 255, 0.028)),
+      color-mix(in oklab, var(--atlas-surface) 92%, rgba(12, 9, 18, 0.72))
+    ),
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.03), transparent 58%);
+  --atlas-subtle-bg: rgba(255, 255, 255, 0.06);
+  --atlas-backdrop: rgba(6, 4, 10, 0.56);
+  --atlas-dialog-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 22px 56px rgba(3, 2, 7, 0.42);
+  --atlas-panel-shadow: 0 20px 44px rgba(0, 0, 0, 0.46);
+
   /* shared layout tokens */
   --atlas-header-height: 3.35rem;
   --atlas-header-height-mobile: 3.1rem;
@@ -145,3 +165,6 @@ body {
   font-size: 0.68rem;
   text-align: center;
 }
+
+
+

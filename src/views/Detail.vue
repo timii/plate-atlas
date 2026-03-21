@@ -226,7 +226,7 @@ watch(
               <IconButton
                 v-if="isCountryFavorited"
                 :icon-component="StarFilled"
-                color="#daaa3f"
+                color="var(--atlas-favorite)"
                 :label="favoriteButtonLabel"
                 :pressed="true"
                 @click="onFavoriteClick"
@@ -234,7 +234,7 @@ watch(
               <IconButton
                 v-else
                 :icon-component="StarEmpty"
-                color="#9198a1"
+                color="var(--atlas-muted-action)"
                 :label="favoriteButtonLabel"
                 :pressed="false"
                 @click="onFavoriteClick"
@@ -264,7 +264,7 @@ watch(
 
 <style scoped>
 .detail-page {
-  --tone: #97a0b5;
+  --tone: var(--atlas-default-accent);
   --surface: var(--atlas-surface);
   --surface-2: var(--atlas-surface-2);
   --text: var(--atlas-text);
