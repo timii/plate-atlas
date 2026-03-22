@@ -24,64 +24,90 @@ const props = defineProps({
 
 const emits = defineEmits(['select', 'toggle'])
 const rootEl = ref<HTMLElement | null>(null)
-const triggerEl = ref<HTMLButtonElement | null>(null)
-const optionEls = ref<HTMLButtonElement[]>([])
+const triggerEl = ref<HTMLElement | null>(null)
 const baseId = `filter-dropdown-${++dropdownIdCounter}`
 const labelId = `${baseId}-label`
 const valueId = `${baseId}-value`
 const listboxId = `${baseId}-list`
+
+const hasItems = computed(() => {
+  return props.list.length > 0
+})
 
 const selectedIndex = computed(() => {
   const index = props.list.findIndex((item) => item.selected)
   return index >= 0 ? index : 0
 })
 
-// keep focus on the selected option while the list is open
+// keep the popup listbox aligned with the current highlighted option
 const activeIndex = ref(selectedIndex.value)
 
+// keep virtual focus on the combobox trigger while the popup stays open
+const activeOptionId = computed(() => {
+  if (!props.open || !props.list[activeIndex.value]) {
+    return undefined
+  }
+
+  return `${listboxId}-option-${activeIndex.value}`
+})
+
 const selectedItem = computed(() => {
-  const selected = props.list.find((e) => e.selected)
+  const selected = props.list.find((item) => item.selected)
   return selected ?? props.list[0]
 })
 
-function setOptionRef(element: HTMLButtonElement | null, index: number) {
-  if (!element) {
+function clampIndex(index: number): number {
+  if (!props.list.length) {
+    return 0
+  }
+
+  return Math.max(0, Math.min(index, props.list.length - 1))
+}
+
+function closeMenu(restoreFocus: boolean) {
+  if (!props.open) {
     return
   }
 
-  optionEls.value[index] = element
-}
-
-function onItemClick(item: IDropdownItem) {
-  emits('select', item)
   emits('toggle', false)
-  activeIndex.value = props.list.findIndex((entry) => entry.id === item.id)
 
-  // return focus to the trigger after choosing an option
+  if (!restoreFocus) {
+    return
+  }
+
   nextTick(() => {
     triggerEl.value?.focus()
   })
 }
 
+function onItemClick(item: IDropdownItem) {
+  emits('select', item)
+  activeIndex.value = props.list.findIndex((entry) => entry.id === item.id)
+  closeMenu(true)
+}
+
 function toggleMenuFromTrigger() {
+  if (!hasItems.value) {
+    return
+  }
+
   emits('toggle', !props.open)
 }
 
 function focusOption(index: number) {
-  const clampedIndex = Math.max(0, Math.min(index, props.list.length - 1))
-  activeIndex.value = clampedIndex
-
-  nextTick(() => {
-    optionEls.value[clampedIndex]?.focus()
-  })
+  activeIndex.value = clampIndex(index)
 }
 
 function openFromTrigger(index: number) {
+  if (!hasItems.value) {
+    return
+  }
+
+  activeIndex.value = clampIndex(index)
+
   if (!props.open) {
     emits('toggle', true)
   }
-
-  focusOption(index)
 }
 
 function selectActiveItem() {
@@ -94,6 +120,15 @@ function selectActiveItem() {
 }
 
 function onTriggerKeydown(event: KeyboardEvent) {
+  if (!hasItems.value) {
+    return
+  }
+
+  if (event.key === 'Tab') {
+    closeMenu(false)
+    return
+  }
+
   if ((event.key === 'Enter' || event.key === ' ') && !props.open) {
     event.preventDefault()
     openFromTrigger(selectedIndex.value)
@@ -124,53 +159,15 @@ function onTriggerKeydown(event: KeyboardEvent) {
     return
   }
 
-  if (event.key === 'Escape' && props.open) {
-    event.preventDefault()
-    emits('toggle', false)
-  }
-}
-
-function onListKeydown(event: KeyboardEvent) {
-  if (event.key === 'ArrowDown') {
-    event.preventDefault()
-    focusOption(activeIndex.value + 1)
-    return
-  }
-
-  if (event.key === 'ArrowUp') {
-    event.preventDefault()
-    focusOption(activeIndex.value - 1)
-    return
-  }
-
-  if (event.key === 'Home') {
-    event.preventDefault()
-    focusOption(0)
-    return
-  }
-
-  if (event.key === 'End') {
-    event.preventDefault()
-    focusOption(props.list.length - 1)
-    return
-  }
-
-  if (event.key === 'Enter' || event.key === ' ') {
+  if ((event.key === 'Enter' || event.key === ' ') && props.open) {
     event.preventDefault()
     selectActiveItem()
     return
   }
 
-  if (event.key === 'Tab') {
-    // let tab leave the widget instead of walking every option
-    emits('toggle', false)
-    return
-  }
-
   if (event.key === 'Escape' && props.open) {
     event.preventDefault()
-    emits('toggle', false)
-    triggerEl.value?.focus()
+    closeMenu(true)
   }
 }
 
@@ -185,7 +182,7 @@ function onDocumentPointerDown(event: PointerEvent) {
   }
 
   if (!rootEl.value.contains(target)) {
-    emits('toggle', false)
+    closeMenu(false)
   }
 }
 
@@ -199,7 +196,7 @@ function onFocusOut(event: FocusEvent) {
     return
   }
 
-  emits('toggle', false)
+  closeMenu(false)
 }
 
 onMounted(() => {
@@ -214,16 +211,10 @@ watch(
   () => props.open,
   (isOpen) => {
     if (!isOpen) {
-      optionEls.value = []
       return
     }
 
     activeIndex.value = selectedIndex.value
-
-    // open on the selected option so arrow navigation starts in context
-    nextTick(() => {
-      optionEls.value[selectedIndex.value]?.focus()
-    })
   },
 )
 
@@ -239,21 +230,24 @@ watch(
 <template>
   <div ref="rootEl" class="filter-dropdown" @focusout="onFocusOut">
     <FieldLabel :id="labelId" :text="props.label" />
-    <button
+    <div
       ref="triggerEl"
-      type="button"
       class="trigger"
-      aria-haspopup="listbox"
+      :class="{ 'trigger--disabled': !hasItems }"
+      role="combobox"
+      :tabindex="hasItems ? 0 : -1"
+      :aria-disabled="!hasItems"
       :aria-expanded="props.open"
       :aria-controls="listboxId"
       :aria-labelledby="`${labelId} ${valueId}`"
+      :aria-activedescendant="props.open ? activeOptionId : undefined"
       @click="toggleMenuFromTrigger"
       @keydown="onTriggerKeydown"
     >
-      <span :id="valueId">{{ selectedItem.label }}</span>
+      <span :id="valueId">{{ selectedItem?.label ?? 'No options available' }}</span>
       <ChevronUp v-if="props.open" />
       <ChevronDown v-else />
-    </button>
+    </div>
 
     <div
       :id="listboxId"
@@ -262,23 +256,25 @@ watch(
       role="listbox"
       :aria-labelledby="labelId"
       :aria-hidden="!props.open"
-      @keydown="onListKeydown"
     >
-      <button
+      <!-- keep focus on the combobox trigger while pointer selection happens -->
+      <div
         v-for="(item, index) of props.list"
         :id="`${listboxId}-option-${index}`"
         :key="item.id"
-        :ref="(element) => setOptionRef(element as HTMLButtonElement | null, index)"
-        type="button"
         class="item"
+        :class="{
+          'item--active': activeIndex === index,
+          'item--selected': item.selected,
+        }"
         role="option"
         :aria-selected="item.selected"
-        :tabindex="props.open && activeIndex === index ? 0 : -1"
-        @focus="activeIndex = index"
+        @mouseenter="focusOption(index)"
+        @mousedown.prevent
         @click="onItemClick(item)"
       >
         {{ item.label }}
-      </button>
+      </div>
     </div>
   </div>
 </template>
@@ -303,6 +299,11 @@ watch(
   padding: var(--atlas-spacing-xs) var(--atlas-spacing-sm);
   font-size: var(--atlas-text-md);
   cursor: pointer;
+}
+
+.trigger--disabled {
+  color: var(--muted);
+  cursor: default;
 }
 
 .trigger:focus-visible {
@@ -350,14 +351,15 @@ watch(
   cursor: pointer;
 }
 
-.item:hover {
-  background: var(--atlas-control-hover);
+/* keep the chosen value readable without making it look actively highlighted */
+.item--selected {
   color: var(--text);
 }
 
-.item:focus-visible {
-  outline: 1px solid color-mix(in oklab, var(--tone, #6f87d9) 52%, var(--line));
-  outline-offset: 0;
+/* reserve the filled state for the option currently being hovered or arrowed to */
+.item--active {
+  background: var(--atlas-control-hover);
+  color: var(--text);
 }
 
 @media (max-width: 760px) {
