@@ -230,7 +230,6 @@ onBeforeUnmount(() => {
   place-items: center;
   padding: var(--atlas-spacing-md);
   background: var(--atlas-backdrop);
-  backdrop-filter: blur(18px);
 }
 
 .about-panel {

@@ -485,7 +485,6 @@ onBeforeUnmount(() => {
   inset: 0;
   z-index: 80;
   background: var(--atlas-backdrop);
-  backdrop-filter: blur(2px);
   display: grid;
   place-items: center;
   padding: var(--atlas-spacing-md);
