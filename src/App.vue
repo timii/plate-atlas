@@ -10,14 +10,13 @@ import Header from './components/header/Header.vue'
 </template>
 
 <style scoped>
-/* reserve space for the fixed header so page content starts below it */
 .app-main {
   min-height: 100vh;
-  padding: calc(var(--atlas-header-height) + var(--atlas-header-offset) + 0.45rem) var(--atlas-page-gutter) 0;
+  padding: 0 var(--atlas-page-gutter) 0;
 }
 
 @media (max-width: 760px) {
-  /* let the mobile header take part in normal page flow */
+  /* keep the same static header flow on smaller screens */
   .app-main {
     padding: 0 var(--atlas-page-gutter-mobile) 0;
   }
