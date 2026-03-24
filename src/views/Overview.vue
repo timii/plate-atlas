@@ -320,8 +320,7 @@ onMounted(() => {
   --code-chip-width: 3.5rem;
   background: linear-gradient(165deg, var(--bg-1), var(--bg-2));
   color: var(--text);
-  margin-top: -3.5rem;
-  padding-top: var(--atlas-spacing-layout-lg);
+  padding-top: var(--atlas-spacing-md);
   font-size: 1.1rem;
   font-weight: 400;
   padding-bottom: calc(env(safe-area-inset-bottom) + var(--atlas-spacing-layout-sm));
@@ -573,12 +572,6 @@ onMounted(() => {
 }
 
 @media (max-width: 760px) {
-  /* return the page to normal flow when the mobile header scrolls away */
-  .overview-page {
-    margin-top: 0;
-    padding-top: var(--atlas-spacing-md);
-  }
-
   .footer-bar {
     align-items: flex-start;
     flex-direction: column;

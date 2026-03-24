@@ -67,8 +67,7 @@ watch(
 
 <style scoped>
 .header {
-  position: fixed;
-  inset: 0 0 auto 0;
+  position: static;
   z-index: 50;
   padding: var(--atlas-header-offset) var(--atlas-page-gutter) 0;
 }
@@ -92,7 +91,6 @@ watch(
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.03),
     0 16px 36px rgba(5, 4, 10, 0.2);
-  backdrop-filter: blur(16px);
 }
 
 .brand-link {
@@ -180,10 +178,7 @@ watch(
 }
 
 @media (max-width: 760px) {
-  /* let the header scroll with the content on smaller screens */
   .header {
-    position: static;
-    inset: auto;
     padding: var(--atlas-header-offset-mobile) var(--atlas-page-gutter-mobile) 0;
   }
 

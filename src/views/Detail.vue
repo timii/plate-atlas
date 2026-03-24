@@ -272,8 +272,7 @@ watch(
   --line: var(--atlas-line);
   background: linear-gradient(165deg, var(--atlas-bg-1), var(--atlas-bg-2));
   color: var(--text);
-  margin-top: -3.5rem;
-  padding-top: var(--atlas-spacing-layout-lg);
+  padding-top: var(--atlas-spacing-md);
   padding-bottom: calc(env(safe-area-inset-bottom) + var(--atlas-spacing-layout-sm));
 }
 
@@ -293,14 +292,6 @@ watch(
 
 .favorite-wrap {
   display: inline-flex;
-}
-
-@media (max-width: 760px) {
-  /* return the page to normal flow when the mobile header scrolls away */
-  .detail-page {
-    margin-top: 0;
-    padding-top: var(--atlas-spacing-md);
-  }
 }
 
 @media (min-width: 1500px) {
