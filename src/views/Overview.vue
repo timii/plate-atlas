@@ -16,7 +16,7 @@ import EmptyState from '@/components/shared/EmptyState.vue'
 import { type CountryGroupBy, type CountrySortMode, useCountriesStore } from '@/stores/countries'
 import { getToneStyle } from '@/constants/continentTone'
 import { preloadCountryDetails } from '@/utils/countryDetailsLoader'
-import { pickPreferredStaticAssetUrl } from '@/utils/assetUrl'
+import { pickMirroredAssetUrl } from '@/utils/assetUrl'
 
 type DropdownKey = 'sort' | 'group' | 'continent' | null
 
@@ -86,6 +86,7 @@ const mobileFiltersLabel = computed(() => {
   return mobileFiltersOpen.value ? 'Hide filters' : 'Filters'
 })
 const advancedFiltersId = 'overview-advanced-filters'
+const failedFlagThumbCodes = ref<Record<string, true>>({})
 
 // keep track of if and which dropdown is currently open
 const activeDropdown = ref<DropdownKey>(null)
@@ -140,34 +141,24 @@ function isFavoriteCountry(code: string): boolean {
   return countriesStore.isFavorite(code)
 }
 
-// prefer mirrored assets while keeping remote fallback
 function flagThumbSrc(country: ICountry): string {
-  return pickPreferredStaticAssetUrl(country.flagThumbLocal, country.flagThumb)
+  return pickMirroredAssetUrl(country.flagThumbLocal)
 }
 
-function flagThumbFallback(country: ICountry): string {
-  return country.flagThumbLocal ? country.flagThumb : ''
+// keep overview flags local-only so missing mirrors stay visible during testing
+function hasFlagThumb(country: ICountry): boolean {
+  return Boolean(country.flagThumbLocal) && !failedFlagThumbCodes.value[country.code]
 }
 
-// retry the original remote asset if the local path is missing
-function onFlagError(event: Event) {
-  const target = event.target
-  if (!(target instanceof HTMLImageElement)) {
+function onFlagError(code: string) {
+  if (failedFlagThumbCodes.value[code]) {
     return
   }
 
-  const fallbackSrc = target.dataset.fallbackSrc
-  if (
-    fallbackSrc &&
-    target.getAttribute('src') !== fallbackSrc &&
-    target.currentSrc !== fallbackSrc
-  ) {
-    target.src = fallbackSrc
-    target.dataset.fallbackSrc = ''
-    return
+  failedFlagThumbCodes.value = {
+    ...failedFlagThumbCodes.value,
+    [code]: true,
   }
-
-  target.style.visibility = 'hidden'
 }
 
 onMounted(() => {
@@ -286,12 +277,13 @@ onMounted(() => {
                   aria-hidden="true"
                 />
                 <img
+                  v-if="hasFlagThumb(country)"
                   :src="flagThumbSrc(country)"
-                  :data-fallback-src="flagThumbFallback(country)"
                   :alt="`${country.country} flag`"
                   loading="lazy"
-                  @error="onFlagError"
+                  @error="onFlagError(country.code)"
                 />
+                <span v-else class="flag-fallback" aria-hidden="true"></span>
               </span>
             </RouterLink>
           </div>
@@ -556,6 +548,15 @@ onMounted(() => {
   width: 1.24rem;
   border-radius: 0.16rem;
   border: 1px solid var(--line);
+  display: block;
+}
+
+.flag-fallback {
+  width: 1.24rem;
+  height: 0.84rem;
+  border: 1px dashed color-mix(in oklab, var(--line) 72%, #ffffff 28%);
+  border-radius: 0.16rem;
+  background: color-mix(in oklab, var(--surface-2) 74%, transparent);
   display: block;
 }
 

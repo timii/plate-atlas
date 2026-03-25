@@ -3,7 +3,7 @@ import EmptyState from '@/components/shared/EmptyState.vue'
 import InfoCard from '@/components/detail/InfoCard.vue'
 import type { ICountryDetailExampleImage } from '@/models/country.model'
 import { useDetailsStore } from '@/stores/details'
-import { pickPreferredStaticAssetUrl } from '@/utils/assetUrl'
+import { pickMirroredAssetUrl } from '@/utils/assetUrl'
 import { storeToRefs } from 'pinia'
 import { computed, nextTick, onBeforeUnmount, ref, watch } from 'vue'
 
@@ -11,7 +11,7 @@ type ExampleImage = ICountryDetailExampleImage
 
 type PreviewImage = {
   failureKey: string
-  fallbackSrc: string
+  localPath: string
   src: string
   title: string
 }
@@ -29,8 +29,8 @@ const previewImage = ref<PreviewImage | null>(null)
 const previewPanelRef = ref<HTMLElement | null>(null)
 const previewCloseRef = ref<HTMLButtonElement | null>(null)
 const previouslyFocusedEl = ref<HTMLElement | null>(null)
-const failedPreviewImages = ref<Record<string, true>>({})
-const failedThumbnailImages = ref<Record<string, true>>({})
+const failedPreviewKeys = ref<Record<string, true>>({})
+const failedThumbnailKeys = ref<Record<string, true>>({})
 const previewTitleId = `example-preview-title-${++previewIdCounter}`
 // restore the page scroll state after the preview modal closes
 let previousBodyOverflow = ''
@@ -48,82 +48,62 @@ function imageKey(imageObj: ExampleImage, variant: 'preview' | 'thumb'): string 
 }
 
 function thumbnailSrc(imageObj: ExampleImage): string {
-  return pickPreferredStaticAssetUrl(imageObj.thumbLocal, imageObj.url)
-}
-
-function thumbnailFallbackSrc(imageObj: ExampleImage): string {
-  return imageObj.thumbLocal ? imageObj.url : ''
+  return pickMirroredAssetUrl(imageObj.thumbLocal)
 }
 
 function previewSource(imageObj: ExampleImage): PreviewImage {
+  const localPath = imageObj.fullSizeLocal ?? imageObj.thumbLocal ?? ''
+
   return {
     failureKey: imageKey(imageObj, 'preview'),
-    fallbackSrc: imageObj.fullSizeLocal || imageObj.thumbLocal ? imageObj.url : '',
-    src: pickPreferredStaticAssetUrl(imageObj.fullSizeLocal ?? imageObj.thumbLocal, imageObj.url),
+    localPath,
+    src: pickMirroredAssetUrl(localPath),
     title: imageTitle(imageObj),
   }
 }
 
-function hasPreviewFailed(imageObj: PreviewImage): boolean {
-  return !!failedPreviewImages.value[imageObj.failureKey]
+// keep detail cards local-only so broken mirrors fall back to the inline placeholder
+function hasThumbnailSource(imageObj: ExampleImage): boolean {
+  return Boolean(imageObj.thumbLocal) && !failedThumbnailKeys.value[imageKey(imageObj, 'thumb')]
 }
 
-function hasThumbnailFailed(imageObj: ExampleImage): boolean {
-  return !!failedThumbnailImages.value[imageKey(imageObj, 'thumb')]
+function hasPreviewSource(imageObj: PreviewImage): boolean {
+  // keep preview overlays local-only so missing mirrors open the modal fallback instead
+  return Boolean(imageObj.src) && !failedPreviewKeys.value[imageObj.failureKey]
 }
 
 function markPreviewImageFailed(key: string) {
-  if (failedPreviewImages.value[key]) {
+  if (failedPreviewKeys.value[key]) {
     return
   }
 
-  failedPreviewImages.value = {
-    ...failedPreviewImages.value,
+  failedPreviewKeys.value = {
+    ...failedPreviewKeys.value,
     [key]: true,
   }
 }
 
 function markThumbnailImageFailed(key: string) {
-  if (failedThumbnailImages.value[key]) {
+  if (failedThumbnailKeys.value[key]) {
     return
   }
 
-  failedThumbnailImages.value = {
-    ...failedThumbnailImages.value,
+  failedThumbnailKeys.value = {
+    ...failedThumbnailKeys.value,
     [key]: true,
   }
 }
 
-function tryFallbackImage(event: Event): boolean {
-  const target = event.target
-  if (!(target instanceof HTMLImageElement)) {
-    return false
-  }
-
-  const fallbackSrc = target.dataset.fallbackSrc
-  if (
-    !fallbackSrc ||
-    target.getAttribute('src') === fallbackSrc ||
-    target.currentSrc === fallbackSrc
-  ) {
-    return false
-  }
-
-  target.src = fallbackSrc
-  target.dataset.fallbackSrc = ''
-  return true
-}
-
-function onThumbnailError(event: Event, imageObj: ExampleImage) {
-  if (tryFallbackImage(event)) {
+function onThumbnailError(imageObj: ExampleImage) {
+  if (!imageObj.thumbLocal) {
     return
   }
 
   markThumbnailImageFailed(imageKey(imageObj, 'thumb'))
 }
 
-function onPreviewError(event: Event, failureKey: string) {
-  if (tryFallbackImage(event)) {
+function onPreviewError(failureKey: string) {
+  if (!previewImage.value?.localPath) {
     return
   }
 
@@ -261,17 +241,16 @@ onBeforeUnmount(() => {
               @click="openPreview(imageObj)"
             >
               <div class="plate-wrap">
-                <div v-if="hasThumbnailFailed(imageObj)" class="plate-fallback" aria-hidden="true">
-                  <span>Image unavailable</span>
-                </div>
                 <img
-                  v-else
+                  v-if="hasThumbnailSource(imageObj)"
                   :src="thumbnailSrc(imageObj)"
-                  :data-fallback-src="thumbnailFallbackSrc(imageObj)"
                   :alt="`Example image for ${imageTitle(imageObj)}`"
                   loading="lazy"
-                  @error="onThumbnailError($event, imageObj)"
+                  @error="onThumbnailError(imageObj)"
                 />
+                <div v-else class="plate-fallback" aria-hidden="true">
+                  <span>Image unavailable</span>
+                </div>
               </div>
               <span class="sample-caption">{{ imageTitle(imageObj) }}</span>
             </button>
@@ -305,16 +284,15 @@ onBeforeUnmount(() => {
       >
         close
       </button>
-      <div v-if="hasPreviewFailed(previewImage)" class="preview-fallback" role="status">
+      <div v-if="!hasPreviewSource(previewImage)" class="preview-fallback" role="status">
         <strong>Image unavailable</strong>
-        <span>The original source could not be loaded</span>
+        <span>The local mirrored image is unavailable</span>
       </div>
       <img
         v-else
         :src="previewImage.src"
-        :data-fallback-src="previewImage.fallbackSrc"
         :alt="previewImage.title"
-        @error="onPreviewError($event, previewImage.failureKey)"
+        @error="onPreviewError(previewImage.failureKey)"
       />
       <p :id="previewTitleId">{{ previewImage.title }}</p>
     </div>

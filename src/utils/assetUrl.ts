@@ -1,16 +1,9 @@
-function resolveStaticAssetUrl(path?: string | null): string | null {
-  if (!path) {
-    return null
+export function pickMirroredAssetUrl(localPath?: string | null): string {
+  // keep image loading anchored to mirrored local assets
+  if (!localPath) {
+    return ''
   }
 
-  if (/^(?:https?:)?\/\//i.test(path) || path.startsWith('data:') || path.startsWith('blob:')) {
-    return path
-  }
-
-  const normalizedPath = path.replace(/^\/+/, '')
+  const normalizedPath = localPath.replace(/^\/+/, '')
   return `${import.meta.env.BASE_URL}${normalizedPath}`
-}
-
-export function pickPreferredStaticAssetUrl(localPath?: string | null, remoteUrl?: string | null): string {
-  return resolveStaticAssetUrl(localPath) ?? remoteUrl ?? ''
 }
