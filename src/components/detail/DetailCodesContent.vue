@@ -5,7 +5,7 @@ import EmptyState from '@/components/shared/EmptyState.vue'
 import FieldLabel from '@/components/shared/FieldLabel.vue'
 import FilterPanel from '@/components/shared/FilterPanel.vue'
 import InfoCard from '@/components/detail/InfoCard.vue'
-import Searchbar from '@/components/shared/Searchbar.vue'
+import Searchbar from '@/components/shared/SearchBar.vue'
 import type { IDropdownItem } from '@/models/dropdown.model'
 import { type DetailSortMode, useDetailsStore } from '@/stores/details'
 import { storeToRefs } from 'pinia'
@@ -70,7 +70,10 @@ function onSortToggle(nextOpen: boolean) {
       </InfoCard>
 
       <template #footer>
-        <p class="count">Showing {{ mappedDetailsLength }} out of {{ allDetailsLength }} rows</p>
+        <p class="count">
+          Showing <span>{{ mappedDetailsLength }}</span> out of
+          <span>{{ allDetailsLength }}</span> rows
+        </p>
       </template>
     </FilterPanel>
 
@@ -117,6 +120,10 @@ function onSortToggle(nextOpen: boolean) {
   letter-spacing: 0.01em;
 }
 
+.count span {
+  color: var(--text);
+}
+
 .rows {
   display: grid;
   gap: var(--atlas-spacing-xs);
@@ -124,8 +131,8 @@ function onSortToggle(nextOpen: boolean) {
 
 .row {
   --atlas-row-accent-width: 0.32rem;
-  --atlas-row-line: color-mix(in oklab, var(--line) 80%, #ffffff 20%);
-  --atlas-row-bg: color-mix(in oklab, var(--surface) 88%, #09070d 12%);
+  --atlas-row-line: color-mix(in oklab, var(--line) 90%, #100c14 10%);
+  --atlas-row-bg: color-mix(in oklab, var(--surface) 82%, #1c1523 18%);
   display: grid;
   gap: var(--atlas-spacing-sm);
   align-items: center;

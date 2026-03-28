@@ -66,7 +66,7 @@ function onInputKeydown(event: KeyboardEvent) {
   gap: var(--atlas-spacing-2xs);
   border: 1px solid var(--line);
   border-radius: var(--atlas-radius-control);
-  background: var(--surface-2);
+  background: color-mix(in oklab, var(--surface) 88%, #1b1522 12%);
   min-height: var(--atlas-touch-target);
   padding: var(--atlas-spacing-xs) var(--atlas-spacing-sm);
 }

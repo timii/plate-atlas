@@ -31,9 +31,9 @@ const panelStyle = computed(() => {
 .filter-panel {
   display: grid;
   gap: var(--atlas-spacing-md);
-  border: 1px solid var(--line);
+  border: 1px solid color-mix(in oklab, var(--line) 84%, #0d0a11 16%);
   border-radius: var(--atlas-radius-panel);
-  background: var(--surface);
+  background: var(--atlas-elevated-bg);
   padding: var(--atlas-spacing-md);
 }
 

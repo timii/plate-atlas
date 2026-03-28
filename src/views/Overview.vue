@@ -10,7 +10,7 @@ import CodeChip from '@/components/shared/CodeChip.vue'
 import Dropdown from '@/components/shared/Dropdown.vue'
 import FilterPanel from '@/components/shared/FilterPanel.vue'
 import FieldLabel from '@/components/shared/FieldLabel.vue'
-import Searchbar from '@/components/shared/Searchbar.vue'
+import Searchbar from '@/components/shared/SearchBar.vue'
 import PageHeader from '@/components/shared/PageHeader.vue'
 import EmptyState from '@/components/shared/EmptyState.vue'
 import { type CountryGroupBy, type CountrySortMode, useCountriesStore } from '@/stores/countries'
@@ -39,13 +39,7 @@ const {
 } = storeToRefs(countriesStore)
 
 const headerMeta = computed(() => {
-  const parts = [`${allCountriesLength.value} countries`, `${favoriteCount.value} saved`]
-
-  if (lastUpdatedLabel.value) {
-    parts.push(`updated ${lastUpdatedLabel.value}`)
-  }
-
-  return parts.join(' - ')
+  return lastUpdatedLabel.value ? `updated ${lastUpdatedLabel.value}` : ''
 })
 
 const emptyStateTitle = computed(() => {
@@ -62,7 +56,7 @@ const emptyStateTitle = computed(() => {
 
 const emptyStateMessage = computed(() => {
   if (favoritesOnly.value && favoriteCount.value === 0) {
-    return 'Open a country detail page and use the star button to save it here'
+    return 'Open a country detail page and use the star button to add it to favorites'
   }
 
   if (favoritesOnly.value) {
@@ -72,20 +66,23 @@ const emptyStateMessage = computed(() => {
   return 'Try clearing search text, changing continent, or setting group by to none'
 })
 
-const showFavoritesToggle = computed(() => favoriteCount.value > 0 || favoritesOnly.value)
 const favoritesToggleLabel = computed(() => {
   return favoritesOnly.value ? 'Show all countries' : 'Show only favorites'
 })
-// pluralize favorites label for footer
+const favoritesToggleDisabled = computed(() => favoriteCount.value === 0 && !favoritesOnly.value)
+
 const favoritesCountLabel = computed(() => {
   return favoriteCount.value === 1 ? 'favorite' : 'favorites'
 })
+
 // keep advanced filters collapsed on mobile by default
 const mobileFiltersOpen = ref(false)
 const mobileFiltersLabel = computed(() => {
   return mobileFiltersOpen.value ? 'Hide filters' : 'Filters'
 })
+
 const advancedFiltersId = 'overview-advanced-filters'
+
 const failedFlagThumbCodes = ref<Record<string, true>>({})
 
 // keep track of if and which dropdown is currently open
@@ -145,7 +142,6 @@ function flagThumbSrc(country: ICountry): string {
   return pickMirroredAssetUrl(country.flagThumbLocal)
 }
 
-// keep overview flags local-only so missing mirrors stay visible during testing
 function hasFlagThumb(country: ICountry): boolean {
   return Boolean(country.flagThumbLocal) && !failedFlagThumbCodes.value[country.code]
 }
@@ -222,11 +218,14 @@ onMounted(() => {
             </p>
             <div class="footer-actions">
               <button
-                v-if="showFavoritesToggle"
                 type="button"
                 class="favorites-inline-toggle"
-                :class="{ 'favorites-inline-toggle--active': favoritesOnly }"
+                :class="{
+                  'favorites-inline-toggle--active': favoritesOnly,
+                  'favorites-inline-toggle--disabled': favoritesToggleDisabled,
+                }"
                 :aria-pressed="favoritesOnly"
+                :disabled="favoritesToggleDisabled"
                 @click="onFavoritesOnlyToggle"
               >
                 <StarFilled class="favorites-inline-toggle-icon" aria-hidden="true" />
@@ -364,9 +363,9 @@ onMounted(() => {
 }
 
 .favorites-inline-toggle {
-  border: 1px solid color-mix(in oklab, var(--line) 82%, #ffffff 18%);
+  border: 1px solid color-mix(in oklab, var(--line) 84%, #0c0910 16%);
   border-radius: 999px;
-  background: transparent;
+  background: color-mix(in oklab, var(--surface) 96%, #0c0910 4%);
   color: var(--muted);
   display: inline-flex;
   align-items: center;
@@ -377,13 +376,19 @@ onMounted(() => {
   transition:
     border-color 160ms ease,
     background-color 160ms ease,
-    color 160ms ease;
+    color 160ms ease,
+    opacity 160ms ease;
+}
+
+.favorites-inline-toggle--disabled {
+  opacity: 0.56;
+  cursor: default;
 }
 
 .filters-toggle {
-  border: 1px solid color-mix(in oklab, var(--line) 82%, #ffffff 18%);
+  border: 1px solid color-mix(in oklab, var(--line) 84%, #0c0910 16%);
   border-radius: 999px;
-  background: transparent;
+  background: color-mix(in oklab, var(--surface) 96%, #0c0910 4%);
   color: var(--muted);
   display: none;
   align-items: center;
@@ -400,12 +405,12 @@ onMounted(() => {
 @media (hover: hover) and (pointer: fine) {
   .filters-toggle:hover {
     color: var(--text);
-    background: color-mix(in oklab, var(--surface-2) 72%, transparent);
+    background: color-mix(in oklab, var(--surface) 90%, #ffffff 10%);
   }
 
-  .favorites-inline-toggle:hover {
+  .favorites-inline-toggle:not(:disabled):hover {
     color: var(--text);
-    background: color-mix(in oklab, var(--surface-2) 72%, transparent);
+    background: color-mix(in oklab, var(--surface) 90%, #ffffff 10%);
   }
 }
 
@@ -460,7 +465,7 @@ onMounted(() => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid color-mix(in oklab, var(--line) 78%, #ffffff 22%);
+  border: 1px solid color-mix(in oklab, var(--line) 84%, #0c0910 16%);
   border-radius: var(--atlas-radius-row);
   background: var(--atlas-elevated-bg);
   padding: var(--atlas-spacing-xs) var(--atlas-spacing-sm);
@@ -476,13 +481,10 @@ onMounted(() => {
 
 .group-count {
   margin: 0;
-  font-size: 0.68rem;
-  color: var(--text);
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--atlas-subtle-bg);
-  padding: var(--atlas-spacing-2xs) var(--atlas-spacing-sm);
+  font-size: 0.76rem;
+  color: var(--muted);
   line-height: 1.2;
+  font-variant-numeric: tabular-nums;
 }
 
 .rows {
@@ -492,10 +494,10 @@ onMounted(() => {
 
 .row {
   --atlas-row-accent-width: 0.34rem;
-  --atlas-row-line: var(--line);
-  --atlas-row-bg: var(--surface);
-  --atlas-row-hover-line: color-mix(in oklab, var(--tone) 66%, var(--line));
-  --atlas-row-hover-bg: color-mix(in oklab, var(--surface) 82%, #ffffff 18%);
+  --atlas-row-line: color-mix(in oklab, var(--line) 90%, #0f0b13 10%);
+  --atlas-row-bg: color-mix(in oklab, var(--surface) 84%, #1b1522 16%);
+  --atlas-row-hover-line: color-mix(in oklab, var(--tone) 64%, var(--line));
+  --atlas-row-hover-bg: color-mix(in oklab, var(--surface) 78%, #21182a 22%);
   display: grid;
   grid-template-columns: var(--code-chip-width) minmax(0, 1fr) auto;
   padding: 0.42rem 0.56rem;
@@ -536,6 +538,8 @@ onMounted(() => {
   align-self: center;
   gap: 0.4rem;
   flex: 0 0 auto;
+  min-width: 3.2rem;
+  margin-left: var(--atlas-spacing-xs);
 }
 
 .favorite-marker {
@@ -547,16 +551,16 @@ onMounted(() => {
 .row img {
   width: 1.24rem;
   border-radius: 0.16rem;
-  border: 1px solid var(--line);
+  border: 1px solid color-mix(in oklab, var(--line) 84%, #0d0a11 16%);
   display: block;
 }
 
 .flag-fallback {
   width: 1.24rem;
   height: 0.84rem;
-  border: 1px dashed color-mix(in oklab, var(--line) 72%, #ffffff 28%);
+  border: 1px dashed color-mix(in oklab, var(--line) 76%, #ffffff 24%);
   border-radius: 0.16rem;
-  background: color-mix(in oklab, var(--surface-2) 74%, transparent);
+  background: color-mix(in oklab, var(--surface-2) 92%, #0d0a11 8%);
   display: block;
 }
 

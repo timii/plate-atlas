@@ -16,15 +16,16 @@ const props = defineProps<{
 
 <style scoped>
 .info-card {
-  border: 1px solid color-mix(in oklab, var(--line) 80%, #ffffff 20%);
+  border: 1px solid color-mix(in oklab, var(--tone, #97a0b5) 24%, var(--line));
   border-left: 0.32rem solid color-mix(in oklab, var(--tone, #97a0b5) 76%, #ffffff);
   border-radius: 0.52rem;
   padding: var(--atlas-spacing-sm) var(--atlas-spacing-sm);
   background: linear-gradient(
-    135deg,
-    color-mix(in oklab, var(--tone, #97a0b5) 11%, var(--surface-2, var(--surface))) 0%,
-    var(--surface) 72%
+    180deg,
+    color-mix(in oklab, var(--tone, #97a0b5) 18%, var(--surface) 82%),
+    color-mix(in oklab, var(--tone, #97a0b5) 10%, var(--surface) 90%)
   );
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.025);
 }
 
 .info-card--full-width {

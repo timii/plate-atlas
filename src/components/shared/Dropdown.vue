@@ -56,6 +56,10 @@ const selectedItem = computed(() => {
   return selected ?? props.list[0]
 })
 
+function syncActiveIndexToSelection() {
+  activeIndex.value = selectedIndex.value
+}
+
 function clampIndex(index: number): number {
   if (!props.list.length) {
     return 0
@@ -214,14 +218,14 @@ watch(
       return
     }
 
-    activeIndex.value = selectedIndex.value
+    syncActiveIndexToSelection()
   },
 )
 
 watch(
   () => props.list,
   () => {
-    activeIndex.value = selectedIndex.value
+    syncActiveIndexToSelection()
   },
   { deep: true },
 )
@@ -288,9 +292,10 @@ watch(
 .trigger {
   width: 100%;
   min-height: 2.75rem;
-  border: 1px solid var(--line);
+  border: 1px solid color-mix(in oklab, var(--line) 90%, #100c14 10%);
   border-radius: var(--atlas-radius-control);
-  background: color-mix(in oklab, var(--surface-2) 92%, #0a0b10 8%);
+  /* keep the trigger one step darker than the filter panel so the control stays legible */
+  background: color-mix(in oklab, var(--surface) 82%, #21192a 18%);
   color: var(--text);
   display: inline-flex;
   align-items: center;
@@ -314,18 +319,22 @@ watch(
 
 .list {
   position: absolute;
-  top: calc(100% + 0.4rem);
+  top: calc(100% + 0.46rem);
+  left: 0;
   right: 0;
   z-index: 40;
   width: 100%;
   min-width: 12rem;
-  border: 1px solid color-mix(in oklab, var(--line) 84%, #ffffff 16%);
+  border: 1px solid color-mix(in oklab, var(--line) 94%, #06050a 6%);
   border-radius: var(--atlas-radius-control);
-  background: linear-gradient(180deg, rgba(14, 14, 20, 0.98), rgba(10, 10, 16, 0.96));
-  padding: var(--atlas-spacing-xs);
+  /* lift the popup one tonal step above the filter panel so the open state is easier to read */
+  background: color-mix(in oklab, var(--atlas-panel-bg) 84%, #16101d 16%);
+  padding: 0.38rem;
   display: grid;
   gap: var(--atlas-spacing-2xs);
-  box-shadow: 0 10px 22px rgba(2, 3, 8, 0.45);
+  box-shadow:
+    0 18px 34px rgba(2, 3, 8, 0.44),
+    0 0 0 1px rgba(255, 255, 255, 0.015);
   opacity: 0;
   transform: scale(0.98);
   pointer-events: none;
@@ -344,11 +353,14 @@ watch(
   border: none;
   border-radius: var(--atlas-radius-option);
   background: transparent;
-  color: var(--muted);
+  color: color-mix(in oklab, var(--text) 82%, var(--muted));
   text-align: left;
-  padding: 0.38rem 0.44rem;
+  padding: 0.46rem 0.56rem;
   font-size: 0.82rem;
   cursor: pointer;
+  transition:
+    background-color 140ms ease,
+    color 140ms ease;
 }
 
 /* keep the chosen value readable without making it look actively highlighted */
@@ -358,12 +370,14 @@ watch(
 
 /* reserve the filled state for the option currently being hovered or arrowed to */
 .item--active {
-  background: var(--atlas-control-hover);
+  background: color-mix(in oklab, var(--atlas-control-hover) 88%, var(--surface) 12%);
   color: var(--text);
 }
 
 @media (max-width: 760px) {
   .list {
+    right: 0;
+    width: 100%;
     min-width: 0;
   }
 }

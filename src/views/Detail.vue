@@ -222,24 +222,22 @@ watch(
       <template v-else>
         <PageHeader :title="detailPageTitle" :meta="detailPageMeta">
           <template #actions>
-            <div v-if="canFavoriteCountry" class="favorite-wrap">
-              <IconButton
-                v-if="isCountryFavorited"
-                :icon-component="StarFilled"
-                color="var(--atlas-favorite)"
-                :label="favoriteButtonLabel"
-                :pressed="true"
-                @click="onFavoriteClick"
-              />
-              <IconButton
-                v-else
-                :icon-component="StarEmpty"
-                color="var(--atlas-muted-action)"
-                :label="favoriteButtonLabel"
-                :pressed="false"
-                @click="onFavoriteClick"
-              />
-            </div>
+            <IconButton
+              v-if="canFavoriteCountry && isCountryFavorited"
+              :icon-component="StarFilled"
+              color="var(--atlas-favorite)"
+              :label="favoriteButtonLabel"
+              :pressed="true"
+              @click="onFavoriteClick"
+            />
+            <IconButton
+              v-else-if="canFavoriteCountry"
+              :icon-component="StarEmpty"
+              color="var(--atlas-muted-action)"
+              :label="favoriteButtonLabel"
+              :pressed="false"
+              @click="onFavoriteClick"
+            />
           </template>
         </PageHeader>
 
@@ -288,10 +286,6 @@ watch(
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.favorite-wrap {
-  display: inline-flex;
 }
 
 @media (min-width: 1500px) {

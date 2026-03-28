@@ -81,16 +81,10 @@ watch(
   min-height: var(--atlas-header-height);
   margin-inline: auto;
   padding: 0 var(--atlas-spacing-md);
-  border: 1px solid color-mix(in oklab, var(--atlas-line) 50%, #ffffff 8%);
+  border: 1px solid color-mix(in oklab, var(--atlas-line) 78%, #0d0a11 22%);
   border-radius: var(--atlas-radius-shell);
-  background: linear-gradient(
-    180deg,
-    color-mix(in oklab, var(--atlas-header-surface) 97%, rgba(255, 255, 255, 0.025)),
-    color-mix(in oklab, var(--atlas-header-surface) 86%, transparent)
-  );
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.03),
-    0 16px 36px rgba(5, 4, 10, 0.2);
+  background: var(--atlas-header-surface);
+  box-shadow: 0 12px 30px rgba(5, 4, 10, 0.14);
 }
 
 .brand-link {

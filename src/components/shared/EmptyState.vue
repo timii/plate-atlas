@@ -20,9 +20,9 @@ const props = withDefaults(
 
 <style scoped>
 .empty-state {
-  border: 1px solid color-mix(in oklab, var(--line) 78%, #ffffff 22%);
+  border: 1px solid color-mix(in oklab, var(--line) 82%, #0c0910 18%);
   border-radius: var(--atlas-radius-panel);
-  background: linear-gradient(180deg, rgba(12, 10, 18, 0.94), rgba(8, 6, 13, 0.9));
+  background: var(--atlas-elevated-bg);
   padding: var(--atlas-spacing-md) var(--atlas-spacing-md);
 }
 

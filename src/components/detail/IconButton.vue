@@ -51,7 +51,7 @@ const props = defineProps({
   width: var(--atlas-touch-target);
   height: var(--atlas-touch-target);
   border: none;
-  border-radius: var(--atlas-radius-control);
+  border-radius: 999px;
   background: transparent;
   color: v-bind('props.color');
   cursor: pointer;
@@ -60,8 +60,10 @@ const props = defineProps({
     color 200ms ease;
 }
 
-.icon:hover {
-  background: var(--atlas-control-hover);
+@media (hover: hover) and (pointer: fine) {
+  .icon:hover {
+    background: color-mix(in oklab, var(--surface, #120e16) 80%, #ffffff 20%);
+  }
 }
 
 .icon:focus-visible {

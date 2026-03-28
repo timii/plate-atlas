@@ -16,11 +16,10 @@ type PreviewImage = {
   title: string
 }
 
-let previewIdCounter = 0
-
 const props = defineProps<{
   countryName: string
 }>()
+const previewTitleId = 'detail-example-preview-title'
 
 const detailsStore = useDetailsStore()
 const { exampleImages } = storeToRefs(detailsStore)
@@ -31,7 +30,6 @@ const previewCloseRef = ref<HTMLButtonElement | null>(null)
 const previouslyFocusedEl = ref<HTMLElement | null>(null)
 const failedPreviewKeys = ref<Record<string, true>>({})
 const failedThumbnailKeys = ref<Record<string, true>>({})
-const previewTitleId = `example-preview-title-${++previewIdCounter}`
 // restore the page scroll state after the preview modal closes
 let previousBodyOverflow = ''
 
@@ -72,24 +70,16 @@ function hasPreviewSource(imageObj: PreviewImage): boolean {
   return Boolean(imageObj.src) && !failedPreviewKeys.value[imageObj.failureKey]
 }
 
-function markPreviewImageFailed(key: string) {
-  if (failedPreviewKeys.value[key]) {
+function markFailedImage(
+  failedKeys: typeof failedPreviewKeys | typeof failedThumbnailKeys,
+  key: string,
+) {
+  if (failedKeys.value[key]) {
     return
   }
 
-  failedPreviewKeys.value = {
-    ...failedPreviewKeys.value,
-    [key]: true,
-  }
-}
-
-function markThumbnailImageFailed(key: string) {
-  if (failedThumbnailKeys.value[key]) {
-    return
-  }
-
-  failedThumbnailKeys.value = {
-    ...failedThumbnailKeys.value,
+  failedKeys.value = {
+    ...failedKeys.value,
     [key]: true,
   }
 }
@@ -99,7 +89,7 @@ function onThumbnailError(imageObj: ExampleImage) {
     return
   }
 
-  markThumbnailImageFailed(imageKey(imageObj, 'thumb'))
+  markFailedImage(failedThumbnailKeys, imageKey(imageObj, 'thumb'))
 }
 
 function onPreviewError(failureKey: string) {
@@ -107,7 +97,7 @@ function onPreviewError(failureKey: string) {
     return
   }
 
-  markPreviewImageFailed(failureKey)
+  markFailedImage(failedPreviewKeys, failureKey)
 }
 
 function openPreview(imageObj: ExampleImage) {
@@ -275,26 +265,30 @@ onBeforeUnmount(() => {
     @click.self="closePreview"
   >
     <div ref="previewPanelRef" class="preview-panel" tabindex="-1">
-      <button
-        ref="previewCloseRef"
-        type="button"
-        class="preview-close"
-        aria-label="close preview"
-        @click="closePreview"
-      >
-        close
-      </button>
-      <div v-if="!hasPreviewSource(previewImage)" class="preview-fallback" role="status">
-        <strong>Image unavailable</strong>
-        <span>The local mirrored image is unavailable</span>
+      <div class="preview-head">
+        <p :id="previewTitleId" class="preview-title">{{ previewImage.title }}</p>
+        <button
+          ref="previewCloseRef"
+          type="button"
+          class="preview-close"
+          aria-label="close preview"
+          @click="closePreview"
+        >
+          close
+        </button>
       </div>
-      <img
-        v-else
-        :src="previewImage.src"
-        :alt="previewImage.title"
-        @error="onPreviewError(previewImage.failureKey)"
-      />
-      <p :id="previewTitleId">{{ previewImage.title }}</p>
+      <div class="preview-media">
+        <div v-if="!hasPreviewSource(previewImage)" class="preview-fallback" role="status">
+          <strong>Image unavailable</strong>
+          <span>The local mirrored image is unavailable</span>
+        </div>
+        <img
+          v-else
+          :src="previewImage.src"
+          :alt="previewImage.title"
+          @error="onPreviewError(previewImage.failureKey)"
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -312,12 +306,13 @@ onBeforeUnmount(() => {
 }
 
 .group {
-  border: 1px solid color-mix(in oklab, var(--line) 82%, #ffffff 18%);
+  border: 1px solid color-mix(in oklab, var(--line) 88%, #0c0910 12%);
   border-radius: 0.56rem;
-  background: color-mix(in oklab, var(--surface) 92%, #07060d 8%);
+  background: color-mix(in oklab, var(--atlas-elevated-bg) 82%, #21192a 18%);
   padding: var(--atlas-spacing-sm);
   display: grid;
   gap: var(--atlas-spacing-sm);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
 }
 
 .group-head {
@@ -325,7 +320,7 @@ onBeforeUnmount(() => {
   align-items: center;
   justify-content: space-between;
   gap: var(--atlas-spacing-sm);
-  border-bottom: 1px solid color-mix(in oklab, var(--line) 86%, #ffffff 14%);
+  border-bottom: 1px solid color-mix(in oklab, var(--line) 74%, transparent);
   padding-bottom: var(--atlas-spacing-sm);
 }
 
@@ -342,12 +337,8 @@ onBeforeUnmount(() => {
 .group-count {
   margin: 0;
   font-size: 0.7rem;
-  border: 1px solid color-mix(in oklab, var(--line) 82%, #ffffff 18%);
-  border-radius: 999px;
-  background: color-mix(in oklab, var(--surface) 90%, #ffffff 10%);
   color: var(--muted);
-  padding: 0.12rem 0.48rem;
-  line-height: 1.1;
+  line-height: 1.2;
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -368,9 +359,9 @@ onBeforeUnmount(() => {
 }
 
 .sample {
-  border: 1px solid color-mix(in oklab, var(--line) 66%, #ffffff 34%);
+  border: 1px solid color-mix(in oklab, var(--line) 88%, #0c0910 12%);
   border-radius: 0.5rem;
-  background: color-mix(in oklab, var(--surface) 94%, #07060e 6%);
+  background: color-mix(in oklab, var(--surface) 88%, #1b1523 12%);
   overflow: hidden;
   align-self: start;
   transition:
@@ -379,8 +370,8 @@ onBeforeUnmount(() => {
 }
 
 .sample:hover {
-  border-color: color-mix(in oklab, var(--tone, #97a0b5) 54%, var(--line));
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.16);
+  border-color: color-mix(in oklab, var(--tone, #97a0b5) 56%, var(--line));
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
 }
 
 .sample-hit {
@@ -400,15 +391,15 @@ onBeforeUnmount(() => {
 }
 
 .sample:focus-within {
-  border-color: color-mix(in oklab, var(--tone, #97a0b5) 66%, var(--line));
+  border-color: color-mix(in oklab, var(--tone, #97a0b5) 62%, var(--line));
   box-shadow:
-    0 0 0 1px color-mix(in oklab, var(--tone, #97a0b5) 62%, var(--line)),
-    0 8px 18px rgba(0, 0, 0, 0.16);
+    0 0 0 1px color-mix(in oklab, var(--tone, #97a0b5) 58%, var(--line)),
+    0 8px 18px rgba(0, 0, 0, 0.15);
 }
 
 .plate-wrap {
-  border-bottom: 1px solid color-mix(in oklab, var(--line) 70%, #ffffff 30%);
-  background: color-mix(in oklab, var(--surface-2) 88%, #09080f 12%);
+  border-bottom: 1px solid color-mix(in oklab, var(--line) 74%, transparent);
+  background: color-mix(in oklab, var(--surface-2) 82%, #1b1522 18%);
   height: 7rem;
   display: flex;
   align-items: center;
@@ -430,9 +421,9 @@ onBeforeUnmount(() => {
 .preview-fallback {
   width: 100%;
   height: 100%;
-  border: 1px dashed color-mix(in oklab, var(--line) 70%, #ffffff 30%);
+  border: 1px dashed color-mix(in oklab, var(--line) 74%, #ffffff 26%);
   border-radius: 0.34rem;
-  background: color-mix(in oklab, var(--surface) 92%, #0b0a12 8%);
+  background: color-mix(in oklab, var(--surface) 96%, #0b0a12 4%);
   color: var(--muted);
   display: grid;
   place-items: center;
@@ -469,8 +460,8 @@ onBeforeUnmount(() => {
 }
 
 .preview-panel {
-  width: min(52rem, 100%);
-  border: 1px solid color-mix(in oklab, var(--line) 80%, #ffffff 20%);
+  width: min(46rem, calc(100vw - 2rem));
+  border: 1px solid color-mix(in oklab, var(--line) 82%, #0b0810 18%);
   border-radius: 0.64rem;
   background: var(--atlas-panel-bg);
   box-shadow: var(--atlas-panel-shadow);
@@ -479,10 +470,28 @@ onBeforeUnmount(() => {
   gap: var(--atlas-spacing-sm);
 }
 
+.preview-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--atlas-spacing-sm);
+  border-bottom: 1px solid color-mix(in oklab, var(--line) 72%, transparent);
+  padding-bottom: var(--atlas-spacing-xs);
+}
+
+.preview-title {
+  margin: 0;
+  min-width: 0;
+  font-size: 0.84rem;
+  line-height: 1.32;
+  color: color-mix(in oklab, var(--text) 94%, var(--muted));
+  overflow-wrap: anywhere;
+}
+
 .preview-close {
-  border: 1px solid color-mix(in oklab, var(--line) 84%, #ffffff 16%);
+  border: 1px solid color-mix(in oklab, var(--line) 82%, #0d0a11 18%);
   border-radius: 0.4rem;
-  background: transparent;
+  background: color-mix(in oklab, var(--surface) 96%, #0c0910 4%);
   color: var(--muted);
   font-size: 0.74rem;
   text-transform: uppercase;
@@ -495,17 +504,18 @@ onBeforeUnmount(() => {
     color 160ms ease,
     background-color 160ms ease,
     transform 120ms ease;
+  flex-shrink: 0;
 }
 
 .preview-close:hover {
-  border-color: color-mix(in oklab, var(--tone, #97a0b5) 58%, #ffffff 42%);
+  border-color: color-mix(in oklab, var(--tone, #97a0b5) 52%, var(--line));
   color: var(--text);
-  background: color-mix(in oklab, var(--surface-2) 78%, #ffffff 22%);
+  background: color-mix(in oklab, var(--surface) 90%, #ffffff 10%);
 }
 
 .preview-close:active {
-  border-color: color-mix(in oklab, var(--tone, #97a0b5) 68%, #ffffff 32%);
-  background: color-mix(in oklab, var(--surface-2) 70%, #ffffff 30%);
+  border-color: color-mix(in oklab, var(--tone, #97a0b5) 58%, var(--line));
+  background: color-mix(in oklab, var(--surface) 86%, #ffffff 14%);
 }
 
 .preview-close:focus-visible {
@@ -522,9 +532,18 @@ onBeforeUnmount(() => {
 }
 
 .preview-panel img {
+  display: block;
   width: 100%;
-  max-height: 70vh;
+  max-height: min(70vh, 34rem);
   object-fit: contain;
+}
+
+.preview-media {
+  border: 1px solid color-mix(in oklab, var(--line) 76%, #0b0810 24%);
+  border-radius: 0.5rem;
+  background: color-mix(in oklab, var(--surface-2) 88%, #08070d 12%);
+  overflow: hidden;
+  padding: 0.2rem;
 }
 
 .preview-fallback {
@@ -540,13 +559,6 @@ onBeforeUnmount(() => {
 .preview-fallback span {
   font-size: 0.82rem;
   line-height: 1.4;
-}
-
-.preview-panel p {
-  margin-top: var(--atlas-spacing-sm);
-  color: var(--text);
-  font-size: 0.86rem;
-  line-height: 1.34;
 }
 
 @media (min-width: 980px) {
@@ -616,7 +628,6 @@ onBeforeUnmount(() => {
   .group-count {
     margin-left: 0;
     font-size: var(--atlas-text-xxs);
-    padding: var(--atlas-spacing-2xs) var(--atlas-spacing-xs);
   }
 
   .samples {
@@ -629,6 +640,14 @@ onBeforeUnmount(() => {
 
   .samples--single .plate-wrap {
     height: 7.9rem;
+  }
+
+  .preview-head {
+    align-items: center;
+  }
+
+  .preview-title {
+    font-size: 0.8rem;
   }
 }
 </style>

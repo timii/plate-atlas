@@ -235,7 +235,7 @@ onBeforeUnmount(() => {
 .about-panel {
   width: min(42rem, calc(100vw - 2rem));
   padding: var(--atlas-spacing-md) var(--atlas-spacing-md) var(--atlas-spacing-md);
-  border: 1px solid color-mix(in oklab, var(--atlas-line) 62%, #ffffff 10%);
+  border: 1px solid color-mix(in oklab, var(--atlas-line) 78%, #0b0810 22%);
   border-radius: 1rem;
   background: var(--atlas-dialog-bg);
   box-shadow: var(--atlas-dialog-shadow);
@@ -313,7 +313,7 @@ onBeforeUnmount(() => {
   gap: var(--atlas-spacing-md) var(--atlas-spacing-md);
   align-items: start;
   padding: var(--atlas-spacing-md) 0;
-  border-top: 1px solid color-mix(in oklab, var(--atlas-line) 54%, transparent);
+  border-top: 1px solid color-mix(in oklab, var(--atlas-line) 70%, transparent);
 }
 
 .fact-row dt {
@@ -338,7 +338,7 @@ onBeforeUnmount(() => {
 .inline-link {
   color: color-mix(in oklab, var(--atlas-text) 90%, #ffffff 10%);
   text-decoration: none;
-  border-bottom: 1px solid color-mix(in oklab, var(--atlas-line) 76%, #ffffff 12%);
+  border-bottom: 1px solid color-mix(in oklab, var(--atlas-line) 72%, #ffffff 8%);
   transition:
     color 160ms ease,
     border-color 160ms ease;
@@ -354,7 +354,7 @@ onBeforeUnmount(() => {
   flex-wrap: wrap;
   gap: var(--atlas-spacing-sm) var(--atlas-spacing-sm);
   padding-top: var(--atlas-spacing-md);
-  border-top: 1px solid color-mix(in oklab, var(--atlas-line) 54%, transparent);
+  border-top: 1px solid color-mix(in oklab, var(--atlas-line) 70%, transparent);
 }
 
 .text-link {
@@ -363,9 +363,9 @@ onBeforeUnmount(() => {
   justify-content: center;
   min-height: 2.35rem;
   padding: 0 var(--atlas-spacing-md);
-  border: 1px solid color-mix(in oklab, var(--atlas-line) 72%, #ffffff 8%);
+  border: 1px solid color-mix(in oklab, var(--atlas-line) 78%, #0b0810 22%);
   border-radius: 999px;
-  background: color-mix(in oklab, var(--atlas-surface) 86%, transparent);
+  background: color-mix(in oklab, var(--atlas-surface) 94%, #0a080f 6%);
   color: color-mix(in oklab, var(--atlas-muted) 86%, #ffffff 14%);
   font-size: 0.82rem;
   font-weight: 520;
@@ -379,7 +379,7 @@ onBeforeUnmount(() => {
 
 .text-link:hover {
   border-color: color-mix(in oklab, var(--atlas-text) 16%, var(--atlas-line));
-  background: color-mix(in oklab, var(--atlas-surface) 72%, rgba(255, 255, 255, 0.05));
+  background: color-mix(in oklab, var(--atlas-surface) 90%, rgba(255, 255, 255, 0.1));
   color: var(--atlas-text);
 }
 
