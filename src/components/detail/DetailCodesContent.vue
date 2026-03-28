@@ -72,7 +72,7 @@ function onSortToggle(nextOpen: boolean) {
       <template #footer>
         <p class="count">
           Showing <span>{{ mappedDetailsLength }}</span> out of
-          <span>{{ allDetailsLength }}</span> rows
+          <span>{{ allDetailsLength }}</span> codes
         </p>
       </template>
     </FilterPanel>

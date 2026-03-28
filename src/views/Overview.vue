@@ -212,7 +212,7 @@ onMounted(() => {
           <div class="footer-bar">
             <p class="count">
               Showing <span>{{ orderedCountries.length }}</span> out of
-              <span>{{ allCountriesLength }}</span> rows
+              <span>{{ allCountriesLength }}</span> countries
               <span class="count-separator">-</span>
               <span>{{ favoriteCount }}</span> {{ favoritesCountLabel }}
             </p>
@@ -267,7 +267,9 @@ onMounted(() => {
               <span class="meta">
                 <span class="name">{{ country.country }}</span>
                 <span class="continent">{{ country.continent }}</span>
-                <span v-if="isFavoriteCountry(country.code)" class="sr-only">Saved favorite</span>
+                <span v-if="isFavoriteCountry(country.code)" class="sr-only"
+                  >Favorite country</span
+                >
               </span>
               <span class="end">
                 <StarFilled
