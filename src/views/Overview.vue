@@ -146,6 +146,11 @@ function hasFlagThumb(country: ICountry): boolean {
   return Boolean(country.flagThumbLocal) && !failedFlagThumbCodes.value[country.code]
 }
 
+// handle the nepal flag separately to show it a bit larger than the other flags
+function isNepalFlag(code: string): boolean {
+  return code.toLowerCase() === 'nep'
+}
+
 function onFlagError(code: string) {
   if (failedFlagThumbCodes.value[code]) {
     return
@@ -267,9 +272,7 @@ onMounted(() => {
               <span class="meta">
                 <span class="name">{{ country.country }}</span>
                 <span class="continent">{{ country.continent }}</span>
-                <span v-if="isFavoriteCountry(country.code)" class="sr-only"
-                  >Favorite country</span
-                >
+                <span v-if="isFavoriteCountry(country.code)" class="sr-only">Favorite country</span>
               </span>
               <span class="end">
                 <StarFilled
@@ -279,6 +282,8 @@ onMounted(() => {
                 />
                 <img
                   v-if="hasFlagThumb(country)"
+                  class="flag-thumb"
+                  :class="{ 'flag-thumb--nepal': isNepalFlag(country.code) }"
                   :src="flagThumbSrc(country)"
                   :alt="`${country.country} flag`"
                   loading="lazy"
@@ -500,6 +505,12 @@ onMounted(() => {
   --atlas-row-bg: color-mix(in oklab, var(--surface) 84%, #1b1522 16%);
   --atlas-row-hover-line: color-mix(in oklab, var(--tone) 64%, var(--line));
   --atlas-row-hover-bg: color-mix(in oklab, var(--surface) 78%, #21182a 22%);
+  --row-end-min-width: 3.9rem;
+  --row-end-gap: 0.46rem;
+  --row-favorite-size: 0.94rem;
+  --row-flag-width: 1.68rem;
+  --row-flag-height: 1.12rem;
+  --row-flag-outline: color-mix(in oklab, var(--line) 92%, #08070d 8%);
   display: grid;
   grid-template-columns: var(--code-chip-width) minmax(0, 1fr) auto;
   padding: 0.42rem 0.56rem;
@@ -538,28 +549,38 @@ onMounted(() => {
   align-items: center;
   justify-content: flex-end;
   align-self: center;
-  gap: 0.4rem;
+  gap: var(--row-end-gap);
   flex: 0 0 auto;
-  min-width: 3.2rem;
+  min-width: var(--row-end-min-width);
   margin-left: var(--atlas-spacing-xs);
 }
 
 .favorite-marker {
-  width: 0.82rem;
-  height: 0.82rem;
+  width: var(--row-favorite-size);
+  height: var(--row-favorite-size);
   color: var(--atlas-favorite);
 }
 
 .row img {
-  width: 1.24rem;
+  width: var(--row-flag-width);
+  height: var(--row-flag-height);
+  max-width: none;
   border-radius: 0.16rem;
-  border: 1px solid color-mix(in oklab, var(--line) 84%, #0d0a11 16%);
   display: block;
+  object-fit: contain;
+  filter: drop-shadow(0.45px 0 0 var(--row-flag-outline))
+    drop-shadow(-0.45px 0 0 var(--row-flag-outline)) drop-shadow(0 0.45px 0 var(--row-flag-outline))
+    drop-shadow(0 -0.45px 0 var(--row-flag-outline));
+}
+
+.row img.flag-thumb--nepal {
+  width: 1.92rem;
+  height: 1.36rem;
 }
 
 .flag-fallback {
-  width: 1.24rem;
-  height: 0.84rem;
+  width: var(--row-flag-width);
+  height: var(--row-flag-height);
   border: 1px dashed color-mix(in oklab, var(--line) 76%, #ffffff 24%);
   border-radius: 0.16rem;
   background: color-mix(in oklab, var(--surface-2) 92%, #0d0a11 8%);
@@ -580,8 +601,8 @@ onMounted(() => {
 
 @media (max-width: 760px) {
   .footer-bar {
-    align-items: flex-start;
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
     gap: var(--atlas-spacing-sm);
   }
 
@@ -596,12 +617,15 @@ onMounted(() => {
 
   /* keep footer items stacked on narrow screens */
   .count {
-    width: 100%;
+    flex: 1 1 auto;
     font-size: var(--atlas-text-sm);
+    min-width: 0;
   }
 
   .footer-actions {
-    width: 100%;
+    width: auto;
+    justify-content: flex-end;
+    margin-left: auto;
   }
 
   /* surface the compact filter trigger once the advanced controls collapse */
