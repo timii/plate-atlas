@@ -69,7 +69,8 @@ watch(
 .header {
   position: static;
   z-index: 50;
-  padding: var(--atlas-header-offset) var(--atlas-page-gutter) 0;
+  border-bottom: 1px solid color-mix(in oklab, var(--atlas-line) 74%, #0d0a11 26%);
+  padding: 0 var(--atlas-page-gutter);
 }
 
 .header-inner {
@@ -80,11 +81,7 @@ watch(
   width: min(var(--atlas-content-width), 100%);
   min-height: var(--atlas-header-height);
   margin-inline: auto;
-  padding: 0 var(--atlas-spacing-md);
-  border: 1px solid color-mix(in oklab, var(--atlas-line) 78%, #0d0a11 22%);
-  border-radius: var(--atlas-radius-shell);
-  background: var(--atlas-header-surface);
-  box-shadow: 0 12px 30px rgba(5, 4, 10, 0.14);
+  padding: 0;
 }
 
 .brand-link {
@@ -107,14 +104,13 @@ watch(
   width: 1.9rem;
   height: 1.9rem;
   flex: 0 0 auto;
-  filter: drop-shadow(0 3px 8px rgba(5, 4, 10, 0.22));
 }
 
 .title {
   color: var(--atlas-text);
-  font-size: 0.98rem;
-  font-weight: 540;
-  letter-spacing: 0.008em;
+  font-size: 0.94rem;
+  font-weight: 520;
+  letter-spacing: 0.004em;
   white-space: nowrap;
 }
 
@@ -134,7 +130,7 @@ watch(
   width: 2.4rem;
   height: 2.4rem;
   border: none;
-  border-radius: 999px;
+  border-radius: var(--atlas-radius-control);
   background: transparent;
   padding: 0;
   color: color-mix(in oklab, var(--atlas-muted) 88%, #ffffff 12%);
@@ -173,12 +169,12 @@ watch(
 
 @media (max-width: 760px) {
   .header {
-    padding: var(--atlas-header-offset-mobile) var(--atlas-page-gutter-mobile) 0;
+    border-bottom: none;
+    padding: 0 var(--atlas-page-gutter-mobile);
   }
 
   .header-inner {
     min-height: var(--atlas-header-height-mobile);
-    padding: 0 var(--atlas-spacing-md);
   }
 
   .brand-link {
@@ -198,7 +194,6 @@ watch(
 @media (max-width: 520px) {
   .header-inner {
     gap: var(--atlas-spacing-sm);
-    padding: 0 var(--atlas-spacing-sm);
   }
 
   .brand-link {
