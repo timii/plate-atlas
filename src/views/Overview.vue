@@ -39,7 +39,7 @@ const {
 } = storeToRefs(countriesStore)
 
 const headerMeta = computed(() => {
-  return lastUpdatedLabel.value ? `updated ${lastUpdatedLabel.value}` : ''
+  return lastUpdatedLabel.value ? `Updated ${lastUpdatedLabel.value}` : ''
 })
 
 const emptyStateTitle = computed(() => {

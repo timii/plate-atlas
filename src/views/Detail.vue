@@ -39,7 +39,8 @@ const selectedCountry = computed(() => {
 const countryName = computed(() => selectedCountry.value?.country ?? 'No country found')
 const countryContinent = computed(() => selectedCountry.value?.continent ?? '-')
 const countryCodeLabel = computed(() => countryCode.value.toUpperCase() || '-')
-const countryMeta = computed(() => `${countryCodeLabel.value} - ${countryContinent.value}`)
+const countryMeta = computed(() => `${countryCodeLabel.value} · `)
+const countryMetaAccent = computed(() => countryContinent.value)
 const canFavoriteCountry = computed(() => Boolean(selectedCountry.value))
 
 // show detail state in detail title
@@ -67,6 +68,14 @@ const detailPageMeta = computed(() => {
   }
 
   return countryMeta.value
+})
+
+const detailPageMetaAccent = computed(() => {
+  if (detailStatus.value !== 'ready') {
+    return ''
+  }
+
+  return countryMetaAccent.value
 })
 
 const detailEmptyStateTitle = computed(() => {
@@ -220,7 +229,11 @@ watch(
       </div>
 
       <template v-else>
-        <PageHeader :title="detailPageTitle" :meta="detailPageMeta">
+        <PageHeader
+          :title="detailPageTitle"
+          :meta="detailPageMeta"
+          :meta-accent="detailPageMetaAccent"
+        >
           <template #actions>
             <IconButton
               v-if="canFavoriteCountry && isCountryFavorited"

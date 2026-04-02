@@ -7,7 +7,7 @@ const props = defineProps<{
 
 <template>
   <article class="info-card" :class="{ 'info-card--full-width': props.fullWidth }">
-    <p class="info-card__label">{{ props.title }}</p>
+    <h2 class="info-card__title">{{ props.title }}</h2>
     <div class="info-card__content">
       <slot />
     </div>
@@ -33,16 +33,16 @@ const props = defineProps<{
   grid-column: 1 / -1;
 }
 
-.info-card__label {
+.info-card__title {
   margin: 0;
-  font-size: 0.74rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--muted);
+  color: color-mix(in oklab, var(--text) 90%, var(--muted));
+  font-size: 0.92rem;
+  font-weight: 520;
+  line-height: 1.3;
 }
 
 .info-card__content {
-  margin-top: var(--atlas-spacing-2xs);
+  margin-top: calc(var(--atlas-spacing-xs) - 0.05rem);
   line-height: 1.42;
   color: color-mix(in oklab, var(--text) 90%, var(--muted));
 }
