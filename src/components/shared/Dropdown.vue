@@ -291,18 +291,17 @@ watch(
 
 .trigger {
   width: 100%;
-  min-height: 2.75rem;
-  border: 1px solid color-mix(in oklab, var(--line) 90%, #100c14 10%);
+  min-height: var(--atlas-control-height-compact);
+  border: 1px solid var(--atlas-control-border-subtle);
   border-radius: var(--atlas-radius-control);
-  /* keep the trigger one step darker than the filter panel so the control stays legible */
-  background: color-mix(in oklab, var(--surface) 82%, #21192a 18%);
+  background: var(--atlas-control-surface-subtle);
   color: var(--text);
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
   gap: var(--atlas-spacing-sm);
-  padding: var(--atlas-spacing-xs) var(--atlas-spacing-sm);
-  font-size: var(--atlas-text-md);
+  padding: var(--atlas-control-padding-compact);
+  font-size: 0.85rem;
   cursor: pointer;
 }
 
@@ -314,38 +313,31 @@ watch(
 .trigger:focus-visible {
   outline: none;
   border-color: color-mix(in oklab, var(--tone, #6f87d9) 64%, var(--line));
-  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--tone, #6f87d9) 52%, var(--line));
+  box-shadow: 0 0 0 1px color-mix(in oklab, var(--tone, #6f87d9) 32%, transparent);
 }
 
 .list {
   position: absolute;
-  top: calc(100% + 0.46rem);
+  top: calc(100% + 0.24rem);
   left: 0;
   right: 0;
   z-index: 40;
   width: 100%;
   min-width: 12rem;
-  border: 1px solid color-mix(in oklab, var(--line) 94%, #06050a 6%);
+  border: 1px solid var(--atlas-control-border-subtle);
   border-radius: var(--atlas-radius-control);
-  /* lift the popup one tonal step above the filter panel so the open state is easier to read */
-  background: color-mix(in oklab, var(--atlas-panel-bg) 84%, #16101d 16%);
-  padding: 0.38rem;
+  background: var(--atlas-dropdown-surface);
+  padding: 0.24rem;
   display: grid;
   gap: var(--atlas-spacing-2xs);
-  box-shadow:
-    0 18px 34px rgba(2, 3, 8, 0.44),
-    0 0 0 1px rgba(255, 255, 255, 0.015);
+  box-shadow: var(--atlas-dropdown-shadow);
   opacity: 0;
-  transform: scale(0.98);
   pointer-events: none;
-  transition:
-    opacity 140ms ease,
-    transform 140ms ease;
+  transition: opacity 120ms ease;
 }
 
 .list.open {
   opacity: 1;
-  transform: scale(1);
   pointer-events: auto;
 }
 
@@ -353,14 +345,23 @@ watch(
   border: none;
   border-radius: var(--atlas-radius-option);
   background: transparent;
-  color: color-mix(in oklab, var(--text) 82%, var(--muted));
+  color: color-mix(in oklab, var(--text) 95%, var(--muted));
   text-align: left;
-  padding: 0.46rem 0.56rem;
-  font-size: 0.82rem;
+  padding: 0.42rem 0.56rem;
+  font-size: 0.8rem;
+  line-height: 1.3;
   cursor: pointer;
   transition:
     background-color 140ms ease,
     color 140ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .item:hover {
+    background: color-mix(in oklab, var(--surface) 86%, #ffffff 14%);
+    box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--atlas-line) 46%, transparent);
+    color: var(--text);
+  }
 }
 
 /* keep the chosen value readable without making it look actively highlighted */
@@ -370,7 +371,8 @@ watch(
 
 /* reserve the filled state for the option currently being hovered or arrowed to */
 .item--active {
-  background: color-mix(in oklab, var(--atlas-control-hover) 88%, var(--surface) 12%);
+  background: color-mix(in oklab, var(--surface) 86%, #ffffff 14%);
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--atlas-line) 46%, transparent);
   color: var(--text);
 }
 

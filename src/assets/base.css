@@ -25,22 +25,24 @@
   --atlas-bg-2: #2a2232;
   --atlas-surface: #120e16;
   --atlas-surface-2: #0d0a11;
-  --atlas-header-surface: #15111a;
   --atlas-text: #f4edff;
   --atlas-muted: #c7bade;
   --atlas-line: rgba(244, 237, 255, 0.17);
+  --surface: var(--atlas-surface);
+  --surface-2: var(--atlas-surface-2);
+  --text: var(--atlas-text);
+  --muted: var(--atlas-muted);
+  --line: var(--atlas-line);
 
   /* shared semantic color tokens */
   --atlas-default-accent: #97a0b5;
   --atlas-muted-action: #9198a1;
   --atlas-favorite: #daaa3f;
   --atlas-favorite-border: color-mix(in oklab, var(--atlas-favorite) 26%, var(--atlas-line));
-  --atlas-favorite-bg: color-mix(in oklab, var(--atlas-favorite) 8%, transparent);
   /* keep most surfaces matte so the page background carries the atmosphere */
   --atlas-elevated-bg: color-mix(in oklab, var(--atlas-surface) 82%, #1d1624 18%);
   --atlas-panel-bg: color-mix(in oklab, var(--atlas-surface-2) 94%, #09070d 6%);
   --atlas-dialog-bg: color-mix(in oklab, var(--atlas-surface-2) 96%, #0b0810 4%);
-  --atlas-subtle-bg: rgba(255, 255, 255, 0.035);
   --atlas-backdrop: rgba(4, 3, 8, 0.76);
   --atlas-dialog-shadow: 0 22px 56px rgba(3, 2, 7, 0.34);
   --atlas-panel-shadow: 0 18px 40px rgba(0, 0, 0, 0.34);
@@ -48,8 +50,6 @@
   /* shared layout tokens */
   --atlas-header-height: 3.35rem;
   --atlas-header-height-mobile: 3.1rem;
-  --atlas-header-offset: 0.55rem;
-  --atlas-header-offset-mobile: 0.42rem;
   --atlas-content-width: 78rem;
   --atlas-content-width-wide: 82rem;
   --atlas-page-gutter: 1.5rem;
@@ -73,7 +73,6 @@
   --atlas-font-rubik: 'Rubik', 'Segoe UI Variable Text', 'Segoe UI', Arial, sans-serif;
 
   /* shared shape tokens */
-  --atlas-radius-shell: 0.92rem;
   --atlas-radius-panel: 0.92rem;
   --atlas-radius-control: 0.52rem;
   --atlas-radius-row: 0.52rem;
@@ -82,6 +81,22 @@
 
   /* shared interaction tokens */
   --atlas-control-hover: rgba(255, 255, 255, 0.055);
+  --atlas-control-height-compact: 2.48rem;
+  --atlas-control-padding-compact: 0.28rem 0.68rem;
+  --atlas-control-border-subtle: color-mix(in oklab, var(--atlas-line) 72%, #09070d 28%);
+  --atlas-control-surface-subtle: color-mix(in oklab, var(--atlas-surface) 64%, transparent);
+  --atlas-action-height-compact: 2.16rem;
+  --atlas-action-padding-compact: 0.24rem 0.62rem;
+  --atlas-action-border-subtle: color-mix(in oklab, var(--atlas-line) 68%, #09070d 32%);
+  --atlas-action-surface-subtle: color-mix(in oklab, var(--atlas-surface) 58%, transparent);
+  --atlas-panel-gap-compact: calc(var(--atlas-spacing-sm) - 0.02rem);
+  --atlas-panel-gap-compact-mobile: calc(var(--atlas-spacing-sm) - 0.08rem);
+  --atlas-panel-padding-compact: calc(var(--atlas-spacing-sm) - 0.02rem);
+  --atlas-panel-padding-compact-mobile: calc(var(--atlas-spacing-sm) - 0.08rem);
+  --atlas-panel-divider-subtle: color-mix(in oklab, var(--atlas-line) 44%, transparent);
+  --atlas-panel-surface-subtle: color-mix(in oklab, var(--atlas-panel-bg) 56%, transparent);
+  --atlas-dropdown-surface: color-mix(in oklab, var(--atlas-panel-bg) 60%, #1b1523 40%);
+  --atlas-dropdown-shadow: 0 8px 18px rgba(2, 3, 8, 0.24);
 }
 
 *,

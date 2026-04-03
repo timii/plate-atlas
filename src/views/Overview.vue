@@ -174,7 +174,7 @@ onMounted(() => {
 
       <FilterPanel
         ariaLabel="overview controls"
-        desktop-columns="minmax(14rem, 1.2fr) repeat(3, minmax(10rem, 1fr))"
+        desktop-columns="minmax(18rem, 1.55fr) repeat(3, minmax(10rem, 0.92fr))"
       >
         <div class="search-wrap">
           <FieldLabel text="Search" id="overview-search-label" />
@@ -344,20 +344,24 @@ onMounted(() => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: var(--atlas-spacing-sm);
+  gap: calc(var(--atlas-spacing-xs) + 0.08rem);
   flex-wrap: wrap;
 }
 
 .footer-actions {
   display: inline-flex;
   align-items: center;
-  gap: var(--atlas-spacing-xs);
+  gap: calc(var(--atlas-spacing-xs) - 0.04rem);
   flex-wrap: wrap;
 }
 
 .count {
-  font-size: var(--atlas-text-sm);
-  color: var(--muted);
+  align-self: center;
+  flex: 1 1 auto;
+  font-size: 0.79rem;
+  line-height: 1.28;
+  min-width: 0;
+  color: color-mix(in oklab, var(--text) 38%, var(--muted));
 }
 
 .count span {
@@ -370,15 +374,16 @@ onMounted(() => {
 }
 
 .favorites-inline-toggle {
-  border: 1px solid color-mix(in oklab, var(--line) 84%, #0c0910 16%);
-  border-radius: 999px;
-  background: color-mix(in oklab, var(--surface) 96%, #0c0910 4%);
+  min-height: var(--atlas-action-height-compact);
+  border: 1px solid var(--atlas-action-border-subtle);
+  border-radius: var(--atlas-radius-control);
+  background: var(--atlas-action-surface-subtle);
   color: var(--muted);
   display: inline-flex;
   align-items: center;
   gap: var(--atlas-spacing-xs);
-  padding: var(--atlas-spacing-xs) var(--atlas-spacing-sm);
-  font-size: var(--atlas-text-sm);
+  padding: var(--atlas-action-padding-compact);
+  font-size: 0.77rem;
   cursor: pointer;
   transition:
     border-color 160ms ease,
@@ -393,14 +398,15 @@ onMounted(() => {
 }
 
 .filters-toggle {
-  border: 1px solid color-mix(in oklab, var(--line) 84%, #0c0910 16%);
-  border-radius: 999px;
-  background: color-mix(in oklab, var(--surface) 96%, #0c0910 4%);
+  min-height: var(--atlas-action-height-compact);
+  border: 1px solid var(--atlas-action-border-subtle);
+  border-radius: var(--atlas-radius-control);
+  background: var(--atlas-action-surface-subtle);
   color: var(--muted);
   display: none;
   align-items: center;
-  padding: var(--atlas-spacing-xs) var(--atlas-spacing-sm);
-  font-size: var(--atlas-text-sm);
+  padding: var(--atlas-action-padding-compact);
+  font-size: 0.77rem;
   cursor: pointer;
   transition:
     border-color 160ms ease,
@@ -412,19 +418,19 @@ onMounted(() => {
 @media (hover: hover) and (pointer: fine) {
   .filters-toggle:hover {
     color: var(--text);
-    background: color-mix(in oklab, var(--surface) 90%, #ffffff 10%);
+    background: color-mix(in oklab, var(--surface) 74%, transparent);
   }
 
   .favorites-inline-toggle:not(:disabled):hover {
     color: var(--text);
-    background: color-mix(in oklab, var(--surface) 90%, #ffffff 10%);
+    background: color-mix(in oklab, var(--surface) 74%, transparent);
   }
 }
 
 .filters-toggle:focus-visible {
   outline: none;
   border-color: color-mix(in oklab, var(--tone, #6f87d9) 64%, var(--line));
-  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--tone, #6f87d9) 52%, var(--line));
+  box-shadow: 0 0 0 1px color-mix(in oklab, var(--tone, #6f87d9) 32%, transparent);
 }
 
 /* expand the tap target on touch without changing the desktop pill proportions */
@@ -437,18 +443,18 @@ onMounted(() => {
 .favorites-inline-toggle:focus-visible {
   outline: none;
   border-color: color-mix(in oklab, var(--tone, #6f87d9) 64%, var(--line));
-  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--tone, #6f87d9) 52%, var(--line));
+  box-shadow: 0 0 0 1px color-mix(in oklab, var(--tone, #6f87d9) 32%, transparent);
 }
 
 .favorites-inline-toggle--active {
   color: var(--text);
   border-color: var(--atlas-favorite-border);
-  background: var(--atlas-favorite-bg);
+  background: color-mix(in oklab, var(--atlas-favorite) 10%, transparent);
 }
 
 .favorites-inline-toggle-icon {
-  width: 0.82rem;
-  height: 0.82rem;
+  width: 0.72rem;
+  height: 0.72rem;
   color: var(--atlas-favorite);
   flex: 0 0 auto;
 }
@@ -603,7 +609,7 @@ onMounted(() => {
   .footer-bar {
     align-items: center;
     flex-direction: row;
-    gap: var(--atlas-spacing-sm);
+    gap: calc(var(--atlas-spacing-xs) + 0.08rem);
   }
 
   .filter-advanced {
@@ -617,9 +623,9 @@ onMounted(() => {
 
   /* keep footer items stacked on narrow screens */
   .count {
-    flex: 1 1 auto;
-    font-size: var(--atlas-text-sm);
+    flex: 0 1 auto;
     min-width: 0;
+    max-width: 100%;
   }
 
   .footer-actions {

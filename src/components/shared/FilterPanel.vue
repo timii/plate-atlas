@@ -30,20 +30,22 @@ const panelStyle = computed(() => {
 <style scoped>
 .filter-panel {
   display: grid;
-  gap: var(--atlas-spacing-md);
-  border: 1px solid color-mix(in oklab, var(--line) 84%, #0d0a11 16%);
+  gap: var(--atlas-panel-gap-compact);
+  border: 1px solid color-mix(in oklab, var(--line) 60%, #0d0a11 40%);
   border-radius: var(--atlas-radius-panel);
-  background: var(--atlas-elevated-bg);
-  padding: var(--atlas-spacing-md);
+  background: var(--atlas-panel-surface-subtle);
+  padding: var(--atlas-panel-padding-compact);
 }
 
 .control-row {
   display: grid;
-  gap: var(--atlas-spacing-sm);
+  gap: calc(var(--atlas-spacing-sm) - 0.06rem);
 }
 
 .footer {
   min-width: 0;
+  border-top: 1px solid var(--atlas-panel-divider-subtle);
+  padding-top: calc(var(--atlas-spacing-sm) - 0.04rem);
 }
 
 @media (min-width: 980px) {
@@ -55,12 +57,13 @@ const panelStyle = computed(() => {
 
 @media (max-width: 760px) {
   .filter-panel {
-    padding: var(--atlas-spacing-md);
+    gap: var(--atlas-panel-gap-compact-mobile);
+    padding: var(--atlas-panel-padding-compact-mobile);
   }
 
   .control-row {
     grid-template-columns: 1fr;
-    gap: var(--atlas-spacing-sm);
+    gap: var(--atlas-panel-gap-compact-mobile);
   }
 }
 </style>

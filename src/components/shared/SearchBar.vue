@@ -64,11 +64,11 @@ function onInputKeydown(event: KeyboardEvent) {
   display: flex;
   align-items: center;
   gap: var(--atlas-spacing-2xs);
-  border: 1px solid var(--line);
+  border: 1px solid var(--atlas-control-border-subtle);
   border-radius: var(--atlas-radius-control);
-  background: color-mix(in oklab, var(--surface) 88%, #1b1522 12%);
-  min-height: var(--atlas-touch-target);
-  padding: var(--atlas-spacing-xs) var(--atlas-spacing-sm);
+  background: var(--atlas-control-surface-subtle);
+  min-height: var(--atlas-control-height-compact);
+  padding: var(--atlas-control-padding-compact);
 }
 
 .search-field input {
@@ -81,7 +81,7 @@ function onInputKeydown(event: KeyboardEvent) {
 }
 
 .search-field input::placeholder {
-  color: color-mix(in oklab, var(--muted) 74%, transparent);
+  color: color-mix(in oklab, var(--muted) 62%, transparent);
 }
 
 .search-field input:focus {
@@ -90,8 +90,7 @@ function onInputKeydown(event: KeyboardEvent) {
 
 .search-field:focus-within {
   border-color: color-mix(in oklab, var(--tone, #6f87d9) 64%, var(--line));
-  /* render focus as an inset ring to keep corner rounding clean */
-  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--tone, #6f87d9) 52%, var(--line));
+  box-shadow: 0 0 0 1px color-mix(in oklab, var(--tone, #6f87d9) 32%, transparent);
 }
 
 .clear {
@@ -99,8 +98,8 @@ function onInputKeydown(event: KeyboardEvent) {
   align-items: center;
   justify-content: center;
   flex: 0 0 auto;
-  width: 2rem;
-  height: 2rem;
+  width: 1.72rem;
+  height: 1.72rem;
   margin-right: calc(var(--atlas-spacing-xs) * -1);
   border: none;
   border-radius: var(--atlas-radius-control);
@@ -118,7 +117,7 @@ function onInputKeydown(event: KeyboardEvent) {
 /* keep the hover fill tied to the visual control on pointer devices */
 @media (hover: hover) and (pointer: fine) {
   .clear:hover {
-    background: var(--atlas-control-hover);
+    background: color-mix(in oklab, var(--atlas-control-hover) 72%, transparent);
     color: var(--text);
   }
 }
