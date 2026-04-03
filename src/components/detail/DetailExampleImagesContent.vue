@@ -115,6 +115,20 @@ function countLabel(count: number): string {
   return count === 1 ? '1 example' : `${count} examples`
 }
 
+function formatCategoryHeading(category: string): string {
+  const normalized = category.trim()
+  const hasUppercase = /[A-Z]/.test(normalized)
+  const hasLowercase = /[a-z]/.test(normalized)
+
+  if (!hasUppercase || hasLowercase) {
+    return normalized
+  }
+
+  const lowered = normalized.toLocaleLowerCase()
+
+  return `${lowered.charAt(0).toLocaleUpperCase()}${lowered.slice(1)}`
+}
+
 function onPreviewKeydown(event: KeyboardEvent) {
   if (!previewImage.value) {
     return
@@ -218,7 +232,7 @@ onBeforeUnmount(() => {
     <template v-if="exampleImages && exampleImages.length > 0">
       <section v-for="imageCategory in exampleImages" :key="imageCategory.category" class="group">
         <header class="group-head">
-          <h2>{{ imageCategory.category }}</h2>
+          <h2>{{ formatCategoryHeading(imageCategory.category) }}</h2>
           <p class="group-count">{{ countLabel(imageCategory.images.length) }}</p>
         </header>
 
@@ -326,18 +340,18 @@ onBeforeUnmount(() => {
 
 .group-head h2 {
   margin: 0;
-  font-size: clamp(0.82rem, 0.78rem + 0.18vw, 0.9rem);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--text);
+  font-size: clamp(0.88rem, 0.84rem + 0.18vw, 0.96rem);
+  font-weight: 520;
+  letter-spacing: 0;
+  color: color-mix(in oklab, var(--text) 92%, var(--muted));
   line-height: 1.3;
   min-width: 0;
 }
 
 .group-count {
   margin: 0;
-  font-size: 0.7rem;
-  color: var(--muted);
+  font-size: 0.72rem;
+  color: color-mix(in oklab, var(--text) 44%, var(--muted));
   line-height: 1.2;
   white-space: nowrap;
   flex-shrink: 0;
@@ -607,7 +621,7 @@ onBeforeUnmount(() => {
   }
 
   .group-head h2 {
-    font-size: 0.8rem;
+    font-size: 0.84rem;
   }
 }
 
@@ -621,8 +635,7 @@ onBeforeUnmount(() => {
   .group-head h2 {
     flex: 1 1 auto;
     min-width: 0;
-    font-size: var(--atlas-text-sm);
-    letter-spacing: 0.03em;
+    font-size: 0.82rem;
   }
 
   .group-count {
