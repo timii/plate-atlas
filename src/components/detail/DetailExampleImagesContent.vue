@@ -288,7 +288,7 @@ onBeforeUnmount(() => {
           aria-label="close preview"
           @click="closePreview"
         >
-          close
+          Close
         </button>
       </div>
       <div class="preview-media">
@@ -320,13 +320,12 @@ onBeforeUnmount(() => {
 }
 
 .group {
-  border: 1px solid color-mix(in oklab, var(--line) 88%, #0c0910 12%);
-  border-radius: 0.56rem;
-  background: color-mix(in oklab, var(--atlas-elevated-bg) 82%, #21192a 18%);
-  padding: var(--atlas-spacing-sm);
+  border: 1px solid color-mix(in oklab, var(--line) 72%, #09070d 28%);
+  border-radius: 0.52rem;
+  background: color-mix(in oklab, var(--atlas-panel-bg) 64%, transparent);
+  padding: calc(var(--atlas-spacing-sm) - 0.04rem) var(--atlas-spacing-sm);
   display: grid;
-  gap: var(--atlas-spacing-sm);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
+  gap: calc(var(--atlas-spacing-sm) - 0.04rem);
 }
 
 .group-head {
@@ -334,8 +333,8 @@ onBeforeUnmount(() => {
   align-items: center;
   justify-content: space-between;
   gap: var(--atlas-spacing-sm);
-  border-bottom: 1px solid color-mix(in oklab, var(--line) 74%, transparent);
-  padding-bottom: var(--atlas-spacing-sm);
+  border-bottom: 1px solid color-mix(in oklab, var(--line) 54%, transparent);
+  padding-bottom: calc(var(--atlas-spacing-sm) - 0.12rem);
 }
 
 .group-head h2 {
@@ -373,19 +372,21 @@ onBeforeUnmount(() => {
 }
 
 .sample {
-  border: 1px solid color-mix(in oklab, var(--line) 88%, #0c0910 12%);
+  border: 1px solid color-mix(in oklab, var(--line) 78%, #0c0910 22%);
   border-radius: 0.5rem;
-  background: color-mix(in oklab, var(--surface) 88%, #1b1523 12%);
+  background: color-mix(in oklab, var(--surface) 88%, #17121f 12%);
   overflow: hidden;
   align-self: start;
   transition:
     border-color 160ms ease,
+    background-color 160ms ease,
     box-shadow 180ms ease;
 }
 
 .sample:hover {
   border-color: color-mix(in oklab, var(--tone, #97a0b5) 56%, var(--line));
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  background: color-mix(in oklab, var(--surface) 84%, #1d1527 16%);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
 }
 
 .sample-hit {
@@ -393,6 +394,7 @@ onBeforeUnmount(() => {
   flex-direction: column;
   width: 100%;
   border: none;
+  border-radius: inherit;
   background: transparent;
   padding: 0;
   text-align: left;
@@ -404,11 +406,22 @@ onBeforeUnmount(() => {
   outline: none;
 }
 
-.sample:focus-within {
-  border-color: color-mix(in oklab, var(--tone, #97a0b5) 62%, var(--line));
-  box-shadow:
-    0 0 0 1px color-mix(in oklab, var(--tone, #97a0b5) 58%, var(--line)),
-    0 8px 18px rgba(0, 0, 0, 0.15);
+@supports selector(.sample:has(.sample-hit:focus-visible)) {
+  .sample:has(.sample-hit:focus-visible) {
+    border-color: color-mix(in oklab, var(--tone, #97a0b5) 62%, var(--line));
+    box-shadow:
+      0 0 0 1px color-mix(in oklab, var(--tone, #97a0b5) 58%, var(--line)),
+      0 5px 12px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@supports not selector(.sample:has(.sample-hit:focus-visible)) {
+  .sample:focus-within {
+    border-color: color-mix(in oklab, var(--tone, #97a0b5) 62%, var(--line));
+    box-shadow:
+      0 0 0 1px color-mix(in oklab, var(--tone, #97a0b5) 58%, var(--line)),
+      0 5px 12px rgba(0, 0, 0, 0.1);
+  }
 }
 
 .plate-wrap {
@@ -475,13 +488,13 @@ onBeforeUnmount(() => {
 
 .preview-panel {
   width: min(46rem, calc(100vw - 2rem));
-  border: 1px solid color-mix(in oklab, var(--line) 82%, #0b0810 18%);
-  border-radius: 0.64rem;
-  background: var(--atlas-panel-bg);
-  box-shadow: var(--atlas-panel-shadow);
-  padding: var(--atlas-spacing-sm);
+  border: 1px solid color-mix(in oklab, var(--line) 72%, #0b0810 28%);
+  border-radius: 0.52rem;
+  background: color-mix(in oklab, var(--atlas-panel-bg) 92%, #100c14 8%);
+  box-shadow: 0 14px 28px rgba(3, 2, 7, 0.22);
+  padding: calc(var(--atlas-spacing-sm) - 0.04rem);
   display: grid;
-  gap: var(--atlas-spacing-sm);
+  gap: calc(var(--atlas-spacing-sm) - 0.04rem);
 }
 
 .preview-head {
@@ -489,47 +502,48 @@ onBeforeUnmount(() => {
   align-items: center;
   justify-content: space-between;
   gap: var(--atlas-spacing-sm);
-  border-bottom: 1px solid color-mix(in oklab, var(--line) 72%, transparent);
+  border-bottom: 1px solid color-mix(in oklab, var(--line) 56%, transparent);
   padding-bottom: var(--atlas-spacing-xs);
 }
 
 .preview-title {
   margin: 0;
   min-width: 0;
-  font-size: 0.84rem;
+  font-size: 0.82rem;
+  font-weight: 500;
   line-height: 1.32;
-  color: color-mix(in oklab, var(--text) 94%, var(--muted));
+  color: color-mix(in oklab, var(--text) 90%, var(--muted));
   overflow-wrap: anywhere;
 }
 
 .preview-close {
-  border: 1px solid color-mix(in oklab, var(--line) 82%, #0d0a11 18%);
-  border-radius: 0.4rem;
-  background: color-mix(in oklab, var(--surface) 96%, #0c0910 4%);
-  color: var(--muted);
-  font-size: 0.74rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  padding: var(--atlas-spacing-xs) var(--atlas-spacing-sm);
+  min-height: 2rem;
+  border: 1px solid var(--atlas-action-border-subtle);
+  border-radius: var(--atlas-radius-control);
+  background: color-mix(in oklab, var(--atlas-action-surface-subtle) 76%, transparent);
+  color: color-mix(in oklab, var(--text) 74%, var(--muted));
+  font-size: 0.76rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  padding: 0.22rem 0.68rem;
   justify-self: end;
   cursor: pointer;
   transition:
     border-color 160ms ease,
     color 160ms ease,
-    background-color 160ms ease,
-    transform 120ms ease;
+    background-color 160ms ease;
   flex-shrink: 0;
 }
 
 .preview-close:hover {
-  border-color: color-mix(in oklab, var(--tone, #97a0b5) 52%, var(--line));
+  border-color: color-mix(in oklab, var(--tone, #97a0b5) 48%, var(--line));
   color: var(--text);
-  background: color-mix(in oklab, var(--surface) 90%, #ffffff 10%);
+  background: color-mix(in oklab, var(--atlas-action-surface-subtle) 92%, var(--surface));
 }
 
 .preview-close:active {
-  border-color: color-mix(in oklab, var(--tone, #97a0b5) 58%, var(--line));
-  background: color-mix(in oklab, var(--surface) 86%, #ffffff 14%);
+  border-color: color-mix(in oklab, var(--tone, #97a0b5) 54%, var(--line));
+  background: color-mix(in oklab, var(--atlas-action-surface-subtle) 84%, var(--surface));
 }
 
 .preview-close:focus-visible {
@@ -553,11 +567,10 @@ onBeforeUnmount(() => {
 }
 
 .preview-media {
-  border: 1px solid color-mix(in oklab, var(--line) 76%, #0b0810 24%);
   border-radius: 0.5rem;
-  background: color-mix(in oklab, var(--surface-2) 88%, #08070d 12%);
+  background: color-mix(in oklab, var(--surface-2) 90%, #08070d 10%);
   overflow: hidden;
-  padding: 0.2rem;
+  padding: 0;
 }
 
 .preview-fallback {
@@ -582,7 +595,7 @@ onBeforeUnmount(() => {
   }
 
   .group {
-    padding: var(--atlas-spacing-sm);
+    padding: calc(var(--atlas-spacing-sm) - 0.02rem) var(--atlas-spacing-sm);
   }
 
   .plate-wrap {
@@ -623,6 +636,29 @@ onBeforeUnmount(() => {
   .group-head h2 {
     font-size: 0.84rem;
   }
+
+  .preview-backdrop {
+    padding: calc(var(--atlas-spacing-sm) + 0.1rem);
+  }
+
+  .preview-panel {
+    width: min(100%, calc(100vw - 1.2rem));
+    padding: calc(var(--atlas-spacing-sm) - 0.08rem);
+    gap: calc(var(--atlas-spacing-sm) - 0.08rem);
+  }
+
+  .preview-head {
+    gap: calc(var(--atlas-spacing-xs) + 0.1rem);
+    padding-bottom: calc(var(--atlas-spacing-xs) - 0.02rem);
+  }
+
+  .preview-media {
+    padding: 0;
+  }
+
+  .preview-panel img {
+    max-height: min(64vh, 28rem);
+  }
 }
 
 @media (max-width: 560px) {
@@ -657,10 +693,36 @@ onBeforeUnmount(() => {
 
   .preview-head {
     align-items: center;
+    gap: var(--atlas-spacing-xs);
   }
 
   .preview-title {
     font-size: 0.8rem;
+    line-height: 1.28;
+    padding-top: 0;
+  }
+
+  .preview-close {
+    min-height: 2.2rem;
+    padding-inline: 0.74rem;
+  }
+
+  .preview-panel {
+    width: calc(100vw - 1rem);
+    padding: calc(var(--atlas-spacing-xs) + 0.14rem);
+    gap: calc(var(--atlas-spacing-xs) + 0.14rem);
+  }
+
+  .preview-backdrop {
+    padding: 0.5rem;
+  }
+
+  .preview-media {
+    border-radius: 0.44rem;
+  }
+
+  .preview-panel img {
+    max-height: min(58vh, 22rem);
   }
 }
 </style>
