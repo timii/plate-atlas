@@ -506,20 +506,24 @@ onMounted(() => {
 }
 
 .row {
-  --atlas-row-accent-width: 0.34rem;
-  --atlas-row-line: color-mix(in oklab, var(--line) 90%, #0f0b13 10%);
-  --atlas-row-bg: color-mix(in oklab, var(--surface) 84%, #1b1522 16%);
-  --atlas-row-hover-line: color-mix(in oklab, var(--tone) 64%, var(--line));
-  --atlas-row-hover-bg: color-mix(in oklab, var(--surface) 78%, #21182a 22%);
-  --row-end-min-width: 3.9rem;
-  --row-end-gap: 0.46rem;
-  --row-favorite-size: 0.94rem;
-  --row-flag-width: 1.68rem;
-  --row-flag-height: 1.12rem;
-  --row-flag-outline: color-mix(in oklab, var(--line) 92%, #08070d 8%);
+  --atlas-row-accent-width: 0.18rem;
+  --atlas-row-line: color-mix(in oklab, var(--line) 70%, #0c0910 30%);
+  --atlas-row-bg: color-mix(in oklab, var(--surface) 92%, #18131e 8%);
+  --atlas-row-hover-line: color-mix(in oklab, var(--tone) 42%, var(--line));
+  --atlas-row-hover-bg: color-mix(in oklab, var(--surface) 88%, #1b1522 12%);
+  --atlas-code-chip-line: color-mix(in oklab, var(--line) 58%, transparent);
+  --row-end-min-width: 3.3rem;
+  --row-end-gap: 0.32rem;
+  --row-favorite-size: 0.82rem;
+  --row-flag-width: 1.56rem;
+  --row-flag-height: 1.04rem;
+  --row-flag-outline: color-mix(in oklab, var(--line) 72%, #09070d 28%);
   display: grid;
   grid-template-columns: var(--code-chip-width) minmax(0, 1fr) auto;
-  padding: 0.42rem 0.56rem;
+  padding: 0.38rem 0.52rem;
+  border-radius: 0.46rem;
+  border-left: var(--atlas-row-accent-width) solid
+    color-mix(in oklab, var(--tone) 72%, #ffffff 8%);
 }
 
 .row:focus-visible {
@@ -538,16 +542,21 @@ onMounted(() => {
   min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: var(--atlas-text-base);
+  font-size: 0.98rem;
+  font-weight: 480;
   line-height: 1.2;
 }
 
 .continent {
   display: block;
-  font-size: var(--atlas-text-xxs);
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+  color: color-mix(in oklab, var(--text) 44%, var(--muted));
+  text-transform: lowercase;
+}
+
+.continent::first-letter {
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--muted);
 }
 
 .end {
@@ -565,13 +574,14 @@ onMounted(() => {
   width: var(--row-favorite-size);
   height: var(--row-favorite-size);
   color: var(--atlas-favorite);
+  opacity: 0.92;
 }
 
 .row img {
   width: var(--row-flag-width);
   height: var(--row-flag-height);
   max-width: none;
-  border-radius: 0.16rem;
+  border-radius: 0.14rem;
   display: block;
   object-fit: contain;
   filter: drop-shadow(0.45px 0 0 var(--row-flag-outline))

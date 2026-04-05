@@ -132,8 +132,8 @@ body {
   gap: var(--atlas-spacing-sm);
   align-items: center;
   border: 1px solid var(--atlas-row-line, var(--line));
-  border-left: var(--atlas-row-accent-width, 0.32rem) solid
-    color-mix(in oklab, var(--tone, #97a0b5) 76%, #ffffff);
+  border-left: var(--atlas-row-accent-width, 0.22rem) solid
+    color-mix(in oklab, var(--tone, #97a0b5) 62%, var(--line));
   border-radius: var(--atlas-radius-row);
   background: var(--atlas-row-bg, var(--surface));
   transition:
@@ -160,6 +160,7 @@ body {
   align-self: center;
   font-size: 0.75rem;
   letter-spacing: 0.06em;
+  color: color-mix(in oklab, var(--text) 88%, var(--muted));
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
