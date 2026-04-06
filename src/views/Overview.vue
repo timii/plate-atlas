@@ -506,7 +506,7 @@ onMounted(() => {
 }
 
 .row {
-  --atlas-row-accent-width: 0.18rem;
+  --atlas-row-accent-width: 0.25rem;
   --atlas-row-line: color-mix(in oklab, var(--line) 70%, #0c0910 30%);
   --atlas-row-bg: color-mix(in oklab, var(--surface) 92%, #18131e 8%);
   --atlas-row-hover-line: color-mix(in oklab, var(--tone) 42%, var(--line));
@@ -522,8 +522,7 @@ onMounted(() => {
   grid-template-columns: var(--code-chip-width) minmax(0, 1fr) auto;
   padding: 0.38rem 0.52rem;
   border-radius: var(--atlas-radius-row);
-  border-left: var(--atlas-row-accent-width) solid
-    color-mix(in oklab, var(--tone) 72%, #ffffff 8%);
+  border-left: var(--atlas-row-accent-width) solid color-mix(in oklab, var(--tone) 72%, #ffffff 8%);
 }
 
 .row:focus-visible {
