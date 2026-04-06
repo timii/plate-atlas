@@ -238,7 +238,7 @@ onBeforeUnmount(() => {
   width: min(42rem, calc(100vw - 2rem));
   padding: var(--atlas-spacing-md);
   border: 1px solid color-mix(in oklab, var(--atlas-line) 74%, #0b0810 26%);
-  border-radius: 0.7rem;
+  border-radius: var(--atlas-radius-panel);
   background: var(--atlas-dialog-bg);
   box-shadow: 0 14px 32px rgba(4, 3, 8, 0.24);
   display: grid;
@@ -283,7 +283,7 @@ onBeforeUnmount(() => {
   height: 2rem;
   margin: -0.12rem -0.12rem 0 0;
   border: none;
-  border-radius: 0.4rem;
+  border-radius: var(--atlas-radius-option);
   background: transparent;
   color: color-mix(in oklab, var(--atlas-text) 66%, var(--atlas-muted));
   cursor: pointer;
@@ -334,7 +334,7 @@ onBeforeUnmount(() => {
   gap: 0.3rem;
   padding: calc(var(--atlas-spacing-sm) - 0.04rem);
   border: 1px solid color-mix(in oklab, var(--atlas-line) 56%, transparent);
-  border-radius: 0.52rem;
+  border-radius: var(--atlas-radius-control);
   background: color-mix(in oklab, var(--atlas-surface) 80%, transparent);
 }
 
@@ -426,7 +426,7 @@ onBeforeUnmount(() => {
 .inline-link:focus-visible {
   outline: 2px solid color-mix(in oklab, var(--atlas-page-tone, #6f87d9) 64%, var(--atlas-line));
   outline-offset: 3px;
-  border-radius: 0.35rem;
+  border-radius: var(--atlas-radius-option);
 }
 
 .about-dialog-enter-active,
@@ -467,7 +467,7 @@ onBeforeUnmount(() => {
     overflow-y: auto;
     padding: calc(var(--atlas-spacing-sm) + 0.1rem);
     gap: calc(var(--atlas-spacing-sm) + 0.08rem);
-    border-radius: 0.8rem 0.8rem 0.64rem 0.64rem;
+    border-radius: 0.68rem 0.68rem 0.56rem 0.56rem;
   }
 
   .about-head {

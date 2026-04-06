@@ -73,11 +73,11 @@
   --atlas-font-rubik: 'Rubik', 'Segoe UI Variable Text', 'Segoe UI', Arial, sans-serif;
 
   /* shared shape tokens */
-  --atlas-radius-panel: 0.92rem;
-  --atlas-radius-control: 0.52rem;
-  --atlas-radius-row: 0.52rem;
-  --atlas-radius-chip: 0.28rem;
-  --atlas-radius-option: 0.36rem;
+  --atlas-radius-panel: 0.76rem;
+  --atlas-radius-control: 0.42rem;
+  --atlas-radius-row: 0.44rem;
+  --atlas-radius-chip: 0.24rem;
+  --atlas-radius-option: 0.3rem;
 
   /* shared interaction tokens */
   --atlas-control-hover: rgba(255, 255, 255, 0.055);

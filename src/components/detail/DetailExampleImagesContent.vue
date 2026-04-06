@@ -449,7 +449,7 @@ onBeforeUnmount(() => {
   width: 100%;
   height: 100%;
   border: 1px dashed color-mix(in oklab, var(--line) 74%, #ffffff 26%);
-  border-radius: 0.34rem;
+  border-radius: var(--atlas-radius-option);
   background: color-mix(in oklab, var(--surface) 96%, #0b0a12 4%);
   color: var(--muted);
   display: grid;
@@ -489,7 +489,7 @@ onBeforeUnmount(() => {
 .preview-panel {
   width: min(46rem, calc(100vw - 2rem));
   border: 1px solid color-mix(in oklab, var(--line) 72%, #0b0810 28%);
-  border-radius: 0.52rem;
+  border-radius: var(--atlas-radius-panel);
   background: color-mix(in oklab, var(--atlas-panel-bg) 92%, #100c14 8%);
   box-shadow: 0 14px 28px rgba(3, 2, 7, 0.22);
   padding: calc(var(--atlas-spacing-sm) - 0.04rem);

@@ -521,7 +521,7 @@ onMounted(() => {
   display: grid;
   grid-template-columns: var(--code-chip-width) minmax(0, 1fr) auto;
   padding: 0.38rem 0.52rem;
-  border-radius: 0.46rem;
+  border-radius: var(--atlas-radius-row);
   border-left: var(--atlas-row-accent-width) solid
     color-mix(in oklab, var(--tone) 72%, #ffffff 8%);
 }

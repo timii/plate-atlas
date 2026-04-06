@@ -51,7 +51,7 @@ const props = defineProps({
   width: var(--atlas-touch-target);
   height: var(--atlas-touch-target);
   border: none;
-  border-radius: 999px;
+  border-radius: var(--atlas-radius-control);
   background: transparent;
   color: v-bind('props.color');
   cursor: pointer;

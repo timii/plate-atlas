@@ -18,7 +18,7 @@ const props = defineProps<{
 .info-card {
   border: 1px solid color-mix(in oklab, var(--tone, #97a0b5) 24%, var(--line));
   border-left: 0.32rem solid color-mix(in oklab, var(--tone, #97a0b5) 76%, #ffffff);
-  border-radius: 0.52rem;
+  border-radius: var(--atlas-radius-control);
   padding: var(--atlas-spacing-sm) var(--atlas-spacing-sm);
   background: linear-gradient(
     180deg,
