@@ -35,6 +35,7 @@ const props = withDefaults(
 .empty-state p {
   margin: var(--atlas-spacing-xs) 0 0;
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: 0.84rem;
+  line-height: 1.45;
 }
 </style>

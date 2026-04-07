@@ -52,8 +52,8 @@ h1 {
 
 .meta {
   margin-top: var(--atlas-spacing-xs);
-  color: color-mix(in oklab, var(--text) 40%, var(--muted));
-  font-size: 0.86rem;
+  color: color-mix(in oklab, var(--text) 54%, var(--muted));
+  font-size: 0.9rem;
   line-height: 1.35;
 }
 
@@ -85,7 +85,7 @@ h1 {
   }
 
   .meta {
-    font-size: 0.82rem;
+    font-size: 0.86rem;
   }
 
   .page-header--with-actions .copy {

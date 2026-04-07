@@ -270,9 +270,9 @@ onBeforeUnmount(() => {
 
 .about-subtitle {
   margin: 0;
-  font-size: 0.82rem;
+  font-size: 0.86rem;
   line-height: 1.45;
-  color: color-mix(in oklab, var(--atlas-text) 68%, var(--atlas-muted));
+  color: color-mix(in oklab, var(--atlas-text) 76%, var(--atlas-muted));
 }
 
 .close-button {
@@ -339,8 +339,8 @@ onBeforeUnmount(() => {
 }
 
 .meta-item dt {
-  color: color-mix(in oklab, var(--atlas-text) 58%, var(--atlas-muted));
-  font-size: 0.76rem;
+  color: color-mix(in oklab, var(--atlas-text) 66%, var(--atlas-muted));
+  font-size: 0.8rem;
   font-weight: 500;
   line-height: 1.3;
 }
@@ -362,7 +362,7 @@ onBeforeUnmount(() => {
 
 .about-section h3 {
   margin: 0;
-  font-size: 0.84rem;
+  font-size: 0.88rem;
   font-weight: 540;
   line-height: 1.3;
   color: color-mix(in oklab, var(--atlas-text) 92%, var(--atlas-muted));

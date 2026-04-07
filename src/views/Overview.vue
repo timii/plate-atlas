@@ -358,10 +358,10 @@ onMounted(() => {
 .count {
   align-self: center;
   flex: 1 1 auto;
-  font-size: 0.79rem;
+  font-size: 0.84rem;
   line-height: 1.28;
   min-width: 0;
-  color: color-mix(in oklab, var(--text) 38%, var(--muted));
+  color: color-mix(in oklab, var(--text) 52%, var(--muted));
 }
 
 .count span {
@@ -383,7 +383,7 @@ onMounted(() => {
   align-items: center;
   gap: var(--atlas-spacing-xs);
   padding: var(--atlas-action-padding-compact);
-  font-size: 0.77rem;
+  font-size: 0.81rem;
   cursor: pointer;
   transition:
     border-color 160ms ease,
@@ -406,7 +406,7 @@ onMounted(() => {
   display: none;
   align-items: center;
   padding: var(--atlas-action-padding-compact);
-  font-size: 0.77rem;
+  font-size: 0.81rem;
   cursor: pointer;
   transition:
     border-color 160ms ease,
@@ -486,16 +486,16 @@ onMounted(() => {
 
 .group-title {
   margin: 0;
-  font-size: var(--atlas-text-xs);
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--text);
+  font-size: 0.84rem;
+  font-weight: 520;
+  letter-spacing: 0.02em;
+  color: color-mix(in oklab, var(--text) 94%, var(--muted));
 }
 
 .group-count {
   margin: 0;
-  font-size: 0.76rem;
-  color: var(--muted);
+  font-size: 0.8rem;
+  color: color-mix(in oklab, var(--text) 54%, var(--muted));
   line-height: 1.2;
   font-variant-numeric: tabular-nums;
 }
@@ -548,14 +548,9 @@ onMounted(() => {
 
 .continent {
   display: block;
-  font-size: 0.7rem;
-  letter-spacing: 0.03em;
-  color: color-mix(in oklab, var(--text) 44%, var(--muted));
-  text-transform: lowercase;
-}
-
-.continent::first-letter {
-  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0;
+  color: color-mix(in oklab, var(--text) 56%, var(--muted));
 }
 
 .end {
