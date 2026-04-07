@@ -301,9 +301,8 @@ onBeforeUnmount(() => {
 
 @media (hover: hover) and (pointer: fine) {
   .close-button:hover {
-    background: color-mix(in oklab, var(--atlas-surface) 90%, rgba(255, 255, 255, 0.08));
+    background: var(--atlas-control-hover);
     color: var(--atlas-text);
-    box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--atlas-line) 68%, transparent);
   }
 }
 
