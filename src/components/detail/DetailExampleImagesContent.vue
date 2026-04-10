@@ -320,12 +320,10 @@ onBeforeUnmount(() => {
 }
 
 .group {
-  border: 1px solid color-mix(in oklab, var(--line) 72%, #09070d 28%);
-  border-radius: 0.52rem;
-  background: color-mix(in oklab, var(--atlas-panel-bg) 64%, transparent);
-  padding: calc(var(--atlas-spacing-sm) - 0.04rem) var(--atlas-spacing-sm);
+  border-top: 1px solid color-mix(in oklab, var(--line) 58%, transparent);
+  padding-top: calc(var(--atlas-spacing-sm) + 0.04rem);
   display: grid;
-  gap: calc(var(--atlas-spacing-sm) - 0.04rem);
+  gap: var(--atlas-spacing-sm);
 }
 
 .group-head {
@@ -333,8 +331,7 @@ onBeforeUnmount(() => {
   align-items: center;
   justify-content: space-between;
   gap: var(--atlas-spacing-sm);
-  border-bottom: 1px solid color-mix(in oklab, var(--line) 54%, transparent);
-  padding-bottom: calc(var(--atlas-spacing-sm) - 0.12rem);
+  padding-bottom: calc(var(--atlas-spacing-xs) + 0.04rem);
 }
 
 .group-head h2 {
@@ -349,8 +346,8 @@ onBeforeUnmount(() => {
 
 .group-count {
   margin: 0;
-  font-size: 0.72rem;
-  color: color-mix(in oklab, var(--text) 44%, var(--muted));
+  font-size: 0.78rem;
+  color: color-mix(in oklab, var(--text) 56%, var(--muted));
   line-height: 1.2;
   white-space: nowrap;
   flex-shrink: 0;
@@ -372,34 +369,30 @@ onBeforeUnmount(() => {
 }
 
 .sample {
-  border: 1px solid color-mix(in oklab, var(--line) 78%, #0c0910 22%);
-  border-radius: 0.5rem;
-  background: color-mix(in oklab, var(--surface) 88%, #17121f 12%);
-  overflow: hidden;
   align-self: start;
   transition:
-    border-color 160ms ease,
-    background-color 160ms ease,
-    box-shadow 180ms ease;
+    color 160ms ease,
+    opacity 160ms ease;
 }
 
 .sample:hover {
-  border-color: color-mix(in oklab, var(--tone, #97a0b5) 56%, var(--line));
-  background: color-mix(in oklab, var(--surface) 84%, #1d1527 16%);
-  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+  color: var(--text);
 }
 
 .sample-hit {
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: none;
-  border-radius: inherit;
+  border: 1px solid transparent;
+  border-radius: 0.44rem;
   background: transparent;
-  padding: 0;
+  padding: 0.08rem;
   text-align: left;
   cursor: pointer;
   color: inherit;
+  transition:
+    border-color 160ms ease,
+    background-color 160ms ease;
 }
 
 .sample-hit:focus-visible {
@@ -408,30 +401,46 @@ onBeforeUnmount(() => {
 
 @supports selector(.sample:has(.sample-hit:focus-visible)) {
   .sample:has(.sample-hit:focus-visible) {
-    border-color: color-mix(in oklab, var(--tone, #97a0b5) 62%, var(--line));
-    box-shadow:
-      0 0 0 1px color-mix(in oklab, var(--tone, #97a0b5) 58%, var(--line)),
-      0 5px 12px rgba(0, 0, 0, 0.1);
+    color: var(--text);
   }
 }
 
 @supports not selector(.sample:has(.sample-hit:focus-visible)) {
   .sample:focus-within {
-    border-color: color-mix(in oklab, var(--tone, #97a0b5) 62%, var(--line));
-    box-shadow:
-      0 0 0 1px color-mix(in oklab, var(--tone, #97a0b5) 58%, var(--line)),
-      0 5px 12px rgba(0, 0, 0, 0.1);
+    color: var(--text);
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .sample-hit:hover {
+    border-color: color-mix(in oklab, var(--line) 38%, transparent);
+    background: color-mix(in oklab, var(--surface) 10%, transparent);
+  }
+}
+
+@supports selector(.sample:has(.sample-hit:focus-visible)) {
+  .sample:has(.sample-hit:focus-visible) .sample-hit {
+    border-color: color-mix(in oklab, var(--tone, #97a0b5) 54%, var(--line));
+    background: color-mix(in oklab, var(--surface) 10%, transparent);
+  }
+}
+
+@supports not selector(.sample:has(.sample-hit:focus-visible)) {
+  .sample:focus-within .sample-hit {
+    border-color: color-mix(in oklab, var(--tone, #97a0b5) 54%, var(--line));
+    background: color-mix(in oklab, var(--surface) 10%, transparent);
   }
 }
 
 .plate-wrap {
-  border-bottom: 1px solid color-mix(in oklab, var(--line) 74%, transparent);
-  background: color-mix(in oklab, var(--surface-2) 82%, #1b1522 18%);
+  border: 1px solid color-mix(in oklab, var(--line) 34%, transparent);
+  border-radius: 0.38rem;
+  background: color-mix(in oklab, var(--surface-2) 42%, transparent);
   height: 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: var(--atlas-spacing-sm);
+  padding: calc(var(--atlas-spacing-sm) - 0.12rem);
 }
 
 .samples--single .plate-wrap {
@@ -468,11 +477,11 @@ onBeforeUnmount(() => {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  min-height: 2.6rem;
-  padding: var(--atlas-spacing-sm) var(--atlas-spacing-sm) var(--atlas-spacing-sm);
-  font-size: 0.78rem;
-  line-height: 1.28;
-  color: color-mix(in oklab, var(--text) 92%, var(--muted));
+  min-height: 2.15rem;
+  padding: calc(var(--atlas-spacing-xs) + 0.22rem) 0 0.02rem;
+  font-size: 0.74rem;
+  line-height: 1.38;
+  color: color-mix(in oklab, var(--text) 56%, var(--muted));
   overflow-wrap: anywhere;
 }
 
@@ -487,14 +496,14 @@ onBeforeUnmount(() => {
 }
 
 .preview-panel {
-  width: min(46rem, calc(100vw - 2rem));
-  border: 1px solid color-mix(in oklab, var(--line) 72%, #0b0810 28%);
+  width: min(54rem, calc(100vw - 2rem));
+  border: 1px solid color-mix(in oklab, var(--line) 52%, #0b0810 48%);
   border-radius: var(--atlas-radius-panel);
-  background: color-mix(in oklab, var(--atlas-panel-bg) 92%, #100c14 8%);
-  box-shadow: 0 14px 28px rgba(3, 2, 7, 0.22);
-  padding: calc(var(--atlas-spacing-sm) - 0.04rem);
+  background: color-mix(in oklab, var(--atlas-panel-bg) 80%, #100c14 20%);
+  box-shadow: 0 6px 14px rgba(3, 2, 7, 0.16);
+  padding: calc(var(--atlas-spacing-xs) + 0.08rem);
   display: grid;
-  gap: calc(var(--atlas-spacing-sm) - 0.04rem);
+  gap: calc(var(--atlas-spacing-xs) + 0.04rem);
 }
 
 .preview-head {
@@ -502,30 +511,29 @@ onBeforeUnmount(() => {
   align-items: center;
   justify-content: space-between;
   gap: var(--atlas-spacing-sm);
-  border-bottom: 1px solid color-mix(in oklab, var(--line) 56%, transparent);
-  padding-bottom: var(--atlas-spacing-xs);
+  padding: 0 0.04rem;
 }
 
 .preview-title {
   margin: 0;
   min-width: 0;
-  font-size: 0.82rem;
+  font-size: 0.74rem;
   font-weight: 500;
   line-height: 1.32;
-  color: color-mix(in oklab, var(--text) 90%, var(--muted));
+  color: color-mix(in oklab, var(--text) 56%, var(--muted));
   overflow-wrap: anywhere;
 }
 
 .preview-close {
-  min-height: 2rem;
+  min-height: 1.9rem;
   border: 1px solid var(--atlas-action-border-subtle);
   border-radius: var(--atlas-radius-control);
   background: color-mix(in oklab, var(--atlas-action-surface-subtle) 76%, transparent);
   color: color-mix(in oklab, var(--text) 74%, var(--muted));
-  font-size: 0.76rem;
+  font-size: 0.72rem;
   font-weight: 500;
   letter-spacing: 0;
-  padding: 0.22rem 0.68rem;
+  padding: 0.18rem 0.58rem;
   justify-self: end;
   cursor: pointer;
   transition:
@@ -567,8 +575,8 @@ onBeforeUnmount(() => {
 }
 
 .preview-media {
-  border-radius: 0.5rem;
-  background: color-mix(in oklab, var(--surface-2) 90%, #08070d 10%);
+  border-radius: 0.38rem;
+  background: transparent;
   overflow: hidden;
   padding: 0;
 }
@@ -595,7 +603,7 @@ onBeforeUnmount(() => {
   }
 
   .group {
-    padding: calc(var(--atlas-spacing-sm) - 0.02rem) var(--atlas-spacing-sm);
+    padding-top: calc(var(--atlas-spacing-sm) + 0.06rem);
   }
 
   .plate-wrap {
@@ -630,7 +638,7 @@ onBeforeUnmount(() => {
   }
 
   .sample-caption {
-    min-height: 2.4rem;
+    min-height: 2.15rem;
   }
 
   .group-head h2 {
@@ -643,13 +651,13 @@ onBeforeUnmount(() => {
 
   .preview-panel {
     width: min(100%, calc(100vw - 1.2rem));
-    padding: calc(var(--atlas-spacing-sm) - 0.08rem);
-    gap: calc(var(--atlas-spacing-sm) - 0.08rem);
+    padding: calc(var(--atlas-spacing-xs) + 0.06rem);
+    gap: calc(var(--atlas-spacing-xs) + 0.06rem);
   }
 
   .preview-head {
-    gap: calc(var(--atlas-spacing-xs) + 0.1rem);
-    padding-bottom: calc(var(--atlas-spacing-xs) - 0.02rem);
+    gap: calc(var(--atlas-spacing-xs) + 0.06rem);
+    padding-bottom: 0;
   }
 
   .preview-media {
@@ -697,20 +705,20 @@ onBeforeUnmount(() => {
   }
 
   .preview-title {
-    font-size: 0.8rem;
+    font-size: 0.77rem;
     line-height: 1.28;
     padding-top: 0;
   }
 
   .preview-close {
-    min-height: 2.2rem;
-    padding-inline: 0.74rem;
+    min-height: 2.05rem;
+    padding-inline: 0.68rem;
   }
 
   .preview-panel {
     width: calc(100vw - 1rem);
-    padding: calc(var(--atlas-spacing-xs) + 0.14rem);
-    gap: calc(var(--atlas-spacing-xs) + 0.14rem);
+    padding: calc(var(--atlas-spacing-xs) + 0.04rem);
+    gap: calc(var(--atlas-spacing-xs) + 0.04rem);
   }
 
   .preview-backdrop {
