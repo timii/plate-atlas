@@ -62,13 +62,13 @@ const props = defineProps({
 
 @media (hover: hover) and (pointer: fine) {
   .icon:hover {
-    background: color-mix(in oklab, var(--surface, #120e16) 80%, #ffffff 20%);
+    background: var(--atlas-control-hover);
   }
 }
 
 .icon:focus-visible {
   outline: 2px solid
-    color-mix(in oklab, var(--tone, #97a0b5) 62%, var(--line, rgba(255, 255, 255, 0.24)));
-  outline-offset: 2px;
+    color-mix(in oklab, var(--tone, #97a0b5) 64%, var(--line, rgba(255, 255, 255, 0.24)));
+  outline-offset: 3px;
 }
 </style>

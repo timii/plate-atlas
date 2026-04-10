@@ -307,10 +307,8 @@ onBeforeUnmount(() => {
 }
 
 .close-button:focus-visible {
-  outline: none;
-  background: color-mix(in oklab, var(--atlas-surface) 74%, transparent);
-  box-shadow: inset 0 0 0 1px
-    color-mix(in oklab, var(--atlas-page-tone, #6f87d9) 54%, var(--atlas-line));
+  outline: 2px solid color-mix(in oklab, var(--atlas-page-tone, #6f87d9) 64%, var(--atlas-line));
+  outline-offset: 3px;
   color: var(--atlas-text);
 }
 

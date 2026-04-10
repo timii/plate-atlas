@@ -117,14 +117,14 @@ function onInputKeydown(event: KeyboardEvent) {
 /* keep the hover fill tied to the visual control on pointer devices */
 @media (hover: hover) and (pointer: fine) {
   .clear:hover {
-    background: color-mix(in oklab, var(--atlas-control-hover) 72%, transparent);
+    background: var(--atlas-control-hover);
     color: var(--text);
   }
 }
 
 .clear:focus-visible {
-  outline: 2px solid color-mix(in oklab, var(--tone, #6f87d9) 56%, var(--line));
-  outline-offset: 1px;
+  outline: 2px solid color-mix(in oklab, var(--tone, #6f87d9) 64%, var(--line));
+  outline-offset: 3px;
 }
 
 /* grow the hit area on touch without changing the desktop visual size */
