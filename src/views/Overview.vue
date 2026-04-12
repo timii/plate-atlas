@@ -216,10 +216,19 @@ onMounted(() => {
         <template #footer>
           <div class="footer-bar">
             <p class="count">
-              Showing <span>{{ orderedCountries.length }}</span> out of
-              <span>{{ allCountriesLength }}</span> countries
-              <span class="count-separator">-</span>
-              <span>{{ favoriteCount }}</span> {{ favoritesCountLabel }}
+              <span class="count-desktop">
+                Showing <span class="count-value">{{ orderedCountries.length }}</span> out of
+                <span class="count-value">{{ allCountriesLength }}</span> countries
+                <span class="count-separator">-</span>
+                <span class="count-value">{{ favoriteCount }}</span> {{ favoritesCountLabel }}
+              </span>
+              <span class="count-mobile">
+                <span>
+                  <span class="count-value">{{ orderedCountries.length }}</span> of
+                  <span class="count-value">{{ allCountriesLength }}</span> countries
+                </span>
+                <span><span class="count-value">{{ favoriteCount }}</span> {{ favoritesCountLabel }}</span>
+              </span>
             </p>
             <div class="footer-actions">
               <button
@@ -364,8 +373,16 @@ onMounted(() => {
   color: color-mix(in oklab, var(--text) 52%, var(--muted));
 }
 
-.count span {
+.count-value {
   color: var(--text);
+}
+
+.count-desktop {
+  display: contents;
+}
+
+.count-mobile {
+  display: none;
 }
 
 .count-separator {
@@ -630,6 +647,18 @@ onMounted(() => {
     flex: 0 1 auto;
     min-width: 0;
     max-width: 100%;
+    display: grid;
+    gap: 0.08rem;
+    line-height: 1.22;
+  }
+
+  .count-desktop {
+    display: none;
+  }
+
+  .count-mobile {
+    display: grid;
+    gap: 0.08rem;
   }
 
   .footer-actions {
@@ -641,6 +670,21 @@ onMounted(() => {
   /* surface the compact filter trigger once the advanced controls collapse */
   .filters-toggle {
     display: inline-flex;
+  }
+}
+
+@media (max-width: 430px) {
+  .count {
+    display: block;
+    line-height: 1.28;
+  }
+
+  .count-desktop {
+    display: inline;
+  }
+
+  .count-mobile {
+    display: none;
   }
 }
 
