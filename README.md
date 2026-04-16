@@ -8,13 +8,11 @@
 
 <p align="center">
   Plate Atlas is a free, open-source reference for international vehicle registration codes and license plate examples.
-  It helps you browse countries, inspect plate details, and compare regional formats in a fast web interface.
+  The goal is to help you browse countries, inspect plate details and compare regional formats.
 </p>
 
 <p align="center">
   <a href="">Try it out</a>
-  &middot;
-  <a href="https://github.com/timii/plate-atlas">Source Code</a>
   &middot;
   <a href="https://github.com/timii/plate-atlas/issues">Report an Issue</a>
   &middot;
