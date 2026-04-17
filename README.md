@@ -7,7 +7,7 @@
 <p align="center">Explore the World, One License Plate at a Time.</p>
 
 <p align="center">
-  Free, open-source reference for international vehicle registration codes and license plate examples. The goal is to help you browse countries, inspect plate details and compare regional formats.
+  Free and open-source reference for international vehicle registration codes and license plate examples.
 </p>
 
 <p align="center">
@@ -20,7 +20,9 @@
 
 ## About
 
-Plate Atlas is a free, open-source reference for international vehicle registration codes and license plate examples. The goal is to help you browse countries, inspect plate details and compare regional formats. You can search by country, code, or continent. Each country detail page gives you more details about the plate format and either lists area- or region-based identifiers or shows example images of plates from different periods.
+Plate Atlas is a free, open-source reference for international vehicle registration codes and license plate examples.
+
+The goal is to help you browse countries, inspect plate details and compare regional formats. You can search by country, code, or continent. Each country detail page gives you more details about the plate format and either lists area- or region-based identifiers or shows example images of plates from different periods.
 
 The current dataset in this repository includes 185 countries and the country data was last updated on April 16, 2026.
 
