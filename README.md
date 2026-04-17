@@ -24,25 +24,6 @@ Plate Atlas is a free, open-source reference for international vehicle registrat
 
 The current dataset in this repository includes 185 countries and the country data was last updated on April 16, 2026.
 
-## Features
-
-- **Fast country overview**: Browse all supported countries from one searchable list.
-- **Useful filtering controls**: Search by country name, code, or continent, then sort and group the results.
-- **Favorites saved locally**: Star countries and keep that list in browser storage.
-- **Country detail pages**: View regional code mappings or example plate images for each country.
-- **Preloaded detail data**: Hover, focus, and touch interactions warm the next detail request for faster navigation.
-- **Local image mirrors**: Overview flags and detail images can be mirrored into `public/images` so builds do not depend on third-party image hosts at runtime.
-- **Project metadata in-app**: The app includes built-in links for sources, licensing, and contribution paths.
-
-## Technologies Used
-
-- [Vue 3](https://vuejs.org/) for the UI
-- [TypeScript](https://www.typescriptlang.org/) for type-safe application code
-- [Vite](https://vite.dev/) for development and production builds
-- [Tailwind CSS](https://tailwindcss.com/) for styling utilities
-- [Pinia](https://pinia.vuejs.org/) for app state
-- [Vue Router](https://router.vuejs.org/) for navigation
-
 ## Contributing
 
 Corrections and improvements are welcome. If you notice inaccurate plate data, missing examples, or UI issues, open an issue or submit a pull request:
