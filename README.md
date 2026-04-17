@@ -20,7 +20,7 @@
 
 ## About
 
-Plate Atlas is a free, open-source reference for international vehicle registration codes and license plate examples. The goal is to help you browse countries, inspect plate details and compare regional formats. You scan the full dataset, search by country, code, or continent, and narrow the list with sorting, grouping, and favorites. Each country detail page gives you more details about the plate format and lists area/region based identifiers or shows example images of plates from different times.
+Plate Atlas is a free, open-source reference for international vehicle registration codes and license plate examples. The goal is to help you browse countries, inspect plate details and compare regional formats. You can search by country, code, or continent. Each country detail page gives you more details about the plate format and either lists area- or region-based identifiers or shows example images of plates from different periods.
 
 The current dataset in this repository includes 185 countries and the country data was last updated on April 16, 2026.
 
@@ -31,7 +31,7 @@ Corrections and improvements are welcome. If you notice inaccurate plate data, m
 - [Open an issue](https://github.com/timii/plate-atlas/issues)
 - [Open a pull request](https://github.com/timii/plate-atlas/pulls)
 
-When working on the dataset, rerun `npm run sync-images` if you add or update remote image references so the local mirrors stay in sync.
+> When working on the dataset, rerun `npm run sync-images` if you add or update remote image references so the local mirrors stay in sync.
 
 ## Data Sources and References
 
