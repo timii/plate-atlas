@@ -7,8 +7,7 @@
 <p align="center">Explore the World, One License Plate at a Time.</p>
 
 <p align="center">
-  Plate Atlas is a free, open-source reference for international vehicle registration codes and license plate examples.
-  The goal is to help you browse countries, inspect plate details and compare regional formats.
+  Free, open-source reference for international vehicle registration codes and license plate examples. The goal is to help you browse countries, inspect plate details and compare regional formats.
 </p>
 
 <p align="center">
@@ -21,9 +20,9 @@
 
 ## About
 
-Plate Atlas is a Vue-based atlas for world license plate data. The overview page lets you scan the full dataset, search by country, code, or continent, and narrow the list with sorting, grouping, and favorites. Country detail pages then show either regional identifier data or curated example images, depending on how that country formats its plates.
+Plate Atlas is a free, open-source reference for international vehicle registration codes and license plate examples. The goal is to help you browse countries, inspect plate details and compare regional formats. You scan the full dataset, search by country, code, or continent, and narrow the list with sorting, grouping, and favorites. Each country detail page gives you more details about the plate format and lists area/region based identifiers or shows example images of plates from different times.
 
-The current dataset in this repository includes 185 countries with detail files, and the shipped overview data was last updated on February 11, 2026.
+The current dataset in this repository includes 185 countries and the country data was last updated on April 16, 2026.
 
 ## Features
 
