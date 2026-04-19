@@ -15,9 +15,13 @@
 
         const restoredPath = redirectQuery
           .slice(1)
-          .replace(/~and~/g, '&')
-          .replace(/&/g, '%26')
-        const nextUrl = `${window.location.pathname}${restoredPath}${window.location.hash}`
+          .split('&')
+          .map((segment) => segment.replace(/~and~/g, '&'))
+          .join('?')
+        const normalizedBasePath = window.location.pathname.endsWith('/')
+          ? window.location.pathname.slice(0, -1)
+          : window.location.pathname
+        const nextUrl = `${normalizedBasePath}${restoredPath}${window.location.hash}`
 
         window.history.replaceState(null, '', nextUrl)
       })()

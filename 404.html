@@ -8,9 +8,12 @@
       ;(() => {
         const { pathname, search, hash } = window.location
         const repoBase = '/plate-atlas'
-        const routePath = pathname.startsWith(repoBase) ? pathname.slice(repoBase.length) : pathname
-        const normalizedRoute = routePath.startsWith('/') ? routePath : `/${routePath}`
-        const nextUrl = `${repoBase}/?${normalizedRoute}${search.replace(/&/g, '~and~')}${hash}`
+        const routeSegments = (pathname.startsWith(repoBase) ? pathname.slice(repoBase.length) : pathname)
+          .split('/')
+          .filter(Boolean)
+        const normalizedRoute = routeSegments.length ? `/${routeSegments.join('/')}` : '/'
+        const normalizedSearch = search ? `&${search.slice(1).replace(/&/g, '~and~')}` : ''
+        const nextUrl = `${repoBase}/?${normalizedRoute}${normalizedSearch}${hash}`
 
         window.location.replace(nextUrl)
       })()
