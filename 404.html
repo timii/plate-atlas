@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Plate Atlas</title>
+    <script>
+      // redirect unknown GitHub Pages routes back through index.html so the SPA router can restore them
+      ;(() => {
+        const { pathname, search, hash } = window.location
+        const repoBase = '/plate-atlas'
+        const routePath = pathname.startsWith(repoBase) ? pathname.slice(repoBase.length) : pathname
+        const normalizedRoute = routePath.startsWith('/') ? routePath : `/${routePath}`
+        const nextUrl = `${repoBase}/?${normalizedRoute}${search.replace(/&/g, '~and~')}${hash}`
+
+        window.location.replace(nextUrl)
+      })()
+    </script>
+  </head>
+  <body></body>
+</html>

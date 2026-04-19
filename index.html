@@ -5,6 +5,23 @@
     <link rel="icon" type="image/svg+xml" sizes="64x64" href="/plate-atlas/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plate Atlas</title>
+    <script>
+      // restore GitHub Pages deep links after the 404 redirect passes the route in the query string
+      ;(() => {
+        const redirectQuery = window.location.search
+        if (!redirectQuery.startsWith('?/')) {
+          return
+        }
+
+        const restoredPath = redirectQuery
+          .slice(1)
+          .replace(/~and~/g, '&')
+          .replace(/&/g, '%26')
+        const nextUrl = `${window.location.pathname}${restoredPath}${window.location.hash}`
+
+        window.history.replaceState(null, '', nextUrl)
+      })()
+    </script>
     <script type="module" crossorigin src="/plate-atlas/assets/index-BnCEIJtl.js"></script>
     <link rel="stylesheet" crossorigin href="/plate-atlas/assets/index-CpjHhPby.css">
   </head>
