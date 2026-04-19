@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="">Try it out</a>
+  <a href="https://timii.github.io/plate-atlas">Try it out</a>
   &middot;
   <a href="https://github.com/timii/plate-atlas/issues">Report an Issue</a>
   &middot;
