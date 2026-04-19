@@ -1,0 +1,1 @@
+const e="The regional identifier is the last letter of the final two-letter block, which marks the registration region (ABC 123 DE).",o=[{code:"H",name:"Hhohho Region"},{code:"L",name:"Lubombo Region"},{code:"M",name:"Manzini Region"},{code:"S",name:"Shiselweni Region"}],n={format:e,entries:o};export{n as default,o as entries,e as format};

@@ -1,0 +1,1 @@
+const e="The regional identifier is shown in Arabic in the governorate text area (the labeled box/section on the plate), separate from the main serial digits.",t=[{code:"ALP",name:"Aleppo Governorate (حلب)"},{code:"IDL",name:"Idlib Governorate (ادلب)"}],o={format:e,entries:t};export{o as default,t as entries,e as format};

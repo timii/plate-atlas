@@ -1,0 +1,1 @@
+const e="The regional identifier is the leading two-digit governorate code at the beginning of the plate (Format: GG X ####, including Kurdistan-region codes).",a=[{code:"21",name:"Sulaymaniyah (السليمانية)"},{code:"22",name:"Erbil (أربيل)"},{code:"23",name:"Halabja (حلبجة)"},{code:"24",name:"Duhok (دهوك)"}],n={format:e,entries:a};export{n as default,a as entries,e as format};

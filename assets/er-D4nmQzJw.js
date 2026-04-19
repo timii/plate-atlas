@@ -1,0 +1,1 @@
+const e=[{category:"Current standard license plates",images:[{url:"https://commons.wikimedia.org/wiki/Special:FilePath/Eritrea_vehicle_registration_plate.jpg",title:"Current plate example",thumbLocal:"images/detail/er/er-01-01.jpg",fullSizeLocal:"images/detail/er/er-01-01.jpg"}]}];export{e as default};

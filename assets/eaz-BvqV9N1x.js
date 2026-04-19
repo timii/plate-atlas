@@ -1,0 +1,1 @@
+const a=[{category:"Current standard license plates (Zanzibar series)",images:[{url:"https://commons.wikimedia.org/wiki/Special:FilePath/Motorbike_license_plate_of_Zanzibar_(Tanzania).jpg",title:"Current Zanzibar format example (motorcycle)",thumbLocal:"images/detail/eaz/eaz-01-01.jpg",fullSizeLocal:"images/detail/eaz/eaz-01-01.jpg"}]}];export{a as default};

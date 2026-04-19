@@ -1,0 +1,1 @@
+const e=[{category:"Current standard license plate example",images:[{url:"https://upload.wikimedia.org/wikipedia/commons/2/21/Somalia_vehicle_registration_plate.jpg",title:"Current Somalia plate example",thumbLocal:"images/detail/so/so-01-01.jpg",fullSizeLocal:"images/detail/so/so-01-01.jpg"}]}];export{e as default};

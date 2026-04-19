@@ -1,0 +1,1 @@
+const e=[{category:"Current standard license plates",images:[{url:"https://commons.wikimedia.org/wiki/Special:FilePath/ST._VINCENT_and_the_Grenadines_license_plate_Flickr_-_woody1778a.jpg",title:"Standard series example",thumbLocal:"images/detail/wv/wv-01-01.jpg",fullSizeLocal:"images/detail/wv/wv-01-01.jpg"}]}];export{e as default};

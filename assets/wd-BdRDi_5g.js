@@ -1,0 +1,1 @@
+const e=[{category:"Current standard and type-prefixed license plates",images:[{url:"https://commons.wikimedia.org/wiki/Special:FilePath/Dominica_vehicle_registration_plate.jpg",title:"Standard plate example (numeric series)",thumbLocal:"images/detail/wd/wd-01-01.jpg",fullSizeLocal:"images/detail/wd/wd-01-01.jpg"}]}];export{e as default};

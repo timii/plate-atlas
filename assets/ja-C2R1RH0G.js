@@ -1,0 +1,1 @@
+const a=[{category:"Current standard license plates (1987-present)",images:[{url:"https://commons.wikimedia.org/wiki/Special:FilePath/License%20plate%20of%20Jamaica.gif",title:"Current private plate format",thumbLocal:"images/detail/ja/ja-01-01.gif",fullSizeLocal:"images/detail/ja/ja-01-01.gif"}]}];export{a as default};

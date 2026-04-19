@@ -1,0 +1,1 @@
+const e=[{category:"Current standard license plates",images:[{url:"https://commons.wikimedia.org/wiki/Special:FilePath/Kfz-Lesotho.jpg",title:"Standard plate example with mokorotlo validity sticker",thumbLocal:"images/detail/ls/ls-01-01.jpg",fullSizeLocal:"images/detail/ls/ls-01-01.jpg"}]}];export{e as default};
