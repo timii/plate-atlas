@@ -5,6 +5,27 @@
     <link rel="icon" type="image/svg+xml" sizes="64x64" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plate Atlas</title>
+    <script>
+      // restore GitHub Pages deep links after the 404 redirect passes the route in the query string
+      ;(() => {
+        const redirectQuery = window.location.search
+        if (!redirectQuery.startsWith('?/')) {
+          return
+        }
+
+        const restoredPath = redirectQuery
+          .slice(1)
+          .split('&')
+          .map((segment) => segment.replace(/~and~/g, '&'))
+          .join('?')
+        const normalizedBasePath = window.location.pathname.endsWith('/')
+          ? window.location.pathname.slice(0, -1)
+          : window.location.pathname
+        const nextUrl = `${normalizedBasePath}${restoredPath}${window.location.hash}`
+
+        window.history.replaceState(null, '', nextUrl)
+      })()
+    </script>
   </head>
   <body>
     <div id="app"></div>
