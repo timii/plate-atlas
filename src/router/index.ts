@@ -5,6 +5,14 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  scrollBehavior(to, from, savedPosition) {
+    // reset route changes to top so detail pages do not inherit overview scroll position
+    if (savedPosition) {
+      return savedPosition
+    }
+
+    return { top: 0 }
+  },
   routes: [
     {
       path: '/',
