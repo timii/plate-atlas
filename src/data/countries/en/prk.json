@@ -1,0 +1,57 @@
+{
+  "format": "The regional identifier is the leading Hangul city or province prefix at the start of the plate serial (for example 평양-4506 or 함북 33-968).",
+  "entries": [
+    {
+      "code": "평양",
+      "name": "Pyongyang City (평양시)"
+    },
+    {
+      "code": "라선",
+      "name": "Rason City (라선시)"
+    },
+    {
+      "code": "평남",
+      "name": "South Pyongan Province (평안남도)"
+    },
+    {
+      "code": "평북",
+      "name": "North Pyongan Province (평안북도)"
+    },
+    {
+      "code": "자강",
+      "name": "Chagang Province (자강도)"
+    },
+    {
+      "code": "황남",
+      "name": "South Hwanghae Province (황해남도)"
+    },
+    {
+      "code": "황북",
+      "name": "North Hwanghae Province (황해북도)"
+    },
+    {
+      "code": "강원",
+      "name": "Kangwon Province (강원도)"
+    },
+    {
+      "code": "함남",
+      "name": "South Hamgyong Province (함경남도)"
+    },
+    {
+      "code": "함북",
+      "name": "North Hamgyong Province (함경북도)"
+    },
+    {
+      "code": "량강",
+      "name": "Ryanggang Province (량강도)"
+    },
+    {
+      "code": "남포",
+      "name": "Nampo City (남포시)"
+    },
+    {
+      "code": "개성",
+      "name": "Kaesong City (개성시)"
+    }
+  ]
+}

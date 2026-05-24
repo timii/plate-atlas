@@ -1,0 +1,81 @@
+{
+  "format": "The regional identifier is the leading two-letter municipality code at the start of the serial (Format: AT 1234). Current passenger plates also show GUAM U.S.A. at the top and the slogan Tano Y Chamorro at the bottom.",
+  "entries": [
+    {
+      "code": "AN",
+      "name": "Asan-Maina"
+    },
+    {
+      "code": "AT",
+      "name": "Agat (Hagat)"
+    },
+    {
+      "code": "BR",
+      "name": "Barrigada"
+    },
+    {
+      "code": "DE",
+      "name": "Dededo"
+    },
+    {
+      "code": "HG",
+      "name": "Hagatna"
+    },
+    {
+      "code": "IN",
+      "name": "Inarajan (Inalahan)"
+    },
+    {
+      "code": "ME",
+      "name": "Maite"
+    },
+    {
+      "code": "MG",
+      "name": "Mongmong"
+    },
+    {
+      "code": "MN",
+      "name": "Mangilao"
+    },
+    {
+      "code": "MZ",
+      "name": "Merizo (Malesso)"
+    },
+    {
+      "code": "OR",
+      "name": "Ordot / Chalan Pago-Ordot"
+    },
+    {
+      "code": "PT",
+      "name": "Piti"
+    },
+    {
+      "code": "TL",
+      "name": "Talofofo"
+    },
+    {
+      "code": "TM",
+      "name": "Tamuning"
+    },
+    {
+      "code": "TO",
+      "name": "Toto"
+    },
+    {
+      "code": "TU",
+      "name": "Tumon"
+    },
+    {
+      "code": "UM",
+      "name": "Umatac (Humatak)"
+    },
+    {
+      "code": "YG",
+      "name": "Yigo"
+    },
+    {
+      "code": "YN",
+      "name": "Yona"
+    }
+  ]
+}

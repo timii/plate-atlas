@@ -1,0 +1,38 @@
+[
+  {
+    "category": "Current Chuuk State license plates",
+    "images": [
+      {
+        "url": "https://www.plateshack.com/y2k/Micronesia/chuuk2013.jpg",
+        "title": "Chuuk State current license plate example"
+      }
+    ]
+  },
+  {
+    "category": "Current Kosrae State license plates",
+    "images": [
+      {
+        "url": "https://www.plateshack.com/y2k/Micronesia/kosrae2008.jpg",
+        "title": "Kosrae State current license plate example"
+      }
+    ]
+  },
+  {
+    "category": "Current Pohnpei State license plates",
+    "images": [
+      {
+        "url": "https://www.plateshack.com/y2k/Micronesia/pohnpei2016.jpg",
+        "title": "Pohnpei State current license plate example"
+      }
+    ]
+  },
+  {
+    "category": "Current Yap State license plates",
+    "images": [
+      {
+        "url": "https://www.plateshack.com/y2k/Micronesia/yap2204.jpg",
+        "title": "Yap State current license plate example"
+      }
+    ]
+  }
+]

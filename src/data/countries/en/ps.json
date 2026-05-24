@@ -1,0 +1,77 @@
+{
+  "format": "The regional identifier is the final letter in the current West Bank plate format (#-####-X). The plates also unofficially use P as the country code (on the strip in the right side). The letters P-T were assigned to Gaza governorates in the same scheme, but Gaza has used a different local plate format since 2012, so those letters are listed here as reserved Gaza designations, not as active current Gaza letter plates.",
+  "entries": [
+    {
+      "code": "A",
+      "name": "Jenin (جنين)"
+    },
+    {
+      "code": "B",
+      "name": "Tulkarm (طولكرم)"
+    },
+    {
+      "code": "C",
+      "name": "Tubas (طوباس)"
+    },
+    {
+      "code": "D",
+      "name": "Nablus (نابلس)"
+    },
+    {
+      "code": "E",
+      "name": "Qalqilya (قلقيلية)"
+    },
+    {
+      "code": "F",
+      "name": "Salfit (سلفيت)"
+    },
+    {
+      "code": "G",
+      "name": "Jericho (أريحا)"
+    },
+    {
+      "code": "H",
+      "name": "Ramallah (رام الله)"
+    },
+    {
+      "code": "J",
+      "name": "Jerusalem (القدس)"
+    },
+    {
+      "code": "K",
+      "name": "Bethlehem (بيت لحم)"
+    },
+    {
+      "code": "L",
+      "name": "Hebron (الخليل)"
+    },
+    {
+      "code": "M",
+      "name": "Dura (دورا)"
+    },
+    {
+      "code": "N",
+      "name": "Yatta (يطا)"
+    },
+    {
+      "code": "P",
+      "name": "North Gaza / Jabalia (شمال غزة / جباليا)"
+    },
+    {
+      "code": "Q",
+      "name": "Gaza (غزة)"
+    },
+    {
+      "code": "R",
+      "name": "Deir al-Balah (دير البلح)"
+    },
+    {
+      "code": "S",
+      "name": "Khan Yunis (خان يونس)"
+    },
+    {
+      "code": "T",
+      "name": "Rafah (رفح)"
+    }
+  ]
+}

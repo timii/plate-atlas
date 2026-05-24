@@ -1,0 +1,39 @@
+[
+  {
+    "category": "Current vehicle type prefixes",
+    "format": "Current plates use white characters on black. Current observed vehicle type prefixes include PA and PB for private and commercial vehicles, P in earlier series, T and TA for taxi, R and RA for rental, and G for government.",
+    "images": [
+      {
+        "url": "https://www.plateshack.com/y2k/St_Kitts/stkittsgroup.jpg",
+        "title": "Current vehicle type prefix example"
+      }
+    ]
+  },
+  {
+    "category": "Current passenger license plates",
+    "images": [
+      {
+        "url": "https://www.plateshack.com/y2k/St_Kitts/stkittspass.jpeg",
+        "title": "Current passenger plate format example"
+      }
+    ]
+  },
+  {
+    "category": "Current taxi license plates",
+    "images": [
+      {
+        "url": "https://www.plateshack.com/y2k/St_Kitts/stkittstaxi.jpeg",
+        "title": "Current taxi plate format example"
+      }
+    ]
+  },
+  {
+    "category": "Current rental license plates",
+    "images": [
+      {
+        "url": "https://www.plateshack.com/y2k/St_Kitts/stkittsrental.jpeg",
+        "title": "Current rental plate format example"
+      }
+    ]
+  }
+]

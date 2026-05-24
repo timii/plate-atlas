@@ -1,0 +1,1653 @@
+{
+  "format": "The regional identifier is the first two characters at the start of a normal mainland civilian plate: a provincial Chinese abbreviation plus a Latin letter (Example: 粤B·12345 - the identifier is 粤B).",
+  "entries": [
+    {
+      "code": "京A",
+      "name": "Beijing urban area (北京市城区)"
+    },
+    {
+      "code": "京C",
+      "name": "Beijing urban area (北京市城区)"
+    },
+    {
+      "code": "京E",
+      "name": "Beijing urban area (北京市城区)"
+    },
+    {
+      "code": "京F",
+      "name": "Beijing urban area (北京市城区)"
+    },
+    {
+      "code": "京G",
+      "name": "Beijing urban area / suburbs (北京市城区 / 郊区)"
+    },
+    {
+      "code": "京H",
+      "name": "Beijing urban area (北京市城区)"
+    },
+    {
+      "code": "京J",
+      "name": "Beijing urban area (北京市城区)"
+    },
+    {
+      "code": "京K",
+      "name": "Beijing urban area (北京市城区)"
+    },
+    {
+      "code": "京L",
+      "name": "Beijing urban area (北京市城区)"
+    },
+    {
+      "code": "京M",
+      "name": "Beijing urban area (北京市城区)"
+    },
+    {
+      "code": "京N",
+      "name": "Beijing urban area / suburbs (北京市城区 / 郊区)"
+    },
+    {
+      "code": "京P",
+      "name": "Beijing urban area / suburbs (北京市城区 / 郊区)"
+    },
+    {
+      "code": "京Q",
+      "name": "Beijing urban area (北京市城区)"
+    },
+    {
+      "code": "京Y",
+      "name": "Beijing urban area / suburbs (北京市城区 / 郊区)"
+    },
+    {
+      "code": "渝A",
+      "name": "Chongqing (citywide since 2017) (重庆)"
+    },
+    {
+      "code": "渝B",
+      "name": "Chongqing (citywide since 2017) (重庆)"
+    },
+    {
+      "code": "渝C",
+      "name": "Chongqing (citywide since 2017) (重庆)"
+    },
+    {
+      "code": "渝D",
+      "name": "Chongqing (citywide since 2017) (重庆)"
+    },
+    {
+      "code": "渝F",
+      "name": "Chongqing (citywide since 2017) (重庆)"
+    },
+    {
+      "code": "渝G",
+      "name": "Chongqing (citywide since 2017) (重庆)"
+    },
+    {
+      "code": "渝H",
+      "name": "Chongqing (citywide since 2017) (重庆)"
+    },
+    {
+      "code": "沪A",
+      "name": "Shanghai urban area / suburbs (上海市区 / 郊区)"
+    },
+    {
+      "code": "沪B",
+      "name": "Shanghai urban area / suburbs (上海市区 / 郊区)"
+    },
+    {
+      "code": "沪C",
+      "name": "Shanghai outer suburbs (上海外环外郊区)"
+    },
+    {
+      "code": "沪D",
+      "name": "Shanghai urban area / suburbs (上海市区 / 郊区)"
+    },
+    {
+      "code": "沪E",
+      "name": "Shanghai urban area / suburbs (上海市区 / 郊区)"
+    },
+    {
+      "code": "沪F",
+      "name": "Shanghai urban area / suburbs (上海市区 / 郊区)"
+    },
+    {
+      "code": "沪G",
+      "name": "Shanghai urban area / suburbs (上海市区 / 郊区)"
+    },
+    {
+      "code": "沪H",
+      "name": "Shanghai urban area / suburbs (上海市区 / 郊区)"
+    },
+    {
+      "code": "沪J",
+      "name": "Shanghai urban area / suburbs (上海市区 / 郊区)"
+    },
+    {
+      "code": "沪K",
+      "name": "Shanghai urban area / suburbs (上海市区 / 郊区)"
+    },
+    {
+      "code": "沪L",
+      "name": "Shanghai urban area / suburbs (上海市区 / 郊区)"
+    },
+    {
+      "code": "沪M",
+      "name": "Shanghai urban area / suburbs (上海市区 / 郊区)"
+    },
+    {
+      "code": "沪N",
+      "name": "Shanghai urban area / suburbs (上海市区 / 郊区)"
+    },
+    {
+      "code": "沪R",
+      "name": "Chongming / Changxing / Hengsha (崇明 / 长兴 / 横沙)"
+    },
+    {
+      "code": "津A",
+      "name": "Tianjin (天津)"
+    },
+    {
+      "code": "津B",
+      "name": "Tianjin (天津)"
+    },
+    {
+      "code": "津C",
+      "name": "Tianjin (天津)"
+    },
+    {
+      "code": "津F",
+      "name": "Tianjin (天津)"
+    },
+    {
+      "code": "津G",
+      "name": "Tianjin (天津)"
+    },
+    {
+      "code": "津H",
+      "name": "Tianjin (天津)"
+    },
+    {
+      "code": "津I",
+      "name": "Tianjin (天津)"
+    },
+    {
+      "code": "津J",
+      "name": "Tianjin (天津)"
+    },
+    {
+      "code": "津K",
+      "name": "Tianjin (天津)"
+    },
+    {
+      "code": "津L",
+      "name": "Tianjin (天津)"
+    },
+    {
+      "code": "津M",
+      "name": "Tianjin (天津)"
+    },
+    {
+      "code": "津N",
+      "name": "Tianjin (天津)"
+    },
+    {
+      "code": "津P",
+      "name": "Tianjin (天津)"
+    },
+    {
+      "code": "津Q",
+      "name": "Tianjin (天津)"
+    },
+    {
+      "code": "津R",
+      "name": "Tianjin (天津)"
+    },
+    {
+      "code": "皖A",
+      "name": "Hefei (合肥)"
+    },
+    {
+      "code": "皖B",
+      "name": "Wuhu (芜湖)"
+    },
+    {
+      "code": "皖C",
+      "name": "Bengbu (蚌埠)"
+    },
+    {
+      "code": "皖D",
+      "name": "Huainan (淮南)"
+    },
+    {
+      "code": "皖E",
+      "name": "Ma'anshan (马鞍山)"
+    },
+    {
+      "code": "皖F",
+      "name": "Huaibei (淮北)"
+    },
+    {
+      "code": "皖G",
+      "name": "Tongling (铜陵)"
+    },
+    {
+      "code": "皖H",
+      "name": "Anqing (安庆)"
+    },
+    {
+      "code": "皖J",
+      "name": "Huangshan (黄山)"
+    },
+    {
+      "code": "皖K",
+      "name": "Fuyang (阜阳)"
+    },
+    {
+      "code": "皖L",
+      "name": "Suzhou (宿州)"
+    },
+    {
+      "code": "皖M",
+      "name": "Chuzhou (滁州)"
+    },
+    {
+      "code": "皖N",
+      "name": "Lu'an (六安)"
+    },
+    {
+      "code": "皖P",
+      "name": "Xuancheng (宣城)"
+    },
+    {
+      "code": "皖R",
+      "name": "Chizhou (池州)"
+    },
+    {
+      "code": "皖S",
+      "name": "Bozhou (亳州)"
+    },
+    {
+      "code": "闽A",
+      "name": "Fuzhou (福州)"
+    },
+    {
+      "code": "闽B",
+      "name": "Putian (莆田)"
+    },
+    {
+      "code": "闽C",
+      "name": "Quanzhou (泉州)"
+    },
+    {
+      "code": "闽D",
+      "name": "Xiamen (厦门)"
+    },
+    {
+      "code": "闽E",
+      "name": "Zhangzhou (漳州)"
+    },
+    {
+      "code": "闽F",
+      "name": "Longyan (龙岩)"
+    },
+    {
+      "code": "闽G",
+      "name": "Sanming (三明)"
+    },
+    {
+      "code": "闽H",
+      "name": "Nanping (南平)"
+    },
+    {
+      "code": "闽J",
+      "name": "Ningde (宁德)"
+    },
+    {
+      "code": "闽K",
+      "name": "Pingtan / provincial-level agencies (平潭 / 省级机关)"
+    },
+    {
+      "code": "甘A",
+      "name": "Lanzhou (兰州)"
+    },
+    {
+      "code": "甘B",
+      "name": "Jiayuguan (嘉峪关)"
+    },
+    {
+      "code": "甘C",
+      "name": "Jinchang (金昌)"
+    },
+    {
+      "code": "甘D",
+      "name": "Baiyin (白银)"
+    },
+    {
+      "code": "甘E",
+      "name": "Tianshui (天水)"
+    },
+    {
+      "code": "甘F",
+      "name": "Jiuquan (酒泉)"
+    },
+    {
+      "code": "甘G",
+      "name": "Zhangye (张掖)"
+    },
+    {
+      "code": "甘H",
+      "name": "Wuwei (武威)"
+    },
+    {
+      "code": "甘J",
+      "name": "Dingxi (定西)"
+    },
+    {
+      "code": "甘K",
+      "name": "Longnan (陇南)"
+    },
+    {
+      "code": "甘L",
+      "name": "Pingliang (平凉)"
+    },
+    {
+      "code": "甘M",
+      "name": "Qingyang (庆阳)"
+    },
+    {
+      "code": "甘N",
+      "name": "Linxia (临夏)"
+    },
+    {
+      "code": "甘P",
+      "name": "Gannan (甘南)"
+    },
+    {
+      "code": "粤A",
+      "name": "Guangzhou (广州)"
+    },
+    {
+      "code": "粤B",
+      "name": "Shenzhen (深圳)"
+    },
+    {
+      "code": "粤C",
+      "name": "Zhuhai (珠海)"
+    },
+    {
+      "code": "粤D",
+      "name": "Shantou (汕头)"
+    },
+    {
+      "code": "粤E",
+      "name": "Foshan (佛山)"
+    },
+    {
+      "code": "粤F",
+      "name": "Shaoguan (韶关)"
+    },
+    {
+      "code": "粤G",
+      "name": "Zhanjiang (湛江)"
+    },
+    {
+      "code": "粤H",
+      "name": "Zhaoqing (肇庆)"
+    },
+    {
+      "code": "粤J",
+      "name": "Jiangmen (江门)"
+    },
+    {
+      "code": "粤K",
+      "name": "Maoming (茂名)"
+    },
+    {
+      "code": "粤L",
+      "name": "Huizhou (惠州)"
+    },
+    {
+      "code": "粤M",
+      "name": "Meizhou (梅州)"
+    },
+    {
+      "code": "粤N",
+      "name": "Shanwei (汕尾)"
+    },
+    {
+      "code": "粤P",
+      "name": "Heyuan (河源)"
+    },
+    {
+      "code": "粤Q",
+      "name": "Yangjiang (阳江)"
+    },
+    {
+      "code": "粤R",
+      "name": "Qingyuan (清远)"
+    },
+    {
+      "code": "粤S",
+      "name": "Dongguan (东莞)"
+    },
+    {
+      "code": "粤T",
+      "name": "Zhongshan (中山)"
+    },
+    {
+      "code": "粤U",
+      "name": "Chaozhou (潮州)"
+    },
+    {
+      "code": "粤V",
+      "name": "Jieyang (揭阳)"
+    },
+    {
+      "code": "粤W",
+      "name": "Yunfu (云浮)"
+    },
+    {
+      "code": "贵A",
+      "name": "Guiyang (贵阳)"
+    },
+    {
+      "code": "贵B",
+      "name": "Liupanshui (六盘水)"
+    },
+    {
+      "code": "贵C",
+      "name": "Zunyi (遵义)"
+    },
+    {
+      "code": "贵D",
+      "name": "Tongren (铜仁)"
+    },
+    {
+      "code": "贵E",
+      "name": "Qianxinan (黔西南)"
+    },
+    {
+      "code": "贵F",
+      "name": "Bijie (毕节)"
+    },
+    {
+      "code": "贵G",
+      "name": "Anshun (安顺)"
+    },
+    {
+      "code": "贵H",
+      "name": "Qiandongnan (黔东南)"
+    },
+    {
+      "code": "贵J",
+      "name": "Qiannan (黔南)"
+    },
+    {
+      "code": "琼A",
+      "name": "Haikou (海口)"
+    },
+    {
+      "code": "琼B",
+      "name": "Sanya (三亚)"
+    },
+    {
+      "code": "琼C",
+      "name": "Qionghai / Wenchang / Wanning / Ding'an / Tunchang / Chengmai / Lingao (琼海 / 文昌 / 万宁 / 定安 / 屯昌 / 澄迈 / 临高)"
+    },
+    {
+      "code": "琼D",
+      "name": "Wuzhishan / Dongfang / Baisha / Changjiang / Ledong / Lingshui / Baoting / Qiongzhong (五指山 / 东方 / 白沙 / 昌江 / 乐东 / 陵水 / 保亭 / 琼中)"
+    },
+    {
+      "code": "琼E",
+      "name": "Yangpu Economic Development Zone (洋浦经济开发区)"
+    },
+    {
+      "code": "琼F",
+      "name": "Danzhou (儋州)"
+    },
+    {
+      "code": "冀A",
+      "name": "Shijiazhuang (石家庄)"
+    },
+    {
+      "code": "冀B",
+      "name": "Tangshan (唐山)"
+    },
+    {
+      "code": "冀C",
+      "name": "Qinhuangdao (秦皇岛)"
+    },
+    {
+      "code": "冀D",
+      "name": "Handan (邯郸)"
+    },
+    {
+      "code": "冀E",
+      "name": "Xingtai (邢台)"
+    },
+    {
+      "code": "冀F",
+      "name": "Baoding (保定)"
+    },
+    {
+      "code": "冀G",
+      "name": "Zhangjiakou (张家口)"
+    },
+    {
+      "code": "冀H",
+      "name": "Chengde (承德)"
+    },
+    {
+      "code": "冀J",
+      "name": "Cangzhou (沧州)"
+    },
+    {
+      "code": "冀R",
+      "name": "Langfang (廊坊)"
+    },
+    {
+      "code": "冀T",
+      "name": "Hengshui (衡水)"
+    },
+    {
+      "code": "冀X",
+      "name": "Xiong'an (雄安)"
+    },
+    {
+      "code": "黑A",
+      "name": "Harbin (哈尔滨)"
+    },
+    {
+      "code": "黑L",
+      "name": "Harbin extra (哈尔滨增补号段)"
+    },
+    {
+      "code": "黑B",
+      "name": "Qiqihar (齐齐哈尔)"
+    },
+    {
+      "code": "黑C",
+      "name": "Mudanjiang (牡丹江)"
+    },
+    {
+      "code": "黑D",
+      "name": "Jiamusi (佳木斯)"
+    },
+    {
+      "code": "黑E",
+      "name": "Daqing (大庆)"
+    },
+    {
+      "code": "黑F",
+      "name": "Yichun (伊春)"
+    },
+    {
+      "code": "黑G",
+      "name": "Jixi (鸡西)"
+    },
+    {
+      "code": "黑H",
+      "name": "Hegang (鹤岗)"
+    },
+    {
+      "code": "黑J",
+      "name": "Shuangyashan (双鸭山)"
+    },
+    {
+      "code": "黑K",
+      "name": "Qitaihe (七台河)"
+    },
+    {
+      "code": "黑M",
+      "name": "Suihua (绥化)"
+    },
+    {
+      "code": "黑N",
+      "name": "Heihe (黑河)"
+    },
+    {
+      "code": "黑P",
+      "name": "Daxing'anling (大兴安岭)"
+    },
+    {
+      "code": "黑R",
+      "name": "Nongken system (农垦系统)"
+    },
+    {
+      "code": "豫A",
+      "name": "Zhengzhou (郑州)"
+    },
+    {
+      "code": "豫V",
+      "name": "Zhengzhou extra (郑州增补号段)"
+    },
+    {
+      "code": "豫B",
+      "name": "Kaifeng (开封)"
+    },
+    {
+      "code": "豫C",
+      "name": "Luoyang (洛阳)"
+    },
+    {
+      "code": "豫D",
+      "name": "Pingdingshan (平顶山)"
+    },
+    {
+      "code": "豫E",
+      "name": "Anyang (安阳)"
+    },
+    {
+      "code": "豫F",
+      "name": "Hebi (鹤壁)"
+    },
+    {
+      "code": "豫G",
+      "name": "Xinxiang (新乡)"
+    },
+    {
+      "code": "豫H",
+      "name": "Jiaozuo (焦作)"
+    },
+    {
+      "code": "豫J",
+      "name": "Puyang (濮阳)"
+    },
+    {
+      "code": "豫K",
+      "name": "Xuchang (许昌)"
+    },
+    {
+      "code": "豫L",
+      "name": "Luohe (漯河)"
+    },
+    {
+      "code": "豫M",
+      "name": "Sanmenxia (三门峡)"
+    },
+    {
+      "code": "豫N",
+      "name": "Shangqiu (商丘)"
+    },
+    {
+      "code": "豫P",
+      "name": "Zhoukou (周口)"
+    },
+    {
+      "code": "豫Q",
+      "name": "Zhumadian (驻马店)"
+    },
+    {
+      "code": "豫R",
+      "name": "Nanyang (南阳)"
+    },
+    {
+      "code": "豫S",
+      "name": "Xinyang (信阳)"
+    },
+    {
+      "code": "豫U",
+      "name": "Jiyuan (济源)"
+    },
+    {
+      "code": "鄂A",
+      "name": "Wuhan (武汉)"
+    },
+    {
+      "code": "鄂W",
+      "name": "Wuhan extra (武汉增补号段)"
+    },
+    {
+      "code": "鄂B",
+      "name": "Huangshi (黄石)"
+    },
+    {
+      "code": "鄂C",
+      "name": "Shiyan (十堰)"
+    },
+    {
+      "code": "鄂D",
+      "name": "Jingzhou (荆州)"
+    },
+    {
+      "code": "鄂E",
+      "name": "Yichang (宜昌)"
+    },
+    {
+      "code": "鄂F",
+      "name": "Xiangyang (襄阳)"
+    },
+    {
+      "code": "鄂G",
+      "name": "Ezhou (鄂州)"
+    },
+    {
+      "code": "鄂H",
+      "name": "Jingmen (荆门)"
+    },
+    {
+      "code": "鄂J",
+      "name": "Huanggang (黄冈)"
+    },
+    {
+      "code": "鄂K",
+      "name": "Xiaogan (孝感)"
+    },
+    {
+      "code": "鄂L",
+      "name": "Xianning (咸宁)"
+    },
+    {
+      "code": "鄂M",
+      "name": "Xiantao (仙桃)"
+    },
+    {
+      "code": "鄂N",
+      "name": "Qianjiang (潜江)"
+    },
+    {
+      "code": "鄂P",
+      "name": "Shennongjia (神农架)"
+    },
+    {
+      "code": "鄂Q",
+      "name": "Enshi (恩施)"
+    },
+    {
+      "code": "鄂R",
+      "name": "Tianmen (天门)"
+    },
+    {
+      "code": "鄂S",
+      "name": "Suizhou (随州)"
+    },
+    {
+      "code": "湘A",
+      "name": "Changsha (长沙)"
+    },
+    {
+      "code": "湘B",
+      "name": "Zhuzhou (株洲)"
+    },
+    {
+      "code": "湘C",
+      "name": "Xiangtan (湘潭)"
+    },
+    {
+      "code": "湘D",
+      "name": "Hengyang (衡阳)"
+    },
+    {
+      "code": "湘E",
+      "name": "Shaoyang (邵阳)"
+    },
+    {
+      "code": "湘F",
+      "name": "Yueyang (岳阳)"
+    },
+    {
+      "code": "湘G",
+      "name": "Zhangjiajie (张家界)"
+    },
+    {
+      "code": "湘H",
+      "name": "Yiyang (益阳)"
+    },
+    {
+      "code": "湘J",
+      "name": "Changde (常德)"
+    },
+    {
+      "code": "湘K",
+      "name": "Loudi (娄底)"
+    },
+    {
+      "code": "湘L",
+      "name": "Chenzhou (郴州)"
+    },
+    {
+      "code": "湘M",
+      "name": "Yongzhou (永州)"
+    },
+    {
+      "code": "湘N",
+      "name": "Huaihua (怀化)"
+    },
+    {
+      "code": "湘U",
+      "name": "Xiangxi (湘西)"
+    },
+    {
+      "code": "苏A",
+      "name": "Nanjing (南京)"
+    },
+    {
+      "code": "苏B",
+      "name": "Wuxi (无锡)"
+    },
+    {
+      "code": "苏C",
+      "name": "Xuzhou (徐州)"
+    },
+    {
+      "code": "苏D",
+      "name": "Changzhou (常州)"
+    },
+    {
+      "code": "苏E",
+      "name": "Suzhou (苏州)"
+    },
+    {
+      "code": "苏U",
+      "name": "Suzhou extra (苏州增补号段)"
+    },
+    {
+      "code": "苏F",
+      "name": "Nantong (南通)"
+    },
+    {
+      "code": "苏G",
+      "name": "Lianyungang (连云港)"
+    },
+    {
+      "code": "苏H",
+      "name": "Huai'an (淮安)"
+    },
+    {
+      "code": "苏J",
+      "name": "Yancheng (盐城)"
+    },
+    {
+      "code": "苏K",
+      "name": "Yangzhou (扬州)"
+    },
+    {
+      "code": "苏L",
+      "name": "Zhenjiang (镇江)"
+    },
+    {
+      "code": "苏M",
+      "name": "Taizhou (泰州)"
+    },
+    {
+      "code": "苏N",
+      "name": "Suqian (宿迁)"
+    },
+    {
+      "code": "赣A",
+      "name": "Nanchang (南昌)"
+    },
+    {
+      "code": "赣B",
+      "name": "Ganzhou (赣州)"
+    },
+    {
+      "code": "赣C",
+      "name": "Yichun (宜春)"
+    },
+    {
+      "code": "赣D",
+      "name": "Ji'an (吉安)"
+    },
+    {
+      "code": "赣E",
+      "name": "Shangrao (上饶)"
+    },
+    {
+      "code": "赣F",
+      "name": "Fuzhou (抚州)"
+    },
+    {
+      "code": "赣G",
+      "name": "Jiujiang (九江)"
+    },
+    {
+      "code": "赣H",
+      "name": "Jingdezhen (景德镇)"
+    },
+    {
+      "code": "赣J",
+      "name": "Pingxiang (萍乡)"
+    },
+    {
+      "code": "赣K",
+      "name": "Xinyu (新余)"
+    },
+    {
+      "code": "赣L",
+      "name": "Yingtan (鹰潭)"
+    },
+    {
+      "code": "赣M",
+      "name": "Nanchang extra (南昌增补号段)"
+    },
+    {
+      "code": "吉A",
+      "name": "Changchun (长春)"
+    },
+    {
+      "code": "吉B",
+      "name": "Jilin City (吉林)"
+    },
+    {
+      "code": "吉C",
+      "name": "Siping (四平)"
+    },
+    {
+      "code": "吉D",
+      "name": "Liaoyuan (辽源)"
+    },
+    {
+      "code": "吉E",
+      "name": "Tonghua (通化)"
+    },
+    {
+      "code": "吉F",
+      "name": "Baishan (白山)"
+    },
+    {
+      "code": "吉G",
+      "name": "Baicheng (白城)"
+    },
+    {
+      "code": "吉H",
+      "name": "Yanbian (延边)"
+    },
+    {
+      "code": "吉J",
+      "name": "Songyuan (松原)"
+    },
+    {
+      "code": "吉K",
+      "name": "Changbai Mountain Protection Development Zone (长白山保护开发区)"
+    },
+    {
+      "code": "辽A",
+      "name": "Shenyang (沈阳)"
+    },
+    {
+      "code": "辽B",
+      "name": "Dalian (大连)"
+    },
+    {
+      "code": "辽C",
+      "name": "Anshan (鞍山)"
+    },
+    {
+      "code": "辽D",
+      "name": "Fushun (抚顺)"
+    },
+    {
+      "code": "辽E",
+      "name": "Benxi (本溪)"
+    },
+    {
+      "code": "辽F",
+      "name": "Dandong (丹东)"
+    },
+    {
+      "code": "辽G",
+      "name": "Jinzhou (锦州)"
+    },
+    {
+      "code": "辽H",
+      "name": "Yingkou (营口)"
+    },
+    {
+      "code": "辽J",
+      "name": "Fuxin (阜新)"
+    },
+    {
+      "code": "辽K",
+      "name": "Liaoyang (辽阳)"
+    },
+    {
+      "code": "辽L",
+      "name": "Panjin (盘锦)"
+    },
+    {
+      "code": "辽M",
+      "name": "Tieling (铁岭)"
+    },
+    {
+      "code": "辽N",
+      "name": "Chaoyang (朝阳)"
+    },
+    {
+      "code": "辽P",
+      "name": "Huludao (葫芦岛)"
+    },
+    {
+      "code": "青A",
+      "name": "Xining (西宁)"
+    },
+    {
+      "code": "青B",
+      "name": "Haidong (海东)"
+    },
+    {
+      "code": "青C",
+      "name": "Haibei (海北)"
+    },
+    {
+      "code": "青D",
+      "name": "Huangnan (黄南)"
+    },
+    {
+      "code": "青E",
+      "name": "Hainan Tibetan Prefecture (海南州)"
+    },
+    {
+      "code": "青F",
+      "name": "Golog (果洛)"
+    },
+    {
+      "code": "青G",
+      "name": "Yushu (玉树)"
+    },
+    {
+      "code": "青H",
+      "name": "Haixi (海西)"
+    },
+    {
+      "code": "陕A",
+      "name": "Xi'an (西安)"
+    },
+    {
+      "code": "陕B",
+      "name": "Tongchuan (铜川)"
+    },
+    {
+      "code": "陕C",
+      "name": "Baoji (宝鸡)"
+    },
+    {
+      "code": "陕D",
+      "name": "Xianyang (咸阳)"
+    },
+    {
+      "code": "陕E",
+      "name": "Weinan (渭南)"
+    },
+    {
+      "code": "陕F",
+      "name": "Hanzhong (汉中)"
+    },
+    {
+      "code": "陕G",
+      "name": "Ankang (安康)"
+    },
+    {
+      "code": "陕H",
+      "name": "Shangluo (商洛)"
+    },
+    {
+      "code": "陕J",
+      "name": "Yan'an (延安)"
+    },
+    {
+      "code": "陕K",
+      "name": "Yulin (榆林)"
+    },
+    {
+      "code": "陕U",
+      "name": "Xi'an extra (西安增补号段)"
+    },
+    {
+      "code": "陕V",
+      "name": "Yangling (杨凌)"
+    },
+    {
+      "code": "鲁A",
+      "name": "Jinan (济南)"
+    },
+    {
+      "code": "鲁S",
+      "name": "Jinan extra (济南增补号段)"
+    },
+    {
+      "code": "鲁B",
+      "name": "Qingdao (青岛)"
+    },
+    {
+      "code": "鲁U",
+      "name": "Qingdao extra (青岛增补号段)"
+    },
+    {
+      "code": "鲁C",
+      "name": "Zibo (淄博)"
+    },
+    {
+      "code": "鲁D",
+      "name": "Zaozhuang (枣庄)"
+    },
+    {
+      "code": "鲁E",
+      "name": "Dongying (东营)"
+    },
+    {
+      "code": "鲁F",
+      "name": "Yantai (烟台)"
+    },
+    {
+      "code": "鲁Y",
+      "name": "Yantai extra (烟台增补号段)"
+    },
+    {
+      "code": "鲁G",
+      "name": "Weifang (潍坊)"
+    },
+    {
+      "code": "鲁V",
+      "name": "Weifang extra (潍坊增补号段)"
+    },
+    {
+      "code": "鲁H",
+      "name": "Jining (济宁)"
+    },
+    {
+      "code": "鲁J",
+      "name": "Tai'an (泰安)"
+    },
+    {
+      "code": "鲁K",
+      "name": "Weihai (威海)"
+    },
+    {
+      "code": "鲁L",
+      "name": "Rizhao (日照)"
+    },
+    {
+      "code": "鲁M",
+      "name": "Binzhou (滨州)"
+    },
+    {
+      "code": "鲁N",
+      "name": "Dezhou (德州)"
+    },
+    {
+      "code": "鲁P",
+      "name": "Liaocheng (聊城)"
+    },
+    {
+      "code": "鲁Q",
+      "name": "Linyi (临沂)"
+    },
+    {
+      "code": "鲁W",
+      "name": "Linyi extra (临沂增补号段)"
+    },
+    {
+      "code": "鲁R",
+      "name": "Heze (菏泽)"
+    },
+    {
+      "code": "晋A",
+      "name": "Taiyuan (太原)"
+    },
+    {
+      "code": "晋B",
+      "name": "Datong (大同)"
+    },
+    {
+      "code": "晋C",
+      "name": "Yangquan (阳泉)"
+    },
+    {
+      "code": "晋D",
+      "name": "Changzhi (长治)"
+    },
+    {
+      "code": "晋E",
+      "name": "Jincheng (晋城)"
+    },
+    {
+      "code": "晋F",
+      "name": "Shuozhou (朔州)"
+    },
+    {
+      "code": "晋H",
+      "name": "Xinzhou (忻州)"
+    },
+    {
+      "code": "晋J",
+      "name": "Luliang (吕梁)"
+    },
+    {
+      "code": "晋K",
+      "name": "Jinzhong (晋中)"
+    },
+    {
+      "code": "晋L",
+      "name": "Linfen (临汾)"
+    },
+    {
+      "code": "晋M",
+      "name": "Yuncheng (运城)"
+    },
+    {
+      "code": "川A",
+      "name": "Chengdu (成都)"
+    },
+    {
+      "code": "川B",
+      "name": "Mianyang (绵阳)"
+    },
+    {
+      "code": "川C",
+      "name": "Zigong (自贡)"
+    },
+    {
+      "code": "川D",
+      "name": "Panzhihua (攀枝花)"
+    },
+    {
+      "code": "川E",
+      "name": "Luzhou (泸州)"
+    },
+    {
+      "code": "川F",
+      "name": "Deyang (德阳)"
+    },
+    {
+      "code": "川G",
+      "name": "Chengdu extra (成都增补号段)"
+    },
+    {
+      "code": "川H",
+      "name": "Guangyuan (广元)"
+    },
+    {
+      "code": "川J",
+      "name": "Suining (遂宁)"
+    },
+    {
+      "code": "川K",
+      "name": "Neijiang (内江)"
+    },
+    {
+      "code": "川L",
+      "name": "Leshan (乐山)"
+    },
+    {
+      "code": "川M",
+      "name": "Ziyang (资阳)"
+    },
+    {
+      "code": "川Q",
+      "name": "Yibin (宜宾)"
+    },
+    {
+      "code": "川R",
+      "name": "Nanchong (南充)"
+    },
+    {
+      "code": "川S",
+      "name": "Dazhou (达州)"
+    },
+    {
+      "code": "川T",
+      "name": "Ya'an (雅安)"
+    },
+    {
+      "code": "川U",
+      "name": "Ngawa (阿坝)"
+    },
+    {
+      "code": "川V",
+      "name": "Garze (甘孜)"
+    },
+    {
+      "code": "川W",
+      "name": "Liangshan (凉山)"
+    },
+    {
+      "code": "川X",
+      "name": "Guang'an (广安)"
+    },
+    {
+      "code": "川Y",
+      "name": "Bazhong (巴中)"
+    },
+    {
+      "code": "川Z",
+      "name": "Meishan (眉山)"
+    },
+    {
+      "code": "云A",
+      "name": "Kunming (昆明)"
+    },
+    {
+      "code": "云C",
+      "name": "Zhaotong (昭通)"
+    },
+    {
+      "code": "云D",
+      "name": "Qujing (曲靖)"
+    },
+    {
+      "code": "云E",
+      "name": "Chuxiong (楚雄)"
+    },
+    {
+      "code": "云F",
+      "name": "Yuxi (玉溪)"
+    },
+    {
+      "code": "云G",
+      "name": "Honghe (红河)"
+    },
+    {
+      "code": "云H",
+      "name": "Wenshan (文山)"
+    },
+    {
+      "code": "云J",
+      "name": "Pu'er (普洱)"
+    },
+    {
+      "code": "云K",
+      "name": "Xishuangbanna (西双版纳)"
+    },
+    {
+      "code": "云L",
+      "name": "Dali (大理)"
+    },
+    {
+      "code": "云M",
+      "name": "Baoshan (保山)"
+    },
+    {
+      "code": "云N",
+      "name": "Dehong (德宏)"
+    },
+    {
+      "code": "云P",
+      "name": "Lijiang (丽江)"
+    },
+    {
+      "code": "云Q",
+      "name": "Nujiang (怒江)"
+    },
+    {
+      "code": "云R",
+      "name": "Deqen (迪庆)"
+    },
+    {
+      "code": "云S",
+      "name": "Lincang (临沧)"
+    },
+    {
+      "code": "浙A",
+      "name": "Hangzhou (杭州)"
+    },
+    {
+      "code": "浙M",
+      "name": "Hangzhou extra (杭州增补号段)"
+    },
+    {
+      "code": "浙B",
+      "name": "Ningbo (宁波)"
+    },
+    {
+      "code": "浙C",
+      "name": "Wenzhou (温州)"
+    },
+    {
+      "code": "浙D",
+      "name": "Shaoxing (绍兴)"
+    },
+    {
+      "code": "浙E",
+      "name": "Huzhou (湖州)"
+    },
+    {
+      "code": "浙F",
+      "name": "Jiaxing (嘉兴)"
+    },
+    {
+      "code": "浙G",
+      "name": "Jinhua (金华)"
+    },
+    {
+      "code": "浙H",
+      "name": "Quzhou (衢州)"
+    },
+    {
+      "code": "浙J",
+      "name": "Taizhou (台州)"
+    },
+    {
+      "code": "浙K",
+      "name": "Lishui (丽水)"
+    },
+    {
+      "code": "浙L",
+      "name": "Zhoushan (舟山)"
+    },
+    {
+      "code": "桂A",
+      "name": "Nanning (南宁)"
+    },
+    {
+      "code": "桂B",
+      "name": "Liuzhou (柳州)"
+    },
+    {
+      "code": "桂C",
+      "name": "Guilin (桂林)"
+    },
+    {
+      "code": "桂H",
+      "name": "Guilin extra (桂林增补号段)"
+    },
+    {
+      "code": "桂D",
+      "name": "Wuzhou (梧州)"
+    },
+    {
+      "code": "桂E",
+      "name": "Beihai (北海)"
+    },
+    {
+      "code": "桂F",
+      "name": "Chongzuo (崇左)"
+    },
+    {
+      "code": "桂G",
+      "name": "Laibin (来宾)"
+    },
+    {
+      "code": "桂J",
+      "name": "Hezhou (贺州)"
+    },
+    {
+      "code": "桂K",
+      "name": "Yulin (玉林)"
+    },
+    {
+      "code": "桂L",
+      "name": "Baise (百色)"
+    },
+    {
+      "code": "桂M",
+      "name": "Hechi (河池)"
+    },
+    {
+      "code": "桂N",
+      "name": "Qinzhou (钦州)"
+    },
+    {
+      "code": "桂P",
+      "name": "Fangchenggang (防城港)"
+    },
+    {
+      "code": "桂R",
+      "name": "Guigang (贵港)"
+    },
+    {
+      "code": "蒙A",
+      "name": "Hohhot (呼和浩特)"
+    },
+    {
+      "code": "蒙B",
+      "name": "Baotou (包头)"
+    },
+    {
+      "code": "蒙C",
+      "name": "Wuhai (乌海)"
+    },
+    {
+      "code": "蒙D",
+      "name": "Chifeng (赤峰)"
+    },
+    {
+      "code": "蒙E",
+      "name": "Hulunbuir (呼伦贝尔)"
+    },
+    {
+      "code": "蒙F",
+      "name": "Hinggan (兴安)"
+    },
+    {
+      "code": "蒙G",
+      "name": "Tongliao (通辽)"
+    },
+    {
+      "code": "蒙H",
+      "name": "Xilingol (锡林郭勒)"
+    },
+    {
+      "code": "蒙J",
+      "name": "Ulanqab (乌兰察布)"
+    },
+    {
+      "code": "蒙K",
+      "name": "Ordos (鄂尔多斯)"
+    },
+    {
+      "code": "蒙L",
+      "name": "Bayannur (巴彦淖尔)"
+    },
+    {
+      "code": "蒙M",
+      "name": "Alxa (阿拉善)"
+    },
+    {
+      "code": "宁A",
+      "name": "Yinchuan (银川)"
+    },
+    {
+      "code": "宁B",
+      "name": "Shizuishan (石嘴山)"
+    },
+    {
+      "code": "宁C",
+      "name": "Wuzhong (吴忠)"
+    },
+    {
+      "code": "宁D",
+      "name": "Guyuan (固原)"
+    },
+    {
+      "code": "宁E",
+      "name": "Zhongwei (中卫)"
+    },
+    {
+      "code": "藏A",
+      "name": "Lhasa (拉萨)"
+    },
+    {
+      "code": "藏B",
+      "name": "Qamdo (昌都)"
+    },
+    {
+      "code": "藏C",
+      "name": "Shannan (山南)"
+    },
+    {
+      "code": "藏D",
+      "name": "Xigaze (日喀则)"
+    },
+    {
+      "code": "藏E",
+      "name": "Nagqu (那曲)"
+    },
+    {
+      "code": "藏F",
+      "name": "Ngari (阿里)"
+    },
+    {
+      "code": "藏G",
+      "name": "Nyingchi (林芝)"
+    },
+    {
+      "code": "新A",
+      "name": "Urumqi (乌鲁木齐)"
+    },
+    {
+      "code": "新B",
+      "name": "Changji / Wujiaqu (昌吉 / 五家渠)"
+    },
+    {
+      "code": "新C",
+      "name": "Shihezi (石河子)"
+    },
+    {
+      "code": "新D",
+      "name": "Kuitun / Huyanghe (奎屯 / 胡杨河)"
+    },
+    {
+      "code": "新E",
+      "name": "Bortala / Shuanghe (博尔塔拉 / 双河)"
+    },
+    {
+      "code": "新F",
+      "name": "Ili / Kokdala (伊犁 / 可克达拉)"
+    },
+    {
+      "code": "新G",
+      "name": "Tacheng / Baiyang (塔城 / 白杨)"
+    },
+    {
+      "code": "新H",
+      "name": "Altay / Beitun (阿勒泰 / 北屯)"
+    },
+    {
+      "code": "新J",
+      "name": "Karamay (克拉玛依)"
+    },
+    {
+      "code": "新K",
+      "name": "Turpan (吐鲁番)"
+    },
+    {
+      "code": "新L",
+      "name": "Hami / Xinxing (哈密 / 新星)"
+    },
+    {
+      "code": "新M",
+      "name": "Bayingolin / Tiemenguan (巴音郭楞 / 铁门关)"
+    },
+    {
+      "code": "新N",
+      "name": "Aksu / Aral (阿克苏 / 阿拉尔)"
+    },
+    {
+      "code": "新P",
+      "name": "Kizilsu (克孜勒苏)"
+    },
+    {
+      "code": "新Q",
+      "name": "Kashgar / Tumxuk (喀什 / 图木舒克)"
+    },
+    {
+      "code": "新R",
+      "name": "Hotan / Yecheng (和田 / 叶城)"
+    },
+    {
+      "code": "新S",
+      "name": "Kunyu (昆玉)"
+    }
+  ]
+}

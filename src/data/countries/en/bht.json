@@ -1,0 +1,21 @@
+{
+  "format": "The regional identifier is the single-digit area code between the hyphens in current private (BP), taxi (BT), and government (BG) plate formats (for example BP-1-A1234).",
+  "entries": [
+    {
+      "code": "1",
+      "name": "Western Bhutan"
+    },
+    {
+      "code": "2",
+      "name": "Central Bhutan"
+    },
+    {
+      "code": "3",
+      "name": "Eastern Bhutan"
+    },
+    {
+      "code": "4",
+      "name": "Southern Bhutan"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "format": "The regional identifier was the leading two-letter state code at the start of the plate serial on the 2010-2015 state-based series (for example CE 3450). Later unified SSD plates dropped these state abbreviations.",
+  "entries": [
+    {
+      "code": "CE",
+      "name": "Central Equatoria State (Central Equatoria)"
+    },
+    {
+      "code": "EE",
+      "name": "Eastern Equatoria State (Eastern Equatoria)"
+    },
+    {
+      "code": "JO",
+      "name": "Jonglei State (Jonglei)"
+    },
+    {
+      "code": "LA",
+      "name": "Lakes State (Lakes)"
+    },
+    {
+      "code": "NB",
+      "name": "Northern Bahr el Ghazal State (Northern Bahr el Ghazal)"
+    },
+    {
+      "code": "UN",
+      "name": "Upper Nile State (Upper Nile)"
+    },
+    {
+      "code": "US",
+      "name": "Unity State (Unity)"
+    },
+    {
+      "code": "WA",
+      "name": "Warrap State (Warrap)"
+    },
+    {
+      "code": "WB",
+      "name": "Western Bahr el Ghazal State (Western Bahr el Ghazal)"
+    },
+    {
+      "code": "WE",
+      "name": "Western Equatoria State (Western Equatoria)"
+    }
+  ]
+}
