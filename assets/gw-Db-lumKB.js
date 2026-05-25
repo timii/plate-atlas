@@ -1,0 +1,1 @@
+const a=[{category:"Current standard license plates",images:[{url:"https://matriculasdelmundo.com/matriculatop/paises/guinea-bissau.jpg",title:"Current standard format example",thumbLocal:"images/detail/gw/gw-01-01.jpg",fullSizeLocal:"images/detail/gw/gw-01-01.jpg"}]}];export{a as default};

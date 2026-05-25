@@ -1,0 +1,1 @@
+const e='The regional identifier is the leading island letter at the start of the serial. Current passenger plates use the format C AB 123, T AB 123, or J AB 123. Current plates also show the slogan "175th Emancipation".',t=[{code:"C",name:"St. Croix"},{code:"J",name:"St. John"},{code:"T",name:"St. Thomas"}],a={format:e,entries:t};export{a as default,t as entries,e as format};

@@ -1,0 +1,1 @@
+const e=[{category:"Current passenger license plates",format:"Current passenger plates use five digits (example: 24-180) and show TL or TLS at the bottom.",images:[{url:"https://www.plateshack.com/y2k/East_Timor/easttimor.jpg",title:"Current passenger format example",thumbLocal:"images/detail/tl/tl-01-01.jpg",fullSizeLocal:"images/detail/tl/tl-01-01.jpg"}]}];export{e as default};

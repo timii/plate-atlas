@@ -1,0 +1,1 @@
+const a=[{category:"Current standard license plates",images:[{url:"https://www.plateshack.com/y2k/Marshall_Islands/marshall2019.jpg",title:"Current standard plate format example",thumbLocal:"images/detail/mh/mh-01-01.jpg",fullSizeLocal:"images/detail/mh/mh-01-01.jpg"}]}];export{a as default};
