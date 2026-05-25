@@ -139,6 +139,23 @@ function isFavoriteCountry(code: string): boolean {
   return countriesStore.isFavorite(code)
 }
 
+function isUnofficialCountryCode(code: string): boolean {
+  return code.endsWith('?')
+}
+
+function countryCodeLabel(code: string): string {
+  return isUnofficialCountryCode(code) ? `${code.slice(0, -1)}*` : code
+}
+
+function countryCodeTitle(country: ICountry): string {
+  if (!isUnofficialCountryCode(country.code)) {
+    return ''
+  }
+
+  const code = country.code.slice(0, -1)
+  return `${code} is not the official international vehicle registration code for ${country.country}. ${code} is only used as an internal code so every country can be linked and searched consistently.`
+}
+
 function flagThumbSrc(country: ICountry): string {
   return pickMirroredAssetUrl(country.flagThumbLocal)
 }
@@ -228,7 +245,10 @@ onMounted(() => {
                   <span class="count-value">{{ orderedCountries.length }}</span> of
                   <span class="count-value">{{ allCountriesLength }}</span> countries
                 </span>
-                <span><span class="count-value">{{ favoriteCount }}</span> {{ favoritesCountLabel }}</span>
+                <span
+                  ><span class="count-value">{{ favoriteCount }}</span>
+                  {{ favoritesCountLabel }}</span
+                >
               </span>
             </p>
             <div class="footer-actions">
@@ -278,7 +298,7 @@ onMounted(() => {
               @focus="onCountryIntent(country.code)"
               @touchstart.passive="onCountryIntent(country.code)"
             >
-              <CodeChip :text="country.code" />
+              <CodeChip :text="countryCodeLabel(country.code)" :title="countryCodeTitle(country)" />
               <span class="meta">
                 <span class="name">{{ country.country }}</span>
                 <span class="continent">{{ country.continent }}</span>
