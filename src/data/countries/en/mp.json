@@ -5,7 +5,9 @@
     "images": [
       {
         "url": "http://www.plateshack.com/y2k/Northern_Marianas/cnmi2020.jpg",
-        "title": "Current passenger format example"
+        "title": "Current passenger format example",
+        "thumbLocal": "images/detail/mp/mp-01-01.jpg",
+        "fullSizeLocal": "images/detail/mp/mp-01-01.jpg"
       }
     ]
   }

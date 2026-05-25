@@ -33,7 +33,9 @@
       "previousCodes": "",
       "notes": "No official international vehicle registration code is shown on the current domestic plates. The repo uses AG? to match the country detail files. Current private plates use black on white with the slogan LAND OF SEA AND SUN, while current taxi plates use white on green.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Antigua_and_Barbuda.svg/40px-Flag_of_Antigua_and_Barbuda.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/89/Flag_of_Antigua_and_Barbuda.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/89/Flag_of_Antigua_and_Barbuda.svg",
+      "flagThumbLocal": "images/overview/ag.png",
+      "flagLocal": "images/overview/ag.png"
     },
     {
       "code": "AL",
@@ -67,7 +69,9 @@
       "previousCodes": "P (1957-1975), PANG (1932-1956)",
       "notes": "Official international code since independence in 1975. Current normal plates themselves show AO on the left strip.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/40px-Flag_of_Angola.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Angola.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Angola.svg",
+      "flagThumbLocal": "images/overview/ang.png",
+      "flagLocal": "images/overview/ang.png"
     },
     {
       "code": "AM",
@@ -185,7 +189,9 @@
       "previousCodes": "",
       "notes": "No official international vehicle registration code. The repo uses BHT? to match the country detail files. Current plates use prefixes such as BP, BT, and BG plus a regional digit rather than an official country code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/40px-Flag_of_Bhutan.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/91/Flag_of_Bhutan.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/91/Flag_of_Bhutan.svg",
+      "flagThumbLocal": "images/overview/bht.png",
+      "flagLocal": "images/overview/bht.png"
     },
     {
       "code": "BIH",
@@ -375,7 +381,9 @@
       "previousCodes": "",
       "notes": "No official international vehicle registration code. The repo uses CN? to match the country detail files. On normal mainland plates, China uses a provincial Chinese abbreviation plus a Latin letter rather than an international country code.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/40px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg",
+      "flagThumbLocal": "images/overview/cn.png",
+      "flagLocal": "images/overview/cn.png"
     },
     {
       "code": "CO",
@@ -397,7 +405,9 @@
       "previousCodes": "",
       "notes": "Official international code COM. Current domestic plates use the format 1234 A 56, and some observed current plates also show KM unofficially on the right side.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag_of_the_Comoros.svg/40px-Flag_of_the_Comoros.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/94/Flag_of_the_Comoros.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/94/Flag_of_the_Comoros.svg",
+      "flagThumbLocal": "images/overview/com.png",
+      "flagLocal": "images/overview/com.png"
     },
     {
       "code": "CR",
@@ -431,7 +441,9 @@
       "previousCodes": "",
       "notes": "No official international vehicle registration code found in the current UN distinguishing-sign list. The repo uses CV? to match the country detail files. In practice, CV is used as the country or oval code, and current plates use island prefixes such as ST, SV, FG, and MA.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Cape_Verde.svg/40px-Flag_of_Cape_Verde.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Cape_Verde.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Cape_Verde.svg",
+      "flagThumbLocal": "images/overview/cv.png",
+      "flagLocal": "images/overview/cv.png"
     },
     {
       "code": "CY",
@@ -489,7 +501,9 @@
       "previousCodes": "",
       "notes": "Official distinguishing sign under Djibouti's vehicle-registration regulation. Current domestic plates themselves use a non-standard serial format with Latin and Arabic text rather than showing the international code on the plate.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Djibouti.svg/40px-Flag_of_Djibouti.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/34/Flag_of_Djibouti.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/34/Flag_of_Djibouti.svg",
+      "flagThumbLocal": "images/overview/dj.png",
+      "flagLocal": "images/overview/dj.png"
     },
     {
       "code": "DOM",
@@ -835,7 +849,9 @@
       "previousCodes": "",
       "notes": "Current plates use two-letter province prefixes and show the unofficial code GE on the left strip. International and oval-code sources use GQ.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/40px-Flag_of_Equatorial_Guinea.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Equatorial_Guinea.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Equatorial_Guinea.svg",
+      "flagThumbLocal": "images/overview/gq.png",
+      "flagLocal": "images/overview/gq.png"
     },
     {
       "code": "GR",
@@ -857,7 +873,9 @@
       "previousCodes": "",
       "notes": "No separate official international vehicle registration code for Guam. The repo uses GU? to match the country detail files. Current passenger plates use a two-letter municipality code plus four digits, while the international code used with Guam is USA.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flag_of_Guam.svg/40px-Flag_of_Guam.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/07/Flag_of_Guam.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/07/Flag_of_Guam.svg",
+      "flagThumbLocal": "images/overview/gu.png",
+      "flagLocal": "images/overview/gu.png"
     },
     {
       "code": "GUY",
@@ -879,7 +897,9 @@
       "previousCodes": "",
       "notes": "Official international code. Current domestic plates show the country map and RGB on the left side instead of GW.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Guinea-Bissau.svg/40px-Flag_of_Guinea-Bissau.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Guinea-Bissau.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Guinea-Bissau.svg",
+      "flagThumbLocal": "images/overview/gw.png",
+      "flagLocal": "images/overview/gw.png"
     },
     {
       "code": "H",
@@ -901,7 +921,9 @@
       "previousCodes": "",
       "notes": "No official international vehicle registration code shown on the current domestic plates. The repo uses FSM? to match the country detail files. International oval-code sources list FSM, while domestic plates are issued separately by Chuuk, Kosrae, Pohnpei, and Yap rather than in one national plate series.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg/40px-Flag_of_the_Federated_States_of_Micronesia.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg",
+      "flagThumbLocal": "images/overview/fsm.png",
+      "flagLocal": "images/overview/fsm.png"
     },
     {
       "code": "HK",
@@ -1127,7 +1149,9 @@
       "previousCodes": "",
       "notes": "No official international vehicle registration code is shown on the current domestic plates. The repo uses KIR? to match the country detail files. Secondary international-code sources use KIR, while current plates are owner-provided, usually white on black, and often hand painted or stenciled.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kiribati.svg/40px-Flag_of_Kiribati.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kiribati.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kiribati.svg",
+      "flagThumbLocal": "images/overview/kir.png",
+      "flagLocal": "images/overview/kir.png"
     },
     {
       "code": "KAN?",
@@ -1137,7 +1161,9 @@
       "previousCodes": "",
       "notes": "No official international vehicle registration code is shown on the current domestic plates. The repo uses KAN? to match the country detail files. Secondary international-code sources use KAN, while current domestic plates use class prefixes such as PA, PB, T, TA, R, RA, and G.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg/40px-Flag_of_Saint_Kitts_and_Nevis.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg",
+      "flagThumbLocal": "images/overview/kan.png",
+      "flagLocal": "images/overview/kan.png"
     },
     {
       "code": "KZ",
@@ -1315,7 +1341,9 @@
       "previousCodes": "",
       "notes": "No official international vehicle registration code is shown on the current domestic plates. The repo uses MH? to match the country detail files. Secondary international-code sources use MH, while current standard plates themselves use white on green with the slogan MAJURO ATOLL.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_the_Marshall_Islands.svg/40px-Flag_of_the_Marshall_Islands.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Flag_of_the_Marshall_Islands.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Flag_of_the_Marshall_Islands.svg",
+      "flagThumbLocal": "images/overview/mh.png",
+      "flagLocal": "images/overview/mh.png"
     },
     {
       "code": "MNE",
@@ -1361,7 +1389,9 @@
       "previousCodes": "",
       "notes": "No separate official international vehicle registration code for the Northern Mariana Islands. The repo uses MP? to match the country detail files. Current passenger plates use the format ABC 123 and show C.N.M.I.-U.S.A. on the plate, while the international code used with the territory is USA.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_the_Northern_Mariana_Islands.svg/40px-Flag_of_the_Northern_Mariana_Islands.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Flag_of_the_Northern_Mariana_Islands.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Flag_of_the_Northern_Mariana_Islands.svg",
+      "flagThumbLocal": "images/overview/mp.png",
+      "flagLocal": "images/overview/mp.png"
     },
     {
       "code": "MS",
@@ -1491,7 +1521,9 @@
       "previousCodes": "",
       "notes": "No official international vehicle registration code found in the UN distinguishing-sign list. The repo uses PRK? to match the country detail files. Current plates use city/province text in Hangul rather than an official country code on the plate.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/40px-Flag_of_North_Korea.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/51/Flag_of_North_Korea.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/51/Flag_of_North_Korea.svg",
+      "flagThumbLocal": "images/overview/prk.png",
+      "flagLocal": "images/overview/prk.png"
     },
     {
       "code": "NMK",
@@ -1549,7 +1581,9 @@
       "previousCodes": "",
       "notes": "No official international vehicle registration code. The repo uses PS? to match the country detail files. On the plates, Palestine unofficially uses Portugal's code P in the West Bank and Gaza Strip.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/40px-Flag_of_Palestine.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg",
+      "flagThumbLocal": "images/overview/ps.png",
+      "flagLocal": "images/overview/ps.png"
     },
     {
       "code": "PA",
@@ -1607,7 +1641,9 @@
       "previousCodes": "",
       "notes": "International vehicle registration code sources list PR for Puerto Rico. Current standard passenger plates use a serial-only ABC 123 format without regional coding, and optional European-size plates are also issued.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/40px-Flag_of_Puerto_Rico.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/28/Flag_of_Puerto_Rico.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/28/Flag_of_Puerto_Rico.svg",
+      "flagThumbLocal": "images/overview/pr.png",
+      "flagLocal": "images/overview/pr.png"
     },
     {
       "code": "PW?",
@@ -1617,7 +1653,9 @@
       "previousCodes": "",
       "notes": "No official international vehicle registration code is clearly documented on the current domestic plates. The repo uses PW? to match the country detail files. Secondary international-code sources use PW, while current plates are issued separately by individual states rather than in one national plate series.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Palau.svg/40px-Flag_of_Palau.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Palau.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Palau.svg",
+      "flagThumbLocal": "images/overview/pw.png",
+      "flagLocal": "images/overview/pw.png"
     },
     {
       "code": "PNG",
@@ -2023,7 +2061,9 @@
       "previousCodes": "",
       "notes": "No official international vehicle registration code is shown on the current domestic plates. The repo uses SOL? to match the country detail files. Secondary international-code sources use SOL, while current passenger plates have been government-issued since 2014 and use yellow plates with the slogan THE HAPI ISLES.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/40px-Flag_of_the_Solomon_Islands.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/74/Flag_of_the_Solomon_Islands.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/74/Flag_of_the_Solomon_Islands.svg",
+      "flagThumbLocal": "images/overview/sol.png",
+      "flagLocal": "images/overview/sol.png"
     },
     {
       "code": "SSD?",
@@ -2033,7 +2073,9 @@
       "previousCodes": "",
       "notes": "No official international vehicle registration code found in the UN distinguishing-sign list. The repo uses SSD? to match the country detail files. Later unified South Sudan plates display SSD, while the earlier 10-state series used state abbreviations such as CE, EE, and JO.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_South_Sudan.svg/40px-Flag_of_South_Sudan.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg",
+      "flagThumbLocal": "images/overview/ssd.png",
+      "flagLocal": "images/overview/ssd.png"
     },
     {
       "code": "SRB",
@@ -2091,7 +2133,9 @@
       "previousCodes": "",
       "notes": "No official international vehicle registration code is shown on the current domestic plates. The repo uses STP? to match the country detail files. Current standard plates themselves use the format STP-12-34AA.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg/40px-Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg",
+      "flagThumbLocal": "images/overview/stp.png",
+      "flagLocal": "images/overview/stp.png"
     },
     {
       "code": "T",
@@ -2149,7 +2193,9 @@
       "previousCodes": "",
       "notes": "No official international vehicle registration code shown on the current domestic plates. The repo uses TL? to match the country detail files. Current passenger plates use five digits and show TL or TLS at the bottom.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/40px-Flag_of_East_Timor.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/26/Flag_of_East_Timor.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/26/Flag_of_East_Timor.svg",
+      "flagThumbLocal": "images/overview/tl.png",
+      "flagLocal": "images/overview/tl.png"
     },
     {
       "code": "TM",
@@ -2219,7 +2265,9 @@
       "previousCodes": "",
       "notes": "No official international vehicle registration code is shown on the current domestic plates. The repo uses TUV? to match the country detail files. Secondary international-code sources use TUV, while current plates are owner-made, often handpainted, and public examples show white characters on black.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/40px-Flag_of_Tuvalu.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tuvalu.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tuvalu.svg",
+      "flagThumbLocal": "images/overview/tuv.png",
+      "flagLocal": "images/overview/tuv.png"
     },
     {
       "code": "UA",
@@ -2301,7 +2349,9 @@
       "previousCodes": "",
       "notes": "No separate official international vehicle registration code for the United States Virgin Islands. The repo uses VI? to match the country detail files. Current 2023 passenger plates use island letters C for St. Croix, T for St. Thomas, and J for St. John, while the international code used with the territory is USA.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_the_United_States_Virgin_Islands.svg/40px-Flag_of_the_United_States_Virgin_Islands.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Flag_of_the_United_States_Virgin_Islands.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Flag_of_the_United_States_Virgin_Islands.svg",
+      "flagThumbLocal": "images/overview/vi.png",
+      "flagLocal": "images/overview/vi.png"
     },
     {
       "code": "VN",
@@ -2323,7 +2373,9 @@
       "previousCodes": "",
       "notes": "No official international vehicle registration code is shown on the current domestic plates. The repo uses VU? to match the country detail files. Secondary international-code sources use VU, while current domestic plates are owner-provided white-on-black plates and class labels such as T, B, H, and ADT are defined officially.",
       "flagThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Vanuatu.svg/40px-Flag_of_Vanuatu.svg.png",
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Vanuatu.svg"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Vanuatu.svg",
+      "flagThumbLocal": "images/overview/vu.png",
+      "flagLocal": "images/overview/vu.png"
     },
     {
       "code": "WAG",

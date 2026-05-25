@@ -5,7 +5,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kfz-Kennzeichen%20Vanuatu%20retouched.jpg",
-        "title": "Current standard plate format example"
+        "title": "Current standard plate format example",
+        "thumbLocal": "images/detail/vu/vu-01-01.jpg",
+        "fullSizeLocal": "images/detail/vu/vu-01-01.jpg"
       }
     ]
   }

@@ -4,11 +4,15 @@
     "images": [
       {
         "url": "https://plateshack.com/y2k/Puerto_Rico/pr2021-pl8.jpg",
-        "title": "Current standard passenger format example"
+        "title": "Current standard passenger format example",
+        "thumbLocal": "images/detail/pr/pr-01-01.jpg",
+        "fullSizeLocal": "images/detail/pr/pr-01-01.jpg"
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Puerto Rico License Plate - European Sized.jpg",
-        "title": "Current optional European-size passenger format example"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Puerto%20Rico%20License%20Plate%20-%20European%20Sized.jpg",
+        "title": "Current optional European-size passenger format example",
+        "thumbLocal": "images/detail/pr/pr-01-02.jpg",
+        "fullSizeLocal": "images/detail/pr/pr-01-02.jpg"
       }
     ]
   }

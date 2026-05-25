@@ -5,7 +5,9 @@
     "images": [
       {
         "url": "https://matriculasdelmundo.com/matriculatop/paises/djibouti.jpg",
-        "title": "Current standard format example"
+        "title": "Current standard format example",
+        "thumbLocal": "images/detail/dj/dj-01-01.jpg",
+        "fullSizeLocal": "images/detail/dj/dj-01-01.jpg"
       }
     ]
   }

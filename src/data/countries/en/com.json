@@ -5,11 +5,15 @@
     "images": [
       {
         "url": "https://www.plateshack.com/y2k/Comoros/comorosisland.jpg",
-        "title": "Current standard format example"
+        "title": "Current standard format example",
+        "thumbLocal": "images/detail/com/com-01-01.jpg",
+        "fullSizeLocal": "images/detail/com/com-01-01.jpg"
       },
       {
         "url": "https://www.plateshack.com/y2k/Comoros/comwithflag.jpg",
-        "title": "Current standard format example with KM marking"
+        "title": "Current standard format example with KM marking",
+        "thumbLocal": "images/detail/com/com-01-02.jpg",
+        "fullSizeLocal": "images/detail/com/com-01-02.jpg"
       }
     ]
   }

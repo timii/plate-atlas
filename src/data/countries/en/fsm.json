@@ -4,7 +4,9 @@
     "images": [
       {
         "url": "https://www.plateshack.com/y2k/Micronesia/chuuk2013.jpg",
-        "title": "Chuuk State current license plate example"
+        "title": "Chuuk State current license plate example",
+        "thumbLocal": "images/detail/fsm/fsm-01-01.jpg",
+        "fullSizeLocal": "images/detail/fsm/fsm-01-01.jpg"
       }
     ]
   },
@@ -13,7 +15,9 @@
     "images": [
       {
         "url": "https://www.plateshack.com/y2k/Micronesia/kosrae2008.jpg",
-        "title": "Kosrae State current license plate example"
+        "title": "Kosrae State current license plate example",
+        "thumbLocal": "images/detail/fsm/fsm-02-01.jpg",
+        "fullSizeLocal": "images/detail/fsm/fsm-02-01.jpg"
       }
     ]
   },
@@ -22,7 +26,9 @@
     "images": [
       {
         "url": "https://www.plateshack.com/y2k/Micronesia/pohnpei2016.jpg",
-        "title": "Pohnpei State current license plate example"
+        "title": "Pohnpei State current license plate example",
+        "thumbLocal": "images/detail/fsm/fsm-03-01.jpg",
+        "fullSizeLocal": "images/detail/fsm/fsm-03-01.jpg"
       }
     ]
   },
@@ -31,7 +37,9 @@
     "images": [
       {
         "url": "https://www.plateshack.com/y2k/Micronesia/yap2204.jpg",
-        "title": "Yap State current license plate example"
+        "title": "Yap State current license plate example",
+        "thumbLocal": "images/detail/fsm/fsm-04-01.jpg",
+        "fullSizeLocal": "images/detail/fsm/fsm-04-01.jpg"
       }
     ]
   }

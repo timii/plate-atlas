@@ -5,11 +5,15 @@
     "images": [
       {
         "url": "https://www.plateshack.com/y2k/Kiribati/ktlapl8.jpg",
-        "title": "Current private plate format example"
+        "title": "Current private plate format example",
+        "thumbLocal": "images/detail/kir/kir-01-01.jpg",
+        "fullSizeLocal": "images/detail/kir/kir-01-01.jpg"
       },
       {
         "url": "https://www.plateshack.com/y2k/Kiribati/btc7755.jpg",
-        "title": "Current private plate format example issued by Betio Town Council"
+        "title": "Current private plate format example issued by Betio Town Council",
+        "thumbLocal": "images/detail/kir/kir-01-02.jpg",
+        "fullSizeLocal": "images/detail/kir/kir-01-02.jpg"
       }
     ]
   },
@@ -18,7 +22,9 @@
     "images": [
       {
         "url": "https://www.plateshack.com/y2k/Kiribati/btc7539.jpg",
-        "title": "Current motorcycle plate format example issued by Betio Town Council"
+        "title": "Current motorcycle plate format example issued by Betio Town Council",
+        "thumbLocal": "images/detail/kir/kir-02-01.jpg",
+        "fullSizeLocal": "images/detail/kir/kir-02-01.jpg"
       }
     ]
   }

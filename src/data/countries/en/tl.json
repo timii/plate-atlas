@@ -5,7 +5,9 @@
     "images": [
       {
         "url": "https://www.plateshack.com/y2k/East_Timor/easttimor.jpg",
-        "title": "Current passenger format example"
+        "title": "Current passenger format example",
+        "thumbLocal": "images/detail/tl/tl-01-01.jpg",
+        "fullSizeLocal": "images/detail/tl/tl-01-01.jpg"
       }
     ]
   }

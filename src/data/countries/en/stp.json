@@ -5,7 +5,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D0%B0%D0%BD%D0%A2%D0%BE%D0%BC%D0%B5%D0%86%D0%9F%D1%80%D1%96%D0%BD%D1%81%D1%96%D0%BF%D1%961.gif",
-        "title": "Current standard plate format example"
+        "title": "Current standard plate format example",
+        "thumbLocal": "images/detail/stp/stp-01-01.gif",
+        "fullSizeLocal": "images/detail/stp/stp-01-01.gif"
       }
     ]
   }

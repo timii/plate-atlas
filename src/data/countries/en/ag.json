@@ -5,7 +5,9 @@
     "images": [
       {
         "url": "https://www.plateshack.com/y2k/Antigua/ant2017.jpeg",
-        "title": "Current private plate format example"
+        "title": "Current private plate format example",
+        "thumbLocal": "images/detail/ag/ag-01-01.jpeg",
+        "fullSizeLocal": "images/detail/ag/ag-01-01.jpeg"
       }
     ]
   },
@@ -14,7 +16,9 @@
     "images": [
       {
         "url": "https://www.plateshack.com/y2k/Antigua/antgovt2020.jpg",
-        "title": "Current government plate format example"
+        "title": "Current government plate format example",
+        "thumbLocal": "images/detail/ag/ag-02-01.jpg",
+        "fullSizeLocal": "images/detail/ag/ag-02-01.jpg"
       }
     ]
   },
@@ -23,7 +27,9 @@
     "images": [
       {
         "url": "https://www.plateshack.com/y2k/Antigua/anttaxi2020.jpg",
-        "title": "Current taxi plate format example"
+        "title": "Current taxi plate format example",
+        "thumbLocal": "images/detail/ag/ag-03-01.jpg",
+        "fullSizeLocal": "images/detail/ag/ag-03-01.jpg"
       }
     ]
   }

@@ -5,7 +5,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palau%20license%20plate%20Aimeliik%202020%20b.png",
-        "title": "Current Aimeliik State plate example"
+        "title": "Current Aimeliik State plate example",
+        "thumbLocal": "images/detail/pw/pw-01-01.png",
+        "fullSizeLocal": "images/detail/pw/pw-01-01.png"
       }
     ]
   },
@@ -14,7 +16,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palau%20license%20plate%20Airai%202020%20b.png",
-        "title": "Current Airai State plate example"
+        "title": "Current Airai State plate example",
+        "thumbLocal": "images/detail/pw/pw-02-01.png",
+        "fullSizeLocal": "images/detail/pw/pw-02-01.png"
       }
     ]
   },
@@ -23,7 +27,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palau%20license%20plate%20Angaur%202020%20b.png",
-        "title": "Current Angaur State plate example"
+        "title": "Current Angaur State plate example",
+        "thumbLocal": "images/detail/pw/pw-03-01.png",
+        "fullSizeLocal": "images/detail/pw/pw-03-01.png"
       }
     ]
   },
@@ -32,7 +38,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palau%20license%20plate%20Kayangel%202020%20b.png",
-        "title": "Current Kayangel State plate example"
+        "title": "Current Kayangel State plate example",
+        "thumbLocal": "images/detail/pw/pw-04-01.png",
+        "fullSizeLocal": "images/detail/pw/pw-04-01.png"
       }
     ]
   },
@@ -41,7 +49,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palau%20license%20plate%20Koror%202020%20b.png",
-        "title": "Current Koror State plate example"
+        "title": "Current Koror State plate example",
+        "thumbLocal": "images/detail/pw/pw-05-01.png",
+        "fullSizeLocal": "images/detail/pw/pw-05-01.png"
       }
     ]
   },
@@ -50,7 +60,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palau%20license%20plate%20Melekeok%202019%20b.png",
-        "title": "Current Melekeok State plate example"
+        "title": "Current Melekeok State plate example",
+        "thumbLocal": "images/detail/pw/pw-06-01.png",
+        "fullSizeLocal": "images/detail/pw/pw-06-01.png"
       }
     ]
   },
@@ -59,7 +71,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palau%20license%20plate%20Ngaraard%2020XX%20b.png",
-        "title": "Current Ngaraard State plate example"
+        "title": "Current Ngaraard State plate example",
+        "thumbLocal": "images/detail/pw/pw-07-01.png",
+        "fullSizeLocal": "images/detail/pw/pw-07-01.png"
       }
     ]
   },
@@ -68,7 +82,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palau%20license%20plate%20Ngarchelong%202020%20b.png",
-        "title": "Current Ngarchelong State plate example"
+        "title": "Current Ngarchelong State plate example",
+        "thumbLocal": "images/detail/pw/pw-08-01.png",
+        "fullSizeLocal": "images/detail/pw/pw-08-01.png"
       }
     ]
   },
@@ -77,7 +93,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palau%20license%20plate%20Ngardmau%202009.png",
-        "title": "Current Ngardmau State plate example"
+        "title": "Current Ngardmau State plate example",
+        "thumbLocal": "images/detail/pw/pw-09-01.png",
+        "fullSizeLocal": "images/detail/pw/pw-09-01.png"
       }
     ]
   },
@@ -86,7 +104,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palau%20license%20plate%20Ngatpang%202020%20b.png",
-        "title": "Current Ngatpang State plate example"
+        "title": "Current Ngatpang State plate example",
+        "thumbLocal": "images/detail/pw/pw-10-01.png",
+        "fullSizeLocal": "images/detail/pw/pw-10-01.png"
       }
     ]
   },
@@ -95,7 +115,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palau%20license%20plate%20Ngchesar%202019%20b.png",
-        "title": "Current Ngchesar State plate example"
+        "title": "Current Ngchesar State plate example",
+        "thumbLocal": "images/detail/pw/pw-11-01.png",
+        "fullSizeLocal": "images/detail/pw/pw-11-01.png"
       }
     ]
   },
@@ -104,7 +126,9 @@
     "images": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palau%20license%20plate%20Ngeremlengui%2020XX%20b.png",
-        "title": "Current Ngeremlengui State plate example"
+        "title": "Current Ngeremlengui State plate example",
+        "thumbLocal": "images/detail/pw/pw-12-01.png",
+        "fullSizeLocal": "images/detail/pw/pw-12-01.png"
       }
     ]
   },
@@ -112,8 +136,10 @@
     "category": "Current Ngiwal State license plates",
     "images": [
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palau%20licence%20plate%20Ngiwal%202020%20b.png",
-        "title": "Current Ngiwal State plate example"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Palau_licence_plate_Ngiwal_2020_b.png/330px-Palau_licence_plate_Ngiwal_2020_b.png",
+        "title": "Current Ngiwal State plate example",
+        "thumbLocal": "images/detail/pw/pw-13-01.png",
+        "fullSizeLocal": "images/detail/pw/pw-13-01.png"
       }
     ]
   },
@@ -121,8 +147,10 @@
     "category": "Current Peleliu State license plates",
     "images": [
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palau%20license%20plate%20Peleliu%202020%20b.png",
-        "title": "Current Peleliu State plate example"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Palau_license_plate_Peleliu_2020_b.png/960px-Palau_license_plate_Peleliu_2020_b.png",
+        "title": "Current Peleliu State plate example",
+        "thumbLocal": "images/detail/pw/pw-14-01.png",
+        "fullSizeLocal": "images/detail/pw/pw-14-01.png"
       }
     ]
   },
@@ -130,8 +158,10 @@
     "category": "Current Sonsorol State license plates",
     "images": [
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palau%20license%20plate%20Sonsorol%202001.png",
-        "title": "Current Sonsorol State plate example"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Palau_license_plate_Sonsorol_2001.png/250px-Palau_license_plate_Sonsorol_2001.png",
+        "title": "Current Sonsorol State plate example",
+        "thumbLocal": "images/detail/pw/pw-15-01.png",
+        "fullSizeLocal": "images/detail/pw/pw-15-01.png"
       }
     ]
   }

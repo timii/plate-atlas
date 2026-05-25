@@ -5,15 +5,21 @@
     "images": [
       {
         "url": "https://www.plateshack.com/y2k/Tuvalu/tuvA0441.jpg",
-        "title": "Current standard plate format example"
+        "title": "Current standard plate format example",
+        "thumbLocal": "images/detail/tuv/tuv-01-01.jpg",
+        "fullSizeLocal": "images/detail/tuv/tuv-01-01.jpg"
       },
       {
         "url": "https://www.plateshack.com/y2k/Tuvalu/tuvao1339.jpg",
-        "title": "Current standard plate format example"
+        "title": "Current standard plate format example",
+        "thumbLocal": "images/detail/tuv/tuv-01-02.jpg",
+        "fullSizeLocal": "images/detail/tuv/tuv-01-02.jpg"
       },
       {
         "url": "https://www.plateshack.com/y2k/Tuvalu/tuvalu.jpg",
-        "title": "Current Funafuti Town Council plate example"
+        "title": "Current Funafuti Town Council plate example",
+        "thumbLocal": "images/detail/tuv/tuv-01-03.jpg",
+        "fullSizeLocal": "images/detail/tuv/tuv-01-03.jpg"
       }
     ]
   }
