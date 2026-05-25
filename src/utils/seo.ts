@@ -1,5 +1,6 @@
 import countriesJson from '@/data/current-license-plates.json'
 import type { ICountry, ICountryData } from '@/models/country.model'
+import { normalizeCountryCode } from '@/utils/favoriteStorage'
 import type { RouteLocationNormalizedLoaded } from 'vue-router'
 
 type StructuredDataEntry = Record<string, unknown>
@@ -29,7 +30,7 @@ function findCountry(codeParam: string | string[] | undefined): ICountry | null 
   // reuse shipped country data so route seo can resolve country metadata without extra requests
   return (
     countryData.countries.find((country) => {
-      return country.code.toLowerCase() === code.toLowerCase()
+      return normalizeCountryCode(country.code) === normalizeCountryCode(code)
     }) ?? null
   )
 }
@@ -121,7 +122,7 @@ function seoEntryForRoute(route: RouteLocationNormalizedLoaded): SeoEntry {
   if (route.name === 'detail') {
     const matchedCountry = findCountry(route.params.code)
     const countryName = matchedCountry?.country ?? findCountryName(route.params.code)
-    const detailPath = `/overview/${String(route.params.code ?? '').toLowerCase()}`
+    const detailPath = `/overview/${normalizeCountryCode(String(route.params.code ?? ''))}`
 
     return {
       canonicalPath: detailPath,

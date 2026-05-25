@@ -15,6 +15,7 @@ import DetailCodesContent from '@/components/detail/DetailCodesContent.vue'
 import DetailExampleImagesContent from '@/components/detail/DetailExampleImagesContent.vue'
 import { getContinentTone, getToneStyle } from '@/constants/continentTone'
 import { hasCountryDetailsFile, loadCountryDetails } from '@/utils/countryDetailsLoader'
+import { normalizeCountryCode } from '@/utils/favoriteStorage'
 
 const route = useRoute()
 const countriesStore = useCountriesStore()
@@ -28,17 +29,17 @@ const countryHasCodes = ref(false)
 const formatDescription = ref('')
 const detailErrorMessage = ref('')
 
-const countryCode = computed(() => ((route.params.code as string | undefined) ?? '').toLowerCase())
+const countryCode = computed(() => normalizeCountryCode((route.params.code as string | undefined) ?? ''))
 
 const selectedCountry = computed(() => {
   return countriesStore.countries.countries.find((country) => {
-    return country.code.toLowerCase() === countryCode.value
+    return normalizeCountryCode(country.code) === countryCode.value
   })
 })
 
 const countryName = computed(() => selectedCountry.value?.country ?? 'No country found')
 const countryContinent = computed(() => selectedCountry.value?.continent ?? '-')
-const countryCodeLabel = computed(() => countryCode.value.toUpperCase() || '-')
+const countryCodeLabel = computed(() => selectedCountry.value?.code || countryCode.value.toUpperCase() || '-')
 const countryMeta = computed(() => `${countryCodeLabel.value} · `)
 const countryMetaAccent = computed(() => countryContinent.value)
 const canFavoriteCountry = computed(() => Boolean(selectedCountry.value))

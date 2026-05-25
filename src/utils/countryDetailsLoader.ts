@@ -1,4 +1,5 @@
 import type { ICountryDetails } from '@/models/country.model'
+import { normalizeCountryCode } from '@/utils/favoriteStorage'
 
 // keep file discovery and request reuse in one place so overview preloading and detail loading
 // always follow the same path
@@ -14,15 +15,15 @@ const availableCountryCodes = new Set(
 const countryDetailRequests = new Map<string, Promise<ICountryDetails>>()
 
 function countryDetailPath(code: string): string {
-  return `/src/data/countries/en/${code.toLowerCase()}.json`
+  return `/src/data/countries/en/${normalizeCountryCode(code)}.json`
 }
 
 export function hasCountryDetailsFile(code: string): boolean {
-  return availableCountryCodes.has(code.toLowerCase())
+  return availableCountryCodes.has(normalizeCountryCode(code))
 }
 
 export async function loadCountryDetails(code: string): Promise<ICountryDetails> {
-  const normalizedCode = code.toLowerCase()
+  const normalizedCode = normalizeCountryCode(code)
   const existingRequest = countryDetailRequests.get(normalizedCode)
   if (existingRequest) {
     return existingRequest

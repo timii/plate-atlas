@@ -17,6 +17,7 @@ import { type CountryGroupBy, type CountrySortMode, useCountriesStore } from '@/
 import { getToneStyle } from '@/constants/continentTone'
 import { preloadCountryDetails } from '@/utils/countryDetailsLoader'
 import { pickMirroredAssetUrl } from '@/utils/assetUrl'
+import { normalizeCountryCode } from '@/utils/favoriteStorage'
 
 type DropdownKey = 'sort' | 'group' | 'continent' | null
 
@@ -125,7 +126,7 @@ function rowStyle(continent: string): Record<string, string> {
 }
 
 function detailPath(code: string): string {
-  return `/overview/${code.toLowerCase()}`
+  return `/overview/${normalizeCountryCode(code)}`
 }
 
 function onCountryIntent(code: string) {

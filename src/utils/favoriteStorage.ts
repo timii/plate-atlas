@@ -1,7 +1,8 @@
 const favoriteStorageKey = 'plate-atlas:favorites:v1'
 
-function normalizeCountryCode(code: string): string {
-  return code.trim().toLowerCase()
+export function normalizeCountryCode(code: string): string {
+  // drop the unofficial marker suffix when a stable lookup key is needed
+  return code.trim().replace(/\?+$/, '').toLowerCase()
 }
 
 function normalizeFavoriteCodes(codes: string[]): string[] {
