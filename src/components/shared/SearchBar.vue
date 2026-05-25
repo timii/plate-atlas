@@ -12,7 +12,7 @@ const props = withDefaults(
     ariaLabelledby?: string
   }>(),
   {
-    placeholder: 'Search by country, code or continent',
+    placeholder: 'Search by name, code or continent',
     ariaLabel: 'search',
     inputId: undefined,
     ariaLabelledby: undefined,

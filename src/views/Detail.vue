@@ -37,7 +37,7 @@ const selectedCountry = computed(() => {
   })
 })
 
-const countryName = computed(() => selectedCountry.value?.country ?? 'No country found')
+const countryName = computed(() => selectedCountry.value?.country ?? 'No country or territory found')
 const countryContinent = computed(() => selectedCountry.value?.continent ?? '-')
 const countryCodeLabel = computed(() => selectedCountry.value?.code || countryCode.value.toUpperCase() || '-')
 const countryMeta = computed(() => `${countryCodeLabel.value} · `)
@@ -47,7 +47,7 @@ const canFavoriteCountry = computed(() => Boolean(selectedCountry.value))
 // show detail state in detail title
 const detailPageTitle = computed(() => {
   if (detailStatus.value === 'not-found') {
-    return 'Country not found'
+    return 'Country or territory not found'
   }
 
   if (detailStatus.value === 'error') {
@@ -89,7 +89,7 @@ const detailEmptyStateTitle = computed(() => {
 
 const detailEmptyStateMessage = computed(() => {
   if (detailStatus.value === 'not-found') {
-    return 'Check the country code in the URL or return to the overview to choose a valid country'
+    return 'Check the code in the URL or return to the overview to choose a valid country or territory'
   }
 
   return detailErrorMessage.value || 'The detail data could not be loaded, so try again later'

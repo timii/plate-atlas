@@ -14,7 +14,7 @@ type SeoEntry = {
 
 const seoBaseUrl = 'https://timii.github.io/plate-atlas'
 const defaultDescription =
-  'Explore international vehicle registration codes and license plate formats by country, code, and continent.'
+  'Explore international vehicle registration codes and license plate formats by country or territory, code, and continent.'
 const countryData = countriesJson as ICountryData
 
 function siteUrl(path: string): string {
@@ -38,7 +38,7 @@ function findCountry(codeParam: string | string[] | undefined): ICountry | null 
 function findCountryName(codeParam: string | string[] | undefined): string {
   const code = Array.isArray(codeParam) ? codeParam[0] : codeParam
   if (!code) {
-    return 'Country'
+    return 'Country or territory'
   }
 
   return findCountry(codeParam)?.country ?? code.toUpperCase()
@@ -70,11 +70,11 @@ function breadcrumbSchema(items: Array<{ name: string; path: string }>): Structu
 function overviewStructuredData(): StructuredDataEntry[] {
   return [
     websiteSchema(),
-    breadcrumbSchema([{ name: 'Countries', path: '/overview' }]),
+    breadcrumbSchema([{ name: 'Countries and territories', path: '/overview' }]),
     {
       '@context': 'https://schema.org',
       '@type': 'CollectionPage',
-      name: 'Countries | Plate Atlas',
+      name: 'Countries and territories | Plate Atlas',
       url: siteUrl('/overview'),
       description: defaultDescription,
       numberOfItems: countryData.countries.length,
@@ -90,7 +90,7 @@ function detailStructuredData(
   return [
     websiteSchema(),
     breadcrumbSchema([
-      { name: 'Countries', path: '/overview' },
+      { name: 'Countries and territories', path: '/overview' },
       { name: countryName, path: detailPath },
     ]),
     {

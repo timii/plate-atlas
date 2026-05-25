@@ -64,7 +64,7 @@ export const useCountriesStore = defineStore('countries', () => {
   })
 
   const sortDropdownItems = computed<IDropdownItem[]>(() => [
-    { id: 1, label: 'Country', value: 'country', selected: sortMode.value === 'country' },
+    { id: 1, label: 'Name', value: 'country', selected: sortMode.value === 'country' },
     { id: 2, label: 'Code', value: 'code', selected: sortMode.value === 'code' },
   ])
 

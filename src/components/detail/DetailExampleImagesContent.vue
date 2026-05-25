@@ -34,7 +34,9 @@ const failedThumbnailKeys = ref<Record<string, true>>({})
 let previousBodyOverflow = ''
 
 const countryNameInSentence = computed(() => {
-  return props.countryName === 'No country found' ? 'this country' : props.countryName
+  return props.countryName === 'No country or territory found'
+    ? 'this country or territory'
+    : props.countryName
 })
 
 function imageTitle(imageObj: ExampleImage): string {
@@ -266,7 +268,7 @@ onBeforeUnmount(() => {
     <EmptyState
       v-else
       title="No examples available"
-      message="There are currently no preview images for this country"
+      message="There are currently no preview images for this country or territory"
     />
   </section>
 

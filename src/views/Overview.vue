@@ -45,30 +45,30 @@ const headerMeta = computed(() => {
 
 const emptyStateTitle = computed(() => {
   if (favoritesOnly.value && favoriteCount.value === 0) {
-    return 'No favorite countries yet'
+    return 'No favorite countries or territories yet'
   }
 
   if (favoritesOnly.value) {
-    return 'No favorite countries match these filters'
+    return 'No favorite countries or territories match these filters'
   }
 
-  return 'No countries match these filters'
+  return 'No countries or territories match these filters'
 })
 
 const emptyStateMessage = computed(() => {
   if (favoritesOnly.value && favoriteCount.value === 0) {
-    return 'Open a country detail page and use the star button to add it to favorites'
+    return 'Open a country or territory detail page and use the star button to add it to favorites'
   }
 
   if (favoritesOnly.value) {
-    return 'Try clearing search text, changing continent, or switch back to all countries'
+    return 'Try clearing search text, changing continent, or switch back to all countries and territories'
   }
 
   return 'Try clearing search text, changing continent, or setting group by to none'
 })
 
 const favoritesToggleLabel = computed(() => {
-  return favoritesOnly.value ? 'Show all countries' : 'Show only favorites'
+  return favoritesOnly.value ? 'Show all' : 'Show only favorites'
 })
 const favoritesToggleDisabled = computed(() => favoriteCount.value === 0 && !favoritesOnly.value)
 
@@ -153,7 +153,7 @@ function countryCodeTitle(country: ICountry): string {
   }
 
   const code = country.code.slice(0, -1)
-  return `${code} is not the official international vehicle registration code for ${country.country}. ${code} is only used as an internal code so every country can be linked and searched consistently.`
+  return `${code} is not the official international vehicle registration code for ${country.country}. ${code} is only used as an internal code so every country and territory can be linked and searched consistently.`
 }
 
 function flagThumbSrc(country: ICountry): string {
@@ -188,7 +188,7 @@ onMounted(() => {
 <template>
   <section class="overview-page -mx-4 min-h-screen px-4 pb-12 sm:-mx-6 sm:px-6">
     <div class="content-shell">
-      <PageHeader title="Countries" :meta="headerMeta" />
+      <PageHeader title="Countries and territories" :meta="headerMeta" />
 
       <FilterPanel
         ariaLabel="overview controls"
@@ -201,7 +201,7 @@ onMounted(() => {
             v-model:text="searchTerm"
             input-id="overview-search-input"
             aria-labelledby="overview-search-label"
-            aria-label="search countries by country name, code, or continent"
+            aria-label="search countries and territories by name, code, or continent"
           />
         </div>
         <div
@@ -236,14 +236,15 @@ onMounted(() => {
             <p class="count">
               <span class="count-desktop">
                 Showing <span class="count-value">{{ orderedCountries.length }}</span> out of
-                <span class="count-value">{{ allCountriesLength }}</span> countries
+                <span class="count-value">{{ allCountriesLength }}</span> countries and territories
                 <span class="count-separator">-</span>
                 <span class="count-value">{{ favoriteCount }}</span> {{ favoritesCountLabel }}
               </span>
               <span class="count-mobile">
                 <span>
                   <span class="count-value">{{ orderedCountries.length }}</span> of
-                  <span class="count-value">{{ allCountriesLength }}</span> countries
+                  <span class="count-value">{{ allCountriesLength }}</span> countries and
+                  territories
                 </span>
                 <span
                   ><span class="count-value">{{ favoriteCount }}</span>
@@ -280,7 +281,7 @@ onMounted(() => {
         </template>
       </FilterPanel>
 
-      <section v-if="hasResults" class="groups" aria-label="country rows">
+      <section v-if="hasResults" class="groups" aria-label="country and territory rows">
         <article v-for="group in groupedCountries" :key="group.key" class="group-block">
           <header v-if="groupBy !== 'none'" class="group-header">
             <h2 class="group-title">{{ group.label }}</h2>
@@ -302,7 +303,9 @@ onMounted(() => {
               <span class="meta">
                 <span class="name">{{ country.country }}</span>
                 <span class="continent">{{ country.continent }}</span>
-                <span v-if="isFavoriteCountry(country.code)" class="sr-only">Favorite country</span>
+                <span v-if="isFavoriteCountry(country.code)" class="sr-only"
+                  >Favorite country or territory</span
+                >
               </span>
               <span class="end">
                 <StarFilled

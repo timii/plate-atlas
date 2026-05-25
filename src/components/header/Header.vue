@@ -30,7 +30,11 @@ watch(
 <template>
   <header class="header">
     <div class="header-inner">
-      <RouterLink class="brand-link" to="/overview" aria-label="Go to the countries overview">
+      <RouterLink
+        class="brand-link"
+        to="/overview"
+        aria-label="Go to the countries and territories overview"
+      >
         <img :src="logo" alt="" class="logo" />
         <span class="title">Plate Atlas</span>
       </RouterLink>
