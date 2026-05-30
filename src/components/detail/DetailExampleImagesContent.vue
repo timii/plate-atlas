@@ -255,7 +255,7 @@ onBeforeUnmount(() => {
                   @error="onThumbnailError(imageObj)"
                 />
                 <div v-else class="plate-fallback" aria-hidden="true">
-                  <span>Image unavailable</span>
+                  <span>Image not cached</span>
                 </div>
               </div>
               <span class="sample-caption">{{ imageTitle(imageObj) }}</span>
@@ -295,8 +295,8 @@ onBeforeUnmount(() => {
       </div>
       <div class="preview-media">
         <div v-if="!hasPreviewSource(previewImage)" class="preview-fallback" role="status">
-          <strong>Image unavailable</strong>
-          <span>The local mirrored image is unavailable</span>
+          <strong>Image not cached</strong>
+          <span>This plate image has not been cached yet</span>
         </div>
         <img
           v-else
