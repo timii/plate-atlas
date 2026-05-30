@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/plate-atlas/sw.js', { scope: '/plate-atlas/' })})}
