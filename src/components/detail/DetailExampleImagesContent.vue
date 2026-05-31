@@ -2,6 +2,7 @@
 import EmptyState from '@/components/shared/EmptyState.vue'
 import InfoCard from '@/components/detail/InfoCard.vue'
 import type { ICountryDetailExampleImage } from '@/models/country.model'
+import { getCachedDetailImageObjectUrl } from '@/pwa/offlineDetailImages'
 import { useDetailsStore } from '@/stores/details'
 import { pickMirroredAssetUrl } from '@/utils/assetUrl'
 import { storeToRefs } from 'pinia'
@@ -30,6 +31,8 @@ const previewCloseRef = ref<HTMLButtonElement | null>(null)
 const previouslyFocusedEl = ref<HTMLElement | null>(null)
 const failedPreviewKeys = ref<Record<string, true>>({})
 const failedThumbnailKeys = ref<Record<string, true>>({})
+const previewObjectUrls = ref<Record<string, string>>({})
+const thumbnailObjectUrls = ref<Record<string, string>>({})
 // restore the page scroll state after the preview modal closes
 let previousBodyOverflow = ''
 
@@ -48,6 +51,11 @@ function imageKey(imageObj: ExampleImage, variant: 'preview' | 'thumb'): string 
 }
 
 function thumbnailSrc(imageObj: ExampleImage): string {
+  const cachedSrc = thumbnailObjectUrls.value[imageKey(imageObj, 'thumb')]
+  if (cachedSrc) {
+    return cachedSrc
+  }
+
   return pickMirroredAssetUrl(imageObj.thumbLocal)
 }
 
@@ -57,7 +65,7 @@ function previewSource(imageObj: ExampleImage): PreviewImage {
   return {
     failureKey: imageKey(imageObj, 'preview'),
     localPath,
-    src: pickMirroredAssetUrl(localPath),
+    src: previewObjectUrls.value[imageKey(imageObj, 'preview')] ?? pickMirroredAssetUrl(localPath),
     title: imageTitle(imageObj),
   }
 }
@@ -86,16 +94,75 @@ function markFailedImage(
   }
 }
 
-function onThumbnailError(imageObj: ExampleImage) {
+function rememberObjectUrl(store: typeof previewObjectUrls | typeof thumbnailObjectUrls, key: string, url: string) {
+  const previousUrl = store.value[key]
+  if (previousUrl && previousUrl !== url) {
+    URL.revokeObjectURL(previousUrl)
+  }
+
+  store.value = {
+    ...store.value,
+    [key]: url,
+  }
+}
+
+async function getCachedImageFallbackUrl(
+  store: typeof previewObjectUrls | typeof thumbnailObjectUrls,
+  key: string,
+  sourceUrl: string,
+): Promise<string> {
+  if (!sourceUrl || store.value[key]) {
+    return ''
+  }
+
+  const cachedObjectUrl = await getCachedDetailImageObjectUrl(sourceUrl)
+
+  if (!cachedObjectUrl) {
+    return ''
+  }
+
+  rememberObjectUrl(store, key, cachedObjectUrl)
+  return cachedObjectUrl
+}
+
+function revokeObjectUrls(urls: Record<string, string>) {
+  Object.values(urls).forEach((url) => {
+    URL.revokeObjectURL(url)
+  })
+}
+
+async function onThumbnailError(imageObj: ExampleImage) {
   if (!imageObj.thumbLocal) {
     return
   }
 
-  markFailedImage(failedThumbnailKeys, imageKey(imageObj, 'thumb'))
+  const fallbackUrl = await getCachedImageFallbackUrl(
+    thumbnailObjectUrls,
+    imageKey(imageObj, 'thumb'),
+    thumbnailSrc(imageObj),
+  )
+
+  if (!fallbackUrl) {
+    markFailedImage(failedThumbnailKeys, imageKey(imageObj, 'thumb'))
+  }
 }
 
-function onPreviewError(failureKey: string) {
+async function onPreviewError(failureKey: string) {
   if (!previewImage.value?.localPath) {
+    return
+  }
+
+  const fallbackUrl = await getCachedImageFallbackUrl(
+    previewObjectUrls,
+    failureKey,
+    pickMirroredAssetUrl(previewImage.value.localPath),
+  )
+
+  if (fallbackUrl) {
+    previewImage.value = {
+      ...previewImage.value,
+      src: fallbackUrl,
+    }
     return
   }
 
@@ -219,6 +286,8 @@ watch(previewImage, async (value) => {
 onBeforeUnmount(() => {
   document.body.style.overflow = previousBodyOverflow
   removePreviewListeners()
+  revokeObjectUrls(previewObjectUrls.value)
+  revokeObjectUrls(thumbnailObjectUrls.value)
 })
 </script>
 

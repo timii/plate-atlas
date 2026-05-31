@@ -22,6 +22,10 @@ export function hasCountryDetailsFile(code: string): boolean {
   return availableCountryCodes.has(normalizeCountryCode(code))
 }
 
+export function getAvailableCountryDetailCodes(): string[] {
+  return [...availableCountryCodes]
+}
+
 export async function loadCountryDetails(code: string): Promise<ICountryDetails> {
   const normalizedCode = normalizeCountryCode(code)
   const existingRequest = countryDetailRequests.get(normalizedCode)

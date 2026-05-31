@@ -14,6 +14,7 @@ import { useDetailsStore } from '@/stores/details'
 import DetailCodesContent from '@/components/detail/DetailCodesContent.vue'
 import DetailExampleImagesContent from '@/components/detail/DetailExampleImagesContent.vue'
 import { getContinentTone, getToneStyle } from '@/constants/continentTone'
+import { cacheCountryDetailImages } from '@/pwa/offlineDetailImages'
 import { hasCountryDetailsFile, loadCountryDetails } from '@/utils/countryDetailsLoader'
 import { normalizeCountryCode } from '@/utils/favoriteStorage'
 
@@ -155,6 +156,10 @@ async function loadDetailsFor(code: string) {
       detailsStore.exampleImages = countryDetails
       countryHasCodes.value = false
       detailStatus.value = 'ready'
+      // cache country images from page code so first mobile loads do not depend on service worker control
+      cacheCountryDetailImages(countryDetails).catch((error) => {
+        console.error('failed to cache detail images', error)
+      })
       return
     }
 

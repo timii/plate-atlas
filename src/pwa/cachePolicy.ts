@@ -24,7 +24,7 @@ export const pwaRuntimeCaching: RuntimeCaching[] = [
     options: {
       cacheName: 'plate-atlas-detail-images',
       expiration: {
-        maxEntries: 320,
+        maxEntries: 800,
         maxAgeSeconds: imageCacheMaxAgeSeconds,
       },
       cacheableResponse: {
