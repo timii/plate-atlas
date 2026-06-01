@@ -64,7 +64,7 @@ const progressLabel = computed(() => {
     return `${summary.value.countriesWithImages} countries ready for offline image viewing`
   }
 
-  return `${summary.value.missingCountries.length} countries not downloaded yet`
+  return `${summary.value.missingCountries.length} countries need image downloads`
 })
 
 const detailLabel = computed(() => {
@@ -77,10 +77,10 @@ const detailLabel = computed(() => {
   }
 
   if (summary.value.missingImages === 0) {
-    return `${summary.value.totalImages} plate images are already cached`
+    return `${summary.value.totalImages} images stored for offline use`
   }
 
-  return `${summary.value.missingImages} of ${summary.value.totalImages} plate images still need to be downloaded`
+  return `${summary.value.missingImages} images remaining`
 })
 
 const canDownload = computed(() => {
@@ -268,36 +268,38 @@ onBeforeUnmount(() => {
             </button>
           </header>
 
-          <section class="offline-status" role="status">
-            <p>{{ detailLabel }}</p>
-            <p v-if="state === 'downloading'" class="download-progress">
-              Downloaded {{ downloadedCount }} of {{ missingImageUrls.length }}
-            </p>
-            <div
-              v-if="state === 'downloading'"
-              class="download-progress-bar"
-              role="progressbar"
-              aria-label="Image download progress"
-              :aria-valuenow="downloadProgressValue"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <span :style="{ width: downloadProgressPercent }" />
-            </div>
-            <p v-if="state === 'error'" class="error-copy">{{ errorMessage }}</p>
-          </section>
+          <div class="offline-action-row">
+            <section class="offline-status" role="status">
+              <p>{{ detailLabel }}</p>
+              <p v-if="state === 'downloading'" class="download-progress">
+                Downloaded {{ downloadedCount }} of {{ missingImageUrls.length }}
+              </p>
+              <div
+                v-if="state === 'downloading'"
+                class="download-progress-bar"
+                role="progressbar"
+                aria-label="Image download progress"
+                :aria-valuenow="downloadProgressValue"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <span :style="{ width: downloadProgressPercent }" />
+              </div>
+              <p v-if="state === 'error'" class="error-copy">{{ errorMessage }}</p>
+            </section>
 
-          <button
-            type="button"
-            class="download-button"
-            :disabled="!canDownload"
-            @click="downloadRemainingImages"
-          >
-            Download remaining images
-          </button>
+            <button
+              type="button"
+              class="download-button"
+              :disabled="!canDownload"
+              @click="downloadRemainingImages"
+            >
+              Download images
+            </button>
+          </div>
 
           <section v-if="missingCountries.length > 0" class="missing-section">
-            <h3>Not downloaded yet</h3>
+            <h3>Countries missing images</h3>
             <ul class="missing-list">
               <li v-for="country in missingCountries" :key="country.code" class="missing-item">
                 <span class="country-name">{{ country.country }}</span>
@@ -326,7 +328,7 @@ onBeforeUnmount(() => {
   width: min(42rem, calc(100vw - 2rem));
   max-height: min(42rem, calc(100dvh - 2rem));
   display: grid;
-  grid-template-rows: auto auto auto minmax(0, 1fr);
+  grid-template-rows: auto auto minmax(0, 1fr);
   gap: var(--atlas-spacing-md);
   overflow: hidden;
   padding: var(--atlas-spacing-md);
@@ -391,7 +393,14 @@ onBeforeUnmount(() => {
   flex: 0 0 auto;
 }
 
+.offline-action-row {
+  display: grid;
+  align-items: stretch;
+  gap: var(--atlas-spacing-sm);
+}
+
 .offline-status {
+  min-width: 0;
   display: grid;
   gap: var(--atlas-spacing-xs);
 }
@@ -421,8 +430,12 @@ onBeforeUnmount(() => {
 }
 
 .download-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   min-height: 2.45rem;
-  justify-self: start;
+  justify-self: stretch;
   border: 1px solid var(--atlas-action-border-subtle);
   border-radius: var(--atlas-radius-control);
   background: color-mix(in oklab, var(--atlas-action-surface-subtle) 76%, transparent);
@@ -544,7 +557,7 @@ onBeforeUnmount(() => {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 760px) {
   .offline-overlay {
     align-items: end;
     padding: var(--atlas-spacing-sm) var(--atlas-spacing-sm)
@@ -571,7 +584,6 @@ onBeforeUnmount(() => {
   }
 
   .download-button {
-    width: 100%;
     justify-content: center;
   }
 }
