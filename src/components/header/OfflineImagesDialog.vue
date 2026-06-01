@@ -32,6 +32,7 @@ const state = ref<LoadState>('idle')
 const errorMessage = ref('')
 const summary = ref<IOfflineImageSummary | null>(null)
 const downloadedCount = ref(0)
+const isOnline = ref(navigator.onLine)
 const fallbackCountryData: ICountryData = countriesJson
 let previousBodyOverflow = ''
 
@@ -83,8 +84,22 @@ const detailLabel = computed(() => {
 })
 
 const canDownload = computed(() => {
-  return state.value === 'ready' && missingImageUrls.value.length > 0
+  return isOnline.value && state.value === 'ready' && missingImageUrls.value.length > 0
 })
+
+const downloadProgressValue = computed(() => {
+  if (missingImageUrls.value.length === 0) {
+    return 0
+  }
+
+  return Math.round((downloadedCount.value / missingImageUrls.value.length) * 100)
+})
+
+const downloadProgressPercent = computed(() => `${downloadProgressValue.value}%`)
+
+function syncOnlineState() {
+  isOnline.value = navigator.onLine
+}
 
 async function refreshSummary() {
   state.value = 'loading'
@@ -182,11 +197,15 @@ function onDocumentFocusIn(event: FocusEvent) {
 function addDialogListeners() {
   document.addEventListener('keydown', onDocumentKeydown)
   document.addEventListener('focusin', onDocumentFocusIn)
+  window.addEventListener('online', syncOnlineState)
+  window.addEventListener('offline', syncOnlineState)
 }
 
 function removeDialogListeners() {
   document.removeEventListener('keydown', onDocumentKeydown)
   document.removeEventListener('focusin', onDocumentFocusIn)
+  window.removeEventListener('online', syncOnlineState)
+  window.removeEventListener('offline', syncOnlineState)
 }
 
 watch(
@@ -197,6 +216,7 @@ watch(
         document.activeElement instanceof HTMLElement ? document.activeElement : null
       previousBodyOverflow = document.body.style.overflow
       document.body.style.overflow = 'hidden'
+      syncOnlineState()
       addDialogListeners()
       await refreshSummary()
 
@@ -253,6 +273,17 @@ onBeforeUnmount(() => {
             <p v-if="state === 'downloading'" class="download-progress">
               Downloaded {{ downloadedCount }} of {{ missingImageUrls.length }}
             </p>
+            <div
+              v-if="state === 'downloading'"
+              class="download-progress-bar"
+              role="progressbar"
+              aria-label="Image download progress"
+              :aria-valuenow="downloadProgressValue"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <span :style="{ width: downloadProgressPercent }" />
+            </div>
             <p v-if="state === 'error'" class="error-copy">{{ errorMessage }}</p>
           </section>
 
@@ -262,7 +293,7 @@ onBeforeUnmount(() => {
             :disabled="!canDownload"
             @click="downloadRemainingImages"
           >
-            Download remaining
+            Download remaining images
           </button>
 
           <section v-if="missingCountries.length > 0" class="missing-section">
@@ -367,6 +398,22 @@ onBeforeUnmount(() => {
 
 .download-progress {
   color: var(--atlas-text);
+}
+
+.download-progress-bar {
+  width: min(16rem, 100%);
+  height: 0.28rem;
+  overflow: hidden;
+  border-radius: var(--atlas-radius-control);
+  background: color-mix(in oklab, var(--atlas-line) 58%, transparent);
+}
+
+.download-progress-bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: color-mix(in oklab, var(--atlas-page-tone, #8f9ccf) 72%, var(--atlas-text));
+  transition: width 160ms ease;
 }
 
 .error-copy {
