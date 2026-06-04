@@ -1,22 +1,47 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="512" height="512" viewBox="55 34 402 402" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="7" y1="9" x2="57" y2="55" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2A233A"/>
-      <stop offset="1" stop-color="#15121D"/>
+    <linearGradient id="ocean" x1="121" y1="66" x2="374" y2="345" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7FC1D5"/>
+      <stop offset="1" stop-color="#347E9B"/>
     </linearGradient>
-    <linearGradient id="stroke" x1="9" y1="11" x2="55" y2="53" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F6F2FF" stop-opacity="0.88"/>
-      <stop offset="1" stop-color="#CAD8FF" stop-opacity="0.94"/>
+    <linearGradient id="land" x1="151" y1="92" x2="337" y2="312" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C0D47D"/>
+      <stop offset="1" stop-color="#8FB367"/>
     </linearGradient>
-    <linearGradient id="stripe" x1="11.5" y1="13.5" x2="21" y2="49" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#AEBBFF"/>
-      <stop offset="1" stop-color="#D0B3F0"/>
+    <linearGradient id="plate" x1="95" y1="278" x2="417" y2="411" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF5"/>
+      <stop offset="1" stop-color="#E9E2D5"/>
     </linearGradient>
+    <clipPath id="globe-clip">
+      <circle cx="256" cy="208" r="158"/>
+    </clipPath>
+    <filter id="icon-shadow" x="43" y="20" width="426" height="448" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="17" flood-color="#1B2A2F" flood-opacity="0.24"/>
+    </filter>
   </defs>
-  <rect x="0" y="5" width="64" height="54" rx="14.5" fill="url(#bg)"/>
-  <rect x="2" y="5" width="60" height="54" rx="14.5" stroke="url(#stroke)" stroke-width="3"/>
-  <rect x="8" y="12" width="10" height="40" rx="5" fill="url(#stripe)"/>
-  <rect x="22" y="12" width="24" height="10" rx="5" fill="#dbcdff"/>
-  <rect x="22" y="26" width="32" height="12" rx="5" fill="#e4dafc"/>
-  <rect x="22" y="42" width="26" height="10" rx="5" fill="#c9baf3"/>
+
+  <g filter="url(#icon-shadow)">
+    <g clip-path="url(#globe-clip)">
+      <circle cx="256" cy="208" r="158" fill="url(#ocean)"/>
+      <!-- <path d="M105 213H407" stroke="#D7F0EF" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+      <path d="M132 134C165 154 207 165 256 165C305 165 347 154 380 134" stroke="#D7F0EF" stroke-width="9" stroke-linecap="round" opacity="0.78"/>
+      <path d="M132 282C165 262 207 251 256 251C305 251 347 262 380 282" stroke="#D7F0EF" stroke-width="9" stroke-linecap="round" opacity="0.78"/>
+      <path d="M256 50C216 90 192 146 192 208C192 270 216 326 256 366" stroke="#D7F0EF" stroke-width="9" stroke-linecap="round" opacity="0.82"/>
+      <path d="M256 50C296 90 320 146 320 208C320 270 296 326 256 366" stroke="#D7F0EF" stroke-width="9" stroke-linecap="round" opacity="0.82"/> -->
+      <g transform="translate(94 42) scale(0.68)" opacity="1">
+        <path d="M52 92C101 67 173 74 213 104C240 125 231 166 188 185C148 203 119 206 114 249C109 292 168 316 174 360C181 411 103 425 62 386C13 339 4 257 21 197C31 156 40 116 52 92Z" fill="url(#land)"/>
+        <path d="M288 27C377 53 448 114 471 205C427 206 365 206 318 196C278 187 251 166 262 125C270 96 287 69 288 27Z" fill="url(#land)"/>
+        <path d="M261 268C318 264 394 285 473 274C456 345 415 407 356 444C341 418 326 388 293 366C254 339 211 308 227 284C232 276 244 270 261 268Z" fill="url(#land)"/>
+      </g>
+    </g>
+    <circle cx="256" cy="208" r="158" stroke="#26343A" stroke-width="14"/>
+
+    <rect x="82" y="278" width="348" height="142" rx="34" fill="url(#plate)"/>
+    <rect x="82" y="278" width="348" height="142" rx="34" stroke="#26343A" stroke-width="16"/>
+    <rect x="108" y="302" width="54" height="94" rx="15" fill="#5D95A5"/>
+    <circle cx="131" cy="323" r="8" fill="#FFFDF5"/>
+    <circle cx="131" cy="375" r="8" fill="#FFFDF5"/>
+    <path d="M194 322H360" stroke="#26343A" stroke-width="15" stroke-linecap="round"/>
+    <path d="M194 366H326" stroke="#26343A" stroke-width="15" stroke-linecap="round"/>
+  </g>
 </svg>
