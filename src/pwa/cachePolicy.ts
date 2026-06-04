@@ -46,10 +46,22 @@ export const pwaManifest: Partial<ManifestOptions> = {
   start_url: '/plate-atlas/overview',
   icons: [
     {
-      src: '/plate-atlas/favicon.svg',
-      sizes: 'any',
-      type: 'image/svg+xml',
-      purpose: 'any maskable',
+      src: '/plate-atlas/pwa-192x192.png',
+      sizes: '192x192',
+      type: 'image/png',
+      purpose: 'any',
+    },
+    {
+      src: '/plate-atlas/pwa-512x512.png',
+      sizes: '512x512',
+      type: 'image/png',
+      purpose: 'any',
+    },
+    {
+      src: '/plate-atlas/pwa-maskable-512x512.png',
+      sizes: '512x512',
+      type: 'image/png',
+      purpose: 'maskable',
     },
   ],
 }
