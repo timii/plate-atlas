@@ -21,6 +21,7 @@ const previouslyFocusedElement = ref<HTMLElement | null>(null)
 const creatorUrl = 'https://github.com/timii'
 const repositoryUrl = 'https://github.com/timii/plate-atlas'
 const licenseUrl = `${repositoryUrl}/blob/main/LICENSE`
+const noticeUrl = `${repositoryUrl}/blob/main/NOTICE.md`
 const correctionUrl = `${repositoryUrl}/issues/new/choose`
 const pullRequestUrl = `${repositoryUrl}/pulls`
 const sources = [
@@ -179,7 +180,7 @@ onBeforeUnmount(() => {
             </div>
 
             <div class="meta-item">
-              <dt>License</dt>
+              <dt>Code license</dt>
               <dd>
                 <a :href="licenseUrl" class="inline-link" target="_blank" rel="noreferrer">MIT</a>
               </dd>
@@ -188,6 +189,12 @@ onBeforeUnmount(() => {
 
           <section class="about-section">
             <h3>Sources</h3>
+            <p class="section-copy">
+              Images and reference data remain subject to their original source terms.
+              <a :href="noticeUrl" class="inline-link" target="_blank" rel="noreferrer">
+                View asset notice
+              </a>
+            </p>
             <div class="source-links">
               <a
                 v-for="source in sources"

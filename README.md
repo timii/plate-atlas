@@ -15,7 +15,7 @@
   &middot;
   <a href="https://github.com/timii/plate-atlas/issues">Report an Issue</a>
   &middot;
-  <a href="./LICENSE">MIT License</a>
+  <a href="./LICENSE">MIT Code License</a>
 </p>
 
 ## About
@@ -37,6 +37,8 @@ Corrections and improvements are welcome. If you notice inaccurate plate data, m
 
 ## Data Sources and References
 
+Plate Atlas uses data and image references gathered from public reference sites and community archives. Source URLs are preserved in the JSON data files where possible.
+
 - [Wikimedia Commons](https://commons.wikimedia.org/)
 - [Wikipedia](https://www.wikipedia.org/)
 - [Plate Shack](https://www.plateshack.com/)
@@ -44,6 +46,8 @@ Corrections and improvements are welcome. If you notice inaccurate plate data, m
 - [License Plate Mania](https://www.licenseplatemania.com/)
 - [World License Plates](https://www.worldlicenseplates.com/)
 
+Mirrored images under `public/images/` are included for reliable loading and offline support. They remain subject to the copyright, license terms, and attribution requirements of their original sources. See [Asset and Data Notice](./NOTICE.md) for details.
+
 ## License
 
-This project is licensed under the [MIT License](./LICENSE).
+The application code, scripts, and project documentation are licensed under the [MIT License](./LICENSE). Third-party images and referenced data are covered by their original sources; see [Asset and Data Notice](./NOTICE.md).
