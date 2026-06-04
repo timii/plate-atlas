@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/assets/logo.svg" alt="Plate Atlas logo" width="96" />
+  <img src="./src/assets/logo.svg" alt="Plate Atlas logo" width="128" />
 </p>
 
 <h1 align="center">Plate Atlas</h1>
