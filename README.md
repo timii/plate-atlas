@@ -22,9 +22,9 @@
 
 Plate Atlas is a free, open-source reference for international vehicle registration codes and license plate examples.
 
-The goal is to help you browse countries, inspect plate details and compare regional formats. You can search by country, code, or continent. Each country detail page gives you more details about the plate format and either lists area- or region-based identifiers or shows example images of plates from different periods.
+The goal is to help you browse countries, inspect plate details and compare regional formats. You can search by name, code, or continent. Each detail page gives you more info about the plate format and either lists area- or region-based identifiers or shows example images of plates from different periods.
 
-The current dataset in this repository includes 185 countries and the country data was last updated on April 16, 2026.
+The current dataset in this repository includes 185 countries and the country data was last updated on May 24, 2026.
 
 ## Contributing
 
