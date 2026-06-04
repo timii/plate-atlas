@@ -33,7 +33,7 @@ async function main() {
   const routes = [
     `${siteBaseUrl}/overview`,
     ...currentLicensePlates.countries.map((country) => {
-      return `${siteBaseUrl}/overview/${country.code.toLowerCase()}`
+      return `${siteBaseUrl}/overview/${encodeURIComponent(country.code.toLowerCase())}`
     }),
   ]
 
