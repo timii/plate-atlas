@@ -1,4 +1,5 @@
-<svg width="512" height="512" viewBox="55 34 402 402" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#17131B"/>
   <defs>
     <linearGradient id="ocean" x1="121" y1="66" x2="374" y2="345" gradientUnits="userSpaceOnUse">
       <stop stop-color="#7FC1D5"/>
@@ -23,11 +24,6 @@
   <g filter="url(#icon-shadow)">
     <g clip-path="url(#globe-clip)">
       <circle cx="256" cy="208" r="158" fill="url(#ocean)"/>
-      <!-- <path d="M105 213H407" stroke="#D7F0EF" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
-      <path d="M132 134C165 154 207 165 256 165C305 165 347 154 380 134" stroke="#D7F0EF" stroke-width="9" stroke-linecap="round" opacity="0.78"/>
-      <path d="M132 282C165 262 207 251 256 251C305 251 347 262 380 282" stroke="#D7F0EF" stroke-width="9" stroke-linecap="round" opacity="0.78"/>
-      <path d="M256 50C216 90 192 146 192 208C192 270 216 326 256 366" stroke="#D7F0EF" stroke-width="9" stroke-linecap="round" opacity="0.82"/>
-      <path d="M256 50C296 90 320 146 320 208C320 270 296 326 256 366" stroke="#D7F0EF" stroke-width="9" stroke-linecap="round" opacity="0.82"/> -->
       <g transform="translate(94 42) scale(0.68)" opacity="1">
         <path d="M52 92C101 67 173 74 213 104C240 125 231 166 188 185C148 203 119 206 114 249C109 292 168 316 174 360C181 411 103 425 62 386C13 339 4 257 21 197C31 156 40 116 52 92Z" fill="url(#land)"/>
         <path d="M288 27C377 53 448 114 471 205C427 206 365 206 318 196C278 187 251 166 262 125C270 96 287 69 288 27Z" fill="url(#land)"/>
